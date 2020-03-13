@@ -13,10 +13,22 @@ Particl Marketplace is a multi-vendor marketplace like Amazon but with true priv
    :name: introtoc
    :maxdepth: 2
 
+   In this section you will learn a basic understanding for Particl Marketplace, its benefits and mechanics.
+
    intro_general_particlmarketplace
    intro_general_where_find_help
-   intro_howto_vendor
-   intro_howto_customer
+   intro_howto_start_vendor
+   intro_howto_start_customer
+
+.. toctree::
+   :caption: Marketplace Beginners Guides
+   :name: beginnersguidemptoc
+   :maxdepth: 2
+
+   guide_general_installation_setup
+   guide_general_userinterface
+   guide_general_understanding_buyflow
+   guide_general_understanding_escrow
    
 .. toctree::
    :caption: Helpful resources
