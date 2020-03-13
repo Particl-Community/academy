@@ -5,6 +5,11 @@ Introduction to Particl Marketplace
 
    This is a test note for Particl Marketplace.
 
+.. contents:: Table of contents
+   :local:
+   :backlinks: none
+   :depth: 1
+
 
 What is Particl Marketplace
 ---------------------------
