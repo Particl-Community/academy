@@ -29,6 +29,7 @@ You will learn a basic understanding for Particl Marketplace, its benefits and m
    intro_general_particlmarketplace
    intro_general_essentials
    intro_general_userinterface
+   guides/guide_mp_installation_setup
 
 * :doc:`Particl Marketplace overview <intro_general_particlmarketplace>`
 * :doc:`General essentials for vendors and customers <intro_general_essentials>`
@@ -46,26 +47,26 @@ With the Marketplace Guides you get a detailed overview how to install the softw
    :hidden:
    :maxdepth: 2
 
-   guide_mp_installation_setup
-   guide_mp_general_understanding_escrow
-   guide_mp_customer_understanding_buyflow
-   guide_mp_vendor_understanding_sellflow
+   guides/guide_mp_installation_setup
+   guides/guide_mp_general_understanding_escrow
+   guides/guide_mp_customer_understanding_buyflow
+   guides/guide_mp_vendor_understanding_sellflow
 
 General
 ^^^^^^^
 
-* :doc:`Installation & Setup <guide_mp_installation_setup>`
-* :doc:`Understanding the escrow <guide_mp_general_understanding_escrow>`
+* :doc:`Installation & Setup <guides/guide_mp_installation_setup>`
+* :doc:`Understanding the escrow <guides/guide_mp_general_understanding_escrow>`
 
 For Customers
 ^^^^^^^
 
-* :doc:`Understanding the buyflow <guide_mp_customer_understanding_buyflow>`    
+* :doc:`Understanding the buyflow <guides/guide_mp_customer_understanding_buyflow>`    
 
 For Vendors
 ^^^^^^^
 
-* :doc:`Understanding the sellflow <guide_mp_vendor_understanding_sellflow>` 
+* :doc:`Understanding the sellflow <guides/guide_mp_vendor_understanding_sellflow>` 
 
 Frequently asked questions FAQ
 ------------
@@ -78,24 +79,24 @@ The faq is the resource if you want to find answers to the most common questions
    :hidden:
    :maxdepth: 2
 
-   faq_mp_general_overview
-   faq_mp_customers_overview
-   faq_mp_vendors_overview
+   faq/faq_mp_general_overview
+   faq/faq_mp_customers_overview
+   faq/faq_mp_vendors_overview
 
 General
 ^^^^^^^
 
-* :doc:`Overview <faq_mp_general_overview>`
+* :doc:`Overview <faq/faq_mp_general_overview>`
 
 For Customers
 ^^^^^^^
 
-* :doc:`Overview <faq_mp_customers_overview>`  
+* :doc:`Overview <faq/faq_mp_customers_overview>`  
 
 For Vendors
 ^^^^^^^
 
-* :doc:`Overview <faq_mp_vendors_overview>`      
+* :doc:`Overview <faq/faq_mp_vendors_overview>`      
    
 .. toctree::
    :caption: Helpful resources
