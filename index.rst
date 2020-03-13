@@ -30,5 +30,11 @@ Welcome to Particl Academy's documentation!
    guide_general_understanding_escrow
    
 
+.. toctree::
+   :caption: Helpful resources
+   :name: resourcestoc
+   :maxdepth: 2
+
+   z_rstTestpage
 
 
