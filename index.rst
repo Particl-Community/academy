@@ -6,6 +6,7 @@
 Welcome to Particl Academy's documentation!
 ===========================================
 
+Particl Marketplace is a multi-vendor marketplace like Amazon but with true privacy-first, without personal data and earn more money while being able to offer products on more competitive prices than ever before. It protects the users, supply-chains and cuts out the middleman. 
 
 .. toctree::
    :caption: Introduction
@@ -17,8 +18,6 @@ Welcome to Particl Academy's documentation!
    intro_howto_vendor
    intro_howto_customer
    
-   
-
 .. toctree::
    :caption: Marketplace Beginners Guides
    :name: beginnersguidemptoc
@@ -29,7 +28,6 @@ Welcome to Particl Academy's documentation!
    guide_general_understanding_buyflow
    guide_general_understanding_escrow
    
-
 .. toctree::
    :caption: Helpful resources
    :name: resourcestoc
