@@ -17,6 +17,17 @@ Particl Marketplace is a multi-vendor marketplace like Amazon but with true priv
    intro_general_where_find_help
    intro_howto_vendor
    intro_howto_customer
+
+.. toctree::
+   :caption: Introduction
+   :name: introtoc
+   :maxdepth: 2
+
+   intro_general_particlmarketplace
+   intro_general_where_find_help
+   intro_howto_vendor
+   intro_howto_customer
+   z_rst_testpage
    
 .. toctree::
    :caption: Helpful resources
