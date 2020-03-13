@@ -26,7 +26,6 @@ You will learn a basic understanding for Particl Marketplace, its benefits and m
 	:caption: Essentials
 	:name: essentialstoc
 	:maxdepth: 2
-	:hidden:
 
    intro_general_particlmarketplace
    intro_general_essentials
@@ -46,7 +45,6 @@ With the Marketplace Guides you get a detailed overview how to install the softw
    :caption: Marketplace Guides
    :name: guidesmptoc
    :maxdepth: 2
-   :hidden:
 
    guides/guide_mp_installation_setup
    guides/guide_mp_general_understanding_escrow
@@ -77,7 +75,6 @@ The faq is the resource if you want to find answers to the most common questions
 .. toctree::
    :caption: Marketplace FAQ
    :name: faqmptoc
-   :hidden:
    :maxdepth: 2
 
    faq/faq_mp_general_overview
