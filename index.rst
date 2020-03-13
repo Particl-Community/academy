@@ -30,9 +30,9 @@ You will learn a basic understanding for Particl Marketplace, its benefits and m
    intro_general_essentials
    intro_general_userinterface
 
-:doc:`Particl Marketplace overview <intro_general_particlmarketplace>`
-:doc:`General essentials for vendors and customers <intro_general_essentials>`
-:doc:`Understanding the userinterface <intro_general_userinterface>`
+* :doc:`Particl Marketplace overview <intro_general_particlmarketplace>`
+* :doc:`General essentials for vendors and customers <intro_general_essentials>`
+* :doc:`Understanding the userinterface <intro_general_userinterface>`
 
 
 Marketplace Beginners Guides
