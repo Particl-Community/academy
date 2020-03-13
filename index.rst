@@ -31,7 +31,6 @@ You will learn a basic understanding for Particl Marketplace, its benefits and m
    intro_general_particlmarketplace
    intro_general_essentials
    intro_general_userinterface
-   guides/guide_mp_installation_setup
 
 * :doc:`Particl Marketplace overview <intro_general_particlmarketplace>`
 * :doc:`General essentials for vendors and customers <intro_general_essentials>`
@@ -47,6 +46,7 @@ With the Marketplace Guides you get a detailed overview how to install the softw
    :caption: Marketplace Guides
    :name: guidesmptoc
    :maxdepth: 2
+   :hidden:
 
    guides/guide_mp_installation_setup
    guides/guide_mp_general_understanding_escrow
