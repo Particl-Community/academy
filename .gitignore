@@ -10,7 +10,7 @@ Icon
 _build
 
 # Thumbnails
-._*
+._* 
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
@@ -114,6 +114,7 @@ GitHub.sublime-settings
 *.launch
 .settings/
 *.sublime-workspace
+*.sublime-project
 
 # IDE - VSCode
 .vscode/*
