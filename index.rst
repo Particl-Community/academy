@@ -26,8 +26,11 @@ You will learn a basic understanding for Particl Marketplace, its benefits and m
 	:caption: First steps
 	:name: essentialstoc
 	:maxdepth: 2
-	
-   	*
+	:hidden:
+
+	intro_general_particlmarketplace
+	intro_general_essentials
+	intro_general_userinterface
 
 * :doc:`Particl Marketplace overview <intro_general_particlmarketplace>`
 * :doc:`General essentials for vendors and customers <intro_general_essentials>`
@@ -75,7 +78,8 @@ The faq is the resource if you want to find answers to the most common questions
    :caption: FAQ
    :name: faqmptoc
    :maxdepth: 2
-
+   :hidden:
+   
    faq/faq_mp_general_overview
    faq/faq_mp_customers_overview
    faq/faq_mp_vendors_overview
