@@ -23,13 +23,11 @@ Introduction
 You will learn a basic understanding for Particl Marketplace, its benefits and mechanics.
 
 .. toctree::
-	:caption: Essentials
+	:caption: First steps
 	:name: essentialstoc
 	:maxdepth: 2
-
-   intro_general_particlmarketplace
-   intro_general_essentials
-   intro_general_userinterface
+	
+   	*
 
 * :doc:`Particl Marketplace overview <intro_general_particlmarketplace>`
 * :doc:`General essentials for vendors and customers <intro_general_essentials>`
@@ -42,9 +40,10 @@ Marketplace Guides
 With the Marketplace Guides you get a detailed overview how to install the software and an understanding for the most important things.
 
 .. toctree::
-   :caption: Marketplace Guides
+   :caption: Guides
    :name: guidesmptoc
    :maxdepth: 2
+   :hidden:
 
    guides/guide_mp_installation_setup
    guides/guide_mp_general_understanding_escrow
@@ -73,7 +72,7 @@ Frequently asked questions FAQ
 The faq is the resource if you want to find answers to the most common questions.
 
 .. toctree::
-   :caption: Marketplace FAQ
+   :caption: FAQ
    :name: faqmptoc
    :maxdepth: 2
 
