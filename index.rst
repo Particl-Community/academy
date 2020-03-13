@@ -55,17 +55,47 @@ General
 ^^^^^^^
 
 * :doc:`Installation & Setup <guide_mp_installation_setup>`
-* :doc:`Understanding the userinterface <guide_mp_general_understanding_escrow>`
+* :doc:`Understanding the escrow <guide_mp_general_understanding_escrow>`
 
 For Customers
 ^^^^^^^
 
-* :doc:`General essentials for vendors and customers <guide_mp_customer_understanding_buyflow>`    
+* :doc:`Understanding the buyflow <guide_mp_customer_understanding_buyflow>`    
 
 For Vendors
 ^^^^^^^
 
-* :doc:`Understanding the userinterface <guide_mp_vendor_understanding_sellflow>` 
+* :doc:`Understanding the sellflow <guide_mp_vendor_understanding_sellflow>` 
+
+Frequently asked questions FAQ
+------------
+
+The faq is the resource if you want to find answers to the most common questions.
+
+.. toctree::
+   :caption: Marketplace FAQ
+   :name: faqmptoc
+   :hidden:
+   :maxdepth: 2
+
+   faq_mp_general_overview
+   faq_mp_customers_overview
+   faq_mp_vendors_overview
+
+General
+^^^^^^^
+
+* :doc:`Overview <faq_mp_general_overview>`
+
+For Customers
+^^^^^^^
+
+* :doc:`Overview <faq_mp_customers_overview>`  
+
+For Vendors
+^^^^^^^
+
+* :doc:`Overview <faq_mp_vendors_overview>`      
    
 .. toctree::
    :caption: Helpful resources
