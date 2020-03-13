@@ -41,14 +41,31 @@ Marketplace Beginners Guides
 With the beginners guides you get a detailed overview how to install the software and an understanding for the 
 
 .. toctree::
-   :caption: Marketplace Beginners Guides
-   :name: beginnersguidemptoc
+   :caption: Marketplace  Guides
+   :name: guidesmptoc
    :hidden:
    :maxdepth: 2
 
-   guide_general_installation_setup
-   guide_general_understanding_buyflow
-   guide_general_understanding_escrow
+   guide_mp_installation_setup
+   guide_mp_general_understanding_escrow
+   guide_mp_customer_understanding_buyflow
+   guide_mp_vendor_understanding_sellflow
+
+General
+^^^^^^^
+
+* :doc:`Installation & Setup <guide_mp_installation_setup>`
+* :doc:`Understanding the userinterface <guide_mp_general_understanding_escrow>`
+
+For Customers
+^^^^^^^
+
+* :doc:`General essentials for vendors and customers <guide_mp_customer_understanding_buyflow>`    
+
+For Vendors
+^^^^^^^
+
+* :doc:`Understanding the userinterface <guide_mp_vendor_understanding_sellflow>` 
    
 .. toctree::
    :caption: Helpful resources
