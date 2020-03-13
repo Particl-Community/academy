@@ -23,10 +23,10 @@ Introduction
 You will learn a basic understanding for Particl Marketplace, its benefits and mechanics.
 
 .. toctree::
-	:maxdepth: 2
-	:hidden:
 	:caption: Essentials
 	:name: essentialstoc
+	:maxdepth: 2
+	:hidden:
 
    intro_general_particlmarketplace
    intro_general_essentials
