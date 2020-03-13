@@ -11,9 +11,11 @@ Welcome to Particl Academy
 .. meta::
    :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
 
-Particl Marketplace is a multi-vendor marketplace like Amazon but with true privacy-first. Without a third party of trust it protects you from scam, fraud and denial-of-service attacks. While it cuts out the middleman it paves the way for more competitive prices than ever before and makes eCommerce independent from banking. 
+`Particl Marketplace`_ is a multi-vendor marketplace like Amazon but with true privacy-first. Without a third party of trust it protects you from scam, fraud and denial-of-service attacks. While it cuts out the middleman it paves the way for more competitive prices than ever before and makes eCommerce independent from banking. 
 
 *It protects the users, vendors, supply-chains and you will be astonished how all this works!* 
+
+.. _Particl Marketplace: https://particl.io/marketplace
 
 Introduction
 ------------
@@ -21,10 +23,10 @@ Introduction
 You will learn a basic understanding for Particl Marketplace, its benefits and mechanics.
 
 .. toctree::
-   :caption: Essentials
-   :hidden:
-   :name: essentialstoc
-   :maxdepth: 2
+	:maxdepth: 2
+	:hidden:
+	:caption: Essentials
+	:name: essentialstoc
 
    intro_general_particlmarketplace
    intro_general_essentials
@@ -44,7 +46,6 @@ With the Marketplace Guides you get a detailed overview how to install the softw
 .. toctree::
    :caption: Marketplace Guides
    :name: guidesmptoc
-   :hidden:
    :maxdepth: 2
 
    guides/guide_mp_installation_setup
