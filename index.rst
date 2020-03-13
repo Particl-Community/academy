@@ -23,6 +23,6 @@ Particl Marketplace is a multi-vendor marketplace like Amazon but with true priv
    :name: resourcestoc
    :maxdepth: 2
 
-   z_rstTestpage
+   z_rsttestpage
    test
 
