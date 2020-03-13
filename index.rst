@@ -38,7 +38,7 @@ You will learn a basic understanding for Particl Marketplace, its benefits and m
 Marketplace Guides
 ------------
 
-With the Marketplace Guides you get a detailed overview how to install the software and an understanding for the 
+With the Marketplace Guides you get a detailed overview how to install the software and an understanding for the most important things.
 
 .. toctree::
    :caption: Marketplace Guides
