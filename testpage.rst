@@ -454,21 +454,6 @@ They all begin with two periods and whitespace, the "explicit markup start".
 |           despite its indentation.                            |           despite its indentation.                          |
 +---------------------------------------------------------------+-------------------------------------------------------------+
 
-Credits
--------
-
-.. class:: tablacreditos
-
-+---------------------------------------+-------------------------------------------------------+
-| CP Font from LiquiType:               | http://www.liquitype.com/workshop/type_design/cp-mono |
-+---------------------------------------+-------------------------------------------------------+
-| Magnetic Balls V2 image by fdecomite: | http://www.flickr.com/photos/fdecomite/2926556794/    |
-+---------------------------------------+-------------------------------------------------------+
-| Sponsored by Net Managers             | http://www.netmanagers.com.ar                         |
-+---------------------------------------+-------------------------------------------------------+
-| Typeset using rst2pdf                 | http://rst2pdf.googlecode.com                         |
-+---------------------------------------+-------------------------------------------------------+
-
 
 .. footer::
 
