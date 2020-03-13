@@ -487,4 +487,4 @@ Credits
    :width: 8pt
    :align: middle
 
-.. |copy|   unicode:: U+000A9
+.. |copy|   unicode:: U+000A9 
