@@ -35,13 +35,13 @@ You will learn a basic understanding for Particl Marketplace, its benefits and m
 * :doc:`Understanding the userinterface <intro_general_userinterface>`
 
 
-Marketplace Beginners Guides
+Marketplace Guides
 ------------
 
-With the beginners guides you get a detailed overview how to install the software and an understanding for the 
+With the Marketplace Guides you get a detailed overview how to install the software and an understanding for the 
 
 .. toctree::
-   :caption: Marketplace  Guides
+   :caption: Marketplace Guides
    :name: guidesmptoc
    :hidden:
    :maxdepth: 2
