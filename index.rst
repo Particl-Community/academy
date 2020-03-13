@@ -6,15 +6,29 @@
 Welcome to Particl Academy's documentation!
 ===========================================
 
+
 .. toctree::
+   :caption: Introduction
+   :name: introtoc
    :maxdepth: 2
-   :caption: Contents:
+
+   intro_general_particlmarketplace
+   intro_general_where_find_help
+   intro_howto_vendor
+   intro_howto_customer
+   
+   
+
+.. toctree::
+   :caption: Marketplace Beginners Guides
+   :name: beginnersguidemptoc
+   :maxdepth: 2
+
+   guide_general_installation_setup
+   guide_general_userinterface
+   guide_general_understanding_buyflow
+   guide_general_understanding_escrow
+   
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
