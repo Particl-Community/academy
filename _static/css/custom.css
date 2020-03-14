@@ -153,8 +153,9 @@ html { font-family: 'Inter', sans-serif; }
 .wy-side-nav-search>a.icon img.logo, .wy-side-nav-search .wy-dropdown>a.icon img.logo {
 margin-top: 0;
 }
-.icon-home {font-size:0;}
+.wy-side-nav-search>a {font-size:0;}
 .wy-side-nav-search {padding-top:0;}
+
 body,
 h1,
 h2,
