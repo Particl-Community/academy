@@ -147,23 +147,3 @@ Codeblock
     $ cd ~/.particl
     $ rm *
 
-
-Tabs
-------
-
-Testing tabs here
-
-.. tabs::
- .. code-tab:: windows Windows
-
-    cd ..
-
-    format c:
-    And now go back to work    
-
- .. code-tab:: Mac
-
-    cd ~
-
-    rm *
-    And now go back to work
