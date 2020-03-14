@@ -62,7 +62,6 @@ release = '1.0.0'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -91,7 +90,16 @@ else:
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = './images/favicon.png'
+html_logo = '_static/images/particl-logo.png'
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/custom.css',
+]
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -113,7 +121,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'ParticlAcademy.tex', u'Particl Academy Documentation',
+  (master_doc, 'ParticlAcademy.tex', u'Particl Academy',
    author, 'manual'),
 ]
 
@@ -143,7 +151,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Particl Academy', u'Particl Academy Documentation',
+    (master_doc, 'Particl Academy', u'Particl Academy',
      [author], 1)
 ]
 
@@ -157,7 +165,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'Particl Academy', u'Particl Academy Documentation',
+  (master_doc, 'Particl Academy', u'Particl Academy',
    author, 'Particl', 'Privacy first.',
    'Miscellaneous'),
 ]
