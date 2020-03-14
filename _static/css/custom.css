@@ -539,9 +539,8 @@ kbd, .kbd {
 .wy-menu-vertical header,
 .wy-menu-vertical p.caption {
     color: var(--navbar-heading-color);
-
-    /* Improves the appearance of uppercase text */
-    letter-spacing: 0.75px;
+    letter-spacing: -0.007em;
+    font-weight: 300;
 }
 
 /* Mobile navigation */
@@ -567,6 +566,7 @@ kbd, .kbd {
 
 .wy-menu-vertical a {
     color: var(--navbar-level-1-color);
+    font-weight: 300;
 }
 
 .wy-menu-vertical a:hover {
