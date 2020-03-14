@@ -20,3 +20,60 @@ Testing ground
 --------------
 
 this is the area to play around with reStructuredText.
+
+
+==============
+Headings
+==============
+
+Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Second heading
+--------------
+
+Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Third heading
+^^^^^^^^^^^^^
+Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+==============
+Boxes
+==============
+
+.. note::
+	
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+.. tip::
+	
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+.. danger::
+	
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+.. attention::
+	
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+==============
+Lists
+==============
+
+* sadipscing elitr
+* magna aliquyam erat, sed diam
+* ipsum dolor sit
+
+1. sadipscing elitr
+2. magna aliquyam erat, sed diam
+6. ipsum dolor sit
+
+# sadipscing elitr
+# magna aliquyam erat, sed diam
+# ipsum dolor sit
+
+- sadipscing elitr
+- magna aliquyam erat, sed diam
+- ipsum dolor sit
+
