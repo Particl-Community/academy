@@ -22,7 +22,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # -- Project information -----------------------------------------------------
 
-project = 'Particl Academy p'
+project = 'Particl Academy'
 copyright = '2020, Particl'
 author = 'Particl'
 
@@ -32,8 +32,8 @@ author = 'Particl'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+sys.path.append(os.path.abspath("extensions"))
+extensions = ["sphinx_tabs.tabs", "sphinx.ext.imgmath"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -56,11 +56,15 @@ source_suffix = '.rst'
 # built documents.
 #
 # The short X.Y version.
-version = '1.0.0'
+version = 'latest'
 # The full version, including alpha/beta/rc tags.
-release = '1.0.0'
+release = 'latest'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
+
+copyright = (
+    "2020, Particl Project (CC-BY 3.0)"
+)
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -88,13 +92,15 @@ else:
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
 
+html_theme_options = {
+    "logo_only": True,
+    "collapse_navigation": False,
+    "display_version": False,
+}
+
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 html_logo = '_static/images/particl-logo.png'
-html_theme_options = {
-    'logo_only': True,
-    'display_version': False,
-}
 
 # These folders are copied to the documentation's HTML output
 html_static_path = ['_static']
@@ -169,7 +175,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'puh', u'Particl Academy',
+  (master_doc, 'Particl Academy', u'Particl Academy',
    author, 'Particl', 'Privacy first.',
    'Miscellaneous'),
 ]
