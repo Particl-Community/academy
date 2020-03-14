@@ -147,3 +147,22 @@ Codeblock
     $ cd ~/.particl
     $ rm *
 
+Tabs
+----
+
+.. tabs::
+ .. code-tab:: Windows
+
+    c:\foo\bar.bat
+
+ .. code-tab:: Mac
+
+    cd ~
+    ls -la
+    whoami
+
+ .. code-tab:: Linux
+
+    cd ~
+    ls -la
+    uname -a
