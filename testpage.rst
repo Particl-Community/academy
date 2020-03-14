@@ -67,6 +67,8 @@ Tables
 
 Even csv tables can be put in.
 
+Simple
+^^^^^^^
 =====  =====  =======
 A      B      A and B
 =====  =====  =======
@@ -75,6 +77,30 @@ True   False  False
 False  True   False
 True   True   True
 =====  =====  =======
+
+Grid
+^^^^^^^
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | ...        | ...      |          |
++------------------------+------------+----------+----------+
+
+CSV
+^^^^
+
+.. csv-table:: Frozen Delights!
+   :header: "Treat", "Quantity", "Description"
+   :widths: 15, 10, 30
+
+   "Albatross", 2.99, "On a stick!"
+   "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
+   crunchy, now would it?"
+   "Gannet Ripple", 1.99, "On a stick!"
+
 
 Lists
 --------------
