@@ -20,9 +20,6 @@ sys.path.append(os.path.dirname(__file__))
 # https://docs.readthedocs.org/en/latest/faq.html#how-do-i-change-behavior-for-read-the-docs
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
 
 # -- Project information -----------------------------------------------------
 
@@ -69,40 +66,36 @@ release = 'latest'
 todo_include_todos = False
 
 copyright = (
-    "2020, Particl Project (CC-BY 3.0)"
+    '2018-{}, Particl Project (CC-BY 4.0)'.format(
+      timezone.now().year
+      )
 )
 
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-if on_rtd:
-    html_theme = 'default'
-else:
-    try:
+#if on_rtd:
+#    html_theme = 'default'
+#else:
+#    try:
         # If you want to build the docs locally using the RTD theme,
         # you may need to install it: ``pip install sphinx_rtd_theme``.
         # https://github.com/snide/sphinx_rtd_theme#via-package
-        import sphinx_rtd_theme
-        html_theme = "sphinx_rtd_theme"
-        html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    except ImportError:
+#        import sphinx_rtd_theme
+#        html_theme = "sphinx_rtd_theme"
+#        html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#    except ImportError:
         # This theme is included with Sphinx and is quite nice (based
         # on the Pocoo themes), but since we're using the RTD theme
         # for the production docs, it's best to use that to avoid
         # issues due to discrepancies between the themes.
-        html_theme = 'alabaster'
+#        html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
-
-html_theme_options = {
-    "logo_only": True,
-    "collapse_navigation": False,
-    "display_version": False,
-}
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -117,86 +110,11 @@ html_css_files = [
     'css/custom.css',
 ]
 
-# -- Options for LaTeX output ---------------------------------------------
-
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    # 'figure_align': 'htbp',
+html_theme_options = {
+    "logo_only": True,
+    "collapse_navigation": False,
+    "display_version": False,
 }
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  (master_doc, 'ParticlAcademy.tex', u'Particl Academy',
-   author, 'manual'),
-]
-
-# The name of an image file (relative to this directory) to place at the top of
-# the title page.
-# latex_logo = None
-
-# For "manual" documents, if this is true, then toplevel headings are parts,
-# not chapters.
-# latex_use_parts = False
-
-# If true, show page references after internal links.
-# latex_show_pagerefs = False
-
-# If true, show URL addresses after external links.
-# latex_show_urls = False
-
-# Documents to append as an appendix to all manuals.
-# latex_appendices = []
-
-# If false, no module index is generated.
-# latex_domain_indices = True
-
-
-# -- Options for manual page output ---------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'Particl Academy', u'Particl Academy',
-     [author], 1)
-]
-
-# If true, show URL addresses after external links.
-# man_show_urls = False
-
-
-# -- Options for Texinfo output -------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-  (master_doc, 'Particl Academy', u'Particl Academy',
-   author, 'Particl', 'Privacy first.',
-   'Miscellaneous'),
-]
-
-# Documents to append as an appendix to all manuals.
-# texinfo_appendices = []
-
-# If false, no module index is generated.
-# texinfo_domain_indices = True
-
-# How to display URL addresses: 'footnote', 'no', or 'inline'.
-# texinfo_show_urls = 'footnote'
-
-# If true, do not generate a @detailmenu in the "Top" node's menu.
-# texinfo_no_detailmenu = False
 
 # -- Options for linkcheck --
 
