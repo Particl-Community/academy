@@ -135,12 +135,12 @@ Normal
 Promts
 ===========
 
-prompt:: bash $
+.. prompt:: bash $
 
     cd whatever/you/like
     rm foo
 
-sample::
+.. sample::
 	It is not processed in any way, except
    that the indentation is removed.
 
