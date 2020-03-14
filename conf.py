@@ -39,7 +39,6 @@ author = 'Particl'
 sys.path.append(os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.autodoc',
-    'doc_extensions',
     'sphinx_tabs.tabs',
     'sphinx-prompt',
     'recommonmark',
