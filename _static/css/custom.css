@@ -27,7 +27,7 @@
     --link-color: #2bbb79;
     --link-color-hover: #249c65;
     --link-color-active: #249c65;
-    --link-color-visited: #869296;
+    --link-color-visited: #621bbb;
     --hr-color: #e1e4e5;
     --table-row-odd-background-color: #f3f6f6;
     --code-background-color: #fff;
@@ -72,6 +72,7 @@
 }
 
 /* Dark theme colors */
+
 @media (prefers-color-scheme: dark) {
     :root {
         --body-color: rgba(255, 255, 255, 0.85);
@@ -143,6 +144,12 @@
     }
 }
 
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body,
 h1,
 h2,
@@ -160,7 +167,7 @@ legend,
 .rst-content .toctree-wrapper p.caption,
 .rst-versions {
     /* Use a system font stack for better performance (no Web fonts required) */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 h1,
