@@ -150,19 +150,56 @@ Codeblock
 Tabs
 ----
 
+Grouped tabs
+^^^^^^^
+
+```rst
 .. tabs::
- .. code-tab:: Windows
+
+   .. group-tab:: Linux
+
+      Linux Line 1
+
+   .. group-tab:: Mac OSX
+
+      Mac OSX Line 1
+
+   .. group-tab:: Windows
+
+      Windows Line 1
+
+.. tabs::
+
+   .. group-tab:: Linux
+
+      Linux Line 1
+
+   .. group-tab:: Mac OSX
+
+      Mac OSX Line 1
+
+   .. group-tab:: Windows
+
+      Windows Line 1
+``
+
+Normal tabls
+^^^^
+```rst
+.. tabs::
+ .. tab:: Windows
 
     c:\foo\bar.bat
 
- .. code-tab:: Mac
+ .. tab:: Mac
 
     cd ~
     ls -la
     whoami
 
- .. code-tab:: Linux
+ .. tab:: Linux
 
     cd ~
     ls -la
     uname -a
+```
