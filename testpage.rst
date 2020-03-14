@@ -26,7 +26,7 @@ this is the area to play around with reStructuredText.
 Headings
 --------------
 
-This area shows some sample texts. Or an internal link to a certain page like the Introduction Page of Particl Marketplace n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_:
+This area shows some sample texts. Or an internal link to a certain page like the Introduction Page of Particl Marketplace n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_
 
 First heading
 ==============
