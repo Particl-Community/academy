@@ -22,7 +22,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # -- Project information -----------------------------------------------------
 
-project = 'Particl Academy'
+project = 'Particl Academy p'
 copyright = '2020, Particl'
 author = 'Particl'
 
