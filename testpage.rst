@@ -153,20 +153,6 @@ Tabs
 Grouped tabs
 ^^^^^^^
 
-```rst
-.. tabs::
-
-   .. group-tab:: Linux
-
-      Linux Line 1
-
-   .. group-tab:: Mac OSX
-
-      Mac OSX Line 1
-
-   .. group-tab:: Windows
-
-      Windows Line 1
 
 .. tabs::
 
@@ -181,25 +167,39 @@ Grouped tabs
    .. group-tab:: Windows
 
       Windows Line 1
-```
+
+.. tabs::
+
+   .. group-tab:: Linux
+
+      Linux Line 1
+
+   .. group-tab:: Mac OSX
+
+      Mac OSX Line 1
+
+   .. group-tab:: Windows
+
+      Windows Line 1
+
 
 Normal tabls
 ^^^^
-```rst
+
 .. tabs::
- .. tab:: Windows
+	 .. tab:: Windows
 
-    c:\foo\bar.bat
+	    c:\foo\bar.bat
 
- .. tab:: Mac
+	 .. tab:: Mac
 
-    cd ~
-    ls -la
-    whoami
+	    cd ~
+	    ls -la
+	    whoami
 
- .. tab:: Linux
+	 .. tab:: Linux
 
-    cd ~
-    ls -la
-    uname -a
-```
+	    cd ~
+	    ls -la
+	    uname -a
+
