@@ -13,6 +13,9 @@
 import os
 import sys
 
+sys.path.insert(0, os.path.abspath('..'))
+sys.path.append(os.path.dirname(__file__))
+
 # Detect if we're being built by Read the Docs
 # https://docs.readthedocs.org/en/latest/faq.html#how-do-i-change-behavior-for-read-the-docs
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -33,8 +36,16 @@ author = 'Particl'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-sys.path.append(os.path.abspath("extensions"))
-extensions = ["sphinx_tabs.tabs", "sphinx.ext.imgmath"]
+sys.path.append(os.path.abspath('_ext'))
+extensions = [
+    'sphinx.ext.autodoc',
+    'doc_extensions',
+    'sphinx_tabs.tabs',
+    'sphinx-prompt',
+    'recommonmark',
+    'notfound.extension',
+    'sphinx_search.extension',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
