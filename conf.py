@@ -19,7 +19,9 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
+html_theme_options = {
+  'logo_only': True
+}
 # -- Project information -----------------------------------------------------
 
 project = 'Particl Academy'
