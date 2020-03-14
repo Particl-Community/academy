@@ -9,13 +9,13 @@
 
  /* Default (light) theme colors */
  :root {
-    --body-color: rgba(33,39,39,0.7);
+    --body-color: rgba(33,39,39,0.8);
     --heading-color: #212727;
     --content-wrap-background-color: #f7f7f7;
     --content-background-color: #fcfcfc;
     --logo-opacity: 1.0;
     --navbar-background-color: #212727;
-    --navbar-background-color-hover: #29355c;
+    --navbar-background-color-hover: #212727;
     --navbar-background-color-active: #212d51;
     --navbar-current-background-color: rgba( 0,0,0,0.75);
     --navbar-current-background-color-hover: rgba( 0,0,0,0.85 );
@@ -32,15 +32,15 @@
     --table-row-odd-background-color: #f3f6f6;
     --code-background-color: #fff;
     --code-border-color: #e1e4e5;
-    --code-literal-color: #d04c60;
+    --code-literal-color: #621bbb;
     --input-background-color: #fcfcfc;
-    --input-focus-border-color: #5f8cff;
+    --input-focus-border-color: #249c65;
     --highlight-background-color: #f5ffe1;
     --highlight-comment-color: #408090;
     --highlight-keyword-color: #007020;
-    --highlight-keyword2-color: #902000;
+    --highlight-keyword2-color: #621bbb;
     --highlight-number-color: #208050;
-    --highlight-decorator-color: #4070a0;
+    --highlight-decorator-color: #621bbb;
     --highlight-type-color: #007020;
     --highlight-type2-color: #0e84b5;
     --highlight-function-color: #06287e;
