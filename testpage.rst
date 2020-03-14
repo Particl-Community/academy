@@ -181,7 +181,7 @@ Grouped tabs
    .. group-tab:: Windows
 
       Windows Line 1
-``
+```
 
 Normal tabls
 ^^^^
