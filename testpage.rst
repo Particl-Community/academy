@@ -15,6 +15,7 @@ Links
 	#. If you found your example click on ``Edit on Gitub`` in the top right corner. 
 	#. Finally click the ``raw`` version with github to see how the markup was realized.
 
+---
 
 Testing ground
 --------------
@@ -22,8 +23,12 @@ Testing ground
 this is the area to play around with reStructuredText.
 
 
-==============
 Headings
+--------------
+
+This area shows some sample texts. Or an internal link to a certain page like the Introduction Page of Particl Marketplace n other than that we have some roles like *emphasis* **strong** ``literal`` and so on
+
+First heading
 ==============
 
 Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -37,9 +42,9 @@ Third heading
 ^^^^^^^^^^^^^
 Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-==============
+
 Boxes
-==============
+--------------
 
 .. note::
 	
@@ -57,23 +62,47 @@ Boxes
 	
 	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-==============
+Tables
+--------------
+
+Even csv tables can be put in.
+
+=====  =====  =======
+A      B      A and B
+=====  =====  =======
+False  False  False
+True   False  False
+False  True   False
+True   True   True
+=====  =====  =======
+
 Lists
-==============
+--------------
 
 * sadipscing elitr
 * magna aliquyam erat, sed diam
+	* with nesting
+	* if you like
 * ipsum dolor sit
 
 1. sadipscing elitr
-2. magna aliquyam erat, sed diam
-6. ipsum dolor sit
+2. magna aliquyam erat, sed diam 
+3. ipsum dolor sit
 
-# sadipscing elitr
-# magna aliquyam erat, sed diam
-# ipsum dolor sit
+#sadipscing elitr
+#magna aliquyam erat, sed diam
+#ipsum dolor sit
 
 - sadipscing elitr
 - magna aliquyam erat, sed diam
 - ipsum dolor sit
+
+===========
+Promts
+===========
+
+.. prompt:: bash $
+
+    cd whatever/you/like
+    rm foo
 
