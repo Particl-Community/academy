@@ -9,8 +9,9 @@
 
  /* Default (light) theme colors */
  :root {
-    --body-color: #212727;
-    --content-wrap-background-color: #efefef;
+    --body-color: rgba(33,39,39,0.7);
+    --heading-color: #212727;
+    --content-wrap-background-color: #f7f7f7;
     --content-background-color: #fcfcfc;
     --logo-opacity: 1.0;
     --navbar-background-color: #212727;
@@ -19,16 +20,14 @@
     --navbar-current-background-color: rgba( 0,0,0,0.75);
     --navbar-current-background-color-hover: rgba( 0,0,0,0.85 );
     --navbar-current-background-color-active: rgba( 0,0,0,0.65 );
-    --navbar-level-1-color: #c3e3ff;
-    --navbar-level-2-color: #b8d6f0;
-    --navbar-level-3-color: #a3c4e1;
+    --navbar-level-1-color: #f3f6f6;
+    --navbar-level-2-color: #e2e9e9;
+    --navbar-level-3-color: #b4c6c6;
     --navbar-heading-color: #2bbb79;
-
     --link-color: #2bbb79;
-    --link-color-hover: #3091d1;
-    --link-color-active: #105078;
-    --link-color-visited: #9b59b6;
-
+    --link-color-hover: #249c65;
+    --link-color-active: #249c65;
+    --link-color-visited: #869296;
     --hr-color: #e1e4e5;
     --table-row-odd-background-color: #f3f6f6;
     --code-background-color: #fff;
@@ -36,7 +35,6 @@
     --code-literal-color: #d04c60;
     --input-background-color: #fcfcfc;
     --input-focus-border-color: #5f8cff;
-
     --highlight-background-color: #f5ffe1;
     --highlight-comment-color: #408090;
     --highlight-keyword-color: #007020;
@@ -48,7 +46,6 @@
     --highlight-function-color: #06287e;
     --highlight-operator-color: #666666;
     --highlight-string-color: #4070a0;
-
     --admonition-note-background-color: #e7f2fa;
     --admonition-note-color: #404040;
     --admonition-note-title-background-color: #6ab0de;
@@ -65,12 +62,10 @@
     --admonition-tip-color: #404040;
     --admonition-tip-title-background-color: #1abc9c;
     --admonition-tip-title-color: #fff;
-
     --kbd-background-color: #fafbfc;
     --kbd-outline-color: #d1d5da;
     --kbd-shadow-color: #b0b7bf;
     --kbd-text-color: #444d56;
-
     --btn-neutral-background-color: #f3f6f6;
     --btn-neutral-hover-background-color: #e5ebeb;
     --footer-color: #808080;
@@ -178,6 +173,14 @@ legend,
 .rst-content .toctree-wrapper p.caption {
     /* Use a lighter font for headers (Medium instead of Bold) */
     font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+color: var(--heading-color);
 }
 
 p,
