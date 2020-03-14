@@ -131,9 +131,9 @@ Normal
 - magna aliquyam erat, sed diam
 - ipsum dolor sit
 
-===========
-Promts
-===========
+
+Prompts
+-----------
 
 .. prompt:: bash $
 
@@ -146,4 +146,22 @@ Promts
 
    It can span multiple lines.
 
+Tabs
+------
 
+Testing tabs here
+
+.. tabs::
+ .. code-tab:: windows Windows
+
+    cd ..
+
+    format c:
+    And now go back to work    
+
+ .. code-tab:: Mac
+
+    cd ~
+
+    rm *
+    And now go back to work
