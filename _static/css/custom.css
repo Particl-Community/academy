@@ -150,6 +150,12 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+.wy-side-nav-search>a.icon img.logo, .wy-side-nav-search .wy-dropdown>a.icon img.logo {
+margin-top: 0;
+}
+.wy-side-nav-search .wy-dropdown>a.icon ::before {
+    display: none;
+}
 body,
 h1,
 h2,
