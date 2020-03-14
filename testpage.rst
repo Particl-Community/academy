@@ -79,20 +79,28 @@ True   True   True
 Lists
 --------------
 
+Nested Normal 
+^^^^^^^^^^^^^
 * sadipscing elitr
 * magna aliquyam erat, sed diam
 	* with nesting
 	* if you like
 * ipsum dolor sit
 
+Manual 
+^^^^^^^^^^^^^
 1. sadipscing elitr
 2. magna aliquyam erat, sed diam 
 3. ipsum dolor sit
 
+Automatic 
+^^^^^^^^^^^^^
 #. sadipscing elitr
 #. magna aliquyam erat, sed diam
 #. ipsum dolor sit
 
+Normal 
+^^^^^^^^^^^^^
 - sadipscing elitr
 - magna aliquyam erat, sed diam
 - ipsum dolor sit
@@ -101,8 +109,15 @@ Lists
 Promts
 ===========
 
-.. prompt:: bash $
+prompt:: bash $
 
     cd whatever/you/like
     rm foo
+
+sample::
+	It is not processed in any way, except
+   that the indentation is removed.
+
+   It can span multiple lines.
+
 
