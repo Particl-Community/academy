@@ -9,22 +9,22 @@
 
  /* Default (light) theme colors */
  :root {
-    --body-color: #404040;
+    --body-color: #212727;
     --content-wrap-background-color: #efefef;
     --content-background-color: #fcfcfc;
     --logo-opacity: 1.0;
-    --navbar-background-color: #333f67;
+    --navbar-background-color: #212727;
     --navbar-background-color-hover: #29355c;
     --navbar-background-color-active: #212d51;
-    --navbar-current-background-color: #212d51;
-    --navbar-current-background-color-hover: #182343;
-    --navbar-current-background-color-active: #131e3b;
+    --navbar-current-background-color: rgba( 0,0,0,0.75);
+    --navbar-current-background-color-hover: rgba( 0,0,0,0.85 );
+    --navbar-current-background-color-active: rgba( 0,0,0,0.65 );
     --navbar-level-1-color: #c3e3ff;
     --navbar-level-2-color: #b8d6f0;
     --navbar-level-3-color: #a3c4e1;
-    --navbar-heading-color: #ff7381;
+    --navbar-heading-color: #2bbb79;
 
-    --link-color: #2980b9;
+    --link-color: #2bbb79;
     --link-color-hover: #3091d1;
     --link-color-active: #105078;
     --link-color-visited: #9b59b6;
@@ -108,7 +108,6 @@
         --input-background-color: #333537;
         --input-focus-border-color: #5f8cff;
 
-        /* Colors taken from the Godot script editor with the Adaptive theme */
         --highlight-background-color: #202531;
         --highlight-comment-color: rgba(204, 206, 211, 0.5);
         --highlight-keyword-color: #ff7085;
@@ -259,11 +258,7 @@ footer,
 }
 
 @media only screen and (min-width: 769px) {
-    .wy-body-for-nav {
-        /* Center the page on wide displays for better readability */
-        max-width: 1100px;
-        margin: 0 auto;
-    }
+    
 }
 
 /* Table display tweaks */
