@@ -38,12 +38,7 @@ author = 'Particl'
 # ones.
 sys.path.append(os.path.abspath('_ext'))
 extensions = [
-    'sphinx.ext.autodoc',
     'sphinx_tabs.tabs',
-    'sphinx-prompt',
-    'recommonmark',
-    'notfound.extension',
-    'sphinx_search.extension',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
