@@ -10,12 +10,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
+import sys, os
 from configparser import RawConfigParser
 
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.append(os.path.dirname(__file__))
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 
 from django.conf import settings
 from django.utils import timezone
