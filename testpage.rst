@@ -26,7 +26,7 @@ this is the area to play around with reStructuredText.
 Headings
 --------------
 
-This area shows some sample texts. Or an internal link to a certain page like the Introduction Page of Particl Marketplace n other than that we have some roles like *emphasis* **strong** ``literal`` and so on
+This area shows some sample texts. Or an internal link to a certain page like the Introduction Page of Particl Marketplace n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_:
 
 First heading
 ==============
@@ -42,6 +42,7 @@ Third heading
 ^^^^^^^^^^^^^
 Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
+.. _Make me laugh: https://www.youtube.com/watch?v=hY7m5jjJ9mM
 
 Boxes
 --------------
@@ -132,10 +133,11 @@ Normal
 - ipsum dolor sit
 
 
-Prompts
+Prompts & blocks
 -----------
 
-.. prompt:: bash $
+.. prompt:: 
+	bash $
 
     cd whatever/you/like
     rm foo
@@ -145,6 +147,24 @@ Prompts
    that the indentation is removed.
 
    It can span multiple lines.
+
+.. code-block:: none
+
+    $ cd ~/myproject
+    $ foo bar
+    > kill -9
+
+.. highlight:: c
+	highlighting for c
+
+.. highlight:: bash
+	bash here
+
+.. highlight:: guess
+	lets the lexer identify the code
+
+.. code-block:: sourcecode
+	this is a source code
 
 Tabs
 ------
