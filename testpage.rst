@@ -133,20 +133,8 @@ Normal
 - ipsum dolor sit
 
 
-Prompts & blocks
+Codeblock
 -----------
-
-.. prompt:: 
-	bash $
-
-    cd whatever/you/like
-    rm foo
-
-.. sample::
-	It is not processed in any way, except
-   that the indentation is removed.
-
-   It can span multiple lines.
 
 .. code-block:: none
 
@@ -154,17 +142,11 @@ Prompts & blocks
     $ foo bar
     > kill -9
 
-.. highlight:: c
-	highlighting for c
+.. code-block:: bash
 
-.. highlight:: bash
-	bash here
+    $ cd ~/.particl
+    $ rm *
 
-.. highlight:: guess
-	lets the lexer identify the code
-
-.. code-block:: sourcecode
-	this is a source code
 
 Tabs
 ------
