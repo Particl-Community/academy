@@ -10,25 +10,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import sys, os
+import sys, os, datetime
 from configparser import RawConfigParser
 
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.append(os.path.dirname(__file__))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 
-from django.conf import settings
-from django.utils import timezone
-
-import django
-django.setup()
-
-
-def get_version():
-    """Return package version from setup.cfg."""
-    config = RawConfigParser()
-    config.read(os.path.join('..', 'setup.cfg'))
-    return config.get('metadata', 'version')
 
 # Detect if we're being built by Read the Docs
 # https://docs.readthedocs.org/en/latest/faq.html#how-do-i-change-behavior-for-read-the-docs
@@ -38,7 +25,6 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 # -- Project information -----------------------------------------------------
 
 project = 'Particl Academy'
-copyright = '2020, Particl'
 author = 'Particl'
 
 
@@ -81,7 +67,7 @@ todo_include_todos = False
 
 copyright = (
     '2018-{}, Particl Project (CC-BY 4.0)'.format(
-      timezone.now().year
+      datetime.datetime.now().year
       )
 )
 
