@@ -11,6 +11,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+import sys
 
 # Detect if we're being built by Read the Docs
 # https://docs.readthedocs.org/en/latest/faq.html#how-do-i-change-behavior-for-read-the-docs
@@ -32,7 +33,7 @@ author = 'Particl'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-
+sys.path.append(os.path.abspath("extensions"))
 extensions = ["sphinx_tabs.tabs", "sphinx.ext.imgmath"]
 
 # Add any paths that contain templates here, relative to this directory.
