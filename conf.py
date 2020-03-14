@@ -12,9 +12,23 @@
 #
 import os
 import sys
+from configparser import RawConfigParser
 
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.append(os.path.dirname(__file__))
+
+from django.conf import settings
+from django.utils import timezone
+
+import django
+django.setup()
+
+
+def get_version():
+    """Return package version from setup.cfg."""
+    config = RawConfigParser()
+    config.read(os.path.join('..', 'setup.cfg'))
+    return config.get('metadata', 'version')
 
 # Detect if we're being built by Read the Docs
 # https://docs.readthedocs.org/en/latest/faq.html#how-do-i-change-behavior-for-read-the-docs
