@@ -558,11 +558,6 @@ kbd, .kbd {
 
 .wy-menu-vertical a {
     color: var(--navbar-level-1-color);
-    font-weight: 300;
-}
-
-.wy-menu-vertical ul {
-font-weight: 300;
 }
 
 .wy-menu-vertical a:hover {
@@ -582,7 +577,6 @@ font-weight: 300;
 .wy-menu-vertical li.toctree-l2 a span.toctree-expand {
     color: var(--navbar-level-3-color);
     opacity: 0.9;
-    margin-right: 8px;
 }
 
 .wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a:hover span.toctree-expand,
