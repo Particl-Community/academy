@@ -623,7 +623,11 @@ padding-right: .55em;
 }
 
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
-    padding: .4045em 1.688em;
+    /*padding: .4045em 1.688em;*/
+}
+
+.wy-menu-vertical li.on a:hover span.toctree-expand, .wy-menu-vertical li.current>a:hover span.toctree-expand {
+color: var(--link-color);
 }
 
 .wy-menu-vertical li.current a,
