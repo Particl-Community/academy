@@ -573,7 +573,8 @@ kbd, .kbd {
 }
 
 .wy-menu-vertical li.toctree-l1.current > a {
-    border: none;
+    border-bottom: solid 1px #434343;
+    border-top:none;
 }
 
 .wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a span.toctree-expand,
