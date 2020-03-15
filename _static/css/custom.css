@@ -644,6 +644,15 @@ padding-right: .55em;
     background-color: var(--navbar-current-background-color-active);
 }
 
+.wy-menu-vertical li.toctree-l2.current>a {
+padding: .4045em 2.527em;
+font-weight: inherit;
+}
+
+.wy-menu-vertical li.toctree-l3.current>a {
+font-weight: 500;
+}
+
 /* Version selector (only visible on Read the Docs) */
 
 .rst-versions {
