@@ -562,18 +562,18 @@ background: inherit;
 
 .wy-menu-vertical a {
     color: var(--navbar-level-1-color);
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .wy-menu-vertical a:hover {
     background-color: var(--navbar-background-color-hover);
     color: var(--navbar-level-1-color);
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .wy-menu-vertical a:active {
     background-color: var(--navbar-background-color-active);
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .wy-menu-vertical li.toctree-l1.current > a {
@@ -586,7 +586,7 @@ background: inherit;
     /*color: var(--navbar-level-3-color);*/
     color: var(--link-color);
     opacity: 0.9;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
@@ -594,7 +594,7 @@ background: inherit;
 }
 
 .wy-menu-vertical li ul li a {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a:hover span.toctree-expand,
