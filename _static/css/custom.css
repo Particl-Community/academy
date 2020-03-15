@@ -658,6 +658,10 @@ color: var(--link-color);
 font-weight: 500;
 }
 
+.wy-menu-vertical li.current a, .wy-menu-vertical li a {
+padding: .4045em 2.427em;
+}
+
 /* Version selector (only visible on Read the Docs) */
 
 .rst-versions {
