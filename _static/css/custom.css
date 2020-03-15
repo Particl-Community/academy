@@ -561,6 +561,10 @@ kbd, .kbd {
     font-weight: 300;
 }
 
+.wy-menu-vertical ul {
+font-weight: 300;
+}
+
 .wy-menu-vertical a:hover {
     background-color: var(--navbar-background-color-hover);
     color: var(--navbar-level-1-color);
