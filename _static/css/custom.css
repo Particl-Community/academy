@@ -612,8 +612,13 @@ kbd, .kbd {
     display: flex;
 }
 
+.wy-menu-vertical li span.toctree-expand {
+margin-left: -1.16em;
+padding-right: .55em;
+}
+
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
-    padding: .4045em 1.618em;
+    padding: .4045em 1.688em;
 }
 
 .wy-menu-vertical li.current a,
