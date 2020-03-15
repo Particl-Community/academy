@@ -558,15 +558,18 @@ kbd, .kbd {
 
 .wy-menu-vertical a {
     color: var(--navbar-level-1-color);
+    font-weight: 100;
 }
 
 .wy-menu-vertical a:hover {
     background-color: var(--navbar-background-color-hover);
     color: var(--navbar-level-1-color);
+    font-weight: 100;
 }
 
 .wy-menu-vertical a:active {
     background-color: var(--navbar-background-color-active);
+    font-weight: 100;
 }
 
 .wy-menu-vertical li.toctree-l1.current > a {
@@ -577,6 +580,7 @@ kbd, .kbd {
 .wy-menu-vertical li.toctree-l2 a span.toctree-expand {
     color: var(--navbar-level-3-color);
     opacity: 0.9;
+    font-weight: 100;
 }
 
 .wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a:hover span.toctree-expand,
