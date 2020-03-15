@@ -583,6 +583,14 @@ kbd, .kbd {
     font-weight: 100;
 }
 
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+    font-weight: 300;
+}
+
+.wy-menu-vertical li ul li a {
+    font-weight: 100;
+}
+
 .wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a:hover span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
     color: var(--navbar-level-2-color);
@@ -601,6 +609,10 @@ kbd, .kbd {
     /* Make long words always display on a single line, keep wrapping for multiple words */
     /* This fixes the class reference titles' display with very long class names */
     display: flex;
+}
+
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+    padding: .4045em 1.618em;
 }
 
 .wy-menu-vertical li.current a,
@@ -624,6 +636,10 @@ kbd, .kbd {
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:active,
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:active {
     background-color: var(--navbar-current-background-color-active);
+}
+
+.wy-menu-vertical li ul li a {
+font-weight: 300;
 }
 
 /* Version selector (only visible on Read the Docs) */
