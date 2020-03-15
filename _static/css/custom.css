@@ -20,9 +20,9 @@
     --navbar-current-background-color: rgba(33, 39, 39, 0.93);
     --navbar-current-background-color-hover: rgba(33, 39, 39, 0.97);
     --navbar-current-background-color-active: rgba(33, 39, 39, 0.97);
-    --navbar-level-1-color: #f3f6f6;
-    --navbar-level-2-color: #e2e9e9;
-    --navbar-level-3-color: #b4c6c6;
+    --navbar-level-1-color: #cfdbdb;
+    --navbar-level-2-color: #c2d0d0;
+    --navbar-level-3-color: #546e6e;
     --navbar-heading-color: #2bbb79;
     --link-color: #2bbb79;
     --link-color-hover: #249c65;
