@@ -75,7 +75,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --body-color: rgba(255, 255, 255, 0.85);
+        --body-color: rgba(255, 255, 255, 0.80);
+        --heading-color: rgba(255, 255, 255, 0.85);
         --content-wrap-background-color: #202326;
         --content-background-color: #2e3236;
         --logo-opacity: 0.85;
