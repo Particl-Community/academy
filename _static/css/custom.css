@@ -78,25 +78,10 @@
         --body-color: rgba(255, 255, 255, 0.85);
         --content-wrap-background-color: #202326;
         --content-background-color: #2e3236;
-        /* Decrease the logo opacity when using the dark theme to be less distracting */
         --logo-opacity: 0.85;
-        --navbar-background-color: #25282b;
-        --navbar-background-color-hover: #333639;
-        --navbar-background-color-active: #111417;
-        --navbar-current-background-color: #333639;
-        --navbar-current-background-color-hover: #44474a;
-        --navbar-current-background-color-active: #222528;
-        --navbar-level-1-color: #ddd;
-        --navbar-level-2-color: #ccc;
-        --navbar-level-3-color: #bbb;
-        --navbar-heading-color: #ee7381;
-
-        --link-color: #8cf;
-        --link-color-hover: #9df;
-        --link-color-active: #6ad;
+       
         --link-color-visited: #cb99f6;
 
-        --hr-color: #555;
         --table-row-odd-background-color: #3b3e41;
         --code-background-color: #434649;
         --code-border-color: #505356;
