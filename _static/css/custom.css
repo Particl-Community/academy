@@ -77,11 +77,11 @@
     :root {
         --body-color: rgba(255, 255, 255, 0.80);
         --heading-color: rgba(255, 255, 255, 0.85);
-        --content-wrap-background-color: #202326;
-        --content-background-color: #2e3236;
+        --content-wrap-background-color: #212727;
+        --content-background-color: #1e2323;
         --logo-opacity: 0.85;
        
-        --link-color-visited: #cb99f6;
+        --link-color-visited: #9a00e6;
 
         --table-row-odd-background-color: #3b3e41;
         --code-background-color: #434649;
