@@ -663,6 +663,10 @@ font-weight: 500;
 /*padding: .4045em 2.427em;*/
 }
 
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+padding: .4045em 3.045em;
+}
+
 /* Version selector (only visible on Read the Docs) */
 
 .rst-versions {
