@@ -528,6 +528,10 @@ kbd, .kbd {
     }
 }
 
+.wy-menu-vertical li.current {
+background: inherit;
+}
+
 .wy-menu-vertical header,
 .wy-menu-vertical p.caption {
     color: var(--navbar-heading-color);
@@ -579,7 +583,8 @@ kbd, .kbd {
 
 .wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a span.toctree-expand {
-    color: var(--navbar-level-3-color);
+    /*color: var(--navbar-level-3-color);*/
+    color: var(--link-color);
     opacity: 0.9;
     font-weight: 100;
 }
