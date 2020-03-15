@@ -16,7 +16,7 @@
     --logo-opacity: 1.0;
     --navbar-background-color: #212727;
     --navbar-background-color-hover: rgba(61, 72, 72, 0.97);
-    --navbar-background-color-active: #212d51;
+    --navbar-background-color-active: rgba(98, 27, 187, 0.22);
     --navbar-current-background-color: rgba(33, 39, 39, 0.93);
     --navbar-current-background-color-hover: rgba(33, 39, 39, 0.97);
     --navbar-current-background-color-active: rgba(33, 39, 39, 0.97);
