@@ -638,10 +638,6 @@ kbd, .kbd {
     background-color: var(--navbar-current-background-color-active);
 }
 
-.wy-menu-vertical li ul li a {
-font-weight: 300;
-}
-
 /* Version selector (only visible on Read the Docs) */
 
 .rst-versions {
