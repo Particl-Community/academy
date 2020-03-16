@@ -8,6 +8,7 @@ Links
 -----
 * `rst manual <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 * `Learn everything and see examples <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
+* `The cheatsheet <http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html>`_
 
 .. note::
 	
@@ -50,17 +51,18 @@ Video
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 Images
 ------
 
-.. figure:: media/images/canvas_w_logo.png
+.. figure:: ../media/images/canvas_w_logo.png
     :align: center
-    :figwidth: 100%
-    :figheight: 350px
-    :target: media/images/canvas_w_logo.png
+    :width: 100%
+    :height: 390px
+    :alt: Particl Logo in a dark canvas
+    :target: ../media/images/canvas_w_logo.png
 
 Boxes
 --------------
@@ -164,6 +166,12 @@ Codeblock
 
     $ cd ~/.particl
     $ rm *
+
+.. code-block:: html
+    :linenos:
+
+   <h1>code block example</h1>
+
 
 Tabs
 ----
