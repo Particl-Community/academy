@@ -57,12 +57,12 @@ Video
 Images
 ------
 
-.. figure:: ./_static/media/images/canvas_w_logo.png
+.. figure:: ./media/images/canvas_w_logo.png
     :align: center
     :width: 100%
     :height: 390px
     :alt: Particl Logo on a dark canvas
-    :target: ./_static/media/images/canvas_w_logo.png
+    :target: ./media/images/canvas_w_logo.png
 
 Boxes
 --------------
