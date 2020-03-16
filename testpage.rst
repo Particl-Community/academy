@@ -50,17 +50,17 @@ Video
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 Images
 ------
 
-.. figure:: ../media/images/canvas_w_logo.png
+.. figure:: media/images/canvas_w_logo.png
     :align: center
     :figwidth: 100%
     :figheight: 350px
-    :target: ../media/images/canvas_w_logo.png
+    :target: media/images/canvas_w_logo.png
 
 Boxes
 --------------
