@@ -44,6 +44,24 @@ Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonum
 
 .. _Make me laugh: https://www.youtube.com/watch?v=hY7m5jjJ9mM
 
+Video
+-----
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+Images
+------
+
+.. figure:: ../media/images/canvas_w_logo.png
+    :align: center
+    :figwidth: 100%
+    :figheight: 350px
+    :target: ../media/images/canvas_w_logo.png
+
 Boxes
 --------------
 
