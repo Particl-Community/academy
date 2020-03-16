@@ -17,9 +17,9 @@
     --navbar-background-color: #212727;
     --navbar-background-color-hover: rgba(61, 72, 72, 0.97);
     --navbar-background-color-active: rgba(98, 27, 187, 0.22);
-    --navbar-current-background-color: rgba(33, 39, 39, 0.93);
-    --navbar-current-background-color-hover: rgba(33, 39, 39, 0.97);
-    --navbar-current-background-color-active: rgba(33, 39, 39, 0.97);
+    --navbar-current-background-color: rgba(61, 72, 72, 0.97);
+    --navbar-current-background-color-hover: rgba(61, 72, 72, 0.97);
+    --navbar-current-background-color-active: rgba(61, 72, 72, 0.97);
     --navbar-level-1-color: #cfdbdb;
     --navbar-level-2-color: #c2d0d0;
     --navbar-level-3-color: #546e6e;
@@ -585,7 +585,6 @@ background: inherit;
 .wy-menu-vertical li.toctree-l2 a span.toctree-expand {
     /*color: var(--navbar-level-3-color);*/
     color: var(--link-color);
-    opacity: 0.9;
 }
 
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
@@ -656,9 +655,8 @@ color: var(--link-color);
     background-color: var(--navbar-current-background-color-active);
 }
 
-
 .wy-menu-vertical li.current a, .wy-menu-vertical li a {
-/*padding: .4045em 2.427em;*/
+font-weight:300;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
