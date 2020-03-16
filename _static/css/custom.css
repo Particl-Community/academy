@@ -618,7 +618,8 @@ text-decoration: none !important;
     /* Make long words always display on a single line, keep wrapping for multiple words */
     /* This fixes the class reference titles' display with very long class names */
     display: flex;
-    padding: .4045em 2.4em;
+    padding: .4045em .7em .4045em 2em;
+    letter-spacing: -.01em;
 }
 
 .wy-menu-vertical li span.toctree-expand {
@@ -660,6 +661,7 @@ color: var(--link-color);
 
 .wy-menu-vertical li.current a, .wy-menu-vertical li a {
 font-weight:300;
+letter-spacing: -.01em;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
