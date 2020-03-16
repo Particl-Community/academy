@@ -129,12 +129,13 @@
         --footer-color: #aaa;
     }
 }
-
+/*
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
+*/
 
 .wy-side-nav-search>a.icon img.logo, .wy-side-nav-search .wy-dropdown>a.icon img.logo {
 margin-top: 0;
@@ -159,7 +160,7 @@ legend,
 .rst-content .toctree-wrapper p.caption,
 .rst-versions {
     /* Use a system font stack for better performance (no Web fonts required) */
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 h1,
@@ -615,7 +616,7 @@ background: inherit;
 text-decoration: none !important;
 }
 
-.wy-menu-vertical li.current a {
+.wy-menu-vertical li.current a, .wy-menu-vertical li.current>a  {
     /* Make long words always display on a single line, keep wrapping for multiple words */
     /* This fixes the class reference titles' display with very long class names */
     display: flex;
