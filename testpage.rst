@@ -59,8 +59,6 @@ Images
 
 .. figure:: ./_static/media/images/canvas_w_logo.png
     :align: center
-    :width: 100%
-    :height: auto !important
     :alt: Particl Logo on a dark canvas
     :target: ./_static/media/images/canvas_w_logo.png
 
