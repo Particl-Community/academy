@@ -565,10 +565,12 @@ background: inherit;
 .wy-menu-vertical a:hover {
     background-color: var(--navbar-background-color-hover);
     color: var(--navbar-level-1-color);
+    border:none;
 }
 
 .wy-menu-vertical a:active {
     background-color: var(--navbar-background-color-active);
+    border:none;
 }
 
 .wy-menu-vertical li.toctree-l1.current > a {
