@@ -578,8 +578,11 @@ background: inherit;
 }
 
 .wy-menu-vertical li.toctree-l1.current > a {
+    /*
     border-bottom: solid 1px #434343;
     border-top:none;
+    */
+    border:none;
 }
 
 .wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a span.toctree-expand,
@@ -643,6 +646,7 @@ color: var(--link-color);
     background-color: var(--navbar-current-background-color);
     color: var(--navbar-level-2-color);
     border-color: var(--navbar-current-background-color);
+    border:none;
 }
 
 .wy-menu-vertical li.current a:hover,
