@@ -614,7 +614,7 @@ background: inherit;
 text-decoration: none !important;
 }
 
-.wy-menu-vertical li.current a, .wy-menu-vertical li.current>a  {
+.wy-menu-vertical li.current a, .wy-menu-vertical li.current>a, .wy-menu-vertical li.toctree-l2.current>a   {
     /* Make long words always display on a single line, keep wrapping for multiple words */
     /* This fixes the class reference titles' display with very long class names */
     display: flex;
