@@ -62,7 +62,8 @@ How do I put an item for sale?
 #. Navigate to the sell page ("SELL") of the market menu on the left of your Particl Desktop client.
 #. Click on the listings tab ("Listings"), and then on the "Add new listing" button.
 #. Fill up all the text boxes with the information on your listing and upload a (or multiple) pictures of your product or service.
-#. Review all of the information and when ready to publish your listing, click on the "Save and Publish" button. 
+#. Review all of the information and when ready to publish your listing, click on the "Save and Publish" button.
+ 
 	- Alternatively, you can click on the "Save" button to save your listing information and publish it later.
 	- To publish your listing later, you will have to navigate to the listing tab of the sell page.
 	- Locate your saved listing (it will be marked as "UNPUBLISHED").
