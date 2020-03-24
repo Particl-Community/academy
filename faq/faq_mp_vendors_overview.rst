@@ -63,8 +63,9 @@ How do I put an item for sale?
 #. Click on the listings tab ("Listings"), and then on the "Add new listing" button.
 #. Fill up all the text boxes with the information on your listing and upload a (or multiple) pictures of your product or service.
 #. Review all of the information and when ready to publish your listing, click on the "Save and Publish" button.
- 
-	- Alternatively, you can click on the "Save" button to save your listing information and publish it later.
+
+   1. b1
+   - Alternatively, you can click on the "Save" button to save your listing information and publish it later.
 	- To publish your listing later, you will have to navigate to the listing tab of the sell page.
 	- Locate your saved listing (it will be marked as "UNPUBLISHED").
 	- Click on its tile, and either edit it by clicking on the "Edit listing" button, or publish it by clicking the "Publish" button.
