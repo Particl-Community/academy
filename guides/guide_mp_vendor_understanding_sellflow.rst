@@ -38,7 +38,10 @@ Preparation for publishing
 #. Review all of the information and when ready to publish your listing, click on the ``Save and Publish`` button.
 
 .. tip::
-   - Alternatively, you can click on the ``Save`` button to save your listing information and publish it later.
+	**Publish later**
+
+	Alternatively, you can click on the ``Save`` button to save your listing information and publish it later.
+
 	- To publish your listing later, you will have to navigate to the ``listing`` tab of the ``sell`` page.
 	- Locate your saved listing (it will be marked as ``UNPUBLISHED``).
 	- Click on its tile, and either edit it by clicking on the ``Edit listing`` button, or publish it by clicking the ``Publish`` button.
