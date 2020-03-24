@@ -34,10 +34,17 @@ brew link python
 ```
 
 ##### Check versions
-For python it should be 3.7.x and for pip 20.x pointing to the same python version. If this is not the case have a look at your symlinks.
+For python it should be 3.7.x and for pip 20.x pointing to the same python version. 
 ```
 python --version
 pip -V
+```
+
+If this is not the case set an alias.
+```
+echo 'alias python=python3' >> ~/.bash_aliases
+echo 'alias pip=pip3' >> ~/.bash_aliases
+source ~/.bash_aliases
 ```
 
 
