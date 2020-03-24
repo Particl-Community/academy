@@ -1,5 +1,5 @@
-Sellflow on Particl Marketplace
-=================================================
+Sellflow for Vendors
+====================
 
 The sellfow of Particl Marketplace does differ from traditional markets due to multiple reasons. You gain more privacy and set yourself protected against scams. The price for these priceless features is to do a little bit more.
 
