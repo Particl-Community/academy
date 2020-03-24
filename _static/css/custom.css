@@ -255,13 +255,16 @@ hr,
 }
 
 .rst-content dl:not(.docutils) dl dt {
-margin-bottom: 0;
+margin-bottom: 6px;
 border: none;
 border-left: inherit;
 background: inherit;
 color: inherit;
 }
 
+.rst-content dl p, .rst-content dl table, .rst-content dl ul, .rst-content dl ol {
+margin-bottom: .5em !important;
+}
 
 footer,
 #search-results .context {
