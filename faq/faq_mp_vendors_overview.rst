@@ -45,8 +45,9 @@ Balance types are an important concept to understand to properly use Particl. Ea
 #. Navigate to the send and convert page ("SEND / CONVERT") of the wallet menu on the left of your Particl Desktop client.
 #. Click on the convert tab ("Convert Public <-> Private").
 #. In the "PAY FROM" section on the left of the page, select the type of balance you want to send coins from.
-#. In the "CONVERT TO" section on the right of the page, select the type of balance you want to send coins to. 
-	- For example, if you wanted to convert coins from a public balance to an anon balance, you would select Public on the left and Anon on the right. 
+#. In the "CONVERT TO" section on the right of the page, select the type of balance you want to send coins to.
+
+   - For example, if you wanted to convert coins from a public balance to an anon balance, you would select Public on the left and Anon on the right. 
 #. Enter the amount of coins you want to convert. 
 #. Click on the "Make payment" button and unlock your wallet when prompted to.
 #. Review the transaction details and click on the "Confirm & Send" button to execute the transaction.
@@ -64,12 +65,11 @@ How do I put an item for sale?
 #. Fill up all the text boxes with the information on your listing and upload a (or multiple) pictures of your product or service.
 #. Review all of the information and when ready to publish your listing, click on the "Save and Publish" button.
 
-   1. b1
    - Alternatively, you can click on the "Save" button to save your listing information and publish it later.
-	- To publish your listing later, you will have to navigate to the listing tab of the sell page.
-	- Locate your saved listing (it will be marked as "UNPUBLISHED").
-	- Click on its tile, and either edit it by clicking on the "Edit listing" button, or publish it by clicking the "Publish" button.
-	- You can also delete the template if you do not have any use for it anymore by clicking on the red X icon ("Delete listing").
+   - To publish your listing later, you will have to navigate to the listing tab of the sell page.
+   - Locate your saved listing (it will be marked as "UNPUBLISHED").
+   - Click on its tile, and either edit it by clicking on the "Edit listing" button, or publish it by clicking the "Publish" button.
+   - You can also delete the template if you do not have any use for it anymore by clicking on the red X icon ("Delete listing").
 #. Unlock your wallet when prompted to.
 #. Set the expiry time (the number of days your listings will be available) in the dropdown menu and click on "Confirm & Publish".
 #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the Particl marketplace.
@@ -88,24 +88,28 @@ How to add multiple listings at the same time?
 #. Navigate to the sell page ("SELL") of the market menu on the left of your Particl Desktop client.
 #. Click on the listings tab ("Listings"), and then on the "Import listings" button.
 #. In the "SELECT IMPORT SOURCE" section, select CSV file. 
-	- If you don't already have a .csv file with your listings, download the template by clicking on the "Download example CSV" hyperlink located in the "IMPORT SETTINGS" section.
-	- Save the file on your computer.
-	- Open it with a spreadsheet editor (i.e. Excel, LibreOffice, etc).
-	- Add as many listings as you want with all of the information required
+
+   - If you don't already have a .csv file with your listings, download the template by clicking on the "Download example CSV" hyperlink located in the "IMPORT SETTINGS" section.
+   - Save the file on your computer.
+   - Open it with a spreadsheet editor (i.e. Excel, LibreOffice, etc).
+   - Add as many listings as you want with all of the information required
 #. Click on the "CSV file to import" line.
 #. Browse your computer files and choose the .csv file that contains the listings you want to list on Particl.
 #. Click on the "Load" button to upload the file. Wait for Particl Desktop to load your listings.
 #. Review your import data and edit any listing, as needed, by clicking on its tile and then by clicking on the "Edit listing" button.
-	- If there is an error in your .csv file or if there is missing information, the client will let you know about it and allow you to edit listings manually.
-	- You can also opt to not publish certain listings by unchecking their "Publish" checkboxes.
+
+   - If there is an error in your .csv file or if there is missing information, the client will let you know about it and allow you to edit listings manually.
+   - You can also opt to not publish certain listings by unchecking their "Publish" checkboxes.
 #. When you have reviewed your listings and are satisfied with the information provided, click on the "Continue" button.
 #. Set your shipping and expiration parameters. 
-	- The shipping location is important so that the client can pick the correct shipping fees to charge your customers.
-	- The expiry time will determine how long your listings will stay on the marketplace and how much you are going to pay in listing fees.
+
+   - The shipping location is important so that the client can pick the correct shipping fees to charge your customers.
+   - The expiry time will determine how long your listings will stay on the marketplace and how much you are going to pay in listing fees.
 #. When you have put all the information, click on the "Continue" button and let the client estimate the total listing fees.
 #. Review the quoted fees and click on the "Publish imported listings" button. Careful, this is the final step, and you will be charged listing fees when clicking on that button.
 #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the Particl marketplace.
-	- For large amount of listings, the network may require more than one (1) confirmation so that all of your listings are published. You can check the "OVERVIEW" or "HISTORY" pages in the market menu on the left of your Particl Desktop client to track the publishing status.
+
+   - For large amount of listings, the network may require more than one (1) confirmation so that all of your listings are published. You can check the "OVERVIEW" or "HISTORY" pages in the market menu on the left of your Particl Desktop client to track the publishing status.
 
 How to add listings from a .csv file?
 ---------------------------
@@ -121,26 +125,30 @@ How to add listings from a .csv file?
 #. Navigate to the sell page ("SELL") of the market menu on the left of your Particl Desktop client.
 #. Click on the listings tab ("Listings"), and then on the "Import listings" button.
 #. In the "SELECT IMPORT SOURCE" section, select CSV file. 
-	- If you don't already have a .csv file with your listings, download the template by clicking on the "Download example CSV" hyperlink located in the "IMPORT SETTINGS" section.
-	- Save the file on your computer.
-	- Open it with a spreadsheet editor (i.e. Excel, LibreOffice, etc).
-	- Add as many listings as you want with all of the information required
+
+   - If you don't already have a .csv file with your listings, download the template by clicking on the "Download example CSV" hyperlink located in the "IMPORT SETTINGS" section.
+   - Save the file on your computer.
+   - Open it with a spreadsheet editor (i.e. Excel, LibreOffice, etc).
+   - Add as many listings as you want with all of the information required
 #. Click on the "CSV file to import" line.
 #. Browse your computer files and choose the .csv file that contains the listings you want to list on Particl.
 #. Click on the "Load" button to upload the file. Wait for Particl Desktop to load your listings.
 #. Review your import data and edit any listing, as needed, by clicking on its tile and then by clicking on the "Edit listing" button.
-	- If there is an error in your .csv file or if there is missing information, the client will let you know about it and allow you to edit listings manually.
-	- You can also opt to not publish certain listings by unchecking their "Publish" checkboxes.
+
+   - If there is an error in your .csv file or if there is missing information, the client will let you know about it and allow you to edit listings manually.
+   - You can also opt to not publish certain listings by unchecking their "Publish" checkboxes.
 #. When you have reviewed your listings and are satisfied with the information provided, click on the "Continue" button.
 #. Set your shipping and expiration parameters. 
-	- The shipping location is important so that the client can pick the correct shipping fees to charge your customers.
-	- The expiry time will determine how long your listings will stay on the marketplace and how much you are going to pay in listing fees.
+
+   - The shipping location is important so that the client can pick the correct shipping fees to charge your customers.
+   - The expiry time will determine how long your listings will stay on the marketplace and how much you are going to pay in listing fees.
 #. When you have put all the information, click on the "Continue" button and let the client estimate the total listing fees.
 #. Unlock your wallet when prompted to. Make sure to unlock it for long enough for the full listing fee estimation to complete.
 #. Review the quoted fees and click on the "Publish imported listings" button. Careful, this is the final step, and you will be charged listing fees when clicking on that button.
 #. Unlock your wallet when prompted to. Make sure to unlock it for long enough so that the full publishing process can be completed.
 #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the Particl marketplace.
-	- For large amount of listings, the network may require more than one (1) confirmation so that all of your listings are published. You can check the "OVERVIEW" or "HISTORY" pages in the market menu on the left of your Particl Desktop client to track the publishing status.
+
+   - For large amount of listings, the network may require more than one (1) confirmation so that all of your listings are published. You can check the "OVERVIEW" or "HISTORY" pages in the market menu on the left of your Particl Desktop client to track the publishing status.
 
 How to import listings from your WooCommerce?
 ---------------------------
@@ -156,23 +164,27 @@ How to import listings from your WooCommerce?
 #. Click on the "Woocommerce export file" line.
 #. Browse your computer files and choose the WooCommerce export file that contains the listings you want to list on Particl.
 #. On the "Fiat per PART rate", enter the value of 1 PART that you want to sell your products.
-	- This step is required to convert the quoted prices of your WooCommerce products into PART prices.
-	- Calculate the fiat valuation of PART based on the same national currency (USD, EUR, CAD, etc) used on your WooCommerce export file.
-	- Until automatic fiat rates are supported on Particl Desktop, you'll need to set a conversion rate manually. If you're selling for USD on your shop and the USD/PART price is $5, enter "5". Keep in mind that the price of your products won't reflect future PART price changes.
+	
+   - This step is required to convert the quoted prices of your WooCommerce products into PART prices.
+   - Calculate the fiat valuation of PART based on the same national currency (USD, EUR, CAD, etc) used on your WooCommerce export file.
+   - Until automatic fiat rates are supported on Particl Desktop, you'll need to set a conversion rate manually. If you're selling for USD on your shop and the USD/PART price is $5, enter "5". Keep in mind that the price of your products won't reflect future PART price changes.
 #. Click on the "Load" button to upload the file. Wait for Particl Desktop to load your listings.
 #. Review your import data and edit any listing, as needed, by clicking on its tile and then by clicking on the "Edit listing" button.
-	- If there is an error in your .csv file or if there is missing information, the client will let you know about it and allow you to edit listings manually.
-	- You can also opt to not publish certain listings by unchecking their "Publish" checkboxes.
+	
+   - If there is an error in your .csv file or if there is missing information, the client will let you know about it and allow you to edit listings manually.
+   - You can also opt to not publish certain listings by unchecking their "Publish" checkboxes.
 #. When you have reviewed your listings and are satisfied with the information provided, click on the "Continue" button.
 #. Set your shipping and expiration parameters. 
-	- The shipping location is important so that the client can pick the correct shipping fees to charge your customers. 
-	- The expiry time will determine how long your listings will stay on the marketplace and how much you are going to pay in listing fees.
+	
+   - The shipping location is important so that the client can pick the correct shipping fees to charge your customers. 
+   - The expiry time will determine how long your listings will stay on the marketplace and how much you are going to pay in listing fees.
 #. When you have put all the information, click on the "Continue" button and let the client estimate the total listing fees.
 #. Unlock your wallet when prompted to. Make sure to unlock it for long enough for the full listing fee estimation to complete.
 #. Review the quoted fees and click on the "Publish imported listings" button. Careful, this is the final step, and you will be charged listing fees when clicking on that button.
 #. Unlock your wallet when prompted to. Make sure to unlock it for long enough so that the full publishing process can be completed.
 #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the Particl marketplace.
-	- For large amount of listings, the network may require more than one (1) confirmation so that all of your listings are published. You can check the "OVERVIEW" or "HISTORY" pages of the market menu on the left of your Particl Desktop client to track the publishing status.
+	
+   - For large amount of listings, the network may require more than one (1) confirmation so that all of your listings are published. You can check the "OVERVIEW" or "HISTORY" pages of the market menu on the left of your Particl Desktop client to track the publishing status.
 
 
 Why am I not receiving any order? 
@@ -221,12 +233,12 @@ Due to the current stage of development of the Particl marketplace (Beta), listi
 What do each order status mean?
 ---------------------------
 
-- BIDDING: A buyer has made a bid on an item and is now waiting for you to accept the bid.
-- PAYMENT: You have accepted a bid on an item and are now waiting for the buyer to confirm payment and lock his/her funds (payment + security deposit) into escrow.
-- ESCROW: The buyer has locked his/her funds into escrow and is now waiting for you to lock your security deposit into escrow.
-- PACKAGING: The buyer of the item is now waiting for you to package the order and ship it.
-- SHIPPING: You have marked the item as shipped and are now waiting for the buyer to confirm the delivery.
-- COMPLETE: The item has been confirmed to be received by the buyer. There are no more open actions in this transaction and you've received both the payment for the order and your security deposit back.
+- **BIDDING:** A buyer has made a bid on an item and is now waiting for you to accept the bid.
+- **PAYMENT:** You have accepted a bid on an item and are now waiting for the buyer to confirm payment and lock his/her funds (payment + security deposit) into escrow.
+- **ESCROW:** The buyer has locked his/her funds into escrow and is now waiting for you to lock your security deposit into escrow.
+- **PACKAGING:** The buyer of the item is now waiting for you to package the order and ship it.
+- **SHIPPING:** You have marked the item as shipped and are now waiting for the buyer to confirm the delivery.
+- **COMPLETE:** The item has been confirmed to be received by the buyer. There are no more open actions in this transaction and you've received both the payment for the order and your security deposit back.
 
 How to sell an item on Particl from start to finish?
 ---------------------------
@@ -293,11 +305,13 @@ Due to the current stage of development of the Particl marketplace (Beta), an in
 
 #. Navigate to the sell page ("SELL") of the market menu on the left of your Particl Desktop client.
 #. Click on the orders tab ("Orders").
-	- On that page, you can manually search for a specific order by typing its title in the search bar or filter all of your orders by their statuses.
+
+   - On that page, you can manually search for a specific order by typing its title in the search bar or filter all of your orders by their statuses.
 #. Find the orders you need and click on their tiles to get more details and data.
-	- Doing so will show you the customer's address, when the order was created and completed, as well as all price-related information.
-	- To calculate the price of an order in your national currency, take note of the number of PART you received as payment as well as the date and time the order was completed. 
-	- Go on a website that keeps track of PART's historical price data and get the proper national currency valuation of your payment at the time you received it. CoinMarketCap is a good website where you can find that information, just **[click on this link](https://coinmarketcap.com/currencies/particl/historical-data/)** to be taken directly to the historical data page for the PART coin.
+	
+   - Doing so will show you the customer's address, when the order was created and completed, as well as all price-related information.
+   - To calculate the price of an order in your national currency, take note of the number of PART you received as payment as well as the date and time the order was completed. 
+   - Go on a website that keeps track of PART's historical price data and get the proper national currency valuation of your payment at the time you received it. CoinMarketCap is a good website where you can find that information, just **[click on this link](https://coinmarketcap.com/currencies/particl/historical-data/)** to be taken directly to the historical data page for the PART coin.
 
 Functionalities that will make tax reporting, order data exporting, and national currency calculations will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
 
