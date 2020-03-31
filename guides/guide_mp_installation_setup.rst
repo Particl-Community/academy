@@ -31,9 +31,9 @@ Verifying the Downloaded File
 .. tabs::
 	 .. tab:: Windows
 
-	    #. Visit `Hash Online Convert <http://hash.online-convert.com/sha256-generator/>`_.
-		#. Click the ``Browse...`` button under ``Upload and generate a SHA-256 checksum of a file:``.
-		#. Find the downloaded Particl Desktop file.
+	 	#. Visit `Hash Online Convert <http://hash.online-convert.com/sha256-generator/>`_.
+	 	#. Click the ``Browse...`` button under **Upload and generate a SHA-256 checksum of a file:**.
+	 	#. Find the downloaded Particl Desktop file.
 		#. Click on the ``Open`` button.
 		#. Click on the ``Convert file`` button
 		#. The website will analyze your file and display a new page showing ``Your hash has been successfully generated``. 
@@ -44,8 +44,8 @@ Verifying the Downloaded File
 
 	 .. tab:: Mac
 
-	    #. Open up a terminal.
-		#. Navigate to where you've downloaded Particl Desktop, typically ``cd ~/Downloads``
+	 	#. Open a terminal.
+	 	#. Navigate to where you've downloaded Particl Desktop, typically ``cd ~/Downloads``.
 		#. Run ``sha256sum`` on the downloaded file: ``sha256sum particl-desktop-x.x.x-linux-x64.zip``. Make sure to write the exact name of the downloaded file as each new Particl Desktop update results in a new file name.
 		#. Copy the output given through the terminal.
 		#. Go to the `Particl Desktop Releases Github page <https://github.com/particl/particl-desktop/releases>`_, find the version you've downloaded, and compare the checksum on your PC with the one published on GitHub.
@@ -53,8 +53,8 @@ Verifying the Downloaded File
 
 	 .. tab:: Linux
 
-	    #. Open up a terminal.
-		#. Navigate to where you've downloaded Particl Desktop, typically ``cd ~/Downloads``
+	 	#. Open a terminal.
+	 	#. Navigate to where you've downloaded Particl Desktop, typically ``cd ~/Downloads``.
 		#. Run ``sha256sum`` on the downloaded file: ``sha256sum particl-desktop-x.x.x-linux-x64.zip``. Make sure to write the exact name of the downloaded file as each new Particl Desktop update results in a new file name.
 		#. Copy the output given through the terminal.
 		#. Go to the `Particl Desktop Releases Github page <https://github.com/particl/particl-desktop/releases>`_, find the version you've downloaded, and compare the checksum on your PC with the one published on GitHub.
