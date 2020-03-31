@@ -107,7 +107,7 @@ The two-party escrow contract ensures that neither you or the seller can misbeha
 #. Look for any order marked as ``AWAITING PAYMENT``.
 #. Click on the order's tile to expand its details and click on the ``Mark as payment`` button to lock your funds into the two-party escrow contract.
 
-Verify the Status of Your Order
+Verifying the Status of Your Order
 -------------------------------
 
 After initiating the two-party escrow contract, the seller will send his security deposit into the contract and process your order.
