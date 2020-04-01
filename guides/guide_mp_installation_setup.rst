@@ -25,7 +25,7 @@ Download Particl Desktop
 
 #. Download the latest version of Particl Desktop by visiting the `Downloads page of the official Particl website <https://particl.io/downloads/>`_.
 
-Verif the File
+Verify the File
 ^^^^^^^^^^^^^^
 
 Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by verifying its checksum.
