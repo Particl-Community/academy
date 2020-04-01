@@ -10,7 +10,7 @@ The entire process of selling a product, from A to Z, can be seen in this walkth
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://youtu.be/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://www.youtube.com/watch?v=IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 .. contents:: Table of Contents
@@ -18,7 +18,7 @@ The entire process of selling a product, from A to Z, can be seen in this walkth
    :backlinks: none
    :depth: 2
 
-Managing Your Balances
+Manage Your Balances
 ----------------------
 
 .. note::
@@ -29,7 +29,7 @@ There are three different types of coin balances on Particl. Each of them serves
 
 To sell products and services on Particl, you'll need to have coins in both your ``Public`` balance and in your ``Anon`` balance.
 
-Receiving Coins in a Public Balance
+Receive Coins in a Public Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are two ways you can fund your ``Public`` balance with PART coins.
@@ -53,7 +53,7 @@ From the in-app exchange module
 #. Review the quote offered by the exchange, and then click on the ``Next`` button.
 #. Send your coins to the address provided and wait for the transaction to be completed. This can take several minutes depending on the exchange.
 
-Converting Public Balances to Anon 
+Convert Public Balances to Anon 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Navigate to the ``SEND / CONVERT`` page of the wallet menu on the left of your Particl Desktop client.
@@ -65,7 +65,7 @@ Converting Public Balances to Anon
 #. Review the transaction details and click on the ``Confirm & Send`` button to confirm the transaction.
 #. Wait for twelve (12) confirmations (approximately 24 minutes) before the funds in the anon balance can be used.
 
-Publishing Items
+Publish Items
 ------------------
 
 .. attention::
@@ -74,7 +74,7 @@ Publishing Items
 
 To make a sale on Particl, you need to first put your items up for sale. There are many ways to create listings on Particl and the right way for you to create listings depends on your requirements.
 
-Publishing a Single Item
+Publish a Single Item
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to only list a single item, then simply follow these steps.
@@ -106,7 +106,7 @@ Final publication
 #. Set the expiry time (the number of days your listings will be available) in the dropdown menu and click on ``Confirm & Publish``.
 #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the Particl marketplace.
 
-Publishing Multiple Items at Once (CSV)
+Publish Multiple Items at Once (CSV)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are selling multiple items, then you may want to create a CSV inventory file and list all of your products at once. To do so, follow these simple steps.
@@ -142,7 +142,7 @@ Final publication
 #. Unlock your wallet when prompted to.
 #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the Particl marketplace.
 
-Importing WooCommerce Inventory
+Import WooCommerce Inventory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are already selling online, more specifically on WooCommerce, then you can simply export your products into a Particl compatible CSV inventory file by following `this WooCommerce tutorial <https://docs.woocommerce.com/document/product-csv-importer-exporter/>`_. Once that is done, you can then easily import the CSV inventory file on Particl by following the simple steps that follow.
@@ -174,7 +174,7 @@ Final publication
 #. Unlock your wallet when prompted to.
 #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the Particl marketplace.s
 
-Accepting a Bid
+Accept a Bid
 ---------------
 
 .. attention::
@@ -189,7 +189,7 @@ To initiate a marketplace transaction, you must first accept a bid on one of you
 #. Look for any new order marked as ``BIDDING``.
 #. Click on the order's tile to expand its details and accept it by clicking on the ``Accept bid`` button.
 
-Making the Security Deposit
+Make the Security Deposit
 ---------------------------
 
 .. note::
@@ -206,7 +206,7 @@ The two-party escrow contract ensures that neither you or the buyer can misbehav
 #. Look for any order marked as ``ESCROW PENDING``.
 #. Click on the order's tile to expand its details and make your security deposit by clicking on the ``Complete escrow`` button.
 
-Packaging and Shipping an Order
+Package and Shipping an Order
 -------------------------------
 
 After making your security deposit into the two-party escrow contract, you will need to package and ship the order to your buyer.
@@ -220,7 +220,7 @@ After making your security deposit into the two-party escrow contract, you will 
 #. You can optionally enter a tracking number or note for your buyer, or can leave that space blank if not needed. 
 #. Click on the ``Order shipped`` button to confirm that you have shipped the item. 
 
-Receiving and Verifying Payment
+Receive and Verifying Payment
 -------------------------------
 
 Once your package is shipped, keep an eye out for your payment. Once your buyer receives its item and marks the transaction has complete, you will receive your security deposit back as well as the full payment for the order, at no fee.
@@ -232,7 +232,7 @@ Once your package is shipped, keep an eye out for your payment. Once your buyer 
 #. Navigate to the ``HISTORY`` page and click on the `Received` tab.
 #. Find the transaction based on the date and time at which point the order was completed to verify that you've succesfully received your payment.
 
-Getting a Sales Report for Tax Purposes
+Get a Sales Report for Tax Purposes
 ---------------------------------------
 
 Due to the current stage of development of the Particl marketplace (Beta), an integrated tax reporting system isn't included yet but is planned to be added at a later time during the Beta phase of development. You can, however, manually inspect your transaction and order history at any point in time to get the data you need to report your taxes.

@@ -52,6 +52,7 @@ With the Marketplace Guides you get a detailed overview how to install the softw
    guides/guide_mp_general_understanding_escrow
    guides/guide_mp_customer_understanding_buyflow
    guides/guide_mp_vendor_understanding_sellflow
+   guides/guide_mp_market_management
 
 General
 ^^^^^^^

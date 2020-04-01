@@ -8,7 +8,7 @@ The entire process of setting up Particl's marketplace, from A to Z, can be seen
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://www.youtube.com/watch?v=IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 .. contents:: Table of Contents
@@ -16,7 +16,7 @@ The entire process of setting up Particl's marketplace, from A to Z, can be seen
    :backlinks: none
    :depth: 2
 
-Downloading Particl Desktop
+Download Particl Desktop
 ---------------------------
 
 .. danger::
@@ -25,42 +25,39 @@ Downloading Particl Desktop
 
 #. Download the latest version of Particl Desktop by visiting the `Downloads page of the official Particl website <https://particl.io/downloads/>`_.
 
-Verifying the Downloaded File
------------------------------
+Verif the File
+^^^^^^^^^^^^^^
+
+Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by verifying its checksum.
 
 .. tabs::
 	 .. tab:: Windows
 
-	 	#. Visit `Hash Online Convert <http://hash.online-convert.com/sha256-generator/>`_.
-	 	#. Click the ``Browse...`` button under **Upload and generate a SHA-256 checksum of a file:**.
-	 	#. Find the downloaded Particl Desktop file.
-		#. Click on the ``Open`` button.
-		#. Click on the ``Convert file`` button
-		#. The website will analyze your file and display a new page showing ``Your hash has been successfully generated``. 
-		#. On there, you will see the hash of the uploaded file in a variety of hash outputs such as ``hex``, ``HEX``, ``h:e:x``, and ``base64``.
-		#. To make sure your Particl Desktop file hasn't been tampered with, copy the ``hex`` output value.
-		#. Go to the `Particl Desktop Releases Github page <https://github.com/particl/particl-desktop/releases>`_, find the version you've downloaded, and compare the checksum on your PC with the one published on GitHub.
-		#. Ensure both checksums are identical before installing software!
+	 	- [Shift] + [right-click] on the Download folder and choose **Open command window here** or **Open power shell here**.
+	 	- Type the following command by changing **filename** for the real filename of the downloaded file. 
+	 	- ``CertUtil -hashfile filename SHA256``
 
 	 .. tab:: Mac
 
-	 	#. Open a terminal.
-	 	#. Navigate to where you've downloaded Particl Desktop, typically ``cd ~/Downloads``.
-		#. Run ``sha256sum`` on the downloaded file: ``sha256sum particl-desktop-x.x.x-linux-x64.zip``. Make sure to write the exact name of the downloaded file as each new Particl Desktop update results in a new file name.
-		#. Copy the output given through the terminal.
-		#. Go to the `Particl Desktop Releases Github page <https://github.com/particl/particl-desktop/releases>`_, find the version you've downloaded, and compare the checksum on your PC with the one published on GitHub.
-		#. Ensure both checksums are identical before installing software.
+	 	- Head into **System Preferences** and select Keyboard > Shortcuts > Services. Find "**New Terminal at Folder**" in the settings and click the box. 
+	 	- In **Finder**, right-click the folder where you've downloaded the file and open a Terminal. 
+		- Type the following command by changing **filename** for the real filename of the downloaded file.
+		- ``shasum -a 256 filename``
 
 	 .. tab:: Linux
 
-	 	#. Open a terminal.
-	 	#. Navigate to where you've downloaded Particl Desktop, typically ``cd ~/Downloads``.
-		#. Run ``sha256sum`` on the downloaded file: ``sha256sum particl-desktop-x.x.x-linux-x64.zip``. Make sure to write the exact name of the downloaded file as each new Particl Desktop update results in a new file name.
-		#. Copy the output given through the terminal.
-		#. Go to the `Particl Desktop Releases Github page <https://github.com/particl/particl-desktop/releases>`_, find the version you've downloaded, and compare the checksum on your PC with the one published on GitHub.
-		#. Ensure both checksums are identical before installing software.
+	 	- Open a terminal and type the following command by changing **filename** for the real filename of the downloaded file. 
+	 	- ``sha256sum filename``
 
-Installing Particl Desktop
+Once that is done, compare the output you've received in the step above with the hash of the downloaded file from GitHub in the verification section of the release note.
+
+**Latest releases**
+
+- `Particl Desktop (with Open Marketplace) <https://github.com/particl/particl-desktop/releases/latest>`_
+
+- `Particl Core (Qt) (with Ledger wallet support) <https://github.com/particl/particl-core/releases/latest>`_
+
+Install Particl Desktop
 --------------------------
 
 #. Extract the content of the ZIP file to any location on your computer.
@@ -85,18 +82,18 @@ Installing Particl Desktop
 	 	#. From a terminal, depackage the file by typing ``sudo dpkg -i particl-desktop-x.x.x-linux-amd65.deb``. Make sure to write the exact name of the downloaded file as each new Particl Desktop update results in a new file name.
 	 	#. Launch Particl Desktop by executing ``Particl\ Desktop``.
 
-Preparing Particl Desktop
+Prepare Particl Desktop
 -------------------------
 
 #. Wait for Particl Desktop to load and download the latest Particl Core version. This happens automatically on launch each time a newer version of Particl Core is available.
 #. Read and accept the terms and conditions, if you agree with them.
 
-Creating Your First Wallet
+Create Your First Wallet
 --------------------------
 
 TBD by the new version
 
-Enabling the Marketplace
+Enable the Marketplace
 ------------------------
 
 TBD by the new version

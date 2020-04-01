@@ -10,7 +10,7 @@ The entire process of buying a product, from A to Z, can be seen in this walkthr
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://youtu.be/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://www.youtube.com/watch?v=IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 .. contents:: Table of Contents
@@ -18,7 +18,7 @@ The entire process of buying a product, from A to Z, can be seen in this walkthr
    :backlinks: none
    :depth: 2
 
-Managing Your Balances
+Manage Your Balances
 ----------------------
 
 .. note::
@@ -29,7 +29,7 @@ There are three different types of coin balances on Particl. Each of them serves
 
 To buy products and services on Particl, you'll only need to have coins in your ``Public`` balance ``Anon`` balance. It is, however, quite useful to also have some coins in your ``Public`` balance as that will allow you to take part in the moderation process of the marketplace by flagging undesirable items and also earn a bit of passive income through Particl's staking process.
 
-Receiving Coins in a Public Balance
+Receive Coins in a Public Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are two ways you can fund your ``Public`` balance with PART coins.
@@ -53,7 +53,7 @@ From the in-app exchange module
 #. Review the quote offered by the exchange, and then click on the ``Next`` button.
 #. Send your coins to the address provided and wait for the transaction to be completed. This can take several minutes depending on the exchange.
 
-Converting Public Balances to Anon 
+Convert Public Balances to Anon 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Navigate to the ``SEND / CONVERT`` page of the wallet menu on the left of your Particl Desktop client.
@@ -65,12 +65,12 @@ Converting Public Balances to Anon
 #. Review the transaction details and click on the ``Confirm & Send`` button to confirm the transaction.
 #. Wait for twelve (12) confirmations (approximately 24 minutes) before the funds in the anon balance can be used.
 
-Placing a Bid
+Place a Bid
 ----------------------
 
 To purchase an item on Particl, you need to first send a bid to the seller. Keep in mind that you will still need to do one more step before you can simply wait for your orders, so keep reading this user guide until the end!
 
-Adding an item to your cart
+Add an item to your cart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Navigate to the `LISTINGS` page of the marketplace.
@@ -78,7 +78,7 @@ Adding an item to your cart
 #. Make sure the item is shipping in your country and click on the ``Shipping and Escrow`` tab to make sure you have enough PART in your ``Anon`` balance to make the purchase. You will see the number of PART required for the order under the ``Total needed for order`` column.
 #. Click on ``Add to cart`` to add the item to your cart. 
 
-Sending the Bid to the Seller
+Send the Bid to the Seller
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Go to your cart by either clicking on the cart icon in the top right corner of your client or by going to the ``Your cart`` tab of the ``Purchases`` page.
@@ -90,7 +90,7 @@ Sending the Bid to the Seller
 #. Unlock your wallet when promted to.
 #. Your order is now placed and the seller has received your bid.
 
-Making the Security Deposit
+Make the Security Deposit
 ----------------------
 
 .. note::
@@ -107,7 +107,7 @@ The two-party escrow contract ensures that neither you or the seller can misbeha
 #. Look for any order marked as ``AWAITING PAYMENT``.
 #. Click on the order's tile to expand its details and click on the ``Mark as payment`` button to lock your funds into the two-party escrow contract.
 
-Verifying the Status of Your Order
+Verify the Status of Your Order
 -------------------------------
 
 After initiating the two-party escrow contract, the seller will send his security deposit into the contract and process your order.
@@ -119,7 +119,7 @@ At any point in time, you can verify the status of your order. Additionally, onc
 #. Find the order you want to monitor and check its status directly on its tile.
 #. To see if a tracking number has been supplied by the seller, click on the order's tile to expand its details.
 
-Marking the Order as Received
+Mark the Order as Received
 ----------------------
 
 All that is left for you to do is to wait for your package to arrive and mark the transaction as complete. Only once you mark the transaction as complete will you receive your security deposit back, at no fee.

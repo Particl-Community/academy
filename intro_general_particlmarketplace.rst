@@ -15,7 +15,7 @@ Particl is a two-sided marketplace like Amazon, eBay, and Alibaba, but with no c
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://youtu.be/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://www.youtube.com/watch?v=IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 Benefits of using Particl
@@ -23,7 +23,7 @@ Benefits of using Particl
 
 Its unique combination of blockchain and peer-to-peer technologies provides you with a lot of benefits long thought to be impossible on traditional marketplaces. 
 
-No Sales Commission
+No sales commission
 ~~~~~~~~~~~~~~~~~~~
 
 Similarly to torrents, Particl runs on a distributed network of nodes hosted by volunteers scattered across the world. It is a completely autonomous platform that doesn't require any central party to operate, which also means that there is no company or organization charging you fees and taking a commission out of every sales.  
@@ -34,7 +34,7 @@ As a seller, it lets you keep the totality of your sales revenue in your pockets
 
 As a buyer, you definitely get to benefit from this as well by finding more affordable products than on traditional marketplaces. When sellers don't need to cut marketplace operators a portion of their revenue anymore, everyone wins!
 
-Unstoppable, Uncensorable
+Unstoppable, uncensorable
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Since the marketplace runs autonomously on a distributed and global network of nodes, it cannot be shut down and can't be controlled by any central party. That's not the case with traditional marketplaces who needs to rely on multiple parties such as the marketplace operator itself, the payment processors it uses, the web/servers hoster, domain registrar, and etc.
@@ -43,7 +43,7 @@ Concretely, this means two things. First, Particl has a 100% uptime and cannot b
 
 Simply put, Particl is a very resilient platform operating on the basic principles of free market and direct democracy. It gives you and every other people a voice. 
 
-Unmatched Security and Privacy
+Unmatched security and privacy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you start using Particl, data breaches are a thing of the past. Thanks to its unique combination of blockchain and peer-to-peer technologies, the Particl network provides you with the highest level of digital security possible to this day. The marketplace ensures your personal and business information remains private at all time by not generating any meaningful data in the first place. If it doesn't exist, it can't be collected, shared, sold, misused, hacked, or leaked by any party.
