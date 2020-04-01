@@ -10,7 +10,7 @@ The entire process of selling a product, from A to Z, can be seen in this walkth
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://youtu.be/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 .. contents:: Table of Contents
@@ -23,7 +23,7 @@ Managing Your Balances
 
 .. note::
 
-   There is much more to learn about Particl balances, their functions, as well as their levels of privacy. Head to the :doc:Particl balances page <guides/guide_general_particl_balances> right away to know all about it!
+   There is much more to learn about Particl balances, their functions, as well as their levels of privacy. Head to the** :doc:`Particl balances page <guides/guide_general_particl_balances>` **right away to know all about it!
 
 There are three different types of coin balances on Particl. Each of them serves a different function within the platform and carries their own level of transactional privacy.
 
