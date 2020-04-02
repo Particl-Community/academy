@@ -1,5 +1,5 @@
-Installing Particl's Marketplace
-================================
+Install Particl
+===============
 
 To get started with Particl's marketplace, you need to download and install the Particl Desktop client. Its installation is very easy and won't take you more than a few minutes! 
 

@@ -1,5 +1,5 @@
-Managing Markets and Storefronts
-================================
+Manage Markets & Storefronts
+============================
 
 .. note::
 
@@ -15,8 +15,8 @@ When first created, a market isn't accessible to anyone except for the creator a
    :backlinks: none
    :depth: 2
 
-Creating a Market
------------------
+Create a Market
+---------------
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
 
@@ -25,30 +25,28 @@ Creation process
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
 
-
-Adding listings to a market
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Add listings to a market
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
 
-
-Promoting a Market
+Promote a Market
 ------------------
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
 
-Browsing the Market Browser
+Browse the Market Browser
 ---------------------------
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
 
-Joining a Market
+Join a Market
 ----------------
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
 
 
-Using an access code
+Use an access code
 ^^^^^^^^^^^^^^^^^^^^
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
@@ -59,7 +57,7 @@ From the market browser
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.
 
-Flagging a Market as Inappropriate
+Flag a Market as Inappropriate
 ----------------------------------
 
 Each market can be manually added into the Market Browser by its creator so that anyone else can join them. A market isn't listed in the Market Browser by default, meaning it is initially only accessible to those who possess its specific access code.

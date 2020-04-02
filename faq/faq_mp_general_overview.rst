@@ -1,4 +1,11 @@
-General Questions
-====================================
+Frequently Asked Questions
+==========================
 
-fill me 
+General FAQ
+-----------
+
+Buyer FAQ
+---------
+
+Seller FAQ
+----------

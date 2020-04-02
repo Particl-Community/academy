@@ -1,2 +1,2 @@
-Privacy Tips
-============
+Security & Privacy Tips
+=======================
