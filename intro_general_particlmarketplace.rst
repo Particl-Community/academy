@@ -3,50 +3,55 @@ What's Particl
 
 .. note::
 
-   This is a test note for Particl Marketplace.
+   Particl's marketplace is currently in its Beta (``version 2.4.0``) phase of development. PROPER DISCLOSURE HERE
 
 .. contents:: Table of contents
    :local:
    :backlinks: none
    :depth: 1
 
-Particl is a two-sided marketplace like Amazon, eBay, and Alibaba, but with no commission on sales, near-zero fees, no login data requirement, and with a heavy focus on user security and privacy. Its person-to-person (P2P) nature lets you connect directly with buyers and sellers from all around the world without requiring any third-party to facilitate transactions. Additionally, no identifiable data is generated when using the marketplace, meaning your date, shopping habits, and personal information remain safe at all time and can't be collected, shared, sold, misused, hacked, or leaked by any party.
+**Particl is a two-sided marketplace like Amazon, eBay, and Alibaba, but without the fees, the sales commissions, and the personal information requirements.** It is deployed on a distributed person-to-person (P2P) network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world. 
+
+Its distributed nature means there is no one sitting in the middle of any transaction you make on the marketplace, thus no one to charge you fees, commissions, and have access to all of your information. It is, simply put, the digital equivalent of an in-person cash transaction between you and someone else. 
+
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="390" src="https://www.youtube.com/watch?v=IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
+    </div> 
 
 Benefits of using Particl
 -------------------------
 
-Its unique combination of blockchain and peer-to-peer technologies provides you with a lot of benefits long thought to be impossible on traditional marketplaces. 
+When you buy something and pay with cash, you don't need a third person to move the cash from your hands into the other person's hands. You can just do it yourself. 
+
+Unfortunately and up until now, digital technologies didn't allow for these kinds of person-to-person transactions to happen on an online marketplace. This has led to sky rocketting costs and fees, more expensive retail prices, and a terrible user security and privacy crisis.
+
+Particl, however, is different. It is a **decentralized marketplace**. Its unique combination of blockchain and peer-to-peer technologies creates benefits and a level of security long thought to be impossible, at least with traditional marketplaces. Let's see what they are and how they can help you out.
 
 No sales commission
 ~~~~~~~~~~~~~~~~~~~
 
-Similarly to torrents, Particl runs on a distributed network of nodes hosted by volunteers scattered across the world. It is a completely autonomous platform that doesn't require any central party to operate, which also means that there is no company or organization charging you fees and taking a commission out of every sales.  
+Similarly to torrents, Particl runs on a distributed network of nodes hosted by volunteers scattered across the world. **It is a completely autonomous platform that doesn't require any central party to operate**, which also means that there is no company or organization charging you fees and taking a commission out of every sales.  
 
-It's true! On Particl, there is no commission/sales fee, no subscription fee, and no escrow fee, no nonsense. The only fees the platform charges, which are only in place to deter spam, is a small listing fee when putting items up for sale and a cryptocurrency transaction fee. But don't worry, these fees are most often than not smaller than a penny and are entirely redistributed to the volunteers running the nodes. 
+It's true! **On Particl, there is no commission/sales fee, no subscription fee, and no escrow fee, no nonsense.** The only fees the platform charges, which are only in place to deter spam, is a small listing fee when putting items up for sale and a cryptocurrency transaction fee. But don't worry, these fees are most often than not smaller than a penny and are entirely redistributed to the volunteers running the nodes. 
 
-As a seller, it lets you keep the totality of your sales revenue in your pockets and makes you more money per sale. This, in turn, opens up the possibility to reduce your prices to beat your competition and make even more sales!
+- **As a seller**, it lets you keep the totality of your sales revenue in your pockets and makes you more money per sale. This, in turn, opens up the possibility to reduce your prices to beat your competition and make even more sales!
 
-As a buyer, you definitely get to benefit from this as well by finding more affordable products than on traditional marketplaces. When sellers don't need to cut marketplace operators a portion of their revenue anymore, everyone wins!
+- **As a buyer**, you definitely get to benefit from this as well by finding more affordable products than on traditional marketplaces. When sellers don't need to cut marketplace operators a portion of their revenue anymore, everyone wins!
 
 Unstoppable, uncensorable
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Since the marketplace runs autonomously on a distributed and global network of nodes, it cannot be shut down and can't be controlled by any central party. That's not the case with traditional marketplaces who needs to rely on multiple parties such as the marketplace operator itself, the payment processors it uses, the web/servers hoster, domain registrar, and etc.
+Particl is a very resilient platform operating on the basic principles of free market and direct democracy. Because the marketplace runs autonomously on a distributed and global network of nodes, it cannot be shut down and isn't under the control of any central party.
 
-Concretely, this means two things. First, Particl has a 100% uptime and cannot be taken offline due to spam or outside influence. Secondly, it also means that no product or user can be banned from the marketplace or censored by an administrator or central authority. Instead, the marketplace's rules are determined by its community users who all have the ability to flag and take out undesirable content.
-
-Simply put, Particl is a very resilient platform operating on the basic principles of free market and direct democracy. It gives you and every other people a voice. 
+This gives Particl a **100% uptime** and makes it **impossible to be taken offline**. It also means no product or user can be banned from the marketplace or censored by an administrator or central authority. Instead, you, along with the rest of the community, determine the marketplace's rules by being granted the ability to flag and take out undesirable content.
 
 Unmatched security and privacy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you start using Particl, data breaches are a thing of the past. Thanks to its unique combination of blockchain and peer-to-peer technologies, the Particl network provides you with the highest level of digital security possible to this day. The marketplace ensures your personal and business information remains private at all time by not generating any meaningful data in the first place. If it doesn't exist, it can't be collected, shared, sold, misused, hacked, or leaked by any party.
+When you start using Particl, data breaches become a thing of the past. Thanks to its unique combination of blockchain and peer-to-peer technologies, it provides you with the highest level of digital security possible to this day. The marketplace ensures **your personal and business information remains private at all time by not generating any meaningful data in the first place**. If the data doesn't even exist in the first place, then it can't be collected, shared, sold, misused, hacked, or leaked by any party.
 
 Particl is built from the ground up with user security and privacy in mind. It uses military-grade encryption and open-source tools to give you rock solid security and uncompromised privacy.
 
@@ -54,7 +59,7 @@ Particl is built from the ground up with user security and privacy in mind. It u
 Is it Safe?
 ---------------------------
 
-Particl is first and foremost a project focused on user security and privacy. It relies on secure and open-source technologies that have been audited by globally renowned security firms such Quarkslab. Every components of the marketplace is designed to keep you, your funds, and your personal information safe.
+Particl is first and foremost a project focused on user security and privacy. It relies on secure and open-source technologies that are publicly available. Every components of the marketplace is designed to keep you, your funds, and your personal information safe.
 
 However, it's important to note that Particl is heavily based on blockchain and cryptocurrency technologies which means that you are totally in control of your funds. It also means you have a big role to play in securing those funds.
 
