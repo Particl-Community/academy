@@ -70,6 +70,20 @@ For Vendors
 
 * :doc:`Understanding the sellflow <guides/guide_mp_vendor_understanding_sellflow>` 
 
+In-Depth Guides
+---------------
+
+Detailed content explaining the various components, features, and concepts behind Particl and its marketplace. While these pages might not be mandatory for you to know how to use the basic functionalities of the marketplace, they'll give you a good understanding of some of the more advanced concepts and features that makes Particl possible. 
+
+.. toctree::
+   :caption: In-Depth
+   :name: in-depth
+   :maxdepth: 2
+   :hidden:
+
+   in-depth/indepth_general_privacy
+
+
 Frequently asked questions FAQ
 ------------
 
@@ -99,7 +113,8 @@ For Vendors
 ^^^^^^^
 
 * :doc:`Overview <faq/faq_mp_vendors_overview>`      
-   
+
+
 .. toctree::
    :caption: Helpful resources
    :name: resourcestoc
