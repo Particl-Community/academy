@@ -185,8 +185,4 @@ Firewall settings & Ports
 
 	Wait for Particl Desktop to load and download the latest Particl Core version. This happens automatically on launch each time a newer version of Particl Core is available.
 	
-
-Wallet Setup
-============
-
-lorem ipsum
+	

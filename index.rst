@@ -36,10 +36,14 @@ Take your first few steps by learning about what's Particl's marketplace, its be
 	intro_general_particlmarketplace
 	intro_general_essentials
 	intro_general_userinterface
+   guides/guide_mp_setup_installation
+   guides/guide_mp_setup_wallet
 
 * :doc:`What's Particl <intro_general_particlmarketplace>`
 * :doc:`Requirements <intro_general_essentials>`
 * :doc:`Understanding the user interface <intro_general_userinterface>`
+* :doc:`Installation Guide <guides/guide_mp_setup_installation>`
+* :doc:`Wallet Setup Guide <guides/guide_mp_setup_wallet>`
 
 User Guides
 -----------
@@ -52,7 +56,6 @@ Here, you'll find all the basic knowledge on how to set up and properly use Part
    :maxdepth: 2
    :hidden:
 
-   guides/guide_mp_installation_setup
    guides/guide_mp_general_understanding_escrow
    guides/guide_mp_customer_understanding_buyflow
    guides/guide_mp_vendor_understanding_sellflow
@@ -60,7 +63,6 @@ Here, you'll find all the basic knowledge on how to set up and properly use Part
    guides/guide_multi_currency
    guides/guide_staking
 
-* :doc:`Install Particl <guides/guide_mp_installation_setup>`
 * :doc:`Buying process <guides/guide_mp_general_understanding_escrow>`
 * :doc:`Selling process <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Manage markets and storefronts <guides/guide_mp_market_management>`
