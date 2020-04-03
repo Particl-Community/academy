@@ -1,2 +1,2 @@
-The PART Coin
-=============
+Settlement of payments
+======================
