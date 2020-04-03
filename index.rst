@@ -15,45 +15,54 @@ Welcome to the Particl Academy
 
 Its distributed nature means there is no one sitting in the middle of any transaction you make on the marketplace, thus no one to charge you fees, commissions, and have access to all of your information. It is, simply put, the digital equivalent of an in-person cash transaction between you and someone else. 
 
-.. Particl Marketplace  is a multi-vendor marketplace like Amazon but with true privacy-first. Without a third party of trust it protects you from scam, fraud and denial-of-service attacks. While it cuts out the middleman it paves the way for more competitive prices than ever before and makes eCommerce independent from banking. 
-
-
 *It protects you, all other buyers, sellers, and supply chains. You will be astonished to see how easy it is to use!* 
 
 .. _Particl Marketplace: https://particl.io/marketplace
 
-First Steps
------------
+Introduction
+------------
 
 Take your first few steps by learning about what's Particl's marketplace, its benefits, and mechanics.
 
 .. toctree::
-	:caption: Introduction
-	:name: introductiontoc
-	:maxdepth: 2
-	:hidden:
+   :caption: Introduction
+   :name: introtoc
+   :maxdepth: 2
+   :hidden:
 
-	intro_general_particlmarketplace
-	intro_general_essentials
-	intro_general_userinterface
+   intro/intro_general_particlmarketplace
+   intro/intro_general_essentials
+   intro/intro_general_features
 
-* :doc:`What's Particl <intro_general_particlmarketplace>`
-* :doc:`Understanding Essentials <intro_general_essentials>`
-* :doc:`Understanding the user interface <intro_general_userinterface>`
+* :doc:`What is Particl Marketplace <intro/intro_general_particlmarketplace>`
+* :doc:`Understanding Essentials <intro/intro_general_essentials>`
+* :doc:`Particl Marketplace Features <intro/intro_general_features>`
+
+First Steps
+-----------
+
+All begins with the installation of the Particl Desktop software. Follow these steps of best practices for the installation, setup your first wallet, and understand the userinterface.
 
 .. toctree::
    :caption: First steps
-   :name: essentialstoc
+   :name: firststepstoc
    :maxdepth: 2
    :hidden:
 
    guides/guide_mp_setup_installation
    guides/guide_mp_setup_wallet
+   guides/guide_mp_userinterface
+   guides/guide_mp_general_understanding_escrow
+   guides/guide_mp_general_multi_currency
+
+* :doc:`Particl Desktop & Marketplace installation <guides/guide_mp_setup_installation>`
+* :doc:`First wallet creation <guides/guide_mp_setup_wallet>`
+* :doc:`Understanding the user interface <guides/guide_mp_general_understanding_userinterface>`
 
 User Guides
 -----------
 
-Here, you'll find all the basic knowledge on how to set up and properly use Particl. This section contains step-by-step walkthrough tutorials on the most important aspects of the marketplace. Whether you're a buyer or a seller, that's where you want to go to learn how to use Particl!
+This section contains step-by-step walkthrough tutorials on the most important aspects of the marketplace. Whether you're a buyer or a seller, that's where you want to go to learn how to use Particl!
 
 .. toctree::
    :caption: Guides
@@ -61,18 +70,13 @@ Here, you'll find all the basic knowledge on how to set up and properly use Part
    :maxdepth: 2
    :hidden:
 
-   guides/guide_mp_general_understanding_escrow
    guides/guide_mp_customer_understanding_buyflow
    guides/guide_mp_vendor_understanding_sellflow
-   guides/guide_mp_market_management
-   guides/guide_multi_currency
-   guides/guide_staking
+   guides/guide_mp_general_market_management
 
-* :doc:`Buying process for customers <guides/guide_mp_general_understanding_escrow>`
-* :doc:`Selling process for vendors <guides/guide_mp_customer_understanding_buyflow>`    
-* :doc:`Manage markets and storefronts <guides/guide_mp_market_management>`
-* :doc:`Multi-currency support <guides/guide_multi_currency>`
-* :doc:`Staking guide <guides/guide_staking>` 
+* :doc:`Buying process for customers <guides/guide_mp_customer_understanding_buyflow>`    
+* :doc:`Selling process for vendors <guides/guide_mp_vendor_understanding_sellflow>`    
+* :doc:`Manage markets and storefronts <guides/guide_mp_general_market_management>`
 
 In-Depth Guides
 ---------------
@@ -89,15 +93,12 @@ This section contains detailed content explaining the various components, featur
    in-depth/indepth_staking
    in-depth/indepth_escrow
    in-depth/indepth_opensource
-   in-depth/indepth_privacy_tips
-.. in-depth/indepth_features
 
-* :doc:`The PART coin <in-depth/indepth_part_coin>`
-* :doc:`What's staking? <in-depth/indepth_staking>`
-* :doc:`Two-party escrow <in-depth/indepth_escrow>`
-* :doc:`Privacy tips <in-depth/indepth_privacy_tips>`
+* :doc:`Settlement of payments - PART coin <in-depth/indepth_part_coin>`
+* :doc:`Staking <in-depth/indepth_staking>`
+* :doc:`Dual escrow <in-depth/indepth_escrow>`
 * :doc:`Open-source technologies <in-depth/indepth_opensource>`
-* :doc:`Security and privacy tips <in-depth/indepth_privacy_tips>`
+* :doc:`Security and privacy <in-depth/indepth_privacy_tips>`
 
 
 Help Section
@@ -147,5 +148,5 @@ Helpful Resources
 * `News <https://particl.news>`_
 * `Roadmap <https://particl.io/roadmap>`_
 * `Particl Wiki <https://particl.wiki/>`_
-* :doc:`Useful links <intro_useful_links>`
+* :doc:`Useful links <intro/intro_useful_links>`
 * `Contact us <https://particl.io/>`_
