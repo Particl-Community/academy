@@ -1,6 +1,6 @@
 
 testpage
-==============
+========
 
 This page is for testing purposes.
 
@@ -16,7 +16,6 @@ Links
 	#. If you found your example click on ``Edit on Gitub`` in the top right corner. 
 	#. Finally click the ``raw`` version with github to see how the markup was realized.
 
----
 
 Testing ground
 --------------
@@ -25,7 +24,7 @@ this is the area to play around with reStructuredText.
 
 
 Headings
---------------
+--------
 
 This area shows some sample texts. Or an internal link to a certain page like the Introduction Page of Particl Marketplace n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_
 
@@ -63,7 +62,7 @@ Images
     :target: ./_static/media/images/canvas_w_logo.png
 
 Boxes
---------------
+-----
 
 .. note::
 	
@@ -82,12 +81,12 @@ Boxes
 	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 Tables
---------------
+------
 
 Even csv tables can be put in.
 
 Simple
-^^^^^^^
+^^^^^^
 =====  =====  =======
 A      B      A and B
 =====  =====  =======
@@ -98,7 +97,7 @@ True   True   True
 =====  =====  =======
 
 Grid
-^^^^^^^
+^^^^
 +------------------------+------------+----------+----------+
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |
 | (header rows optional) |            |          |          |
@@ -109,7 +108,7 @@ Grid
 +------------------------+------------+----------+----------+
 
 CSV
-^^^^
+^^^
 
 .. csv-table:: Frozen Delights!
    :header: "Treat", "Quantity", "Description"
@@ -122,7 +121,7 @@ CSV
 
 
 Lists
---------------
+-----
 
 Nested Normal 
 ^^^^^^^^^^^^^
@@ -133,26 +132,26 @@ Nested Normal
 * ipsum dolor sit
 
 Manual 
-^^^^^^^^^^^^^
+^^^^^^
 1. sadipscing elitr
 2. magna aliquyam erat, sed diam 
 3. ipsum dolor sit
 
 Automatic 
-^^^^^^^^^^^^^
+^^^^^^^^^
 #. sadipscing elitr
 #. magna aliquyam erat, sed diam
 #. ipsum dolor sit
 
 Normal 
-^^^^^^^^^^^^^
+^^^^^^
 - sadipscing elitr
 - magna aliquyam erat, sed diam
 - ipsum dolor sit
 
 
 Codeblock
------------
+---------
 
 .. code-block:: none
 
@@ -166,17 +165,16 @@ Codeblock
     $ rm *
 
 .. code-block:: html
-    :linenos:
 
    <h1>code block example</h1>
+   <p>Paragraph Text</p>
 
 
 Tabs
 ----
 
 Grouped tabs
-^^^^^^^
-
+^^^^^^^^^^^^
 
 .. tabs::
 
@@ -211,7 +209,7 @@ Grouped tabs
 
 
 Normal tabls
-^^^^
+^^^^^^^^^^^^
 
 .. tabs::
 	 .. tab:: Windows

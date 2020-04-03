@@ -76,4 +76,4 @@ We've barely scratched the surface, there is so much more to learn about Particl
 
 - In the ``Help`` section, you'll find a bunch of resources to help you out should you encounter any issue when using Particl. Here, you'll find answers to some of the most frequently asked questions as well as a few guides on how to fix, or avoid, some of the most common problems. Are you having an issue not mentioned in this section? Then make sure to **contact the team** so that it can help you out and add the solution in here!
 
-- In the ``Helpful Resources`` section, you'll find all the useful links, documents, and other materials that might not have been covered or don't fit in the other sections of the Particl Academy. 
+

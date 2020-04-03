@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The PART Coin
 =============
 
@@ -92,3 +93,7 @@ Each balance type has its own level of transactional privacy and serves a differ
 |                    | - Anonymously use smart-contracts                                                                                              |
 |                    | - Use private escrow contracts without sharing any information                                                                 |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------+
+=======
+Settlement of payments
+======================
+>>>>>>> 173bc296b7a4e52927ace42229840107714bb143

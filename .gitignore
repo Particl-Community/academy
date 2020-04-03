@@ -8,6 +8,7 @@ Icon
 
 # Sphinx
 _build
+__pycache__
 
 # Thumbnails
 ._* 
