@@ -6,10 +6,13 @@ lorem ipsum
 General
 -------
 
-What to expect Particl Marketplace 
+Understanding Particl Marketplace 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-(service wise while being an open-source project and a marketplace that is not run by a company)
+(service wise while being an open-source project and a marketplace that is not run by a company). Transport the ethos and what a vendor can expect from particl.
+
+Understanding Particl Marketplace 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Customer Care
 -------------
@@ -28,5 +31,8 @@ Tracking numbers
 
 Marketing
 ---------
+
+Functional
+----------
 
 
