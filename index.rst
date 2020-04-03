@@ -68,16 +68,16 @@ This section contains step-by-step walkthrough tutorials on the most important a
    :maxdepth: 2
    :hidden:
 
+   guides/guide_mp_general_managing_funds
    guides/guide_mp_customer_understanding_buyflow
    guides/guide_mp_vendor_understanding_sellflow
-   guides/guide_mp_general_managing_funds
    guides/guide_mp_general_market_management
    guides/guide_mp_user_best_practices_overview
    guides/guide_mp_vendor_best_practices_overview
 
+* :doc:`Manage funds & balances <guides/guide_mp_general_managing_funds>` 
 * :doc:`Buying process for customers <guides/guide_mp_customer_understanding_buyflow>`    
-* :doc:`Selling process for vendors <guides/guide_mp_vendor_understanding_sellflow>`
-* :doc:`Manage funds <guides/guide_mp_general_managing_funds>`    
+* :doc:`Selling process for vendors <guides/guide_mp_vendor_understanding_sellflow>`   
 * :doc:`Manage markets and storefronts <guides/guide_mp_general_market_management>`
 * :doc:`User best-practices <guides/guide_mp_user_best_practices_overview>`
 * :doc:`Vendor best-practices <guides/guide_mp_vendor_best_practices_overview>`
