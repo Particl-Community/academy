@@ -13,14 +13,14 @@ Receive Coins in a Public Balance
 There are two ways you can fund your ``Public`` balance with PART coins.
 
 From another PART address
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Navigate to the ``RECEIVE`` page of the wallet menu on the left of your Particl Desktop client.
 #. Click on the ``Copy address`` button to copy your public address in your clipboard.
 #. Send it to another party so that they can send your PART coins or send some yourself from another Particl wallet.
 
 From the in-app exchange module
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Navigate to the ``BOT MANAGEMENT`` page of the wallet menu on the left of your Particl Desktop client.
 #. Choose an exchange and enable its bot by expanding its tile and then clicking on the ``Enable bot`` button.
