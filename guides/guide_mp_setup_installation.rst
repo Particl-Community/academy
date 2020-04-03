@@ -97,7 +97,7 @@ Obtain the checksum code from the release notes verification section on the `Par
 
 	 		sha256sum filename
 
-Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes *Verification* section on the `Particl Github releases page <https://github.com/particl/particl-desktop/releases/latest>`_. If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for Particl Support. 
+Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes *Verification* section on the `Particl Github releases page <https://github.com/particl/particl-desktop/releases/latest>`_. If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>`. 
 
 **Troubleshooting checksum mismatch**
 
@@ -185,4 +185,4 @@ Firewall settings & Ports
 
 	Wait for Particl Desktop to load and download the latest Particl Core version. This happens automatically on launch each time a newer version of Particl Core is available.
 	
-	
+
