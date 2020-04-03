@@ -28,22 +28,27 @@ First Steps
 Take your first few steps by learning about what's Particl's marketplace, its benefits, and mechanics.
 
 .. toctree::
-	:caption: First steps
-	:name: essentialstoc
+	:caption: Introduction
+	:name: introductiontoc
 	:maxdepth: 2
 	:hidden:
 
 	intro_general_particlmarketplace
 	intro_general_essentials
 	intro_general_userinterface
-   guides/guide_mp_setup_installation
-   guides/guide_mp_setup_wallet
 
 * :doc:`What's Particl <intro_general_particlmarketplace>`
-* :doc:`Requirements <intro_general_essentials>`
+* :doc:`Understanding Essentials <intro_general_essentials>`
 * :doc:`Understanding the user interface <intro_general_userinterface>`
-* :doc:`Installation Guide <guides/guide_mp_setup_installation>`
-* :doc:`Wallet Setup Guide <guides/guide_mp_setup_wallet>`
+
+.. toctree::
+   :caption: First steps
+   :name: essentialstoc
+   :maxdepth: 2
+   :hidden:
+
+   guides/guide_mp_setup_installation
+   guides/guide_mp_setup_wallet
 
 User Guides
 -----------
@@ -63,11 +68,11 @@ Here, you'll find all the basic knowledge on how to set up and properly use Part
    guides/guide_multi_currency
    guides/guide_staking
 
-* :doc:`Buying process <guides/guide_mp_general_understanding_escrow>`
-* :doc:`Selling process <guides/guide_mp_customer_understanding_buyflow>`    
+* :doc:`Buying process for customers <guides/guide_mp_general_understanding_escrow>`
+* :doc:`Selling process for vendors <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Manage markets and storefronts <guides/guide_mp_market_management>`
-* :doc:`Use your favorite crypto <guides/guide_multi_currency>`
-* :doc:`Set up staking <guides/guide_staking>` 
+* :doc:`Multi-currency support <guides/guide_multi_currency>`
+* :doc:`Staking guide <guides/guide_staking>` 
 
 In-Depth Guides
 ---------------
