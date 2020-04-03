@@ -1,2 +1,2 @@
-What's Staking?
-===============
+Staking
+=======
