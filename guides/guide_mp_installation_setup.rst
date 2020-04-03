@@ -1,14 +1,14 @@
-Install Particl
-===============
+Installation Guide
+==================
 
-To get started with Particl's marketplace, you need to download and install the Particl Desktop client. Its installation is very easy and won't take you more than a few minutes! 
+To get started with Particl Marketplace, you need to download and install the Particl Desktop client. Its installation is very easy and won't take you more than a few minutes! 
 
-The entire process of setting up Particl's marketplace, from A to Z, can be seen in this walkthrough tutorial video.
+The entire process of setting up Particl Marketplace, from A to Z, can be seen in this walkthrough tutorial video.
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://www.youtube.com/watch?v=IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://www.youtube.com/embed/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
 .. contents:: Table of Contents
@@ -16,84 +16,177 @@ The entire process of setting up Particl's marketplace, from A to Z, can be seen
    :backlinks: none
    :depth: 2
 
-Download Particl Desktop
----------------------------
+Download 
+~~~~~~~~
 
 .. danger::
 
    **NEVER download Particl clients from 3rd party websites**! Hackers and bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets with the goal of stealing your funds! Always download from official sources only. 
 
-#. Download the latest version of Particl Desktop by visiting the `Downloads page of the official Particl website <https://particl.io/downloads/>`_.
+.. attention::
+	
+	Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by **verifying its checksum**.
 
-Verify the File
-^^^^^^^^^^^^^^
+**Download sources**
 
-Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by verifying its checksum.
+Download the latest version of Particl Desktop by visiting the `Downloads page of the official Particl website <https://particl.io/downloads/>`_ or the official Particl GitHub repository.
 
-.. tabs::
-	 .. tab:: Windows
-
-	 	- [Shift] + [right-click] on the Download folder and choose **Open command window here** or **Open power shell here**.
-	 	- Type the following command by changing **filename** for the real filename of the downloaded file. 
-	 	- ``CertUtil -hashfile filename SHA256``
-
-	 .. tab:: Mac
-
-	 	- Head into **System Preferences** and select Keyboard > Shortcuts > Services. Find "**New Terminal at Folder**" in the settings and click the box. 
-	 	- In **Finder**, right-click the folder where you've downloaded the file and open a Terminal. 
-		- Type the following command by changing **filename** for the real filename of the downloaded file.
-		- ``shasum -a 256 filename``
-
-	 .. tab:: Linux
-
-	 	- Open a terminal and type the following command by changing **filename** for the real filename of the downloaded file. 
-	 	- ``sha256sum filename``
-
-Once that is done, compare the output you've received in the step above with the hash of the downloaded file from GitHub in the verification section of the release note.
-
-**Latest releases**
+**Download from GitHub**
 
 - `Particl Desktop (with Open Marketplace) <https://github.com/particl/particl-desktop/releases/latest>`_
 
-- `Particl Core (Qt) (with Ledger wallet support) <https://github.com/particl/particl-core/releases/latest>`_
-
-Install Particl Desktop
---------------------------
-
-#. Extract the content of the ZIP file to any location on your computer.
-#. Launch Particl Desktop:
+**Choose the right version to download**
 
 .. tabs::
-	 .. tab:: Windows
+	 .. group-tab:: Windows
 
-	     Launch Particl Desktop by clicking on the ``Particl Desktop.exe`` file. 
+	 	In 95% of all cases you will be fine by downloading the ``particl-desktop-X.X.X-win.exe`` installer file. It supports any version of Windows except 32-bit only environments.
 
-	 .. tab:: Mac
+	 .. group-tab:: Mac
 
+	 	In 95% of all cases you will be fine by downloading the ``particl-desktop-X.X.X-mac.dmg`` installer image. It supports any version, including 10.15 (Catalina) or greater.
+
+	 .. group-tab:: Linux
+
+	 	Depending on your Linux distribution you have the choice between different packages including Debian based **.deb** and Rpm based **.rpm** packages as well as a distribution independent **.zip** version. 
+
+	 	We assume that you know what you are doing here and what you need.
+
+
+Checksum verification
+~~~~~~~~~~~~~~~~~~~~~
+
+Obtain the checksum code from the release notes verification section on the `Particl Github releases page <https://github.com/particl/particl-desktop/releases/latest>`_ for your downloaded file. Each file has its own checksum. The screenshot below shows you an example of this checksum highlighted.
+
+.. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
+    :align: center
+    :alt: Particl Marketplace installation checksum highlighted image
+    :target: ../_static/media/images/mp_installation_github_checksum_verification.png
+
+    Particl Marketplace installation checksum highlighted image
+
+**Commands for each OS**
+
+.. tabs::
+	 .. group-tab:: Windows
+
+	 	#. Hit ``[Shift]`` + ``[mouse-right-click]`` on the *Download-folder* and choose "*Open command window here*" or "*Open power shell here*".
+	 	#. Type the following command into the command-window while changing *"filename"* for the real and complete filename of the downloaded file and hit ``enter``.
+
+	 	.. code-block:: bash
+
+	 		CertUtil -hashfile filename SHA256
+
+	 .. group-tab:: Mac
+
+	 	.. tip::
+	 		**Prerequisite**: Head into *System Preferences* and select "*Keyboard*" > "*Shortcuts*" > "*Services*". Find "*New Terminal at Folder*" in the settings and click the box.
+
+	 	#. Open *Finder*, ``right-mouse-click`` on the *Download-folder* of the file and you're shown the "*services*" > "*open terminal*" command to open the terminal. 
+		#. Type the following command into the command-window while changing *"filename"* for the real filename of the downloaded file.
+
+		.. code-block:: bash
+
+			shasum -a 256 filename
+
+	 .. group-tab:: Linux
+
+	 	#.  Open a terminal in the *Download-folder* of the file and type the following command by changing *"filename"* for the real filename of the downloaded file. 
+	 	
+	 	.. code-block:: bash
+
+	 		sha256sum filename
+
+Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes *Verification* section on the `Particl Github releases page <https://github.com/particl/particl-desktop/releases/latest>`_. If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for Particl Support. 
+
+**Troubleshooting checksum mismatch**
+
+If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own for that case.
+
+Installation Process
+~~~~~~~~~~~~~~~~~~~~
+
+.. tabs::
+	 .. group-tab:: Windows
+
+	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
+	 	#. Open the downloaded ``particl-desktop-X.X.X-win.exe`` installer file.
+	 	#. Follow the installation instructions
+	 	#. A launcher is put on to your desktop and into the application launcher menu.
+	 	#. On the first launch the firewall of your computer must get a rule to allow Particl Desktop to communicate with the blockchain. On a standard Windows installation Microsoft Defender pops up. You must grant access.
+
+
+	 .. group-tab:: Mac
+
+	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
 	    Launch Particl Desktop by clicking on the ``Particl Desktop`` executable file. 
 
-	 .. tab:: Linux (tar.gz)
+	 .. group-tab:: Linux
+
+	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
 
 	    From a terminal, launch Particl Desktop by executing ``./"Particl Desktop"`` in app's folder.
 
-	 .. tab:: Linux (deb)	 
-
-	 	#. Navigate to where you've downloaded the ``.deb`` installer.
+	    #. Navigate to where you've downloaded the ``.deb`` installer.
 	 	#. From a terminal, depackage the file by typing ``sudo dpkg -i particl-desktop-x.x.x-linux-amd65.deb``. Make sure to write the exact name of the downloaded file as each new Particl Desktop update results in a new file name.
 	 	#. Launch Particl Desktop by executing ``Particl\ Desktop``.
 
-Prepare Particl Desktop
--------------------------
 
-#. Wait for Particl Desktop to load and download the latest Particl Core version. This happens automatically on launch each time a newer version of Particl Core is available.
-#. Read and accept the terms and conditions, if you agree with them.
+Understanding file locations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create Your First Wallet
---------------------------
+After a successful installation of *Particl Desktop* the main application has been installed into the standard location of your operating system. Once the *Particl Desktop* is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain itself.
 
-TBD by the new version
+.. tabs::
+	 .. group-tab:: Windows
 
-Enable the Marketplace
-------------------------
+	 	.. code-block:: bash
 
-TBD by the new version
+	 		## Windows paths
+
+	 		"%UserProfile%\AppData\Roaming\Particl"
+			"%userprofile%\AppData\Roaming\particl-bot"
+			"%userprofile%\AppData\Roaming\particl-market"
+			"%userprofile%\AppData\Roaming\Particl Desktop"
+
+
+	 .. group-tab:: Mac
+
+	 	.. code-block:: bash
+
+	 		## MacOS paths
+
+	 		"~/Library/Application Support/Particl"
+			"~/Library/Application Support/particl-bot"
+			"~/Library/Application Support/particl-market"
+			"~/Library/Application Support/Particl Desktop"
+
+	 .. group-tab:: Linux
+
+	 	.. code-block:: bash
+
+	 		## Linux paths
+
+	 		"~/.particl"
+			"~/.particl-bot"
+			"~/.particl-market"
+			"~/.config/particl-desktop"
+
+			## Launcher path
+
+			"/opt/Particl Desktop/Particl Desktop"
+
+
+Firewall settings & Ports
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	
+.. tip::
+
+	Wait for Particl Desktop to load and download the latest Particl Core version. This happens automatically on launch each time a newer version of Particl Core is available.
+	
+
+Wallet Setup
+============
+
+lorem ipsum
