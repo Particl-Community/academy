@@ -38,25 +38,23 @@ Take your first few steps by learning about what's Particl's marketplace, its be
 * :doc:`Understanding Essentials <intro/intro_general_essentials>`
 * :doc:`Particl Marketplace Features <intro/intro_general_features>`
 
-First Steps
------------
+Installation & Usage
+--------------------
 
 All begins with the installation of the Particl Desktop software. Follow these steps of best practices for the installation, setup your first wallet, and understand the userinterface.
 
 .. toctree::
-   :caption: First steps
-   :name: firststepstoc
+   :caption: Installation & Usage
+   :name: installationtoc
    :maxdepth: 2
    :hidden:
 
    guides/guide_mp_setup_installation
    guides/guide_mp_setup_wallet
-   guides/guide_mp_userinterface
-   guides/guide_mp_general_understanding_escrow
-   guides/guide_mp_general_multi_currency
+   guides/guide_mp_general_understanding_userinterface
 
 * :doc:`Particl Desktop & Marketplace installation <guides/guide_mp_setup_installation>`
-* :doc:`First wallet creation <guides/guide_mp_setup_wallet>`
+* :doc:`First wallet configuration <guides/guide_mp_setup_wallet>`
 * :doc:`Understanding the user interface <guides/guide_mp_general_understanding_userinterface>`
 
 User Guides
@@ -73,10 +71,14 @@ This section contains step-by-step walkthrough tutorials on the most important a
    guides/guide_mp_customer_understanding_buyflow
    guides/guide_mp_vendor_understanding_sellflow
    guides/guide_mp_general_market_management
+   guides/guide_mp_user_best_practices_overview
+   guides/guide_mp_vendor_best_practices_overview
 
 * :doc:`Buying process for customers <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Selling process for vendors <guides/guide_mp_vendor_understanding_sellflow>`    
 * :doc:`Manage markets and storefronts <guides/guide_mp_general_market_management>`
+* :doc:`User best-practices <guides/guide_mp_user_best_practices_overview>`
+* :doc:`Vendor best-practices <guides/guide_mp_vendor_best_practices_overview>`
 
 In-Depth Guides
 ---------------
@@ -91,12 +93,11 @@ This section contains detailed content explaining the various components, featur
 
    in-depth/indepth_part_coin
    in-depth/indepth_staking
-   in-depth/indepth_escrow
    in-depth/indepth_opensource
+   in-depth/indepth_privacy_tips
 
 * :doc:`Settlement of payments - PART coin <in-depth/indepth_part_coin>`
 * :doc:`Staking <in-depth/indepth_staking>`
-* :doc:`Dual escrow <in-depth/indepth_escrow>`
 * :doc:`Open-source technologies <in-depth/indepth_opensource>`
 * :doc:`Security and privacy <in-depth/indepth_privacy_tips>`
 
@@ -131,15 +132,15 @@ Helpful Resources
    :maxdepth: 2
    :hidden:
 
-   Join the Community <https://discord.me/particl>
-   Official website <https://particl.io>
-   Download Particl <https://particl.io/downloads/>
-   Buy PART <https://particl.io/part-exchanges/>
-   News <https://particl.news/>
-   Roadmap <https://particl.io/roadmap>
-   Particl Wiki <https://particl.wiki/>
-   Useful links <intro_useful_links>
-   Contact us <https://particl.io/>
+..   Join the Community <https://discord.me/particl>
+..   Official website <https://particl.io>
+..   Download Particl <https://particl.io/downloads/>
+..   Buy PART <https://particl.io/part-exchanges/>
+..   News <https://particl.news/>
+..   Roadmap <https://particl.io/roadmap>
+..   Particl Wiki <https://particl.wiki/>
+..   Useful links <intro_useful_links>
+..   Contact us <https://particl.io/>
 
 * `Join the community <https://discord.me/particl/>`_
 * `Official website <https://particl.io>`_
