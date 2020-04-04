@@ -498,6 +498,10 @@ kbd, .kbd {
 border-color: var(--hr-color) !important;
 }
 
+.code-tab.tab {
+padding: 2em 2em !important;
+}
+
 @media only screen and (min-width: 769px) {
     /* Simulate a drop shadow that only affects the bottom edge */
     /* This is used to indicate the search bar is fixed */
