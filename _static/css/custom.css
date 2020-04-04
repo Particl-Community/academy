@@ -494,6 +494,10 @@ kbd, .kbd {
     position: fixed;
 }
 
+.ui.tabular.menu, .sphinx-tabs .sphinx-menu a.active.item, .ui.attached.segment {
+border-color: var(--hr-color) !important;
+}
+
 @media only screen and (min-width: 769px) {
     /* Simulate a drop shadow that only affects the bottom edge */
     /* This is used to indicate the search bar is fixed */
