@@ -498,7 +498,7 @@ kbd, .kbd {
 border-color: var(--hr-color) !important;
 }
 
-.code-tab.tab {
+.ui.segment {
 padding: 2em 2em !important;
 }
 
