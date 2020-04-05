@@ -1,7 +1,7 @@
 Installation Guide
 ==================
 
-To get started with Particl Marketplace, you need to download and install the Particl Desktop client. Its installation is very easy and won't take you more than a few minutes! 
+To get started with Particl Marketplace, you need to download and install the Particl Desktop client software. Its installation is very easy and won't take you more than a few minutes! 
 
 The entire process of setting up Particl Marketplace, from A to Z, can be seen in this walkthrough tutorial video.
 
@@ -15,6 +15,45 @@ The entire process of setting up Particl Marketplace, from A to Z, can be seen i
    :local:
    :backlinks: none
    :depth: 2
+
+Automatic installation  
+~~~~~~~~~~~~~~~~~~~~~~
+
+To make the installation process as easy and safe as possible we provide you skripts for your operating systems that do all in one. Downloading the latest client, verifying the checksum and starting the installation process.
+
+.. tabs::
+	 .. group-tab:: Windows
+
+	 	**Windows procedure**
+
+	 	Open Powershell and run these commands
+
+	 	.. code-block:: bash
+
+			user@windows:~> curl -s "https://api.github.com/repos/particl/particl-desktop/releases/latest" | select-string "TODO"| cut -d : -f 2,3 | tr -d \"
+
+
+	 .. group-tab:: Mac
+
+	 	**MacOS procedure**
+
+	 	Open terminal and run these commands
+
+	 	.. code-block:: bash
+
+			user@mac:~> curl -s "https://api.github.com/repos/particl/particl-desktop/releases/latest" | grep -o browser_download_url.*${3:-dmg} | cut -d : -f 2,3 | tr -d \"
+
+	 .. group-tab:: Linux
+
+	 	**Linux procedure**
+
+		Open terminal and run these commands
+	 	
+	 	.. code-block:: bash
+
+			user@linux:~> curl -s "https://api.github.com/repos/particl/particl-desktop/releases/latest" | grep -o browser_download_url.*${3:-rpm} | cut -d : -f 2,3 | tr -d \"
+
+When everything is done here head over to the :ref:`Installation Process`
 
 Download 
 ~~~~~~~~
@@ -40,13 +79,19 @@ Download the latest version of Particl Desktop by visiting the `Downloads page o
 .. tabs::
 	 .. group-tab:: Windows
 
+	 	**Windows file version**
+
 	 	In 95% of all cases you will be fine by downloading the ``particl-desktop-X.X.X-win.exe`` installer file. It supports any version of Windows except 32-bit only environments.
 
 	 .. group-tab:: Mac
 
+	 	**MacOS file version**
+
 	 	In 95% of all cases you will be fine by downloading the ``particl-desktop-X.X.X-mac.dmg`` installer image. It supports any version, including 10.15 (Catalina) or greater.
 
 	 .. group-tab:: Linux
+
+	 	**Linux file version**
 
 	 	Depending on your Linux distribution you have the choice between different packages including Debian based **.deb** and Rpm based **.rpm** packages as well as a distribution independent **.zip** version. 
 
@@ -70,8 +115,10 @@ Obtain the checksum code from the release notes verification section on the `Par
 .. tabs::
 	 .. group-tab:: Windows
 
-	 	#. Hit ``[Shift]`` + ``[mouse-right-click]`` on the *Download-folder* and choose "*Open command window here*" or "*Open power shell here*".
-	 	#. Type the following command into the command-window while changing *"filename"* for the real and complete filename of the downloaded file and hit ``enter``.
+	 	**Checksum verification command with terminal**
+
+	 	#. Hit ``[SHIFT]`` + ``[MOUSE-RIGHT-CLICK]`` on the *Download-folder* and choose "*Open command window here*" or "*Open power shell here*".
+	 	#. Type the following command into the command-window while changing *"filename"* for the real and complete filename of the downloaded file and hit ``[ENTER]``.
 
 	 	.. code-block:: bash
 
@@ -79,10 +126,12 @@ Obtain the checksum code from the release notes verification section on the `Par
 
 	 .. group-tab:: Mac
 
+	 	**Checksum verification command with terminal**
+
 	 	.. tip::
 	 		**Prerequisite**: Head into *System Preferences* and select "*Keyboard*" > "*Shortcuts*" > "*Services*". Find "*New Terminal at Folder*" in the settings and click the box.
 
-	 	#. Open *Finder*, ``right-mouse-click`` on the *Download-folder* of the file and you're shown the "*services*" > "*open terminal*" command to open the terminal. 
+	 	#. Open *Finder*, ``[MOUSE-RIGHT-CLICK]`` on the *Download-folder* of the file and you're shown the "*services*" > "*open terminal*" command to open the terminal. 
 		#. Type the following command into the command-window while changing *"filename"* for the real filename of the downloaded file.
 
 		.. code-block:: bash
@@ -90,6 +139,8 @@ Obtain the checksum code from the release notes verification section on the `Par
 			shasum -a 256 filename
 
 	 .. group-tab:: Linux
+
+	 	**Checksum verification command with terminal**
 
 	 	#.  Open a terminal in the *Download-folder* of the file and type the following command by changing *"filename"* for the real filename of the downloaded file. 
 	 	
@@ -109,31 +160,67 @@ Installation Process
 .. tabs::
 	 .. group-tab:: Windows
 
+ 		**Windows installation**
+
 	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
 	 	#. Open the downloaded ``particl-desktop-X.X.X-win.exe`` installer file.
 	 	#. Follow the installation instructions
-	 	#. A launcher is put on to your desktop and into the application launcher menu.
-	 	#. On the first launch the firewall of your computer must get a rule to allow Particl Desktop to communicate with the blockchain. On a standard Windows installation Microsoft Defender pops up. You must grant access.
+	 	#. A launcher is put on to your desktop and into the application launcher menu. Use this to start *Particl Desktop*.
+	 	#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. On a standard Windows installation Microsoft Defender pops up. You must grant access.
 
 
 	 .. group-tab:: Mac
 
+	 	**MacOS installation**
+
 	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
-	    Launch Particl Desktop by clicking on the ``Particl Desktop`` executable file. 
+	 	#. Open the downloaded ``particl-desktop-X.X.X-mac.dmg`` installer image with ``[CTRL]`` + ``[MOUSE-RIGHT-CLICK]`` and click "*Open*" from the shortcut menu. Do not just double click the icon.
+	 	#. Drag the ``Particl Desktop.app`` file into the "*Applications*" folder. 
+	 	#. Open the "*Applications*" folder and locate the ``Particl Desktop.app`` file. 
+	 	#. Press ``[CTRL]`` + ``[MOUSE-RIGHT-CLICK]`` on the ``Particl Desktop.app`` file and click "*Open*".
+	 	#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. 
+
+	 	From now on you will be able to start *Particl Desktop* from the Launchpad or Spotlight search.
 
 	 .. group-tab:: Linux
 
+	 	**Linux installation**
+
 	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
+	 	#. Navigate to where you've downloaded your installer file in the terminal.
 
-	    From a terminal, launch Particl Desktop by executing ``./"Particl Desktop"`` in app's folder.
+	 	Depending on your package manager this command will vary. Using your standard package manager is recommended.
 
-	    #. Navigate to where you've downloaded the ``.deb`` installer.
-	 	#. From a terminal, depackage the file by typing ``sudo dpkg -i particl-desktop-x.x.x-linux-amd65.deb``. Make sure to write the exact name of the downloaded file as each new Particl Desktop update results in a new file name.
-	 	#. Launch Particl Desktop by executing ``Particl\ Desktop``.
+	 	**Debian based installation**
+
+	 	.. code-block:: bash
+
+	 		sudo apt install particl-desktop-x.x.x-linux.deb
+
+		**RPM based installation** 
+
+	 	.. code-block:: bash
+
+	 		sudo dnf -i particl-desktop-x.x.x-linux.rpm
+
+	 	An application launcher is put to your applications menu. Click this to start *Particl Desktop* client.
+
+	 	**Terminal speciality**
+
+	 	If you want to launch it from the terminal: At the time of writing the executable is named "Particl Desktop" which makes it neccessary to open the file with qutation marks or escaping the string.
+
+		.. code-block:: bash
+
+			user@linux:~> which "Particl Desktop"
+			/usr/bin/Particl Desktop
+
+			user@linux:~> "/usr/bin/Particl Desktop"
+			(Particl Desktop:16887)
 
 
-Understanding file locations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+File locations
+~~~~~~~~~~~~~~
 
 After a successful installation of *Particl Desktop* the main application has been installed into the standard location of your operating system. Once the *Particl Desktop* is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain itself.
 
