@@ -36,6 +36,7 @@ author = 'Particl'
 sys.path.append(os.path.abspath('_extensions'))
 extensions = [
     'sphinx_tabs.tabs',
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

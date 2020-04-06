@@ -323,6 +323,7 @@ code,
 
 .rst-content div[class^="highlight"] {
     border-color: var(--code-border-color);
+    background-color: var(--code-border-color);
 }
 
 .rst-content pre.literal-block,
@@ -492,6 +493,14 @@ kbd, .kbd {
 
 .wy-side-nav-search.fixed {
     position: fixed;
+}
+
+.ui.tabular.menu, .sphinx-tabs .sphinx-menu a.active.item, .ui.attached.segment {
+border-color: var(--hr-color) !important;
+}
+
+.ui.segment {
+padding: 2em 2em !important;
 }
 
 @media only screen and (min-width: 769px) {

@@ -63,7 +63,7 @@ User Guides
 This section contains step-by-step walkthrough tutorials on the most important aspects of the marketplace. Whether you're a buyer or a seller, that's where you want to go to learn how to use Particl!
 
 .. toctree::
-   :caption: Guides
+   :caption: User Guides
    :name: guidesmptoc
    :maxdepth: 2
    :hidden:
@@ -88,7 +88,7 @@ In-Depth Guides
 This section contains detailed content explaining the various components, features, and concepts behind Particl and its marketplace. While these pages might not be mandatory for you to know how to use the basic functionalities of the marketplace, they'll give you a good understanding of some of the more advanced concepts and features that make Particl possible. 
 
 .. toctree::
-   :caption: In-Depth
+   :caption: In-Depth Guides
    :name: indepth
    :maxdepth: 2
    :hidden:

@@ -15,9 +15,9 @@ Multi-Currency Support
 Important implications
 ----------------------
 
-funds
+Funds
 ~~~~~
 
-unlocked wallets
+Unlocked wallets
 ~~~~~~~~~~~~~~~~
 
