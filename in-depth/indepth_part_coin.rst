@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-The PART Coin
-=============
+Settlement of payments
+======================
 
-**PART is the native currency of the Particl marketplace** and can be sent to anyone, anywhere in the world, without needing any third-party to facilitate transactions. It is a secure cryptocurrency similar to Bitcoin, but packed with much more user privacy. The PART coin plays a huge role in protecting your personal information when transacting on the marketplace.
+On Particl's marketplace, payments are settled in PART. PART is a cryptocurrency that can be sent to anyone, anywhere in the world, without the need for any third-party to facilitate transactions. It is a secure cryptocurrency similar to Bitcoin, but packed with much more user privacy. The PART coin plays a huge role in protecting your personal information when transacting on the marketplace.
 
 Blockchain Specifications
 -------------------------
@@ -93,7 +92,4 @@ Each balance type has its own level of transactional privacy and serves a differ
 |                    | - Anonymously use smart-contracts                                                                                              |
 |                    | - Use private escrow contracts without sharing any information                                                                 |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------+
-=======
-Settlement of payments
-======================
->>>>>>> 173bc296b7a4e52927ace42229840107714bb143
+

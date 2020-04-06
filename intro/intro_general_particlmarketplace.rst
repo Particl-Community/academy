@@ -75,5 +75,3 @@ We've barely scratched the surface, there is so much more to learn about Particl
 - In the ``In-Depth`` section, you'll find more detailed content explaining the various components, features, and concepts behind Particl and its marketplace. While these pages might not be mandatory for you to know how to use the basic functionalities of the marketplace, they'll give you a good understanding of some of the more advanced concepts and features that makes Particl possible. 
 
 - In the ``Help`` section, you'll find a bunch of resources to help you out should you encounter any issue when using Particl. Here, you'll find answers to some of the most frequently asked questions as well as a few guides on how to fix, or avoid, some of the most common problems. Are you having an issue not mentioned in this section? Then make sure to **contact the team** so that it can help you out and add the solution in here!
-
-
