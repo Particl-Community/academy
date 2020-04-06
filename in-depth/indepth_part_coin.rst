@@ -1,12 +1,14 @@
 Settlement of payments
 ======================
 
-On Particl's marketplace, payments are settled in PART. PART is a cryptocurrency that can be sent to anyone, anywhere in the world, without the need for any third-party to facilitate transactions. It is a secure cryptocurrency similar to Bitcoin, but packed with much more user privacy. The PART coin plays a huge role in protecting your personal information when transacting on the marketplace.
+Although you can use many different coins to pay for products and services on Particl's marketplace, payments are ultimately settled in PART. 
+
+PART is an untraceable cryptocurrency that can be sent to anyone, anywhere in the world, without the need for any third-party to facilitate transactions. It is a secure cryptocurrency that is similar to Bitcoin, but packed with better tools to help you preserve your financial privacy from prying eyes. The PART coin is one of the major pieces of the Particl puzzle that protects your personal information when using the marketplace.
 
 Blockchain Specifications
 -------------------------
 
-PART is the cryptocurrency of the Particl blockchain and is the currency used all throughout the Particl ecosystem. It is first and foremost built with your security and the privacy of your personal information in mind. It uses the proven secure Bitcoin codebase but adds to it a bunch of improvements that makes it faster, more private, and more flexible. The PART coin is rigorously maintained up-to-date with Bitcoin's updates ensuring that it gets all the latest stability, security, and performance improvements. 
+PART is the cryptocurrency of the Particl blockchain. To keep your financial data safe from data scrapers, advertizers, hackers, and other undesirable actors, it uses the latest innovations in digital and blockchain security. PART's codebase is built following the proven secure Bitcoin protocol, which has been battle-tested over more than 10 years, on top of which many improvements have been added to make it faster, more private, and more flexible. The PART coin is rigorously maintained up to date with Bitcoin's latest updates so that it stays on top of the technological curve and can benefit from all the industry's stability, security, and performance improvements. 
 
 +--------------------------+------------------------------------------+
 | **Native blockchain**    | Particl                                  | 
@@ -33,7 +35,7 @@ PART is the cryptocurrency of the Particl blockchain and is the currency used al
 Staking Specifications
 ----------------------     
 
-Particl uses the Particl Proof-of-Stake (PPoS) protocol which gives you back an interest on your funds in regular dividend-like payments in exchange for keeping nodes online. It also offers highly secure staking options that lets you stake all of your funds without sacrificing an ounce of security. 
+Particl uses the Particl Proof-of-Stake (PPoS) protocol which gives back interest on your funds in the form of regular dividend-like payments in exchange for securing the network by keeping Particl nodes online. It also offers highly secure staking options that lets you stake all of your funds without sacrificing an ounce of security. 
 
 Particularly, Particl's "cold staking" mechanism allows you to earn interest on your PART coins even if they're stored offline on a cold wallet, a hardware device (i.e. Ledger Nano), a phone, or even just a piece of paper. To receive rewards more often, you can also team up with other stakers by participating in a cold staking pool. 
 
@@ -56,7 +58,7 @@ Particularly, Particl's "cold staking" mechanism allows you to earn interest on 
 Privacy Specifications
 ----------------------  
 
-PART is a modern cryptocurrency that doesn't just allow digital transactions to happen person-to-person, it also does it in a way that doesn't just permanently share all of your data to the rest of the world. How private a PART transaction is is all up to you. It has an adjustable level of privacy and lets you choose between three different types of transactions (public, blind, and anon).
+PART is a modern cryptocurrency that doesn't just allow digital transactions to happen person-to-person, but also do it in a way that doesn't permanently share all of your financial data to the rest of the world. It has an adjustable level of transactional privacy and lets you choose between three different types of transactions (public, blind, and anon), each with their own purposes. How private a PART transaction is is all up to you.
 
 +----------------------------------+---------------------------------------------+
 | **Adjustable Level of Privacy**  | Yes, 3 levels                               |
