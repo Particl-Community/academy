@@ -19,7 +19,7 @@ The entire process of setting up Particl Marketplace, from A to Z, can be seen i
 Automatic installation  
 ~~~~~~~~~~~~~~~~~~~~~~
 
-To make the installation process as easy and safe as possible we provide you skripts for your operating systems that do all in one. Downloading the latest client, verifying the checksum and starting the installation process.
+To make the installation process as easy and safe as possible we provide you scripts for your operating systems that do all in one. Downloading the latest client, verifying the checksum and starting the installation process.
 
 .. tabs::
 	 .. group-tab:: Windows

@@ -1,5 +1,10 @@
 Wallet Configuration
 ====================
 
-lorem ipsum
-lorem ipsum
+To be determined by the new setup wizard.
+
+
+Launch the Marketplace
+======================
+
+To be determined by the new setup wizard.

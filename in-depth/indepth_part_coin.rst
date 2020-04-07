@@ -1,5 +1,5 @@
-Settlement of payments
-======================
+PART Cryptocurrency
+===================
 
 Although you can use many different coins to pay for products and services on Particl's marketplace, payments are ultimately settled in PART. 
 
@@ -21,7 +21,7 @@ PART is the cryptocurrency of the Particl blockchain. To keep your financial dat
 +--------------------------+------------------------------------------+
 | **Consensu Mechanism**   | Particl Proof-of-Stake (PPoS)            |
 +--------------------------+------------------------------------------+
-| **Supply**               | NEED AUTO UPDATE                         |
+| **Supply**               | **NEED AUTO UPDATE**                     |
 +--------------------------+------------------------------------------+
 | **Inflation Rate**       | 2% per year                              |
 +--------------------------+------------------------------------------+
@@ -40,11 +40,11 @@ Particl uses the Particl Proof-of-Stake (PPoS) protocol which gives back interes
 Particularly, Particl's "cold staking" mechanism allows you to earn interest on your PART coins even if they're stored offline on a cold wallet, a hardware device (i.e. Ledger Nano), a phone, or even just a piece of paper. To receive rewards more often, you can also team up with other stakers by participating in a cold staking pool. 
 
 +-----------------------------+------------------------+
-| **Staking Revenue**         | 2% to 5% yearly        |
+| **Staking Revenue**         | 2% to ~5% per year     |
 +-----------------------------+------------------------+
-| **Cold Staking**            | 225 blocks (~8 hours)  |
+| **Cold Staking**            | Yes                    |
 +-----------------------------+------------------------+
-| **Cold Staking Pools**      | Yes                    |
+| **Staking Pools**           | Yes                    |
 +-----------------------------+------------------------+
 | **Hardware Staking**        | Yes                    |
 +-----------------------------+------------------------+
@@ -63,13 +63,13 @@ PART is a modern cryptocurrency that doesn't just allow digital transactions to 
 +----------------------------------+---------------------------------------------+
 | **Adjustable Level of Privacy**  | Yes, 3 levels                               |
 +----------------------------------+---------------------------------------------+
-| **Privacy Protocol**             | Confidential Transactions (CT) and RingCT   |
+| **Privacy Protocols**            | Confidential Transactions (CT) and RingCT   |
 +----------------------------------+---------------------------------------------+
 | **Bulletproofs**                 | Enabled                                     |
 +----------------------------------+---------------------------------------------+
 | **Stealth Addresses**            | Yes                                         |
 +----------------------------------+---------------------------------------------+
-| **Ring Signature**               | Yes                                         |
+| **Ring Signatures**              | Yes                                         |
 +----------------------------------+---------------------------------------------+
 
 Types of balances
@@ -77,21 +77,21 @@ Types of balances
 
 Each balance type has its own level of transactional privacy and serves a different function within the Particl platform.
 
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| **Public Balance** | - Receive and send public PART transactions                                                                                    |
-|                    | - Earn staking revenue                                                                                                         |
-|                    | - Pay for listing fees                                                                                                         |
-|                    | - Flag inappropriate listings on the marketplace                                                                               |
-|                    | - Create proposals and cast votes                                                                                              |
-|                    | - Use smart-contracts                                                                                                          |
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| **Blind Balance**  | - Receive and send blind transactions (amounts transfered are private)                                                         |
-|                    | - Privately use smart-contracts                                                                                                |
-|                    | - Enable RingCT transactions to be used in decentralized applications                                                          |
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| **Anon Balance**   | - Receive and send anon transactions (amounts + identities are private)                                                        |
-|                    | - Pay for products and services on Particl's marketplace                                                                       |
-|                    | - Anonymously use smart-contracts                                                                                              |
-|                    | - Use private escrow contracts without sharing any information                                                                 |
-+--------------------+--------------------------------------------------------------------------------------------------------------------------------+
+- **Public Balance**
+	- Send and receive public PART transactions.
+	- Earn staking rewards.
+	- Pay for listing fees.
+	- Flag inappropriate listings and markets.
+	- Create proposals and cast votes.
+	- Use smart-contracts.
 
+- **Blind Balance**
+	- Send and receive "blind transactions" (amounts transfered are private).
+	- Use more private types of smart-contracts.
+	- Enable RingCT transactions to be processed by smart-contracts.
+
+- **Anon Balance**
+	- Send and receive "anon transactions" (amounts + identities are private).
+	- Pay for products and services on Particl's marketplace
+	- Anonymously use smart-contracts with untraceable transactions.
+	- Participate in two-party escrow transactions without sharing your information to any third-party.
