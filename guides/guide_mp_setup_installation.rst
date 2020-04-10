@@ -18,8 +18,7 @@ The entire process of setting up Particl Marketplace, from A to Z, can be seen i
 
 Quick installation 
 ~~~~~~~~~~~~~~~~~~
-
-To make the installation process as easy and safe as possible we provide you a quick-setup guide. You are downloading the latest client, verifying the checksum and starting the installation process.
+To make the installation process as easy and safe as possible we provide you scripts for your operating systems that do all in one. Downloading the latest client, verifying the checksum and starting the installation process.
 
 .. tabs::
 	 .. group-tab:: Windows
