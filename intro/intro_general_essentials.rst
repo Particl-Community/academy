@@ -21,7 +21,7 @@ Particl does not rely on servers, payment processors, or any other central point
 
 - The **Tor network** for keeping your digital network identity (your IP address) private when using Particl.
 
-Because its network is autonomous and isn't operated by a single entity, the marketplace has a few features that behave differently than what you would expect on traditional online marketplaces.
+Because its network is autonomous and isn't operated by a single entity, the marketplace has a few features that behave differently than what you would expect on traditional online marketplaces. Let's have a look at these differences.
 
 Cryptocurrency Transactions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

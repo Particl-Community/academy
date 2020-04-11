@@ -1,2 +1,2 @@
-User Interface
-==============
+Understanding the User Interface
+================================

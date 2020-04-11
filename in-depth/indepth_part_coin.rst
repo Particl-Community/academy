@@ -8,7 +8,7 @@ PART is an untraceable cryptocurrency that can be sent to anyone, anywhere in th
 .. contents:: Table of Contents
    :local:
    :backlinks: none
-   :depth: 1
+   :depth: 2
 
 Blockchain Specifications
 -------------------------
@@ -42,7 +42,7 @@ PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bit
 Staking Specifications
 ----------------------     
 
-Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism which pays back interest in dividend-like payments to **stakers** in exchange for securing the network. PPoS offers many secure staking options that lets you reap the benefits of staking without any of its typical security risks.
+Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism which pays back interest in dividend-like payments to **stakers** in exchange for securing the network. PPoS offers many secure staking options that lets you effortlessly reap the benefits of staking without any of its typical security risks.
 
 In particular, Particl's **cold staking** mechanism allows you to earn an interest on the PART coins you own even when they're stored offline. That also includes funds stored on a cold wallet, a hardware device (i.e. Ledger Nano), a phone, or even just a piece of paper. Cold staking also lets you earn rewards more often by teaming up with other stakers. This is done by joining a **staking pool**. 
 

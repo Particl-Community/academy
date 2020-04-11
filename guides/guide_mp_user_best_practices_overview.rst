@@ -1,4 +1,4 @@
-User best-practices
+User Best Practices
 ===================
 
 lorem ipsum

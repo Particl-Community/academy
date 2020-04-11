@@ -1,4 +1,4 @@
-Vendor best-practices
+Vendor Best Practices
 =====================
 
 lorem ipsum
