@@ -15,6 +15,7 @@ The Particl Academy documentation is based on Read the Docs. Content is written 
 Homebrew is a powerful software package manager for the commandline.
 
 ```
+xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
