@@ -52,7 +52,7 @@ source ~/.bash_aliases
 Python package manager should do the job. 
 
 ```
-pip install sphinx sphinx-rtd-theme
+pip install sphinx sphinx-rtd-theme sphinx-copybutton
 ```
 
 ##### clone this repository
