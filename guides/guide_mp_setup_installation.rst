@@ -29,11 +29,8 @@ Download
 
 **Download sources**
 
-Download the latest version of Particl Desktop by visiting the `Downloads page of the official Particl website <https://particl.io/downloads/>`_ or the official Particl GitHub repository.
-
-**Download from GitHub**
-
-- `Particl Desktop (with Open Marketplace) <https://github.com/particl/particl-desktop/releases/latest>`_
+- Particl Homepage: https://particl.io/downloads/
+- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
 **Choose the right version to download**
 
@@ -62,7 +59,7 @@ Download the latest version of Particl Desktop by visiting the `Downloads page o
 Checksum verification
 ~~~~~~~~~~~~~~~~~~~~~
 
-Obtain the checksum code from the release notes verification section on the `Particl Github releases page <https://github.com/particl/particl-desktop/releases/latest>`_ for your downloaded file. Each file has its own checksum. The screenshot below shows you an example of this checksum highlighted.
+Obtain the checksum code from your download source for the downloaded file. Each file has its own checksum. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes **VERIFICATION** section.
 
 .. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
     :align: center
@@ -109,7 +106,7 @@ Obtain the checksum code from the release notes verification section on the `Par
 
 	 		sha256sum filename
 
-Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes *Verification* section on the `Particl Github releases page <https://github.com/particl/particl-desktop/releases/latest>`_. If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>`. 
+Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes *Verification* from your download source. If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
 
 **Troubleshooting checksum mismatch**
 
