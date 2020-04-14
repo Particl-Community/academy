@@ -34,5 +34,3 @@ Marketing
 
 Functional
 ----------
-
-
