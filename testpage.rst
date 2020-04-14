@@ -10,6 +10,13 @@ Links
 * `Learn everything and see examples <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
 * `The cheatsheet <http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html>`_
 
+Link as a Button
+~~~~~~~~~~~~~~~~
+
+:doc:`Particl Support <../faq/get_support>`
+
+
+
 .. note::
 	
 	#. Best practice is to `open Getting Started <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_ to see how things shall look like in the end. 
@@ -126,6 +133,25 @@ CSV
 
 Lists
 -----
+
+Big fat looking list
+~~~~~~~~~~~~~~~~~~~~
+
+.. rst-class:: bignums-xxl
+
+1. **Do this and that.**
+
+    * And FooBar of course. 
+    * If you know what I mean.
+    * Whatever
+
+2. Two
+
+   .. code-block:: php
+
+    $a = 'hello';
+    $b = 'something';
+
 
 Nested Normal 
 ~~~~~~~~~~~~~
