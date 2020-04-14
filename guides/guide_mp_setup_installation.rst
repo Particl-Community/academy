@@ -16,47 +16,6 @@ The entire process of setting up Particl Marketplace, from A to Z, can be seen i
    :backlinks: none
    :depth: 2
 
-Quick installation 
-~~~~~~~~~~~~~~~~~~
-To make the installation process as easy and safe as possible we provide you scripts for your operating systems that do all in one. Downloading the latest client, verifying the checksum and starting the installation process.
-
-.. tabs::
-	 .. group-tab:: Windows
-
-	 	**Windows procedure**
-
-	 	Open Powershell (Press ``[WIN]``+``[X]`` followed by ``[I]``) and run these commands
-
-	 	.. code-block:: bash
-
-			curl -s "https://api.github.com/repos/particl/particl-desktop/releases/latest" \
-			| select-string "TODO" \
-			| cut -d : -f 2,3 \
-			| tr -d \"
-
-
-	 .. group-tab:: Mac
-
-	 	**MacOS procedure**
-
-	 	Open terminal (Press ``[CMD]``+``[SPACE]`` and type "*terminal*") and run these commands
-
-	 	.. code-block:: bash
-
-			user@mac:~> curl -s "https://api.github.com/repos/particl/particl-desktop/releases/latest" | grep -o browser_download_url.*${3:-dmg} | cut -d : -f 2,3 | tr -d \"
-
-	 .. group-tab:: Linux
-
-	 	**Linux procedure**
-
-		Open terminal and run these commands
-	 	
-	 	.. code-block:: bash
-
-			user@linux:~> curl -s "https://api.github.com/repos/particl/particl-desktop/releases/latest" | grep -o browser_download_url.*${3:-rpm} | cut -d : -f 2,3 | tr -d \"
-
-When everything is done here head over to the :ref:`Installation Process`
-
 Download 
 ~~~~~~~~
 
