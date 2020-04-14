@@ -51,6 +51,18 @@ Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonum
 
 .. _Make me laugh: https://www.youtube.com/watch?v=hY7m5jjJ9mM
 
+Text Roles
+----------
+
+:code:`$result = $a + 23;`
+
+:none:`lib.hello.value = Hello World!`
+
+:file:`/etc/passwd`
+
+:kbd:`cmd` + :kbd:`s`
+
+
 Video
 -----
 
