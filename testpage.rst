@@ -86,7 +86,11 @@ Tables
 Even csv tables can be put in.
 
 Simple
-^^^^^^
+~~~~~~
+
+A simple Table 
+
+
 =====  =====  =======
 A      B      A and B
 =====  =====  =======
@@ -97,7 +101,7 @@ True   True   True
 =====  =====  =======
 
 Grid
-^^^^
+~~~~
 +------------------------+------------+----------+----------+
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |
 | (header rows optional) |            |          |          |
@@ -108,7 +112,7 @@ Grid
 +------------------------+------------+----------+----------+
 
 CSV
-^^^
+~~~
 
 .. csv-table:: Frozen Delights!
    :header: "Treat", "Quantity", "Description"
@@ -124,7 +128,7 @@ Lists
 -----
 
 Nested Normal 
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 * sadipscing elitr
 * magna aliquyam erat, sed diam
 	* with nesting
@@ -132,26 +136,26 @@ Nested Normal
 * ipsum dolor sit
 
 Manual 
-^^^^^^
+~~~~~~
 1. sadipscing elitr
 2. magna aliquyam erat, sed diam 
 3. ipsum dolor sit
 
 Automatic 
-^^^^^^^^^
+~~~~~~~~~
 #. sadipscing elitr
 #. magna aliquyam erat, sed diam
 #. ipsum dolor sit
 
 Normal 
-^^^^^^
+~~~~~~
 - sadipscing elitr
 - magna aliquyam erat, sed diam
 - ipsum dolor sit
 
 
-Codeblock
----------
+Codeblocks
+----------
 
 .. code-block:: none
 
@@ -174,7 +178,7 @@ Tabs
 ----
 
 Grouped tabs
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
 .. tabs::
 
@@ -209,7 +213,7 @@ Grouped tabs
 
 
 Normal tabls
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
 .. tabs::
 	 .. tab:: Windows
@@ -228,3 +232,38 @@ Normal tabls
 	    ls -la
 	    uname -a
 
+
+Toggle
+~~~~~~
+
+Toggle items can be used for FAQ like content. 
+
+.. container:: toggle
+
+    .. container:: header
+
+        **I am a header. Why is particl the best marketplace in the world?**
+
+    Because Particl is the best thing you will every see in your entire life. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    And because of **THIS**
+
+.. container:: toggle
+
+    .. container:: header
+
+        **I am a second header. Why is particl the best marketplace in the world?**
+
+    Because Particl is the best thing you will every see in your entire life. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    And because of **THIS**

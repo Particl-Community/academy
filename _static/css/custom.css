@@ -748,3 +748,22 @@ padding: .4045em 3.045em;
     background-color: transparent;
     padding: 0;
 }
+
+.toggle .header {
+    display: inline-block;
+    clear: both;
+}
+
+.toggle .header > p {
+display: inline;
+}  
+
+.toggle .header:before {
+    content: " ▶";
+    padding: .25em .25em .0em .0em;
+}
+
+.toggle .header.open:before {
+    content: " ▼";
+    padding: .25em .25em .0em .0em;
+}
