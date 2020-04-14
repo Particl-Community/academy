@@ -1,9 +1,3 @@
-
-
-Enable Tor (Network Privacy)
-============================
-
-
 User Best Practices
 ===================
 

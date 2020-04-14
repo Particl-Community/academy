@@ -73,6 +73,7 @@ This section contains step-by-step walkthrough tutorials on the most important a
    guides/guide_mp_vendor_understanding_sellflow
    guides/guide_mp_general_market_management
    guides/guide_mp_general_enable_staking
+   guides/guide_general_enable_tor
    guides/guide_mp_user_best_practices_overview
    guides/guide_mp_vendor_best_practices_overview
 
@@ -80,7 +81,8 @@ This section contains step-by-step walkthrough tutorials on the most important a
 * :doc:`Buying process for customers <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Selling process for vendors <guides/guide_mp_vendor_understanding_sellflow>`   
 * :doc:`Manage markets and storefronts <guides/guide_mp_general_market_management>`
-* :doc:`Enable staking <guides/guide_mp_enable_staking>`
+* :doc:`Earn staking rewards <guides/guide_mp_general_enable_staking>`
+* :doc:`Enable Tor (Network Privacy) <guides/guide_general_enable_tor>`
 * :doc:`User best-practices <guides/guide_mp_user_best_practices_overview>`
 * :doc:`Vendor best-practices <guides/guide_mp_vendor_best_practices_overview>`
 

@@ -75,7 +75,7 @@ Another type of data that can be pretty damaging when it get stolen is your netw
 
 Like any type of data, it can make your online experience more convenient. But it can also make your life hell if it ends up in the wrong hands. 
 
-On Particl, it's impossible for anyone to associate an IP address to any other Particl-related data. And while your IP address is broadcast to other peers on the network, it doesn't reveal anything meaninful about you. The only thing it really tells is that someone in the world owns this IP address and uses Particl.
+On Particl, it's impossible for anyone to associate an **IP address** to any other Particl-related data. And while your IP address is broadcast to other peers on the network, it doesn't reveal anything meaninful about you. The only thing it really tells is that someone in the world owns this IP address and uses Particl.
 
 If you want to take your online privacy a step further, you can **route your connection through the Tor network**, a networking protocol used to spoof internet connections. This will broadcast a fake IP address to the network and keep your real one confidential.
 
@@ -112,17 +112,59 @@ Particl makes sure to put that issue to rest by encrypting all the messages you 
 Achieve Maximum Privacy
 -----------------------
 
+While Particl provides you, by default, with an unmatched level of data security and online privacy, there are still some tricks you can do to improve your privacy even more. 
+
 Make Private Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+	
+	All payments made on the marketplace are private by default and cannot be made with public transactions.
+
+When you're sending a PART transaction to someone else, it's possible for you to choose its level of privacy. By default, Particl makes public transactions which means they are fully transparent and publicly auditable.
+
+To improve your privacy, try sending "anon" transactions instead of public ones. Anon transactions hide the amount being transacted as well as the identity of both participants. This keeps your personal information and the one of the person you're transacting with entirely confidential.
 
 Enable Tor
 ^^^^^^^^^^
 
+Another easy way to improve your online privacy when using Particl is to route the Particl Desktop client through the Tor network, a networking protocol used to spoof internet connections. This will broadcast a fake IP address to the network and keep your network identity private from the rest of the people connected to Particl.
+
+To learn how to enable Tor on your Particl Desktop client, head over to the :doc:`Enable Tor (Network Privacy) <guides/guide_general_enable_tor>` user guide.
+
 Use PART Addresses Only Once
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+	
+	Every times you receive a payment on a Particl address, your Particl Desktop client will automatically generate a new address for you.
+
+When using any cryptocurrency, it's widely recommended not to re-use the same address over and over. Ideally, cryptocurrency addresses should only be used once, when possible, and a new address should be generated every time you need to receive a payment.
+
+The reason behind this is pretty simple, when someone gets to know an address of yours, they can look it up on a blockchain explorer and track all the transactions you've ever sent or received from that address.
+
+When you generate a new address, there is no previous transaction that can be analyzed by anyone. This keeps your personal information private and ensures no prying eye can dig into your financial records.
 
 Use Multiple Wallets
 ^^^^^^^^^^^^^^^^^^^^
 
+You can even go a step further and generate entirely independent wallets instead of just creating new addresses. In fact, even when creating new addresses, it's still possible to match "transaction outputs" together and associate clusters of transactions to you.
+
+To understand why, imagine you receive two payments. The first payment, worth $100, is received with Address A. The second payment, worth $50, is received with Address B. That gives you $150 in total stored in two different addresses. In this example, both Address A and Address B are brand new addresses that have never received payments before.
+
+Now let's say you want to make a payment of $125 to someone you don't know. None of your two addresses contain $12. To make the payment, Particl is automatically going to take a few coins from Address A and a few coins from Address B and combine them together so that it's able to send $125 worth of PART out of your wallet.
+
+When that happens, the two addresses are part of the transaction, which also means they both can be tracked by the person receiving your payment (as well by everyone else he shares your address with).
+
+When you create multiple wallets inside your Particl Desktop client, this makes this behavior impossible to happen. Each wallet is entirely isolated and can't be used by other wallets on your client to fund transactions. They are also encrypted independently with their own password.
+
+This greatly improves your online privacy by taking the human mistake factor out of the equation and making it impossible to unwillingly "taint" transactions with addresses you'd rather keep private.
+
 Use Multiple User Profiles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When you list products and services on Particl, they are associated to a Particl address of yours. This is what is referred to as your seller profile. When listing multiple items, they all get published under the same seller profile and, for this reason, can all be linked to the same vendor. Of course, this doesn't tell anyone anything about you, but it lets people know that some items on the marketplace are being sold by the same unknown person.
+
+While this is good for brand recognition and building yourself a reputation, this may not always be what you want. When that's the case, you can create an infinite number of seller profiles and use them to publish listings. 
+
+To do so, simply create a new market or storefront, pick what seller profile you want to use to "generate" the market, and start listing products.
