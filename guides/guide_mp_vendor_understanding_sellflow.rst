@@ -29,7 +29,7 @@ Publish Items
 To make a sale on Particl, you need to first put your items up for sale. There are many ways to create listings on Particl and the right way for you to create listings depends on your requirements.
 
 Publish a Single Item
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 If you want to only list a single item, then simply follow these steps.
 
@@ -185,6 +185,29 @@ Once your package is shipped, keep an eye out for your payment. Once your buyer 
 #. Click on the order's tile to expand its details and see the date and time it was completed.
 #. Navigate to the ``HISTORY`` page and click on the `Received` tab.
 #. Find the transaction based on the date and time at which point the order was completed to verify that you've succesfully received your payment.
+
+Publish a Listing Again After it Expires
+----------------------------------------
+
+Re-publishing a listing after it expires requires you to go through the listing process once again. Simply follow these steps. 
+
+Publish a Single Item
+~~~~~~~~~~~~~~~~~~~~~
+
+#. Navigate to the ``SELL`` page of the market menu on the left of your Particl Desktop client.
+#. Click on the ``Listings`` tab.
+#. Find the listing you want to re-publish in the list of previously published listings. It should be marked as ```EXPIRED``.
+#. Click its tile to expand it, and click on the ``Clone listing`` icon to clone it. This will bring you to its publishing page. 
+#. Update its information and price, if needed, and click on the ``Save & Publish`` button.
+#. Unlock your wallet when prompted to.
+#. Set the expiry time (the number of days your listings will be available) in the dropdown menu and click on ``Confirm & Publish``.
+#. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the Particl marketplace.
+
+Publish a WooCommerce or .CSV Inventory File
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you want to publish a WooCommerce or .CSV inventory file again, simply go through the publishing process once again. 
+
 
 Get a Sales Report for Tax Purposes
 ---------------------------------------

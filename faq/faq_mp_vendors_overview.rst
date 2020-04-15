@@ -10,188 +10,142 @@ Seller FAQ
    :backlinks: none
    :depth: 1
 
-   
-What are PART balances (public, blind, anon) and how to manage/convert them?
----------------------------
+.. container:: toggle
 
-Balance types are an important concept to understand to properly use Particl. Each balance type has its own level of transactional privacy and serves a different function within the Particl platform.
+    .. container:: header
 
-- **Public**
-	- **What is it?** Public balances are the default balance type used by exchanges and other third-party services. It is also the only balance type that allows staking (earning a passive income on your funds through Proof-of-Stake) 
-	- **What's its level of privacy?** When sending coins from a public balance, the transaction's data (the sender, receiver, and number of coins transfered) is publicly auditable on any Particl blockchain explorer, just like a Bitcoin transaction. It is the balance type with the lowest level of privacy.
-	- **What is it used for?**
-		- Receiving and sending public PART transactions .
-		- Staking PART coins (earn a passive income on your funds through Proof-of-Stake).
-		- Paying for listing fees.
-		- Flagging inappropriate listings (one(1) coin equals one (1) vote).
-		- Casting votes using Particl Desktop's prososal system ("PROPOSALS").
-- **Blind (Private)**
-	- **What is it** Blind balances are private balances that can interact with decentralized applications such as Particl's marketplace. Because they have "programmable outputs", they can be used by smart-contract to make decentralized applications more private than with public balances. They also enable anon balances, which do not have programmable outputs, to be used in decentralized applications by linking their outputs to blind balances. 
-	- **What's its level of privacy?** When sending coins from a blind balance, the number of coins sent is anonymized on any Particl blockchain explorer. Only the sender and receiver's PART addresses are made publicly available. This type of balance uses the Confidential Transactions privacy protocol.
-	- **What is it used for?**
-		- Receiving and sending transactions without publicly disclosing the number of coins sent between two parties.
-		- Using decentralized applications and smart-contracts without publicly disclosing the number of coins transacted.
-		- Enabling anon balances to be used by decentralized applications and smart-contracts so that they can benefit from the highest level of privacy possible.
-- **Anon (Private)**
-	- **What is it** Anon balances are the most private type of balances on Particl and are used by those looking for the ultimate privacy package.
-	- **What's its level of privacy?** When sending coins from an anon balance, both the number of coins sent and the transaction's participants (sender, receiver) are anonymized on any Particl blockchain explorer. An anon transaction is an entirely anonymous cryptocurrency transaction. This type of balance uses the RingCT + Bulletproofs privacy protocol.
-	- **What is it used for?** 
-		- Receiving and sending entirely anonymous transactions where both the number of coins sent and the transaction's participants are kept hidden.
-		- Paying for products and services on Particl's marketplace.
-		- Escrowing transactions anonymously.
+        **Why am I not receiving any new order?**
+ 
+    If you have encrypted your Particl Desktop client, **you need to unlock it with your password** so that it can pick up new orders from the Particl network. If you keep your client locked, then it won't be able to receive any order. 
 
-**You can easily send coins to and from different balance types to use the various functionalities of Particl Desktop. To do so, simply follow these steps:**
+    This functionality will be added at a later stage during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
-#. Navigate to the send and convert page ("SEND / CONVERT") of the wallet menu on the left of your Particl Desktop client.
-#. Click on the convert tab ("Convert Public <-> Private").
-#. In the "PAY FROM" section on the left of the page, select the type of balance you want to send coins from.
-#. In the "CONVERT TO" section on the right of the page, select the type of balance you want to send coins to.
+.. container:: toggle
 
-   - For example, if you wanted to convert coins from a public balance to an anon balance, you would select Public on the left and Anon on the right. 
-#. Enter the amount of coins you want to convert. 
-#. Click on the "Make payment" button and unlock your wallet when prompted to.
-#. Review the transaction details and click on the "Confirm & Send" button to execute the transaction.
-#. Wait at least one (1) confirmation (approximately 2 minutes) for the converted coins to be available unless you have converted them into an anon balance, which will need twelve (12) confirmations (approximately 24 minutes) before becoming available again.
+    .. container:: header
 
-Why am I not receiving any order? 
----------------------------
+        **How can I edit or delete a listing after it has been published?**
 
-If you have encrypted your Particl Desktop client, **you need to unlock it with your password** so that it can pick up new orders from the Particl network. If you keep your client locked at all time, then it won't be able to receive any order. 
+    Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. If you want to change the description or image of an item, please publish a new listing. 
 
-The reason for this is that, due to the private-by-default and decentralized nature of the Particl marketplace, your client cannot tell if an order is addressed to you or to another seller. The only way for it to pick up your orders is by attempting to decrypt the entirety of the orders broadcast on the network by buyers using your client’s password. If an order cannot be decrypted, it means it is not addressed to you. If it can be, then that means that’s an order for one of your listings.
+    This functionality will be added at a later stage during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
-How can I edit or delete a listing after it has been published?
----------------------------
+.. container:: toggle
 
-Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. Listings on Particl are broadcast using P2P messages relayed by other peers on the Particl network. Once a message is broadcast, it cannot be modified due to the decentralized nature of the network and to maintain the network's integrity. It is the same reason why you cannot modify past Bitcoin transactions. While there are workarounds to circumvent the issue of editing or deleting already published listings, they haven't yet been integrated into the marketplace. This functionality will be added at a later stage during the Beta phase of development. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
+    .. container:: header
 
-However, take note that every listings require you to enter an expiry date during the publishing process. Once this expiry date has passed, the listing is removed from the marketplace and won't be visible to buyers anymore. A listing can then be modified before re-uploading.
+        **How can I manage quantities for my products?**
 
-How can I manage quantities for my products?
+    Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other attributes such as sizes, colors, fabrics, and etc.
 
----------------------------
-Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other attributes such as sizes, colors, fabrics, and etc. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
+    To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
-How to list an item with multiple sizes, colors, and other attributes?
----------------------------
+.. container:: toggle
 
-Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other attributes such as sizes, colors, fabrics, and etc. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
+    .. container:: header
 
-How long do listings stay on the marketplace? 
----------------------------
+        **How can I provide item options such as size, color, and other attributes?**
 
-The expiry time for listings on the Particl marketplace depends on the listing fee you pay when publishing your listings. When publishing one or multiple listings, the Particl Desktop client will prompt you to select the number of days you want your listings to stay live. Simply choose the number of days from the dropdown menu.
+    Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other attributes such as sizes, colors, fabrics, and etc.
 
-How do I re-publish a listing?
----------------------------
+    To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
-Due to the current stage of development of the Particl marketplace (Beta), listings cannot be automatically re-published. To publish a listing once again, you need to clone it first, then publish the clone. To do so, follow these steps.
+.. container:: toggle
 
-#. Navigate to the sell page ("SELL") in the market menu on the left of your Particl Desktop client.
-#. Click on the listings tab ("Listings") to see all previously published listings.
-#. Find the listing you want to re-publish in the list of previously published listings. It should be marked as "EXPIRED".
-#. Click its tile to expand it, and click the "Clone listing" icon to clone it. This will bring you to its publishing page. 
-#. Update its information and price, if needed, and click on the "Save & Publish" button.
-#. Unlock your wallet when prompted to.
-#. Set the expiry time (the number of days your listings will be available) in the dropdown menu and click on "Confirm & Publish".
-#. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the Particl marketplace.
+    .. container:: header
 
-What do each order status mean?
----------------------------
+        **How long do listings stay on the marketplace?**
 
-- **BIDDING:** A buyer has made a bid on an item and is now waiting for you to accept the bid.
-- **PAYMENT:** You have accepted a bid on an item and are now waiting for the buyer to confirm payment and lock his/her funds (payment + security deposit) into escrow.
-- **ESCROW:** The buyer has locked his/her funds into escrow and is now waiting for you to lock your security deposit into escrow.
-- **PACKAGING:** The buyer of the item is now waiting for you to package the order and ship it.
-- **SHIPPING:** You have marked the item as shipped and are now waiting for the buyer to confirm the delivery.
-- **COMPLETE:** The item has been confirmed to be received by the buyer. There are no more open actions in this transaction and you've received both the payment for the order and your security deposit back.
+    That's all up to you! The expiry time for listings on the marketplace depends on the listing fee you pay. When publishing one or multiple listings, the Particl Desktop client will prompt you to select the number of days you want your listings to stay live. Simply choose the number of days from the dropdown menu and you're all set!
 
-How to sell an item on Particl from start to finish?
----------------------------
+.. container:: toggle
 
-#. Publish your listing(s).
-#. Wait for a customer to place a bid on an item.
-#. Once a bid is placed, accept the bid by going to the "Orders" tab of the sell page ("SELL") and by clicking on the "Accept bid" button.
-#. Wait for the customer to lock his funds (payment + security deposit) into escrow.
-#. Once the customer has locked his funds into escrow, lock your security deposit by going to the "Orders" tab of the sell page ("SELL") and by clicking on the "Complete escrow" button.
-#. Package the ordered item and ship it through the post.
-#. Once that is done, go to the "Orders" tab of the sell page ("SELL") and click the "Mark as shipped" button.
-#. At this stage, you can optionally add a tracking number or note to the customer. Enter the information, if any, and click on the "Order shipper" button.
-#. Wait for your customer to confirm he has received the item after which he will confirm the order as completed.
-#. Once the order is completed, you will receive your payment as well as your security deposit back. The transaction history will show up in the "OVERVIEW" or "HISTORY" pages of the market menu on the left of your Particl Desktop client to track the publishing status.
+    .. container:: header
 
+        **How can I publish listings again after they expire?**
 
-How to create your own market?
----------------------------
+    Simply clone a single listing or, if you are using WooCommerce or .CSV inventory files, go through the usual listing importation process once again. `Click here <guides/guide_mp_vendor_understanding_sellflow.html#publish-a-listing-again-after-it-expires>`_ for all the details.
 
-How to create your own storefront?
----------------------------
+.. container:: toggle
 
-How to manage your seller profiles?
----------------------------
+    .. container:: header
 
-How to promote your market or storefront on Particl’s Market Browser?
----------------------------
+        **What do each order status mean?**
 
-How to send a tracking number or note to a customer?
----------------------------
+    - **BIDDING:** A buyer has made a bid on an item and is now waiting for you to accept the bid.
+    - **PAYMENT:** You have accepted a bid on an item and are now waiting for the buyer to confirm payment and lock his/her funds (payment + security deposit) into escrow.
+    - **ESCROW:** The buyer has locked his/her funds into escrow and is now waiting for you to lock your security deposit into escrow.
+    - **PACKAGING:** The buyer of the item is now waiting for you to package the order and ship it.
+    - **SHIPPING:** You have marked the item as shipped and are now waiting for the buyer to confirm the delivery.
+    - **COMPLETE:** The item has been confirmed to be received by the buyer. There are no more open actions in this transaction and you've received both the payment for the order and your security deposit back.
 
-Due to the current stage of development of the Particl marketplace (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the order processing flow. In fact, once you mark an order as shipped, the Particl Desktop client will prompt you to enter a tracking number or note to your customer before going to the next step. Doing so is entirely optional but helps your customers keep track of their order(s). 
+    
+.. container:: toggle
 
-An integrated messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
+    .. container:: header
 
-How to respond to a question, comment, review, or feedback left on one of your listings?
----------------------------
+        **How can I send a tracking number or note to my customer?**
 
-How to manage refunds and returns through the marketplace?
----------------------------
+    Once you mark an order as ``SHIPPED``, your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
 
-Due to the current stage of development of the Particl marketplace (Beta), this feature is currently not supported. Direct messaging and escrow management/negociations will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
+    A more complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
-Why does my product shows up in "reported listings" and what does this mean?
----------------------------
+.. container:: toggle
 
-If one of your listing shows up in the reported listings section, it means at least one user has flagged it as inappropriate. If enough users flag a listing as inappropriate, it will be taken off the marketplace. If your listing shows up in the reported listings section but still shows up on the marketplace, it means that not enough users have flagged the listing.
+    .. container:: header
 
-The Particl marketplace has a self-moderation system where any user can flag products as inappropriate. The system works similarly to the Reddit upvote and downvote system where any user can upvote or downvote a thread or reply. However, Particl's self-moderation mechanism is based on one (1) coin equals one (1) vote instead of Reddit's (1) user equals one (1) vote system. The reason for the difference is that, because of Particl's decentralized nature and focus on user privacy, it is impossible for the network to know if a single user creates multiple accounts and downvotes the same listing until it gets delisted. By instead giving each coin one (1) voting right, it becomes impossible to game the network as you need, in all cases, to get more PART coins to get more voting power. If a user downvotes a listing and then moves his coins to another wallet, the downvote will not be effective and counted anymore. 
+        **How can I reply to a comment left on one of my listings?**
 
-To learn more about Particl's self-moderation mechanism, **[read this blog post](https://particl.news/particl-explained-decentralized-marketplace-moderation-7daa3c75d5b2)**.
+    Go in ``LISTINGS``, click on the tile of your listing, and navigate to the ``Questions and Answers`` tab. There, you'll see all comments left on your listing with the option to reply to them. When replying to people's comments, a special *Vendor* flair will be put next to you comment to let others know you are the seller.
 
-How to contact and send a message to a customer?
----------------------------
+.. container:: toggle
 
-Due to the current stage of development of the Particl marketplace (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the order processing flow. In fact, once you mark an order as shipped, the Particl Desktop client will prompt you to enter a tracking number or note to your customer before going to the next step. Doing so is entirely optional but helps your customers keep track of their order(s). 
+    .. container:: header
 
-An integrated messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
+        **How can I manage refunds and returns through the marketplace?**
 
-How can I get an order/sales/shipment report for tax purposes?
----------------------------
+    Due to the current stage of development of the Particl marketplace (Beta), this feature is currently not supported. Direct messaging and escrow management/negociations will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
-Due to the current stage of development of the Particl marketplace (Beta), an integrated tax reporting system isn't included yet but is planned to be added at a later time during the Beta phase of development. You can, however, manually inspect your transaction history to get the data you need to report your taxes.
+.. container:: toggle
 
-#. Navigate to the sell page ("SELL") of the market menu on the left of your Particl Desktop client.
-#. Click on the orders tab ("Orders").
+    .. container:: header
 
-   - On that page, you can manually search for a specific order by typing its title in the search bar or filter all of your orders by their statuses.
-#. Find the orders you need and click on their tiles to get more details and data.
-	
-   - Doing so will show you the customer's address, when the order was created and completed, as well as all price-related information.
-   - To calculate the price of an order in your national currency, take note of the number of PART you received as payment as well as the date and time the order was completed. 
-   - Go on a website that keeps track of PART's historical price data and get the proper national currency valuation of your payment at the time you received it. CoinMarketCap is a good website where you can find that information, just **[click on this link](https://coinmarketcap.com/currencies/particl/historical-data/)** to be taken directly to the historical data page for the PART coin.
+        **Why does my product shows up in "Reported listings" and what does this mean?**
 
-Functionalities that will make tax reporting, order data exporting, and national currency calculations will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to **[Particl's development roadmap](https://particl.io/roadmap)**.
+    If one of your listing shows up in the *Reported listings* section, it means at least one person has flagged it as inappropriate. If enough people do the same, it will be taken off the marketplace entirely. If your listing shows up in the reported listings section but still shows up on the marketplace, it means that not enough people have flagged it.
 
-How can I get further technical support?
----------------------------
+    Want to know more about Particl's marketplace moderation system? Head over to the :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>` in-depth guide!
 
-You can find a ton of information by consulting **[this pinned thread](https://www.reddit.com/r/Particl/comments/erews3/useful_links_to_start_with_particl_project_2020/)** on Particl's Reddit page. It contains a wide array of useful links that will most likely answer most of your questions.
+.. container:: toggle
 
-Additionally, Particl is an open-source project, meaning you can get a lot of technical support from Particl's own online community. Simply join one of these social platforms and look for their help channels. Don't be shy, there is a whole online community waiting to be help you out!
+    .. container:: header
 
-- **`Discord server <https://discord.me/particl>`_** (more specifically, the **#support** channel)
-- **[Telegram group](https://t.me/particlproject)** (more specifically, the **[help channel](https://t.me/particlhelp)**)
-- **[Riot server](https://matrix.to/#/+particl:matrix.org)** (more specifically, the **[Particl Help channel](https://riot.im/app/#/room/#particlhelp:matrix.org)**)
+        **Why does my product shows up in "Reported listings" and what does this mean?**
 
-Finally, you can get direct support from the Particl team itself by signing up to the Vendor Onboarding Program. This will give you access to VIP vendor-specific channels on Discord and will also give you a direct line of contact with team members who'll be able to assist you with any issue you encounter. 
+    Due to the current stage of development of the Particl marketplace (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the marketplace's transaction flow.
 
-To learn more about the Vendor Onboarding Program and its benefits, **[follow this link](https://particl.io)**.
+    Once you mark an order as ``SHIPPED``, your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
+
+    A more complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Why does my product shows up in "Reported listings" and what does this mean?**
+
+    Due to the current stage of development of the Particl marketplace (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the marketplace's transaction flow.
+
+    Once you mark an order as ``SHIPPED``, your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
+
+    A more complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How can I get more technical support?**
+
+    
+	First, make sure that your question or issue isn't already addressed somewhere in the Particl Academy. That's the easiest way to fix most problems. If you can't find the answer you're looking for in there, then head over to the `Get Support <faq/get_support>` section to get more help!
+
