@@ -59,7 +59,7 @@ Two-party Escrow
 
 Another big difference between traditional marketplaces and Particl is how transactions between two parties are secured. In fact, scammers are rampant all over the internet, and every marketplace needs to have solutions in place to protect both its buyers and sellers from malicious actors. 
 
-On traditional marketplaces, this requires a third-party to hold payments on behalf of the involved parties while a service is being provided or while a product is being shipped. This role is usually assumed by the marketplace operator itself (i.e. Amazon), a payment processor (i.e. Paypal, Visa), or third-party escrow services (i.e. a bank). 
+On traditional marketplaces, this requires a third-party to hold payments on behalf of the involved parties while a service is being provided or a product is being shipped. This role is usually assumed by the marketplace operator itself (i.e. Amazon), a payment processor (i.e. Paypal, Visa), or third-party escrow services (i.e. a bank). 
 
 While this "mediated" escrow solution works in most cases, there are a few downsides to it such as **higher costs** due to the fees, **biased decisions** (such as the marketplace almost always ruling in favor of the buyer), as well as **reduced data security** and **user privacy** for all. 
 
