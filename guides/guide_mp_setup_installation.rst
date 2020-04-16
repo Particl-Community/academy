@@ -286,13 +286,13 @@ Using the Tor daemon
 		#. Open :guilabel:`Open command window here` from the menu.
 		#. In the terminal that pops up, type:
 
-			.. code-block::
+			.. code-block:: bash
 
 				tor.exe –service install
 
 		#. Verify that Tor service is running, type: 
 			
-			.. code-block::
+			.. code-block:: bash
 
 				sc query "Tor" | find "RUNNING"
 
@@ -304,7 +304,7 @@ Using the Tor daemon
 
 	 		If not already in place install homebrew. Put this code into the terminal.
 
-	 		.. code-block:: 
+	 		.. code-block:: bash 
 
 	 				xcode-select --install
 					ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -312,13 +312,13 @@ Using the Tor daemon
 
 		#. Install the Tor daemon with homebrew by typing:
 
-			.. code-block::
+			.. code-block:: bash
 
 				brew install tor
 
 		#. Enable Tor as a Brew service by typing:
 
-			.. code-block::
+			.. code-block:: bash
 
 				brew services start tor
 
@@ -329,13 +329,13 @@ Using the Tor daemon
 	 	#. Open a :guilabel:`terminal`
 		#. Install the Tor daemon by typing:
 
-			.. code-block:: 
+			.. code-block:: bash 
 
 				sudo apt install tor
 
 		#. Make sure Tor launches on startup by typing: 
 
-			.. code-block:: 
+			.. code-block:: bash
 
 				sudo systemctl enable tor
 
@@ -347,19 +347,19 @@ On linux, you can also run Tor as a hidden service and connect your :guilabel:`P
 #. Open a :guilabel:`terminal`.
 #. Install the Tor network by typing: 
 	
-	.. code-block:: 
+	.. code-block:: bash
 
 		sudo apt-get install tor
 
 #. Define that you want to use Tor as a hidden service by modifying the Tor config file. To do so, type: 
 
-	.. code-block:: 
+	.. code-block:: bash
 
 		sudo nano /etc/tor/torrc
 
 #. In the config file, add these two lines:
 
-	.. code-block::
+	.. code-block:: bash
 
 		HiddenServiceDir /var/lib/tor/particl-service/
 		HiddenServicePort 51738 127.0.0.1:51738
@@ -367,19 +367,19 @@ On linux, you can also run Tor as a hidden service and connect your :guilabel:`P
 #. Save and exit the file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
 #. Restart Tor by typing 
 	
-	.. code-block:: 
+	.. code-block:: bash
 		
 		sudo service tor restart
 
 #. Find your hidden service’s IP address (.onion) by typing (For the purpose of this tutorial, we'll refer to this address as :code:`[yourexternalip].onion`):
 	
-	.. code-block::
+	.. code-block:: bash
 
 		sudo cat /var/lib/tor/particl-service/hostname
 
 #. Modify your Particl config file to route its connection through your hidden service by typing: 
 
-	.. code-block::
+	.. code-block:: bash
 
 		touch ~/.particl/particl.conf && nano ~/.particl/particl.conf
 
@@ -423,7 +423,7 @@ Enable by default from commandline
 #. Open the configuration file: :code:`nano ~/.particl/particl.conf`
 #. Add this line to the configuration file:
 
-	.. code-block:: 	
+	.. code-block:: bash
 
 		proxy=127.0.0.1:9150
 
