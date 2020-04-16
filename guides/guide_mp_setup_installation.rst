@@ -493,12 +493,12 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 	**Updating Tor**
 
-	 	#. #. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 	#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
 	 	#. Type this line of code and  hit :kbd:`ENTER ↵`
 
-	 	.. code-block:: bash
-
-	 		brew update && brew upgrade
+	 		.. code-block:: bash
+	
+	 			brew update && brew upgrade
 
 	 .. group-tab:: Linux
 
