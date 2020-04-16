@@ -37,7 +37,7 @@ sys.path.append(os.path.abspath('_extensions'))
 extensions = [
     'sphinx_tabs.tabs',
     'sphinx.ext.autosectionlabel',
-    'sphinx_copybutton'
+    'sphinx.ext.sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
