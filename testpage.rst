@@ -1,87 +1,208 @@
-
+========
 testpage
 ========
 
 This page is for testing purposes.
 
-Links
------
-* `rst manual <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-* `Learn everything and see examples <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
-* `The cheatsheet <http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html>`_
-
-Link as a Button
-~~~~~~~~~~~~~~~~
-
-:doc:`Particl Support <../faq/get_support>`
-
-
-
 .. note::
 	
 	#. Best practice is to `open Getting Started <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_ to see how things shall look like in the end. 
-	#. If you found your example click on ``Edit on Gitub`` in the top right corner. 
-	#. Finally click the ``raw`` version with github to see how the markup was realized.
+	#. If you found your example click on :guilabel:`Edit on Gitub` in the top right corner. 
+	#. Finally click the :guilabel:`raw` version with github to see how the markup was realized.
 
+.. contents:: Table of Contents
+   :local:
+   :backlinks: none
+   :depth: 4
 
-Testing ground
---------------
+Metadata
+========
 
-this is the area to play around with reStructuredText.
+Each page should have its own metadata to have a descent intro on the searchengines and if links are shared.
 
+.. code-block:: rst
+
+    .. meta::
+      
+      :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
 
 Headings
---------
+=============
 
-This area shows some sample texts. Or an internal link to a certain page like the Introduction Page of Particl Marketplace n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_
+This area shows some sample texts. Or an internal link to a certain page like the :button:`Particl Support Page <../faq/get_support>` n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_ or to reference to a heading on this page like :ref:`Video` or :ref:`Images` but you can also reference another page :ref:`intro/intro_general_particlmarketplace`
 
 First heading
--------------
+=============
 
 Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 Second heading
-~~~~~~~~~~~~~~
+--------------
 
 Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 Third heading
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
+
+Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Fourth heading
+""""""""""""""
+
 Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 .. _Make me laugh: https://www.youtube.com/watch?v=hY7m5jjJ9mM
 
+.. code-block:: rst
+
+    Headings
+    --------
+
+    This area shows some sample texts. Or an internal link to a certain page like the :ref:`Particl Support Page <../faq/get_support>` n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_
+
+    ==============
+    Document title
+    ==============
+
+    use only once in a document
+
+    First heading
+    -------------
+
+    Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+    Second heading
+    ~~~~~~~~~~~~~~
+
+    Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+    Third heading
+    ^^^^^^^^^^^^^
+    Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+    .. _Make me laugh: https://www.youtube.com/watch?v=hY7m5jjJ9mM
+
+.. code-block:: rst
+
+    1.  ==========  for the first  level
+    2.  ----------  for the second level
+    3.  ~~~~~~~~~~  for the third  level
+    4.  """"""""""  for the fourth level
+    5.  ''''''''''
+    6.  ^^^^^^^^^^
+    7.  ##########
+    8.  **********
+
 Text Roles
-----------
+==========
+
+inline code
+-----------
 
 :code:`$result = $a + 23;`
 
-:none:`lib.hello.value = Hello World!`
+.. code-block:: rst
+
+    :code:`$result = $a + 23;`
+
+Abbriviation 
+------------
+
+If the role content contains a parenthesized explanation, it will be treated specially: it will be shown in a tool-tip in HTML, and output only once in LaTeX.
+
+:abbr:`LIFO (last-in, first-out)`
+
+.. code-block:: rst
+
+    :abbr:`LIFO (last-in, first-out)`
+
+File Path
+---------
+
+Using a file path
 
 :file:`/etc/passwd`
 
+.. code-block:: rst
+
+    :file:`/etc/passwd`
+
+Keystrokes
+----------
+
+Mark a sequence of keystrokes
+
 :kbd:`cmd` + :kbd:`s`
 
+.. code-block:: rst
+
+    :kbd:`cmd` + :kbd:`s`
+
+GUI Labels
+----------
+
+Using GUI Labels
+
+:guilabel:`&Cancel`, :guilabel:`O&k`, :guilabel:`&Reset`, :guilabel:`FAQ`
+
+.. code-block:: rst
+
+    :guilabel:`&Cancel`, :guilabel:`O&k`, :guilabel:`&Reset`, :guilabel:`FAQ`
+
+Subscript and Superscript 
+-------------------------
+
+:subscript:`subscripted`
+
+:superscript:`superscripted`
+
+.. code-block:: rst
+
+    :subscript:`subscripted`
+    :superscript:`superscripted`
+
+Links
+=============
+
+* `rst manual <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+* `Learn everything and see examples <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
+* `The cheatsheet <http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html>`_
 
 Video
------
+=============
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://www.youtube.com/embed/sUodtqG8DUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="390" src="https://www.youtube.com/embed/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
+.. code-block:: rst
+
+      .. raw:: html
+
+          <div style="text-align: center; margin-bottom: 2em;">
+          <iframe width="100%" height="390" src="https://www.youtube.com/embed/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+
 Images
-------
+=============
 
 .. figure:: ./_static/media/images/canvas_w_logo.png
     :align: center
     :alt: Particl Logo on a dark canvas
     :target: ./_static/media/images/canvas_w_logo.png
 
+.. code-block:: rst
+
+      .. figure:: ./_static/media/images/canvas_w_logo.png
+          :align: center
+          :alt: Particl Logo on a dark canvas
+          :target: ./_static/media/images/canvas_w_logo.png
+
 Boxes
------
+=============
 
 .. note::
 	
@@ -99,13 +220,31 @@ Boxes
 	
 	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
+.. code-block:: rst
+
+      .. note::
+  
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+      .. tip::
+  
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+      .. danger::
+  
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+      .. attention::
+  
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
 Tables
-------
+=============
 
 Even csv tables can be put in.
 
 Simple
-~~~~~~
+------
 
 A simple Table 
 
@@ -119,8 +258,19 @@ False  True   False
 True   True   True
 =====  =====  =======
 
+.. code-block:: rst
+
+    =====  =====  =======
+    A      B      A and B
+    =====  =====  =======
+    False  False  False
+    True   False  False
+    False  True   False
+    True   True   True
+    =====  =====  =======
+
 Grid
-~~~~
+----
 +------------------------+------------+----------+----------+
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |
 | (header rows optional) |            |          |          |
@@ -130,8 +280,20 @@ Grid
 | body row 2             | ...        | ...      |          |
 +------------------------+------------+----------+----------+
 
+.. code-block:: rst
+
+    +------------------------+------------+----------+----------+
+    | Header row, column 1   | Header 2   | Header 3 | Header 4 |
+    | (header rows optional) |            |          |          |
+    +========================+============+==========+==========+
+    | body row 1, column 1   | column 2   | column 3 | column 4 |
+    +------------------------+------------+----------+----------+
+    | body row 2             | ...        | ...      |          |
+    +------------------------+------------+----------+----------+
+
+
 CSV
-~~~
+---
 
 .. csv-table:: Frozen Delights!
    :header: "Treat", "Quantity", "Description"
@@ -142,12 +304,23 @@ CSV
    crunchy, now would it?"
    "Gannet Ripple", 1.99, "On a stick!"
 
+.. code-block:: rst
+
+    .. csv-table:: Frozen Delights!
+       :header: "Treat", "Quantity", "Description"
+       :widths: 15, 10, 30
+    
+       "Albatross", 2.99, "On a stick!"
+       "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
+       crunchy, now would it?"
+       "Gannet Ripple", 1.99, "On a stick!"
+
 
 Lists
------
+=============
 
 Big fat looking list
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. rst-class:: bignums-xxl
 
@@ -164,36 +337,82 @@ Big fat looking list
     $a = 'hello';
     $b = 'something';
 
+.. code-block:: rst
+
+    .. rst-class:: bignums-xxl
+
+        1. **Do this and that.**
+        
+            * And FooBar of course. 
+            * If you know what I mean.
+            * Whatever
+        
+        2. Two
+        
+           .. code-block:: php
+        
+            $a = 'hello';
+            $b = 'something';
+
 
 Nested Normal 
-~~~~~~~~~~~~~
+-------------
 * sadipscing elitr
 * magna aliquyam erat, sed diam
 	* with nesting
 	* if you like
 * ipsum dolor sit
 
+.. code-block:: rst
+
+    * sadipscing elitr
+    * magna aliquyam erat, sed diam
+      * with nesting
+      * if you like
+    * ipsum dolor sit
+
 Manual 
-~~~~~~
+------
 1. sadipscing elitr
 2. magna aliquyam erat, sed diam 
 3. ipsum dolor sit
 
+.. code-block:: rst
+
+    1. sadipscing elitr
+    2. magna aliquyam erat, sed diam 
+    3. ipsum dolor sit
+
 Automatic 
-~~~~~~~~~
+---------
 #. sadipscing elitr
 #. magna aliquyam erat, sed diam
 #. ipsum dolor sit
 
+.. code-block:: rst
+
+    #. sadipscing elitr
+    #. magna aliquyam erat, sed diam
+    #. ipsum dolor sit
+
 Normal 
-~~~~~~
+------
 - sadipscing elitr
 - magna aliquyam erat, sed diam
 - ipsum dolor sit
 
+.. code-block:: rst
+
+    - sadipscing elitr
+    - magna aliquyam erat, sed diam
+    - ipsum dolor sit
+
 
 Codeblocks
-----------
+=============
+
+No special highlighting 
+-----------------------
 
 .. code-block:: none
 
@@ -201,22 +420,49 @@ Codeblocks
     $ foo bar
     > kill -9
 
+.. code-block:: rst
+
+    .. code-block:: none
+    
+        $ cd ~/myproject
+        $ foo bar
+        > kill -9
+
+Bash highlighting
+-----------------
+
 .. code-block:: bash
 
     $ cd ~/.particl
     $ rm *
+
+.. code-block:: rst
+
+    .. code-block:: bash
+    
+        $ cd ~/.particl
+        $ rm *
+
+HTML highlighting
+-----------------
 
 .. code-block:: html
 
    <h1>code block example</h1>
    <p>Paragraph Text</p>
 
+.. code-block:: rst
+
+    .. code-block:: html
+    
+       <h1>code block example</h1>
+       <p>Paragraph Text</p>
 
 Tabs
-----
+=============
 
 Grouped tabs
-~~~~~~~~~~~~
+------------
 
 .. tabs::
 
@@ -250,8 +496,42 @@ Grouped tabs
       Mac OSX Line 2
 
 
-Normal tabls
-~~~~~~~~~~~~
+.. code-block:: rst
+
+    .. tabs::
+    
+       .. group-tab:: Linux
+    
+          Linux Line 1
+    
+       .. group-tab:: Mac OSX
+    
+          Mac OSX Line 1
+    
+       .. group-tab:: Windows
+    
+          Windows Line 1
+    
+    .. tabs::
+    
+       .. group-tab:: Linux
+    
+          Linux Line 1
+          Linux Line 2
+    
+       .. group-tab:: Mac OSX
+    
+          Mac OSX Line 1
+          Mac OSX Line 2
+    
+       .. group-tab:: Windows
+    
+          Windows Line 1
+          Mac OSX Line 2
+
+
+Normal tabs
+------------
 
 .. tabs::
 	 .. tab:: Windows
@@ -270,9 +550,28 @@ Normal tabls
 	    ls -la
 	    uname -a
 
+.. code-block:: rst
 
-Toggle
-~~~~~~
+    .. tabs::
+       .. tab:: Windows
+    
+          c:\foo\bar.bat
+    
+       .. tab:: Mac
+    
+          cd ~
+          ls -la
+          whoami
+    
+       .. tab:: Linux
+    
+          cd ~
+          ls -la
+          uname -a
+
+
+Toggles
+=============
 
 Toggle items can be used for FAQ like content. 
 
@@ -305,3 +604,65 @@ Toggle items can be used for FAQ like content.
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     And because of **THIS**
+
+.. container:: toggle
+
+    .. container:: header
+
+        **I am a second header. Why is particl the best marketplace in the world?**
+
+    Because Particl is the best thing you will every see in your entire life. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    And because of **THIS**
+
+.. container:: toggle
+
+    .. container:: header
+
+        **I am a second header. Why is particl the best marketplace in the world?**
+
+    Because Particl is the best thing you will every see in your entire life. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    And because of **THIS**
+    
+.. code-block:: rst
+
+    .. container:: toggle
+    
+        .. container:: header
+    
+            **I am a header. Why is particl the best marketplace in the world?**
+    
+        Because Particl is the best thing you will every see in your entire life. Lorem ipsum dolor sit amet,     consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+        And because of **THIS**
+    
+    .. container:: toggle
+    
+        .. container:: header
+    
+            **I am a second header. Why is particl the best marketplace in the world?**
+    
+        Because Particl is the best thing you will every see in your entire life. Lorem ipsum dolor sit amet,     consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+        And because of **THIS**
