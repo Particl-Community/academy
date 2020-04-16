@@ -1,4 +1,6 @@
-version: 2
-formats: all
-sphinx:
-  configuration: conf.py
+build:
+  image: latest
+
+python:
+  version: 3.7
+  setup_py_install: true
