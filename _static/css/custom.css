@@ -765,6 +765,10 @@ padding: .4045em 3.045em;
     margin-left: -1em;
 }
 
+.toggle .header.open {
+    margin-bottom: .75em;
+}
+
 .toggle .header > p {
     display: inline;
     font-size: 1.155em;
