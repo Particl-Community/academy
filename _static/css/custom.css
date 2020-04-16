@@ -748,23 +748,41 @@ padding: .4045em 3.045em;
     background-color: transparent;
     padding: 0;
 }
+.toggle.container {
+    border-color: var(--code-border-color) !important;
+    border: 1px solid;
+    margin-bottom: .75em;
+    padding: 0.25em .75em .0em 1.75em;
+    border-radius: .15em;
+    background-color: var(--content-wrap-background-color);
+}
 
 .toggle .header {
     display: inline-block;
     clear: both;
+    padding: .25em .25em .25em .0em;
+    margin-bottom: .25em;
+    margin-left: -1.25em;
 }
 
 .toggle .header > p {
-display: inline;
+    display: inline;
+    font-size: 1.155em;
+    font-weight: normal !important;
+}
+.toggle .header > p strong {
+    font-weight: 300
 }  
 
 .toggle .header:before {
     content: " ▶";
+    color:var(--navbar-heading-color);
     padding: .25em .25em .0em .0em;
 }
 
 .toggle .header.open:before {
     content: " ▼";
+    color:var(--navbar-heading-color);
     padding: .25em .25em .0em .0em;
 }
 
@@ -816,3 +834,12 @@ font-size: 1.5rem;
 top: 0;
 left: 0;
 }
+
+.rst-content .section ol p, .rst-content .section ul p {
+margin:0;
+}
+
+.rst-content dl:not(.docutils) {
+margin-bottom: .25em;
+}
+
