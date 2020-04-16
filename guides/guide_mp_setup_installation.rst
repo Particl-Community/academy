@@ -21,7 +21,7 @@ Download
 
 .. danger::
 
-   **NEVER download Particl clients from 3rd party websites**! Hackers and bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets with the goal of stealing your funds! Always download from official sources only. 
+   **NEVER download Particl clients from 3rd party websites**! Bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets with the goal of stealing your funds! Always download from official sources only. 
 
 .. attention::
 	
@@ -39,19 +39,19 @@ Download
 
 	 	**Windows file version**
 
-	 	In 95% of all cases you will be fine by downloading the ``particl-desktop-X.X.X-win.exe`` installer file. It supports any version of Windows except 32-bit only environments.
+	 	In 95% of all cases you will be fine by downloading the :file:`particl-desktop-X.X.X-win.exe` installer file. It supports any version of Windows except 32-bit only environments.
 
 	 .. group-tab:: Mac
 
 	 	**MacOS file version**
 
-	 	In 95% of all cases you will be fine by downloading the ``particl-desktop-X.X.X-mac.dmg`` installer image. It supports any version, including 10.15 (Catalina) or greater.
+	 	In 95% of all cases you will be fine by downloading the :file:`particl-desktop-X.X.X-mac.dmg` installer image. It supports any version, including 10.15 (Catalina) or greater.
 
 	 .. group-tab:: Linux
 
 	 	**Linux file version**
 
-	 	Depending on your Linux distribution you have the choice between different packages including Debian based **.deb** and Rpm based **.rpm** packages as well as a distribution independent **.zip** version. 
+	 	Depending on your Linux distribution you have the choice between different packages including Debian based :file:`.deb` and Rpm based :file:`.rpm` packages as well as a distribution independent :file:`.zip` version. 
 
 	 	We assume that you know what you are doing here and what you need.
 
@@ -59,7 +59,7 @@ Download
 Checksum verification
 ~~~~~~~~~~~~~~~~~~~~~
 
-Obtain the checksum code from your download source for the downloaded file. Each file has its own checksum. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes **VERIFICATION** section.
+Obtain the checksum code from your download source for the downloaded file. Each file has its own checksum. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
 
 .. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
     :align: center
@@ -75,8 +75,9 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
 	 	**Checksum verification command with terminal**
 
-	 	#. Hit ``[SHIFT]`` + ``[MOUSE-RIGHT-CLICK]`` on the *Download-folder* and choose "*Open command window here*" or "*Open power shell here*".
-	 	#. Type the following command into the command-window while changing *"filename"* for the real and complete filename of the downloaded file and hit ``[ENTER]``.
+	 	#. Open :guilabel:`Explorer`
+	 	#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Download folder** and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 	#. Type the following command into the terminal while changing :file:`filename` for the real and complete filename of the downloaded file and hit :kbd:`ENTER ↵`.
 
 	 	.. code-block:: bash
 
@@ -87,10 +88,11 @@ Obtain the checksum code from your download source for the downloaded file. Each
 	 	**Checksum verification command with terminal**
 
 	 	.. tip::
-	 		**Prerequisite**: Head into *System Preferences* and select "*Keyboard*" > "*Shortcuts*" > "*Services*". Find "*New Terminal at Folder*" in the settings and click the box.
+	 		**Prerequisite**: Head into :guilabel:`System Preferences` and select :guilabel:`Keyboard` > :guilabel:`Shortcuts` > :guilabel:`Services`. Find :guilabel:`New Terminal at Folder` in the settings and click the box.
 
-	 	#. Open *Finder*, ``[MOUSE-RIGHT-CLICK]`` on the *Download-folder* of the file and you're shown the "*services*" > "*open terminal*" command to open the terminal. 
-		#. Type the following command into the command-window while changing *"filename"* for the real filename of the downloaded file.
+	 	#. Open :guilabel:`Finder`
+	 	#. Press :kbd:`MOUSE-RIGHT ◳` on the **Download folder** of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal. 
+		#. Type the following command into the terminal while changing :file:`filename` for the real filename of the downloaded file.
 
 		.. code-block:: bash
 
@@ -100,17 +102,22 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
 	 	**Checksum verification command with terminal**
 
-	 	#.  Open a terminal in the *Download-folder* of the file and type the following command by changing *"filename"* for the real filename of the downloaded file. 
+	 	#.  Open a terminal in the **Download-folder** of the file and type the following command by changing :file:`filename` for the real filename of the downloaded file. 
 	 	
 	 	.. code-block:: bash
 
 	 		sha256sum filename
 
-Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes *Verification* from your download source. If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
+Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes :guilabel:`Verification` from your download source. 
+
 
 **Troubleshooting checksum mismatch**
 
 If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own for that case.
+
+.. attention::
+	
+	If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
 
 Installation Process
 ~~~~~~~~~~~~~~~~~~~~
@@ -120,34 +127,34 @@ Installation Process
 
  		**Windows installation**
 
-	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
-	 	#. Open the downloaded ``particl-desktop-X.X.X-win.exe`` installer file.
+	 	#. :ref:`Verify the checksum <Checksum verification>` of the file.
+	 	#. Open the downloaded :guilabel:`particl-desktop-X.X.X-win.exe` installer file.
 	 	#. Follow the installation instructions
-	 	#. A launcher is put on to your desktop and into the application launcher menu. Use this to start *Particl Desktop*.
-	 	#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. On a standard Windows installation Microsoft Defender pops up. You must grant access.
+	 	#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :guilabel:`Particl Desktop`.
+	 	#. Assign rules to your computer`s **firewall** to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
 
 
 	 .. group-tab:: Mac
 
 	 	**MacOS installation**
 
-	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
-	 	#. Open the downloaded ``particl-desktop-X.X.X-mac.dmg`` installer image with ``[CTRL]`` + ``[MOUSE-RIGHT-CLICK]`` and click "*Open*" from the shortcut menu. Do not just double click the icon.
-	 	#. Drag the ``Particl Desktop.app`` file into the "*Applications*" folder. 
-	 	#. Open the "*Applications*" folder and locate the ``Particl Desktop.app`` file. 
-	 	#. Press ``[CTRL]`` + ``[MOUSE-RIGHT-CLICK]`` on the ``Particl Desktop.app`` file and click "*Open*".
+	 	#. :ref:`Verify the checksum <Checksum verification>` of the file.
+	 	#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image with :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the shortcut menu. *Do not just double click the icon.*
+	 	#. Drag the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
+	 	#. Open the :guilabel:`Applications` folder and locate the :guilabel:`Particl Desktop.app` file. 
+	 	#. Press :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
 	 	#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. 
 
-	 	From now on you will be able to start *Particl Desktop* from the Launchpad or Spotlight search.
+	 	From now on you will be able to start :guilabel:`Particl Desktop` from the **Launchpad** or **Spotlight** search.
 
 	 .. group-tab:: Linux
 
 	 	**Linux installation**
 
-	 	#. Verify the checksum of the downloaded installer file as stated above for your own safetey.
+	 	#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 	#. Navigate to where you've downloaded your installer file in the terminal.
 
-	 	Depending on your package manager this command will vary. Using your standard package manager is recommended.
+	 	*Depending on your package manager this command will vary. Using your standard package manager is recommended.*
 
 	 	**Debian based installation**
 
@@ -163,24 +170,24 @@ Installation Process
 
 	 	An application launcher is put to your applications menu. Click this to start *Particl Desktop* client.
 
-	 	**Terminal speciality**
+	 	.. tip::
 
-	 	If you want to launch it from the terminal: At the time of writing the executable is named "Particl Desktop" which makes it neccessary to open the file with qutation marks or escaping the string.
+	 		If you want to launch it from the terminal: At the time of writing the executable is named :code:`Particl Desktop` which makes it neccessary to open the file with quotation marks or escaping the string.
 
-		.. code-block:: bash
-
-			user@linux:~> which "Particl Desktop"
-			/usr/bin/Particl Desktop
-
-			user@linux:~> "/usr/bin/Particl Desktop"
-			(Particl Desktop:16887)
+			.. code-block:: bash
+	
+				user@linux:~> which "Particl Desktop"
+				/usr/bin/Particl Desktop
+	
+				user@linux:~> "/usr/bin/Particl Desktop"
+				(Particl Desktop:16887)
 
 
 
 File locations
 ~~~~~~~~~~~~~~
 
-After a successful installation of *Particl Desktop* the main application has been installed into the standard location of your operating system. Once the *Particl Desktop* is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain itself.
+After a successful installation of :guilabel:`Particl Desktop` the main application has been installed into the standard location of your operating system. Once the :guilabel:`Particl Desktop` is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain-data itself.
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -221,13 +228,4 @@ After a successful installation of *Particl Desktop* the main application has be
 
 			"/opt/Particl Desktop/Particl Desktop"
 
-
-Firewall settings & Ports
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
 	
-.. tip::
-
-	Wait for Particl Desktop to load and download the latest Particl Core version. This happens automatically on launch each time a newer version of Particl Core is available.
-	
-
