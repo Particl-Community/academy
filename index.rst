@@ -99,12 +99,17 @@ This section contains detailed content explaining the various components, featur
 
    in-depth/indepth_part_coin
    in-depth/indepth_staking
-   in-depth/indepth_opensource
+   in-depth/indepth_escrow
+   in-depth/indepth_mp_moderation
    in-depth/indepth_privacy_tips
+.. in-depth/indepth_opensource
+
 
 * :doc:`Settlement of payments - PART coin <in-depth/indepth_part_coin>`
 * :doc:`Staking <in-depth/indepth_staking>`
-* :doc:`Open-source technologies <in-depth/indepth_opensource>`
+.. * :doc:`Open-source technologies <in-depth/indepth_opensource>`
+* :doc:`Two-party escrow system <in-depth/indepth_mp_moderation>`
+* :doc:`Marketplace moderation <in-depth/indepth_mp_moderation>
 * :doc:`Security and privacy <in-depth/indepth_privacy_tips>`
 
 
