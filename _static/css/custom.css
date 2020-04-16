@@ -128,6 +128,10 @@
         --btn-neutral-hover-background-color: #505050;
         --footer-color: #aaa;
     }
+
+    .rst-content .guilabel {
+    background: var(--code-background-color);
+    }
 }
 
 @import url('https://rsms.me/inter/inter.css');
