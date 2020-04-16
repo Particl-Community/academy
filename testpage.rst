@@ -26,10 +26,11 @@ Each page should have its own metadata to have a descent intro on the searchengi
       
       :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
 
+
 Headings
 =============
 
-This area shows some sample texts. Or an internal link to a certain page like the :button:`Particl Support Page <../faq/get_support>` n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_ or to reference to a heading on this page like :ref:`Video` or :ref:`Images` but you can also reference another page :ref:`intro/intro_general_particlmarketplace`
+This area shows some sample texts. Or an internal link to a certain page like the :doc:`Particl Support Page <faq/get_support>` n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_ or to reference to a heading on this page like :ref:`Video` or :ref:`Images` but you can also reference another page :doc:`like this <intro/intro_general_particlmarketplace>`
 
 First heading
 =============
@@ -634,7 +635,7 @@ Toggle items can be used for FAQ like content.
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     And because of **THIS**
-    
+
 .. code-block:: rst
 
     .. container:: toggle
@@ -666,3 +667,15 @@ Toggle items can be used for FAQ like content.
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     
         And because of **THIS**
+
+Including files
+===============
+
+We are able to include files and render them locally. This is very helpful for the FAQ sections as we are able to deliver the FAQ additionally at the place where it might be needed. For the nature that faq do have a repetitve character in certain sections we do not need to write them again and they are always up to date. The naming is important to prevent double rendering.
+
+.. include:: faq/faq_testpage.rst.txt
+
+.. code-block:: rst
+
+    .. include:: faq/faq_testpage.rst.txt
+
