@@ -508,7 +508,7 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 	**Example**
 
-	 	.. code-block::
+	 	.. code-block:: bash
 
 	 		sudo apt update && sudo apt-upgrade
 
