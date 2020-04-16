@@ -752,7 +752,7 @@ padding: .4045em 3.045em;
     border-color: var(--code-border-color) !important;
     border: 1px solid;
     margin-bottom: .75em;
-    padding: 0.25em .75em .0em 1.75em;
+    padding: .55em .75em .45em 1.75em;
     border-radius: .15em;
     background-color: var(--content-wrap-background-color);
 }
@@ -762,7 +762,7 @@ padding: .4045em 3.045em;
     clear: both;
     padding: .25em .25em .25em .0em;
     margin-bottom: .25em;
-    margin-left: -1.25em;
+    margin-left: -1em;
 }
 
 .toggle .header > p {
@@ -770,7 +770,7 @@ padding: .4045em 3.045em;
     font-size: 1.155em;
     font-weight: normal !important;
 }
-.toggle .header > p strong {
+.toggle .header > p strong, .toggle .header > strong  {
     font-weight: 300
 }  
 
