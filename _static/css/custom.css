@@ -771,7 +771,8 @@ padding: .4045em 3.045em;
     font-weight: normal !important;
 }
 .toggle .header > p strong, .toggle .header > strong  {
-    font-weight: 300
+    font-weight: 300;
+    font-size: 1.155em;
 }  
 
 .toggle .header:before {
