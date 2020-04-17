@@ -4,9 +4,9 @@
    contain the root `toctree` directive.
 
    Understand the toctree: https://www.sphinx-doc.org/en/1.5/markup/toctree.html
-
+==============================
 Welcome to the Particl Academy
-===========================================
+==============================
 
 .. meta::
    :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
@@ -20,7 +20,7 @@ Its distributed nature means there is no one sitting in the middle of any transa
 .. _Particl Marketplace: https://particl.io/marketplace
 
 Introduction
-------------
+============
 
 Take your first few steps by learning about what's Particl's marketplace, its benefits, and mechanics.
 
@@ -39,7 +39,7 @@ Take your first few steps by learning about what's Particl's marketplace, its be
 * :doc:`Particl Marketplace Features <intro/intro_general_features>`
 
 Installation & Usage
---------------------
+====================
 
 All begins with the installation of the Particl Desktop software. Follow these steps of best practices for the installation, setup your first wallet, and understand the userinterface.
 
@@ -58,7 +58,7 @@ All begins with the installation of the Particl Desktop software. Follow these s
 * :doc:`Understanding the user interface <guides/guide_mp_general_understanding_userinterface>`
 
 User Guides
------------
+===========
 
 This section contains step-by-step walkthrough tutorials on the most important aspects of the marketplace. Whether you're a buyer or a seller, that's where you want to go to learn how to use Particl!
 
@@ -87,7 +87,7 @@ This section contains step-by-step walkthrough tutorials on the most important a
 * :doc:`Vendor best-practices <guides/guide_mp_vendor_best_practices_overview>`
 
 In-Depth Guides
----------------
+===============
 
 This section contains detailed content explaining the various components, features, and concepts behind Particl and its marketplace. While these pages might not be mandatory for you to know how to use the basic functionalities of the marketplace, they'll give you a good understanding of some of the more advanced concepts and features that make Particl possible. 
 
@@ -114,7 +114,7 @@ This section contains detailed content explaining the various components, featur
 
 
 Help Section
-------------
+============
 
 The Help section is where you'll find a bunch of resources to help you out should you encounter any issue when using Particl. Here, you'll find answers to some of the most frequently asked questions as well as a few guides on how to fix, or avoid, some of the most common problems. 
 
@@ -135,7 +135,7 @@ Are you having an issue not mentioned in this section? Then make sure to **conta
 * :doc:`Get support <faq/get_support>`
 
 Helpful Resources
------------------
+=================
 
 .. toctree::
    :caption: Helpful resources
