@@ -135,7 +135,7 @@ If the output does not match, try to download the file again. Verify that you di
 	
 	If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
 
-Installation Process
+Installation process
 --------------------
 
 .. tabs::
@@ -204,7 +204,7 @@ Installation Process
 				user@linux:~> "/usr/bin/Particl Desktop"
 				(Particl Desktop:16887)
 
-**Congratulations. You have installed Particl Marketplace.**
+**Congratulations! You have installed Particl Marketplace.**
 
 Backup Account and Data
 =======================
