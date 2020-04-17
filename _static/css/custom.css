@@ -1,7 +1,7 @@
 /**
  * Various tweaks to the Read the Docs theme to better conform with Particl's
  * visual identity. Many colors are also overridden to use CSS variables.
- * This makes it possible to provide an automatically-used dark theme
+ * This makes it possible to provide an automatically-used theme
  * based on browser preferences.
  *
  * Attribution: docs.godotengine.org;
@@ -46,6 +46,7 @@
     --highlight-function-color: #06287e;
     --highlight-operator-color: #666666;
     --highlight-string-color: #4070a0;
+    --highlight-gh-color:#e15af7;
     --admonition-note-background-color: #d5f5e7;
     --admonition-note-color: #404040;
     --admonition-note-title-background-color: #2bbb79;
@@ -69,6 +70,8 @@
     --btn-neutral-background-color: #f3f6f6;
     --btn-neutral-hover-background-color: #e5ebeb;
     --footer-color: #808080;
+    --rst-guilabel-border-color: #a4dbc2;
+    --rst-guilabel-background-color: #d5f5e7;
 }
 
 /* Dark theme colors */
@@ -80,16 +83,13 @@
         --content-wrap-background-color: #212727;
         --content-background-color: #1e2323;
         --logo-opacity: 0.85;
-       
-        --link-color-visited: #9a00e6;
-
-        --table-row-odd-background-color: #3b3e41;
+        --link-color-visited: #bf43fc;
+        --table-row-odd-background-color: #20262d;
         --code-background-color: #212727;
-        --code-border-color: #505356;
+        --code-border-color: #2b3d4f;
         --code-literal-color: #faa;
         --input-background-color: #333537;
         --input-focus-border-color: #5f8cff;
-
         --highlight-background-color: #202531;
         --highlight-comment-color: rgba(204, 206, 211, 0.5);
         --highlight-keyword-color: #ff7085;
@@ -101,10 +101,10 @@
         --highlight-function-color: #57b3ff;
         --highlight-operator-color: #abc8ff;
         --highlight-string-color: #ffeca1;
-
-        --admonition-note-background-color: #303d4f;
-        --admonition-note-color: #bfeeff;
-        --admonition-note-title-background-color: #305070;
+        --highlight-gh-color:#ea9df7;
+        --admonition-note-background-color: #006036;
+        --admonition-note-color: #b3ffc9;
+        --admonition-note-title-background-color: #023c23;
         --admonition-note-title-color: #bfefff;
         --admonition-attention-background-color: #444033;
         --admonition-attention-color: #ffeeaf;
@@ -114,23 +114,20 @@
         --admonition-danger-color: #fcc;
         --admonition-danger-title-background-color: #633;
         --admonition-danger-title-color: #fcc;
-        --admonition-tip-background-color: #28382d;
-        --admonition-tip-color: #dfd;
-        --admonition-tip-title-background-color: #336648;
+        --admonition-tip-background-color: #48108f;
+        --admonition-tip-color: #edd0f4;
+        --admonition-tip-title-background-color: #3a0977;
         --admonition-tip-title-color: #dfd;
-
         --kbd-background-color: #595b5d;
         --kbd-outline-color: #3d4144;
         --kbd-shadow-color: #1e2023;
         --kbd-text-color: #e2f2ff;
-
         --btn-neutral-background-color: #404040;
         --btn-neutral-hover-background-color: #505050;
         --footer-color: #aaa;
-    }
-
-    .rst-content .guilabel {
-    background: var(--code-background-color);
+        --hr-color: #2b3d4f;
+        --rst-guilabel-border-color: #2bbb79;
+        --rst-guilabel-background-color: #212727;
     }
 }
 
@@ -270,6 +267,11 @@ color: inherit;
 margin-bottom: .5em !important;
 }
 
+.rst-content .guilabel {
+    border-color: var(--rst-guilabel-border-color);
+    background: var(--rst-guilabel-background-color);
+    }
+
 footer,
 #search-results .context {
     color: var(--footer-color);
@@ -322,11 +324,11 @@ code,
 
 .rst-content tt.literal,
 .rst-content code.literal {
-    color: var(--code-literal-color);
+    color: var(--highlight-gh-color);
 }
 
 .rst-content div[class^="highlight"] {
-    border-color: var(--code-border-color);
+    border-color: var(--hr-color);
     background-color: var(--code-border-color);
 }
 
@@ -351,6 +353,10 @@ code,
     background-color: var(--highlight-background-color);
 }
 
+.highlight .gh {
+color: var(--highlight-gh-color);
+}
+
 .highlight .c1,
 .highlight .cm {
     color: var(--highlight-comment-color);
@@ -362,7 +368,7 @@ code,
 .highlight .kn,
 .highlight .kt,
 .highlight .ow {
-    color: var(--highlight-keyword-color);
+    color: var(--highlight-gh-color);
 }
 
 .highlight .cp {
