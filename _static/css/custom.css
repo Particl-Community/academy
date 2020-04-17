@@ -70,8 +70,10 @@
     --btn-neutral-background-color: #f3f6f6;
     --btn-neutral-hover-background-color: #e5ebeb;
     --footer-color: #808080;
-    --rst-guilabel-border-color: #a4dbc2;
+    --rst-guilabel-border-color: #65d0a1;
     --rst-guilabel-background-color: #d5f5e7;
+    --bignums-number-background-color: #212727;
+    --bignums-background-color: #f7f7f7;
 }
 
 /* Dark theme colors */
@@ -128,6 +130,8 @@
         --hr-color: #2b3d4f;
         --rst-guilabel-border-color: #2bbb79;
         --rst-guilabel-background-color: #212727;
+        --bignums-number-background-color:#2bbb79;
+        --bignums-background-color:#333537;
     }
 }
 
@@ -135,6 +139,10 @@
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
+}
+
+@media only print  {
+    
 }
 
 .fa:before, .wy-menu-vertical li span.toctree-expand:before, .wy-menu-vertical li.on a span.toctree-expand:before, .wy-menu-vertical li.current>a span.toctree-expand:before, .rst-content .admonition-title:before, .rst-content h1 .headerlink:before, .rst-content h2 .headerlink:before, .rst-content h3 .headerlink:before, .rst-content h4 .headerlink:before, .rst-content h5 .headerlink:before, .rst-content h6 .headerlink:before, .rst-content dl dt .headerlink:before, .rst-content p.caption .headerlink:before, .rst-content table>caption .headerlink:before, .rst-content .code-block-caption .headerlink:before, .rst-content tt.download span:first-child:before, .rst-content code.download span:first-child:before, .icon:before, .wy-dropdown .caret:before, .wy-inline-validate.wy-inline-validate-success .wy-input-context:before, .wy-inline-validate.wy-inline-validate-danger .wy-input-context:before, .wy-inline-validate.wy-inline-validate-warning .wy-input-context:before, .wy-inline-validate.wy-inline-validate-info .wy-input-context:before, .wy-alert, .rst-content .note, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .warning, .rst-content .seealso, .rst-content .admonition-todo, .rst-content .admonition, .btn, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a, .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a, .wy-nav-top a {
@@ -261,6 +269,13 @@ border: none;
 border-left: inherit;
 background: inherit;
 color: inherit;
+}
+
+.rst-content blockquote {
+margin-left: 0;
+line-height: initial;
+margin-bottom: initial;
+width: 97%;
 }
 
 .rst-content dl p, .rst-content dl table, .rst-content dl ul, .rst-content dl ol {
@@ -808,15 +823,15 @@ counter-reset: li-counter;
 
 .bignums>li, .bignums-hint>li, .bignums-note>li, .bignums-caution>li, .bignums-warning>li, .bignums-attention>li, .bignums-important>li, .bignums-seealso>li, .bignums-tip>li, .bignums-danger>li, .bignums-error>li, .bignums-xxl>li {
 position: relative;
-padding: 1rem;
+padding: .55rem;
 padding-left: 3.875rem;
-padding-top: 1.2875rem;
-background-color: #e6e6e6;
-min-height: 4.3rem;
+padding-top: .975rem;
+background-color: var(--bignums-background-color);
+min-height: 3.575rem;
 border-radius: .25rem;
 list-style: none !important;
 margin-left: 0px !important;
-margin-bottom:1em;
+margin-bottom: 1em;
 }
 
 .bignums-xxl>li {
@@ -828,16 +843,16 @@ min-height: 3rem;
 }
 
 .bignums>li:before, .bignums-hint>li:before, .bignums-note>li:before, .bignums-caution>li:before, .bignums-warning>li:before, .bignums-attention>li:before, .bignums-important>li:before, .bignums-seealso>li:before, .bignums-tip>li:before, .bignums-danger>li:before, .bignums-error>li:before, .bignums-xxl>li:before {
-font-size: 1.15rem;
+font-size: 1.10rem;
 display: block;
 position: absolute;
-top: 1rem;
+top: .75rem;
 left: 1rem;
 height: 2em;
 width: 2em;
 line-height: 2em;
 text-align: center;
-background-color: #313131;
+background-color: var(--bignums-number-background-color);
 color: #fff;
 border-radius: 50%;
 content: counter(li-counter, decimal);
