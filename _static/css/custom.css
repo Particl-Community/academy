@@ -816,6 +816,7 @@ min-height: 4.3rem;
 border-radius: .25rem;
 list-style: none !important;
 margin-left: 0px !important;
+margin-bottom:1em;
 }
 
 .bignums-xxl>li {
