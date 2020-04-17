@@ -5,7 +5,7 @@ Buying Process
 .. meta::
    :description lang=en: Learn how the buflow works on Particl Marketplace from a customer perspective.
 
-The buying process of Particl's marketplace differs from traditional markets due to its decentralized nature. It grants you more privacy, security, censorship resistance, and is entirely free to use except for the tiny sub-cents transaction fees usually associated with cryptocurrency transactions. The price to pay to get these benefits is that you are required to do things a bit differently than what you are used to.
+The buying process of Particl's marketplace grants you more privacy, security, censorship resistance, and is entirely free to use except for the tiny sub-cents transaction fees usually associated with cryptocurrency transactions. **The price to pay to get these benefits is that you are required to do things a bit differently than what you are used to.**
 
 Rest assured, it's not complicated at all. Just follow this quick user guide and you'll be up to speed in no time!
 
@@ -26,7 +26,7 @@ The entire process of buying a product, from A to Z, can be seen in this walkthr
 Bidding
 =======
 
-To purchase an item on Particl, you need to first send a bid to the seller. Keep in mind that you will still need to do one more step before you can simply wait for your orders, so keep reading this user guide until the end!
+To purchase an item on Particl Marketplace, you need to first send a bid to the seller. Keep in mind that you will still need to do one more step before you can simply wait for your orders, so keep reading this user guide until the end!
 
 Add an item to your cart
 ------------------------
