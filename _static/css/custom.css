@@ -264,22 +264,27 @@ hr,
 }
 
 .rst-content dl:not(.docutils) dl dt {
-margin-bottom: 6px;
-border: none;
-border-left: inherit;
-background: inherit;
-color: inherit;
+    margin-bottom: 6px;
+    border: none;
+    border-left: inherit;
+    background: inherit;
+    color: inherit;
+}
+
+.rst-content dl dt {
+    font-weight: normal;
+    margin-bottom: 12px;
 }
 
 .rst-content blockquote {
-margin-left: 0;
-line-height: initial;
-margin-bottom: initial;
-width: 97%;
+    margin-left: 0;
+    line-height: initial;
+    margin-bottom: initial;
+    width: 97%;
 }
 
 .rst-content dl p, .rst-content dl table, .rst-content dl ul, .rst-content dl ol {
-margin-bottom: .5em !important;
+    margin-bottom: .5em !important;
 }
 
 .rst-content .guilabel {
