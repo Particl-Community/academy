@@ -58,7 +58,7 @@ Place Security Deposit
 
 .. note::
 
-   Want to learn more about Particl's two-party deposit contract system and how it effectively keeps both parties safe without requiring any intermediary? Then just visit the :doc:`Particl two-party escrow contract page <guide_general_particl_balances>` to know all about it!
+   Want to learn more about Particl's two-party deposit contract system and how it effectively keeps both parties safe without requiring any intermediary? Then just visit the :doc:` Two-party Escrow in-depth page <../in-depth/indepth_escrow>` to know all about it!
 
 After placing your order, the seller will have to accept it. Following this, you will need to initiate a two-party escrow contract by locking the full payment of the item (cost of the item + shipping) as well as a security deposit equal to the amount of the full payment. 
 
