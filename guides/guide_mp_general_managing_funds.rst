@@ -92,4 +92,4 @@ Converting balances in needed if you want to switch and/or convert between the d
 		- Unlock your wallet when prompted to.
 	#. Review the transaction details and click on the :guilabel:`Confirm & Send` button to confirm the transaction.
 	#. Wait for twelve (12) confirmations (approximately 24 minutes) before the funds in the anon balance can be used.
-		- You can track the status of this transaction in the :guilabel:`Overview` module under :guilabel:`Recent Transactions
+		- You can track the status of this transaction in the :guilabel:`Overview` module under :guilabel:`Recent Transactions`
