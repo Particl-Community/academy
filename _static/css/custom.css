@@ -28,10 +28,10 @@
     --link-color-hover: #249c65;
     --link-color-active: #249c65;
     --link-color-visited: #621bbb;
-    --hr-color: #e1e4e5;
+    --hr-color: rgba(0, 0, 0, 0.06);
     --table-row-odd-background-color: #f3f6f6;
     --code-background-color: #fff;
-    --code-border-color: #e1e4e5;
+    --code-border-color: rgba(0, 0, 0, 0.06);
     --code-literal-color: #621bbb;
     --input-background-color: #fcfcfc;
     --input-focus-border-color: #249c65;
