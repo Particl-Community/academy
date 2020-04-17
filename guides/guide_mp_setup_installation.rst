@@ -85,13 +85,15 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
 	 	**Checksum verification command with terminal**
 
-	 	#. Open :guilabel:`Explorer`
-	 	#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Download folder** and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
-	 	#. Type the following command into the terminal while changing :file:`filename` for the real and complete filename of the downloaded file and hit :kbd:`ENTER ↵`.
+	 	.. rst-class:: bignums
 
-	 	.. code-block:: bash
+	 		#. Open :guilabel:`Explorer`
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Download folder** and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Type the following command into the terminal while changing :file:`filename` for the real and complete filename of the downloaded file and hit :kbd:`ENTER ↵`.
 
-	 		CertUtil -hashfile filename SHA256
+	 			.. code-block:: bash
+
+	 				CertUtil -hashfile filename SHA256
 
 	 .. group-tab:: Mac
 
@@ -100,23 +102,27 @@ Obtain the checksum code from your download source for the downloaded file. Each
 	 	.. tip::
 	 		**Prerequisite**: Head into :guilabel:`System Preferences` and select :guilabel:`Keyboard` > :guilabel:`Shortcuts` > :guilabel:`Services`. Find :guilabel:`New Terminal at Folder` in the settings and click the box.
 
-	 	#. Open :guilabel:`Finder`
-	 	#. Press :kbd:`MOUSE-RIGHT ◳` on the **Download folder** of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal. 
-		#. Type the following command into the terminal while changing :file:`filename` for the real filename of the downloaded file.
+		.. rst-class:: bignums
 
-		.. code-block:: bash
+	 		#. Open :guilabel:`Finder`
+	 		#. Press :kbd:`MOUSE-RIGHT ◳` on the **Download folder** of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal. 
+			#. Type the following command into the terminal while changing :file:`filename` for the real filename of the downloaded file.
 
-			shasum -a 256 filename
+				.. code-block:: bash
+
+					shasum -a 256 filename
 
 	 .. group-tab:: Linux
 
 	 	**Checksum verification command with terminal**
 
-	 	#.  Open a terminal in the **Download-folder** of the file and type the following command by changing :file:`filename` for the real filename of the downloaded file. 
-	 	
-	 	.. code-block:: bash
+	 	.. rst-class:: bignums
 
-	 		sha256sum filename
+	 		#.  Open a terminal in the **Download-folder** of the file and type the following command by changing :file:`filename` for the real filename of the downloaded file. 
+	 	
+	 			.. code-block:: bash
+
+	 				sha256sum filename
 
 Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes :guilabel:`Verification` from your download source. 
 
@@ -137,23 +143,27 @@ Installation Process
 
  		**Windows installation**
 
-	 	#. :ref:`Verify the checksum <Checksum verification>` of the file.
-	 	#. Open the downloaded :guilabel:`particl-desktop-X.X.X-win.exe` installer file.
-	 	#. Follow the installation instructions
-	 	#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :guilabel:`Particl Desktop`.
-	 	#. Assign rules to your computer`s **firewall** to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
+ 		.. rst-class:: bignums
+
+	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
+	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-win.exe` installer file.
+	 		#. Follow the installation instructions
+	 		#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :guilabel:`Particl Desktop`.
+	 		#. Assign rules to your computer`s **firewall** to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
 
 
 	 .. group-tab:: Mac
 
 	 	**MacOS installation**
 
-	 	#. :ref:`Verify the checksum <Checksum verification>` of the file.
-	 	#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image with :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the shortcut menu. *Do not just double click the icon.*
-	 	#. Drag the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
-	 	#. Open the :guilabel:`Applications` folder and locate the :guilabel:`Particl Desktop.app` file. 
-	 	#. Press :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
-	 	#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. 
+	 	.. rst-class:: bignums
+
+	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
+	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image with :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the shortcut menu. *Do not just double click the icon.*
+	 		#. Drag the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
+	 		#. Open the :guilabel:`Applications` folder and locate the :guilabel:`Particl Desktop.app` file. 
+	 		#. Press :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
+	 		#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. 
 
 	 	From now on you will be able to start :guilabel:`Particl Desktop` from the **Launchpad** or **Spotlight** (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
 
@@ -161,8 +171,10 @@ Installation Process
 
 	 	**Linux installation**
 
-	 	#. :ref:`Verify the checksum <Checksum verification>` of the file.
-	 	#. Navigate to where you've downloaded your installer file in the terminal.
+	 	.. rst-class:: bignums
+
+	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
+	 		#. Navigate to where you've downloaded your installer file in the terminal.
 
 	 	*Depending on your package manager this command will vary. Using your standard package manager is recommended.*
 
@@ -262,11 +274,13 @@ The Tor network can be installed using three different methods. Always make sure
 Using the Tor Browser
 ~~~~~~~~~~~~~~~~~~~~~
 
-#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
-#. Install the Tor Browser on your computer.
-#. Launch the Tor Browser.
-#. Connect to the Tor network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
-#. Once connected, **leave the Tor Browser running in the background** of your computer.
+.. rst-class:: bignums
+
+	#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
+	#. Install the Tor Browser on your computer.
+	#. Launch the Tor Browser.
+	#. Connect to the Tor network by clicking on :guilabel:`Connect` or configure your connection 	parameters by clicking on :guilabel:`Configure`.
+	#. Once connected, **leave the Tor Browser running in the background** of your computer.
 
 
 Using the Tor daemon
@@ -278,23 +292,25 @@ Using the Tor daemon
 
 		**Run Tor daemon**
 
-	 	#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
-		#. Install the Tor Browser on your computer.
-	 	#. Open :guilabel:`Explorer` 
-	 	#. Navigate to the Tor installation directory (e.g. :file:`C:\/Program Files\/Tor Browser`).
-		#. Go into the :file:`Tor` directory, hold down :kbd:`SHIFT ⇧` and click with :kbd:`MOUSE-RIGHT ◳`.
-		#. Open :guilabel:`Open command window here` from the menu.
-		#. In the terminal that pops up, type:
+		.. rst-class:: bignums
 
-			.. code-block:: bash
+	 		#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
+			#. Install the Tor Browser on your computer.
+	 		#. Open :guilabel:`Explorer` 
+	 		#. Navigate to the Tor installation directory (e.g. :file:`C:\/Program Files\/Tor Browser`).
+			#. Go into the :file:`Tor` directory, hold down :kbd:`SHIFT ⇧` and click with :kbd:`MOUSE-RIGHT ◳`.
+			#. Open :guilabel:`Open command window here` from the menu.
+			#. In the terminal that pops up, type:
 
-				tor.exe –service install
+				.. code-block:: bash
 
-		#. Verify that Tor service is running, type: 
+					tor.exe –service install
+
+			#. Verify that Tor service is running, type: 
 			
-			.. code-block:: bash
+				.. code-block:: bash
 
-				sc query "Tor" | find "RUNNING"
+					sc query "Tor" | find "RUNNING"
 
 	.. group-tab:: Mac
 
@@ -310,98 +326,104 @@ Using the Tor daemon
 					ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 					echo "export PATH=/usr/local/bin:/usr/local/sbin:$PATH" >> ~/.profile
 
-		#. Install the Tor daemon with homebrew by typing:
+		.. rst-class:: bignums
 
-			.. code-block:: bash
+			#. Install the Tor daemon with homebrew by typing:
 
-				brew install tor
+				.. code-block:: bash
 
-		#. Enable Tor as a Brew service by typing:
+					brew install tor
 
-			.. code-block:: bash
+			#. Enable Tor as a Brew service by typing:
 
-				brew services start tor
+				.. code-block:: bash
+
+					brew services start tor
 
 	.. group-tab:: Linux
 
 	 	**Using the Tor daemon**
 
-	 	#. Open a :guilabel:`terminal`
-		#. Install the Tor daemon by typing:
+	 	.. rst-class:: bignums
 
-			.. code-block:: bash 
+	 		#. Open a :guilabel:`terminal`
+			#. Install the Tor daemon by typing:
 
-				sudo apt install tor
+				.. code-block:: bash 
 
-		#. Make sure Tor launches on startup by typing: 
+					sudo apt install tor
 
-			.. code-block:: bash
+			#. Make sure Tor launches on startup by typing: 
 
-				sudo systemctl enable tor
+				.. code-block:: bash
+
+					sudo systemctl enable tor
 
 Using Tor as a Hidden Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 On linux, you can also run Tor as a hidden service and connect your :guilabel:`Particl Desktop` to it. This allows other people to use your node as an entry or exit point, making the Tor network more decentralized and private.
 
-#. Open a :guilabel:`terminal`.
-#. Install the Tor network by typing: 
+.. rst-class:: bignums
+
+	#. Open a :guilabel:`terminal`.
+	#. Install the Tor network by typing: 
 	
-	.. code-block:: bash
+		.. code-block:: bash
 
-		sudo apt-get install tor
+			sudo apt-get install tor
 
-#. Define that you want to use Tor as a hidden service by modifying the Tor config file. To do so, type: 
+	#. Define that you want to use Tor as a hidden service by modifying the Tor config file. To do so, type: 
 
-	.. code-block:: bash
+		.. code-block:: bash
 
-		sudo nano /etc/tor/torrc
+			sudo nano /etc/tor/torrc
 
-#. In the config file, add these two lines:
+	#. In the config file, add these two lines:
 
-	.. code-block:: bash
+		.. code-block:: bash
 
-		HiddenServiceDir /var/lib/tor/particl-service/
-		HiddenServicePort 51738 127.0.0.1:51738
+			HiddenServiceDir /var/lib/tor/particl-service/
+			HiddenServicePort 51738 127.0.0.1:51738
 
-#. Save and exit the file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
-#. Restart Tor by typing 
+	#. Save and exit the file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
+	#. Restart Tor by typing 
 	
-	.. code-block:: bash
+		.. code-block:: bash
 		
-		sudo service tor restart
+			sudo service tor restart
 
-#. Find your hidden service’s IP address (.onion) by typing (For the purpose of this tutorial, we'll refer to this address as :code:`[yourexternalip].onion`):
+	#. Find your hidden service’s IP address (.onion) by typing (For the purpose of this tutorial, we'll refer to this address as :code:`[yourexternalip].onion`):
 	
-	.. code-block:: bash
+		.. code-block:: bash
 
-		sudo cat /var/lib/tor/particl-service/hostname
+			sudo cat /var/lib/tor/particl-service/hostname
 
-#. Modify your Particl config file to route its connection through your hidden service by typing: 
+	#. Modify your Particl config file to route its connection through your hidden service by typing: 
 
-	.. code-block:: bash
+		.. code-block:: bash
 
-		touch ~/.particl/particl.conf && nano ~/.particl/particl.conf
+			touch ~/.particl/particl.conf && nano ~/.particl/particl.conf
 
-	Then add these lines to the file and don`t forget to set :code:`yourexternalip.onion` 
+		Then add these lines to the file and don`t forget to set :code:`yourexternalip.onion` 
 
-	.. code-block:: bash
+		.. code-block:: bash
 	
-		externalip=[yourexternalip].onion
-		onion=127.0.0.1:9050
-		addnode=7vusex6gv5eerqi2.onion
-		addnode=quf7tm4gk3xn3aee.onion
-		addnode=46fvsrrq75dx5vq4.onion
-		addnode=ciikdjtoop7l6p6h.onion
-		addnode=frlfghlielxq2ncy.onion
-		addnode=partusq5qad6jd2c.onion
-		addnode=x6fxdwpq2krxzmr3.onion
-		addnode=amu2ck7lyw26fiqs.onion
-		addnode=kfyopkn3shigcneh.onion
-		onlynet=tor
-		listen=1
-		bind=127.0.0.1:51738
-		maxconnections=30
+			externalip=[yourexternalip].onion
+			onion=127.0.0.1:9050
+			addnode=7vusex6gv5eerqi2.onion
+			addnode=quf7tm4gk3xn3aee.onion
+			addnode=46fvsrrq75dx5vq4.onion
+			addnode=ciikdjtoop7l6p6h.onion
+			addnode=frlfghlielxq2ncy.onion
+			addnode=partusq5qad6jd2c.onion
+			addnode=x6fxdwpq2krxzmr3.onion
+			addnode=amu2ck7lyw26fiqs.onion
+			addnode=kfyopkn3shigcneh.onion
+			onlynet=tor
+			listen=1
+			bind=127.0.0.1:51738
+			maxconnections=30
 
 Enable Tor on Particl
 ---------------------
@@ -411,21 +433,25 @@ All you need to do to enable Tor on Particl is to launch Particl Desktop with th
 Enable by default from GUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open :guilabel:`Particl Desktop`
-#. Click on :guilabel:`Configure settings` in the bottom left corner
-#. Go To :guilabel:`Global` > :guilabel:`Core Network Connection`
-#. Put in to :guilabel:`Connect via Proxy` :code:`127.0.0.1:9150`
-#. Hit :guilabel:`Save changes` and restart :guilabel:`Particl Desktop`
+.. rst-class:: bignums
+
+	#. Open :guilabel:`Particl Desktop`
+	#. Click on :guilabel:`Configure settings` in the bottom left corner
+	#. Go To :guilabel:`Global` > :guilabel:`Core Network Connection`
+	#. Put in to :guilabel:`Connect via Proxy` :code:`127.0.0.1:9150`
+	#. Hit :guilabel:`Save changes` and restart :guilabel:`Particl Desktop`
 
 Enable by default from commandline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open the configuration file: :code:`nano ~/.particl/particl.conf`
-#. Add this line to the configuration file:
+.. rst-class:: bignums
 
-	.. code-block:: bash
+	#. Open the configuration file: :code:`nano ~/.particl/particl.conf`
+	#. Add this line to the configuration file:
 
-		proxy=127.0.0.1:9150
+		.. code-block:: bash
+
+			proxy=127.0.0.1:9150
 
 .. note::
 
@@ -440,35 +466,40 @@ Enable with terminal startup
 
 	 	**Launching Particl With Tor**
 
-	 	#. Open :guilabel:`Explorer`
-	 	#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
-	 	#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
+	 	.. rst-class:: bignums
 
-	 	.. code-block:: bash
+	 		#. Open :guilabel:`Explorer`
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
-	 		“Particl Desktop.exe” -proxy=127.0.0.1:9150
+	 		.. code-block:: bash
+
+	 			“Particl Desktop.exe” -proxy=127.0.0.1:9150
 
 	.. group-tab:: Mac
 
 	 	**Launching Particl With Tor**
 
-	 	#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
-	 	#. Type in this command:
+	 	.. rst-class:: bignums
 
-		.. code-block:: bash
+	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Type in this command:
 
-			/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
+			.. code-block:: bash
+
+				/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
 
 	.. group-tab:: Linux
 
 	 	**Launching Particl With Tor**
 
+	 	.. rst-class:: bignums
 	 	
-	 	#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
+	 		#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
 		
-		.. code-block:: bash
+			.. code-block:: bash
 
-			./Particl\ Desktop -proxy=127.0.0.1:9150
+				./Particl\ Desktop -proxy=127.0.0.1:9150
 
 
 Important Considerations
@@ -486,31 +517,37 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 	**Updating Tor**
 
-	 	#. Open the Tor Browser
-	 	#. Check if the browser prompts you to update the a newer version.
+	 	.. rst-class:: bignums
+
+	 		#. Open the Tor Browser
+	 		#. Check if the browser prompts you to update the a newer version.
 
 	 .. group-tab:: Mac
 
 	 	**Updating Tor**
 
-	 	#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
-	 	#. Type this line of code and  hit :kbd:`ENTER ↵`
+	 	.. rst-class:: bignums
 
-	 		.. code-block:: bash
+	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Type this line of code and  hit :kbd:`ENTER ↵`
+
+	 			.. code-block:: bash
 	
-	 			brew update && brew upgrade
+	 				brew update && brew upgrade
 
 	 .. group-tab:: Linux
 
 	 	**Updating Tor**
 
-	 	#. Open a :guilabel:`Terminal` and run the upgrade procedure depending on your package manager.
+	 	.. rst-class:: bignums
 
-	 	**Example**
+	 		#. Open a :guilabel:`Terminal` and run the upgrade procedure depending on your package manager.
 
-	 	.. code-block:: bash
+	 		**Example**
 
-	 		sudo apt update && sudo apt-upgrade
+	 		.. code-block:: bash
+
+	 			sudo apt update && sudo apt-upgrade
 
 
 Update Tor Safely
