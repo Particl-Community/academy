@@ -3,7 +3,7 @@ Buying Process
 ====================
 
 .. meta::
-   :description lang=en: Learn how the buflow works on Particl Marketplace from a customer perspective.
+   :description lang=en: Learn how the buyflow works on Particl Marketplace from a customer perspective.
 
 The buying process of Particl's marketplace grants you more privacy, security, censorship resistance, and is entirely free to use except for the tiny sub-cents transaction fees usually associated with cryptocurrency transactions. **The price to pay to get these benefits is that you are required to do things a bit differently than what you are used to.**
 
