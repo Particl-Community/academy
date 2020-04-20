@@ -28,7 +28,7 @@ PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bit
 +--------------------------+------------------------------------------+
 | **Consensu Mechanism**   | Particl Proof-of-Stake (PPoS)            |
 +--------------------------+------------------------------------------+
-| **Supply**               | **NEED AUTO UPDATE**                     |
+| **Circulating Supply**   | |Coin supply| (100%)                     |
 +--------------------------+------------------------------------------+
 | **Inflation Rate**       | 2% per year                              |
 +--------------------------+------------------------------------------+

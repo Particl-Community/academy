@@ -1,10 +1,6 @@
 What's Particl
 ==============
 
-.. note::
-
-   Particl's marketplace is currently in its Beta (``version 2.4.0``) phase of development. PROPER DISCLOSURE HERE
-
 .. contents:: Table of contents
    :local:
    :backlinks: none

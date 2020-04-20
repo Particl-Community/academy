@@ -11,6 +11,12 @@ Welcome to the Particl Academy
 .. meta::
    :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
 
+.. note::
+
+   The Particl Academy is up-to-date with Particl's latest version, |PD version|. Please keep in mind that Particl is still in ``Beta`` and as such, isn't a finished product by any means.
+
+   Want to help Particl grow? Then join our awesome open-source community and meet our great contributors `here <https://discord.me/particl/>`_.
+
 `Particl Marketplace`_ is a two-sided marketplace like Amazon, eBay, and Alibaba, but without the fees, the sales commissions, and the personal information requirements. It is deployed on a distributed person-to-person (P2P) network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world. 
 
 Its distributed nature means there is no one sitting in the middle of any transaction you make on the marketplace, thus no one to charge you fees, commissions, and have access to all of your information. It is, simply put, the digital equivalent of an in-person cash transaction between you and someone else. 
