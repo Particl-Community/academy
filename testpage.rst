@@ -679,3 +679,7 @@ We are able to include files and render them locally. This is very helpful for t
 
     .. include:: faq/faq_testpage.rst.txt
 
+Epilogs
+=======
+
+I am a text and int the middle of it I put a link |Courage Cat| out of the epilog. Guess what |PM| is?
