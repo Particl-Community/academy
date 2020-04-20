@@ -683,3 +683,9 @@ Epilogs
 =======
 
 I am a text and int the middle of it I put a link |Courage Cat| out of the epilog. Guess what |PM| is?
+
+epilog data is put into :file:`conf.py`
+
+.. code-block:: rst
+
+  I am a text and int the middle of it I put a link |Courage Cat| out of the epilog. Guess what |PM| is?
