@@ -125,3 +125,10 @@ linkcheck_ignore = [
   r'http://127.0.0.1(:\d+)?/?',
   r'http://localhost(:\d+)?/?',
 ]
+
+# -- Epilog replacements --
+
+rst_epilog = """
+.. |PM| replace:: Particl Marketplace
+.. |Courage Cat| replace:: https://www.youtube.com/watch?v=OV-vcXL25pc
+"""
