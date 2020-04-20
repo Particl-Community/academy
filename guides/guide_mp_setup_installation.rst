@@ -206,6 +206,8 @@ Installation process
 
 **Congratulations! You have installed Particl Marketplace.**
 
+------
+
 Backup Account and Data
 =======================
 
@@ -253,6 +255,8 @@ After a successful installation of :guilabel:`Particl Desktop` the main applicat
 
 			"/opt/Particl Desktop/Particl Desktop"
 
+------
+
 Install Tor (Network Privacy)
 =============================
 
@@ -279,7 +283,7 @@ Using the Tor Browser
 	#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
 	#. Install the Tor Browser on your computer.
 	#. Launch the Tor Browser.
-	#. Connect to the Tor network by clicking on :guilabel:`Connect` or configure your connection 	parameters by clicking on :guilabel:`Configure`.
+	#. Connect to the Tor network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
 	#. Once connected, **leave the Tor Browser running in the background** of your computer.
 
 
@@ -438,7 +442,7 @@ Enable by default from GUI
 	#. Open :guilabel:`Particl Desktop`
 	#. Click on :guilabel:`Configure settings` in the bottom left corner
 	#. Go To :guilabel:`Global` > :guilabel:`Core Network Connection`
-	#. Put in to :guilabel:`Connect via Proxy` :code:`127.0.0.1:9150`
+	#. Put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
 	#. Hit :guilabel:`Save changes` and restart :guilabel:`Particl Desktop`
 
 Enable by default from commandline
@@ -446,7 +450,12 @@ Enable by default from commandline
 
 .. rst-class:: bignums
 
-	#. Open the configuration file: :code:`nano ~/.particl/particl.conf`
+	#. Open the configuration file: 
+
+		.. code-block:: bash
+
+			nano ~/.particl/particl.conf
+
 	#. Add this line to the configuration file:
 
 		.. code-block:: bash
@@ -472,9 +481,9 @@ Enable with terminal startup
 	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
-	 		.. code-block:: bash
+	 			.. code-block:: bash
 
-	 			“Particl Desktop.exe” -proxy=127.0.0.1:9150
+	 				“Particl Desktop.exe” -proxy=127.0.0.1:9150
 
 	.. group-tab:: Mac
 
@@ -485,9 +494,9 @@ Enable with terminal startup
 	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
 	 		#. Type in this command:
 
-			.. code-block:: bash
+				.. code-block:: bash
 
-				/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
+					/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
 
 	.. group-tab:: Linux
 
@@ -497,9 +506,9 @@ Enable with terminal startup
 	 	
 	 		#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
 		
-			.. code-block:: bash
+				.. code-block:: bash
 
-				./Particl\ Desktop -proxy=127.0.0.1:9150
+					./Particl\ Desktop -proxy=127.0.0.1:9150
 
 
 Important Considerations
@@ -543,11 +552,13 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 		#. Open a :guilabel:`Terminal` and run the upgrade procedure depending on your package manager.
 
-	 		**Example**
+	 			**Example**
 
-	 		.. code-block:: bash
+	 			.. code-block:: bash
 
-	 			sudo apt update && sudo apt-upgrade
+	 				sudo apt update && sudo apt-upgrade
+
+	 	Depending on your linux flavor this command may vary. There are multiple package-managers out there, but their usage is quite the same.
 
 
 Update Tor Safely
