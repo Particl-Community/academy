@@ -78,8 +78,6 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
     Particl Marketplace installation checksum highlighted image
 
-**Commands for each OS**
-
 .. tabs::
 	 .. group-tab:: Windows
 
@@ -124,7 +122,7 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
 	 				sha256sum filename
 
-Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes :guilabel:`Verification` from your download source. 
+Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes :guilabel:`Verification` section of your download source. 
 
 
 **Troubleshooting checksum mismatch**
@@ -165,7 +163,7 @@ Installation process
 	 		#. Press :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
 	 		#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. 
 
-	 	From now on you will be able to start :guilabel:`Particl Desktop` from the **Launchpad** or **Spotlight** (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
+	 	From now on you will be able to start :guilabel:`Particl Desktop` from the **Launchpad** or **Spotlight** (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
 
 	 .. group-tab:: Linux
 
@@ -176,21 +174,21 @@ Installation process
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 		#. Navigate to where you've downloaded your installer file in the terminal.
 
-	 	*Depending on your package manager this command will vary. Using your standard package manager is recommended.*
+	 		#. *Depending on your package manager this command will vary. Using your standard package manager is recommended.*
 
-	 	**Debian based installation**
+	 			**Debian based installation**
 
-	 	.. code-block:: bash
+	 			.. code-block:: bash
 
-	 		sudo apt install particl-desktop-x.x.x-linux.deb
+	 				sudo apt install particl-desktop-x.x.x-linux.deb
 
-		**RPM based installation** 
+				**RPM based installation** 
 
-	 	.. code-block:: bash
+	 			.. code-block:: bash
 
-	 		sudo dnf -i particl-desktop-x.x.x-linux.rpm
+	 				sudo dnf -i particl-desktop-x.x.x-linux.rpm
 
-	 	An application launcher is put to your applications menu. Click this to start *Particl Desktop* client.
+	 		#. An application launcher is put to your applications menu. Click this to start :guilabel:`Particl Desktop` client.
 
 	 	.. tip::
 
@@ -204,7 +202,95 @@ Installation process
 				user@linux:~> "/usr/bin/Particl Desktop"
 				(Particl Desktop:16887)
 
-**Congratulations! You have installed Particl Marketplace.**
+.. rst-class:: achievement
+
+	Congratulations! You have installed Particl Marketplace.
+
+Starting Particl Desktop
+------------------------
+
+You have two options. Either startup with the launcher icon or with a terminal command.
+
+Startup with Launcher
+~~~~~~~~~~~~~~~~~~~~~
+
+.. tabs::
+
+	.. group-tab:: Windows
+
+	 	**Launching Particl Desktop with Launcher**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open your :guilabel:`Start Menu` by pressing :kbd:`WIN ⊞` Key
+	 		#. Start typing :code:`Particl`
+	 		#. Click on the :guilabel:`Particl Desktop` launcher icon.
+
+	.. group-tab:: Mac
+
+	 	**Launching Particl Desktop with Launcher**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Spotlight` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE`) 
+	 		#. Type :code:`Particl`
+	 		#. Click on the :guilabel:`Particl Desktop` launcher icon.
+
+	.. group-tab:: Linux
+
+	 	**Launching Particl Desktop with Launcher**
+
+	 	.. rst-class:: bignums
+	 	
+	 		#. Open your applications menu
+	 		#. Click on :guilabel:`Particl Desktop` launcher icon
+
+Startup from Terminal
+~~~~~~~~~~~~~~~~~~~~~
+
+Sometimes it is handy to start Particl Marketplace from the terminal aka commandline. It gives you plenty of output and informations what is happening in the background.
+
+.. tabs::
+
+	.. group-tab:: Windows
+
+	 	**Launching Particl Desktop from terminal**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Explorer`
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
+
+	 			.. code-block:: bash
+
+	 				“Particl Desktop.exe”
+
+	.. group-tab:: Mac
+
+	 	**Launching Particl Desktop from terminal**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Type in this command:
+
+				.. code-block:: bash
+
+					/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop
+
+	.. group-tab:: Linux
+
+	 	**Launching Particl Desktop from terminal**
+
+	 	.. rst-class:: bignums
+	 	
+	 		#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
+		
+				.. code-block:: bash
+
+					./Particl\ Desktop
+
 
 ------
 
@@ -491,7 +577,7 @@ Enable with terminal startup
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
 	 		#. Type in this command:
 
 				.. code-block:: bash
@@ -537,7 +623,7 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
 	 		#. Type this line of code and  hit :kbd:`ENTER ↵`
 
 	 			.. code-block:: bash
