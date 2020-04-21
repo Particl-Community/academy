@@ -70,8 +70,8 @@
     --btn-neutral-background-color: #f3f6f6;
     --btn-neutral-hover-background-color: #e5ebeb;
     --footer-color: #808080;
-    --rst-guilabel-border-color: #65d0a1;
-    --rst-guilabel-background-color: #d5f5e7;
+    --rst-guilabel-border-color: rgba(0, 0, 0, 0.14);
+    --rst-guilabel-background-color: rgba(0, 0, 0, 0.06);
     --bignums-number-background-color: #212727;
     --bignums-background-color: #f7f7f7;
 }
@@ -128,8 +128,8 @@
         --btn-neutral-hover-background-color: #505050;
         --footer-color: #aaa;
         --hr-color: #2b3d4f;
-        --rst-guilabel-border-color: #2bbb79;
-        --rst-guilabel-background-color: #212727;
+        --rst-guilabel-border-color: rgba(0, 0, 0, 0.14);
+        --rst-guilabel-background-color: rgba(0, 0, 0, 0.06);
         --bignums-number-background-color:#2bbb79;
         --bignums-background-color:#333537;
     }
@@ -238,6 +238,12 @@ a:visited {
 
 a.btn:hover {
     text-decoration: none;
+}
+
+.achievement {
+    font-size: 2em;
+    font-weight: 200;
+    line-height: normal;
 }
 
 hr,
