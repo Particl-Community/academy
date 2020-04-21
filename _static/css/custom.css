@@ -46,7 +46,7 @@
     --highlight-function-color: #06287e;
     --highlight-operator-color: #666666;
     --highlight-string-color: #4070a0;
-    --highlight-gh-color:#e15af7;
+    --highlight-gh-color:#586bf9;
     --admonition-note-background-color: #d5f5e7;
     --admonition-note-color: #404040;
     --admonition-note-title-background-color: #2bbb79;
@@ -103,7 +103,7 @@
         --highlight-function-color: #57b3ff;
         --highlight-operator-color: #abc8ff;
         --highlight-string-color: #ffeca1;
-        --highlight-gh-color:#ea9df7;
+        --highlight-gh-color:#586bf9;
         --admonition-note-background-color: #006036;
         --admonition-note-color: #b3ffc9;
         --admonition-note-title-background-color: #023c23;
@@ -128,7 +128,7 @@
         --btn-neutral-hover-background-color: #505050;
         --footer-color: #aaa;
         --hr-color: #2b3d4f;
-        --rst-guilabel-border-color: rgba(0, 0, 0, 0.14);
+        --rst-guilabel-border-color: #2bbb79;
         --rst-guilabel-background-color: rgba(0, 0, 0, 0.06);
         --bignums-number-background-color:#2bbb79;
         --bignums-background-color:#333537;
