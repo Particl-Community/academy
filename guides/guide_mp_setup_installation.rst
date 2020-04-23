@@ -6,7 +6,7 @@ In this section you learn how to install Particl Marketplace, additional softwar
 
 .. meta::
       
-      :description lang=en: Particl Marketplace installation guides.
+      :description lang=en: Particl Desktop (Marketplace) installation guides. 
 
 .. contents:: Table of Contents
    :local:
@@ -28,19 +28,6 @@ The entire process of setting up Particl Marketplace, from A to Z, can be seen i
 
 Download 
 --------
-
-.. danger::
-
-   **NEVER download Particl clients from 3rd party websites**! Bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets with the goal of stealing your funds! Always download from official sources only. 
-
-.. attention::
-	
-	Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by **verifying its checksum**.
-
-**Download sources**
-
-- Particl Homepage: https://particl.io/downloads/
-- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
 **Choose the right version to download**
 
@@ -66,17 +53,19 @@ Download
 	 	We assume that you know what you are doing here and what you need.
 
 
+**Download sources**
+
+- Particl Homepage: https://particl.io/downloads/
+- Particl Github: https://github.com/particl/particl-desktop/releases/latest
+
+.. danger::
+
+   **NEVER download Particl clients from 3rd party websites**! Bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets with the goal of stealing your funds! Always download from official sources only. 
+
 Checksum verification
 ---------------------
 
-Obtain the checksum code from your download source for the downloaded file. Each file has its own checksum. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
-
-.. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
-    :align: center
-    :alt: Particl Marketplace installation checksum highlighted image
-    :target: ../_static/media/images/mp_installation_github_checksum_verification.png
-
-    Particl Marketplace installation checksum highlighted image
+Obtain the checksum code from your download source for the downloaded file. Each file has its own checksum. 
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -98,12 +87,12 @@ Obtain the checksum code from your download source for the downloaded file. Each
 	 	**Checksum verification command with terminal**
 
 	 	.. tip::
-	 		**Prerequisite**: Head into :guilabel:`System Preferences` and select :guilabel:`Keyboard` > :guilabel:`Shortcuts` > :guilabel:`Services`. Find :guilabel:`New Terminal at Folder` in the settings and click the box.
+	 		**Prerequisite**: Head into :guilabel:`System Preferences` and select :guilabel:`Keyboard` > :guilabel:`Shortcuts` > :guilabel:`Services`. Find :guilabel:`New Terminal at Folder` in the settings and enable the checkbox.
 
 		.. rst-class:: bignums
 
 	 		#. Open :guilabel:`Finder`
-	 		#. Press :kbd:`MOUSE-RIGHT ◳` on the **Download folder** of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal. 
+	 		#. Press :kbd:`MOUSE-RIGHT ◳` on the **Download folder** of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal at this location. 
 			#. Type the following command into the terminal while changing :file:`filename` for the real filename of the downloaded file.
 
 				.. code-block:: bash
@@ -122,8 +111,18 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
 	 				sha256sum filename
 
-Once that is done, compare the output you've received in the step above with the checksum of the downloaded file from the release notes :guilabel:`Verification` section of your download source. 
+Once that is done, compare the checksum output you've received in the step above with the checksum stated in your download source. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
 
+.. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
+    :align: center
+    :alt: Particl Marketplace installation checksum highlighted image
+    :target: ../_static/media/images/mp_installation_github_checksum_verification.png
+
+    Particl Marketplace installation checksum highlighted image
+
+.. attention::
+	
+	Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by **verifying its checksum**.
 
 **Troubleshooting checksum mismatch**
 
@@ -157,10 +156,10 @@ Installation process
 	 	.. rst-class:: bignums
 
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
-	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image with :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the shortcut menu. *Do not just double click the icon.*
-	 		#. Drag the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
+	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image by pressing :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the appearing shortcut menu. *Do not just double click the icon.*
+	 		#. Drag and drop the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
 	 		#. Open the :guilabel:`Applications` folder and locate the :guilabel:`Particl Desktop.app` file. 
-	 		#. Press :kbd:`CTRL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
+	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
 	 		#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. 
 
 	 	From now on you will be able to start :guilabel:`Particl Desktop` from the **Launchpad** or **Spotlight** (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
@@ -209,7 +208,7 @@ Installation process
 Starting Particl Desktop
 ------------------------
 
-You have two options. Either startup with the launcher icon or with a terminal command.
+You have two options. Either startup with the launcher icon (recommended) or with a terminal command
 
 Startup with Launcher
 ~~~~~~~~~~~~~~~~~~~~~
