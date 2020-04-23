@@ -9,6 +9,7 @@
             $(this).parent().children().not(".header").toggle(400);
             $(this).parent().children(".header").toggleClass("open");
         })
+         $('a[href^="http://"], a[href^="https://"]').not('a[class*=internal]').attr('target', '_blank');
     });
 </script>
 {% endblock %}
