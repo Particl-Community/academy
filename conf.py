@@ -135,6 +135,7 @@ linkcheck_ignore = [
 rst_epilog = """
 .. |PM| replace:: Particl Marketplace
 .. |Courage Cat| replace:: https://www.youtube.com/watch?v=OV-vcXL25pc
-.. |PD version| replace:: **Particl Desktop 2.3.2**
-.. |Coin supply| replace:: 9,593,452
+.. |PD version| replace:: **Particl Desktop 2.3.5**
+.. |Coin supply| replace:: ~9,7M
+.. |BTC Version| replace:: Bitcoin 0.19
 """

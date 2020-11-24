@@ -20,7 +20,7 @@ PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bit
 +--------------------------+------------------------------------------+
 | **Native blockchain**    | Particl                                  | 
 +--------------------------+------------------------------------------+
-| **Blockchain codebase**  | Bitcoin (0.18)                           |
+| **Blockchain codebase**  | |BTC Version|                            |
 +--------------------------+------------------------------------------+
 | **Block Time**           | 120 seconds (5x faster than Bitcoin)     | 
 +--------------------------+------------------------------------------+
