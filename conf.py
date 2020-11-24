@@ -34,10 +34,14 @@ author = 'Particl'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 sys.path.append(os.path.abspath('_extensions'))
+
 extensions = [
     'sphinx_tabs.tabs',
+    'sphinx_copybutton',
     'sphinx.ext.autosectionlabel',
 ]
+
+sphinx_tabs_valid_builders = ['linkcheck']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
