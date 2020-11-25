@@ -204,8 +204,9 @@ article ol,
 .rst-content .section ul,
 .rst-content .toctree-wrapper ul,
 .rst-content .section ol {
-    line-height: 1.87em;
-    letter-spacing:-0.007em;
+    font-size: .9rem;
+    line-height: 1.6rem;
+    margin-bottom: .8rem;
 }
 
 body,
