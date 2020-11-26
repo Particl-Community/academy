@@ -358,7 +358,14 @@ The *only* privacy setting not turned on by default is the ability to keep your 
 Install and Run Tor
 -------------------
 
+To make sure you don't download a compromised version of Tor, always make sure to download it from their official website. What good would updating Tor do to you if it lets the door wide open to hackers? 
+
+To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the Tor files you download, even if it's from Tor's official website.
+
+To do so, follow `this tutorial on how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the Tor team itself.	
+
 The Tor network can be installed using three different methods. Always make sure that, regardless of the installation method you choose, Tor is running the latest version before using it.
+
 
 Using the Tor Browser
 ~~~~~~~~~~~~~~~~~~~~~
@@ -525,8 +532,8 @@ Enable by default from GUI
 .. rst-class:: bignums
 
 	#. Open :guilabel:`Particl Desktop`
-	#. Click on :guilabel:`Configure settings` in the bottom left corner
-	#. Go To :guilabel:`Global` > :guilabel:`Core Network Connection`
+	#. Click on :guilabel:`Particl Desktop Settings` in the bottom left corner
+	#. Go to :guilabel:`Core network connection`
 	#. Put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
 	#. Hit :guilabel:`Save changes` and restart :guilabel:`Particl Desktop`
 
@@ -549,7 +556,7 @@ Enable by default from commandline
 
 .. note::
 
-	From now on :guilabel:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine :guilabel:`Particl Desktop` has no access to the internet.
+	From now on :guilabel:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :guilabel:`Particl Desktop` has no access to the internet.
 
 Enable with terminal startup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -644,13 +651,3 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 	 				sudo apt update && sudo apt-upgrade
 
 	 	Depending on your linux flavor this command may vary. There are multiple package-managers out there, but their usage is quite the same.
-
-
-Update Tor Safely
-~~~~~~~~~~~~~~~~~
-
-Updating Tor is one thing, safely updating it is another. To make sure you don't download a compromised version of Tor, always make sure to download it from their official website. What good would updating Tor do to you if it lets the door wide open to hackers? 
-
-To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the Tor files you download, even if it's from Tor's official website.
-
-To do so, follow `this tutorial on how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the Tor team itself.	

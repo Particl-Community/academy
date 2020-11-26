@@ -1,4 +1,4 @@
-User Best Practices
-===================
+.. User Best Practices
+	===================
 
-lorem ipsum
+	lorem ipsum

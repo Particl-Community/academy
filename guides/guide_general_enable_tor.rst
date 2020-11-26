@@ -7,19 +7,36 @@ Enable Tor (Network Privacy)
 
 The only privacy setting not turned on by default is the ability to keep your IP address anonymous when using Particl. This is done by routing your client's connection through Tor, a networking protocol designed to anonymize your IP address. 
 
+.. meta::
+      
+      :description lang=en: Run Particl Desktop through the Tor network to protect your digital identity. 
+
+.. contents:: Table of Contents
+   :local:
+   :backlinks: none
+   :depth: 2
+
 Install and Run Tor
 -------------------
+
+To make sure you don't download a compromised version of Tor, always make sure to download it from their official website. What good would updating Tor do to you if it lets the door wide open to hackers? 
+
+To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the Tor files you download, even if it's from Tor's official website.
+
+To do so, follow `this tutorial on how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the Tor team itself.	
 
 The Tor network can be installed using three different methods. Always make sure that, regardless of the installation method you choose, Tor is running the latest version before using it.
 
 Using the Tor Browser
 ^^^^^^^^^^^^^^^^^^^^^
 
-#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
-#. Install the Tor Browser on your computer.
-#. Launch the Tor Browser.
-#. Connect to the Tor network by clicking on ``Connect`` or configure your connection parameters by clicking on ``Configure``.
-#. Once connected, leave the Tor Browser running in the background of your computer.
+.. rst-class:: bignums
+
+	#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
+	#. Install the Tor Browser on your computer.
+	#. Launch the Tor Browser.
+	#. Connect to the Tor network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
+	#. Once connected, leave the Tor Browser running in the background of your computer.
 
 
 Using the Tor daemon
@@ -34,7 +51,7 @@ Using the Tor daemon
 		#. Install the Tor Browser on your computer.
 	 	#. Open the Windows File Explorer and navigate to the directory in which you’ve installed the Tor Browser (i.e. ``C:\Tor Browser\``).
 		#. Go into the ``Browser\TorBrowser\Tor`` directory.
-		#. Hold down the ``[SHIFT]`` key and right-click on the Tor folder.
+		#. Hold down the ``SHIFT`` key and right-click on the Tor folder.
 		#. Click on ``Open command window here``.
 		#. In the terminal that pops up, type ``tor.exe –service install``.
 		#. Verify that Tor is running by holding down the Windows and ``r`` keys to open up the ``Run`` window. 
@@ -95,58 +112,87 @@ On linux, you can also run Tor as a hidden service and connect your Particl Desk
 	bind=127.0.0.1:51738
 	maxconnections=30
 
-
-
 Enable Tor on Particl
 ---------------------
 
-All you need to do to enable Tor on Particl is to launch Particl Desktop with the proper instructions. It just requires you to add a special argument to the command you use to launch Particl.
+All you need to do to enable Tor on Particl is to launch Particl Desktop with the proper instructions. Either you to add a special argument to the command you use to launch Particl or you make it a permanent setting.
 
-.. tabs::
-	 .. group-tab:: Windows
+Enable by default from GUI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	 	**Launching Particl With Tor**
 
-	 	#. Hit ``[SHIFT]`` + ``[MOUSE-RIGHT-CLICK]`` on the folder where you've installed Particl Desktop and choose "*Open command window here*" or "*Open power shell here*".
-	 	#. Type the following command into the command-window and hit ``[ENTER]``.
+.. rst-class:: bignums
 
-	 	.. code-block:: bash
+	#. Open :guilabel:`Particl Desktop`
+	#. Click on :guilabel:`Particl Desktop Settings` in the bottom left corner
+	#. Go to :guilabel:`Core network connection`
+	#. Put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
+	#. Hit :guilabel:`Save changes` and restart :guilabel:`Particl Desktop`
 
-	 		“Particl Desktop.exe” -proxy=127.0.0.1:9150
+Enable by default from commandline
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	 .. group-tab:: MacOS
+.. rst-class:: bignums
 
-	 	**Launching Particl With Tor**
-
-	 	#. Head into *System Preferences* and select "*Keyboard*" > "*Shortcuts*" > "*Services*". Find "*New Terminal at Folder*" in the settings and click the box.
-	 	#. Open *Finder*, ``[MOUSE-RIGHT-CLICK]`` on the folder where you've installed Particl Desktop and click on "*services*" > "*open terminal*" command to open the terminal. 
-		#. Type the following command into the command-window.
+	#. Open the configuration file: 
 
 		.. code-block:: bash
 
-			./Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
+			nano ~/.particl/particl.conf
+
+	#. Add this line to the configuration file:
+
+		.. code-block:: bash
+
+			proxy=127.0.0.1:9150
+
+.. note::
+
+	From now on :guilabel:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :guilabel:`Particl Desktop` has no access to the internet.
+
+Enable with terminal startup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. tabs::
+
+	.. group-tab:: Windows
+
+	 	**Launching Particl With Tor**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Explorer`
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
+
+	 			.. code-block:: bash
+
+	 				“Particl Desktop.exe” -proxy=127.0.0.1:9150
+
+	.. group-tab:: Mac
+
+	 	**Launching Particl With Tor**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Type in this command:
+
+				.. code-block:: bash
+
+					/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
 
 	.. group-tab:: Linux
 
 	 	**Launching Particl With Tor**
 
+	 	.. rst-class:: bignums
 	 	
-	 	#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
+	 		#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
 		
-		.. code-block:: bash
+				.. code-block:: bash
 
-			./Particl\ Desktop -proxy=127.0.0.1:9150
-
-	.. group-tab:: Linux (.deb)
-
-	 	**Launching Particl With Tor**
-
-	 	
-	 	#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
-		
-		.. code-block:: bash
-
-			particl-desktop -proxy=127.0.0.1:9150
+					./Particl\ Desktop -proxy=127.0.0.1:9150
 
 Important Considerations
 ------------------------
@@ -182,12 +228,3 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 	#. Open a terminal.
 	 	#. Type ``sudo apt update && sudo apt-upgrade``.
-
-Update Tor the right way
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Updating Tor is one thing, safely updating it is another. To make sure you don't download a compromised version of Tor, always make sure to download it from their official website. What good would updating Tor do to you if it lets the door wide open to hackers? 
-
-To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the Tor files you download, even if it's from Tor's official website.
-
-To do so, follow `this tutorial on how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the Tor team itself.

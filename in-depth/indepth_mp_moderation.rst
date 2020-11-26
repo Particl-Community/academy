@@ -13,9 +13,9 @@ A New Twist to Online Moderation
 
 Since Particl is a distributed marketplace, there is **no one in possession of any special account that would give them more power and privileges than others**. That means no support staff, no moderator, no admin, no nothing there to keep spam and undesirable content away. For this reason, the moderation of the marketplace's content needs to be done differently. 
 
-Instead of giving moderating powers to a few group of "trusted" individuals, it gives it back to everyone. Indeed, Particl's moderation system is heavily inspired by the concept of the **"wisdom of the crowd"** which stipulates that, typically, decisions taken collectively by large groups of people are better than if taken by a limited group of individuals. 
+Instead of giving moderating powers to a few group of "trusted" individuals, it gives it back to everyone. Indeed, Particl's moderation system is heavily inspired by the concept of the **"wisdom of the crowd"** which stipulates that, typically, decisions taken collectively by large groups of people are more informed than if taken by a limited group of individuals. 
 
-That, of course, is probably not applicable to all spheres of life, but when it comes to moderating a global and distributed marketplace, it's a perfect way to reach a fair consensus and completely take bias out of the equation.
+That, of course, is probably not applicable to all spheres of life, but when it comes to moderating a global and distributed marketplace, it's a perfect way to reach a fair and globally agreeable consensus and take personal or geographical bias out of the equation. Particl Marketplace truly is the first global marketplace environment.
 
 How Does it Work? 
 -----------------
@@ -27,7 +27,7 @@ Ultimately, Particl's moderation system is very similar to **Reddit's popular up
 Flagging
 ^^^^^^^^
 
-If you find a listing that you think shouldn't be on the marketplace, you can flag it for removal. This **immediately takes it off your marketplace** and moves it to the *Reported Listings* page where other people will now be able to upvote or downvote it. You won't see that listing on the marketplace anymore, but others will on their end and they'll still be able to purchase it without any issue.
+If you find a listing that you think shouldn't be on the marketplace, you can flag it for removal. This **immediately takes it off your instance of the marketplace** and moves it to the *Reported Listings* page where other people will now be able to upvote or downvote it. You won't see that listing on the marketplace anymore, but others still do and can purchase it up until the point when that listing accumulates enough downvotes.
 
 Upvoting and downvoting
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,33 +41,11 @@ When a reported listing reaches a number of points lower than the minimum allowe
 Adjustable delisting threshold
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The delisting threshold is the agreed upon point requirement for a listing to remain on the marketplace. If a listing gets too many more downvotes than upvotes, it gets taken off Particl completely. 
+The delisting threshold is the agreed upon point requirement for a listing to remain on the marketplace. When a listing accumulates more downvotes than the agreed upon threshold, it gets deleted from the marketplace for everyone.
 
-This threshold is **adjustable and collectively agreed upon by the community**. It's also possible to manually change the delisting threshold of your own client by modifying the correct Particl Desktop configuration file on your computer. This doesn't affect the threshold of other people, but it can allow you to make quick changes, if needed, without having to wait for a new Particl Desktop update to update the threshold.
+This threshold is **adjustable and collectively agreed upon by the community**. It's also possible to manually change the delisting threshold of your own client by modifying the correct Particl Desktop configuration file on your computer. This doesn't affect the threshold of other people, but it can allow you to make quick changes, if needed, without having to wait for a new Particl Desktop client update to change the threshold.
 
-The delisting threshold is currently set a ``9,000``, which means a listing has to get 9,000 more downvotes than upvotes to be delisted.
-
-Why use coins as voting tickets?
---------------------------------
-
-To understand why Particl uses coins to count votes and not the number of users that vote, you have to remember that **it never ever knows anything about any of its users** in the first place.
-
-To game the moderation system, it would be very easy to create an infinite number of Particl identities and cast multiple upvotes or downvotes to certain listings. No one would ever know about it and there'd be no way for Particl to detect that behavior.
-
-PART coins, on the other hand, are the **perfect voting tickets**. They can't be faked, created out of thin air, or be duplicated. There is a fixed number of them in circulation and they grant everyone with the equal opportunity to either increase or decrease their total voting power. **The more PART coins you hold, the greater your voting power becomes**.
-
-This system also prevents outside influence by ensuring that only those real stake in the network can have a say over its moderation policies.
-
-Game-Theory
-^^^^^^^^^^^
-
-Using coins as voting tickets also involves a bit of game theory that truly solidifies the system. By definition, game theory simply refers to the `study of mathematical models of strategic interaction among rational decision-makers <https://en.wikipedia.org/wiki/Game_theory>`_. In the case of a distributed and open moderation system, it is how people can be forced into behaving rationally.
-
-To understand why, we have to keep in mind that **a PART coin is a unit of digital currency** with a value that fluctuates depending on many factors. This includes the amount of activity on the marketplace, but also its user growth, general appeal to other people, and etc.
-
-Generally speaking, moderating the marketplace irrationally (i.e. sellers dishonestly flagging each other's listings) directly leads to less people using the marketplace. And when less people use the marketplace, the value of the PART coin itself goes down, just like the size of the :doc:`dividend-like staking rewards <../in-depth/indepth_staking>` it pays as well.
-
-For this reason, Particl users are directly responsible of keeping the platform upright.
+The delisting threshold is currently set a :guilabel:`9,000`, which means a listing has to get 9,000 more downvotes than upvotes to be delisted.
 
 Benefits
 --------
@@ -75,7 +53,7 @@ Benefits
 Provably fair
 ^^^^^^^^^^^^^
 
-Particl's moderation system is powered by blockchain technology which makes it provably fair. It cannot be tricked and creates an equal level playing field for everyone. The system makes it impossible for anyone to fraudulently inflate their voting power. It is pure, unadultered direct democracy in action.
+Particl's moderation system is powered by blockchain technology which makes it provably fair. It cannot be tricked and creates an equal level playing field for everyone. The system makes it impossible for anyone to fraudulently inflate their voting power. It is pure, unadultered **direct democracy in action**.
 
 No pre-defined restrictions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,10 +67,30 @@ Typically, online marketplaces include the costs of moderating their platform in
 
 Particl's moderation system doesn't need to deal with that at all. It is completely distributed and autonomous. And although it requires coins to flag listings and vote on them, it doesn't cost anything at all. Not even the usual cryptocurrency transaction fee!
 
+Why use coins as voting tickets?
+--------------------------------
+
+To understand why Particl uses coins to count votes and not the number of users that vote, you have to remember that **it never ever knows anything about any of its users** in the first place.
+
+To game the moderation system, it would be very easy to create an infinite number of Particl identities and cast multiple upvotes or downvotes to certain listings. No one would ever know about it and there'd be no way for Particl to detect that dishonest behavior.
+
+PART coins, on the other hand, are the **perfect voting tickets**. They can't be faked, created out of thin air, or be duplicated. There is a fixed number of them in circulation and they grant everyone with an equal opportunity to either increase or decrease their total voting power. **The more PART coins you hold, the greater your voting power becomes**.
+
+This system also prevents outside influence from outside parties by ensuring that only those real stake in the network can have a say over its moderation policies.
+
+Game-Theory
+^^^^^^^^^^^
+
+Using coins as voting tickets also involves a bit of game theory which solidifies the system. By definition, game theory simply refers to the `study of mathematical models of strategic interaction among rational decision-makers <https://en.wikipedia.org/wiki/Game_theory>`_. In the case of a distributed and open moderation system, it is how people can be forced into behaving rationally.
+
+To understand why that is, we have to keep in mind that **a PART coin is a unit of digital currency** with a value that fluctuates depending on many factors. This includes the amount of activity on the marketplace, but also its user growth, general appeal to other people, financial market speculation, and etc.
+
+Generally speaking, moderating the marketplace irrationally (i.e. sellers dishonestly flagging each other's listings or leaving immoral listings on it) directly leads to less people using the marketplace. And when less people use the marketplace, the value of the PART coin itself can have a hard time going up, just like the size of the :doc:`dividend-like staking rewards <../in-depth/indepth_staking>` it pays as well.
+
+For this reason, Particl users are directly and financially incentivized to keep the platform as clean and fairly moderated as possible.
 
 Important to Keep in Mind
 -------------------------
 
 - Because there is no way to enforce any pre-defined bans on a distributed network, **you may encounter listings that you don't like from time to time**. It is important that you flag these products if you believe they shouldn't be on the marketplace.
-- Taking a listing off the marketplace is **as fast as other users are** to cast their votes.
-- For your coins to count as votes, they need to be held in your Public balance. Coins held in your Anon balance won't count towards moderation votes.
+- For your coins to count as votes, they need to be held in your :guilabel:`Public` balance. Coins held in your Anon balance won't count towards moderation votes.

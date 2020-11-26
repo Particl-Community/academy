@@ -115,7 +115,7 @@ This section contains detailed content explaining the various components, featur
 * :doc:`Staking <in-depth/indepth_staking>`
 .. * :doc:`Open-source technologies <in-depth/indepth_opensource>`
 * :doc:`Two-party escrow system <in-depth/indepth_mp_moderation>`
-* :doc:`Marketplace moderation <in-depth/indepth_mp_moderation>
+* :doc:`Marketplace moderation <in-depth/indepth_mp_moderation>`
 * :doc:`Security and privacy <in-depth/indepth_privacy_tips>`
 
 

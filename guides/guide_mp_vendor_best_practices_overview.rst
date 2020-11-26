@@ -1,36 +1,36 @@
-Vendor Best Practices
-=====================
+..	Vendor Best Practices
+	=====================
 
-lorem ipsum
+	lorem ipsum
 
-General
--------
+	General
+	-------
 
-Understanding Particl Marketplace 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Understanding Particl Marketplace 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-(service wise while being an open-source project and a marketplace that is not run by a company). Transport the ethos and what a vendor can expect from particl.
+	(service wise while being an open-source project and a marketplace that is not run by a company). Transport the ethos and what a vendor can expect from particl.
 
-Understanding Particl Marketplace 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Understanding Particl Marketplace 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Customer Care
--------------
+	Customer Care
+	-------------
 
-Dispute management
-~~~~~~~~~~~~~~~~~~
+	Dispute management
+	~~~~~~~~~~~~~~~~~~
 
-Dispute prevention
-~~~~~~~~~~~~~~~~~~
+	Dispute prevention
+	~~~~~~~~~~~~~~~~~~
 
-Article not received/broken 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Article not received/broken 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Tracking numbers
-~~~~~~~~~~~~~~~~
+	Tracking numbers
+	~~~~~~~~~~~~~~~~
 
-Marketing
----------
+	Marketing
+	---------
 
-Functional
-----------
+	Functional
+	----------

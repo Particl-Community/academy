@@ -80,7 +80,7 @@ Marketplace
 
     - Make sure you are using |PD version|. 
     - Leave Particl Desktop open for a few minutes so that it can sync the blockchain and load the market data. This can take several minutes and tends to take longer on slow internet connections.
-    - Reset your market database by deleting your ``particl-market`` folder. Keep in mind this is a last resort solution. It will permanently remove all your market-related data as current orders, listings, order history, and etc. **Make sure that you do not have any active order before doing this step.**
+    - Reset your market database by first making a copy of your ``particl-market`` folder and then deleting it (**don't delete the backup copy**). Keep in mind this is a last resort solution. It will permanently remove all your market-related data such as current orders, listings, order history, and etc. **Make sure that you do not have any active order before doing this step or you will permanently lose access to the escrow contracts.**
 
     .. tabs::
 	 .. group-tab:: Windows
@@ -108,7 +108,7 @@ Marketplace
         **I can't publish a listing**
 
     - Make sure you are using |PD version|. 
-    - Make sure you have enough PART in your public balance to cover for the listing fees.
+    - Make sure you have enough PART in your public or private balance to cover for the listing fees.
 
 
 .. container:: toggle
@@ -117,6 +117,7 @@ Marketplace
 
         **"Message did not send" error when trying to list multiple items at once**
 
+    - Make sure you are using |PD version|.
     - Scroll down to the bottom of the page and republish the listings that couldn't be sent in a SMSG message. You may need to repeat that step a few times until all items are published.
 
 .. container:: toggle
@@ -125,7 +126,7 @@ Marketplace
 
         **The escrow process is jammed. Neither the buyer or seller can progress further**
 
-    In rare occasions, the SMSG network can encounter message propagation issues. This can lead in issues such as the escrow not progressing further even when both transacting parties complete the escrow steps. To fix that issue, you can manually resend messages to the other party.
+    In rare occasions, the SMSG network can encounter message propagation issues. This can lead to issues such as the escrow system not progressing further even when both transacting parties complete the escrow steps. To fix that issue, you can manually resend messages to the other party.
 
     .. tabs::
 	 .. group-tab:: As the seller
@@ -165,8 +166,7 @@ In-App Exchange
 
         **I can't find any exchange to swap crypto for PART coins**
 
-    - Make sure you are using |PD version|. 
-    - TBD by new structure.
+    This feature is temporarily unavailable. We are working on bringing this back as soon as possible.
 
 .. container:: toggle
 
@@ -174,4 +174,4 @@ In-App Exchange
 
         **Certain cryptocurrencies are not available to swap for PART coins**
 
-    Not all cryptocurrencies are currently accepted on Particl. To request a coin to be added, fill up **this listing form**.
+    Not all cryptocurrencies are currently accepted on Particl. To request a coin to be added, fill up `this listing form <https://forms.gle/B3ikpiBWdTiF5ps57>`_.
