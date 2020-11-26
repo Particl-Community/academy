@@ -150,6 +150,17 @@ Using GUI Labels
 
     :guilabel:`&Cancel`, :guilabel:`O&k`, :guilabel:`&Reset`, :guilabel:`FAQ`
 
+Menu Selection
+--------------
+
+If you want to describe a menu path
+
+:menuselection:`Start --> Programs`
+
+.. code-block:: rst
+
+  :menuselection:`Start --> Programs`
+
 Subscript and Superscript 
 -------------------------
 
@@ -162,12 +173,84 @@ Subscript and Superscript
     :subscript:`subscripted`
     :superscript:`superscripted`
 
-Links
-=============
+External Links
+==============
 
-* `rst manual <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-* `Learn everything and see examples <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_
-* `The cheatsheet <http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html>`_
+* `External inline link <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+* External referenced link `The reference`_.
+
+.. _The reference: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+
+.. code-block:: rst
+
+  * `External inline link <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+  * `External referenced link `The reference`_.
+
+  .. _The reference: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+
+Internal Links
+==============
+
+* Learn how to :ref:`link to a different section within this document<Tables>`.
+
+.. code-block:: rst
+
+  * Learn how to :ref:`link to a different section within this document<Tables>`.
+  .. Mind the non existent gap between the last word and the 
+
+To support cross-referencing to arbitrary locations in **any** document, the standard reST labels are used. For this to work label names **must be unique** throughout the entire documentation. 
+
+* I reference to a page under :menuselection:`guides --> guide_general_enable_tor.rst` :ref:`Enable Tor (Network Privacy)`
+
+.. code-block:: rst
+
+  * I reference to a page under :menuselection:`guides --> guide_general_enable_tor.rst` :ref:`Enable Tor (Network Privacy)`
+  
+  Additionally there is the possibility to define manual reference labels.
+
+  .. _my-reference-label:
+
+  Section to cross-reference
+  --------------------------
+
+  This is the text of the section.
+
+  It refers to the section itself, see :ref:`my-reference-label`.
+
+  The referencing works over the whole tree which means targeting at any page as long the reference label is unique.
+
+**Cross-referencing documents** There is also a way to directly link to documents. Link to the specified document; the document name can be specified in absolute or relative fashion:
+
+* :menuselection:`faq --> common_issues.rst` as relative path :doc:`link text <_templates/../faq/common_issues>`.
+* :menuselection:`faq --> common_issues.rst` as absolute path :doc:`link text </faq/common_issues>`.
+
+.. code-block:: rst
+
+ * :menuselection:`faq --> common_issues.rst` as relative path :doc:`link text <_templates/../faq/common_issues>`.
+ * :menuselection:`faq --> common_issues.rst` as absolute path :doc:`link text </faq/common_issues>`.
+
+
+Download Links
+==============
+
+See :download:`this image <_static/images/particl-logo-green.png>`.
+
+.. code-block:: rst
+
+  See :download:`this image <_static/images/particl-logo-green.png>`.
+
+Glossary
+========
+
+We have now a glossary file ":doc:`glossary`" which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx` or :term:`FooBarLoo as I want<Sphinx>`.
+
+.. code-block:: rst
+
+  We have now a glossary file :doc:`glossary` which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx`.
+
+  You can link to a term in the glossary while showing different text in the topic by including the term in angle brackets. For example:
+
+  :term:`FooBarLoo as I want<Sphinx>`  
 
 Video
 =============
