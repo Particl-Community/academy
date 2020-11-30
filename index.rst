@@ -55,10 +55,6 @@ All begins with the installation of the Particl Desktop software. Follow these b
 * :doc:`First wallet configuration <guides/guide_mp_setup_wallet>`
 * :doc:`Understanding the user interface <guides/guide_mp_general_understanding_userinterface>`
 
-.. note::
-
-   This documentation is up-to-date with Particl's latest version, |PD version|. Please keep in mind this software is still in :guilabel:`BETA`, and as such, lots of features are regularly added. 
-
 User Guides
 ===========
 
@@ -149,3 +145,9 @@ Resources and Links
 * `News <https://particl.news>`_
 * `Wiki (technical docs) <https://particl.wiki/>`_
 * :doc:`Useful links <intro/intro_useful_links>`
+
+---
+
+.. note::
+
+   This documentation is up-to-date with Particl's latest version, |PD version|. Please keep in mind this software is still in :guilabel:`BETA`, and as such, lots of features are regularly added. 
