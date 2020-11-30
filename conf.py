@@ -138,4 +138,5 @@ rst_epilog = """
 .. |PD version| replace:: **Particl Desktop 3.0**
 .. |Coin supply| replace:: ~9,7M
 .. |BTC Version| replace:: Bitcoin 0.21.1.0
+.. |Threshold| replace:: -9,000 PART
 """
