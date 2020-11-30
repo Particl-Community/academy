@@ -155,6 +155,10 @@ margin-top: 0;
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {font-size:0;}
 .wy-side-nav-search {padding-top:0;}
 
+body {
+    font-weight:300;
+}
+
 body,
 h1,
 h2,
@@ -245,6 +249,11 @@ a.btn:hover {
     font-size: 2em;
     font-weight: 200;
     line-height: normal;
+}
+
+.bigmessage {
+font-size: 1.25em;
+font-weight: 200;
 }
 
 hr,
