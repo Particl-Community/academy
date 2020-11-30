@@ -34,7 +34,7 @@ Take your first few steps with understanding |PM|:
 
 * :doc:`What is Particl Marketplace <intro/intro_general_particlmarketplace>`
 * :doc:`Understanding Essentials <intro/intro_general_essentials>`
-* :doc:`Particl Marketplace Functions <intro/intro_general_features>`
+* :doc:`Particl Marketplace Functions <intro/intro_general_functions>`
 
 Installation & Usage
 ====================
