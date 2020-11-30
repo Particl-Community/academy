@@ -1,73 +1,82 @@
-What's Particl
+What's |PM|
 ==============
 
-.. contents:: Table of contents
-   :local:
-   :backlinks: none
-   :depth: 1
+|PM| is similar to the internet’s well-known marketplaces (Amazon, eBay, Alibaba), but with features customers and vendors love. No intentions to make profits, and you can be sure your needs are and remain protected.
 
-**Particl is a two-sided marketplace like Amazon, eBay, and Alibaba, but without the fees, the sales commissions, and the personal information requirements.** It is deployed on a distributed person-to-person (P2P) network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world. 
+**Free markets. Unhindered e-commerce.**
 
-Because of its distributed nature, there is no party like a marketplace operator or payment processor sitting in the middle of any transaction you make on the marketplace. That means there's no one to charge you fees, commissions, or to collect your personal information and data. It is, simply put, the digital equivalent of an in-person cash transaction between you and someone else. 
+* **More money** in your pocket to spend or save on life and dreams
+* **Gain security** of not being a product or a glass consumer—no fraud, trickery, invasion of privacy, spam, restriction, politics, or malice possible
+* **Enjoy standing** and giving back to society
 
+Equip yourself with sophisticated technology that is made very easy to use. This single choice makes you stop feeding the corporate monopolies. Your world becomes a fairer place while showing the people around you care about them and society. Resulting nothing more is at stake, and you’ll feel like a champion.
+
+Keep more money
+----------------
+
+Yes, precisely that. With Particl Marketplace, you found a marketplace that does not seek revenue from fees or selling your data. Effectively, it doesn’t create that data at all because no corporation is behind it.
+
+The Particl Team lives off donations and aims to become self-perpetual, but without compromising you.
+
+Gain security
+----------------
+
+The emerged giant e-commerce companies seek to expand further profits, market power, control. They created a disturbing digital security and privacy crisis under the guise of usability. We don't talk about the daily ad's spam, which you also do fight off with Particl Marketplace. We talk about serious threads to your autonomy.
+
+The data the big companies collect with your purchases and sales are utilized to evaluate you as a consumer, and they sell these data or are used against you as a vendor. Translated, this means: 
+
+**E-commerce giants have become your credit score broker!**
+
+* They will decide how high your insurance policy should be rated based on their risk assessment 
+* Your personal preferences will be the reason why you don't get a particular job 
+* Or even worse, a rating algorithm will block your accounts! 
+
+You change that by making a decision and a commitment to yourself. Install |PM|.
+
+**Get rid of Fraud & Trickery**
+
+No more bricks in your package as a customer or bad quality counterfeit goods. No more chargebacks for vendors due to stolen identities.
+
+Fraudulent attempts get taken down with a free of charge and automated two-party escrow system. You'll become bullet-proof to these types of disruptions if you install |PM|.
+
+**Get rid of Invasion of Privacy or Backdoors** 
+
+No more stolen Credit Card data, compromised email accounts, or any possibility of surveillance. Where no data is created, it can't be leaked to anyone. It can’t be collected, shared, sold, misused, hacked, or leaked. Your data stays your data, including products, locations, and payments—for customers and vendors. You'll become invincible without leaving any digital footprint behind.
+
+**Get rid of Restriction & Politics, or Malice**
+
+You'll have a 100% uptime marketplace impossible to be taken offline. It also means none of your products or users can be banned from the |PM| or be censored by any malice, politics, or oppression. Instead the community is in charge of the marketplace’s content moderation.
+
+**Get rid of Spam**
+
+You know the tailored ads hammering on you even after you made a purchase. You've seen them on websites you visit, read them within your email accounts and apps you use. It even affects how search engines deliver results to you. Forget it. You have the vaccine now.
+
+Enjoy giving back
+-----------------
+
+The world of e-commerce and online marketplaces has made the world of shopping a very different place. Small businesses have had to give up, and only a few large companies are still pocketing the profits. The price war is being fought on small merchants' backs to benefit Internet platforms and financial transaction providers. This applies in particular to **all** employees in the retail industry.
+
+**Now it's your giving-back day to the small, to the oppressed, to the exploited.** 
+
+How it's done
+-------------
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://www.youtube.com/watch?v=IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div> 
+    <iframe width="100%" height="390" src="https://www.youtube.com/embed/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
-Benefits of using Particl
--------------------------
+With the award-winning |PM|, first and foremost, you prioritize the security of your personal information and data. It is the most secure and private online marketplace on the web. 
 
-When you buy or sell something using cash, you don't need a third person to move the cash from your hands into the other person's hands. You can just do it yourself. 
+It relies on open-source technologies that are openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
 
-Unfortunately, and up until now, digital technologies didn't allow for these kinds of person-to-person transactions to happen. In the world of eCommerce and online marketplaces, this has led to sky rocketting costs and fees, more expensive retail prices on products and services, and has gave birth to a terrible digital security and privacy crisis.
+However, |PM| is based on distributed ledger technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of nodes hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn't require any central party to operate, which means no company or organization is between buyers and sellers. You are in complete control!
 
-Particl, however, is different. It is a **decentralized marketplace**. Its unique combination of blockchain and peer-to-peer technologies unlocks benefits and a level of security long thought to be impossible on the web. Let's see what these benefits are and how they can make your life better.
+---
 
-No sales commission
-~~~~~~~~~~~~~~~~~~~
+**Learn More**
 
-Similarly to torrents, Particl runs on a distributed network of nodes hosted by volunteers scattered across the world. **It is a completely autonomous platform that doesn't require any central party to operate**, which also means that there is no company or organization charging you fees and taking a commission out of every sales.  
+We've barely scratched the surface, there is more to know about |PM|! 
 
-It's true! On Particl, **there is no commission/sales fee, no subscription fee, and no escrow fee, no nonsense.** The only fee the platform charges, which is only in place to fight off spam, is a small listing fee when putting items up for sale on the marketplace. But don't worry, these fees are most often than not smaller than a penny and are entirely redistributed to the volunteers who support the network by `staking <../in-depth/indepth_staking.html>`_. 
-
-- **As a seller**, you get to keep the totality of your sales revenue in your pockets. You can then lower your prices to increase your sales volume, beat your competitors, and **still make more money per sale**!
-
-- **As a buyer**, you definitely get to benefit from this as well by gaining access to more affordable products than on traditional marketplaces. When sellers don't need to pay the marketplace a portion of their revenue, everyone wins!
-
-Unstoppable, uncensorable
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Particl is a very resilient platform operating on the basic principles of free market and direct democracy. Because the marketplace runs autonomously on a distributed and global network of nodes, it cannot be shut down or censored by any authority.
-
-This gives Particl a **100% uptime** and makes it **impossible to be taken offline**. It also means no product or user can be banned from the marketplace or be censored by an administrator or central authority. Instead, you, along with the rest of the community, are in charge of the marketplace's content moderation. Learn more about marketplace moderation `here <../in-depth/indepth_mp_moderation.html>`_.
-
-Unmatched security and privacy
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-When you start using Particl, data breaches and the abuse of your personal information become things of the past. Thanks to its unique combination of blockchain and peer-to-peer technologies, Particl provides you with the highest level of eCommerce security possible to this day. In fact, the marketplace guarantees that **your personal information remains private at all time**. The way this can be guaranteed is that no such data is created in the first place. If no meaningful data about you and your activities exists in the first place, then it can't be collected, shared, sold, misused, hacked, or leaked by any party.
-
-Particl is built from the ground up with digital security and user privacy in mind. Buy and sell anything online without leaving any digital footprint behind.
-
-
-Is it Safe?
----------------------------
-
-Particl, first and foremost, prioritizes the security of your personal information and data. It is the most secure and private online marketplace on the web. It relies on secure and open-source technologies that can be openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
-
-However, it's important to be aware that Particl is heavily based on blockchain and cryptocurrency technologies. This means you, and only you, have the responsibility to ensure the security and custody of your funds. You are in complete control!
-
-For this reason, it is highly recommended to head over to the **Best Practices page** to make sure you adopt the best security practices to keep you safe from bad actors. 
-
-Learn More
-----------
-
-We've barely scratched the surface, there is so much more to learn about Particl! To get to know Particl and its marketplace better, just browse the Particl Academy and get familiar with its content. It contains all the information you'll need to find your way around and use the marketplace just as effortlessly as any other marketplace you've used in the past. **And don't worry about all the technical mumbo-jumbo usually associated with blockchain technologies, the Particl Academy is written by humans, for humans.** 😉
-
-- In the ``Guides`` section, you'll find all the basic knowledge on how to set up and properly use the platform. This section contains step-by-step walkthrough tutorials on the most important aspects of the marketplace. Whether you're a buyer or a seller, that's where you want to go to learn how to use the marketplace!
-
-- In the ``In-Depth`` section, you'll find more detailed content explaining the various components, features, and concepts behind Particl and its marketplace. While these pages might not be mandatory for you to know how to use the basic functionalities of the marketplace, they'll give you a good understanding of some of the more advanced concepts and features that makes Particl possible. 
-
-- In the ``Help`` section, you'll find a bunch of resources to help you out should you encounter any issue when using Particl. Here, you'll find answers to some of the most frequently asked questions as well as a few guides on how to fix, or avoid, some of the most common problems. Are you having an issue not mentioned in this section? Then make sure to **contact the team** so that it can help you out and add the solution in there!
+Particl Academy contains all the information you'll need to find your way around and use the marketplace just as effortlessly as any other marketplace you've used in the past. And don't worry about all the technical mumbo-jumbo usually associated with blockchain technologies, the Particl Academy is written by humans, for humans.
