@@ -45,7 +45,7 @@ The delisting threshold is the agreed upon point requirement for a listing to re
 
 This threshold is **adjustable and collectively agreed upon by the community**. It's also possible to manually change the delisting threshold of your own client by modifying the correct Particl Desktop configuration file on your computer. This doesn't affect the threshold of other people, but it can allow you to make quick changes, if needed, without having to wait for a new Particl Desktop client update to change the threshold.
 
-The delisting threshold is currently set a :guilabel:`9,000`, which means a listing has to get 9,000 more downvotes than upvotes to be delisted.
+The delisting threshold is currently set at |Threshold|, which means a listing has to get a moderation score (upvote/downvote ratio) of |Threshold| to be taken off the Particl network.
 
 Benefits
 --------

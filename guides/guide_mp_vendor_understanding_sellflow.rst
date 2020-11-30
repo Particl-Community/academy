@@ -87,21 +87,29 @@ You can also publish your listing on multiple user markets and storefronts.
   #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the user market you've selected.
   #. From this moment, a new market will be connected to your listing template. Repeat these steps for all user markets you want to publish your listing on.
 
-Publish Multiple Items at Once (CSV)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Publish Multiple Items at Once
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you are selling multiple items, then you may want to create a CSV inventory file and list all of your products at once. To do so, follow these simple steps.
+If you are selling multiple items, then you may want to create a CSV inventory file and list all of your products at once. This will save you the time of listing each item one-by-one. 
 
-Navigate to the right location
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Publishing multiple listings at once is separated into two steps: (1) creating listing templates and (2) publishing them.
+
+Create listing templates
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+The first step of the process is to import your inventory into Particl Desktop using a CSV file and create a listing template for each item.
 
 .. rst-class:: bignums
 
   #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client.
   #. Click on the :guilabel:`Inventory & Products` tab, and then on the :guilabel:`Import` button.
+  #. Import your CSV file by clicking on the :guilabel:`Choose file` button of the :guilabel:`IMPORT FROM CSV FILE` section.
+  #. Click on the :guilabel:`Process CSV import` button to process your inventory.
+  #. Your Particl Desktop will create one listing template per item. Review each template and, if needed, click on their tiles to expand and edit their details.
+  #. When you're ready, click on the :guilabel:`Import & Save` button to create your listing templates
 
 No CSV inventory file yet?
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""
 
 .. rst-class:: bignums
 
@@ -110,47 +118,42 @@ No CSV inventory file yet?
   #. Open it with a spreadsheet editor (i.e. Excel, LibreOffice, etc).
   #. Add as many products as you want following the template's model.
 
-Preparation for publishing
-^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. rst-class:: bignums
-
-  #. Import your CSV file by clicking on :guilabel:`SELECT IMPORT SOURCE` section, select :guilabel:`CSV file`.
-  #. Click on the :guilabel:`CSV file to import` line and import your CSV inventory file.
-  #. Click on the :guilabel:`Load` button to upload the file.
-  #. Review your import data and edit any listing, as needed, by first clicking on its tile and then by clicking on the :guilabel:`Edit listing` icon.
-  #. Click on the :guilabel:`Continue` button.
-  #. Set your shipping and expiration parameters, and then click on the :guilabel:`Continue` button.
-
-Final publication
+Publish your listing templates
 ^^^^^^^^^^^^^^^^^
-.. rst-class:: bignums
 
-  #. Unlock your wallet when prompted to.
-  #. Review the quoted fees and click on the :guilabel:`Publish imported listings` button. Careful, this is the final step, and you will be charged listing fees when clicking on that button.
-  #. Unlock your wallet when prompted to. 
-  #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the Particl marketplace.
-
-Import WooCommerce Inventory
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you are already selling online, more specifically on WooCommerce, then you can simply export your products into a Particl compatible CSV inventory file by following `this WooCommerce tutorial <https://docs.woocommerce.com/document/product-csv-importer-exporter/>`_. Once that is done, you can then easily import the CSV inventory file on Particl by following the simple steps that follow.
-
-Navigate to the right location
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The second step of the process is to publish the listing templates you've just created on the Open Market or on a user market.
 
 .. rst-class:: bignums
 
   #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client.
-  #. Click on the :guilabel:`Listings` tab, and then on the :guilabel:`Import listings` button.
+  #. Click on the :guilabel:`Inventory & Products` tab, and then on the :guilabel:`Batch (Re)publish...` button.
+  #. Select on which market or storefront you want to publish your listings by selecting it from the :guilabel:`PUBLISH TO` dropdown menu.
+  #. Select for how long you want your listings to be available by selecting the right number of days from the :guilabel:`PUBLISH DURATION` dropdown menu.
+  #. Indivudually choose the items you want to publish by clicking their :guilabel:`Publish` checkboxes or by selecting :guilabel:`Select all` in the :guilabel:`SELECT...` dropdown menu. 
+  #. When ready to publish your listings, click on :guilabel:`Publish selected products`.
+  #. Wait for Particl Desktop to publish your listings. A progress bar at the bottom of the screen indicates the progress.
 
-Preparation for publishing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. Import WooCommerce Inventory
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
-   Until automatic fiat rates are supported on Particl, it is required to convert the quoted prices of your WooCommerce products into PART prices. If you want to sell your products for USD and the USD/PART price is $5, then simply type ``5``. Keep in mind these prices do not adjust automatically, which means you'll have to edit that line every time you re-publish your products.
+  If you are already selling online, more specifically on WooCommerce, then you can simply export your products into a Particl compatible CSV inventory file by following `this WooCommerce tutorial <https://docs.woocommerce.com/document/product-csv-importer-exporter/>`_. Once that is done, you can then easily import the CSV inventory file on Particl by following the simple steps that follow.
 
-.. rst-class:: bignums
+  Navigate to the right location
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  .. rst-class:: bignums
+
+    #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client.
+    #. Click on the :guilabel:`Listings` tab, and then on the :guilabel:`Import listings` button.
+
+  Preparation for publishing
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  .. note::
+    Until automatic fiat rates are supported on Particl, it is required to convert the quoted prices of your WooCommerce products into PART prices. If you want to sell your products for USD and the USD/PART price is $5, then simply type ``5``. Keep in mind these prices do not adjust automatically, which means you'll have to edit that line every time you re-publish your products.
+
+  .. rst-class:: bignums
 
   #. In the :guilabel:`SELECT IMPORT SOURCE` section, select :guilabel:`WooCommerce`.
   #. Click on the :guilabel:`Woocommerce export file` line and import your WooCommerce CSV inventory file.
@@ -160,10 +163,10 @@ Preparation for publishing
   #. Click on the :guilabel:`Continue` button.
   #. Set your shipping and expiration parameters, and then click on the :guilabel:`Continue` button.
 
-Final publication
-^^^^^^^^^^^^^^^^^
+  Final publication
+  ^^^^^^^^^^^^^^^^^
 
-.. rst-class:: bignums
+  .. rst-class:: bignums
 
   #. Unlock your wallet when prompted to.
   #. Review the quoted fees and click on the :guilabel:`Publish imported listings` button. Careful, this is the final step, and you will be charged listing fees when clicking on that button.
@@ -177,7 +180,7 @@ Accept a Bid
 
 	**For your Particl Desktop client to receive any bid from buyers, it needs to be unlocked**. New orders won't show up in your :guilabel:`Orders` page until you unlock your wallet using your password. To do so, simply click on the padlock icon at the top right corner of your client.
 
-To initiate a marketplace transaction, you must first accept a bid on one of your listings. Accepting a bid indicates to your buyer that you are accepting his order.
+When a buyer wants to buy something you're selling, they'll place a bid. To initiate a marketplace transaction with them, you must first accept the bid. Accepting a bid indicates to your buyer that you are accepting his order.
 
 .. rst-class:: bignums
 
@@ -194,7 +197,7 @@ Make the Security Deposit
 
    Want to learn more about Particl's two-party escrow system and how it keeps you and your funds safe? Then just visit the :doc:`Two-party Escrow in-depth page <../in-depth/indepth_escrow>` to know all about it!
 
-Once you accept your buyer's order, they will be required to send their payment as well as their security deposit (equal to the cost of the item + shipping) into an escrow smart-contract. Once that happens, you will be prompted to also lock a security deposit equal to the value of your buyer's order.
+Once you accept your buyer's order, they will be required to send their payment as well as a security deposit (equal to the cost of the item + shipping) into an escrow smart-contract. Once that happens, you will be prompted to also lock a security deposit equal to the value of your buyer's order.
 
 .. rst-class:: bignums
 
@@ -233,27 +236,3 @@ Once your package is shipped, keep an eye out for your payment. Once your buyer 
   #. Click on the order's tile to expand its details and see the date and time it was completed.
   #. Navigate to the :guilabel:`HISTORY` page and click on the `Received` tab.
   #. Find the transaction based on the date and time at which point the order was completed to verify that you've succesfully received your payment.
-
-Publish a Listing Again After it Expires
-----------------------------------------
-
-Re-publishing a listing after it expires requires is relatively straightforward. All you need to do is go back to your listing template and republish it. Simply follow these steps. 
-
-Republish a Single Item
-~~~~~~~~~~~~~~~~~~~~~
-
-.. rst-class:: bignums
-
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client.
-  #. Click on the :guilabel:`Inventory & Products` tab.
-  #. Find the listing you want to re-publish in the list of previously published listings.
-  #. Click on the listing to expand its details.
-  #. Republish it by clicking the :guilabel:`Publish` icon (rocket).
-  #. You can also publish your listing in other user markets or storefronts by clicking on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
-  #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
-  #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the Particl Marketplace.
-
-Republish a WooCommerce  Inventory or .CSV File
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you want to publish a WooCommerce or .CSV inventory file again, simply go through the publishing process once again. 
