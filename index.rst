@@ -11,24 +11,16 @@ Welcome to the Particl Academy
 .. meta::
    :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
 
-.. note::
 
-   The Particl Academy is up-to-date with Particl's latest version, |PD version|. Please keep in mind that Particl is still in ``Beta`` and as such, isn't a finished product by any means.
+Particl Academy will guide you while you'll become an expert for responsible e-commerce. It's all about values and balance in life.
 
-   Want to help Particl grow? Then join our awesome open-source community and meet our great contributors `here <https://discord.me/particl/>`_.
-
-`Particl Marketplace`_ is a two-sided marketplace like Amazon, eBay, and Alibaba, but without the fees, the sales commissions, and the personal information requirements. It is deployed on a distributed person-to-person (P2P) network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world. 
-
-Its distributed nature means there is no one sitting in the middle of any transaction you make on the marketplace, thus no one to charge you fees, commissions, and have access to all of your information. It is, simply put, the digital equivalent of an in-person cash transaction between you and someone else. 
-
-*It protects you, all other buyers, sellers, and supply chains. You will be astonished to see how easy it is to use!* 
 
 .. _Particl Marketplace: https://particl.io/marketplace
 
 Introduction
 ============
 
-Take your first few steps by learning about what's Particl's marketplace, its benefits, and mechanics.
+Take your first few steps with understanding |PM|:
 
 .. toctree::
    :caption: Introduction
@@ -38,16 +30,16 @@ Take your first few steps by learning about what's Particl's marketplace, its be
 
    intro/intro_general_particlmarketplace
    intro/intro_general_essentials
-   intro/intro_general_features
+   intro/intro_general_functions
 
 * :doc:`What is Particl Marketplace <intro/intro_general_particlmarketplace>`
 * :doc:`Understanding Essentials <intro/intro_general_essentials>`
-* :doc:`Particl Marketplace Features <intro/intro_general_features>`
+* :doc:`Particl Marketplace Functions <intro/intro_general_features>`
 
 Installation & Usage
 ====================
 
-All begins with the installation of the Particl Desktop software. Follow these steps of best practices for the installation, setup your first wallet, and understand the userinterface.
+All begins with the installation of the Particl Desktop software. Follow these best practices for the installation, set up your first wallet, and understand the user-interface:
 
 .. toctree::
    :caption: Installation & Usage
@@ -63,10 +55,14 @@ All begins with the installation of the Particl Desktop software. Follow these s
 * :doc:`First wallet configuration <guides/guide_mp_setup_wallet>`
 * :doc:`Understanding the user interface <guides/guide_mp_general_understanding_userinterface>`
 
+.. note::
+
+   This documentation is up-to-date with Particl's latest version, |PD version|. Please keep in mind this software is still in :guilabel:`BETA`, and as such, lots of features are regularly added. 
+
 User Guides
 ===========
 
-This section contains step-by-step walkthrough tutorials on the most important aspects of the marketplace. Whether you're a buyer or a seller, that's where you want to go to learn how to use Particl!
+Step-by-step user guides about the most vital processes of Particl Marketplace. Find everything summarized without having questions left open:
 
 .. toctree::
    :caption: User Guides
@@ -95,7 +91,7 @@ This section contains step-by-step walkthrough tutorials on the most important a
 In-Depth Guides
 ===============
 
-This section contains detailed content explaining the various components, features, and concepts behind Particl and its marketplace. While these pages might not be mandatory for you to know how to use the basic functionalities of the marketplace, they'll give you a good understanding of some of the more advanced concepts and features that make Particl possible. 
+Find advanced, very in-depth, and detailed articles about functions and concepts behind |PM|. They will make you a master, but you do not need them to use |PM|:
 
 .. toctree::
    :caption: In-Depth Guides
@@ -119,12 +115,10 @@ This section contains detailed content explaining the various components, featur
 * :doc:`Security and privacy <in-depth/indepth_privacy_tips>`
 
 
-Help Section
-============
+Help and Assistance
+===================
 
-The Help section is where you'll find a bunch of resources to help you out should you encounter any issue when using Particl. Here, you'll find answers to some of the most frequently asked questions as well as a few guides on how to fix, or avoid, some of the most common problems. 
-
-Are you having an issue not mentioned in this section? Then make sure to **contact the team** so that it can help you out and add the solution in here!
+Are you having an issue not covered in this section? Your invaluable insights will make the Particl Academy more complete. Tell us how!
 
 .. toctree::
    :caption: Help
@@ -136,12 +130,12 @@ Are you having an issue not mentioned in this section? Then make sure to **conta
    faq/common_issues
    faq/get_support
 
-* :doc:`FAQ <faq/faq_mp_general_overview>`   
+* :doc:`FAQ - Frequently asked questions <faq/faq_mp_general_overview>`   
 * :doc:`Common issues <faq/common_issues>`
 * :doc:`Get support <faq/get_support>`
 
-Helpful Resources
-=================
+Resources and Links
+===================
 
 .. toctree::
    :caption: Helpful resources
@@ -149,22 +143,9 @@ Helpful Resources
    :maxdepth: 2
    :hidden:
 
-..   Join the Community <https://discord.me/particl>
-..   Official website <https://particl.io>
-..   Download Particl <https://particl.io/downloads/>
-..   Buy PART <https://particl.io/part-exchanges/>
-..   News <https://particl.news/>
-..   Roadmap <https://particl.io/roadmap>
-..   Particl Wiki <https://particl.wiki/>
-..   Useful links <intro_useful_links>
-..   Contact us <https://particl.io/>
-
-* `Join the community <https://discord.me/particl/>`_
-* `Official website <https://particl.io>`_
-* `Download Particl <https://particl.io/downloads>`_
-* `Buy PART <https://particl.io/part-exchanges/>`_
+* `Download <https://particl.io/downloads>`_
+* `Get PART coin <https://particl.io/part-exchanges/>`_
+* `Website <https://particl.io>`_
 * `News <https://particl.news>`_
-* `Roadmap <https://particl.io/roadmap>`_
-* `Particl Wiki <https://particl.wiki/>`_
+* `Wiki (technical docs) <https://particl.wiki/>`_
 * :doc:`Useful links <intro/intro_useful_links>`
-* `Contact us <https://particl.io/>`_
