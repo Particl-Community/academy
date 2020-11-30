@@ -94,17 +94,51 @@ Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonum
     7.  ##########
     8.  **********
 
-Text Roles
-==========
+Achievements
+============
 
-inline code
------------
+An achievement can be placed below a task that has been completed.
 
-:code:`$result = $a + 23;`
+.. rst-class:: achievement
+
+  Congratulations! You have installed Particl Marketplace.
 
 .. code-block:: rst
 
-    :code:`$result = $a + 23;`
+  .. rst-class:: achievement
+
+  Congratulations! You have installed Particl Marketplace.
+
+Bigmessage
+============
+
+A bigmessage can be placed where it is really needed.
+
+.. rst-class:: bigmessage
+
+  bigmessage! Get it while it's hot.
+
+.. code-block:: rst
+
+  .. rst-class:: bigmessage
+
+  bigmessage! Get it while it's hot.
+
+Glossary
+========
+
+We have now a glossary file ":doc:`glossary`" which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx` or :term:`FooBarLoo as I want<Sphinx>`.
+
+.. code-block:: rst
+
+  We have now a glossary file :doc:`glossary` which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx`.
+
+  You can link to a term in the glossary while showing different text in the topic by including the term in angle brackets. For example:
+
+  :term:`FooBarLoo as I want<Sphinx>`  
+
+Text Roles
+==========
 
 Abbriviation 
 ------------
@@ -149,6 +183,15 @@ Using GUI Labels
 .. code-block:: rst
 
     :guilabel:`&Cancel`, :guilabel:`O&k`, :guilabel:`&Reset`, :guilabel:`FAQ`
+
+inline code
+-----------
+
+:code:`$result = $a + 23;`
+
+.. code-block:: rst
+
+    :code:`$result = $a + 23;`
 
 Menu Selection
 --------------
@@ -238,19 +281,6 @@ See :download:`this image <_static/images/particl-logo-green.png>`.
 .. code-block:: rst
 
   See :download:`this image <_static/images/particl-logo-green.png>`.
-
-Glossary
-========
-
-We have now a glossary file ":doc:`glossary`" which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx` or :term:`FooBarLoo as I want<Sphinx>`.
-
-.. code-block:: rst
-
-  We have now a glossary file :doc:`glossary` which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx`.
-
-  You can link to a term in the glossary while showing different text in the topic by including the term in angle brackets. For example:
-
-  :term:`FooBarLoo as I want<Sphinx>`  
 
 Video
 =============
