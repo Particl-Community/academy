@@ -32,7 +32,7 @@ Take your first few steps with understanding |PM|:
    intro/intro_general_essentials
    intro/intro_general_functions
 
-* :doc:`What is Particl Marketplace <intro/intro_general_particlmarketplace>`
+* :doc:`What's Particl Marketplace <intro/intro_general_particlmarketplace>`
 * :doc:`Understanding Essentials <intro/intro_general_essentials>`
 * :doc:`Particl Marketplace Functions <intro/intro_general_functions>`
 
@@ -72,11 +72,11 @@ Step-by-step user guides about the most vital processes of Particl Marketplace. 
    guides/guide_mp_user_best_practices_overview
    guides/guide_mp_vendor_best_practices_overview
 
-* :doc:`Funds & balances <guides/guide_mp_general_managing_funds>` 
-* :doc:`Buying process for customers <guides/guide_mp_customer_understanding_buyflow>`    
-* :doc:`Selling process for vendors <guides/guide_mp_vendor_understanding_sellflow>`   
-* :doc:`Markets and storefronts <guides/guide_mp_general_market_management>`
-* :doc:`Staking rewards <guides/guide_mp_general_enable_staking>`
+* :doc:`Funds, Coins, and Balances <guides/guide_mp_general_managing_funds>` 
+* :doc:`Buy Process for Customers <guides/guide_mp_customer_understanding_buyflow>`    
+* :doc:`Sell Process for Vendors <guides/guide_mp_vendor_understanding_sellflow>`   
+* :doc:`Markets and Storefronts <guides/guide_mp_general_market_management>`
+* :doc:`Staking Rewards <guides/guide_mp_general_enable_staking>`
 * :doc:`User's best-practices <guides/guide_mp_user_best_practices_overview>`
 * :doc:`Vendor's best-practices <guides/guide_mp_vendor_best_practices_overview>`
 
@@ -99,12 +99,12 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
 .. in-depth/indepth_opensource
 
 
-* :doc:`Settlement of payments - PART coin <in-depth/indepth_part_coin>`
-* :doc:`Staking <in-depth/indepth_staking>`
+* :doc:`Settlement of Payments - PART coin <in-depth/indepth_part_coin>`
+* :doc:`What's Staking <in-depth/indepth_staking>`
 .. * :doc:`Open-source technologies <in-depth/indepth_opensource>`
-* :doc:`Two-party escrow system <in-depth/indepth_mp_moderation>`
-* :doc:`Marketplace moderation <in-depth/indepth_mp_moderation>`
-* :doc:`Security and privacy <in-depth/indepth_privacy_tips>`
+* :doc:`Two-Party Escrow System <in-depth/indepth_mp_moderation>`
+* :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>`
+* :doc:`Security and Privacy <in-depth/indepth_privacy_tips>`
 
 
 Help and Assistance
@@ -122,9 +122,9 @@ Are you having an issue not covered in this section? Your invaluable insights wi
    faq/common_issues
    faq/get_support
 
-* :doc:`FAQ - Frequently asked questions <faq/faq_mp_general_overview>`   
-* :doc:`FAQ - Common issues <faq/common_issues>`
-* :doc:`FAQ - Get support <faq/get_support>`
+* :doc:`FAQ - Frequently Asked Questions <faq/faq_mp_general_overview>`   
+* :doc:`FAQ - Common Issues <faq/common_issues>`
+* :doc:`FAQ - Get Support <faq/get_support>`
 
 Resources and Links
 ===================
@@ -136,11 +136,11 @@ Resources and Links
    :hidden:
 
 * `Download <https://particl.io/downloads>`_
-* `Get PART coin <https://particl.io/part-exchanges/>`_
+* `Get PART Coin <https://particl.io/part-exchanges/>`_
 * `Website <https://particl.io>`_
 * `News <https://particl.news>`_
 * `Wiki (technical docs) <https://particl.wiki/>`_
-* :doc:`Useful links <intro/intro_useful_links>`
+* :doc:`Useful Links <intro/intro_useful_links>`
 
 ---
 
