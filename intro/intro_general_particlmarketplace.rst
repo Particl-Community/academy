@@ -16,7 +16,7 @@ Equip yourself with sophisticated technology that is user friendly. Using |PM| w
 Keep more money 
 ----------------
 
-Do you know the desire to have enough food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best shape possible physical and emotional. Additionally, to be good with your loved ones and your communities. And finally, to be able to fulfill dreams and give back the best you can. The icing on the cake—giving love and getting love.
+Do you know the desire to have enough food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best physical and emotional shape possible. Additionally, to be good with your loved ones and your communities. And finally, to be able to fulfill dreams and give back the best you can. The icing on the cake—giving love and getting love.
 
 **Your desire to survive and thrive in today’s economy is bound to your very own finances.**
 
