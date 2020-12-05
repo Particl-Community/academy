@@ -48,11 +48,9 @@ All begins with the installation of the Particl Desktop software. Follow these b
    :hidden:
 
    guides/guide_mp_setup_installation
-   guides/guide_mp_setup_wallet
    guides/guide_mp_general_understanding_userinterface
 
 * :doc:`Particl Desktop & Marketplace installation <guides/guide_mp_setup_installation>`
-* :doc:`First wallet configuration <guides/guide_mp_setup_wallet>`
 * :doc:`Understanding the user interface <guides/guide_mp_general_understanding_userinterface>`
 
 User Guides
