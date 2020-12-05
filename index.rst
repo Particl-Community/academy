@@ -74,13 +74,13 @@ Step-by-step user guides about the most vital processes of Particl Marketplace. 
    guides/guide_mp_user_best_practices_overview
    guides/guide_mp_vendor_best_practices_overview
 
-* :doc:`Manage funds & balances <guides/guide_mp_general_managing_funds>` 
+* :doc:`Funds & balances <guides/guide_mp_general_managing_funds>` 
 * :doc:`Buying process for customers <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Selling process for vendors <guides/guide_mp_vendor_understanding_sellflow>`   
-* :doc:`Manage markets and storefronts <guides/guide_mp_general_market_management>`
-* :doc:`Earn staking rewards <guides/guide_mp_general_enable_staking>`
-* :doc:`User best-practices <guides/guide_mp_user_best_practices_overview>`
-* :doc:`Vendor best-practices <guides/guide_mp_vendor_best_practices_overview>`
+* :doc:`Markets and storefronts <guides/guide_mp_general_market_management>`
+* :doc:`Staking rewards <guides/guide_mp_general_enable_staking>`
+* :doc:`User's best-practices <guides/guide_mp_user_best_practices_overview>`
+* :doc:`Vendor's best-practices <guides/guide_mp_vendor_best_practices_overview>`
 
 In-Depth Guides
 ===============
@@ -125,8 +125,8 @@ Are you having an issue not covered in this section? Your invaluable insights wi
    faq/get_support
 
 * :doc:`FAQ - Frequently asked questions <faq/faq_mp_general_overview>`   
-* :doc:`Common issues <faq/common_issues>`
-* :doc:`Get support <faq/get_support>`
+* :doc:`FAQ - Common issues <faq/common_issues>`
+* :doc:`FAQ - Get support <faq/get_support>`
 
 Resources and Links
 ===================
