@@ -3,29 +3,31 @@ What's |PM|
 
 |PM| is similar to the internet’s well-known marketplaces (Amazon, eBay, Alibaba), but with added or extra features that customers and vendors will love. No intentions to make profits, and you can be sure your needs will remain protected.
 
-**Free markets. Unhindered e-commerce.**
+**Free markets and a fair level playing field in e-commerce.**
 
 * **More money** in your pocket to spend or save
-* **Gain security** by not becoming a product or a "glass consumer"—no fraud, trickery, invasion of privacy, spam, restrictions, politics, or malice possible
-* **Enjoy your standing** and giving back to society
+* **Gain security** by not becoming a product or a "glass consumer", no fraud, trickery, invasion of privacy, spam, restrictions, politics, or malice possible
+* **Enjoy giving back** to society and grow your standing
 
-Equip yourself with sophisticated technology that is made user friendly. This choice will help to stop feeding the corporate monopolies, and your world becomes a fairer place. Your communities and loved ones will profit as well, leaving everyone with a good feeling because of honest e-commerce. 
+Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feed the corporate monopolies, and your world becomes a fairer place. Your communities and loved ones will profit as well, leaving everyone with a good feeling. 
 
 *-You will feel like a champion!*
 
-Keep more money
+Keep more money 
 ----------------
 
-Yes, precisely that. With Particl Marketplace, you have found a marketplace that does not seek revenue from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. The Particl team lives off donations and aims to become self-perpetual, but without compromising you.
+Do you know the desire to have enough food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best shape possible physical and emotional. Additionally, to be good with your loved ones and your communities. And finally, to be able to fulfill dreams and give back the best you can. The icing on the cake—giving love and getting love.
 
-You will be able to save or spend money on life and fulfilling dreams.
+**Your desire to survive and thrive in today’s economy is bound to your very own finances.**
+
+Even if you have a "free" service to buy and sell your products, it is not free. You pay them with your valuable data. |PM| does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. The Particl team lives off donations and aims to become self-perpetual, but without compromising you.
+
+*You will be able to save more or make more money by cutting out the middleman*
 
 Gain security
-----------------
+-------------
 
-The ever-growing and already giant e-commerce corporations seek to expand further profits, market power, and control. They have created a disturbing digital security and privacy crisis under the guise of usability. And not to mention the annoying advertising spam, which |PM| is also designed to fight off. But the biggest threat of all being the jeopardization of your autonomy. 
-
-The data these big corporations collect with your purchases and sales are utilized to evaluate you as a consumer. They sell the data or are used against you as a vendor. Translated, this means: 
+Big corporations collect data with your purchases and sales. They are utilized to evaluate you as a business and as a consumer. They sell your data or are used against you as a vendor. Translated, this means: 
 
 **E-commerce giants have become your credit score broker!**
 
@@ -33,31 +35,33 @@ The data these big corporations collect with your purchases and sales are utiliz
 * Your personal preferences will be the reason why you may not get a particular job 
 * Or even worse, a rating algorithm could block your accounts! 
 
-You will become the master of your personal data and autonomy.
+Nothing less than your freedom and self-determination is put in jeopardy. The ever-growing and already giant e-commerce corporations seek to expand further profits, market power, and control. They have created this disturbing digital security and privacy crisis under the guise of usability.
+
+*You will become in control of your data and freedom*
 
 **Get rid of Fraud and Trickery**
 
 No more bricks in your package as a customer or bad quality counterfeit goods. No more chargebacks for vendors due to stolen identities. Fraudulent attempts get taken down with a free of charge and automated two-party escrow system. 
 
-You will become immune to online fraud.
+*You will become immune to online fraud*
 
 **Get rid of Invasion of Privacy or Backdoors** 
 
 No more stolen Credit Card data, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be leaked to anyone. It cannot be attained, shared, sold, misused, hacked, or leaked. Your data stays your data, including products, locations, and payments—for customers and vendors.
 
-You will become invincible to privacy issues.
+*You will become invincible to privacy issues*
 
 **Get rid of Restrictions, Politics, and Malice**
 
-A 100% uptime marketplace impossible to be taken offline or manipulated. It also means none of your products or users can be banned from the |PM| or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s own content. Across national borders, free trade and free markets are possible so so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
+A 100% uptime marketplace impossible to be taken offline or manipulated. It also means none of your products or users can be banned from the |PM| or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s own content. Across national borders, free trade and free markets are possible so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
 
-You will become bullet-proof against restrictions.
+*You will become bullet-proof against restrictions*
 
 **Get rid of Spam**
 
-Tailored ads are hammering on people even after they made a purchase. You have seen them on websites you visit, read them within your email accounts and apps you use. It even affects how search engines deliver results to you. 
+Tailored ads are hammering on you even after you have made a purchase. You have seen them on websites you visit, read them within your email accounts and apps you use. It even affects how search engines deliver results to you. 
 
-You will have the cure against Spam.
+*You will have the cure against Spam*
 
 Enjoy giving back
 -----------------
@@ -69,14 +73,14 @@ The world of e-commerce and online marketplaces have made the world of shopping 
 Your successes
 --------------
 
-By choice, you will gain superpowers if you install and do use |PM|.
+By choice, you will gain superpowers and other benefits if you do install and use Particl Marketplace:
 
-* Significantly lower product prices due to less costs of commerce
-* Be the master of your personal data and autonomy
-* Immune to online fraud
-* Invincible to privacy issues
-* Bullet-proof against restrictions
-* The cure against Spam
+	* You will get significantly lower product prices by cutting out the middle-man
+	* You will be the master of your personal data and freedom
+	* You will become immune to online fraud
+	* You will be invincible to privacy issues
+	* You will get bullet-proof against restrictions
+	* You will have the cure against Spam
 
 How it works
 -------------
