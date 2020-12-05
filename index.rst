@@ -50,8 +50,8 @@ All begins with the installation of the Particl Desktop software. Follow these b
    guides/guide_mp_setup_installation
    guides/guide_mp_general_understanding_userinterface
 
-* :doc:`Particl Desktop & Marketplace installation <guides/guide_mp_setup_installation>`
-* :doc:`Understanding the user interface <guides/guide_mp_general_understanding_userinterface>`
+* :doc:`Particl Desktop & Marketplace Installation <guides/guide_mp_setup_installation>`
+* :doc:`Understanding the User-interface <guides/guide_mp_general_understanding_userinterface>`
 
 User Guides
 ===========
@@ -77,8 +77,8 @@ Step-by-step user guides about the most vital processes of Particl Marketplace. 
 * :doc:`Sell Process for Vendors <guides/guide_mp_vendor_understanding_sellflow>`   
 * :doc:`Markets and Storefronts <guides/guide_mp_general_market_management>`
 * :doc:`Staking Rewards <guides/guide_mp_general_enable_staking>`
-* :doc:`User's best-practices <guides/guide_mp_user_best_practices_overview>`
-* :doc:`Vendor's best-practices <guides/guide_mp_vendor_best_practices_overview>`
+* :doc:`User's Best Practices <guides/guide_mp_user_best_practices_overview>`
+* :doc:`Vendor's Best Practices <guides/guide_mp_vendor_best_practices_overview>`
 
 In-Depth Guides
 ===============
