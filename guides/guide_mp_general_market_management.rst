@@ -1,5 +1,6 @@
-Manage Markets & Storefronts
-============================
+=====================
+Markets & Storefronts
+=====================
 
 .. note::
 

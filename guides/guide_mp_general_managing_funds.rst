@@ -1,6 +1,6 @@
-==============
-Manage Funds
-==============
+============================
+Funds, Coins, and Balances
+============================
 
 In this section, you will learn how to manage your funds with Particl Desktop in preparation for buying and selling goods and services on Particl Marketplace.
 

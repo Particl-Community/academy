@@ -1,5 +1,6 @@
-Earn Staking Rewards
-====================
+===============
+Staking Rewards
+===============
 
 .. note::
 	To learn more about what staking is and how you can earn dividend-like payments, check out the :doc:`Staking in-depth guide <in-depth/indepth_staking>`.

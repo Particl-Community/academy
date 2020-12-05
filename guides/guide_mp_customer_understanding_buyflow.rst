@@ -1,6 +1,6 @@
-====================
-Buying Process
-====================
+===========
+Buy Process
+===========
 
 .. meta::
    :description lang=en: Learn how the buyflow works on Particl Marketplace from a customer perspective.

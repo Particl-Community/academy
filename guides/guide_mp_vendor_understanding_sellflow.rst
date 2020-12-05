@@ -1,5 +1,6 @@
-Selling Process
-===============
+============
+Sell Process
+============
 
 The selling process of Particl Marketplace gives you more privacy, security, and censorship resistance than any other online marketplace and is entirely free to use except for the tiny sub-cent transaction fees usually associated with cryptocurrency transactions. **The price to pay for these previously impossible benefits is that you are required to do things a bit differently than what you are used to.**
 
