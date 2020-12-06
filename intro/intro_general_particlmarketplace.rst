@@ -9,7 +9,7 @@ What's |PM|
 * **Gain security** by not becoming a product or a "glass consumer", no fraud, trickery, invasion of privacy, spam, restrictions, politics, or malice possible
 * **Enjoy giving back** to society and grow your standing
 
-Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feed the corporate monopolies, and your world becomes a fairer place. Your communities and loved ones will profit as well, leaving everyone with a good feeling because you can do something that is sustainable. 
+Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feeding the corporate monopolies, and your world becomes a fairer place. Your communities and loved ones will profit as well, leaving everyone with a good feeling because you can do something that is sustainable. 
 
 *-You will feel like a champion!*
 
