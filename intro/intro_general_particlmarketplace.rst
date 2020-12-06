@@ -9,14 +9,14 @@ What's |PM|
 * **Gain security** by not becoming a product or a "glass consumer", no fraud, trickery, invasion of privacy, spam, restrictions, politics, or malice possible
 * **Enjoy giving back** to society and grow your standing
 
-Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feed the corporate monopolies, and your world becomes a fairer place. Your communities and loved ones will profit as well, leaving everyone with a good feeling. 
+Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feed the corporate monopolies, and your world becomes a fairer place. Your communities and loved ones will profit as well, leaving everyone with a good feeling because you can do something that is sustainable. 
 
 *-You will feel like a champion!*
 
 Keep more money 
 ----------------
 
-Do you know the desire to have enough food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best physical and emotional shape possible. Additionally, to be good with your loved ones and your communities. And finally, to be able to fulfill dreams and give back the best you can. The icing on the cake—giving love and getting love.
+You know the desire to have the best food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best possible physical and emotional shape. Additionally, to be good with your loved ones and your communities. And finally, be able to fulfill dreams and give back the best you can.
 
 **Your desire to survive and thrive in today’s economy is bound to your very own finances.**
 
