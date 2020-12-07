@@ -44,7 +44,7 @@ All begins with the installation of the Particl Desktop software. Follow these b
 .. toctree::
    :caption: Installation & Usage
    :name: installationtoc
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
    guides/guide_mp_setup_installation
@@ -61,7 +61,7 @@ Step-by-step user guides about the most vital processes of Particl Marketplace. 
 .. toctree::
    :caption: User Guides
    :name: guidesmptoc
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
    guides/guide_mp_general_managing_funds
@@ -88,7 +88,7 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
 .. toctree::
    :caption: In-Depth Guides
    :name: indepth
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
    in-depth/indepth_mp_explained
