@@ -1,4 +1,5 @@
-What's Staking?
+===============
+What's Staking
 ===============
 
 "Staking" refers to the act of supporting the network by validating transactions and receiving a reward from the network in exchange. It this, simply put, **earning coins for keeping a connection to the Particl network active**.
