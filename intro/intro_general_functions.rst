@@ -1,5 +1,9 @@
+=============
 All Functions 
 =============
+
+.. meta::
+   :description lang=en: Find all the functions of Particl Marketplace at a glance. Privacy first, responsible, and sustainable e-commerce.
 
 Particl is a decentralized marketplace and is in its Beta phase of development. While there are still a lot of features under development, it currently provides you with most of the basic tools  you need to buy and sell online without sacrificing your personal information and without paying fees.   
 
@@ -39,6 +43,8 @@ The PART coin is Particl's native cryptocurrency. It is a modern, secure, privat
 - Secure your funds with multi-signature addresses which require more than one party to authorize transactions.
 - Available on desktop and mobile wallets.
 
+In-depth details can be found at :ref:`PART Cryptocurrency`.
+
 Particl Proof-of-Stake (Staking)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -56,6 +62,8 @@ Staking is the action of keeping a node online to support and secure Particl's d
    - **Mobile staking:** Stake your coins stored on your phone without draining your battery.
    - **Multi-signature staking:** Stake your coins stored on special addresses that require multiple parties to authorize transactions.
 
+In-depth details can be found at :ref:`What's Staking`.
+
 Address Book (Contacts)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -70,6 +78,8 @@ Marketplace
 -----------
 
 Particl Marketplace is accessible right from the Particl Desktop application. It is deployed on a distributed network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world.
+
+In-depth details can be found at :ref:`Particl Marketplace Explained`. The basic knowledge is compiled at :ref:`What's |PM|`.
 
 Open Market
 ~~~~~~~~~~~
@@ -98,6 +108,8 @@ Additionally to the Open Market, you can also create an infinite number of marke
    - **Storefronts:** A market type where anyone can buy stuff, but only its creator and the people he delegates can sell on.
 - User markets can be joined by anyone that knows their Market ID or by browsing the Market Browser.
 - Markets do not automatically show up in the Market Browser right after being created. They have to be manually promoted to it by its creator if they wish to gain additional exposure.
+
+The userguide can be found at :ref:`Markets & Storefronts`. 
 
 Market Browser
 ~~~~~~~~~~~~~~
@@ -130,17 +142,21 @@ Particl's two-party escrow system protects users against scammers and ensures th
 - Two-party escrow contracts are mandatory for all marketplace transactions.
 - You can check the status and progress of any escrow transaction at any time on Particl Desktop.
 
-Marketplace Moderation
-~~~~~~~~~~~~~~~~~~~~~~
+In-depth details can be found at :ref:`Two-Party Escrow`.
+
+Marketplace Moderations
+~~~~~~~~~~~~~~~~~~~~~~~
 
 To moderate the content of the marketplace, Particl relies on a distributed moderation system that gives moderation powers to every user. Voting power is calculated on a one-coin-equals-one-vote basis.
 
 - No central authority or group of users with special permissions involved.
-- Your voting power is determined by the number of coins you own in your ``Public`` balance.
+- Your voting power is determined by the number of coins you own in your :guilabel:`Public` balance.
 - One coins equals one vote.
 - Both listings and user markets can be flagged and taken off Particl if deemed undesirable.
 - Moderation model based on the concept of direct democracy.
 - The system is based on blockchain technology and cannot be cheated.
+
+In-depth details can be found at :ref:`Marketplace Moderation`.
 
 Questions and Answers
 ~~~~~~~~~~~~~~~~~~~~~
@@ -157,10 +173,6 @@ The feature is additionally integrated into any transaction allowing two users t
 Swap
 ----
 
-.. note::
-   
-   Particl's in-app swap engine is temporarily unavaible. We are working to get it back up as soon as possible!
-
 The in-app swap module of Particl Desktop is where you'll find everything you need to swap other cryptocurrencies for PART. It is also where you'll find other payment options such as credit card payments, if any is available at the time. 
 
 Swapping Assets
@@ -176,8 +188,13 @@ Multi-Currency Support (Marketplace)
 - Pay for products and services using any of the available cryptocurrencies (i.e. BTC).
 - The marketplace automatically converts non-PART payments in PART before funding any two-party escrow contract.
 
+.. attention::
+   
+   Particl's in-app swap engine is temporarily unavaible. We are working to get it back up as soon as possible!
+
 Messaging
 ---------
 
-COMING SOON 
-~~~~~~~~~~~
+.. tip::
+   
+   Particl developers are currently building an in-app messaging and chat system.
