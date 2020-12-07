@@ -1,5 +1,9 @@
+==============
 What's |PM|
 ==============
+
+.. meta::
+   :description lang=en: is a marketplace with features that customers and vendors will love. Privacy first, responsible, and sustainable e-commerce.
 
 |PM| is similar to the internet’s well-known marketplaces (Amazon, eBay, Alibaba), but with added or extra features that customers and vendors will love. No intentions to make profits, and you can be sure your needs will remain protected.
 
