@@ -1,5 +1,6 @@
-The Particl glossary
-====================
+=========
+Glossary
+=========
 
 .. glossary:: :sorted:
 

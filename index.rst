@@ -121,10 +121,12 @@ Are you having an issue not covered in this section? Your invaluable insights wi
    faq/faq_mp_general_overview
    faq/common_issues
    faq/get_support
+   glossary
 
 * :doc:`FAQ - Frequently Asked Questions <faq/faq_mp_general_overview>`   
 * :doc:`FAQ - Common Issues <faq/common_issues>`
 * :doc:`FAQ - Get Support <faq/get_support>`
+* :doc:`Glossary - Terms and words explained<glossary>`
 
 Resources and Links
 ===================
