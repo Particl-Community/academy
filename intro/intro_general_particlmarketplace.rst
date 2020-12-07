@@ -101,6 +101,4 @@ However, |PM| is based on distributed ledger technologies, which you may know by
 
 **Learn More**
 
-We've barely scratched the surface, there is much more to discover about |PM|! 
-
-Particl Academy contains all the information you will need to find your way around and use the marketplace just as effortlessly as any other marketplace you have used in the past. All the technical mumbo-jumbo usually associated with blockchain technologies can be intimidating, but there is no need to worry, the Particl Academy is written by humans, for humans.
+We've barely scratched the surface, there is much more to discover about |PM|! The next section will make you aware about some essentials.

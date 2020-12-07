@@ -14,6 +14,8 @@ Welcome to the Particl Academy
 
 Particl Academy will guide you while you'll become an expert for responsible and sustainable e-commerce with |PM|. It's all about values and balance in life.
 
+Particl Academy contains all the information you will need to find your way around and use the |PM| just as effortlessly as any other marketplace you have used in the past. All the technical mumbo-jumbo usually associated with blockchain technologies can be intimidating, but there is no need to worry, the Particl Academy is written by humans, for humans.
+
 
 Introduction
 ============
