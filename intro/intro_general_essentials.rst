@@ -97,6 +97,6 @@ The in-depth explanation is within :ref:`Types of balances`
 
 **Syncing Times**
 
-Because the marketplace's content is hosted on a distributed network (SMSG), the marketplace may take a few minutes for the blockchain network to sync. It may take even a few more minutes to fully load all marketplace's listings. This is to be normally expected and will get much faster as the Particl team improves the marketplace.
+Because the marketplace's content is hosted on the SMSG portion of the :term:`Particl Network`, the marketplace may take a few minutes to sync. It may take even a few more minutes to fully load all marketplace's listings. This is to be normally expected and will get much faster as the Particl team improves the marketplace.
 
 This is, unfortunately, a small price to pay to get all the awesome benefits offered by Particl's distributed network such as near-zero fees and rock solid security. But rest assured, these are also roadmap items the Particl team plans on tackling as it moves through the Beta phase of development.
