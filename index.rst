@@ -25,7 +25,7 @@ Take your first few steps with understanding |PM|:
 .. toctree::
    :caption: Introduction
    :name: introtoc
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
    intro/intro_general_particlmarketplace
@@ -115,7 +115,7 @@ Are you having an issue not covered in this section? Your invaluable insights wi
 .. toctree::
    :caption: Help
    :name: faqmptoc
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
    
    faq/faq_mp_general_overview
@@ -132,9 +132,9 @@ Resources and Links
 ===================
 
 .. toctree::
-   :caption: Helpful resources
+   :caption: Helpful Resources
    :name: resourcestoc
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
 * `Download <https://particl.io/downloads>`_
