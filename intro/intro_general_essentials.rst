@@ -17,7 +17,7 @@ Cryptocurrency Transactions
 
 Instead of relying on payment processors, bank transfers, or payment cards, Particl Marketplace works using cryptocurrencies. Cryptocurrencies are digital units of currency that can be transferred person-to-person without requiring a third-party to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party. While many different digital currencies can be used on |PM|, all marketplace transactions are ultimately settled in PART, Particl’s native cryptocurrency.
 
-The in-depth guide :ref:`PART Cryptocurrency` will make you understand it in detail.
+The in-depth guide :ref:`Currency (PART) Explained` will make you understand it in detail.
 
 **Benefits**
 
@@ -44,7 +44,7 @@ On traditional marketplaces, this requires a third-party to hold payments on beh
 
 |PM| uses an entirely different approach. It secures transactions using a two-party escrow system that doesn’t require any third-party to be involved. To keep transacting parties honest with each other, it leverages smart-contracts and the Mutually Assured Destruction game-theory. Here, both parties must make an equal security deposit to be held as collateral into an escrow smart-contract. Because the security deposits can only be refunded once, both parties agree that a transaction has been completed satisfactorily. Users are financially incentivized to remain honest with each other and mutually work on resolutions if needed.
 
-The in-depth explanation of the topic :ref:`Two-Party Escrow` will give you deep knowledge.
+The in-depth explanation of the topic :ref:`Two-Party Escrow Explained` will give you deep knowledge.
 
 **Benefits**
 

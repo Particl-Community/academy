@@ -1,5 +1,6 @@
-PART Cryptocurrency
-===================
+=========================
+Currency (PART) Explained
+=========================
 
 Although you can use many different coins to pay for products and services on Particl Marketplace, all payments are ultimately converted and settled in PART. 
 

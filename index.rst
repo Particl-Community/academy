@@ -99,10 +99,10 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
    in-depth/indepth_privacy_tips
 .. in-depth/indepth_opensource
 
-* :doc:`Particl Marketplace explained <in-depth/indepth_mp_explained>`
-* :doc:`PART Cryptocurrency <in-depth/indepth_part_coin>`
-* :doc:`What's Staking <in-depth/indepth_staking>`
-* :doc:`Two-Party Escrow System <in-depth/indepth_mp_moderation>`
+* :doc:`Particl Marketplace Explained <in-depth/indepth_mp_explained>`
+* :doc:`Currency (PART) Explained <in-depth/indepth_part_coin>`
+* :doc:`Staking Explained <in-depth/indepth_staking>`
+* :doc:`Two-Party Escrow Explained <in-depth/indepth_escrow>`
 * :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>`
 * :doc:`Security and Privacy <in-depth/indepth_privacy_tips>`
 

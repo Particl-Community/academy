@@ -43,7 +43,7 @@ The PART coin is Particl's native cryptocurrency. It is a modern, secure, privat
 - Secure your funds with multi-signature addresses which require more than one party to authorize transactions.
 - Available on desktop and mobile wallets.
 
-In-depth details can be found at :ref:`PART Cryptocurrency`.
+In-depth details can be found at :ref:`Currency (PART) Explained`.
 
 Particl Proof-of-Stake (Staking)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -62,7 +62,7 @@ Staking is the action of keeping a node online to support and secure Particl's d
    - **Mobile staking:** Stake your coins stored on your phone without draining your battery.
    - **Multi-signature staking:** Stake your coins stored on special addresses that require multiple parties to authorize transactions.
 
-In-depth details can be found at :ref:`What's Staking`.
+In-depth details can be found at :ref:`Staking Explained`.
 
 Address Book (Contacts)
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -142,7 +142,7 @@ Particl's two-party escrow system protects users against scammers and ensures th
 - Two-party escrow contracts are mandatory for all marketplace transactions.
 - You can check the status and progress of any escrow transaction at any time on Particl Desktop.
 
-In-depth details can be found at :ref:`Two-Party Escrow`.
+In-depth details can be found at :ref:`Two-Party Escrow Explained`.
 
 Marketplace Moderations
 ~~~~~~~~~~~~~~~~~~~~~~~
