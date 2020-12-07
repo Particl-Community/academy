@@ -87,7 +87,7 @@ At any point in time, you can verify the status of your order. Additionally, onc
 	#. To see if a tracking number has been supplied by the seller, click on the order's tile to expand its details.
 
 Receive Security Deposit Back
-========================
+=============================
 
 .. attention::
 	
