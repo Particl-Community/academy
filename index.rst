@@ -9,7 +9,7 @@ Welcome to the Particl Academy
 ==============================
 
 .. meta::
-   :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
+   :description lang=en: Particl Academy will guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace.
 
 
 Particl Academy will guide you while you'll become an expert for responsible and sustainable e-commerce with |PM|. It's all about values and balance in life.
