@@ -98,7 +98,7 @@ Orders
 
         **How can I ask for a refund or return through the marketplace?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), this feature is currently not supported. If you want to ask a seller for a refund or return, please try to reach out to them by their provided contact information or through the :doc:`Questions and Answers` section of the listing you have an issue with. 
+    Due to the current stage of development of the Particl marketplace (Beta), this feature is currently not supported. If you want to ask a seller for a refund or return, please try to reach out to them by their provided contact information or through the :ref:`Questions and Answers` section of the listing you have an issue with. 
 
     Direct messaging and a resolution center will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -118,7 +118,7 @@ Orders
 
         **How can I cancel an order?**
 
-    It's only possible to cancel an order if it hasn't yet been accepted by the seller. Otherwise, you can try reaching out to the seller by their provided contact information or through the :doc:`Questions and Answers` section of the listing you have an issue with. 
+    It's only possible to cancel an order if it hasn't yet been accepted by the seller. Otherwise, you can try reaching out to the seller by their provided contact information or through the :ref:`Questions and Answers` section of the listing you have an issue with. 
 
     Direct messaging and a resolution center will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -230,7 +230,7 @@ Orders
 
         **How can I send a tracking number or note to my customer?**
 
-    Once you mark an order as :doc:`SHIPPED`, your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
+    Once you mark an order as :guilabel:`shipped` (:ref:`Package and Shipping an Order`), your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
 
     A more complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -250,7 +250,7 @@ Orders
 
     Due to the current stage of development of the Particl marketplace (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the marketplace's transaction flow.
 
-    Once you mark an order as :doc:`SHIPPED`, your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
+    Once you mark an order as :guilabel:`shipped` (:ref:`Package and Shipping an Order`), your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
 
     A more complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 

@@ -1,11 +1,11 @@
 Security and Privacy
 ====================
 
-Digital security and privacy is a fundamental human right. Over the last few years, the various internet service providers you use every day have amassed a downright scary amount of personal information about you. It is even said that **tech giants know more about you than you do yourself**. 
+Digital security and privacy is a fundamental human right. Over the last few years, the various internet service providers you use every day have amassed a downright scary amount of personal information about you. It is even said that tech giants know more about you than you do yourself. 
 
 The irresponsible handling of that data is causing constant breaches, leaks, misuses, and abuses of your personal information. This leads to endless identity thefts, financial losses, frauds, unauthorized access to online accounts, and headaches.
 
-Why should using the internet be so risky? Although it was never designed to end up this way, the lack of data security and online privacy has become a persistent side-effect of using the internet. **Particl reverses that trend** in one fell swoop and gives you back **full control over your digital life**.
+Why should using the internet be so risky? Although it was never designed to end up this way, the lack of data security and online privacy has become a persistent side-effect of using the internet. Particl reverses that trend in one fell swoop and gives you back full control over your digital life.
 
 .. contents:: Table of Contents
    :local:
@@ -16,11 +16,11 @@ Why should using the internet be so risky? Although it was never designed to end
 Your Privacy on Particl
 ---------------------
 
-To guarantee the security of your personal information and your privacy, Particl adopts a vastly different approach than other internet service providers—**it gives you full ownership over your own data**.
+To guarantee the security of your personal information and your privacy, Particl adopts a vastly different approach than other internet service providers—it gives you full ownership over your own data.
 
-Instead of forcing you to agree to endless and incomprehensible terms and conditions aimed at collecting your personal information, **Particl simply doesn't generate any identifiable data about you at all**. 
+Instead of forcing you to agree to endless and incomprehensible terms and conditions aimed at collecting your personal information, Particl simply doesn't generate any identifiable data about you at all. 
 
-If no data exists in the first place, then it can't be collected by anyone. And if it can't be collected, then it can't be leaked or misused. Very simply, **Particl doesn't ask for your trust, it just never knows anything about you ever**.
+If no data exists in the first place, then it can't be collected by anyone. And if it can't be collected, then it can't be leaked or misused. Very simply, Particl doesn't ask for your trust, it just never knows anything about you ever.
 
 This groundbreaking level of online privacy is made possible thanks to Particl's distributed nature and the vast array of security protocols implemented on its network. 
 
@@ -28,11 +28,11 @@ This groundbreaking level of online privacy is made possible thanks to Particl's
 No Central Database
 ^^^^^^^^^^^^^^^^^^^
 
-All issues related to online data have something in common—personal information was stored and obtained from some company's database either willingly (data sharing policies) or unwillingly (data breaches). But that is simply impossible on Particl because **it isn't built like your typical online marketplace**. 
+All issues related to online data have something in common—personal information was stored and obtained from some company's database either willingly (data sharing policies) or unwillingly (data breaches). But that is simply impossible on Particl because it isn't built like your typical online marketplace. 
 
 It is an entirely autonomous platform that runs on peer-to-peer (P2P) and blockchain technologies. It's not a company, it's not running on servers, it doesn't have any central database, and it doesn't require any middleman such as a payment processor to function.
 
-In other words, **none of your personal information is ever stored on any database**. There is not a single party, other than buyers and sellers you're doing business with, that can know anything about you and use that information for any reason.
+In other words, none of your personal information is ever stored on any database. There is not a single party, other than buyers and sellers you're doing business with, that can know anything about you and use that information for any reason.
 
 
 Account Information
@@ -42,7 +42,7 @@ To use online marketplaces, you generally need accounts. That's because marketpl
 
 But having an account still has its upsides. It allows the marketplace to remember useful information such as your order history, shipping addresses, payment details, market preferences, and more. It can make your life much easier.
 
-This is why **Particl stores your account information locally on your computer** and never shares any of its data with anyone else. Any personal information it contains is encrypted via military-grade encryption so that no one else but you can access it.
+This is why Particl stores your account information locally on your computer and never shares any of its data with anyone else. Any personal information it contains is encrypted via military-grade encryption so that no one else but you can access it.
 
 Browsing History and Shopping Habits
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,9 +51,9 @@ Just like your account information, traditional marketplaces track your browsing
 
 Marketplaces and other online services typically use that kind of data to figure out what you like, what product they think you would buy, how to optimize their services, and etc. 
 
-It certainly can be useful, but it isn't all fine and dandy. The obsession marketplaces have with your browsing history and shopping habits not only constantly leads to data breaches, but also `intimate and straight up uncomfortable situations <https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#74d645eb6668>`_. Remember, **online service providers tend to know more about you and the ones you love than you do yourself**.
+It certainly can be useful, but it isn't all fine and dandy. The obsession marketplaces have with your browsing history and shopping habits not only constantly leads to data breaches, but also `intimate and straight up uncomfortable situations <https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/#74d645eb6668>`_. Remember, online service providers tend to know more about you and the ones you love than you do yourself.
 
-Particl hands you back your online privacy by making it impossible for anyone in the world to know your browsing history and shopping habits because **no identifiable data is being generated about you at all**.
+Particl hands you back your online privacy by making it impossible for anyone in the world to know your browsing history and shopping habits because no identifiable data is being generated about you at all.
 
 Transaction Data
 ^^^^^^^^^^^^^^^^
@@ -62,11 +62,11 @@ Particl isn't built on typical internet and financial technologies. It's instead
 
 In fact, public blockchains permanently store all the information of the transactions that happen on their network in a public ledger. It lets anyone in the world easily access and collect the information of any transaction ever. There's a very strong argument to be made whether they are just as bad as private databases, or even worse.
 
-That's not the case with Particl. Instead of using a public blockchain, it uses a private blockchain that **lets you to keep your data confidential and anonymous**. 
+That's not the case with Particl. Instead of using a public blockchain, it uses a private blockchain that lets you to keep your data confidential and anonymous. 
 
 When using the marketplace, none of your transaction information is stored in any meaningful way. Sure, it still ends up on the blockchain so it can be validated, but what can be seen by anyone else is as good as gibberish.
 
-It's still possible to make public transactions on Particl, but not when using the marketplace. To learn more about the different types of balances and transactions on Particl, head over to the :doc:`PART Cryptocurrency <../in-depth/indepth_part_coin>` in-depth guide.
+It's still possible to make public transactions on Particl, but not when using the marketplace. To learn more about the different types of balances and transactions on Particl, head over to the :ref:`Currency (PART) Explained` in-depth guide.
 
 Network Identity
 ^^^^^^^^^^^^^^^^
@@ -75,9 +75,9 @@ Another type of data that can be pretty damaging when it get stolen is your netw
 
 Like any type of data, it can make your online experience more convenient. But it can also make your life hell if it ends up in the wrong hands. 
 
-On Particl, it's impossible for anyone to associate an **IP address** to any other Particl-related data. And while your IP address is broadcast to other peers on the network, it doesn't reveal anything meaninful about you. The only thing it really tells is that someone in the world owns this IP address and uses Particl.
+On Particl, it's impossible for anyone to associate an IP address to any other Particl-related data. And while your IP address is broadcast to other peers on the network, it doesn't reveal anything meaninful about you. The only thing it really tells is that someone in the world owns this IP address and uses Particl.
 
-If you want to take your online privacy a step further, you can :doc:`route your connection through the Tor network <../guides/guide_general_enable_tor>`, a networking protocol used to spoof internet connections. This will broadcast a fake IP address to the network and keep your real one confidential.
+If you want to take your online privacy a step further, you can route your connection through the Tor network (installation guide :ref`Install Tor (Network Privacy)`), a networking protocol used to spoof internet connections. This will broadcast a fake IP address to the network and keep your real one confidential.
 
 Marketplace-Related Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -130,7 +130,7 @@ Enable Tor
 
 Another easy way to improve your online privacy when using Particl is to route the Particl Desktop client through the Tor network, a networking protocol used to spoof internet connections. Using Tor protects your online identity by making hiding your IP address from the rest of the network. 
 
-To learn how to enable Tor on your Particl Desktop client, head over to the :doc:`Enable Tor (Network Privacy) <../guides/guide_general_enable_tor>` user guide.
+To learn how to enable Tor on your Particl Desktop client, head over to the :ref:`Enable Tor on Particl` user guide.
 
 Use PART Addresses Only Once
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

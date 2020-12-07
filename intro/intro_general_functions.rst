@@ -55,7 +55,6 @@ Staking is the action of keeping a node online to support and secure Particl's d
 - The network gets more secure and resilient as more people stake.
 - "Cold staking" is a hyper secure staking option that lets you delegate your staking power to an online node that contains no coin. 
 - Particl provides many different cold staking variants, each one being as secure as the other ones.
-
    - **Cold staking:** Stake your coins stored even when stored offline such as on cold wallets, hardware devices, or even paper wallets.
    - **Staking pool:** Combine your staking power with other stakers to earn more frequent payments.
    - **Hardware staking:** Stake your coins stored on hardware devices such as the Ledger Nano and the Trezor.

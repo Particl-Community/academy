@@ -69,16 +69,16 @@ Step-by-step user guides about the most vital processes of Particl Marketplace. 
    guides/guide_mp_vendor_understanding_sellflow
    guides/guide_mp_general_market_management
    guides/guide_mp_general_enable_staking
-   guides/guide_mp_user_best_practices_overview
-   guides/guide_mp_vendor_best_practices_overview
+..   guides/guide_mp_user_best_practices_overview
+..   guides/guide_mp_vendor_best_practices_overview
 
 * :doc:`Funds, Coins, and Balances <guides/guide_mp_general_managing_funds>` 
 * :doc:`Buy Process for Customers <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Sell Process for Vendors <guides/guide_mp_vendor_understanding_sellflow>`   
 * :doc:`Markets and Storefronts <guides/guide_mp_general_market_management>`
 * :doc:`Staking Rewards <guides/guide_mp_general_enable_staking>`
-* :doc:`User's Best Practices <guides/guide_mp_user_best_practices_overview>`
-* :doc:`Vendor's Best Practices <guides/guide_mp_vendor_best_practices_overview>`
+.. * :doc:`User's Best Practices <guides/guide_mp_user_best_practices_overview>`
+.. * :doc:`Vendor's Best Practices <guides/guide_mp_vendor_best_practices_overview>`
 
 In-Depth Guides
 ===============

@@ -114,7 +114,7 @@ Seller FAQ
 
     If one of your listing shows up in the *Reported listings* section, it means at least one person has flagged it as inappropriate. If enough people do the same, it will be taken off the marketplace entirely. If your listing shows up in the reported listings section but still shows up on the marketplace, it means that not enough people have flagged it.
 
-    Want to know more about Particl's marketplace moderation system? Head over to the :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>` in-depth guide!
+    Want to know more about Particl's marketplace moderation system? Head over to the :ref:`Marketplace Moderation` in-depth guide!
 
 .. container:: toggle
 

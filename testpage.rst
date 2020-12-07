@@ -243,11 +243,11 @@ Internal Links
 
 To support cross-referencing to arbitrary locations in **any** document, the standard reST labels are used. For this to work label names **must be unique** throughout the entire documentation. 
 
-* I reference to a page under :menuselection:`guides --> guide_general_enable_tor.rst` :ref:`Enable Tor (Network Privacy)`
+* I reference to a page under :menuselection:`guides --> guide_general_enable_tor.rst` :ref:`Enable Tor on Particl`
 
 .. code-block:: rst
 
-  * I reference to a page under :menuselection:`guides --> guide_general_enable_tor.rst` :ref:`Enable Tor (Network Privacy)`
+  * I reference to a page under :menuselection:`guides --> guide_general_enable_tor.rst` :ref:`Enable Tor on Particl`
   
   Additionally there is the possibility to define manual reference labels.
 
