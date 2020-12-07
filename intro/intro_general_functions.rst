@@ -143,7 +143,7 @@ Particl's two-party escrow system protects users against scammers and ensures th
 
 In-depth details can be found at :ref:`Two-Party Escrow Explained`.
 
-Marketplace Moderations
+Marketplace Moderation
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 To moderate the content of the marketplace, Particl relies on a distributed moderation system that gives moderation powers to every user. Voting power is calculated on a one-coin-equals-one-vote basis.

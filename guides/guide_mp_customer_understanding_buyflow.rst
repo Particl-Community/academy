@@ -86,7 +86,7 @@ At any point in time, you can verify the status of your order. Additionally, onc
 	#. Find the order you want to monitor and check its status directly on its tile.
 	#. To see if a tracking number has been supplied by the seller, click on the order's tile to expand its details.
 
-Receive Security Deposit
+Receive Security Deposit Back
 ========================
 
 .. attention::
