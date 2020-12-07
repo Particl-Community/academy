@@ -25,7 +25,7 @@ Take your first few steps with understanding |PM|:
 .. toctree::
    :caption: Introduction
    :name: introtoc
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
    intro/intro_general_particlmarketplace
@@ -44,7 +44,7 @@ All begins with the installation of the Particl Desktop software. Follow these b
 .. toctree::
    :caption: Installation & Usage
    :name: installationtoc
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
    guides/guide_mp_setup_installation
@@ -61,7 +61,7 @@ Step-by-step user guides about the most vital processes of Particl Marketplace. 
 .. toctree::
    :caption: User Guides
    :name: guidesmptoc
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
    guides/guide_mp_general_managing_funds
@@ -88,9 +88,10 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
 .. toctree::
    :caption: In-Depth Guides
    :name: indepth
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
+   in-depth/indepth_mp_explained
    in-depth/indepth_part_coin
    in-depth/indepth_staking
    in-depth/indepth_escrow
@@ -98,10 +99,9 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
    in-depth/indepth_privacy_tips
 .. in-depth/indepth_opensource
 
-
-* :doc:`Settlement of Payments - PART coin <in-depth/indepth_part_coin>`
+* :doc:`Particl Marketplace explained <in-depth/indepth_mp_explained>`
+* :doc:`PART Cryptocurrency <in-depth/indepth_part_coin>`
 * :doc:`What's Staking <in-depth/indepth_staking>`
-.. * :doc:`Open-source technologies <in-depth/indepth_opensource>`
 * :doc:`Two-Party Escrow System <in-depth/indepth_mp_moderation>`
 * :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>`
 * :doc:`Security and Privacy <in-depth/indepth_privacy_tips>`
@@ -115,7 +115,7 @@ Are you having an issue not covered in this section? Your invaluable insights wi
 .. toctree::
    :caption: Help
    :name: faqmptoc
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    
    faq/faq_mp_general_overview
@@ -132,7 +132,7 @@ Resources and Links
 .. toctree::
    :caption: Helpful resources
    :name: resourcestoc
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
 * `Download <https://particl.io/downloads>`_
