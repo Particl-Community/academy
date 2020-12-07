@@ -3,9 +3,9 @@ Staking Rewards
 ===============
 
 .. note::
-	To learn more about what staking is and how you can earn dividend-like payments, check out the :doc:`Staking in-depth guide <in-depth/indepth_staking>`.
+	To learn more about staking, different options, and how you can earn dividend-like payments, check out the :ref:`Particl Staking Explained` in-depth guide.
 
-When you're *staking* on Particl, it means your computer (referred to as a "staking node") is helping the network by validating transactions. This task is fully automated and doesn't require you to do any manual work. In exchange for the help provided by your staking node, **the Particl network pays you an interest in dividend-like payments** proportional to the number of PART coins you own. The minimum yearly interest you can earn on your PART coins is 2%, although that typically fluctuates between 2% and 5% depending on how many people are staking on the network.
+When you're staking your Particl coins, it means your computer (referred to as a "staking node") is helping the network by validating transactions. This task is fully automated and doesn't require you to do any manual work. In exchange for the help provided by your staking node, the :term:`Particl Network` pays you an interest in dividend-like payments proportional to the number of PART coins you own. The minimum yearly interest you can earn on your PART coins is 2%, although that typically fluctuates between 2% and 5% depending on how many people are staking on the network.
 
 Enabling staking is pretty straight-forward, but some of the staking solutions can be a bit more complicated to set up. Rest assured, this user guide will make sure you can enable any of the staking options available to you without too much hassle. Just carefully follow the steps below and start earning staking rewards in just a few minutes.
 
@@ -25,7 +25,7 @@ Requirements
 Enable Staking
 --------------
 
-There are multiple ways you can stake your PART coins. Each of these solutions have pros and cons as well as their own method of activation. To learn more about each of these staking options, check out the :doc:`Staking in-depth guide <../in-depth/indepth_staking>`.
+There are multiple ways you can stake your PART coins. Each of these solutions have pros and cons as well as their own method of activation. 
 
 Regular staking
 ^^^^^^^^^^^^^^^
