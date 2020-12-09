@@ -14,6 +14,16 @@ General FAQ
 
     .. container:: header
 
+        **How can I create a new market identity?**
+
+    The ability to create a new market identity is not enabled by default. To enable the option, go to :guilabel:`Market Settings` > :guilabel:`Advanced Features` and check the :guilabel:`Enable multiple identities for the current profile` box.
+
+    Then, click on the downward facing arrow located above the :guilabel:`Overview` button in the menu on the left. This will display a new option. Simply click on :guilabel:`Click to create...` button to create a new market identity.
+
+.. container:: toggle
+
+    .. container:: header
+
         **How can I earn by staking my PART coins?**
 
     This depends on many factors such as the number of PART coins being staked by other users, the number of transactions on the marketplace, the number of PART transactions on the network, the number of times people promote their market or storefront, and etc.
