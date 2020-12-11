@@ -14,7 +14,7 @@ PART is an untraceable cryptocurrency that can be sent to anyone, anywhere in th
 Blockchain Specifications
 -------------------------
 
-**PART is the cryptocurrency of the Particl blockchain**. It is a secure and confidential currency specifically designed to power eCommerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
+PART is the cryptocurrency of the Particl blockchain. It is a secure and confidential currency specifically designed to power eCommerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
 
 PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bitcoin, many modern day improvements have been added to the code, making it faster, more private, and more flexible.
 
@@ -43,9 +43,9 @@ PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bit
 Staking Specifications
 ----------------------     
 
-Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism which pays back interest in dividend-like payments to **stakers** in exchange for securing the network. PPoS offers many secure staking options that lets you effortlessly reap the benefits of staking without any of its typical security risks.
+Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism which pays back interest in dividend-like payments to stakers in exchange for securing the network. PPoS offers many secure staking options that lets you effortlessly reap the benefits of staking without any of its typical security risks.
 
-In particular, Particl's **cold staking** mechanism allows you to earn an interest on the PART coins you own even when they're stored offline. That also includes funds stored on a cold wallet, a hardware device (i.e. Ledger Nano), a phone, a cloud server, or even just a piece of paper. Cold staking also lets you earn rewards more often by teaming up with other stakers. This is done by joining a **staking pool**. 
+In particular, Particl's cold staking mechanism allows you to earn an interest on the PART coins you own even when they're stored offline. That also includes funds stored on a cold wallet, a hardware device (i.e. Ledger Nano), a phone, a cloud server, or even just a piece of paper. Cold staking also lets you earn rewards more often by teaming up with other stakers. This is done by joining a staking pool. 
 
 +-----------------------------+------------------------+
 | **Staking Revenue**         | 2% to ~5% per year     |
@@ -70,7 +70,7 @@ In particular, Particl's **cold staking** mechanism allows you to earn an intere
 Privacy Specifications
 ----------------------  
 
-PART is a modern day cryptocurrency. It doesn't just allow you to transact person-to-person with anyone else, it also does it in a way that doesn't permanently share all of your financial data with the rest of the world. It has an adjustable level of privacy and lets you choose between **three different types of transactions** (public, blind, and anon), each with their own purpose, cost, and level of privacy.
+PART is a modern day cryptocurrency. It doesn't just allow you to transact person-to-person with anyone else, it also does it in a way that doesn't permanently share all of your financial data with the rest of the world. It has an adjustable level of privacy and lets you choose between three different types of transactions (public, blind, and anon), each with their own purpose, cost, and level of privacy.
 
 +----------------------------------+---------------------------------------------+
 | **Adjustable Level of Privacy**  | Yes, 3 levels                               |
@@ -101,13 +101,13 @@ Public balances let you make Bitcoin-like public transactions. These transaction
 
 **What can you do with public balances and transactions?**
 
-	- Send and receive payments.
-	- Earn PART coins by staking the coins in your public balance.
-	- Pay for listing fees on the marketplace.
-	- Promote user markets and storefronts on the Market Browser.
-	- Participate in the marketplace's moderation system.
-	- Use smart-contracts.
-	- Receive regular staking rewards.
+- Send and receive payments.
+- Earn PART coins by staking the coins in your public balance.
+- Pay for listing fees on the marketplace.
+- Promote user markets and storefronts on the Market Browser.
+- Participate in the marketplace's moderation system.
+- Use smart-contracts.
+- Receive regular staking rewards.
 
 Blind Balance
 ~~~~~~~~~~~~~
@@ -119,9 +119,9 @@ Blind balances offer a significant step-up in privacy. Based on the work of the 
 
 **What can you do with blind balances and transactions?**
 
-	- Send and receive confidential payments.
-	- Use confidential smart-contracts.
-	- Receive confidential staking rewards.
+- Send and receive confidential payments.
+- Use confidential smart-contracts.
+- Receive confidential staking rewards.
 
 Anon Balance
 ~~~~~~~~~~~~
@@ -133,9 +133,9 @@ By adding "ring signatures" to blind balances, you obtain anon balances, the hig
 
 **What can you do with anon balances and transactions?**
 
-	- Send and receive untraceable transactions.
-	- Pay for goods and services on Particl Marketplace.
-	- Pay for listing fees on the marketplace.
-	- Use anonymous smart-contracts.
-	- Participate in two-party escrow transactions without sharing your information to any third-party.
-	- Receive anonymous staking rewards.
+- Send and receive untraceable transactions.
+- Pay for goods and services on Particl Marketplace.
+- Pay for listing fees on the marketplace.
+- Use anonymous smart-contracts.
+- Participate in two-party escrow transactions without sharing your information to any third-party.
+- Receive anonymous staking rewards.

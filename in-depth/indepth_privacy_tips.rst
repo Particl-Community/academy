@@ -13,9 +13,6 @@ Why should using the internet be so risky? Although it was never designed to end
    :depth: 3
 
 
-Your Privacy on Particl
----------------------
-
 To guarantee the security of your personal information and your privacy, Particl adopts a vastly different approach than other internet service providers—it gives you full ownership over your own data.
 
 Instead of forcing you to agree to endless and incomprehensible terms and conditions aimed at collecting your personal information, Particl simply doesn't generate any identifiable data about you at all. 
@@ -26,7 +23,7 @@ This groundbreaking level of online privacy is made possible thanks to Particl's
 
 
 No Central Database
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 All issues related to online data have something in common—personal information was stored and obtained from some company's database either willingly (data sharing policies) or unwillingly (data breaches). But that is simply impossible on Particl because it isn't built like your typical online marketplace. 
 
@@ -36,7 +33,7 @@ In other words, none of your personal information is ever stored on any database
 
 
 Account Information
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 To use online marketplaces, you generally need accounts. That's because marketplaces want to know you as much as possible so they can personalize your experience on their platform, get more money out of you, and then monetize your data externally. 
 
@@ -44,8 +41,8 @@ But having an account still has its upsides. It allows the marketplace to rememb
 
 This is why Particl stores your account information locally on your computer and never shares any of its data with anyone else. Any personal information it contains is encrypted via military-grade encryption so that no one else but you can access it.
 
-Browsing History and Shopping Habits
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+History and Shopping Habits
+---------------------------
 
 Just like your account information, traditional marketplaces track your browsing history and shopping habits to know as much as they can about you. They even openly share it with partners who, in turn, share their users' information back. 
 
@@ -56,7 +53,7 @@ It certainly can be useful, but it isn't all fine and dandy. The obsession marke
 Particl hands you back your online privacy by making it impossible for anyone in the world to know your browsing history and shopping habits because no identifiable data is being generated about you at all.
 
 Transaction Data
-^^^^^^^^^^^^^^^^
+----------------
 
 Particl isn't built on typical internet and financial technologies. It's instead built on blockchain technology and requires payments to be made with cryptocurrencies. And while they enable cheap and near instant payments on a global scale, they do poorly from an online privacy perspective. 
 
@@ -69,7 +66,7 @@ When using the marketplace, none of your transaction information is stored in an
 It's still possible to make public transactions on Particl, but not when using the marketplace. To learn more about the different types of balances and transactions on Particl, head over to the :ref:`Currency (PART) Explained` in-depth guide.
 
 Network Identity
-^^^^^^^^^^^^^^^^
+----------------
 
 Another type of data that can be pretty damaging when it get stolen is your network identity (IP address). Your IP address is your own unique internet identity which is shared across all your internet-connected devices. If enough data can be linked to your IP address, your identity is revealed and it becomes possible to track all of your online activity.
 
@@ -80,12 +77,12 @@ On Particl, it's impossible for anyone to associate an IP address to any other P
 If you want to take your online privacy a step further, you can route your connection through the Tor network (installation guide :ref`Install Tor (Network Privacy)`), a networking protocol used to spoof internet connections. This will broadcast a fake IP address to the network and keep your real one confidential.
 
 Marketplace-Related Privacy
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 Particl's marketplace takes your security and privacy very seriously. It is built from the ground up in such a way that never creates any useful data about what you. When no data exists, it can't be collected, analyzed, and shared with anyone else. 
 
 Marketplace content
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 When you upload content like images online, it often contains sensitive data about you like where the picture was taken (geo-location) or what device was used to take the picture. This is a big privacy issue that can lead you to unwillingly reveal the GPS location of your home, for example.
 
@@ -115,7 +112,7 @@ Achieve Maximum Privacy
 While Particl provides you, by default, with an unmatched level of data security and online privacy, there are still some tricks you can do to improve your privacy even more. 
 
 Make Private Transactions
-^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
 	
@@ -126,14 +123,14 @@ When you're sending a PART transaction to someone else, it's possible for you to
 To improve your privacy, try sending :guilabel:`anon` transactions instead. Anon transactions hide the amounts being transacted as well as the identity of both participants. This keeps your personal information and the one of the person you're transacting with entirely confidential.
 
 Enable Tor
-^^^^^^^^^^
+~~~~~~~~~~
 
 Another easy way to improve your online privacy when using Particl is to route the Particl Desktop client through the Tor network, a networking protocol used to spoof internet connections. Using Tor protects your online identity by making hiding your IP address from the rest of the network. 
 
-To learn how to enable Tor on your Particl Desktop client, head over to the :ref:`Enable Tor on Particl` user guide.
+To learn how to enable Tor on your Particl Desktop client, head over to the :ref:`Install Tor (Network Privacy)` installation guide.
 
 Use PART Addresses Only Once
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
 	
@@ -146,7 +143,7 @@ The reason behind this is pretty simple, when someone gets to know an address of
 When you generate a new address, there is no previous transaction that can be analyzed by anyone. This keeps your personal information private and ensures no prying eye can dig into your financial records.
 
 Use Multiple Wallets
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~
 
 You can even go a step further and generate entirely independent wallets instead of just creating new addresses. In fact, even when creating new addresses, it's still possible to match "transaction outputs" together and associate clusters of transactions to you.
 
@@ -161,7 +158,7 @@ To protect from this, you can create multiple wallets right from Particl Desktop
 This function greatly improves your online privacy by taking the human mistake factor out of the equation and making it impossible to unwillingly "taint" transactions with addresses you'd rather keep private.
 
 .. Use Multiple User Profiles
-	^^^^^^^^^^^^^^^^^^^^^^^^^^
+	~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	When you list products and services on Particl, they are associated to a Particl address of yours. This is what is referred to as your seller profile. When listing multiple items, they all get published under the same seller profile and, for this reason, can all be linked to the same vendor. Of course, this doesn't tell anyone anything about you, but it lets people know that some items on the marketplace are being sold by the same unknown person.
 
