@@ -456,7 +456,7 @@ Using the Tor daemon
 					sudo systemctl enable tor
 
 Using Tor as a Hidden Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 On linux, you can also run Tor as a hidden service and connect your :guilabel:`Particl Desktop` to it. This allows other people to use your node as an entry or exit point, making the Tor network more decentralized and private.
 
