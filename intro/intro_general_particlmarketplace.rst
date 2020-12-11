@@ -5,95 +5,101 @@ What's |PM|
 .. meta::
    :description lang=en: is a marketplace with features that customers and vendors will love. Privacy first, responsible, and sustainable e-commerce.
 
-|PM| is similar to the internet’s well-known marketplaces (Amazon, eBay, Alibaba), but with added or extra features that customers and vendors will love. No intentions to make profits, and you can be sure your needs will remain protected.
+|PM| is similar to the internet’s well-known marketplaces like Amazon, eBay, or Alibaba, but with added security and extra features that customers and vendors will love. Particl has no intention to make profits, and you can be sure that your needs will be covered from all angles.
 
-**Free markets and a fair level playing field in e-commerce.**
 
-* **More money** in your pocket to spend or save
-* **Gain security** by not becoming a product or a "glass consumer", no fraud, trickery, invasion of privacy, spam, restrictions, politics, or malice possible
-* **Enjoy giving back** to society and grow your standing
+**Finally! True free markets and the fair level playing field in e-commerce.**
 
-Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feeding the corporate monopolies, and your world becomes a fairer place. Your communities and loved ones will profit as well, leaving everyone with a good feeling because you can do something that is sustainable. 
+	* **Keep more money** in your pocket to spend or save
+	* **Gain security** by not becoming the product or a “glass consumer”. No fraud, trickery, spam, restrictions, politics, malice, or invasion of your privacy possible
+	* **Enjoy giving back** to society, contribute to its success, and grow your standing
+
+Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feeding the corporate monopolies, and your world becomes a fairer place. It's not just you who benefits from it—your communities and loved ones will profit as well, leaving everyone with a good feeling because you can make them become a sustainable shopper too.
+
 
 *-You will feel like a champion!*
 
 Keep more money 
 ----------------
 
-You know the desire to have the best food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best possible physical and emotional shape. Additionally, to be good with your loved ones and your communities. And finally, be able to fulfill dreams and give back the best you can.
+You know the desire to have the best food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best possible physical and emotional shape. Additionally, to be in a good relationship with your loved ones and your communities. And finally, to be able to fulfill your dreams and give back the best you can.
 
-**Your desire to survive and thrive in today’s economy is bound to your very own finances.**
+**Your desire to survive and thrive in today’s economy is mainly bound to the state of your own finances.**
 
-Even if you have a "free" service to buy and sell your products, it is not free. You pay them with your valuable data. |PM| does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. The Particl team lives off donations and aims to become self-perpetual, but without compromising you.
+But did you know that, even if you use “free” platforms or services to buy and sell stuff, it is not really free? No, instead of paying with your money, you pay with your valuable data. 
 
-*You will be able to save more or make more money by cutting out the middleman*
+|PM|, on the other hand, does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual, but without compromising you.
+
+
+*You will be able to save more or make more money by cutting out the middle-man*
 
 Gain security
 -------------
 
-Big corporations collect data with your purchases and sales. They are utilized to evaluate you as a business and as a consumer. They sell your data or are used against you as a vendor. Translated, this means: 
-
-**E-commerce giants have become your credit score broker!**
+Big corporations collect data with your purchases and sales. The data is then utilized to evaluate you as a business owner or as a consumer. They then sell your data or use them against you in a way they can benefit without your knowledge or approval. A lot of times, this is done at your own detriment. Translated, this means:
+ 
+**Corporations like e-commerce giants have become your credit score broker!**
 
 * They will decide how high your insurance policy should be rated based on their risk assessment 
 * Your personal preferences will be the reason why you may not get a particular job 
 * Or even worse, a rating algorithm could block your accounts! 
 
-Nothing less than your freedom and self-determination is put in jeopardy. The ever-growing and already giant e-commerce corporations seek to expand further profits, market power, and control. They have created this disturbing digital security and privacy crisis under the guise of usability.
+Nothing less than your freedom and self-determination is put in jeopardy. The ever-growing-and-already-giant e-commerce corporations always seek to expand their profits, market power, and control. They have created today's very disturbing digital security and privacy crisis under the guise of usability and convenience.
 
-*You will become in control of your data and freedom*
+*You will become in full control of your data and freedom*
 
-**Get rid of Fraud and Trickery**
+**Get Rid of Fraud and Trickery**
 
-No more bricks in your package as a customer or bad quality counterfeit goods. No more chargebacks for vendors due to stolen identities. Fraudulent attempts get taken down with a free of charge and automated two-party escrow system. 
+No more bricks in the package for you as a customer or bad quality counterfeit goods. No more chargebacks for vendors due to stolen identities. Fraudulent attempts get taken down with a free of charge and automated two-party escrow system.
 
 *You will become immune to online fraud*
 
-**Get rid of Invasion of Privacy or Backdoors** 
+**Get Rid of Invasion of Privacy or Backdoors** 
 
-No more stolen Credit Card data, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be leaked to anyone. It cannot be attained, shared, sold, misused, hacked, or leaked. Your data stays your data, including products, locations, and payments—for customers and vendors.
+No more stolen credit card information, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be collected by anyone. It cannot be attained, shared, sold, misused, hacked, or leaked. Your data stays your data regardless whether it relates to your products, locations, payments, or any kind of online activity. And that’s true for both customers and vendors!
 
 *You will become invincible to privacy issues*
 
 **Get rid of Restrictions, Politics, and Malice**
 
-A 100% uptime marketplace impossible to be taken offline or manipulated. It also means none of your products or users can be banned from the |PM| or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s own content. Across national borders, free trade and free markets are possible so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
+A 100% uptime that is impossible to be taken offline or manipulated. It also means none of your products or users can be banned from the Particl Marketplace or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s content at all times. Across national borders, free trade and free markets are possible so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
 
 *You will become bullet-proof against restrictions*
 
-**Get rid of Spam**
+**Get Rid of Spam**
 
-Tailored ads are hammering on you even after you have made a purchase. You have seen them on websites you visit, read them within your email accounts and apps you use. It even affects how search engines deliver results to you. 
+Tailored ads are hammering on you even after you have made a purchase, and most of the time, even before you make it. You have seen them on websites you visit, read them within your email accounts and apps you use. It even affects how search engines deliver results to you.
 
-*You will have the cure against Spam*
+*You will have the cure against spam*
 
 Enjoy giving back
 -----------------
 
-The world of e-commerce and online marketplaces have made the world of shopping a very different place. Small businesses have had to give up, while only a hand full of large corporations continue to dominate the market. The price war is destroying small merchants, only to benefit Internet platforms and financial transaction providers. This also applies to all employees in the retail industry.
+E-commerce and online marketplaces have made the world of shopping and selling a very different place. Small businesses have had to give up, while only a handful of large corporations continue to dominate the market. The price war is destroying small merchants, only to benefit Internet platforms and financial transaction providers. This also applies to all employees in the retail industry.
 
-**It's time to give back to the small, to the oppressed, to the exploited.** 
+**It’s time to give back to the small, to the oppressed, to the exploited.** 
 
 Your successes
 --------------
 
-By choice, you will gain superpowers and other benefits if you do install and use Particl Marketplace:
+By installing and using Particl Marketplace, you make a conscious decision of gaining superpowers and many other benefits:
 
-	* You will get significantly lower product prices by cutting out the middle-man
+	* You will get significantly lower product prices as a customer and higher margins as a vendor
 	* You will be the master of your personal data and freedom
 	* You will become immune to online fraud
 	* You will be invincible to privacy issues
 	* You will get bullet-proof against restrictions
-	* You will have the cure against Spam
+	* You will have the cure against spam
+	* You will contribute against the global economic inequality
 
 How it works
 -------------
 
-With the award-winning |PM|, first and foremost, you prioritize the security of your personal information and data. It is the most secure and private online marketplace on the web. 
+With the award-winning |PM|, you first and foremost prioritize the security of your personal information and data. It is, simply put, the most secure and private online marketplace on the web.
 
 It relies on open-source technologies that are openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
 
-However, |PM| is based on distributed ledger technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of nodes hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn't require any central party to operate, which means no company or organization is between buyers and sellers. You are in complete control!
+However, |PM| is based on distributed ledger and peer-to-peer technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of nodes hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
 
 .. raw:: html
 
@@ -105,4 +111,4 @@ However, |PM| is based on distributed ledger technologies, which you may know by
 
 **Learn More**
 
-We've barely scratched the surface, there is much more to discover about |PM|! The next section will make you aware about some essentials.
+We've barely scratched the surface, and there is much more to discover about Particl Marketplace! The next section will make you aware of some essentials.
