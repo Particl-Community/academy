@@ -2,13 +2,13 @@
 Staking Explained
 =================
 
-"Staking" refers to the act of supporting the network by validating transactions and receiving a reward from the network in exchange. It this, simply put, **earning coins for keeping a connection to the Particl network active**.
+"Staking" refers to the act of supporting the network by validating transactions and receiving a reward from the network in exchange. It this, simply put, earning coins for keeping a connection to the Particl network active.
 
-When staking, your computer (referred to as a "staking node") helps the network by validating transactions. It is a crucial task to ensure the security of the network, but it is fully automated and doesn't require you to do anything special. In exchange for the work provided by your staking node, **the Particl network pays you an interest in dividend-like payments** proportional to the number of PART coins you own in your public balance. This interest rate varies between **2% to 5% per year** based on a few factors.
+When staking, your computer (referred to as a "staking node") helps the network by validating transactions. It is a crucial task to ensure the security of the network, but it is fully automated and doesn't require you to do anything special. In exchange for the work provided by your staking node, the Particl network pays you an interest in dividend-like payments proportional to the number of PART coins you own in your public balance. This interest rate varies between 2% to 5% per year based on a few factors.
 
 To guarantee the integrity of the network, all staking nodes process all the transactions on Particl. To verify the integrity of these transactions, staking nodes compare the processed data with each other and only validate transactions when the information is identical across a majority of the other nodes. 
 
-If the data of a transaction cannot be confirmed by enough staking nodes on the network, the transaction is collectively rejected. This mechanism is what is generally referred to as a **consensus mechanism**.
+If the data of a transaction cannot be confirmed by enough staking nodes on the network, the transaction is collectively rejected. This mechanism is what is generally referred to as a consensus mechanism.
 
 .. contents:: Table of Contents
    :local:
@@ -18,40 +18,40 @@ If the data of a transaction cannot be confirmed by enough staking nodes on the 
 Particl Proof-of-Stake (PPoS)
 -----------------------------
 
-To support its network and verify its transactions, Particl uses Particl Proof-of-Stake (**PPoS**), a unique Proof-of-Stake consensus mechanism designed by the Particl team. Unlike Bitcoin's Proof-of-Work consensus mechanism, which is secured by costly and electricity hungry "mining" machines, **Particl makes the entire process of verifying transactions digital**.
+To support its network and verify its transactions, Particl uses Particl Proof-of-Stake (PPoS), a unique Proof-of-Stake consensus mechanism designed by the Particl team. Unlike Bitcoin's Proof-of-Work consensus mechanism, which is secured by costly and electricity hungry "mining" machines, Particl makes the entire process of verifying transactions digital.
 
-Every online user is a staking node that verifies the integrity of the network in real-time. When a staker finds a transaction block and validates the transactions it contains with the rest of the network, they receive a **staking reward**.
+Every online user is a staking node that verifies the integrity of the network in real-time. When a staker finds a transaction block and validates the transactions it contains with the rest of the network, they receive a staking reward.
 
 While the Proof-of-Stake consensus mechanism isn't particularly new, Particl has been pioneering the technology by making it much more flexible, secure, and also private. Indeed, PPoS is packed with several leading edge capabilities that let you effortlessly reap all the benefits of Proof-of-Stake, but without any of its typical security and convenience concessions.
 
 PPoS Quick Facts
 ^^^^^^^^^^^^^^
 
-	- Yearly staking interest paid in **dividend-like payments**.
-	- **Redistributes all marketplace fees** to stakers.
-	- Modern and rock solid staking **security**.
-	- Adjustable level of **privacy** available.
-	- **No minimum** number of PART coins required to receive staking rewards.
+- Yearly staking interest paid in dividend-like payments.
+- Redistributes all marketplace fees to stakers.
+- Modern and rock solid staking security.
+- Adjustable level of privacy available.
+- No minimum number of PART coins required to receive staking rewards.
 
 Earn Passive Income
 -------------------
 
 .. tip:: 
-   **Pro tip:** If you stake enough PART coins, your staking rewards could pay for the entirety of your listing fees! 
+   Pro tip: If you stake enough PART coins, your staking rewards could pay for the entirety of your listing fees! 
 
-Staking on Particl can be a great source of passive income. In fact, just by keeping your Particl Desktop client connected to the internet, you automatically earn a **yearly interest of 2% to 5%** on the PART coins held in your public balance. In other words, **the more PART coins you own, the more PART coins you earn**! Simple enough, right?
+Staking on Particl can be a great source of passive income. In fact, just by keeping your Particl Desktop client connected to the internet, you automatically earn a yearly interest of 2% to 5% on the PART coins held in your public balance. In other words, the more PART coins you own, the more PART coins you earn. Simple enough, right?
 
 What's a staking reward?
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-A staking reward is defined as any number of PART coins received from the Particl network in exchange for securing it. These rewards are **proportionally** paid to stakers in exchange for their contribution in securing the network and validating transactions. This process is entirely automatic and happens in the background without you requiring to do any manual task.
+A staking reward is defined as any number of PART coins received from the Particl network in exchange for securing it. These rewards are proportionally paid to stakers in exchange for their contribution in securing the network and validating transactions. This process is entirely automatic and happens in the background without you requiring to do any manual task.
 
 How much can I earn?
 ^^^^^^^^^^^^^^^^^^^^
 
 As a general rule of thumb, you can calculate that you'd be able to earn an interest rate of 2% to 5% on the PART coins you hold in your public balance. However, the variability and unpredictibility of certain factors makes it impossible to tell exactly how much you will earn staking on Particl. 
 
-If staking 24/7, you are **guaranteed to earn at least 2% per year** in staking interest on the coins held in your public balance. But that's only if 100% of the coins in circulation are being staked by their owners. 
+If staking 24/7, you are guaranteed to earn at least 2% per year in staking interest on the coins held in your public balance. But that's only if 100% of the coins in circulation are being staked by their owners. 
 
 In reality, only about 35% to 55% of the coins in circulation are staked at any time, which means staking rewards get redistributed among a smaller pool of stakers. This directly translates to stakers receiving staking rewards more often, which leads to the actual yearly staking interest rate to be higher than the guaranteed minimum of 2%. 
 
@@ -68,9 +68,9 @@ While there are online calculators giving estimates on the staking revenue of ma
 Network effect
 ^^^^^^^^^^^^^^
 
-**The more people use Particl, the bigger the staking rewards get**. That's because the increase in activity on the platform directly leads to more fees being paid by people. And since all the fees paid to the Particl network are redistributed back to stakers, it creates a self-fulfilling environment that rewards you for getting more people to use Particl more often.
+The more people use Particl, the bigger the staking rewards get. That's because the increase in activity on the platform directly leads to more fees being paid by people. And since all the fees paid to the Particl network are redistributed back to stakers, it creates a self-fulfilling environment that rewards you for getting more people to use Particl more often.
 
-The other interesting dynamic of Particl's staking economy is that you receive more staking rewards when less coins are available for staking. That's because the same staking interest has to be distributed among a smaller pool of coins. **More rewards per coin**!
+The other interesting dynamic of Particl's staking economy is that you receive more staking rewards when less coins are available for staking. That's because the same staking interest has to be distributed among a smaller pool of coins. More rewards per coin.
 
 As a contributing factor, you can only earn staking interest on the coins you hold in a public balance. Coins held in blind and anon balances cannot earn staking rewards, although they do fulfil other needs within the Particl ecosystem. And as the marketplace requires the use of anon balances, less coins are available for staking when more people use it.
 
@@ -81,7 +81,7 @@ In simpler words, the more people that use Particl, the more staking rewards you
 Staking Options
 ---------------
 
-PPoS is a modern and very flexible Proof-of-Stake consensus mechanism. Its most unique and groundbreaking feature is the ability to delegate your coin's **staking power** to a separate staking node that contains no coin. Not only does it provides you with the most secure staking solution available anywhere, it also unlocks a ton of ways you can stake your PART coins, each with its own benefits and considerations.
+PPoS is a modern and very flexible Proof-of-Stake consensus mechanism. Its most unique and groundbreaking feature is the ability to delegate your coin's staking power to a separate staking node that contains no coin. Not only does it provides you with the most secure staking solution available anywhere, it also unlocks a ton of ways you can stake your PART coins, each with its own benefits and considerations.
 
 Regular staking
 ^^^^^^^^^^^^^^^
@@ -137,7 +137,7 @@ Staking pools
 
 - You need to pay a staking pool fee (a percentage on your staking revenue).
 
-To earn more frequent but smaller rewards, you can team up with other stakers by joining a staking pool and combine your staking power. Whenever the pool validates a block with the full staking power of all its stakers, it receives a staking reward. All of the staking rewards collected by the pool are then **proportionally redistributed to its members** according to their contribution to the pool's staking power. In other words, if you stake in a staking pool and own 10% of all its staking power, then you will receive 10% of all its staking revenue, minus the pool fee.
+To earn more frequent but smaller rewards, you can team up with other stakers by joining a staking pool and combine your staking power. Whenever the pool validates a block with the full staking power of all its stakers, it receives a staking reward. All of the staking rewards collected by the pool are then proportionally redistributed to its members according to their contribution to the pool's staking power. In other words, if you stake in a staking pool and own 10% of all its staking power, then you will receive 10% of all its staking revenue, minus the pool fee.
 
 Staking pools are safe to use as the pool operator cannot run away with any of the staker's funds. It is ideal if you hold a small number of PART coins. It's also super convenient as it can be set up in just under a minute and doesn't require you to set up an external staking node cold staking does.
 
