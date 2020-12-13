@@ -79,6 +79,7 @@ Marketplace
         **No listing is showing up on the marketplace (empty marketplace)**
 
     - Make sure you are using |PD version|. 
+    - Check if in the top right corner the :guilabel:`peers` icon is a red circle. If it's the case check your firewall settings. The Particl Desktop client is not able to contact the network. Make sure your internet connection is available at all.
     - Leave Particl Desktop open for a few minutes so that it can sync the blockchain and load the market data. This can take several minutes and tends to take longer on slow internet connections.
     - Reset your market database by first making a copy of your ``particl-market`` folder and then deleting it (**don't delete the backup copy**). Keep in mind this is a last resort solution. It will permanently remove all your market-related data such as current orders, listings, order history, and etc. **Make sure that you do not have any active order before doing this step or you will permanently lose access to the escrow contracts.**
 
