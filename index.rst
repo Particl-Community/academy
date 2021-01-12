@@ -1,20 +1,13 @@
-.. Particl Academy documentation master file, created by
-   sphinx-quickstart on Fri Mar 13 06:28:57 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-   Understand the toctree: https://www.sphinx-doc.org/en/1.5/markup/toctree.html
 ==============================
 Welcome to the Particl Academy
 ==============================
 
 .. meta::
-   :description lang=en: Particl Academy will guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace.
+   :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace.
 
 
-Particl Academy will guide you while you'll become an expert for responsible and sustainable e-commerce with |PM|. It's all about values and balance in life.
-
-Particl Academy contains all the information you will need to find your way around and use the |PM| just as effortlessly as any other marketplace you have used in the past. All the technical mumbo-jumbo usually associated with blockchain technologies can be intimidating, but there is no need to worry, the Particl Academy is written by humans, for humans.
+Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with |PM|. It is the reference book in straightforward language. If you are looking for the technical details, the `Particl Wiki <https://particl.wiki/>`_ is the right place to go.
 
 
 Introduction
