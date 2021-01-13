@@ -81,8 +81,7 @@ You can also publish your listing on multiple user markets and storefronts.
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`Inventory & Products` tab of the :guilabel:`SELL` page.
-  #. Locate the listing you want to publish on other user markets and click on its tile to expand the details.
+  #. Navigate to the :guilabel:`Inventory & Products` tab of the :guilabel:`SELL` page and locate the listing you want to publish on other user markets and click on its tile to expand the details.
   #. Click on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
   #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
   #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the user market you've selected.
@@ -104,8 +103,7 @@ The first step of the process is to import your inventory into Particl Desktop u
 
   #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client.
   #. Click on the :guilabel:`Inventory & Products` tab, and then on the :guilabel:`Import` button.
-  #. Import your CSV file by clicking on the :guilabel:`Choose file` button of the :guilabel:`IMPORT FROM CSV FILE` section.
-  #. Click on the :guilabel:`Process CSV import` button to process your inventory.
+  #. Import your CSV file by clicking on the :guilabel:`Choose file` button of the :guilabel:`IMPORT FROM CSV FILE` section and click on the :guilabel:`Process CSV import` button to process your inventory.
   #. Your Particl Desktop will create one listing template per item. Review each template and, if needed, click on their tiles to expand and edit their details.
   #. When you're ready, click on the :guilabel:`Import & Save` button to create your listing templates
 
@@ -132,8 +130,7 @@ The second step of the process is to publish the listing templates you've just c
   #. Select on which market or storefront you want to publish your listings by selecting it from the :guilabel:`PUBLISH TO` dropdown menu.
   #. Select for how long you want your listings to be available by selecting the right number of days from the :guilabel:`PUBLISH DURATION` dropdown menu.
   #. Indivudually choose the items you want to publish by clicking their :guilabel:`Publish` checkboxes or by selecting :guilabel:`Select all` in the :guilabel:`SELECT...` dropdown menu. 
-  #. When ready to publish your listings, click on :guilabel:`Publish selected products`.
-  #. Wait for Particl Desktop to publish your listings. A progress bar at the bottom of the screen indicates the progress.
+  #. When ready to publish your listings, click on :guilabel:`Publish selected products` and wait for Particl Desktop to publish your listings. A progress bar at the bottom of the screen indicates the progress.
 
 .. Import WooCommerce Inventory
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -216,11 +213,10 @@ After making your security deposit into the two-party escrow contract, you will 
 .. rst-class:: bignums
 
   #. Package and ship out your item. 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client.
-  #. Click on the :guilabel:`Your Orders` tab.
-  #. In the :guilabel:`FILTER` section, you can check :guilabel:`Orders requiring attention` to only see orders that requires your attention or filter them by status.
-  #. Look for any order marked as :guilabel:`PACKAGING`.
-  #. Click on the order's tile to expand its details and click on the :guilabel:`Mark as shipped` button.
+  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client and click on the :guilabel:`Your Orders` tab.
+
+      - In the :guilabel:`FILTER` section, you can check :guilabel:`Orders requiring attention` to only see orders that requires your attention or filter them by status.
+  #. Look for any order marked as :guilabel:`PACKAGING` and click on the its tile to expand its details and click on the :guilabel:`Mark as shipped` button.
   #. You can optionally enter a tracking number or note for your buyer, or can leave that space blank if not needed. 
   #. Click on the :guilabel:`Order shipped` button to confirm that you have shipped the item. 
 
@@ -231,8 +227,7 @@ Once your package is shipped, keep an eye out for your payment. Once your buyer 
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client.
-  #. Click on the :guilabel:`Your Orders` tab.
+  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your Particl Desktop client and click on the :guilabel:`Your Orders` tab.
   #. In the :guilabel:`FILTER BY STATUS` section, you can check :guilabel:`Complete` to only see orders that have been completed.
   #. Click on the order's tile to expand its details and see the date and time it was completed.
   #. Navigate to the :guilabel:`HISTORY` page and click on the `Received` tab.

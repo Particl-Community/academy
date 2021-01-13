@@ -33,8 +33,7 @@ Add an item to your cart
 
 .. rst-class:: bignums
 
-	#. Navigate to the :guilabel:`Market` module of Particl Desktop by clicking on it from the outer menu at the very left of the client.
-	#. Navigate to the :guilabel:`Listings` page.
+	#. Navigate to the :guilabel:`Market` module of Particl Desktop by clicking on it from the outer menu at the very left of the client and go to the :guilabel:`Browse` page.
 	#. Browse the Open Market to find the item you want to purchase or select a different user market from the :guilabel:`Filter` section.
 	#. Click on the listing you want to purchase to expand its details.
 	#. Make sure the item is shipping in your country and click on the :guilabel:`Shipping & Escrow` tab within the listing's page to make sure you have enough PART funds in your :guilabel:`Anon` balance to make the purchase. You will see the number of PART required for the order under the :guilabel:`Total needed for order` column.
@@ -45,13 +44,12 @@ Send the bid to the seller
 
 .. rst-class:: bignums
 
-	#. Go to your cart by either clicking on the :guilabel:`Your cart` page from the market menu on the left.
-	#. Review the content of your cart and enter your shipping information. 
+	#. Go to your cart by clicking on the :guilabel:`Your cart` page from the market menu on the left to review the content of your cart and enter your shipping information. 
 	#. Click on the :guilabel:`Continue to confirmation` button.
    		- Optionally, you can also save your shipping information into a user profile if you want to re-use it at a later time. To do so, check the :guilabel:`Save shipping profile` box before moving to the next step and give the profile a name.
 	#. Review your order details and click on the :guilabel:`Place order` to send the bid to the seller.
 	#. Read the content of the pop up window that appears and click on :guilabel:`Yes, place order` button.
-	#. Unlock your wallet when promted to.
+		- Unlock your wallet when promted to.
 	#. Your bid is now placed and the seller has received it.
 		- The seller has to accept this bid to make it an order.
 
@@ -81,8 +79,7 @@ At any point in time, you can verify the status of your order. Additionally, onc
 
 .. rst-class:: bignums
 
-	#. Navigate to the :guilabel:`Purchases` page of the market menu on the left of your Particl Desktop client.
-	#. Click on the :guilabel:`Your Orders` tab.
+	#. Navigate to the :guilabel:`Purchases` page of the market menu on the left of your Particl Desktop client and click on the :guilabel:`Your Orders` tab.
 	#. Find the order you want to monitor and check its status directly on its tile.
 	#. To see if a tracking number has been supplied by the seller, click on the order's tile to expand its details.
 
@@ -98,8 +95,7 @@ All that is left for you to do is to wait for your package to arrive and mark th
 .. rst-class:: bignums
 
 	#. Wait for your package to arrive.
-	#. Navigate to the :guilabel:`Purchases` page of the market menu on the left of your Particl Desktop client.
-	#. Click on the :guilabel:`Your Orders` tab.
+	#. Navigate to the :guilabel:`Purchases` page of the market menu on the left of your Particl Desktop client and click on the :guilabel:`Your Orders` tab.
 	#. In the :guilabel:`Filter by status` section, you can check :guilabel:`Shipping` to only see orders that have been shipped by sellers but haven't arrived your way yet.
 	#. Click on the order's tile to expand its details and click on the :guilabel:`Mark as received` button to complete the transaction and receive your security deposit back.
-	#. Unlock your wallet when prompted to.
+		- Unlock your wallet when prompted to.
