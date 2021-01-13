@@ -90,10 +90,8 @@ Converting balances is needed if you want to switch and/or convert between the d
 .. rst-class:: bignums
 
 	#. Navigate to the :guilabel:`Wallet` module of Particl Desktop by clicking on it from the outer menu at the very left of the client.
-	#. Navigate to the :guilabel:`Send / Convert` page of the wallet menu on the left of your Particl Desktop client.
-	#. Click on the :guilabel:`Convert Public <-> Private` tab.
-	#. In the :guilabel:`Pay From` section, select **the source** of funds you would like to convert.
-	#. In the :guilabel:`Convert To` section, select **the destination** of funds you would like to recieve.
+	#. Navigate to the :guilabel:`Send / Convert` page of the wallet menu on the left of your Particl Desktop client and click on the :guilabel:`Convert Public <-> Private` tab.
+	#. In the :guilabel:`Pay From` section, select **the source** of funds you would like to convert. In the :guilabel:`Convert To` section, select **the destination** of funds you would like to recieve.
 	#. Type in the number of coins you want to send to your other balance and click on the :guilabel:`Make payment` button.
 		- Unlock your wallet when prompted to.
 	#. Review the transaction details and click on the :guilabel:`Confirm & Send` button to confirm the transaction.

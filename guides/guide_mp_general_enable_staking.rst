@@ -114,7 +114,8 @@ Prerequisite: Choose what device you want to use as a staking node (i.e. `Raspbe
 	#. In the Wallet module of Particl Desktop, navigate to the :guilabel:`Overview` page located at the top of the menu on the left.
 	#. Click on the downward facing arrow in the :guilabel:`cold staking` widget on the right of your screen.
 	#. Click on the blue :guilabel:`Set up cold staking` button and enter your staking public key in the designated space and confirm with a click on the :guilabel:`Enable cold staking` button.
-	#. Enter your password when prompted to.
+	
+			- Enter your password when prompted to.
 	#. To fully activate cold staking, click on the :guilabel:`Zap` button to instantly bring the progress bar to 100%.
 
 Congratulations! You are now now cold staking.
@@ -160,10 +161,10 @@ Don't worry, just like with cold staking, the staking pool doesn't have any cont
 
 	#. Choose a staking pool you want to use from the list above, open the pool's website and copy the pool's staking address. (looks like ``pcs19453kf98kz47yktqv7x36j39xa07mtvqx8evse``).
 	#. Open up your Particl Desktop client and make sure you have PART coins in your :guilabel:`public` balance.
-	#. Navigate to the wallet's :guilabel:`Overview` page located at the top of the menu on the left.
-	#. Click on the downward facing arrow in the :guilabel:`cold staking` widget on the right of your screen.
+	#. Navigate to the wallet's :guilabel:`Overview` page located at the top of the menu on the left and click on the downward facing arrow in the :guilabel:`cold staking` widget on the right of your screen.
 	#. Click on the blue :guilabel:`Set up cold staking` button and enter a pool's staking address key in the designated space and confirm with a click on the :guilabel:`Enable cold staking` button.
-	#. Enter your password when prompted to.
+			
+			- Enter your password when prompted to.
 	#. Click on the :guilabel:`Zap` button to instantly bring the progress bar to 100%.
 
 Congratulations! You are now staking on a pool!
@@ -242,8 +243,7 @@ Luckily, Particl allows you to easily control your level of staking privacy. To 
 			cd Private-Coldstaking
 			./privatecoldstaking.sh
 
-	#. Choose which type of balance you'd like to receive your staking rewards in.
-	#. Copy the new staking public key provided by the script.
+	#. Choose which type of balance you'd like to receive your staking rewards in and copy the new staking public key provided by the script.
 	#. Activate cold staking in your Particl Desktop client using the new staking public key. If you already have cold staking enabled, disable it in the :guilabel:`Cold Staking` widget first.
 	#. Verify the script has been activated and properly setup.
 

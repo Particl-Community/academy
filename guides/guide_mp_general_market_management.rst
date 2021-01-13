@@ -27,8 +27,7 @@ You can create and become the full owner of your own community market. A communi
 
   #. Click :guilabel:`MANAGE MARKETS` and go to the :guilabel:`Your Markets` tab.
   #. Click on the :guilabel:`Create new Market` button to open the market creation page.
-  #. Enter a title, a short description, and a picture for your market.
-  #. Choose to which region your market is targeted (optional). 
+  #. Enter a title, a short description, a picture for your market, and then choose the region your market targets (can be worldwide). 
   #. Select the :guilabel:`Community Market` option.
   #. Review the details of your market and click on :guilabel:`Confirm & Create Market`.
 
@@ -43,8 +42,7 @@ You can create and become the full owner of your own storefront. A storefront is
 
   #. Click :guilabel:`MANAGE MARKETS` and go to the :guilabel:`Your Markets` tab.
   #. Click on the :guilabel:`Create new Market` button to open the market creation page.
-  #. Enter a title, a short description, and a picture for your market.
-  #. Choose to which region your market is targeted (optional). 
+  #. Enter a title, a short description, a picture for your market, and the choose the region your storefront targets (can be worldwide). 
   #. Select the :guilabel:`Storefront` option.
   #. Review the details of your market and click on :guilabel:`Confirm & Create Market`. 
 
@@ -97,14 +95,13 @@ If you have in your possession the Market ID and Access/Publish Key of a certain
 .. rst-class:: bignums
 
   #. First, make sure that you possess the Market ID and Market Access Key of the market/storefront you want to join. You may need to collect this information from private sources if they are not publicly broadcast by its creator or users.
-  #. Go to the :guilabel:`MANAGE MARKETS` page and navigate to the :guilabel:`Browser` tab.
-  #. Click on the :guilabel:`Join via Market ID` button to expand the window to join a new market.
+  #. Go to the :guilabel:`MANAGE MARKETS` page, navigate to the :guilabel:`Browser` tab, and click on the :guilabel:`Join via Market ID` button to expand the window to join a new market.
   #. Fill the user market's information. This information can be entirely decided by you to help you better organize your markets and know what they're about.
-  #. Enter the user market's Market ID and Access/Publish Key.
-  #. Click on the :guilabel:`Join this Market` button to join the user market.
+  #. Enter the user market's Market ID and Access/Publish Key, and then click on the :guilabel:`Join this Market` button to join the user market.
   #. Go back to the :guilabel:`Your Markets` tab to see that you have successfully connected to the user market.
   #. Click on its tile to expand its options and click on :guilabel:`Browse Market` button to explore its content.
-  #. Alternatively, you can access its content by going to the :guilabel:`LISTINGS` page and selecting the user market in the :guilabel:`FILTER` section.
+  
+      - Alternatively, you can access its content by going to the :guilabel:`LISTINGS` page and selecting the user market in the :guilabel:`FILTER` section.
 
 Flag a Market as Inappropriate
 ----------------------------------
