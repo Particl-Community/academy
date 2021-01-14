@@ -1,5 +1,6 @@
-Marketplace Moderation
-======================
+================================
+Marketplace Moderation Explained
+================================
 
 Like on any online marketplace or platform, there needs to be a way for its content to be moderated. Sure, Particl is unstoppable, uncensorable, and it can't ban users. But leaving the platform without any sort of moderation mechanism would create an unspeakable number of problems.
 
@@ -7,6 +8,20 @@ Like on any online marketplace or platform, there needs to be a way for its cont
    :local:
    :backlinks: none
    :depth: 2
+
+Have a look at the outcomes before starting to dig into the deep details.
+
+**Benefits**
+
+- Moderation system based on direct democracy.
+- Provably fair and accurate governance. 
+- No pre-defined ban on certain products and services.
+- Entirely distributed, doesn't require any user with special permissions.
+
+**Considerations**
+
+- Because there is no way to enforce any pre-defined bans on a distributed network, you may encounter products you do not like from time to time. It is important that you flag these products if you believe they shouldn't be on the marketplace.
+- For your coins to count as votes, they need to be held in your :guilabel:`Public` balance. Coins held in your :guilabel:`Anon` balance don't work with the voting mechanism.
 
 Since Particl is a distributed marketplace, there is no one in possession of any special account that would give them more power and privileges than others. That means no support staff, no moderator, no admin, no nothing there to keep spam and undesirable content away. For this reason, the moderation of the marketplace's content needs to be done differently. 
 
