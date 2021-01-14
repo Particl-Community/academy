@@ -11,6 +11,21 @@ This in-depth guide will explain everything you need to know about this unique e
    :backlinks: none
    :depth: 2
 
+Let's start with a brief overview of the outcomes.
+
+**Benefits**
+
+- Free of charge
+- Full data security and user privacy.
+- Available 24/7.
+- Infinitely scalable, can support as many transactions as users create. 
+
+**Considerations**
+
+- Security deposits are equal to the full cost of the purchased item + shipping.
+- The PART coin value changes based on supply and demand, the value of the security deposit may fluctuate while in escrow. 
+- Sellers need to make a security deposit equal to that of their buyer's, so they require a PART balance to sell on the marketplace.
+
 Typical Resolution Centers
 --------------------------
 
