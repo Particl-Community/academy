@@ -16,7 +16,7 @@ In this section you learn how to install Particl Marketplace, additional softwar
 Particl Marketplace
 ===================
 
-To get started with Particl Marketplace, you need to download and install the Particl Desktop client software. Its installation is very easy and won't take you more than a few minutes! 
+To get started with Particl Marketplace, you need to download and install the :guilabel:`Particl Desktop client software. Its installation is very easy and won't take you more than a few minutes! 
 
 The entire process of setting up Particl Marketplace, from A to Z, can be seen in this walkthrough tutorial video.
 
@@ -58,14 +58,14 @@ Download
 - Particl Homepage: https://particl.io/downloads/
 - Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
-.. danger::
+.. attention::
 
    **NEVER download Particl clients from 3rd party websites**! Bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets with the goal of stealing your funds! Always download from official sources only. 
 
 Checksum verification
 ---------------------
 
-Obtain the checksum code from your download source for the downloaded file. Each file has its own checksum. 
+Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by **verifying its checksum**. Obtain the checksum code from the official download sources for the downloaded file. Each file has its own checksum. 
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -74,7 +74,7 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Explorer`
+	 		#. Open :guilabel:`Windows Explorer`
 	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Download folder** and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal while changing :file:`filename` for the real and complete filename of the downloaded file and hit :kbd:`ENTER ↵`.
 
@@ -111,7 +111,7 @@ Obtain the checksum code from your download source for the downloaded file. Each
 
 	 				sha256sum filename
 
-Once that is done, compare the checksum output you've received in the step above with the checksum stated in your download source. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
+Once that is done, compare the checksum output you've received in the step above with the checksum stated in the official download sources. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
 
 .. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
     :align: center
@@ -120,13 +120,10 @@ Once that is done, compare the checksum output you've received in the step above
 
     Particl Marketplace installation checksum highlighted image
 
-.. attention::
-	
-	Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by **verifying its checksum**.
 
 **Troubleshooting checksum mismatch**
 
-If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own for that case.
+If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own in that case.
 
 .. attention::
 	
@@ -160,9 +157,9 @@ Installation process
 	 		#. Drag and drop the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
 	 		#. Open the :guilabel:`Applications` folder and locate the :guilabel:`Particl Desktop.app` file. 
 	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
-	 		#. On the first launch the firewall of your computer must get a rule to allow *Particl Desktop* to communicate with the blockchain. 
+	 		#. On the first launch the firewall of your computer must get a rule to allow :guilabel:`Particl Desktop to communicate with the blockchain. 
 
-	 	From now on you will be able to start :guilabel:`Particl Desktop` from the **Launchpad** or **Spotlight** (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
+	 	From now on you will be able to start :guilabel:`Particl Desktop` from the Launchpad or Spotlight (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
 
 	 .. group-tab:: Linux
 
@@ -204,6 +201,8 @@ Installation process
 .. rst-class:: achievement
 
 	Congratulations! You have installed Particl Marketplace.
+
+---
 
 Starting Particl Desktop
 ------------------------
@@ -257,7 +256,7 @@ Sometimes it is handy to start Particl Marketplace from the terminal aka command
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Explorer`
+	 		#. Open :guilabel:`Windows Explorer`
 	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
@@ -299,7 +298,7 @@ Backup Account and Data
 File locations
 --------------
 
-After a successful installation of :guilabel:`Particl Desktop` the main application has been installed into the standard location of your operating system. Once the :guilabel:`Particl Desktop` is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain-data itself.
+After a successful installation of :guilabel:`Particl Desktop` the main application has been installed into the standard location of your operating system. Once the :guilabel:`Particl Desktop` is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain-data itself. From time to time it is a reasonable measure to backup these data to an encrypted external resource.
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -353,7 +352,7 @@ The *only* privacy setting not turned on by default is the ability to keep your 
 
 .. attention::
 	
-	Tor isn't enabled by default on Particl because it requires extra care from you to be truly safe. It's a network that runs independently from Particl on your computer and needs you to keep two important security considerations in mind. 
+	Tor isn't enabled by default on Particl because it requires extra care from you to be truly safe. It's a network that runs independently from Particl on your computer and needs you to keep important security considerations in mind. 
 
 Install and Run Tor
 -------------------
@@ -362,7 +361,7 @@ To make sure you don't download a compromised version of Tor, always make sure t
 
 To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the Tor files you download, even if it's from Tor's official website.
 
-To do so, follow `this tutorial on how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the Tor team itself.	
+To do so, follow this tutorial on `how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the Tor team itself.	
 
 The Tor network can be installed using three different methods. Always make sure that, regardless of the installation method you choose, Tor is running the latest version before using it.
 
@@ -372,8 +371,7 @@ Using the Tor Browser
 
 .. rst-class:: bignums
 
-	#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
-	#. Install the Tor Browser on your computer.
+	#. Download the `Tor Browser <https://www.torproject.org/download/>`_ and install it on your computer.
 	#. Launch the Tor Browser.
 	#. Connect to the Tor network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
 	#. Once connected, **leave the Tor Browser running in the background** of your computer.
@@ -390,10 +388,8 @@ Using the Tor daemon
 
 		.. rst-class:: bignums
 
-	 		#. Download the `Tor Browser <https://www.torproject.org/download/>`_.
-			#. Install the Tor Browser on your computer.
-	 		#. Open :guilabel:`Explorer` 
-	 		#. Navigate to the Tor installation directory (e.g. :file:`C:\/Program Files\/Tor Browser`).
+	 		#. Download the `Tor Browser <https://www.torproject.org/download/>`_ and install it on your computer.
+	 		#. Open :guilabel:`Windows Explorer` and navigate to the Tor installation directory (e.g. :file:`C:\/Program Files\/Tor Browser`).
 			#. Go into the :file:`Tor` directory, hold down :kbd:`SHIFT ⇧` and click with :kbd:`MOUSE-RIGHT ◳`.
 			#. Open :guilabel:`Open command window here` from the menu.
 			#. In the terminal that pops up, type:
@@ -462,8 +458,7 @@ On linux, you can also run Tor as a hidden service and connect your :guilabel:`P
 
 .. rst-class:: bignums
 
-	#. Open a :guilabel:`terminal`.
-	#. Install the Tor network by typing: 
+	#. Open a :guilabel:`terminal` and install the Tor network by typing: 
 	
 		.. code-block:: bash
 
@@ -475,15 +470,16 @@ On linux, you can also run Tor as a hidden service and connect your :guilabel:`P
 
 			sudo nano /etc/tor/torrc
 
-	#. In the config file, add these two lines:
+		In the config file, add these two lines:
 
 		.. code-block:: bash
 
 			HiddenServiceDir /var/lib/tor/particl-service/
 			HiddenServicePort 51738 127.0.0.1:51738
 
-	#. Save and exit the file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
-	#. Restart Tor by typing 
+		Save and exit the nano file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
+
+	#. Restart Tor by typing into the terminal 
 	
 		.. code-block:: bash
 		
@@ -521,6 +517,8 @@ On linux, you can also run Tor as a hidden service and connect your :guilabel:`P
 			bind=127.0.0.1:51738
 			maxconnections=30
 
+		Save and exit the nano file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
+
 Enable Tor on Particl
 ---------------------
 
@@ -531,10 +529,8 @@ Enable by default from GUI
 
 .. rst-class:: bignums
 
-	#. Open :guilabel:`Particl Desktop`
-	#. Click on :guilabel:`Particl Desktop Settings` in the bottom left corner
-	#. Go to :guilabel:`Core network connection`
-	#. Put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
+	#. Open :guilabel:`Particl Desktop` and click on :guilabel:`Particl Desktop Settings` in the bottom left corner
+	#. Go to :guilabel:`Core network connection` and put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
 	#. Hit :guilabel:`Save changes` and restart :guilabel:`Particl Desktop`
 
 Enable by default from commandline
@@ -569,8 +565,7 @@ Enable with terminal startup
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Explorer`
-	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Open :guilabel:`Windows Explorer` and press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
 	 			.. code-block:: bash
