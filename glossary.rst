@@ -24,6 +24,10 @@ General Terms
    Node
 		A node is an individual device connected to a decentralized network such as a computer, VPS, or mobile phone. Each node contributes in maintaining, supporting, securing, and verifying the integrity of a decentralized network. These tasks are automatically done by the node itself with little to no input required from the people running the nodes. Most users of a decentralized network access it through a node, whether that be directly (i.e. using one's own computer) or through a third-party node (i.e. service provider).
 
+   Cryptocurrency
+		Cryptocurrencies are digital units of a currency that can be transferred person-to-person without requiring a third-party (payment processor) to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party.
+
+
 Particl Terms
 -------------
 
