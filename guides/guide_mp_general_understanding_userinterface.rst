@@ -35,7 +35,7 @@ Location header
 ^^^^^^^^^^^^^^^
 
 Status icons
-^^^^^^^^^^^
+^^^^^^^^^^^^
 
 Wallet Interface
 ----------------

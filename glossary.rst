@@ -34,7 +34,6 @@ Particl Terms
 .. glossary:: :sorted:
 
    Particl
-
 		Particl is the brand of a decentralized network built using blockchain and P2P technologies. Depending on the context, "Particl" is used liberally to describe various of the decentralized network's components which includes a cryptocurrency, a decentralized marketplace, and other components. Its core values are as follows:
 
    Particl Project

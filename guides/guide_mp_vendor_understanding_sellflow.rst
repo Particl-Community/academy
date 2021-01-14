@@ -35,7 +35,7 @@ Publish a Single Item
 If you only want to list a single item, then simply follow these steps.
 
 Navigate to the right location
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. rst-class:: bignums
 
@@ -43,7 +43,7 @@ Navigate to the right location
   #. Click on the :guilabel:`Inventory & Products` tab, and then on the :guilabel:`New` button.
 
 Create a listing template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. rst-class:: bignums
 
@@ -61,7 +61,7 @@ If you want to publish now
   #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the Particl Marketplace.
 
 If you want to publish later
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Instead of publishing your listing immediately, you can save its template for later. When creating your listing template, instead of clicking on :guilabel:`Save and Publish`, you can click on the :guilabel:`Save` button to save your listing template and publish it later instead of right now.
 
@@ -88,7 +88,7 @@ You can also publish your listing on multiple user markets and storefronts.
   #. From this moment, a new market will be connected to your listing template. Repeat these steps for all user markets you want to publish your listing on.
 
 Publish Multiple Items at Once
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are selling multiple items, then you may want to create a CSV inventory file and list all of your products at once. This will save you the time of listing each item one-by-one. 
 
@@ -119,7 +119,7 @@ No CSV inventory file yet?
 
 
 Publish your listing templates
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The second step of the process is to publish the listing templates you've just created on the Open Market or on a user market.
 
@@ -172,7 +172,7 @@ The second step of the process is to publish the listing templates you've just c
   #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the Particl marketplace.s
 
 Accept a Bid
----------------
+------------
 
 .. attention::
 
@@ -189,7 +189,7 @@ When a buyer wants to buy something you're selling, they'll place a bid. To init
   #. Click on the order's tile to expand its details and accept it by clicking on the :guilabel:`Accept bid` button.
 
 Make the Security Deposit
----------------------------
+-------------------------
 
 .. note::
 
@@ -206,7 +206,7 @@ Once you accept your buyer's order, they will be required to send their payment 
   #. Click on the order's tile to expand its details and make your security deposit by clicking on the :guilabel:`Complete escrow` button.
 
 Package and Shipping an Order
--------------------------------
+-----------------------------
 
 After making your security deposit into the two-party escrow contract, you will need to process and ship the order to your buyer.
 
@@ -221,7 +221,7 @@ After making your security deposit into the two-party escrow contract, you will 
   #. Click on the :guilabel:`Order shipped` button to confirm that you have shipped the item. 
 
 Receive and Verifying Payment
--------------------------------
+-----------------------------
 
 Once your package is shipped, keep an eye out for your payment. Once your buyer receives their order and marks the transaction has complete, you will receive your security deposit back as well as the full payment for the order, at no fee.
 

@@ -25,7 +25,7 @@ Every online user is a staking node that verifies the integrity of the network i
 While the Proof-of-Stake consensus mechanism isn't particularly new, Particl has been pioneering the technology by making it much more flexible, secure, and also private. Indeed, PPoS is packed with several leading edge capabilities that let you effortlessly reap all the benefits of Proof-of-Stake, but without any of its typical security and convenience concessions.
 
 PPoS Quick Facts
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 - Yearly staking interest paid in dividend-like payments.
 - Redistributes all marketplace fees to stakers.
@@ -42,7 +42,7 @@ Earn Passive Income
 Staking on Particl can be a great source of passive income. In fact, just by keeping your Particl Desktop client connected to the internet, you automatically earn a yearly interest of 2% to 5% on the PART coins held in your public balance. In other words, the more PART coins you own, the more PART coins you earn. Simple enough, right?
 
 What's a staking reward?
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 A staking reward is defined as any number of PART coins received from the Particl network in exchange for securing it. These rewards are proportionally paid to stakers in exchange for their contribution in securing the network and validating transactions. This process is entirely automatic and happens in the background without you requiring to do any manual task.
 

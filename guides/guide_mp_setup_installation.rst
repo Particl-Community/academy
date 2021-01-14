@@ -16,7 +16,7 @@ In this section you learn how to install Particl Marketplace, additional softwar
 Particl Marketplace
 ===================
 
-To get started with Particl Marketplace, you need to download and install the :guilabel:`Particl Desktop client software. Its installation is very easy and won't take you more than a few minutes! 
+To get started with Particl Marketplace, you need to download and install the :guilabel:`Particl Desktop` client software. Its installation is very easy and won't take you more than a few minutes! 
 
 The entire process of setting up Particl Marketplace, from A to Z, can be seen in this walkthrough tutorial video.
 

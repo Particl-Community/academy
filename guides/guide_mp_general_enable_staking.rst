@@ -14,26 +14,23 @@ Enabling staking is pretty straight-forward, but some of the staking solutions c
    :backlinks: none
    :depth: 2
 
-Requirements
-------------
+**Requirements**
 
 - A Particl Desktop wallet with any number of PART coins greater than 0.
 - Hold the PART coins you want to earn a staking interest on in your :guilabel:`public` balance.
 - An active internet connection.
 - A separate device that will be converted into a staking node (required for cold staking only).
 
-Enable Staking
---------------
+**Enable Staking**
+
 
 There are multiple ways you can stake your PART coins. Each of these solutions have pros and cons as well as their own method of activation. 
 
-Regular staking
----------------
+**Regular staking**
 
 Activating staking the regular way is the fastest method to get started. All it requires you to do is to open up :term:`Particl Client` and unlock your wallet for staking. Regular staking is, however, needs you to keep your computer online 24/7. 
 
-Non password protected client
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Non password protected client**
 
 .. rst-class:: bignums
 
@@ -41,8 +38,7 @@ Non password protected client
 
 That's all. Staking is working as long as your node is online.
 
-Password protected client
-~~~~~~~~~~~~~~~~~~~~~~~~~
+**Password protected client**
 
 .. rst-class:: bignums
 
