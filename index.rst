@@ -99,7 +99,6 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
 * :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>`
 * :doc:`Security and Privacy <in-depth/indepth_privacy_tips>`
 
-
 Help and Assistance
 ===================
 
@@ -121,6 +120,15 @@ Are you having an issue not covered in this section? Your invaluable insights wi
 * :doc:`FAQ - Get Support <faq/get_support>`
 * :doc:`Glossary - Terms and words explained<glossary>`
 
+
+Technical Documentation
+=======================
+
+More technical documentation can be found in these locations locations.
+
+* `Particl's Wiki <https://particl.wiki/>`_
+* `Particl's GitHub <https://github.com/particl>`_
+
 Resources and Links
 ===================
 
@@ -130,11 +138,10 @@ Resources and Links
    :maxdepth: 2
    :hidden:
 
-* `Download <https://particl.io/downloads>`_
 * `Get PART Coin <https://particl.io/part-exchanges/>`_
-* `Website <https://particl.io>`_
-* `News <https://particl.news>`_
-* `Wiki (technical docs) <https://particl.wiki/>`_
+* `Download Particl Marketplace <https://particl.io/downloads>`_
+* `Particl's Website <https://particl.io>`_
+* `Particl's News Blog <https://particl.news>`_
 * :doc:`Useful Links <intro/intro_useful_links>`
 
 ---
