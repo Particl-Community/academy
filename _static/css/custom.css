@@ -269,14 +269,14 @@ hr,
     color: var(--admonition-note-color);
     display: block;
     margin: 6px 0;
-    font-size: 100%;
-    line-height: normal;
     background: none;
     border-top: none;
     padding: 0;
     position: relative;
     background-color: none;
-    font-weight: normal;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.6rem;
 }
 
 .rst-content dl:not(.docutils) dl dt {
@@ -307,6 +307,14 @@ hr,
 .rst-content .guilabel {
     border-color: var(--rst-guilabel-border-color);
     background: var(--rst-guilabel-background-color);
+
+    font-size: 80%;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin: auto 2px;
+    display: inline-block;
+    line-height: initial;
     }
 
 footer,
@@ -888,11 +896,23 @@ top: 0;
 left: 0;
 }
 
-.rst-content .section ol p, .rst-content .section ul p {
+.rst-content .section ol p, .rst-content .section ul p, .rst-content dl dd {
 margin:0;
 }
 
 .rst-content dl:not(.docutils) {
 margin-bottom: .25em;
+}
+
+.rst-content dl dd .admonition {
+padding: 0 0 0 0;
+}
+
+.rst-content dl dd .admonition > *:not(.admonition-title) {
+padding: .0em 0em .75em .75em;
+}
+
+.rst-content li blockquote {
+    margin-left:0;
 }
 
