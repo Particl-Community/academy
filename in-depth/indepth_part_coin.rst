@@ -6,6 +6,26 @@ Although you can use many different coins to pay for products and services on Pa
 
 PART is an untraceable cryptocurrency that can be sent to anyone, anywhere in the world, without the need for any third-party to facilitate transactions. It is a secure cryptocurrency that is similar to Bitcoin, but packed with more functionality to help you preserve your financial privacy from prying eyes.
 
+**Cryptocurrencies in general**
+
+Cryptocurrencies are digital units of a currency that can be transferred person-to-person without requiring a third-party (payment processor) to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party.
+
+**Benefits**
+
+- Can be used anywhere in the world at any time.
+- No downtime.
+- Near-free transactions, usually a few cents or less per transaction.
+- Near-instant, usually takes around 2 minutes to be fully settled.
+- Full control over your financial privacy.
+- Cannot be reversed (no chargebacks).
+
+**Considerations**
+
+- Payments are sent to special addresses similar to bank accounts.
+- Once you sent a payment, you cannot modify or cancel it.
+- You and only you are responsible for the security of your funds. They cannot be retrieved if you lose control over your wallets. 
+- The price of cryptocurrencie's majority changes based on supply and demand.
+
 .. contents:: Table of Contents
    :local:
    :backlinks: none
