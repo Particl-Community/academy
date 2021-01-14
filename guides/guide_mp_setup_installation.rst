@@ -157,7 +157,7 @@ Installation process
 	 		#. Drag and drop the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
 	 		#. Open the :guilabel:`Applications` folder and locate the :guilabel:`Particl Desktop.app` file. 
 	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
-	 		#. On the first launch the firewall of your computer must get a rule to allow :guilabel:`Particl Desktop to communicate with the blockchain. 
+	 		#. On the first launch the firewall of your computer must get a rule to allow :guilabel:`Particl Desktop` to communicate with the blockchain. 
 
 	 	From now on you will be able to start :guilabel:`Particl Desktop` from the Launchpad or Spotlight (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
 
