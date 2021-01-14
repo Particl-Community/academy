@@ -1,5 +1,6 @@
-Security and Privacy
-====================
+==============================
+Security and Privacy Explained
+==============================
 
 Digital security and privacy is a fundamental human right. Over the last few years, the various internet service providers you use every day have amassed a downright scary amount of personal information about you. It is even said that tech giants know more about you than you do yourself. 
 
