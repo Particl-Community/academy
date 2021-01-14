@@ -1,0 +1,18 @@
+In-App Swap Exchange
+--------------------
+
+.. container:: toggle
+
+    .. container:: header
+
+        **I can't find any exchange to swap crypto for PART coins**
+
+    This feature is temporarily unavailable. We are working on bringing this back as soon as possible.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Certain cryptocurrencies are not available to swap for PART coins**
+
+    Not all cryptocurrencies are currently accepted on Particl. To request a coin to be added, fill up `this listing form <https://forms.gle/B3ikpiBWdTiF5ps57>`_.

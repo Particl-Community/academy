@@ -1,0 +1,74 @@
+=========
+Buyer FAQ
+=========
+
+Buy Orders
+^^^^^^^^^^
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Why isn't the seller updating my order after I placed a bid?**
+ 
+    If your Particl Desktop client is protected by a password (encrypted), **you need to unlock it with your password** so that it can pick up new orders from the Particl network. If you keep your client locked, then it won't be able to receive updates on your order.
+
+    If your order is still not updated, that's because the seller hasn't done it yet. Try leaving him a message in the Q&A section!
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Why does the marketplace require me to pay twice the value of the item I want to buy?**
+ 
+    That's because you need to fund the escrow contract with a security deposit equal to the total value of your order. This deposit will be refunded to you, at no fee at all, once the transaction is fully completed. 
+
+    If you're buying an item worth $100 (including shipping), then you'll be required to pay $200. One half of the payment is the payment to the seller ($100) and the other half is your security deposit ($100) which you'll get back after the transaction is completed.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Can anyone else other than the seller see my shipping address?**
+ 
+    No. Only the seller can access your shipping details. Neither Particl nor anyone else can collect your personal information. Particl is completely decentralized and private by design.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How can I directly contact a seller?**
+
+    You can leave a comment in a listing's :guilabel:`Question and Answers` section. This will notify the seller that they've received a message and they'll be able to answer you. Keep in mind that the ``Questions and Answers`` section is public, meaning all messages you and the seller leaves there are publicly visible.
+
+    Alternatively, sellers may, at time, leave their contact information such as an email address or instant messaging application username in the descriptions of their listing. Look in there and see if you can find something.
+
+    A more complete and private messaging/inbox system is being developed and will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How can I ask for a refund or return through the marketplace?**
+
+    Due to the current stage of development of the Particl marketplace (Beta), this feature is currently not supported. If you want to ask a seller for a refund or return, please try to reach out to them by their provided contact information or through the :ref:`Questions and Answers` section of the listing you have an issue with. 
+
+    Direct messaging and a resolution center will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Where can I find the tracking number of one of my order?**
+
+    When a seller leaves you a tracking number, you can check it out right from your Particl Desktop client. To do so, head over to the ``Orders`` page of the ``SELL`` section of your client, find the order which you want to find its tracking number, and click on its tile to expand the order's details.
+
+    A seller may not always leave a tracking number, but when they do, that's where you'll find it!
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How can I cancel an order?**
+
+    It's only possible to cancel an order if it hasn't yet been accepted by the seller. Otherwise, you can try reaching out to the seller by their provided contact information or through the :ref:`Questions and Answers` section of the listing you have an issue with.
