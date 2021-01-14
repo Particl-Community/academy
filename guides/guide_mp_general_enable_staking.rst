@@ -50,8 +50,8 @@ That's all. Staking is working as long as your :term:`node` is online.
 
 That's it. Staking is working as long as your :term:`node` is online.
 
-Cold staking
-------------
+Enable cold staking
+-------------------
 
 Cold staking is a more advanced, secure, and flexible staking option. It requires you to have a separate device that can remain connected to the internet at all times. This can be a hardware device like a `Raspberry Pi <https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/>`_, but it can also be `VPS or cloud server <https://en.wikipedia.org/wiki/Virtual_private_server>`_ (i.e. DigitalOcean, AWS, Google Cloud, etc). 
 
@@ -134,8 +134,8 @@ There are a few cold staking settings that you can set up. To do so, go back to 
 	##Create secure firewall rules that only allow the required ports to connect to the internet.
 	partyman/partyman firewall
 
-Staking pools
--------------
+Connect to staking pools
+------------------------
 
 Another way to stake your PART coins is to team with other stakers and combine your staking power together. This will give you more frequent, but smaller, staking rewards. To do so, you need to connect your Particl wallet to a staking pool. 
 
@@ -165,8 +165,8 @@ Don't worry, just like with cold staking, the staking pool doesn't have any cont
 
 Congratulations! You are now staking on a pool!
 
-Hardware staking
-----------------
+Enable hardware staking
+-----------------------
 
 "Hardware staking" refers to the act of staking funds stored on a hardware device like a `Ledger Nano S <https://shop.ledger.com/products/ledger-nano-s>`_ or a `Trezor <https://trezor.io/>`_. The activation process is more technically advanced and requires you to use a different Particl client (Particl-Qt). This step-by-step guide assumes you already know how to use Particl on your hardware device and how to deposit funds on it.
 
@@ -190,8 +190,8 @@ On a Ledger Nano S device...
 	#. Navigate to the wallet's :guilabel:`Overview` page located at the top of the left sidebar.
 	#. Click on the :guilabel:`Zap` button to instantly bring the progress bar to 100%.
 
-Mobile staking
-~~~~~~~~~~~~~~
+Enable mobile staking
+---------------------
 
 It's also possible to stake your PART coins stored on a mobile wallet such as `Particl Copay <https://particl.io/downloads/>`_. Staking on your phone is completely secure and requires you to delegate the staking power of your coins to a staking :term:`node`. 
 

@@ -112,7 +112,7 @@ Achieve Maximum Privacy
 
 While Particl provides you, by default, with an unmatched level of data security and online privacy, there are still some tricks you can do to improve your privacy even more. 
 
-Make Private Transactions
+Make private transactions
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
@@ -130,7 +130,7 @@ Another easy way to improve your online privacy when using Particl is to route t
 
 To learn how to enable :term:`Tor` on your :term:`Particl Desktop` client, head over to the :ref:`Install Tor (Network Privacy)` installation guide.
 
-Use PART Addresses Only Once
+Use PART addresses only once
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
@@ -143,7 +143,7 @@ The reason behind this is pretty simple, when someone gets to know an address of
 
 When you generate a new address, there is no previous transaction that can be analyzed by anyone. This keeps your personal information private and ensures no prying eye can dig into your financial records.
 
-Use Multiple Wallets
+Use multiple wallets
 ~~~~~~~~~~~~~~~~~~~~
 
 You can even go a step further and generate entirely independent wallets instead of just creating new addresses. In fact, even when creating new addresses, it's still possible to match "transaction outputs" together and associate clusters of transactions to you.
