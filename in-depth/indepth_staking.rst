@@ -39,7 +39,7 @@ Earn Passive Income
 .. tip:: 
    Pro tip: If you stake enough PART coins, your staking rewards could pay for the entirety of your listing fees! 
 
-Staking on Particl can be a great source of passive income. In fact, just by keeping your Particl Desktop client connected to the internet, you automatically earn a yearly interest of 2% to 5% on the PART coins held in your public balance. In other words, the more PART coins you own, the more PART coins you earn. Simple enough, right?
+Staking on Particl can be a great source of passive income. In fact, just by keeping your :term:`Particl Desktop` client connected to the internet, you automatically earn a yearly interest of 2% to 5% on the PART coins held in your public balance. In other words, the more PART coins you own, the more PART coins you earn. Simple enough, right?
 
 What's a staking reward?
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -61,7 +61,7 @@ Secondly, the size of a single staking reward (the number of coins it contains) 
 
 - **Transaction fees:** When sending PART coins to someone or into a marketplace escrow contract, a small transaction fee needs to be paid to the network. This fee is usually just a few cents, or even less, but it's more than enough to fight off spam and pay stakers. All PART transaction fees are added to staking rewards and redistributed back to stakers. 
 
-While there are online calculators giving estimates on the staking revenue of many cryptocurrencies, it's important to keep in mind that they do not take into account factors such as marketplace and transaction fees or even the percentage of coins on a network being put up for staking. This usually makes their estimates less reliable.
+While there are online calculators giving estimates on the staking revenue of many :term:`cryptocurrencies`, it's important to keep in mind that they do not take into account factors such as marketplace and transaction fees or even the percentage of coins on a network being put up for staking. This usually makes their estimates less reliable.
 
 * `StakingRewards.com Online Calculator <https://www.stakingrewards.com/asset/particl>`_
 
@@ -93,10 +93,10 @@ Regular staking
 
 **Cons**
 
-- Your Particl Desktop password is stored in your computer's memory.
+- Your :term:`Particl Desktop` password is stored in your computer's memory.
 - You need to keep your computer online 24/7.
 
-Arguably the easiest way to start staking is to keep the Particl Desktop application open. This requires you to "unlock your wallet for staking only", which means your Particl Desktop client will act as a staking node and be able to verify transactions. This simple way of staking doesn't use Particl's novel ability to delegate your coin's staking power to another node, and for this reason, is a bit limited.
+Arguably the easiest way to start staking is to keep the :term:`Particl Desktop` application open. This requires you to "unlock your wallet for staking only", which means your :term:`Particl Desktop` client will act as a staking node and be able to verify transactions. This simple way of staking doesn't use Particl's novel ability to delegate your coin's staking power to another node, and for this reason, is a bit limited.
 
 Regular staking requires a constant and active network connection, which means you need to keep your computer online at all time. It also cannot really be effectively implemented on external devices due to the constant network requirement, huge battery drainage, and security vulnerabilities. 
 
@@ -154,7 +154,7 @@ Hardware Staking
 - You need to set up a staking node and keep it online 24/7, unless you use a staking pool instead.
 - The setup process is the most complicated of all staking options on Particl.
 
-For an even more secure staking solution, you can stake PART coins stored on hardware wallets such as the Ledger Nano S or the Trezor. These hardware devices are super secure cryptocurrency wallets that require a direct physical access to authorize any transaction. They are "hacker-proof" devices that protect you against viruses, infected computers, compromised internet connections, and etc.
+For an even more secure staking solution, you can stake PART coins stored on hardware wallets such as the Ledger Nano S or the Trezor. These hardware devices are super secure :term:`cryptocurrency` wallets that require a direct physical access to authorize any transaction. They are "hacker-proof" devices that protect you against viruses, infected computers, compromised internet connections, and etc.
 
 And since PPoS is a highly flexible protocol, it doesn't penalize you for going "security first". It lets you enable staking and earn staking interest on all of your coins stored in you hardware wallet.
 
@@ -175,7 +175,7 @@ As its name implies, mobile staking lets you earn a staking interest on the PART
 Multi-signature staking
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-In cryptocurrency, multi-signature addresses are addresses collectively owned by many people. To authorize a transaction, a certain number of signatures is required by an address' owners. For example, a "2-of-3 multi-signature address" is a cryptocurrency address collectively owned by three people. Two out of the three owners need to sign a transaction for it to be executed.
+In :term:`cryptocurrency`, multi-signature addresses are addresses collectively owned by many people. To authorize a transaction, a certain number of signatures is required by an address' owners. For example, a "2-of-3 multi-signature address" is a :term:`cryptocurrency` address collectively owned by three people. Two out of the three owners need to sign a transaction for it to be executed.
 
 Multi-signature staking does precisely what its name says. It lets you earn staking rewards on the coins held in multi-signature addresses. Just like staking pools and mobile staking, this functionality is made possible thanks to PPoS's ability to delegate staking powers to other nodes.
 

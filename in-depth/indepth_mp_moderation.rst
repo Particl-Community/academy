@@ -27,7 +27,7 @@ Since Particl is a distributed marketplace, there is no one in possession of any
 
 Instead of giving moderating powers to a few group of "trusted" individuals, it gives it back to everyone. Indeed, Particl's moderation system is heavily inspired by the concept of the "wisdom of the crowd" which stipulates that, typically, decisions taken collectively by large groups of people are more informed than if taken by a limited group of individuals. 
 
-That, of course, is probably not applicable to all spheres of life, but when it comes to moderating a global and distributed marketplace, it's a perfect way to reach a fair and globally agreeable consensus and take personal or geographical bias out of the equation. Particl Marketplace truly is the first global marketplace environment.
+That, of course, is probably not applicable to all spheres of life, but when it comes to moderating a global and distributed marketplace, it's a perfect way to reach a fair and globally agreeable consensus and take personal or geographical bias out of the equation. :term:`Particl Marketplace` truly is the first global marketplace environment.
 
 How Does it Work? 
 -----------------
@@ -55,7 +55,7 @@ Adjustable thresholds
 
 The delisting threshold is the agreed upon point requirement for a listing to remain on the marketplace. When a listing accumulates more downvotes than the agreed upon threshold, it gets deleted from the marketplace for everyone.
 
-This threshold is adjustable and collectively agreed upon by the community. It's also possible to manually change the delisting threshold of your own client by modifying the correct Particl Desktop configuration file on your computer. This doesn't affect the threshold of other people, but it can allow you to make quick changes, if needed, without having to wait for a new Particl Desktop client update to change the threshold.
+This threshold is adjustable and collectively agreed upon by the community. It's also possible to manually change the delisting threshold of your own client by modifying the correct :term:`Particl Desktop` configuration file on your computer. This doesn't affect the threshold of other people, but it can allow you to make quick changes, if needed, without having to wait for a new :term:`Particl Desktop` client update to change the threshold.
 
 The delisting threshold is currently set at |Threshold|, which means a listing has to get a moderation score (upvote/downvote ratio) of |Threshold| to be taken off the Particl network.
 
@@ -77,7 +77,7 @@ Free to use
 
 Typically, online marketplaces include the costs of moderating their platform into the sales commission paid by sellers. That's because moderating a marketplace is costly and requires quite a bit of logistics. Staff needs to be hired, policies need to be drafted along with a legal team, and etc. 
 
-Particl's moderation system doesn't need to deal with that at all. It is completely distributed and autonomous. And although it requires coins to flag listings and vote on them, it doesn't cost anything at all. Not even the usual cryptocurrency transaction fee!
+Particl's moderation system doesn't need to deal with that at all. It is completely distributed and autonomous. And although it requires coins to flag listings and vote on them, it doesn't cost anything at all. Not even the usual :term:`cryptocurrency` transaction fee!
 
 Coins as voting tickets?
 ------------------------

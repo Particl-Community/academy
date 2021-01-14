@@ -2,10 +2,10 @@
 Funds, Coins, and Balances
 ============================
 
-In this section, you will learn how to manage your funds with Particl Desktop in preparation for buying and selling goods and services on Particl Marketplace.
+In this section, you will learn how to manage your funds with :term:`Particl Desktop` in preparation for buying and selling goods and services on :term:`Particl Marketplace`.
 
 .. meta::
-   :description lang=en: Learn how to manage your funds with Particl Desktop.
+   :description lang=en: Learn how to manage your funds with :term:`Particl Desktop`.
 
 .. contents:: Table of Contents
    :local:
@@ -26,12 +26,12 @@ Needed Funds
 PART funds needed for selling
 -----------------------------
 
-To sell products and services on Particl Marketplace, you'll need to have coins in both your :guilabel:`Public` balance and in your :guilabel:`Anon` balance.
+To sell products and services on :term:`Particl Marketplace`, you'll need to have coins in both your :guilabel:`Public` balance and in your :guilabel:`Anon` balance.
 
 PART funds needed for buying
 ----------------------------
 
-To buy products and services on Particl Marketplace, you'll only need to have coins in your :guilabel:`Anon` balance. It is, however, quite useful to also have some coins in your :guilabel:`Public` balance as that will allow you to take part in the moderation process of the marketplace by flagging undesirable items. It'll also let you earn a bit of passive and dividend-like income through Particl's staking process.
+To buy products and services on :term:`Particl Marketplace`, you'll only need to have coins in your :guilabel:`Anon` balance. It is, however, quite useful to also have some coins in your :guilabel:`Public` balance as that will allow you to take part in the moderation process of the marketplace by flagging undesirable items. It'll also let you earn a bit of passive and dividend-like income through Particl's staking process.
 
 Receive Coins 
 ==============

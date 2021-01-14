@@ -51,7 +51,7 @@ Buy Orders
 
         **How can I ask for a refund or return through the marketplace?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), this feature is currently not supported. If you want to ask a seller for a refund or return, please try to reach out to them by their provided contact information or through the :ref:`Questions and Answers` section of the listing you have an issue with. 
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), this feature is currently not supported. If you want to ask a seller for a refund or return, please try to reach out to them by their provided contact information or through the :ref:`Questions and Answers` section of the listing you have an issue with. 
 
     Direct messaging and a resolution center will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 

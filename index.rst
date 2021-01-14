@@ -4,7 +4,7 @@ Welcome to the Particl Academy
 ==============================
 
 .. meta::
-   :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace.
+   :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with :term:`Particl Marketplace`.
 
 
 Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with |PM|. It is the reference book in straightforward language. If you are looking for the technical details, the `Particl Wiki <https://particl.wiki/>`_ is the right place to go.
@@ -32,7 +32,7 @@ Take your first few steps with understanding |PM|:
 Installation & Usage
 ====================
 
-All begins with the installation of the Particl Desktop software. Follow these best practices for the installation, set up your first wallet, and understand the user-interface:
+All begins with the installation of the :term:`Particl Desktop` software. Follow these best practices for the installation, set up your first wallet, and understand the user-interface:
 
 .. toctree::
    :caption: Installation & Usage
@@ -49,7 +49,7 @@ All begins with the installation of the Particl Desktop software. Follow these b
 User Guides
 ===========
 
-Step-by-step user guides about the most vital processes of Particl Marketplace. Find everything summarized without having questions left open:
+Step-by-step user guides about the most vital processes of :term:`Particl Marketplace`. Find everything summarized without having questions left open:
 
 .. toctree::
    :caption: User Guides

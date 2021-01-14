@@ -62,7 +62,7 @@ No more stolen credit card information, compromised email accounts, or any possi
 
 **Get rid of Restrictions, Politics, and Malice**
 
-A 100% uptime that is impossible to be taken offline or manipulated. It also means none of your products or users can be banned from the Particl Marketplace or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s content at all times. Across national borders, free trade and free markets are possible so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
+A 100% uptime that is impossible to be taken offline or manipulated. It also means none of your products or users can be banned from the :term:`Particl Marketplace` or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s content at all times. Across national borders, free trade and free markets are possible so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
 
 *You will become bullet-proof against restrictions*
 
@@ -82,7 +82,7 @@ E-commerce and online marketplaces have made the world of shopping and selling a
 Your successes
 --------------
 
-By installing and using Particl Marketplace, you make a conscious decision of gaining superpowers and many other benefits:
+By installing and using :term:`Particl Marketplace`, you make a conscious decision of gaining superpowers and many other benefits:
 
 	* You will get significantly lower product prices as a customer and higher margins as a vendor
 	* You will be the master of your personal data and freedom
@@ -99,7 +99,7 @@ With the award-winning |PM|, you first and foremost prioritize the security of y
 
 It relies on open-source technologies that are openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
 
-However, |PM| is based on distributed ledger and peer-to-peer technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of nodes hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
+However, |PM| is based on distributed ledger and :term:`peer-to-peer` technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of :term:`nodes` hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
 
 .. raw:: html
 
@@ -111,4 +111,4 @@ However, |PM| is based on distributed ledger and peer-to-peer technologies, whic
 
 **Learn More**
 
-We've barely scratched the surface, and there is much more to discover about Particl Marketplace! The next section will make you aware of some essentials.
+We've barely scratched the surface, and there is much more to discover about :term:`Particl Marketplace`! The next section will make you aware of some essentials.

@@ -64,3 +64,9 @@ Particl Terms
 
    Particl Bots
 		Particl Bots are Particl Desktop functionalities provided by third-parties. As these services are not decentralized, they are not activated by default and need to be manually enabled by the user. Particl Bots can have various purposes, most of the time related to a service, such as providing cryptocurrency exchange capabilities, providing data (i.e. cryptocurrency prices), payment integrations, and etc.
+
+   Open Market
+   		The Open Market is the main market on Particl Marketplace. It is enabled by default and is the only market you have access to when launching Particl Desktop for the first time. The Open Market is a general purpose market where anyone can buy or sell anything with no particular theme.
+
+   Tor
+   		The Tor network is a free and open-source network that enables anonymous online communication. It protects your digital privacy by anonymizing your IP address. It does so by routing your connection through a vast and global network of volunteers. Tor's intended use is to protect your personal privacy as well as your freedom and ability to conduct confidential communication. When enabled on Particl, it makes your node's IP address entirely anonymous.

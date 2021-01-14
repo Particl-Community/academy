@@ -2,7 +2,7 @@
 Installation Guides
 ===================
 
-In this section you learn how to install Particl Marketplace, additional software and how-to backup your data.
+In this section you learn how to install :term:`Particl Marketplace`, additional software and how-to backup your data.
 
 .. meta::
       
@@ -16,9 +16,9 @@ In this section you learn how to install Particl Marketplace, additional softwar
 Particl Marketplace
 ===================
 
-To get started with Particl Marketplace, you need to download and install the :guilabel:`Particl Desktop` client software. Its installation is very easy and won't take you more than a few minutes! 
+To get started with :term:`Particl Marketplace`, you need to download and install the :guilabel:`Particl Desktop` client software. Its installation is very easy and won't take you more than a few minutes! 
 
-The entire process of setting up Particl Marketplace, from A to Z, can be seen in this walkthrough tutorial video.
+The entire process of setting up :term:`Particl Marketplace`, from A to Z, can be seen in this walkthrough tutorial video.
 
 .. raw:: html
 
@@ -60,7 +60,7 @@ Download
 
 .. attention::
 
-   **NEVER download Particl clients from 3rd party websites**! Bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets with the goal of stealing your funds! Always download from official sources only. 
+   **NEVER download Particl clients from 3rd party websites**! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
 
 Checksum verification
 ---------------------
@@ -127,7 +127,7 @@ If the output does not match, try to download the file again. Verify that you di
 
 .. attention::
 	
-	If all attempts fail to have a **matching number** do not install Particl Desktop unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
+	If all attempts fail to have a **matching number** do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
 
 Installation process
 --------------------
@@ -142,7 +142,7 @@ Installation process
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-win.exe` installer file.
 	 		#. Follow the installation instructions
-	 		#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :guilabel:`Particl Desktop`.
+	 		#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :term:`Particl Desktop`.
 	 		#. Assign rules to your computer`s **firewall** to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
 
 
@@ -154,12 +154,12 @@ Installation process
 
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image by pressing :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the appearing shortcut menu. *Do not just double click the icon.*
-	 		#. Drag and drop the :guilabel:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
-	 		#. Open the :guilabel:`Applications` folder and locate the :guilabel:`Particl Desktop.app` file. 
-	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :guilabel:`Particl Desktop.app` file and click :guilabel:`Open`.
-	 		#. On the first launch the firewall of your computer must get a rule to allow :guilabel:`Particl Desktop` to communicate with the blockchain. 
+	 		#. Drag and drop the :term:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
+	 		#. Open the :guilabel:`Applications` folder and locate the :term:`Particl Desktop.app` file. 
+	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :term:`Particl Desktop.app` file and click :guilabel:`Open`.
+	 		#. On the first launch the firewall of your computer must get a rule to allow :term:`Particl Desktop` to communicate with the blockchain. 
 
-	 	From now on you will be able to start :guilabel:`Particl Desktop` from the Launchpad or Spotlight (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
+	 	From now on you will be able to start :term:`Particl Desktop` from the Launchpad or Spotlight (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
 
 	 .. group-tab:: Linux
 
@@ -184,7 +184,7 @@ Installation process
 
 	 				sudo dnf -i particl-desktop-x.x.x-linux.rpm
 
-	 		#. An application launcher is put to your applications menu. Click this to start :guilabel:`Particl Desktop` client.
+	 		#. An application launcher is put to your applications menu. Click this to start :term:`Particl Desktop` client.
 
 	 	.. tip::
 
@@ -200,7 +200,7 @@ Installation process
 
 .. rst-class:: achievement
 
-	Congratulations! You have installed Particl Marketplace.
+	Congratulations! You have installed :term:`Particl Marketplace`.
 
 ---
 
@@ -222,7 +222,7 @@ Startup with Launcher
 
 	 		#. Open your :guilabel:`Start Menu` by pressing :kbd:`WIN ⊞` Key
 	 		#. Start typing :code:`Particl`
-	 		#. Click on the :guilabel:`Particl Desktop` launcher icon.
+	 		#. Click on the :term:`Particl Desktop` launcher icon.
 
 	.. group-tab:: Mac
 
@@ -232,7 +232,7 @@ Startup with Launcher
 
 	 		#. Open :guilabel:`Spotlight` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE`) 
 	 		#. Type :code:`Particl`
-	 		#. Click on the :guilabel:`Particl Desktop` launcher icon.
+	 		#. Click on the :term:`Particl Desktop` launcher icon.
 
 	.. group-tab:: Linux
 
@@ -241,12 +241,12 @@ Startup with Launcher
 	 	.. rst-class:: bignums
 	 	
 	 		#. Open your applications menu
-	 		#. Click on :guilabel:`Particl Desktop` launcher icon
+	 		#. Click on :term:`Particl Desktop` launcher icon
 
 Startup from Terminal
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes it is handy to start Particl Marketplace from the terminal aka commandline. It gives you plenty of output and informations what is happening in the background.
+Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka commandline. It gives you plenty of output and informations what is happening in the background.
 
 .. tabs::
 
@@ -283,7 +283,7 @@ Sometimes it is handy to start Particl Marketplace from the terminal aka command
 
 	 	.. rst-class:: bignums
 	 	
-	 		#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
+	 		#. Open a terminal in the folder where you've installed :term:`Particl Desktop` and type the following command.
 		
 				.. code-block:: bash
 
@@ -298,7 +298,7 @@ Backup Account and Data
 File locations
 --------------
 
-After a successful installation of :guilabel:`Particl Desktop` the main application has been installed into the standard location of your operating system. Once the :guilabel:`Particl Desktop` is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain-data itself. From time to time it is a reasonable measure to backup these data to an encrypted external resource.
+After a successful installation of :term:`Particl Desktop` the main application has been installed into the standard location of your operating system. Once the :term:`Particl Desktop` is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain-data itself. From time to time it is a reasonable measure to backup these data to an encrypted external resource.
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -346,24 +346,24 @@ Install Tor (Network Privacy)
 
 .. danger::
 	
-	Always make sure your Tor is up-to-date with the latest version. This is a critical requirement that, if not followed, can heavily compromise your online privacy and potentially let other people spy on your online activity.
+	Always make sure your :term:`Tor` is up-to-date with the latest version. This is a critical requirement that, if not followed, can heavily compromise your online privacy and potentially let other people spy on your online activity.
 
 The *only* privacy setting not turned on by default is the ability to keep your IP address anonymous when using Particl. This is done by routing your client's connection through Tor, a networking protocol designed to anonymize your IP address.
 
 .. attention::
 	
-	Tor isn't enabled by default on Particl because it requires extra care from you to be truly safe. It's a network that runs independently from Particl on your computer and needs you to keep important security considerations in mind. 
+	:term:`Tor` isn't enabled by default on Particl because it requires extra care from you to be truly safe. It's a network that runs independently from Particl on your computer and needs you to keep important security considerations in mind. 
 
 Install and Run Tor
 -------------------
 
-To make sure you don't download a compromised version of Tor, always make sure to download it from their official website. What good would updating Tor do to you if it lets the door wide open to hackers? 
+To make sure you don't download a compromised version of Tor, always make sure to download it from their official website. What good would updating :term:`Tor` do to you if it lets the door wide open to hackers? 
 
-To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the Tor files you download, even if it's from Tor's official website.
+To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the :term:`Tor` files you download, even if it's from Tor's official website.
 
-To do so, follow this tutorial on `how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the Tor team itself.	
+To do so, follow this tutorial on `how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the :term:`Tor` team itself.	
 
-The Tor network can be installed using three different methods. Always make sure that, regardless of the installation method you choose, Tor is running the latest version before using it.
+The :term:`Tor` network can be installed using three different methods. Always make sure that, regardless of the installation method you choose, :term:`Tor` is running the latest version before using it.
 
 
 Using the Tor Browser
@@ -372,9 +372,9 @@ Using the Tor Browser
 .. rst-class:: bignums
 
 	#. Download the `Tor Browser <https://www.torproject.org/download/>`_ and install it on your computer.
-	#. Launch the Tor Browser.
-	#. Connect to the Tor network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
-	#. Once connected, **leave the Tor Browser running in the background** of your computer.
+	#. Launch the :term:`Tor` Browser.
+	#. Connect to the :term:`Tor` network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
+	#. Once connected, **leave the** :term:`Tor` **Browser running in the background** of your computer.
 
 
 Using the Tor daemon
@@ -389,7 +389,7 @@ Using the Tor daemon
 		.. rst-class:: bignums
 
 	 		#. Download the `Tor Browser <https://www.torproject.org/download/>`_ and install it on your computer.
-	 		#. Open :guilabel:`Windows Explorer` and navigate to the Tor installation directory (e.g. :file:`C:\/Program Files\/Tor Browser`).
+	 		#. Open :guilabel:`Windows Explorer` and navigate to the :term:`Tor` installation directory (e.g. :file:`C:\/Program Files\/Tor Browser`).
 			#. Go into the :file:`Tor` directory, hold down :kbd:`SHIFT ⇧` and click with :kbd:`MOUSE-RIGHT ◳`.
 			#. Open :guilabel:`Open command window here` from the menu.
 			#. In the terminal that pops up, type:
@@ -398,7 +398,7 @@ Using the Tor daemon
 
 					tor.exe –service install
 
-			#. Verify that Tor service is running, type: 
+			#. Verify that :term:`Tor` service is running, type: 
 			
 				.. code-block:: bash
 
@@ -420,13 +420,13 @@ Using the Tor daemon
 
 		.. rst-class:: bignums
 
-			#. Install the Tor daemon with homebrew by typing:
+			#. Install the :term:`Tor` daemon with homebrew by typing:
 
 				.. code-block:: bash
 
 					brew install tor
 
-			#. Enable Tor as a Brew service by typing:
+			#. Enable :term:`Tor` as a Brew service by typing:
 
 				.. code-block:: bash
 
@@ -439,13 +439,13 @@ Using the Tor daemon
 	 	.. rst-class:: bignums
 
 	 		#. Open a :guilabel:`terminal`
-			#. Install the Tor daemon by typing:
+			#. Install the :term:`Tor` daemon by typing:
 
 				.. code-block:: bash 
 
 					sudo apt install tor
 
-			#. Make sure Tor launches on startup by typing: 
+			#. Make sure :term:`Tor` launches on startup by typing: 
 
 				.. code-block:: bash
 
@@ -454,17 +454,17 @@ Using the Tor daemon
 Using Tor as a Hidden Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On linux, you can also run Tor as a hidden service and connect your :guilabel:`Particl Desktop` to it. This allows other people to use your node as an entry or exit point, making the Tor network more decentralized and private.
+On linux, you can also run :term:`Tor` as a hidden service and connect your :term:`Particl Desktop` to it. This allows other people to use your :term:`node` as an entry or exit point, making the :term:`Tor` network more decentralized and private.
 
 .. rst-class:: bignums
 
-	#. Open a :guilabel:`terminal` and install the Tor network by typing: 
+	#. Open a :guilabel:`terminal` and install the :term:`Tor` network by typing: 
 	
 		.. code-block:: bash
 
 			sudo apt-get install tor
 
-	#. Define that you want to use Tor as a hidden service by modifying the Tor config file. To do so, type: 
+	#. Define that you want to use :term:`Tor` as a hidden service by modifying the :term:`Tor` config file. To do so, type: 
 
 		.. code-block:: bash
 
@@ -479,7 +479,7 @@ On linux, you can also run Tor as a hidden service and connect your :guilabel:`P
 
 		Save and exit the nano file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
 
-	#. Restart Tor by typing into the terminal 
+	#. Restart :term:`Tor` by typing into the terminal 
 	
 		.. code-block:: bash
 		
@@ -522,16 +522,16 @@ On linux, you can also run Tor as a hidden service and connect your :guilabel:`P
 Enable Tor on Particl
 ---------------------
 
-All you need to do to enable Tor on Particl is to launch Particl Desktop with the proper instructions. Either you to add a special argument to the command you use to launch Particl or you make it a permanent setting.
+All you need to do to enable :term:`Tor` on Particl is to launch :term:`Particl Desktop` with the proper instructions. Either you to add a special argument to the command you use to launch Particl or you make it a permanent setting.
 
 Enable by default from GUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. rst-class:: bignums
 
-	#. Open :guilabel:`Particl Desktop` and click on :guilabel:`Particl Desktop Settings` in the bottom left corner
+	#. Open :term:`Particl Desktop` and click on :term:`Particl Desktop Settings` in the bottom left corner
 	#. Go to :guilabel:`Core network connection` and put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
-	#. Hit :guilabel:`Save changes` and restart :guilabel:`Particl Desktop`
+	#. Hit :guilabel:`Save changes` and restart :term:`Particl Desktop`
 
 Enable by default from commandline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -552,7 +552,7 @@ Enable by default from commandline
 
 .. note::
 
-	From now on :guilabel:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :guilabel:`Particl Desktop` has no access to the internet.
+	From now on :term:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :term:`Particl Desktop` has no access to the internet.
 
 Enable with terminal startup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -591,7 +591,7 @@ Enable with terminal startup
 
 	 	.. rst-class:: bignums
 	 	
-	 		#. Open a terminal in the folder where you've installed Particl Desktop and type the following command.
+	 		#. Open a terminal in the folder where you've installed :term:`Particl Desktop` and type the following command.
 		
 				.. code-block:: bash
 
@@ -604,9 +604,9 @@ Important Considerations
 Keep Tor up-to-date
 ~~~~~~~~~~~~~~~~~~~
 
-Tor needs to always be updated to the latest version. This is a critical requirement that, if not followed, can heavily compromise your online privacy. Tor updates contain very important security fixes to keep your identity confidential. 
+:term:`Tor` needs to always be updated to the latest version. This is a critical requirement that, if not followed, can heavily compromise your online privacy. :term:`Tor` updates contain very important security fixes to keep your identity confidential. 
 
-As the network itself is widely targeted by hackers due to the privacy it provides, unpatched versions of Tor are considered unsafe to use. If exploited, a compromised version of Tor may leak your true identity and even let others spy on your online activity.
+As the network itself is widely targeted by hackers due to the privacy it provides, unpatched versions of :term:`Tor` are considered unsafe to use. If exploited, a compromised version of :term:`Tor` may leak your true identity and even let others spy on your online activity.
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -615,7 +615,7 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 	.. rst-class:: bignums
 
-	 		#. Open the Tor Browser
+	 		#. Open the :term:`Tor` Browser
 	 		#. Check if the browser prompts you to update the a newer version.
 
 	 .. group-tab:: Mac

@@ -5,7 +5,7 @@ Essentials
 
 While that unlocks many benefits not possible with traditional marketplaces, it also means that |PM| behaves a bit differently. Don’t worry. It is pretty easy to use, but there are a few things you need to consider before you get started. Let’s go over them!
 
-Find the deep-dive and technical explanation within :ref:`Particl Marketplace explained`.
+Find the deep-dive and technical explanation within :term:`Particl Marketplace explained`.
 
 .. contents:: Table of Contents
    :local:
@@ -15,7 +15,7 @@ Find the deep-dive and technical explanation within :ref:`Particl Marketplace ex
 Currency Transactions
 ---------------------
 
-Instead of relying on payment processors, bank transfers, or payment cards, Particl Marketplace works using electronic currencies, commonly named as :term:`cryptocurrency`. This enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party. While many different digital currencies can be used on |PM|, all marketplace's transactions are ultimately settled in PART, Particl’s own cryptocurrency.
+Instead of relying on payment processors, bank transfers, or payment cards, :term:`Particl Marketplace` works using electronic currencies, commonly named as :term:`cryptocurrency`. This enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party. While many different digital currencies can be used on |PM|, all marketplace's transactions are ultimately settled in PART, Particl’s own :term:`cryptocurrency`.
 
 The in-depth guide :ref:`Currency (PART) Explained` will make you understand it in full.
 
@@ -47,7 +47,7 @@ There are various other considerations to keep in mind when using |PM|. What fol
 
 **Wallet Unlocking**
 
-To receive orders or to complete order steps, the Particl Desktop client needs to be unlocked. You will not receive any orders or get notifications on the progress of active orders if you keep your wallet locked. Mind the vault icon in the top-right status icons bar.
+To receive orders or to complete order steps, the :term:`Particl Desktop` client needs to be unlocked. You will not receive any orders or get notifications on the progress of active orders if you keep your wallet locked. Mind the vault icon in the top-right status icons bar.
 
 **Have Some Funds Different Privacy States**
 

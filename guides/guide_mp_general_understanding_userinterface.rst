@@ -6,7 +6,7 @@ Get familiar with the user-interface and it's overall structure and different op
 
 .. meta::
       
-      :description lang=en: Particl Desktop (Marketplace) user interface explanation. 
+      :description lang=en: :term:`Particl Desktop` (Marketplace) user interface explanation. 
 
 .. contents:: Table of Contents
    :local:

@@ -11,7 +11,7 @@ Listings for Vendors
 
         **How can I edit or delete a listing after it has been published?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. If you want to change the description or image of an item, please publish a new listing. 
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it is currently not possible. If you want to change the description or image of an item, please publish a new listing. 
 
     This functionality will be added at a later stage during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -21,7 +21,7 @@ Listings for Vendors
 
         **How can I manage my inventory quantities?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other variants such as sizes, colors, fabrics, and etc.
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other variants such as sizes, colors, fabrics, and etc.
 
     To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -31,7 +31,7 @@ Listings for Vendors
 
         **How can I provide item options such as size, color, and other variants?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other attributes such as sizes, colors, fabrics, and etc.
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. The feature, called Inventory Management, will allow you to manage quantities for your products as well as various other attributes such as sizes, colors, fabrics, and etc.
 
     To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -41,7 +41,7 @@ Listings for Vendors
 
         **How long do listings stay on the marketplace?**
 
-    That's all up to you! The expiry time for listings on the marketplace depends on the listing fee you pay. When publishing one or multiple listings, the Particl Desktop client will prompt you to select the number of days you want your listings to stay live. Simply choose the number of days from the dropdown menu and you're all set!
+    That's all up to you! The expiry time for listings on the marketplace depends on the listing fee you pay. When publishing one or multiple listings, the :term:`Particl Desktop` client will prompt you to select the number of days you want your listings to stay live. Simply choose the number of days from the dropdown menu and you're all set!
 
 .. container:: toggle
 
@@ -99,7 +99,7 @@ Sell Orders for Vendors
 
         **Why am I not receiving any new buy order?**
  
-    If your Particl Desktop client is protected by a password (encrypted), **you need to unlock it with your password** so that it can pick up new orders from the Particl network. If you keep your client locked, then it won't be able to receive any order. 
+    If your :term:`Particl Desktop` client is protected by a password (encrypted), **you need to unlock it with your password** so that it can pick up new orders from the Particl network. If you keep your client locked, then it won't be able to receive any order. 
 
 .. container:: toggle
 
@@ -107,7 +107,7 @@ Sell Orders for Vendors
 
         **How can I send a tracking number or note to my customer?**
 
-    Once you mark an order as :guilabel:`shipped` (:ref:`Package and Shipping an Order`), your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
+    Once you mark an order as :guilabel:`shipped` (:ref:`Package and Shipping an Order`), your :term:`Particl Desktop` client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
 
     A more complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -117,7 +117,7 @@ Sell Orders for Vendors
 
         **How can I manage refunds and returns through the marketplace?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), this feature is currently not supported. Direct messaging and a resolution center will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), this feature is currently not supported. Direct messaging and a resolution center will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
 .. container:: toggle
 
@@ -125,9 +125,9 @@ Sell Orders for Vendors
 
         **How can I directly contact a customer?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the marketplace's transaction flow.
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the marketplace's transaction flow.
 
-    Once you mark an order as :guilabel:`shipped` (:ref:`Package and Shipping an Order`), your Particl Desktop client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
+    Once you mark an order as :guilabel:`shipped` (:ref:`Package and Shipping an Order`), your :term:`Particl Desktop` client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step but it helps your customers keep track of their order(s).
 
     A more complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
@@ -137,6 +137,6 @@ Sell Orders for Vendors
 
         **How can I cancel an order?**
 
-    Due to the current stage of development of the Particl marketplace (Beta), it's currently not possible to cancel an order once you have fully locked your security deposit in escrow. Direct messaging and escrow management/negociations will be added at a later time during the Beta phase of development. This will let you communicate with your buyer and  cancel, update, and resolve orders. 
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it's currently not possible to cancel an order once you have fully locked your security deposit in escrow. Direct messaging and escrow management/negociations will be added at a later time during the Beta phase of development. This will let you communicate with your buyer and  cancel, update, and resolve orders. 
 
     To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.

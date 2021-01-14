@@ -28,7 +28,7 @@ No Central Database
 
 All issues related to online data have something in common—personal information was stored and obtained from some company's database either willingly (data sharing policies) or unwillingly (data breaches). But that is simply impossible on Particl because it isn't built like your typical online marketplace. 
 
-It is an entirely autonomous platform that runs on peer-to-peer (P2P) and blockchain technologies. It's not a company, it's not running on servers, it doesn't have any central database, and it doesn't require any middleman such as a payment processor to function.
+It is an entirely autonomous platform that runs on :term:`peer-to-peer` (P2P) and blockchain technologies. It's not a company, it's not running on servers, it doesn't have any central database, and it doesn't require any middleman such as a payment processor to function.
 
 In other words, none of your personal information is ever stored on any database. There is not a single party, other than buyers and sellers you're doing business with, that can know anything about you and use that information for any reason.
 
@@ -56,7 +56,7 @@ Particl hands you back your online privacy by making it impossible for anyone in
 Transaction Data
 ----------------
 
-Particl isn't built on typical internet and financial technologies. It's instead built on blockchain technology and requires payments to be made with cryptocurrencies. And while they enable cheap and near instant payments on a global scale, they do poorly from an online privacy perspective. 
+Particl isn't built on typical internet and financial technologies. It's instead built on blockchain technology and requires payments to be made with :term:`cryptocurrencies`. And while they enable cheap and near instant payments on a global scale, they do poorly from an online privacy perspective. 
 
 In fact, public blockchains permanently store all the information of the transactions that happen on their network in a public ledger. It lets anyone in the world easily access and collect the information of any transaction ever. There's a very strong argument to be made whether they are just as bad as private databases, or even worse.
 
@@ -75,7 +75,7 @@ Like any type of data, it can make your online experience more convenient. But i
 
 On Particl, it's impossible for anyone to associate an IP address to any other Particl-related data. And while your IP address is broadcast to other peers on the network, it doesn't reveal anything meaninful about you. The only thing it really tells is that someone in the world owns this IP address and uses Particl.
 
-If you want to take your online privacy a step further, you can route your connection through the Tor network (installation guide :ref`Install Tor (Network Privacy)`), a networking protocol used to spoof internet connections. This will broadcast a fake IP address to the network and keep your real one confidential.
+If you want to take your online privacy a step further, you can route your connection through the :term:`Tor` network (installation guide :ref`Install Tor (Network Privacy)`), a networking protocol used to spoof internet connections. This will broadcast a fake IP address to the network and keep your real one confidential.
 
 Marketplace-Related Privacy
 ---------------------------
@@ -105,7 +105,7 @@ Secure messaging
 
 On traditional marketplaces, all your communications with buyers and sellers are stored, monitored, and analyzed by the marketplace itself. This, of course, exposes a great deal of information about you and your business. It opens the door wide open for anyone, authorized or not, to collect or steal a lot of information about you and use it for their own benefit. 
 
-Particl makes sure to put that issue to rest by relying on a completely decentralized messaging network named SecureMessaging (SMSG). It encrypts, end-to-end, all the messages you send to other users and automatically delivers them to the intended recipient. Only the people you're sending a message to can open and read it. It cannot be intercepted and decrypted by anyone else.
+Particl makes sure to put that issue to rest by relying on a completely decentralized messaging network named :term:`SecureMessaging (SMSG)`. It encrypts, end-to-end, all the messages you send to other users and automatically delivers them to the intended recipient. Only the people you're sending a message to can open and read it. It cannot be intercepted and decrypted by anyone else.
 
 Achieve Maximum Privacy
 -----------------------
@@ -126,18 +126,18 @@ To improve your privacy, try sending :guilabel:`anon` transactions instead. Anon
 Enable Tor
 ~~~~~~~~~~
 
-Another easy way to improve your online privacy when using Particl is to route the Particl Desktop client through the Tor network, a networking protocol used to spoof internet connections. Using Tor protects your online identity by making hiding your IP address from the rest of the network. 
+Another easy way to improve your online privacy when using Particl is to route the :term:`Particl Desktop` client through the :term:`Tor` network, a networking protocol used to spoof internet connections. Using :term:`Tor` protects your online identity by making hiding your IP address from the rest of the network. 
 
-To learn how to enable Tor on your Particl Desktop client, head over to the :ref:`Install Tor (Network Privacy)` installation guide.
+To learn how to enable :term:`Tor` on your :term:`Particl Desktop` client, head over to the :ref:`Install Tor (Network Privacy)` installation guide.
 
 Use PART Addresses Only Once
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
 	
-	Every times you receive a payment on a Particl address, your Particl Desktop client will automatically generate a new address for you.
+	Every times you receive a payment on a Particl address, your :term:`Particl Desktop` client will automatically generate a new address for you.
 
-When using any cryptocurrency, it's widely recommended not to re-use the same address over and over. Ideally, cryptocurrency addresses should only be used once, when possible, and a new address should be generated every time you need to receive a payment.
+When using any :term:`cryptocurrency`, it's widely recommended not to re-use the same address over and over. Ideally, :term:`cryptocurrency` addresses should only be used once, when possible, and a new address should be generated every time you need to receive a payment.
 
 The reason behind this is pretty simple, when someone gets to know an address of yours, they can look it up on a blockchain explorer and track all the transactions you've ever sent or received from that address. Nobody wants that!
 
@@ -154,7 +154,7 @@ Now let's say you want to make a payment of $125 to someone you don't know. None
 
 When that happens, the two addresses are part of the same transaction and are effectively linked together. From that point onward, anyone looking at Address A would be able to tell that it is linked with Address B.
 
-To protect from this, you can create multiple wallets right from Particl Desktop, each with their own purpose. Because each wallet is independent, none of the addresses can be used together and linked. Each wallet can also be encrypted independently with different passwords, providing more security to your funds.
+To protect from this, you can create multiple wallets right from :term:`Particl Desktop`, each with their own purpose. Because each wallet is independent, none of the addresses can be used together and linked. Each wallet can also be encrypted independently with different passwords, providing more security to your funds.
 
 This function greatly improves your online privacy by taking the human mistake factor out of the equation and making it impossible to unwillingly "taint" transactions with addresses you'd rather keep private.
 

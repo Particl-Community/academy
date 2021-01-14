@@ -3,7 +3,7 @@ All Functions
 =============
 
 .. meta::
-   :description lang=en: Find all the functions of Particl Marketplace at a glance. Privacy first, responsible, and sustainable e-commerce.
+   :description lang=en: Find all the functions of :term:`Particl Marketplace` at a glance. Privacy first, responsible, and sustainable e-commerce.
 
 Particl is a decentralized marketplace and is in its Beta phase of development. While there are still a lot of features under development, it currently provides you with most of the basic tools  you need to buy and sell online without sacrificing your personal information and without paying fees.   
 
@@ -15,12 +15,12 @@ Particl is a decentralized marketplace and is in its Beta phase of development. 
 Wallet
 ------
 
-The "wallet" section of the Particl Desktop client refers to the section where you manage your funds. It also contains a few other features not related to Particl's marketplace.
+The "wallet" section of the :term:`Particl Desktop` client refers to the section where you manage your funds. It also contains a few other features not related to Particl's marketplace.
 
 Wallet Management
 ~~~~~~~~~~~~~~~~~
 
-Particl Desktop lets you safely manage an infinite number of wallets within the same environment. 
+:term:`Particl Desktop` lets you safely manage an infinite number of wallets within the same environment. 
 
 - Create and import an infinite number of wallets
 - Instantly switch between different wallets
@@ -29,10 +29,10 @@ Particl Desktop lets you safely manage an infinite number of wallets within the 
 Particl Cryptocurrency (PART)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The PART coin is Particl's native cryptocurrency. It is a modern, secure, private, and flexible cryptocurrency built on the most recent version of Bitcoin to which many improvements and extra functionalities have been added.
+The PART coin is Particl's native :term:`cryptocurrency`. It is a modern, secure, private, and flexible :term:`cryptocurrency` built on the most recent version of Bitcoin to which many improvements and extra functionalities have been added.
 
 - Send and receive funds to anyone without any middleman.
-- Buy and sell goods and services on Particl Marketplace.
+- Buy and sell goods and services on :term:`Particl Marketplace`.
 - Near-instant settlements, transactions only take ~2 minutes to settle.
 - Near-zero transaction fee, usually a cent or less.
 - No financial borders, there are no international (fx) fees or geographical restrictions.
@@ -48,12 +48,12 @@ In-depth details can be found at :ref:`Currency (PART) Explained`.
 Particl Proof-of-Stake (Staking)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Staking is the action of keeping a node online to support and secure Particl's distributed network. When you do so, you start receiving regular staking rewards paid by the network in exchange for your contribution.
+Staking is the action of keeping a :term:`node` online to support and secure Particl's distributed network. When you do so, you start receiving regular staking rewards paid by the network in exchange for your contribution.
 
-- Earn dividend-like staking rewards in exchange for keeping Particl nodes online.
+- Earn dividend-like staking rewards in exchange for keeping Particl :term:`nodes` online.
 - Staking interest on Particl varies between 2% and 5% depending on the percentage of the supply being put up for staking.
 - The network gets more secure and resilient as more people stake.
-- "Cold staking" is a hyper secure staking option that lets you delegate your staking power to an online node that contains no coin. 
+- "Cold staking" is a hyper secure staking option that lets you delegate your staking power to an online :term:`node` that contains no coin. 
 - Particl provides many different cold staking variants, each one being as secure as the other ones.
    - **Cold staking:** Stake your coins stored even when stored offline such as on cold wallets, hardware devices, or even paper wallets.
    - **Staking pool:** Combine your staking power with other stakers to earn more frequent payments.
@@ -66,7 +66,7 @@ In-depth details can be found at :ref:`Staking Explained`.
 Address Book (Contacts)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Because funds need to be sent to cryptographic addresses, it can be hard to remember who owns which address. Particl Desktop's address book page is there specifically to help you make sense of these addresses by saving them to contacts.
+Because funds need to be sent to cryptographic addresses, it can be hard to remember who owns which address. :term:`Particl Desktop`'s address book page is there specifically to help you make sense of these addresses by saving them to contacts.
 
 - Save both public and private PART addresses and enter their contact information
 - Display a contact's address and all of its details in a block explorer.
@@ -76,14 +76,14 @@ Because funds need to be sent to cryptographic addresses, it can be hard to reme
 Marketplace
 -----------
 
-Particl Marketplace is accessible right from the Particl Desktop application. It is deployed on a distributed network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world.
+:term:`Particl Marketplace` is accessible right from the :term:`Particl Desktop` application. It is deployed on a distributed network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world.
 
-In-depth details can be found at :ref:`Particl Marketplace Explained`. The basic knowledge is compiled at :ref:`What's |PM|`.
+In-depth details can be found at :term:`Particl Marketplace Explained`. The basic knowledge is compiled at :ref:`What's |PM|`.
 
 Open Market
 ~~~~~~~~~~~
 
-Particl's Open Market allows you to buy and sell products and services online without requiring any middleman to facilitate the transaction. The Open Market is the market you see when you first launch the application. It is enabled and available by default, unlike user-generated markets and storefronts.
+Particl's :term:`Open Market` allows you to buy and sell products and services online without requiring any middleman to facilitate the transaction. The :term:`Open Market` is the market you see when you first launch the application. It is enabled and available by default, unlike user-generated markets and storefronts.
 
 - Buy and sell anything at no cost.
 - No commission, sales, withdrawal, or subscription fee.
@@ -98,9 +98,9 @@ Particl's Open Market allows you to buy and sell products and services online wi
 Markets and Storefronts
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Additionally to the Open Market, you can also create an infinite number of markets and storefronts. Each user market is hosted on the Particl network, along with the Open Market, and can easily be connected to using Particl Desktop.
+Additionally to the :term:`Open Market`, you can also create an infinite number of markets and storefronts. Each user market is hosted on the Particl network, along with the :term:`Open Market`, and can easily be connected to using :term:`Particl Desktop`.
 
-- Markets and storefronts offer the same functionalities as the Open Market, but with a few extras.
+- Markets and storefronts offer the same functionalities as the :term:`Open Market`, but with a few extras.
 - Markets and storefronts are two different types of market, but are both usually referred to as "user markets".
 
    - **Markets:** A market type where anyone with access to it can buy and sell on. 
@@ -121,7 +121,7 @@ The Market Browser is where you can explore various different user markets and j
 Inventory Management
 ~~~~~~~~~~~~~~~~~~~~
 
-Particl Marketplace lets you manage your inventory by creating a listing template for each item you want to sell. Additionally, you can manage your inventory's quantity and variants (i.e. colors, sizes, etc). Quantity and variant management is currently under development and will be added at a later update.
+:term:`Particl Marketplace` lets you manage your inventory by creating a listing template for each item you want to sell. Additionally, you can manage your inventory's quantity and variants (i.e. colors, sizes, etc). Quantity and variant management is currently under development and will be added at a later update.
 
 - Listing templates are reused everytime you want to republish an item on the marketplace.
 - When a listing expires, the listing template saves its comments, feedback, and Q&A.
@@ -139,7 +139,7 @@ Particl's two-party escrow system protects users against scammers and ensures th
 - All transactions made with the escrow system are untraceable by default and no personal information can leak out.
 - Escrow transactions are secured by blockchain technology and cannot be interfered and tampered with.
 - Two-party escrow contracts are mandatory for all marketplace transactions.
-- You can check the status and progress of any escrow transaction at any time on Particl Desktop.
+- You can check the status and progress of any escrow transaction at any time on :term:`Particl Desktop`.
 
 In-depth details can be found at :ref:`Two-Party Escrow Explained`.
 
@@ -172,19 +172,19 @@ The feature is additionally integrated into any transaction allowing two users t
 Swap
 ----
 
-The in-app swap module of Particl Desktop is where you'll find everything you need to swap other cryptocurrencies for PART. It is also where you'll find other payment options such as credit card payments, if any is available at the time. 
+The in-app swap module of :term:`Particl Desktop` is where you'll find everything you need to swap other :term:`cryptocurrencies` for PART. It is also where you'll find other payment options such as credit card payments, if any is available at the time. 
 
 Swapping Assets
 ~~~~~~~~~~~~~~~
 
-- Swap any available cryptocurrency (i.e. BTC) into PART to top up your Particl wallet.
+- Swap any available :term:`cryptocurrency` (i.e. BTC) into PART to top up your Particl wallet.
 - Connects to external exchanges using API.
-- "Atomic swaps" give you the option to swap available cryptocurrencies for PART without requiring any middleman to facilitate the transaction (coming soon).
+- "Atomic swaps" give you the option to swap available :term:`cryptocurrencies` for PART without requiring any middleman to facilitate the transaction (coming soon).
 
 Multi-Currency Support (Marketplace)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Pay for products and services using any of the available cryptocurrencies (i.e. BTC).
+- Pay for products and services using any of the available :term:`cryptocurrencies` (i.e. BTC).
 - The marketplace automatically converts non-PART payments in PART before funding any two-party escrow contract.
 
 .. attention::

@@ -5,7 +5,7 @@ Staking Rewards
 .. note::
 	To learn more about staking, different options, and how you can earn dividend-like payments, check out the :ref:`Staking Explained` in-depth guide.
 
-When you're staking your Particl coins, it means your computer (referred to as a "staking node") is helping the network by validating transactions. This task is fully automated and doesn't require you to do any manual work. In exchange for the help provided by your staking node, the :term:`Particl Network` pays you an interest in dividend-like payments proportional to the number of PART coins you own. The minimum yearly interest you can earn on your PART coins is 2%, although that typically fluctuates between 2% and 5% depending on how many people are staking on the network.
+When you're staking your Particl coins, it means your computer (referred to as a "staking :term:`node`") is helping the network by validating transactions. This task is fully automated and doesn't require you to do any manual work. In exchange for the help provided by your staking :term:`node`, the :term:`Particl Network` pays you an interest in dividend-like payments proportional to the number of PART coins you own. The minimum yearly interest you can earn on your PART coins is 2%, although that typically fluctuates between 2% and 5% depending on how many people are staking on the network.
 
 Enabling staking is pretty straight-forward, but some of the staking solutions can be a bit more complicated to set up. Rest assured, this user guide will make sure you can enable any of the staking options available to you without too much hassle. Just carefully follow the steps below and start earning staking rewards in just a few minutes.
 
@@ -16,10 +16,10 @@ Enabling staking is pretty straight-forward, but some of the staking solutions c
 
 **Requirements**
 
-- A Particl Desktop wallet with any number of PART coins greater than 0.
+- A :term:`Particl Desktop` wallet with any number of PART coins greater than 0.
 - Hold the PART coins you want to earn a staking interest on in your :guilabel:`public` balance.
 - An active internet connection.
-- A separate device that will be converted into a staking node (required for cold staking only).
+- A separate device that will be converted into a staking :term:`node` (required for cold staking only).
 
 **Enable Staking**
 
@@ -34,32 +34,32 @@ Activating staking the regular way is the fastest method to get started. All it 
 
 .. rst-class:: bignums
 
-	#. Launch your Particl Desktop client and make sure you have PART coins in your :guilabel:`public` balance.
+	#. Launch your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`public` balance.
 
-That's all. Staking is working as long as your node is online.
+That's all. Staking is working as long as your :term:`node` is online.
 
 **Password protected client**
 
 .. rst-class:: bignums
 
-	#. Launch your Particl Desktop client and make sure you have PART coins in your :guilabel:`public` balance.
+	#. Launch your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`public` balance.
 	#. Click the :guilabel:`padlock` icon at the top right corner of your client.
 	#. Click on the downward facing arrow next to :guilabel:`Additional unlock options` in the overlay window.
 	#. Check the :guilabel:`Unlock for staking only` box.
 	#. Enter your password and click the :guilabel:`Unlock wallet` button. 
 
-That's it. Staking is working as long as your node is online.
+That's it. Staking is working as long as your :term:`node` is online.
 
 Cold staking
 ------------
 
 Cold staking is a more advanced, secure, and flexible staking option. It requires you to have a separate device that can remain connected to the internet at all times. This can be a hardware device like a `Raspberry Pi <https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/>`_, but it can also be `VPS or cloud server <https://en.wikipedia.org/wiki/Virtual_private_server>`_ (i.e. DigitalOcean, AWS, Google Cloud, etc). 
 
-The staking node's sole purpose is to stake PART coins held on external addresses. The staking node itself doesn't contain any coin, it only tells the network that it's staking on behalf of another address. For this reason, hosting a staking node on any VPS server provider is entirely secure and will not put your PART coins at risk of being stolen. If a hacker or malicious gets access to your staking node, there is no coin to steal.
+The staking :term:`node`'s sole purpose is to stake PART coins held on external addresses. The staking :term:`node` itself doesn't contain any coin, it only tells the network that it's staking on behalf of another address. For this reason, hosting a staking :term:`node` on any VPS server provider is entirely secure and will not put your PART coins at risk of being stolen. If a hacker or malicious gets access to your staking :term:`node`, there is no coin to steal.
 
 **On your staking device...**
 
-Prerequisite: Choose what device you want to use as a staking node (i.e. `Raspberry Pi <https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/>`_) and install a Linux (i.e. `Raspbian <https://www.raspberrypi.org/downloads/>`_) distribution on it.
+Prerequisite: Choose what device you want to use as a staking :term:`node` (i.e. `Raspberry Pi <https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/>`_) and install a Linux (i.e. `Raspbian <https://www.raspberrypi.org/downloads/>`_) distribution on it.
 
 .. rst-class:: bignums
 
@@ -88,26 +88,26 @@ Prerequisite: Choose what device you want to use as a staking node (i.e. `Raspbe
 
 			partyman/partyman restart
 
-	#. Create a new Particl wallet on your staking node.
+	#. Create a new Particl wallet on your staking :term:`node`.
 
 		.. code-block:: bash
 
 			partyman/partyman stakingnode init
 
-	#. Create a new staking public key. It lets you connect your PART coins to the staking node.
+	#. Create a new staking public key. It lets you connect your PART coins to the staking :term:`node`.
 
 		.. code-block:: bash
 
 			partyman/partyman stakingnode new
 
-		Note or copy this staking public key. You will need this public key during the setup phase within Particl Desktop.
+		Note or copy this staking public key. You will need this public key during the setup phase within :term:`Particl Desktop`.
 
 **On Particl Desktop...**
 
 .. rst-class:: bignums
 
 	#. Make sure you have PART coins in your :guilabel:`public` balance.
-	#. In the Wallet module of Particl Desktop, navigate to the :guilabel:`Overview` page located at the top of the menu on the left.
+	#. In the Wallet module of :term:`Particl Desktop`, navigate to the :guilabel:`Overview` page located at the top of the menu on the left.
 	#. Click on the downward facing arrow in the :guilabel:`cold staking` widget on the right of your screen.
 	#. Click on the blue :guilabel:`Set up cold staking` button and enter your staking public key in the designated space and confirm with a click on the :guilabel:`Enable cold staking` button.
 	
@@ -118,7 +118,7 @@ Congratulations! You are now now cold staking.
 
 **A few cold staking settings...**
 
-There are a few cold staking settings that you can set up. To do so, go back to your staking node and enter the following commands.
+There are a few cold staking settings that you can set up. To do so, go back to your staking :term:`node` and enter the following commands.
 
 .. code-block:: bash
 
@@ -156,7 +156,7 @@ Don't worry, just like with cold staking, the staking pool doesn't have any cont
 .. rst-class:: bignums
 
 	#. Choose a staking pool you want to use from the list above, open the pool's website and copy the pool's staking address. (looks like ``pcs19453kf98kz47yktqv7x36j39xa07mtvqx8evse``).
-	#. Open up your Particl Desktop client and make sure you have PART coins in your :guilabel:`public` balance.
+	#. Open up your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`public` balance.
 	#. Navigate to the wallet's :guilabel:`Overview` page located at the top of the menu on the left and click on the downward facing arrow in the :guilabel:`cold staking` widget on the right of your screen.
 	#. Click on the blue :guilabel:`Set up cold staking` button and enter a pool's staking address key in the designated space and confirm with a click on the :guilabel:`Enable cold staking` button.
 			
@@ -176,32 +176,32 @@ On a Ledger Nano S device...
 .. rst-class:: bignums
 
 	#. Set up your `Ledger Nano device <https://support.ledger.com/hc/en-us/articles/360007687153-Particl-PART->`_ and store funds into it.
-	#. Set up a :ref:`Cold staking` node and copy its public key or copy the public key of a staking pool :ref:`Staking Pools` into your clipboard.
+	#. Set up a :ref:`Cold staking` :term:`node` and copy its public key or copy the public key of a staking pool :ref:`Staking Pools` into your clipboard.
 	#. Download and install the latest **Particl-Qt** client `here <https://particl.io/downloads>`_.
 	#. Open and unlock Particl-Qt, plug your Ledger Nano device into your computer and make sure it is ready to transact.
 	#. Open the Staking setup window by going in :guilabel:`Window` > :guilabel:`Staking Setup`.
-	#. Enter your staking node's public key in the :guilabel:`Cold staking change address` field and enable staking by clicking on the :guilabel:`Apply` button.
+	#. Enter your staking :term:`node`'s public key in the :guilabel:`Cold staking change address` field and enable staking by clicking on the :guilabel:`Apply` button.
 
 **To fully activate hardware staking, you need to "zap" your coins.**
 
 .. rst-class:: bignums
 
-	#. Close Particl-Qt and open Particl Desktop.
+	#. Close Particl-Qt and open :term:`Particl Desktop`.
 	#. Navigate to the wallet's :guilabel:`Overview` page located at the top of the left sidebar.
 	#. Click on the :guilabel:`Zap` button to instantly bring the progress bar to 100%.
 
 Mobile staking
 ~~~~~~~~~~~~~~
 
-It's also possible to stake your PART coins stored on a mobile wallet such as `Particl Copay <https://particl.io/downloads/>`_. Staking on your phone is completely secure and requires you to delegate the staking power of your coins to a staking node. 
+It's also possible to stake your PART coins stored on a mobile wallet such as `Particl Copay <https://particl.io/downloads/>`_. Staking on your phone is completely secure and requires you to delegate the staking power of your coins to a staking :term:`node`. 
 
 .. rst-class:: bignums
 
-	#. Set up a :ref:`cold staking` node and copy its public key or copy the :ref:`Staking Pools` key into your clipboard.
+	#. Set up a :ref:`cold staking` :term:`node` and copy its public key or copy the :ref:`Staking Pools` key into your clipboard.
 	#. Download and install `Particl Copay <https://particl.io/downloads/>`_, open Particl Copay app, create a new Particl coin wallet, and send PART coins to it.
 	#. On Particl Copay's main screen, open up the wallet you want to stake by tapping on its tile.
 	#. Tap on the :guilabel:`Staking` icon at the bottom right corner, followed by a tap on the :guilabel:`Setup Cold Staking` green button.
-	#. Enter the staking node's public key in the designated space and give it a label.
+	#. Enter the staking :term:`node`'s public key in the designated space and give it a label.
 	#. Tap on the :guilabel:`Enable Cold Staking` green button, then tap on the :guilabel:`Zap` button to finalize the staking setup process.
 	#. Tap on the :guilabel:`Zap` button in the new window that appears on your app, followed by a tap on the :guilabel:`PROCEED` button to fully activate staking on your phone.
 
@@ -210,7 +210,7 @@ Congratulations! You are now staking the coins on your phone!
 Adjust Your Staking Privacy
 ---------------------------
 
-If you operate your own staking node, you can adjust your level of staking privacy. By default, the network sends your staking rewards in your :guilabel:`public` balance. That means all staking rewards are fully transparent and displayed publicly on the blockchain.
+If you operate your own staking :term:`node`, you can adjust your level of staking privacy. By default, the network sends your staking rewards in your :guilabel:`public` balance. That means all staking rewards are fully transparent and displayed publicly on the blockchain.
 
 Luckily, Particl allows you to easily control your level of staking privacy. To do so, you need to indicate to the network that you'd like to receive your staking rewards in another type of balance other than your :guilabel:`public` balance.
 
@@ -220,13 +220,13 @@ Luckily, Particl allows you to easily control your level of staking privacy. To 
 
 .. rst-class:: bignums
 
-	#. Access your :ref:`Cold Staking` node to type a few commands. Additionally, be sure to have the latest updates to your system.
+	#. Access your :ref:`Cold Staking` :term:`node` to type a few commands. Additionally, be sure to have the latest updates to your system.
 
 		.. code-block:: bash
 
 			sudo apt update && sudo apt upgrade
 
-	#. Download the Private Staking script on your staking node.
+	#. Download the Private Staking script on your staking :term:`node`.
 
 		.. code-block:: bash
 
@@ -240,7 +240,7 @@ Luckily, Particl allows you to easily control your level of staking privacy. To 
 			./privatecoldstaking.sh
 
 	#. Choose which type of balance you'd like to receive your staking rewards in and copy the new staking public key provided by the script.
-	#. Activate cold staking in your Particl Desktop client using the new staking public key. If you already have cold staking enabled, disable it in the :guilabel:`Cold Staking` widget first.
+	#. Activate cold staking in your :term:`Particl Desktop` client using the new staking public key. If you already have cold staking enabled, disable it in the :guilabel:`Cold Staking` widget first.
 	#. Verify the script has been activated and properly setup.
 
 		.. code-block:: bash

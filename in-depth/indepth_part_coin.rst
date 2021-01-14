@@ -2,13 +2,13 @@
 Currency (PART) Explained
 =========================
 
-Although you can use many different coins to pay for products and services on Particl Marketplace, all payments are ultimately converted and settled in PART. 
+Although you can use many different coins to pay for products and services on :term:`Particl Marketplace`, all payments are ultimately converted and settled in PART. 
 
-PART is an untraceable cryptocurrency that can be sent to anyone, anywhere in the world, without the need for any third-party to facilitate transactions. It is a secure cryptocurrency that is similar to Bitcoin, but packed with more functionality to help you preserve your financial privacy from prying eyes.
+PART is an untraceable :term:`cryptocurrency` that can be sent to anyone, anywhere in the world, without the need for any third-party to facilitate transactions. It is a secure :term:`cryptocurrency` that is similar to Bitcoin, but packed with more functionality to help you preserve your financial privacy from prying eyes.
 
 **Cryptocurrencies in general**
 
-Cryptocurrencies are digital units of a currency that can be transferred person-to-person without requiring a third-party (payment processor) to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party.
+:term:`Cryptocurrencies` are digital units of a currency that can be transferred person-to-person without requiring a third-party (payment processor) to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party.
 
 **Benefits**
 
@@ -34,7 +34,7 @@ Cryptocurrencies are digital units of a currency that can be transferred person-
 Blockchain Specifications
 -------------------------
 
-PART is the cryptocurrency of the Particl blockchain. It is a secure and confidential currency specifically designed to power eCommerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
+PART is the :term:`cryptocurrency` of the :term:`Particl blockchain`. It is a secure and confidential currency specifically designed to power eCommerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
 
 PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bitcoin, many modern day improvements have been added to the code, making it faster, more private, and more flexible.
 
@@ -90,7 +90,7 @@ In particular, Particl's cold staking mechanism allows you to earn an interest o
 Privacy Specifications
 ----------------------  
 
-PART is a modern day cryptocurrency. It doesn't just allow you to transact person-to-person with anyone else, it also does it in a way that doesn't permanently share all of your financial data with the rest of the world. It has an adjustable level of privacy and lets you choose between three different types of transactions (public, blind, and anon), each with their own purpose, cost, and level of privacy.
+PART is a modern day :term:`cryptocurrency`. It doesn't just allow you to transact person-to-person with anyone else, it also does it in a way that doesn't permanently share all of your financial data with the rest of the world. It has an adjustable level of privacy and lets you choose between three different types of transactions (public, blind, and anon), each with their own purpose, cost, and level of privacy.
 
 +----------------------------------+---------------------------------------------+
 | **Adjustable Level of Privacy**  | Yes, 3 levels                               |
@@ -109,7 +109,7 @@ PART is a modern day cryptocurrency. It doesn't just allow you to transact perso
 Types of balances
 ^^^^^^^^^^^^^^^^^
 
-On Particl, there are three different types of balance, each with their own purpose, cost, level of privacy, and settings. All three types of balance are available on Particl Desktop and you can easily convert coins from one type of balance to another by reading the :doc:`Manage Funds user guide <../guides/guide_mp_general_managing_funds>`.
+On Particl, there are three different types of balance, each with their own purpose, cost, level of privacy, and settings. All three types of balance are available on :term:`Particl Desktop` and you can easily convert coins from one type of balance to another by reading the :doc:`Manage Funds user guide <../guides/guide_mp_general_managing_funds>`.
 
 Public Balance
 ~~~~~~~~~~~~~~
@@ -154,7 +154,7 @@ By adding "ring signatures" to blind balances, you obtain anon balances, the hig
 **What can you do with anon balances and transactions?**
 
 - Send and receive untraceable transactions.
-- Pay for goods and services on Particl Marketplace.
+- Pay for goods and services on :term:`Particl Marketplace`.
 - Pay for listing fees on the marketplace.
 - Use anonymous smart-contracts.
 - Participate in two-party escrow transactions without sharing your information to any third-party.

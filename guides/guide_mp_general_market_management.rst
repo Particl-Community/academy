@@ -6,7 +6,7 @@ Markets & Storefronts
 
    To simplify, "community markets" and "storefronts" are simply referred to as "user markets" unless specified otherwise.
 
-On Particl, you can create and join an infinite number of community markets and storefronts. Each of these markets can host an infinite number of listings and live independently from the Open Market.
+On Particl, you can create and join an infinite number of community markets and storefronts. Each of these markets can host an infinite number of listings and live independently from the :term:`Open Market`.
 
 By default, a user market isn't publicly accessible and is only known to its creator. However, it is possible for a user market to be promoted within the Market Browser so that anyone can join at the click of a button.
 
@@ -100,13 +100,13 @@ If you have in your possession the Market ID and Access/Publish Key of a certain
   #. Enter the user market's Market ID and Access/Publish Key, and then click on the :guilabel:`Join this Market` button to join the user market.
   #. Go back to the :guilabel:`Your Markets` tab to see that you have successfully connected to the user market.
   #. Click on its tile to expand its options and click on :guilabel:`Browse Market` button to explore its content.
-  
+
       - Alternatively, you can access its content by going to the :guilabel:`LISTINGS` page and selecting the user market in the :guilabel:`FILTER` section.
 
 Flag a Market as Inappropriate
 ----------------------------------
 
-If you see a user market with inappropriate content, you can flag it to the rest of the Particl community. If enouhg people flag the market, it will be taken down from the Particl network altogether. To learn more about the Particl Marketplace moderation mechanism, read the :doc:`Market Moderation guide <../in-depth/indepth_mp_moderation>`.
+If you see a user market with inappropriate content, you can flag it to the rest of the Particl community. If enouhg people flag the market, it will be taken down from the Particl network altogether. To learn more about the :term:`Particl Marketplace` moderation mechanism, read the :doc:`Market Moderation guide <../in-depth/indepth_mp_moderation>`.
 
 .. rst-class:: bignums
 
@@ -120,7 +120,7 @@ The number of coins you hold in your :guilabel:`Public` balance will now be used
 Vote to Keep a Market
 ---------------------
 
-Sometimes, other users may flag user markets that you believe should remain on Particl. In those cases, you need to make your voice hear. To learn more about the Particl Marketplace moderation mechanism, read the :doc:`Market Moderation guide <../in-depth/indepth_mp_moderation>`.
+Sometimes, other users may flag user markets that you believe should remain on Particl. In those cases, you need to make your voice hear. To learn more about the :term:`Particl Marketplace` moderation mechanism, read the :doc:`Market Moderation guide <../in-depth/indepth_mp_moderation>`.
 
 .. rst-class:: bignums
 

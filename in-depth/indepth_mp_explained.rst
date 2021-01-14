@@ -12,8 +12,8 @@ Particl is a decentralized marketplace, meaning that no third-party is required 
 
 The marketplace is composed mainly of three main distributed networks. 
 
-- The **Particl blockchain** to enable user to user currency transactions without requiring payment processors or banks.
+- The :term:`Particl blockchain` to enable user to user currency transactions without requiring payment processors or banks.
 
-- The **SMSG network** to distribute and host non-transactional data such as the marketplace's listings and markets, their descriptions, images, messages, and etc.
+- The :term:`SecureMessaging (SMSG)` to distribute and host non-transactional data such as the marketplace's listings and markets, their descriptions, images, messages, and etc.
 
-- The **Tor network** to keep your digital identity (your IP address) confidential when using Particl.
+- The :term:`Tor` network to keep your digital identity (your IP address) confidential when using Particl.

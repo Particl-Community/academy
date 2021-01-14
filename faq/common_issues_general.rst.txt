@@ -7,7 +7,7 @@ General
 
         **Time offset warning icon (top right corner of Particl Desktop)**
 
-    This warning simply means your computer is synced to a different time than the Particl network. Usually, this doesn't cause any noticeable issue, but when the offset gets too big, it can cause errors in the propagation of SMSG messages (listings, escrow, etc).
+    This warning simply means your computer is synced to a different time than the Particl network. Usually, this doesn't cause any noticeable issue, but when the offset gets too big, it can cause errors in the propagation of :term:`SecureMessaging (SMSG)` messages (listings, escrow, etc).
 
     .. tabs::
 	 .. group-tab:: Windows
@@ -42,7 +42,7 @@ General
         **Particl is indefinitely loading a wallet and not starting up**
 
     - Make sure you are using |PD version|. 
-    - Close Particl Desktop and reopen it.
+    - Close :term:`Particl Desktop` and reopen it.
 
 .. container:: toggle
 
@@ -50,4 +50,4 @@ General
 
         **Number of coins not showing up in private balances and transaction history**
 
-    When you hold coins in either blind or anon balances, the balances aren't displayed on your Particl Desktop until you unlock it with your password. This is a security measure designed to keep your private balances private from prying eyes.
+    When you hold coins in either blind or anon balances, the balances aren't displayed on your :term:`Particl Desktop` until you unlock it with your password. This is a security measure designed to keep your private balances private from prying eyes.
