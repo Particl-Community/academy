@@ -1,3 +1,9 @@
+@import url('../fonts/inter.css');
+
+body, html, :root {
+    font-family: Arial, sans-serif;
+}
+
 /**
  * Various tweaks to the Read the Docs theme to better conform with Particl's
  * visual identity. Many colors are also overridden to use CSS variables.
@@ -135,28 +141,9 @@
     }
 }
 
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
-
-@media only print  {
-    
-}
-
-.fa:before, .wy-menu-vertical li span.toctree-expand:before, .wy-menu-vertical li.on a span.toctree-expand:before, .wy-menu-vertical li.current>a span.toctree-expand:before, .rst-content .admonition-title:before, .rst-content h1 .headerlink:before, .rst-content h2 .headerlink:before, .rst-content h3 .headerlink:before, .rst-content h4 .headerlink:before, .rst-content h5 .headerlink:before, .rst-content h6 .headerlink:before, .rst-content dl dt .headerlink:before, .rst-content p.caption .headerlink:before, .rst-content table>caption .headerlink:before, .rst-content .code-block-caption .headerlink:before, .rst-content tt.download span:first-child:before, .rst-content code.download span:first-child:before, .icon:before, .wy-dropdown .caret:before, .wy-inline-validate.wy-inline-validate-success .wy-input-context:before, .wy-inline-validate.wy-inline-validate-danger .wy-input-context:before, .wy-inline-validate.wy-inline-validate-warning .wy-input-context:before, .wy-inline-validate.wy-inline-validate-info .wy-input-context:before, .wy-alert, .rst-content .note, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .warning, .rst-content .seealso, .rst-content .admonition-todo, .rst-content .admonition, .btn, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a, .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a, .wy-nav-top a {
--webkit-font-smoothing: auto;
-}
-
-.wy-side-nav-search>a.icon img.logo, .wy-side-nav-search .wy-dropdown>a.icon img.logo {
-margin-top: 0;
-}
-.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {font-size:0;}
-.wy-side-nav-search {padding-top:0;}
-
-body {
-    font-weight:300;
+html { 
+    /*font-family: 'Inter', sans-serif; --, Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",-system-ui, system-ui, sans-serif--*/ 
+font-family: 'Inter', system-ui, sans-serif;
 }
 
 body,
@@ -175,9 +162,44 @@ legend,
 .btn,
 .rst-content .toctree-wrapper p.caption,
 .rst-versions {
-    /* Use a system font stack for better performance (no Web fonts required) */
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
 }
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', system-ui, sans-serif }
+  body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="text"],
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea,
+legend,
+.btn,
+.rst-content .toctree-wrapper p.caption,
+.rst-versions {
+    font-family: 'Inter var', system-ui, sans-serif;
+}
+}
+
+@media only print  {
+    
+}
+
+.fa:before, .wy-menu-vertical li span.toctree-expand:before, .wy-menu-vertical li.on a span.toctree-expand:before, .wy-menu-vertical li.current>a span.toctree-expand:before, .rst-content .admonition-title:before, .rst-content h1 .headerlink:before, .rst-content h2 .headerlink:before, .rst-content h3 .headerlink:before, .rst-content h4 .headerlink:before, .rst-content h5 .headerlink:before, .rst-content h6 .headerlink:before, .rst-content dl dt .headerlink:before, .rst-content p.caption .headerlink:before, .rst-content table>caption .headerlink:before, .rst-content .code-block-caption .headerlink:before, .rst-content tt.download span:first-child:before, .rst-content code.download span:first-child:before, .icon:before, .wy-dropdown .caret:before, .wy-inline-validate.wy-inline-validate-success .wy-input-context:before, .wy-inline-validate.wy-inline-validate-danger .wy-input-context:before, .wy-inline-validate.wy-inline-validate-warning .wy-input-context:before, .wy-inline-validate.wy-inline-validate-info .wy-input-context:before, .wy-alert, .rst-content .note, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .warning, .rst-content .seealso, .rst-content .admonition-todo, .rst-content .admonition, .btn, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a, .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a, .wy-nav-top a {
+-webkit-font-smoothing: auto;
+}
+
+.wy-side-nav-search>a.icon img.logo, .wy-side-nav-search .wy-dropdown>a.icon img.logo {
+margin-top: 0;
+}
+.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {font-size:0;}
+.wy-side-nav-search {padding-top:0;}
 
 h1,
 h2,
@@ -208,8 +230,8 @@ article ol,
 .rst-content .section ul,
 .rst-content .toctree-wrapper ul,
 .rst-content .section ol {
-    font-size: .9rem;
-    line-height: 1.6rem;
+    font-size: .95rem;
+    line-height: 1.66rem;
     margin-bottom: .8rem;
 }
 
@@ -746,8 +768,10 @@ color: var(--link-color);
 }
 
 .wy-menu-vertical li.current a, .wy-menu-vertical li a {
-font-weight:300;
-letter-spacing: -.01em;
+font-weight: normal;
+font-size: 95%;
+letter-spacing: initial;
+line-height: 1.255em;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
