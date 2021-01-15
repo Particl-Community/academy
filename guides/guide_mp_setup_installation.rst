@@ -38,11 +38,22 @@ Download
 
 	 	In 95% of all cases you will be fine by downloading the :file:`particl-desktop-X.X.X-win.exe` installer file. It supports any version of Windows except 32-bit only environments.
 
+	 	**Download sources**
+
+		- Particl Homepage: https://particl.io/downloads/
+		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
+
 	 .. group-tab:: Mac
 
 	 	**MacOS file version**
 
 	 	In 95% of all cases you will be fine by downloading the :file:`particl-desktop-X.X.X-mac.dmg` installer image. It supports any version, including 10.15 (Catalina) or greater.
+
+	 	**Download sources**
+
+		- Particl Homepage: https://particl.io/downloads/
+		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
+
 
 	 .. group-tab:: Linux
 
@@ -52,11 +63,10 @@ Download
 
 	 	We assume that you know what you are doing here and what you need.
 
+	 	**Download sources**
 
-**Download sources**
-
-- Particl Homepage: https://particl.io/downloads/
-- Particl Github: https://github.com/particl/particl-desktop/releases/latest
+		- Particl Homepage: https://particl.io/downloads/
+		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
 .. attention::
 
@@ -75,7 +85,7 @@ Being your own bank with blockchain related products shifts some responsibilitie
 	 	.. rst-class:: bignums
 
 	 		#. Open :guilabel:`Windows Explorer`
-	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Download folder** and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Download folder and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal while changing :file:`filename` for the real and complete filename of the downloaded file and hit :kbd:`ENTER ↵`.
 
 	 			.. code-block:: bash
@@ -92,7 +102,7 @@ Being your own bank with blockchain related products shifts some responsibilitie
 		.. rst-class:: bignums
 
 	 		#. Open :guilabel:`Finder`
-	 		#. Press :kbd:`MOUSE-RIGHT ◳` on the **Download folder** of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal at this location. 
+	 		#. Press :kbd:`MOUSE-RIGHT ◳` on the Download folder of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal at this location. 
 			#. Type the following command into the terminal while changing :file:`filename` for the real filename of the downloaded file.
 
 				.. code-block:: bash
@@ -105,7 +115,7 @@ Being your own bank with blockchain related products shifts some responsibilitie
 
 	 	.. rst-class:: bignums
 
-	 		#.  Open a terminal in the **Download-folder** of the file and type the following command by changing :file:`filename` for the real filename of the downloaded file. 
+	 		#.  Open a terminal in the Download-folder of the file and type the following command by changing :file:`filename` for the real filename of the downloaded file. 
 	 	
 	 			.. code-block:: bash
 
@@ -127,7 +137,7 @@ If the output does not match, try to download the file again. Verify that you di
 
 .. attention::
 	
-	If all attempts fail to have a **matching number** do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
+	If all attempts fail to have a matching number do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
 
 Installation process
 --------------------
@@ -143,7 +153,7 @@ Installation process
 	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-win.exe` installer file.
 	 		#. Follow the installation instructions
 	 		#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :term:`Particl Desktop`.
-	 		#. Assign rules to your computer`s **firewall** to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
+	 		#. Assign rules to your computer`s firewall to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
 
 
 	 .. group-tab:: Mac
@@ -257,7 +267,7 @@ Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka
 	 	.. rst-class:: bignums
 
 	 		#. Open :guilabel:`Windows Explorer`
-	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
 	 			.. code-block:: bash
@@ -374,7 +384,7 @@ Using the Tor Browser
 	#. Download the `Tor Browser <https://www.torproject.org/download/>`_ and install it on your computer.
 	#. Launch the :term:`Tor` Browser.
 	#. Connect to the :term:`Tor` network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
-	#. Once connected, **leave the** :term:`Tor` **Browser running in the background** of your computer.
+	#. Once connected, leave the :term:`Tor` Browser running in the background of your computer.
 
 
 Using the Tor daemon
@@ -565,7 +575,7 @@ Enable with terminal startup
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Windows Explorer` and press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the **Installation folder** (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Open :guilabel:`Windows Explorer` and press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
 	 			.. code-block:: bash

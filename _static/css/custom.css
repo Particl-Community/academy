@@ -1,7 +1,7 @@
 @import url('../fonts/inter.css');
 
 body, html, :root {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', system-ui, Arial, sans-serif;
 }
 
 /**
@@ -14,6 +14,7 @@ body, html, :root {
  */
 
  /* Default (light) theme colors */
+
  :root {
     --body-color: rgba(33,39,39,0.8);
     --heading-color: #212727;
@@ -52,7 +53,7 @@ body, html, :root {
     --highlight-function-color: #06287e;
     --highlight-operator-color: #666666;
     --highlight-string-color: #4070a0;
-    --highlight-gh-color:#586bf9;
+    --highlight-gh-color:#787878;
     --admonition-note-background-color: #d5f5e7;
     --admonition-note-color: #404040;
     --admonition-note-title-background-color: #2bbb79;
@@ -141,11 +142,6 @@ body, html, :root {
     }
 }
 
-html { 
-    /*font-family: 'Inter', sans-serif; --, Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",-system-ui, system-ui, sans-serif--*/ 
-font-family: 'Inter', system-ui, sans-serif;
-}
-
 body,
 h1,
 h2,
@@ -209,9 +205,9 @@ h5,
 h6,
 legend,
 .rst-content .toctree-wrapper p.caption {
-    /* Use a lighter font for headers (Medium instead of Bold) */
 letter-spacing: -0.005em;
 }
+
 h1,
 h2,
 h3,
@@ -221,17 +217,22 @@ h6 {
 color: var(--heading-color);
 }
 
-p,
-article ul,
+p {
+    font-size: .95rem;
+    line-height: 1.66rem;
+    margin-bottom: .8rem;
+}
+
+dl, ol, ul, article ul,
 article ol,
 .wy-plain-list-disc,
 .wy-plain-list-decimal,
 .rst-content ol.arabic,
 .rst-content .section ul,
 .rst-content .toctree-wrapper ul,
-.rst-content .section ol {
+.rst-content .section ol  {
+    line-height: 1.77rem;
     font-size: .95rem;
-    line-height: 1.66rem;
     margin-bottom: .8rem;
 }
 
@@ -268,9 +269,10 @@ a.btn:hover {
 }
 
 .achievement {
-    font-size: 2em;
+    font-size: 1.755em;
+    letter-spacing: -0.0255rem;
     font-weight: 200;
-    line-height: normal;
+    margin: 1.5em 0em;
 }
 
 .bigmessage {
@@ -329,7 +331,6 @@ hr,
 .rst-content .guilabel {
     border-color: var(--rst-guilabel-border-color);
     background: var(--rst-guilabel-background-color);
-
     font-size: 80%;
     font-weight: 700;
     border-radius: 4px;
