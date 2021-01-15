@@ -218,6 +218,10 @@ h6 {
 color: var(--heading-color);
 }
 
+h3 {
+    font-size:110%;
+}
+
 p {
     font-size: .95rem;
     line-height: 1.66rem;
@@ -277,10 +281,11 @@ a span.xref {
 }
 
 .achievement {
-    font-size: 1.755em;
+    font-size: 1.455em;
     letter-spacing: -0.0255rem;
     font-weight: 200;
-    margin: 1.5em 0em;
+    margin: 1.055em 0em;
+    line-height: 2.1rem;
 }
 
 .bigmessage {
