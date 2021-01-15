@@ -1,6 +1,6 @@
-==============
-|PM|'s Reasons
-==============
+===========================
+What's Particl Marketplace
+===========================
 
 .. meta::
    :description lang=en: is a marketplace with features that customers and vendors will love. Privacy first, responsible, and sustainable e-commerce.
@@ -10,9 +10,9 @@
 
 **Finally! True free markets and the fair level playing field in e-commerce.**
 
-	* **Keep more money** in your pocket to spend or save
-	* **Gain security** by not becoming the product or a “glass consumer”. No fraud, trickery, spam, restrictions, politics, malice, or invasion of your privacy possible
-	* **Enjoy giving back** to society, contribute to its success, and grow your standing
+* **Keep more money** in your pocket to spend or save
+* **Gain security** by not becoming the product or a “glass consumer”. No fraud, trickery, spam, restrictions, politics, malice, or invasion of your privacy possible
+* **Enjoy giving back** to society, contribute to its success, and grow your standing
 
 Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feeding the corporate monopolies, and your world becomes a fairer place. It's not just you who benefits from it—your communities and loved ones will profit as well, leaving everyone with a good feeling because you can make them become a sustainable shopper too.
 
@@ -84,13 +84,13 @@ Your successes
 
 By installing and using :term:`Particl Marketplace`, you make a conscious decision of gaining superpowers and many other benefits:
 
-	* You will get significantly lower product prices as a customer and higher margins as a vendor
-	* You will be the master of your personal data and freedom
-	* You will become immune to online fraud
-	* You will be invincible to privacy issues
-	* You will get bullet-proof against restrictions
-	* You will have the cure against spam
-	* You will contribute against the global economic inequality
+* You will get significantly lower product prices as a customer and higher margins as a vendor
+* You will be the master of your personal data and freedom
+* You will become immune to online fraud
+* You will be invincible to privacy issues
+* You will get bullet-proof against restrictions
+* You will have the cure against spam
+* You will contribute against the global economic inequality
 
 How it works
 -------------

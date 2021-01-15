@@ -32,6 +32,7 @@ body, html, :root {
     --navbar-level-3-color: #546e6e;
     --navbar-heading-color: #2bbb79;
     --link-color: #2bbb79;
+    --link-color-glossary: #212727;
     --link-color-hover: #249c65;
     --link-color-active: #249c65;
     --link-color-visited: #621bbb;
@@ -261,11 +262,18 @@ a:active {
 }
 
 a:visited {
-    color: var(--link-color-visited);
+    /*color: var(--link-color-visited);*/
+    color: var(--link-color);
 }
 
 a.btn:hover {
     text-decoration: none;
+}
+
+a span.xref {
+    color:var(--body-color);
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 .achievement {
