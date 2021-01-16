@@ -29,115 +29,55 @@ The entire process of setting up :term:`Particl Marketplace`, from A to Z, can b
 Download 
 --------
 
-**Choose the right version to download**
+Choose the right version to download.
 
 .. tabs::
 	 .. group-tab:: Windows
 
 	 	**Windows file version**
 
-	 	In 95% of all cases you will be fine by downloading the :file:`particl-desktop-X.X.X-win.exe` installer file. It supports any version of Windows except 32-bit only environments.
+	 	Mostly you will be fine by downloading the :file:`particl-desktop-X.X.X-win.exe` installer file. It supports any version of Windows. Currently, 32-bit environments are an exception but this will change.
 
 	 	**Download sources**
 
 		- Particl Homepage: https://particl.io/downloads/
 		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
+
+		.. attention::
+
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
 
 	 .. group-tab:: Mac
 
 	 	**MacOS file version**
 
-	 	In 95% of all cases you will be fine by downloading the :file:`particl-desktop-X.X.X-mac.dmg` installer image. It supports any version, including 10.15 (Catalina) or greater.
+	 	Mostly you will be fine by downloading the :file:`particl-desktop-X.X.X-mac.dmg` installer image. It supports any version of MacOS including 10.15 (Catalina) or greater.
 
 	 	**Download sources**
 
 		- Particl Homepage: https://particl.io/downloads/
 		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
+		.. attention::
+
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
 
 	 .. group-tab:: Linux
 
 	 	**Linux file version**
 
-	 	Depending on your Linux distribution you have the choice between different packages including Debian based :file:`.deb` and Rpm based :file:`.rpm` packages as well as a distribution independent :file:`.zip` version. 
+	 	Depending on your Linux distribution you have the choice between different packages including Debian based :file:`.deb`, :file:`.rpm` packages as well as a distribution independent :file:`.zip` version. 
 
-	 	We assume that you know what you are doing here and what you need.
+	 	Once you know which Linux distribution you are running, it's straight forward to find out which package manager you have and which package will suit you.
 
 	 	**Download sources**
 
 		- Particl Homepage: https://particl.io/downloads/
 		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
-.. attention::
+		.. attention::
 
-   **NEVER download Particl clients from 3rd party websites**! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
-
-Checksum verification
----------------------
-
-Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by **verifying its checksum**. Obtain the checksum code from the official download sources for the downloaded file. Each file has its own checksum. 
-
-.. tabs::
-	 .. group-tab:: Windows
-
-	 	**Checksum verification command with terminal**
-
-	 	.. rst-class:: bignums
-
-	 		#. Open :guilabel:`Windows Explorer`
-	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Download folder and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
-	 		#. Type the following command into the terminal while changing :file:`filename` for the real and complete filename of the downloaded file and hit :kbd:`ENTER ↵`.
-
-	 			.. code-block:: bash
-
-	 				CertUtil -hashfile filename SHA256
-
-	 .. group-tab:: Mac
-
-	 	**Checksum verification command with terminal**
-
-	 	.. tip::
-	 		**Prerequisite**: Head into :guilabel:`System Preferences` and select :guilabel:`Keyboard` > :guilabel:`Shortcuts` > :guilabel:`Services`. Find :guilabel:`New Terminal at Folder` in the settings and enable the checkbox.
-
-		.. rst-class:: bignums
-
-	 		#. Open :guilabel:`Finder`
-	 		#. Press :kbd:`MOUSE-RIGHT ◳` on the Download folder of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal at this location. 
-			#. Type the following command into the terminal while changing :file:`filename` for the real filename of the downloaded file.
-
-				.. code-block:: bash
-
-					shasum -a 256 filename
-
-	 .. group-tab:: Linux
-
-	 	**Checksum verification command with terminal**
-
-	 	.. rst-class:: bignums
-
-	 		#.  Open a terminal in the Download-folder of the file and type the following command by changing :file:`filename` for the real filename of the downloaded file. 
-	 	
-	 			.. code-block:: bash
-
-	 				sha256sum filename
-
-Once that is done, compare the checksum output you've received in the step above with the checksum stated in the official download sources. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
-
-.. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
-    :align: center
-    :alt: Particl Marketplace installation checksum highlighted image
-    :target: ../_static/media/images/mp_installation_github_checksum_verification.png
-
-    Particl Marketplace installation checksum highlighted image
-
-
-**Troubleshooting checksum mismatch**
-
-If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own in that case.
-
-.. attention::
-	
-	If all attempts fail to have a matching number do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
 
 Installation process
 --------------------
@@ -212,12 +152,82 @@ Installation process
 
 	Congratulations! You have installed :term:`Particl Marketplace`.
 
+Checksum verification
+---------------------
+
+Obtain the checksum code from the official download sources for the downloaded file. Each file has its own checksum. 
+
+Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by verifying its checksum.
+
+.. tabs::
+	 .. group-tab:: Windows
+
+	 	**Checksum verification command with terminal**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Windows Explorer`
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Download folder and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Type the following command into the terminal while changing :file:`filename` for the real and complete filename of the downloaded file and hit :kbd:`ENTER ↵`.
+
+	 			.. code-block:: bash
+
+	 				CertUtil -hashfile filename SHA256
+
+	 .. group-tab:: Mac
+
+	 	**Checksum verification command with terminal**
+
+	 	.. tip::
+	 		**Prerequisite**: Head into :guilabel:`System Preferences` and select :guilabel:`Keyboard` > :guilabel:`Shortcuts` > :guilabel:`Services`. Find :guilabel:`New Terminal at Folder` in the settings and enable the checkbox.
+
+		.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Finder`
+	 		#. Press :kbd:`MOUSE-RIGHT ◳` on the Download folder of the file and you're shown the :guilabel:`services` > :guilabel:`open terminal` command to open the terminal at this location. 
+			#. Type the following command into the terminal while changing :file:`filename` for the real filename of the downloaded file.
+
+				.. code-block:: bash
+
+					shasum -a 256 filename
+
+	 .. group-tab:: Linux
+
+	 	**Checksum verification command with terminal**
+
+	 	.. rst-class:: bignums
+
+	 		#.  Open a terminal in the Download-folder of the file and type the following command by changing :file:`filename` for the real filename of the downloaded file. 
+	 	
+	 			.. code-block:: bash
+
+	 				sha256sum filename
+
+Once that is done, compare the checksum output you've received in the step above with the checksum stated in the official download sources. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
+
+.. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
+    :align: center
+    :alt: Particl Marketplace installation checksum highlighted image
+    :target: ../_static/media/images/mp_installation_github_checksum_verification.png
+
+    Particl Marketplace installation checksum highlighted image
+
+
+**Troubleshooting checksum mismatch**
+
+If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own in that case.
+
+.. attention::
+	
+	If all attempts fail to have a matching number do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
+
+
 ---
 
 Starting Particl Desktop
 ------------------------
 
-You have two options. Either startup with the launcher icon (recommended) or with a terminal command
+You have two options. Either startup with the launcher icon (recommended) or with a terminal command.
 
 Startup with Launcher
 ~~~~~~~~~~~~~~~~~~~~~
@@ -256,7 +266,7 @@ Startup with Launcher
 Startup from Terminal
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka commandline. It gives you plenty of output and informations what is happening in the background.
+Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka commandline. It gives you plenty of output and information what is happening in the background.
 
 .. tabs::
 
@@ -349,6 +359,12 @@ After a successful installation of :term:`Particl Desktop` the main application 
 
 			"/opt/Particl Desktop/Particl Desktop"
 
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Wiki - `Backup & Restore wallet <https://particl.wiki/tutorial/security/backup-restore-wallet/>`_
+ 
 ------
 
 Install Tor (Network Privacy)

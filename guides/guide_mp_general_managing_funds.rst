@@ -87,7 +87,7 @@ Converting balances is needed if you want to switch and/or convert between the d
 .. rst-class:: bignums
 
 	#. Click on the :guilabel:`Wallet` in the dapps menu at the very left and click on the :guilabel:`Send / Convert` in the main menu. Click on the :guilabel:`Convert Public & Private` tab in the content area.
-	#. In the :guilabel:`Pay From` section, select **the source** of funds you would like to convert. In the :guilabel:`Convert To` section, select **the destination** of funds you would like to recieve.
+	#. In the :guilabel:`Pay From` section, select the source of funds you would like to convert. In the :guilabel:`Convert To` section, select the destination of funds you would like to recieve.
 	#. Type in the number of coins you want to send to your other balance and click on the :guilabel:`Make Payment` button.
 	#. Review the transaction details and click on the :guilabel:`Confirm & Send` button to start the process.
 		
