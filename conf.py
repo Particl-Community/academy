@@ -117,8 +117,12 @@ html_css_files = [
 
 html_theme_options = {
     "logo_only": True,
-    "collapse_navigation": False,
+    "collapse_navigation": True,
     "display_version": False,
+    "sticky_navigation": True,
+    "navigation_depth": 2,
+    "titles_only": False,
+    "vcs_pageview_mode": 'edit',
 }
 
 # -- Options for linkcheck --

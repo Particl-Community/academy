@@ -797,7 +797,11 @@ line-height: 1.255em;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
-padding: .4045em 3.045em;
+padding: .4045em 2.65em;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a, .wy-menu-vertical li.toctree-l4.current>a {
+padding: .4045em 3.2em;
 }
 
 /* Version selector (only visible on Read the Docs) */
