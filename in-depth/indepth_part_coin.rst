@@ -34,7 +34,7 @@ PART is an untraceable :term:`cryptocurrency` that can be sent to anyone, anywhe
 Blockchain Specifications
 -------------------------
 
-PART is the :term:`cryptocurrency` of the :term:`Particl blockchain`. It is a secure and confidential currency specifically designed to power eCommerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
+PART is the :term:`cryptocurrency` of the :term:`Particl Blockchain`. It is a secure and confidential currency specifically designed to power eCommerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
 
 PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bitcoin, many modern day improvements have been added to the code, making it faster, more private, and more flexible.
 
@@ -159,3 +159,12 @@ By adding "ring signatures" to blind balances, you obtain anon balances, the hig
 - Use anonymous smart-contracts.
 - Participate in two-party escrow transactions without sharing your information to any third-party.
 - Receive anonymous staking rewards.
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Wiki - `PART coin frequently asked questions <https://particl.wiki/support/faq/part-coin/>`_
+ - Particl Website - `PART coin specifications <https://particl.io/coin-specifications>`_
+ - Particl Website - `PART coin exchanges <https://particl.io/part-exchanges/>`_
+ - Particl Website - `Particl user guides <https://particl.io/user-guides/>`_

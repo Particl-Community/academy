@@ -158,11 +158,20 @@ To protect from this, you can create multiple wallets right from :term:`Particl 
 
 This function greatly improves your online privacy by taking the human mistake factor out of the equation and making it impossible to unwillingly "taint" transactions with addresses you'd rather keep private.
 
-.. Use Multiple User Profiles
-	~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use multiple user profiles
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	When you list products and services on Particl, they are associated to a Particl address of yours. This is what is referred to as your seller profile. When listing multiple items, they all get published under the same seller profile and, for this reason, can all be linked to the same vendor. Of course, this doesn't tell anyone anything about you, but it lets people know that some items on the marketplace are being sold by the same unknown person.
+When you list products and services on Particl, they are associated to a Particl address of yours. This is what is referred to as your seller profile. When listing multiple items, they all get published under the same seller profile and, for this reason, can all be linked to the same vendor. Of course, this doesn't tell anyone anything about you, but it lets people know that some items on the marketplace are being sold by the same unknown person.
 
-	While this is good for brand recognition and building yourself a reputation, this may not always be what you want. When that's the case, you can create an infinite number of seller profiles and use them to publish listings. 
+While this is good for brand recognition and building yourself a reputation, this may not always be what you want. When that's the case, you can create an infinite number of seller profiles and use them to publish listings. 
 
-	To do so, simply create a new market or storefront, pick what seller profile you want to use to "generate" the market, and start listing products.
+To do so, simply create a new market or storefront, pick what seller profile you want to use to "generate" the market, and start listing products.
+
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Wiki - `Privacy & Security tutorials <https://particl.wiki/tutorial/security/>`_
+
+ 

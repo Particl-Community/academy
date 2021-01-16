@@ -37,7 +37,7 @@ Earn Passive Income
 -------------------
 
 .. tip:: 
-   Pro tip: If you stake enough PART coins, your staking rewards could pay for the entirety of your listing fees! 
+   If you stake enough PART coins, your staking rewards could pay for the entirety of your listing fees! 
 
 Staking on Particl can be a great source of passive income. In fact, just by keeping your :term:`Particl Desktop` client connected to the internet, you automatically earn a yearly interest of 2% to 5% on the PART coins held in your public balance. In other words, the more PART coins you own, the more PART coins you earn. Simple enough, right?
 
@@ -124,7 +124,7 @@ Staking pools
 ^^^^^^^^^^^^^
 
 .. tip:: 
-   **Pro tip:** You can use a staking pool instead of a staking node to enable mobile and hardware staking.
+   You can use a staking pool instead of a staking node to enable mobile and hardware staking.
 
 **Pros**
 
@@ -187,3 +187,10 @@ By default, Particl Proof-of-Stake distributes its staking rewards using public 
 However, it also means anyone can trace all staking rewards and look right into your wallet. Not something you would want to happen with your bank account. 
 
 Luckily, Particl allows you control your level of staking privacy. To do so, you need to indicate to the network that you'd like to receive your staking rewards in another type of balance other than your public balance. Check out the :doc:`staking guide <../guides/guide_mp_general_enable_staking>` to see how to do it.
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Wiki - `PART coin learn staking <https://particl.wiki/learn/staking/>`_
+ - Particl Wiki - `PART coin tutorials <https://particl.wiki/tutorial/staking/>`_

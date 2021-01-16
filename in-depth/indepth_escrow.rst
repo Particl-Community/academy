@@ -120,4 +120,11 @@ Smart-contracts and automation
 
 A smart-contract is a special type of blockchain script that can accomplish tasks and execute transactions autonously just by following an immutable set of rules. This is how Particl is able to automate its two-party escrow system. Smart-contracts are programmed with a set of rules, pre-defined by the mathematical model of the MAD game theory, and they automatically tell the network when to execute payments and coordinate the security deposit refunds.
 
-Smart-contracts are how Particl's two-party escrow system is able to run on its own without requiring any human intervention or maintenance. 
+Smart-contracts are how Particl's two-party escrow system is able to run on its own without requiring any human intervention or maintenance.
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Wiki - `MAD Escrow <https://particl.wiki/learn/marketplace/mad-escrow/>`_
+ - Particl News Blog - `Particl Explained–Two-Party Escrow System <https://particl.news/particl-explained-double-deposit-mad-escrow-b3699dd29768/>`_ 

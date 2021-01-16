@@ -106,3 +106,12 @@ Keep in Mind
 
 - Because there is no way to enforce any pre-defined bans on a distributed network, you may encounter listings that you don't like from time to time. It is important that you flag these products if you believe they shouldn't be on the marketplace.
 - For your coins to count as votes, they need to be held in your :guilabel:`Public` balance. Coins held in your Anon balance won't count towards moderation votes.
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Wiki - `Community governance <https://particl.wiki/learn/marketplace/governance/>`_
+ - Particl News Blog - `Particl Explained – Decentralized Marketplace Moderation <https://particl.news/particl-explained-decentralized-marketplace-moderation-7daa3c75d5b2/>`_ 
+ - Particl News Blog - `Particl – Community Crowdfunding System <https://particl.news/new-community-crowdfunding-system-f31f54231982/>`_ 
+ 
