@@ -1,9 +1,5 @@
 @import url('../fonts/inter.css');
 
-body, html, :root {
-    font-family: 'Inter', system-ui, Arial, sans-serif;
-}
-
 /**
  * Various tweaks to the Read the Docs theme to better conform with Particl's
  * visual identity. Many colors are also overridden to use CSS variables.
@@ -37,49 +33,49 @@ body, html, :root {
     --link-color-active: #249c65;
     --link-color-visited: #792BBB;
     --hr-color: rgba(0, 0, 0, 0.06);
-    --table-row-odd-background-color: #f3f6f6;
+    --table-row-odd-background-color: rgba(0, 0, 0, 0.035);
     --code-background-color: #fff;
-    --code-border-color: rgba(0, 0, 0, 0.06);
-    --code-literal-color: #792BBB;
+    --code-border-color: rgba(0, 0, 0, 0.015);
+    --code-literal-color: rgba(121, 43, 187, 0.75);
     --input-background-color: #fcfcfc;
     --input-focus-border-color: #249c65;
     --highlight-background-color: #fff;
     --highlight-comment-color: #408090;
     --highlight-keyword-color: #007020;
-    --highlight-keyword2-color: #792BBB;
-    --highlight-number-color: #208050;
-    --highlight-decorator-color: #792BBB;
-    --highlight-type-color: #007020;
-    --highlight-type2-color: #0e84b5;
-    --highlight-function-color: #06287e;
+    --highlight-keyword2-color: rgba(121, 43, 187, 0.75);
+    --highlight-number-color: #2bbb79;
+    --highlight-decorator-color: rgba(121, 43, 187, 0.75);
+    --highlight-type-color: #2bbb79;
+    --highlight-type2-color: #000000;
+    --highlight-function-color: #1597dd;
     --highlight-operator-color: #666666;
     --highlight-string-color: #4070a0;
     --highlight-gh-color:#787878;
-    --admonition-background-color: #f3f6f6;
+    --admonition-background-color: rgba(0, 0, 0, 0.035);
     --admonition-color: #212727;
     --admonition-title-background-color: #4b5959;
     --admonition-title-color: #fff;
-    --admonition-note-background-color: #d5f5e7;
+    --admonition-note-background-color: rgba(0, 0, 0, 0.035);
     --admonition-note-color: #404040;
     --admonition-note-title-background-color: #2bbb79;
     --admonition-note-title-color: #fff;
-    --admonition-hint-background-color: rgba(20, 150, 219, 0.10);
+    --admonition-hint-background-color: rgba(0, 0, 0, 0.035);
     --admonition-hint-color: #404040;
     --admonition-hint-title-background-color: #1597dd;
     --admonition-hint-title-color: #fff;
-    --admonition-attention-background-color: #ffedcc;
+    --admonition-attention-background-color: rgba(0, 0, 0, 0.035);
     --admonition-attention-color: #404040;
     --admonition-attention-title-background-color: #f0b37e;
     --admonition-attention-title-color: #fff;
-    --admonition-danger-background-color: #fcf3f2;
+    --admonition-danger-background-color: rgba(0, 0, 0, 0.035);
     --admonition-danger-color: #404040;
     --admonition-danger-title-background-color: #E42841;
     --admonition-danger-title-color: #fff;
-    --admonition-tip-background-color: #efe5fb;
+    --admonition-tip-background-color: rgba(0, 0, 0, 0.035);
     --admonition-tip-color: #404040;
     --admonition-tip-title-background-color: #792BBB;
     --admonition-tip-title-color: #fff;
-    --admonition-seealso-background-color: #f3f6f6;
+    --admonition-seealso-background-color: rgba(0, 0, 0, 0.035);
     --admonition-seealso-color: #212727;
     --admonition-seealso-title-background-color: #4b5959;
     --admonition-seealso-title-color: #fff;
@@ -90,8 +86,8 @@ body, html, :root {
     --btn-neutral-background-color: #f3f6f6;
     --btn-neutral-hover-background-color: #e5ebeb;
     --footer-color: #808080;
-    --rst-guilabel-border-color: rgba(0, 0, 0, 0.14);
-    --rst-guilabel-background-color: rgba(0, 0, 0, 0.06);
+    --rst-guilabel-border-color: rgba(0, 0, 0, 0.065);
+    --rst-guilabel-background-color: rgba(0, 0, 0, 0.035);
     --bignums-number-background-color: #212727;
     --bignums-background-color: #f7f7f7;
 }
@@ -108,7 +104,7 @@ body, html, :root {
         --link-color-visited: #bf43fc;
         --table-row-odd-background-color: #20262d;
         --code-background-color: #212727;
-        --code-border-color: #2b3d4f;
+        --code-border-color: #3d4144;
         --code-literal-color: #faa;
         --input-background-color: #333537;
         --input-focus-border-color: #5f8cff;
@@ -125,31 +121,31 @@ body, html, :root {
         --highlight-string-color: #ffeca1;
         --highlight-gh-color:#787878;
         --admonition-background-color: #212727;
-        --admonition-color: #aaa;
+        --admonition-color: rgba(255, 255, 255, 0.65);
         --admonition-title-background-color: #2b3d4f;
         --admonition-title-color: #e2f2ff;
-        --admonition-note-background-color: #006036;
-        --admonition-note-color: #b3ffc9;
+        --admonition-note-background-color: #212727;
+        --admonition-note-color: rgba(255, 255, 255, 0.65);
         --admonition-note-title-background-color: #023c23;
         --admonition-note-title-color: #bfefff;
-        --admonition-attention-background-color: #444033;
-        --admonition-attention-color: #ffeeaf;
+        --admonition-attention-background-color:  #212727;
+        --admonition-attention-color: rgba(255, 255, 255, 0.65);
         --admonition-attention-title-background-color: #665022;
         --admonition-attention-title-color: #ffeeaf;
-        --admonition-danger-background-color: #433;
-        --admonition-danger-color: #fcc;
+        --admonition-danger-background-color: #212727;
+        --admonition-danger-color: rgba(255, 255, 255, 0.65);
         --admonition-danger-title-background-color: #633;
         --admonition-danger-title-color: #fcc;
-        --admonition-tip-background-color: #48108f;
-        --admonition-tip-color: #edd0f4;
+        --admonition-tip-background-color: #212727;
+        --admonition-tip-color: rgba(255, 255, 255, 0.65);
         --admonition-tip-title-background-color: #3a0977;
         --admonition-tip-title-color: #dfd;
-        --admonition-hint-background-color: rgba(20, 150, 219, 0.30);
-        --admonition-hint-color: #96daff;
+        --admonition-hint-background-color: #212727;
+        --admonition-hint-color: rgba(255, 255, 255, 0.65);
         --admonition-hint-title-background-color: rgba(21, 151, 221, 0.5);
         --admonition-hint-title-color: #daf1fc;
         --admonition-seealso-background-color: #212727;
-        --admonition-seealso-color: #aaa;
+        --admonition-seealso-color: rgba(255, 255, 255, 0.65);
         --admonition-seealso-title-background-color: #2b3d4f;
         --admonition-seealso-title-color: #e2f2ff;
         --kbd-background-color: #595b5d;
@@ -159,7 +155,7 @@ body, html, :root {
         --btn-neutral-background-color: #404040;
         --btn-neutral-hover-background-color: #505050;
         --footer-color: #aaa;
-        --hr-color: #2b3d4f;
+        --hr-color: rgba(255, 255, 255, 0.1);
         --rst-guilabel-border-color: #2bbb79;
         --rst-guilabel-background-color: rgba(0, 0, 0, 0.06);
         --bignums-number-background-color:#2bbb79;
@@ -167,6 +163,7 @@ body, html, :root {
     }
 }
 
+html,
 body,
 h1,
 h2,
@@ -183,12 +180,12 @@ legend,
 .btn,
 .rst-content .toctree-wrapper p.caption,
 .rst-versions {
-    font-family: 'Inter', system-ui, sans-serif;
+     font-family: 'Inter', system-ui, Arial, sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', system-ui, sans-serif }
-  body,
+html,
+body,
 h1,
 h2,
 h3,
@@ -204,7 +201,7 @@ legend,
 .btn,
 .rst-content .toctree-wrapper p.caption,
 .rst-versions {
-    font-family: 'Inter var', system-ui, sans-serif;
+     font-family: 'Inter var', system-ui, Arial, sans-serif;
 }
 }
 
@@ -244,6 +241,10 @@ color: var(--heading-color);
 
 h3 {
     font-size:110%;
+}
+
+h4 {
+    font-size:95%;
 }
 
 p {
@@ -323,6 +324,10 @@ hr,
     border-color: var(--hr-color);
 }
 
+html.writer-html5 .rst-content table.docutils th {
+    border: 1px solid var(--code-border-color);
+}
+
 /* Doesn't seem to be used on Read the Docs online builds, but is present when building locally */
 .rst-content dl:not(.docutils, .simple) dt {
     background-color: var(--admonition-note-background-color);
@@ -373,7 +378,7 @@ content: "\f196";
 content: "\f147";
 }
 
-.rst-content .guilabel {
+.rst-content .guilabel, .kbd {
     border-color: var(--rst-guilabel-border-color);
     background: var(--rst-guilabel-background-color);
     font-size: 80%;
@@ -437,12 +442,16 @@ code,
 
 .rst-content tt.literal,
 .rst-content code.literal {
-    color: var(--highlight-gh-color);
+    color: var(--body-color);
 }
 
 .rst-content div[class^="highlight"] {
-    border-color: var(--hr-color);
-    background-color: var(--code-border-color);
+    border-color: var(--code-border-color);
+    background-color: var(--content-wrap-background-color);
+}
+
+.rst-content .bignums div[class^="highlight"], .rst-content .admonition div[class^="highlight"] {
+    background-color: var(--code-background-color);
 }
 
 .rst-content pre.literal-block,
@@ -603,7 +612,7 @@ color: var(--highlight-gh-color);
     color: var(--admonition-tip-title-color);
 }
 
-/* Keyboard shortcuts tweaks */
+/* Keyboard shortcuts tweaks
 kbd, .kbd {
     background-color: var(--kbd-background-color);
     border: 1px solid var(--kbd-outline-color);
@@ -616,6 +625,40 @@ kbd, .kbd {
     padding: .25rem .35rem;
     font-weight: bold;
     vertical-align: middle;
+}
+*/
+.kbdf {
+    background-color: var(--kbd-background-color);
+    border: 1px solid var(--kbd-outline-color);
+    border-radius: .20rem;
+    /*box-shadow: inset 0 -1px 0 var(--kbd-shadow-color);*/
+    box-shadow: initial;
+    color: var(--kbd-text-color);
+    display: inline-block;
+    font-size: .75rem;
+    line-height: .35rem;
+    padding: .45rem .45rem;
+    font-weight: normal;
+    vertical-align: middle;
+    text-transform: uppercase;    
+}
+.kbd {
+    text-transform: uppercase;
+    background-color: var(--kbd-background-color);
+    border: 1px solid var(--kbd-outline-color);
+    position: relative;
+    top: -0.02em;
+    display: inline-block;
+    font-family: "Inter Var" !important;
+}
+
+.kbd > * {
+    border: none;
+    padding: initial;
+    background-color: var(--kbd-background-color);
+    border-radius: initial;
+    box-shadow: initial;
+    font-size: 100%;
 }
 
 /* Buttons */
@@ -983,7 +1026,7 @@ min-height: 3rem;
 font-size: 1.10rem;
 display: block;
 position: absolute;
-top: .75rem;
+top: .7rem;
 left: 1rem;
 height: 2em;
 width: 2em;
