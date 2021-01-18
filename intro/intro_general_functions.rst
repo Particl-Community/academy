@@ -197,3 +197,10 @@ Messaging
 .. tip::
    
    Particl developers are currently building an in-app messaging and chat system.
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Website - `Particl's Roadmap <https://particl.io/roadmap/>`_
+ - Particl Website - `Particl's Achievements <https://particl.io/assets/documents/Particl-Achievement_timeline-Aug_2020.pdf>`_

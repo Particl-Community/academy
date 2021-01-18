@@ -1,5 +1,4 @@
-General Marketplace FAQ
------------------------
+**General Marketplace FAQ**
 
 .. container:: toggle
 

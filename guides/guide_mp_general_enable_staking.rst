@@ -2,17 +2,21 @@
 Staking Rewards
 ===============
 
-.. note::
-	To learn more about staking, different options, and how you can earn dividend-like payments, check out the :ref:`Staking Explained` in-depth guide.
+In exchange for the help provided by your staking :term:`node`, the :term:`Particl Network` pays you an interest in dividend-like payments proportional to the number of PART coins you own.
 
-When you're staking your Particl coins, it means your computer (referred to as a "staking :term:`node`") is helping the network by validating transactions. This task is fully automated and doesn't require you to do any manual work. In exchange for the help provided by your staking :term:`node`, the :term:`Particl Network` pays you an interest in dividend-like payments proportional to the number of PART coins you own. The minimum yearly interest you can earn on your PART coins is 2%, although that typically fluctuates between 2% and 5% depending on how many people are staking on the network.
-
-Enabling staking is pretty straight-forward, but some of the staking solutions can be a bit more complicated to set up. Rest assured, this user guide will make sure you can enable any of the staking options available to you without too much hassle. Just carefully follow the steps below and start earning staking rewards in just a few minutes.
+When you're staking your Particl coins, it means your computer (referred to as a "staking :term:`node`") is helping the network by validating transactions. This task is fully automated and doesn't require you to do any manual work.  The minimum yearly interest you can earn on your PART coins is 2%, although that typically fluctuates between 2% and 5% depending on how many people are staking on the network.
 
 .. contents:: Table of Contents
    :local:
    :backlinks: none
    :depth: 2
+
+.. seealso::
+
+ To understand the concept of staking in full, feel invited to read the deep-dive document
+ :doc:`Staking Explained <../in-depth/indepth_staking>`.
+
+Enabling staking is pretty straight-forward, but some of the staking solutions can be a bit more complicated to set up. Rest assured, this user guide will make sure you can enable any of the staking options available to you without too much hassle. Just carefully follow the steps below and start earning staking rewards in just a few minutes.
 
 **Requirements**
 
@@ -252,3 +256,11 @@ If you want to uninstall the script, enter this command.
 		.. code-block:: bash
 
 			cd ~/Private-Colstaking && ./uninstall.sh
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Academy - :doc:`Staking Explained <../in-depth/indepth_staking>`
+ - Particl Wiki - `PART coin learn staking <https://particl.wiki/learn/staking/>`_
+ - Particl Wiki - `PART coin tutorials <https://particl.wiki/tutorial/staking/>`_

@@ -2,11 +2,13 @@
 Sell Process
 ============
 
-The selling process of :term:`Particl Marketplace` gives you more privacy, security, and censorship resistance than any other online marketplace and is entirely free to use except for the tiny sub-cent transaction fees usually associated with :term:`cryptocurrency` transactions. **The price to pay for these previously impossible benefits is that you are required to do things a bit differently than what you are used to.**
+.. meta::
+      
+      :description lang=en: Understanding the sellflow on Particl Marketplace. The marketplace owned by the people. 
+
+The selling process of :term:`Particl Marketplace` gives you more privacy, security, and censorship resistance than any other online marketplace and is entirely free to use except for the tiny sub-cent transaction fees usually associated with :term:`cryptocurrency` transactions. The price to pay for these previously impossible benefits is that you are required to do things a bit differently than what you are used to.
 
 Rest assured, it's not complicated at all. Just follow this quick user guide and you'll be up to speed in no time!
-
-The entire process of selling a product, from A to Z, can be seen in this walkthrough tutorial video.
 
 .. raw:: html
 
@@ -21,44 +23,38 @@ The entire process of selling a product, from A to Z, can be seen in this walkth
 
 
 Publish Items
-------------------
+-------------
 
 .. attention::
 
    To put an item for sale on Particl, you need to have PART coins in your :guilabel:`Public` or :guilabel:`Anon` balance so that you can pay for the listing fees. Funds in your :guilabel:`Anon` balance are also required to make security deposits into escrow contracts (which is equal to the value of any item purchased by a buyer).
 
-To make a sale on Particl, you need to first put items up for sale. There are many ways to create listings on Particl. The right way **for you** depends on your requirements.
+To make a sale on Particl, you need to first put items up for sale. There are many ways to create listings on Particl. The right way for you depends on your requirements.
 
 Publish a Single Item
 ~~~~~~~~~~~~~~~~~~~~~
 
 If you only want to list a single item, then simply follow these steps.
 
-Navigate to the right location
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. rst-class:: bignums
-
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your :term:`Particl Desktop` client.
-  #. Click on the :guilabel:`Inventory & Products` tab, and then on the :guilabel:`New` button.
-
 Create a listing template
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. rst-class:: bignums
 
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products` followed by the :guilabel:`New` button.
   #. Fill up all the text boxes with the information on your listing and upload a (or multiple) pictures of your product or service.
-  #. Choose on which market you want to publish your listing (:term:`Open Market`, a storefront of yours, or user markets).
-  #. Choose the right category for your item.
+  #. Click on :guilabel:`Publish right away` tile to select on which market you want to publish your listing an set the right category for your item accordingly.
 
 If you want to publish now
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. rst-class:: bignums
 
-  #. Click on the :guilabel:`Save and Publish` button and choose for how long you want your listing to be listed.
+  #. Click on the :guilabel:`Save and Publish` button and choose the duration time for the item's listing.
   #. Click on :guilabel:`Publish Listing`.
-  #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the :term:`Particl Marketplace`.
+
+.. hint::
+  After one (1) blockchain confirmation (approximately 2 minutes) your listing will be live on the previously selected market(s).
 
 If you want to publish later
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,25 +63,27 @@ Instead of publishing your listing immediately, you can save its template for la
 
 .. rst-class:: bignums
 
-  #. To publish a listing after it's been saved, navigate to the :guilabel:`Inventory & Products` tab of the :guilabel:`SELL` page.
-  #. Locate your saved listing and click on its tile to expand the details. Its status will show as :guilabel:`Listing unpublished`.
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate your saved listing and click on its tile to expand the details. Its status will show as :guilabel:`Listing unpublished`.
   #. You can still edit the listing by clicking on the  :guilabel:`Edit` button, or publish it by clicking the :guilabel:`Publish` icon (rocket).
   #. You can also publish your listing in other user markets or storefronts by clicking on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
   #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
-  #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the :term:`Particl Marketplace`.
+
+.. hint::
+  After one (1) blockchain confirmation (approximately 2 minutes) your listing will be live on the previously selected market(s).
 
 If you want to publish on multiple markets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also publish your listing on multiple user markets and storefronts. 
+You can also publish your listing on multiple user markets and storefronts. This option is only available if you have joined additional markets with publishing rights.
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`Inventory & Products` tab of the :guilabel:`SELL` page and locate the listing you want to publish on other user markets and click on its tile to expand the details.
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate the listing you want to publish on other user markets and click on its tile to expand the details.
   #. Click on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
   #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
-  #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listing will be live on the user market you've selected.
-  #. From this moment, a new market will be connected to your listing template. Repeat these steps for all user markets you want to publish your listing on.
+
+.. hint::
+  After one (1) blockchain confirmation (approximately 2 minutes) your listing will be live on the previously selected market(s). From this moment, a new market will be connected to your listing template. Repeat these steps for all user markets you want to publish your listing on.
 
 Publish Multiple Items at Once
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,36 +99,28 @@ The first step of the process is to import your inventory into :term:`Particl De
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your :term:`Particl Desktop` client.
-  #. Click on the :guilabel:`Inventory & Products` tab, and then on the :guilabel:`Import` button.
-  #. Import your CSV file by clicking on the :guilabel:`Choose file` button of the :guilabel:`IMPORT FROM CSV FILE` section and click on the :guilabel:`Process CSV import` button to process your inventory.
-  #. Your :term:`Particl Desktop` will create one listing template per item. Review each template and, if needed, click on their tiles to expand and edit their details.
-  #. When you're ready, click on the :guilabel:`Import & Save` button to create your listing templates
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products` followed by a click on the :guilabel:`Import` button.
+  #. To process your inventory, import your CSV file by clicking on the :guilabel:`Choose file` button of the :guilabel:`IMPORT FROM CSV FILE` section and click on the :guilabel:`Process CSV import` button.
+  #. One listing template per item will be created. Review each template and, if needed, click on their tiles to expand and edit their details.
+  #. Click :guilabel:`Import & Save` to create your listing templates.
 
-No CSV inventory file yet?
-""""""""""""""""""""""""""
+.. tip::
 
-.. rst-class:: bignums
-
-  #. Click on :guilabel:`CSV example template` hyperlink located in the :guilabel:`IMPORT FROM CSV FILE` section of the page.
-  #. Save the CSV template on your computer.
-  #. Open it with a spreadsheet editor (i.e. Excel, LibreOffice, etc).
-  #. Add as many products as you want following the template's model.
+ You can download a :file:`.csv` template file from the :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products` -> :guilabel:`Import` section after selecting :guilabel:`CSV file` as source.
 
 
-Publish your listing templates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(Re)Publish your listing templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The second step of the process is to publish the listing templates you've just created on the :term:`Open Market` or on a user market.
+The second step of the process is to publish the listing templates you've just created.
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your :term:`Particl Desktop` client.
-  #. Click on the :guilabel:`Inventory & Products` tab, and then on the :guilabel:`Batch (Re)publish...` button.
-  #. Select on which market or storefront you want to publish your listings by selecting it from the :guilabel:`PUBLISH TO` dropdown menu.
-  #. Select for how long you want your listings to be available by selecting the right number of days from the :guilabel:`PUBLISH DURATION` dropdown menu.
-  #. Indivudually choose the items you want to publish by clicking their :guilabel:`Publish` checkboxes or by selecting :guilabel:`Select all` in the :guilabel:`SELECT...` dropdown menu. 
-  #. When ready to publish your listings, click on :guilabel:`Publish selected products` and wait for :term:`Particl Desktop` to publish your listings. A progress bar at the bottom of the screen indicates the progress.
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products` followed by a click on the :guilabel:`Batch (Re)publish...` button.
+  #. Click :guilabel:`PUBLISH TO` to select on which markets you want to publish your listings.
+  #. Click :guilabel:`PUBLISH DURATION` to select for how long you want your listings to be available.
+  #. Click their :guilabel:`Publish` checkboxes or hit :guilabel:`Select all` in the :guilabel:`SELECT...` dropdown menu to individually choose the items you want to publish.  
+  #. Click on :guilabel:`Publish selected products` and wait for :term:`Particl Desktop` to publish your listings. A progress bar at the bottom of the screen indicates the progress.
 
 .. Import WooCommerce Inventory
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,34 +166,25 @@ Accept a Bid
 
 .. attention::
 
-	**For your** :term:`Particl Desktop` **client to receive any bid from buyers, it needs to be unlocked**. New orders won't show up in your :guilabel:`Orders` page until you unlock your wallet using your password. To do so, simply click on the padlock icon at the top right corner of your client.
+	For your :term:`Particl Desktop` client to receive any bid from buyers, it needs to be online and unlocked. New orders won't show up in your :guilabel:`Orders` or :guilabel:`Overview` until you unlock your wallet. To do so, click on the padlock icon within the status icons bar at the top right corner.
 
 When a buyer wants to buy something you're selling, they'll place a bid. To initiate a marketplace transaction with them, you must first accept the bid. Accepting a bid indicates to your buyer that you are accepting his order.
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your :term:`Particl Desktop` client.
-  #. Click on the :guilabel:`Seller Orders` tab.
-  #. In the :guilabel:`FILTER` section, you can check :guilabel:`Orders requiring attention` to only see orders that requires your attention or filter them by status.
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check the :guilabel:`Orders requiring attention` checkbox to only see orders that require your attention or filter them by status.
   #. Look for any new order marked as :guilabel:`BIDDING`.
   #. Click on the order's tile to expand its details and accept it by clicking on the :guilabel:`Accept bid` button.
 
 Make the Security Deposit
 -------------------------
 
-.. note::
-
-   Want to learn more about Particl's two-party escrow system and how it keeps you and your funds safe? Then just visit the :doc:`Two-party Escrow in-depth page <../in-depth/indepth_escrow>` to know all about it!
-
 Once you accept your buyer's order, they will be required to send their payment as well as a security deposit (equal to the cost of the item + shipping) into an escrow smart-contract. Once that happens, you will be prompted to also lock a security deposit equal to the value of your buyer's order.
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your :term:`Particl Desktop` client.
-  #. Click on the :guilabel:`Your Orders` tab.
-  #. In the :guilabel:`FILTER` section, you can check :guilabel:`Orders requiring attention` to only see orders that requires your attention or filter them by status.
-  #. Look for any order marked as :guilabel:`ESCROW PENDING`.
-  #. Click on the order's tile to expand its details and make your security deposit by clicking on the :guilabel:`Complete escrow` button.
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
+  #. Look for any order marked as :guilabel:`ESCROW PENDING`, click on the order's tile to expand its details and make your security deposit by clicking on the :guilabel:`Complete escrow` button.
 
 Package and Shipping an Order
 -----------------------------
@@ -213,22 +194,26 @@ After making your security deposit into the two-party escrow contract, you will 
 .. rst-class:: bignums
 
   #. Package and ship out your item. 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your :term:`Particl Desktop` client and click on the :guilabel:`Your Orders` tab.
-
-      - In the :guilabel:`FILTER` section, you can check :guilabel:`Orders requiring attention` to only see orders that requires your attention or filter them by status.
-  #. Look for any order marked as :guilabel:`PACKAGING` and click on the its tile to expand its details and click on the :guilabel:`Mark as shipped` button.
-  #. You can optionally enter a tracking number or note for your buyer, or can leave that space blank if not needed. 
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
+  #. Look for any order marked as :guilabel:`PACKAGING`, click on the tile to expand its details, add a package tracking number if needed, and click on the :guilabel:`Mark as shipped` button.
   #. Click on the :guilabel:`Order shipped` button to confirm that you have shipped the item. 
 
 Receive and Verifying Payment
 -----------------------------
 
-Once your package is shipped, keep an eye out for your payment. Once your buyer receives their order and marks the transaction has complete, you will receive your security deposit back as well as the full payment for the order, at no fee.
+Once your package is shipped, keep an eye out for your payment. Once your buyer receives their order and marks the transaction as complete, you will receive your security deposit back as well as the full payment for the order, at no fee.
 
 .. rst-class:: bignums
 
-  #. Navigate to the :guilabel:`SELL` page of the market menu on the left of your :term:`Particl Desktop` client and click on the :guilabel:`Your Orders` tab.
-  #. In the :guilabel:`FILTER BY STATUS` section, you can check :guilabel:`Complete` to only see orders that have been completed.
-  #. Click on the order's tile to expand its details and see the date and time it was completed.
-  #. Navigate to the :guilabel:`HISTORY` page and click on the `Received` tab.
-  #. Find the transaction based on the date and time at which point the order was completed to verify that you've succesfully received your payment.
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
+  #. Check :guilabel:`Complete` to only see orders that have been completed, click on the order's tile to expand its details and see the date and time it was completed.
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Particl Academy - :doc:`Two-Party Escrow Explained <../in-depth/indepth_escrow>`
+ - Particl Wiki - `Marketplace Fees <https://particl.wiki/learn/marketplace/fees/>`_
+ - Particl Website - `Particl's Roadmap <https://particl.io/roadmap/>`_
+
+.. include:: ../faq/faq_mp_vendors_overview.rst.txt

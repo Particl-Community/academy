@@ -95,7 +95,6 @@ Installation process
 	 		#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :term:`Particl Desktop`.
 	 		#. Assign rules to your computer`s firewall to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
 
-
 	 .. group-tab:: Mac
 
 	 	**MacOS installation**
@@ -212,7 +211,6 @@ Once that is done, compare the checksum output you've received in the step above
 
     Particl Marketplace installation checksum highlighted image
 
-
 **Troubleshooting checksum mismatch**
 
 If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own in that case.
@@ -220,9 +218,6 @@ If the output does not match, try to download the file again. Verify that you di
 .. attention::
 	
 	If all attempts fail to have a matching number do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
-
-
----
 
 Starting Particl Desktop
 ------------------------
@@ -309,9 +304,6 @@ Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka
 
 					./Particl\ Desktop
 
-
-------
-
 Backup Account and Data
 =======================
 
@@ -364,8 +356,6 @@ After a successful installation of :term:`Particl Desktop` the main application 
  Other sources for useful or more in-depth information:
 
  - Particl Wiki - `Backup & Restore wallet <https://particl.wiki/tutorial/security/backup-restore-wallet/>`_
- 
-------
 
 Install Tor (Network Privacy)
 =============================
@@ -390,7 +380,6 @@ To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the
 To do so, follow this tutorial on `how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the :term:`Tor` team itself.	
 
 The :term:`Tor` network can be installed using three different methods. Always make sure that, regardless of the installation method you choose, :term:`Tor` is running the latest version before using it.
-
 
 Using the Tor Browser
 ~~~~~~~~~~~~~~~~~~~~~
@@ -503,7 +492,7 @@ On linux, you can also run :term:`Tor` as a hidden service and connect your :ter
 			HiddenServiceDir /var/lib/tor/particl-service/
 			HiddenServicePort 51738 127.0.0.1:51738
 
-		Save and exit the nano file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
+		Save and exit the nano file editor by pressing :kbd:`CTRL+c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
 
 	#. Restart :term:`Tor` by typing into the terminal 
 	
@@ -672,3 +661,5 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 	 				sudo apt update && sudo apt-upgrade
 
 	 	Depending on your linux flavor this command may vary. There are multiple package-managers out there, but their usage is quite the same.
+
+

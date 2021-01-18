@@ -1,9 +1,4 @@
-===========
-Vendors FAQ
-===========
-
-Listings for Vendors
-^^^^^^^^^^^^^^^^^^^^
+**Vendor's Frequently Asked Questions**
 
 .. container:: toggle
 
@@ -77,8 +72,7 @@ Listings for Vendors
 
     Listing fees are determined by two factors — the expiry time of the listing and its size. Depending on the number of days you want to list a product as well as the size of its listing description, listing fees will vary. 
 
-Sell Orders for Vendors
-^^^^^^^^^^^^^^^^^^^^^^^
+**Vendor's Frequently Asked Questions For Sell Orders**
 
 .. container:: toggle
 

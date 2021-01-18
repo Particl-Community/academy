@@ -1,5 +1,4 @@
-General
--------
+**General Support Questions**
 
 .. container:: toggle
 

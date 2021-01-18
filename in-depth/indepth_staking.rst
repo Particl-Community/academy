@@ -36,10 +36,10 @@ PPoS Quick Facts
 Earn Passive Income
 -------------------
 
+Staking on Particl can be a great source of passive income. In fact, just by keeping your :term:`Particl Desktop` client connected to the internet, you automatically earn a yearly interest of 2% to 5% on the PART coins held in your public balance. In other words, the more PART coins you own, the more PART coins you earn. Simple enough, right?
+
 .. tip:: 
    If you stake enough PART coins, your staking rewards could pay for the entirety of your listing fees! 
-
-Staking on Particl can be a great source of passive income. In fact, just by keeping your :term:`Particl Desktop` client connected to the internet, you automatically earn a yearly interest of 2% to 5% on the PART coins held in your public balance. In other words, the more PART coins you own, the more PART coins you earn. Simple enough, right?
 
 What's a staking reward?
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -123,9 +123,6 @@ That means you can store your coins in a cold wallet, a hardware device (i.e. a 
 Staking pools
 ^^^^^^^^^^^^^
 
-.. tip:: 
-   You can use a staking pool instead of a staking node to enable mobile and hardware staking.
-
 **Pros**
 
 - Can be activated effortlessly.
@@ -140,6 +137,9 @@ Staking pools
 To earn more frequent but smaller rewards, you can team up with other stakers by joining a staking pool and combine your staking power. Whenever the pool validates a block with the full staking power of all its stakers, it receives a staking reward. All of the staking rewards collected by the pool are then proportionally redistributed to its members according to their contribution to the pool's staking power. In other words, if you stake in a staking pool and own 10% of all its staking power, then you will receive 10% of all its staking revenue, minus the pool fee.
 
 Staking pools are safe to use as the pool operator cannot run away with any of the staker's funds. It is ideal if you hold a small number of PART coins. It's also super convenient as it can be set up in just under a minute and doesn't require you to set up an external staking node cold staking does.
+
+.. tip:: 
+   You can use a staking pool instead of a staking node to enable mobile and hardware staking.
 
 Hardware Staking
 ^^^^^^^^^^^^^^^^
@@ -192,5 +192,6 @@ Luckily, Particl allows you control your level of staking privacy. To do so, you
 
  Other sources for useful or more in-depth information:
 
+ - Particl Academy - :doc:`Enable Staking <../guides/guide_mp_general_enable_staking>`.
  - Particl Wiki - `PART coin learn staking <https://particl.wiki/learn/staking/>`_
  - Particl Wiki - `PART coin tutorials <https://particl.wiki/tutorial/staking/>`_

@@ -1,9 +1,4 @@
-=========
-Buyer FAQ
-=========
-
-Buy Orders
-^^^^^^^^^^
+**Customer's Frequently Asked Questions**
 
 .. container:: toggle
 

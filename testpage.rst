@@ -167,11 +167,11 @@ Keystrokes
 
 Mark a sequence of keystrokes
 
-:kbd:`cmd` + :kbd:`s`
+:kbd:`cmd` + :kbd:`s` || :kbd:`cmd+s` followed by :kbd:`y`
 
 .. code-block:: rst
 
-    :kbd:`cmd` + :kbd:`s`
+    :kbd:`cmd` + :kbd:`s` || :kbd:`cmd+s` followed by :kbd:`y`
 
 GUI Labels
 ----------
