@@ -119,5 +119,4 @@ Sometimes, other users may flag community markets that you believe should remain
 
 .. hint::
 
-  The number of coins you hold in your :guilabel:`Public` balance will now be used as upvotes for this user market. As long as the markets overall moderation score doesn't go below |Threshold|, the market will remain on the :term:`Particl Network`.
-  
+  The number of coins you hold in your :guilabel:`Public` balance will now be used as upvotes for this community market. As long as the markets overall moderation score doesn't go below |Threshold|, the market will remain on the :term:`Particl Network`.

@@ -65,7 +65,7 @@ Instead of publishing your listing immediately, you can save its template for la
 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate your saved listing and click on its tile to expand the details. Its status will show as :guilabel:`Listing unpublished`.
   #. You can still edit the listing by clicking on the  :guilabel:`Edit` button, or publish it by clicking the :guilabel:`Publish` icon (rocket).
-  #. You can also publish your listing in other user markets or storefronts by clicking on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
+  #. You can also publish your listing in other community markets or storefronts by clicking on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
   #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
 
 .. hint::
@@ -74,16 +74,16 @@ Instead of publishing your listing immediately, you can save its template for la
 If you want to publish on multiple markets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also publish your listing on multiple user markets and storefronts. This option is only available if you have joined additional markets with publishing rights.
+You can also publish your listing on multiple community markets and storefronts. This option is only available if you have joined additional markets with publishing rights.
 
 .. rst-class:: bignums
 
-  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate the listing you want to publish on other user markets and click on its tile to expand the details.
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate the listing you want to publish on other community markets and click on its tile to expand the details.
   #. Click on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
   #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
 
 .. hint::
-  After one (1) blockchain confirmation (approximately 2 minutes) your listing will be live on the previously selected market(s). From this moment, a new market will be connected to your listing template. Repeat these steps for all user markets you want to publish your listing on.
+  After one (1) blockchain confirmation (approximately 2 minutes) your listing will be live on the previously selected market(s). From this moment, a new market will be connected to your listing template. Repeat these steps for all community markets you want to publish your listing on.
 
 Publish Multiple Items at Once
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

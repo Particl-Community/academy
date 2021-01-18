@@ -124,7 +124,7 @@ Public balances let you make Bitcoin-like public transactions. These transaction
 - Send and receive payments.
 - Earn PART coins by staking the coins in your public balance.
 - Pay for listing fees on the marketplace.
-- Promote user markets and storefronts on the Market Browser.
+- Promote community markets and storefronts on the Market Browser.
 - Participate in the marketplace's moderation system.
 - Use smart-contracts.
 - Receive regular staking rewards.

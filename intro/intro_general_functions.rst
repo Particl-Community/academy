@@ -98,14 +98,14 @@ Particl's :term:`Open Market` allows you to buy and sell products and services o
 Markets and Storefronts
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Additionally to the :term:`Open Market`, you can also create an infinite number of markets and storefronts. Each user market is hosted on the Particl network, along with the :term:`Open Market`, and can easily be connected to using :term:`Particl Desktop`.
+Additionally to the :term:`Open Market`, you can also create an infinite number of markets and storefronts. Each community market is hosted on the Particl network, along with the :term:`Open Market`, and can easily be connected to using :term:`Particl Desktop`.
 
 - Markets and storefronts offer the same functionalities as the :term:`Open Market`, but with a few extras.
-- Markets and storefronts are two different types of market, but are both usually referred to as "user markets".
+- Markets and storefronts are two different types of market, but are both usually referred to as "community markets".
 
    - **Markets:** A market type where anyone with access to it can buy and sell on. 
    - **Storefronts:** A market type where anyone can buy stuff, but only its creator and the people he delegates can sell on.
-- User markets can be joined by anyone that knows their Market ID or by browsing the Market Browser.
+- Community markets can be joined by anyone that knows their Market ID or by browsing the Market Browser.
 - Markets do not automatically show up in the Market Browser right after being created. They have to be manually promoted to it by its creator if they wish to gain additional exposure.
 
 The userguide can be found at :ref:`Markets & Storefronts`. 
@@ -113,9 +113,9 @@ The userguide can be found at :ref:`Markets & Storefronts`.
 Market Browser
 ~~~~~~~~~~~~~~
 
-The Market Browser is where you can explore various different user markets and join them. It is a list of all promoted markets and storefronts.
+The Market Browser is where you can explore various different community markets and join them. It is a list of all promoted markets and storefronts.
 
-- See all the user markets that have been promoted to the Market Browser by their creators.
+- See all the community markets that have been promoted to the Market Browser by their creators.
 - Flag undesirable markets and vote on markets flagged by other people.
 
 Inventory Management
@@ -126,7 +126,7 @@ Inventory Management
 - Listing templates are reused everytime you want to republish an item on the marketplace.
 - When a listing expires, the listing template saves its comments, feedback, and Q&A.
 - When a listing expires, it keeps its moderation score.
-- Listing templates can push listings on multiple user markets and storefronts
+- Listing templates can push listings on multiple community markets and storefronts
 
 Two-Party Escrow System
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -151,7 +151,7 @@ To moderate the content of the marketplace, Particl relies on a distributed mode
 - No central authority or group of users with special permissions involved.
 - Your voting power is determined by the number of coins you own in your :guilabel:`Public` balance.
 - One coins equals one vote.
-- Both listings and user markets can be flagged and taken off Particl if deemed undesirable.
+- Both listings and community markets can be flagged and taken off Particl if deemed undesirable.
 - Moderation model based on the concept of direct democracy.
 - The system is based on blockchain technology and cannot be cheated.
 
