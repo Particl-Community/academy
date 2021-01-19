@@ -4,11 +4,9 @@ Welcome to the Particl Academy
 ==============================
 
 .. meta::
-   :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with :term:`Particl Marketplace`.
-
+   :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace. Thanks to blockchain technology.
 
 Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with |PM|. It is the reference book in straightforward language. If you are looking for the technical details, the `Particl Wiki <https://particl.wiki/>`_ is the right place to go.
-
 
 Introduction
 ============
