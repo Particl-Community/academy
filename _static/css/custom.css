@@ -1209,9 +1209,10 @@ kbd, .kbd {
 
 #glossary dt {
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--link-color);
     border: none;
     border-left: inherit;
     background: inherit;
+    padding-left:0;
 }
