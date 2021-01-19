@@ -262,5 +262,6 @@ If you want to uninstall the script, enter this command.
  Other sources for useful or more in-depth information:
 
  - Particl Academy - :doc:`Staking Explained <../in-depth/indepth_staking>`
- - Particl Wiki - `PART coin learn staking <https://particl.wiki/learn/staking/>`_
- - Particl Wiki - `PART coin tutorials <https://particl.wiki/tutorial/staking/>`_
+ - Particl Wiki - `Learn staking <https://particl.wiki/learn/staking/>`_
+ - Particl Wiki - `Tutorials <https://particl.wiki/tutorial/staking/>`_
+
