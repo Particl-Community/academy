@@ -253,6 +253,11 @@ p {
     margin-bottom: .8rem;
 }
 
+b, strong {
+font-weight: 700;
+color: var(--heading-color);
+}
+
 dl, ol, ul, article ul,
 article ol,
 .wy-plain-list-disc,
@@ -311,6 +316,11 @@ a span.xref {
     font-weight: 200;
     margin: 1.055em 0em;
     line-height: 2.1rem;
+    color: var(--heading-color);
+}
+
+.achievement a, .achievment a span.xref {
+    color: var(--heading-color);
 }
 
 .bigmessage {
@@ -329,7 +339,7 @@ html.writer-html5 .rst-content table.docutils th {
 }
 
 /* Doesn't seem to be used on Read the Docs online builds, but is present when building locally */
-.rst-content dl:not(.docutils, .simple) dt {
+.rst-content dl:not(.docutils, .simple, .glossary) dt {
     background-color: var(--admonition-note-background-color);
     border-color: var(--admonition-note-title-background-color);
     color: var(--admonition-note-color);
@@ -345,7 +355,7 @@ html.writer-html5 .rst-content table.docutils th {
     line-height: 1.6rem;
 }
 
-.rst-content dl:not(.docutils) dl dt {
+.rst-content dl:not(.docutils, .simple, .glossary) dl dt {
     margin-bottom: 6px;
     border: none;
     border-left: inherit;
