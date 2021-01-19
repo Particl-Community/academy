@@ -353,7 +353,7 @@ a {
     color: var(--link-color) !important;
 }
 
-a:hover {
+a:not(.btn):hover {
     color: var(--link-color-hover);
     text-decoration: none;
     border-bottom: 1px dotted;
