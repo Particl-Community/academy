@@ -22,10 +22,12 @@ Take your first few steps with understanding |PM|:
    intro/intro_general_particlmarketplace
    intro/intro_general_essentials
    intro/intro_general_functions
+   intro/intro_obtaining_part
 
 * :doc:`What's Particl Marketplace <intro/intro_general_particlmarketplace>`
 * :doc:`Understanding Essentials <intro/intro_general_essentials>`
 * :doc:`Particl Marketplace Functions <intro/intro_general_functions>`
+* :doc:`Obtaining PART <intro/intro_obtaining_part>`
 
 Installation & Usage
 ====================
