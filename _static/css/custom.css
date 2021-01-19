@@ -9,10 +9,10 @@
  * Attribution: docs.godotengine.org;
  */
 
- /* Default (light) theme colors */
+/* Default (light) theme colors */
 
- :root {
-    --body-color: rgba(33,39,39,0.8);
+:root {
+    --body-color: rgba(33, 39, 39, 0.8);
     --heading-color: #343131;
     --content-wrap-background-color: #f7f7f7;
     --content-background-color: #fcfcfc;
@@ -50,7 +50,7 @@
     --highlight-function-color: #1597dd;
     --highlight-operator-color: #666666;
     --highlight-string-color: #4070a0;
-    --highlight-gh-color:#787878;
+    --highlight-gh-color: #787878;
     --admonition-background-color: rgba(0, 0, 0, 0.035);
     --admonition-color: #212727;
     --admonition-title-background-color: #4b5959;
@@ -119,7 +119,7 @@
         --highlight-function-color: #57b3ff;
         --highlight-operator-color: #abc8ff;
         --highlight-string-color: #ffeca1;
-        --highlight-gh-color:#787878;
+        --highlight-gh-color: #787878;
         --admonition-background-color: #212727;
         --admonition-color: rgba(255, 255, 255, 0.65);
         --admonition-title-background-color: #2b3d4f;
@@ -128,7 +128,7 @@
         --admonition-note-color: rgba(255, 255, 255, 0.65);
         --admonition-note-title-background-color: #023c23;
         --admonition-note-title-color: #bfefff;
-        --admonition-attention-background-color:  #212727;
+        --admonition-attention-background-color: #212727;
         --admonition-attention-color: rgba(255, 255, 255, 0.65);
         --admonition-attention-title-background-color: #665022;
         --admonition-attention-title-color: #ffeeaf;
@@ -158,8 +158,8 @@
         --hr-color: rgba(255, 255, 255, 0.1);
         --rst-guilabel-border-color: #2bbb79;
         --rst-guilabel-background-color: rgba(0, 0, 0, 0.06);
-        --bignums-number-background-color:#2bbb79;
-        --bignums-background-color:#333537;
+        --bignums-number-background-color: #2bbb79;
+        --bignums-background-color: #333537;
     }
 }
 
@@ -180,44 +180,108 @@ legend,
 .btn,
 .rst-content .toctree-wrapper p.caption,
 .rst-versions {
-     font-family: 'Inter', system-ui, Arial, sans-serif;
+    font-family: 'Inter', system-ui, Arial, sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input[type="text"],
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
-textarea,
-legend,
+
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    input[type="text"],
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    textarea,
+    legend,
+    .btn,
+    .rst-content .toctree-wrapper p.caption,
+    .rst-versions {
+        font-family: 'Inter var', system-ui, Arial, sans-serif;
+    }
+}
+
+@media only print {}
+
+.fa:before,
+.wy-menu-vertical li span.toctree-expand:before,
+.wy-menu-vertical li.on a span.toctree-expand:before,
+.wy-menu-vertical li.current>a span.toctree-expand:before,
+.rst-content .admonition-title:before,
+.rst-content h1 .headerlink:before,
+.rst-content h2 .headerlink:before,
+.rst-content h3 .headerlink:before,
+.rst-content h4 .headerlink:before,
+.rst-content h5 .headerlink:before,
+.rst-content h6 .headerlink:before,
+.rst-content dl dt .headerlink:before,
+.rst-content p.caption .headerlink:before,
+.rst-content table>caption .headerlink:before,
+.rst-content .code-block-caption .headerlink:before,
+.rst-content tt.download span:first-child:before,
+.rst-content code.download span:first-child:before,
+.icon:before,
+.wy-dropdown .caret:before,
+.wy-inline-validate.wy-inline-validate-success .wy-input-context:before,
+.wy-inline-validate.wy-inline-validate-danger .wy-input-context:before,
+.wy-inline-validate.wy-inline-validate-warning .wy-input-context:before,
+.wy-inline-validate.wy-inline-validate-info .wy-input-context:before,
+.wy-alert,
+.rst-content .note,
+.rst-content .attention,
+.rst-content .caution,
+.rst-content .danger,
+.rst-content .error,
+.rst-content .hint,
+.rst-content .important,
+.rst-content .tip,
+.rst-content .warning,
+.rst-content .seealso,
+.rst-content .admonition-todo,
+.rst-content .admonition,
 .btn,
-.rst-content .toctree-wrapper p.caption,
-.rst-versions {
-     font-family: 'Inter var', system-ui, Arial, sans-serif;
-}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+select,
+textarea,
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current>a,
+.wy-side-nav-search>a,
+.wy-side-nav-search .wy-dropdown>a,
+.wy-nav-top a {
+    -webkit-font-smoothing: auto;
 }
 
-@media only print  {
-    
+.wy-side-nav-search>a.icon img.logo,
+.wy-side-nav-search .wy-dropdown>a.icon img.logo {
+    margin-top: 0;
 }
 
-.fa:before, .wy-menu-vertical li span.toctree-expand:before, .wy-menu-vertical li.on a span.toctree-expand:before, .wy-menu-vertical li.current>a span.toctree-expand:before, .rst-content .admonition-title:before, .rst-content h1 .headerlink:before, .rst-content h2 .headerlink:before, .rst-content h3 .headerlink:before, .rst-content h4 .headerlink:before, .rst-content h5 .headerlink:before, .rst-content h6 .headerlink:before, .rst-content dl dt .headerlink:before, .rst-content p.caption .headerlink:before, .rst-content table>caption .headerlink:before, .rst-content .code-block-caption .headerlink:before, .rst-content tt.download span:first-child:before, .rst-content code.download span:first-child:before, .icon:before, .wy-dropdown .caret:before, .wy-inline-validate.wy-inline-validate-success .wy-input-context:before, .wy-inline-validate.wy-inline-validate-danger .wy-input-context:before, .wy-inline-validate.wy-inline-validate-warning .wy-input-context:before, .wy-inline-validate.wy-inline-validate-info .wy-input-context:before, .wy-alert, .rst-content .note, .rst-content .attention, .rst-content .caution, .rst-content .danger, .rst-content .error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .warning, .rst-content .seealso, .rst-content .admonition-todo, .rst-content .admonition, .btn, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a, .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a, .wy-nav-top a {
--webkit-font-smoothing: auto;
+.wy-side-nav-search>a,
+.wy-side-nav-search .wy-dropdown>a {
+    font-size: 0;
 }
 
-.wy-side-nav-search>a.icon img.logo, .wy-side-nav-search .wy-dropdown>a.icon img.logo {
-margin-top: 0;
+.wy-side-nav-search {
+    padding-top: 0;
 }
-.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {font-size:0;}
-.wy-side-nav-search {padding-top:0;}
 
 h1,
 h2,
@@ -227,7 +291,7 @@ h5,
 h6,
 legend,
 .rst-content .toctree-wrapper p.caption {
-letter-spacing: -0.005em;
+    letter-spacing: -0.005em;
 }
 
 h1,
@@ -236,15 +300,15 @@ h3,
 h4,
 h5,
 h6 {
-color: var(--heading-color);
+    color: var(--heading-color);
 }
 
 h3 {
-    font-size:110%;
+    font-size: 110%;
 }
 
 h4 {
-    font-size:95%;
+    font-size: 95%;
 }
 
 p {
@@ -253,19 +317,23 @@ p {
     margin-bottom: .8rem;
 }
 
-b, strong {
-font-weight: 700;
-color: var(--heading-color);
+b,
+strong {
+    font-weight: 700;
+    color: var(--heading-color);
 }
 
-dl, ol, ul, article ul,
+dl,
+ol,
+ul,
+article ul,
 article ol,
 .wy-plain-list-disc,
 .wy-plain-list-decimal,
 .rst-content ol.arabic,
 .rst-content .section ul,
 .rst-content .toctree-wrapper ul,
-.rst-content .section ol  {
+.rst-content .section ol {
     line-height: 1.77rem;
     font-size: .95rem;
     margin-bottom: .8rem;
@@ -305,7 +373,7 @@ a.btn:hover {
 }
 
 a span.xref {
-    color:var(--body-color);
+    color: var(--body-color);
     text-decoration: underline;
     text-decoration-style: dotted;
 }
@@ -319,13 +387,14 @@ a span.xref {
     color: var(--heading-color);
 }
 
-.achievement a, .achievment a span.xref {
+.achievement a,
+.achievment a span.xref {
     color: var(--heading-color);
 }
 
 .bigmessage {
-font-size: 1.25em;
-font-weight: 200;
+    font-size: 1.25em;
+    font-weight: 200;
 }
 
 hr,
@@ -376,19 +445,26 @@ html.writer-html5 .rst-content table.docutils th {
     width: 97%;
 }
 
-.rst-content dl p, .rst-content dl table, .rst-content dl ul, .rst-content dl ol {
+.rst-content dl p,
+.rst-content dl table,
+.rst-content dl ul,
+.rst-content dl ol {
     margin-bottom: .5em !important;
 }
 
-.fa-plus-square-o:before, .wy-menu-vertical li span.toctree-expand:before {
-content: "\f196";
+.fa-plus-square-o:before,
+.wy-menu-vertical li span.toctree-expand:before {
+    content: "\f196";
 }
 
-.fa-minus-square-o:before, .wy-menu-vertical li.current>a span.toctree-expand:before, .wy-menu-vertical li.on a span.toctree-expand:before {
-content: "\f147";
+.fa-minus-square-o:before,
+.wy-menu-vertical li.current>a span.toctree-expand:before,
+.wy-menu-vertical li.on a span.toctree-expand:before {
+    content: "\f147";
 }
 
-.rst-content .guilabel, .kbd {
+.rst-content .guilabel,
+.kbd {
     border-color: var(--rst-guilabel-border-color);
     background: var(--rst-guilabel-background-color);
     font-size: 80%;
@@ -398,7 +474,7 @@ content: "\f147";
     margin: auto 2px;
     display: inline-block;
     line-height: initial;
-    }
+}
 
 footer,
 #search-results .context {
@@ -419,9 +495,7 @@ footer,
     background-color: var(--content-wrap-background-color);
 }
 
-@media only screen and (min-width: 769px) {
-    
-}
+@media only screen and (min-width: 769px) {}
 
 /* Table display tweaks */
 
@@ -460,7 +534,8 @@ code,
     background-color: var(--content-wrap-background-color);
 }
 
-.rst-content .bignums div[class^="highlight"], .rst-content .admonition div[class^="highlight"] {
+.rst-content .bignums div[class^="highlight"],
+.rst-content .admonition div[class^="highlight"] {
     background-color: var(--code-background-color);
 }
 
@@ -486,7 +561,7 @@ code,
 }
 
 .highlight .gh {
-color: var(--highlight-gh-color);
+    color: var(--highlight-gh-color);
 }
 
 .highlight .c1,
@@ -650,8 +725,9 @@ kbd, .kbd {
     padding: .45rem .45rem;
     font-weight: normal;
     vertical-align: middle;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
+
 .kbd {
     text-transform: uppercase;
     background-color: var(--kbd-background-color);
@@ -662,7 +738,7 @@ kbd, .kbd {
     font-family: "Inter Var" !important;
 }
 
-.kbd > * {
+.kbd>* {
     border: none;
     padding: initial;
     background-color: var(--kbd-background-color);
@@ -700,15 +776,18 @@ kbd, .kbd {
     position: fixed;
 }
 
-.ui.tabular.menu, .sphinx-tabs .sphinx-menu a.active.item, .ui.attached.segment {
-border-color: var(--hr-color) !important;
+.ui.tabular.menu,
+.sphinx-tabs .sphinx-menu a.active.item,
+.ui.attached.segment {
+    border-color: var(--hr-color) !important;
 }
 
 .ui.segment {
-padding: 2em 2em !important;
+    padding: 2em 2em !important;
 }
 
 @media only screen and (min-width: 769px) {
+
     /* Simulate a drop shadow that only affects the bottom edge */
     /* This is used to indicate the search bar is fixed */
     .wy-side-nav-search.fixed::after {
@@ -723,13 +802,13 @@ padding: 2em 2em !important;
     }
 }
 
-.wy-side-nav-search > a:hover,
-.wy-side-nav-search .wy-dropdown > a:hover {
+.wy-side-nav-search>a:hover,
+.wy-side-nav-search .wy-dropdown>a:hover {
     background-color: var(--navbar-background-color-hover);
 }
 
-.wy-side-nav-search > a:active,
-.wy-side-nav-search .wy-dropdown > a:active {
+.wy-side-nav-search>a:active,
+.wy-side-nav-search .wy-dropdown>a:active {
     background-color: var(--navbar-background-color-active);
 }
 
@@ -767,7 +846,7 @@ padding: 2em 2em !important;
 }
 
 .wy-menu-vertical li.current {
-background: inherit;
+    background: inherit;
 }
 
 .wy-menu-vertical header,
@@ -785,7 +864,7 @@ background: inherit;
 }
 
 /* Version branch label below the logo */
-.wy-side-nav-search > div.version {
+.wy-side-nav-search>div.version {
     color: var(--navbar-level-3-color);
     opacity: 0.9;
 }
@@ -804,41 +883,46 @@ background: inherit;
 .wy-menu-vertical a:hover {
     background-color: var(--navbar-background-color-hover);
     color: var(--navbar-level-1-color);
-    border:none;
+    border: none;
 }
 
 .wy-menu-vertical a:active {
     background-color: var(--navbar-background-color-active);
-    border:none;
+    border: none;
 }
 
-.wy-menu-vertical li.toctree-l1.current > a {
+.wy-menu-vertical li.toctree-l1.current>a {
     /*
     border-bottom: solid 1px #434343;
     border-top:none;
     */
-    border:none;
+    border: none;
 }
 
-.wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a span.toctree-expand,
+.wy-side-nav-search,
+.wy-menu-vertical a,
+.wy-menu-vertical a span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a span.toctree-expand {
     /*color: var(--navbar-level-3-color);*/
     color: var(--link-color);
 }
 
-.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
-}
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current>a {}
 
-.wy-menu-vertical li ul li a {
-}
+.wy-menu-vertical li ul li a {}
 
-.wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a:hover span.toctree-expand,
+.wy-side-nav-search,
+.wy-menu-vertical a,
+.wy-menu-vertical a:hover span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
     color: var(--navbar-level-2-color);
     opacity: 1;
 }
 
-.wy-side-nav-search, .wy-menu-vertical a, .wy-menu-vertical a:active span.toctree-expand,
+.wy-side-nav-search,
+.wy-menu-vertical a,
+.wy-menu-vertical a:active span.toctree-expand,
 .wy-menu-vertical li.toctree-l2 a:active span.toctree-expand {
     color: var(--navbar-level-1-color);
     opacity: 1;
@@ -846,11 +930,14 @@ background: inherit;
 
 /* Second (and higher) levels of navigation items */
 
-.wy-menu a:hover,  .wy-menu a {
-text-decoration: none !important;
+.wy-menu a:hover,
+.wy-menu a {
+    text-decoration: none !important;
 }
 
-.wy-menu-vertical li.current a, .wy-menu-vertical li.current>a, .wy-menu-vertical li.toctree-l2.current>a   {
+.wy-menu-vertical li.current a,
+.wy-menu-vertical li.current>a,
+.wy-menu-vertical li.toctree-l2.current>a {
     /* Make long words always display on a single line, keep wrapping for multiple words */
     /* This fixes the class reference titles' display with very long class names */
     display: flex;
@@ -859,55 +946,61 @@ text-decoration: none !important;
 }
 
 .wy-menu-vertical li span.toctree-expand {
-margin-left: -1.16em;
-padding-right: .55em;
+    margin-left: -1.16em;
+    padding-right: .55em;
 }
 
-.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current>a {
     padding: .4045em 1.618em
 }
 
-.wy-menu-vertical li.on a:hover span.toctree-expand, .wy-menu-vertical li.current>a:hover span.toctree-expand, .wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
-color: var(--link-color);
+.wy-menu-vertical li.on a:hover span.toctree-expand,
+.wy-menu-vertical li.current>a:hover span.toctree-expand,
+.wy-menu-vertical li.on a span.toctree-expand,
+.wy-menu-vertical li.current>a span.toctree-expand {
+    color: var(--link-color);
 }
 
 .wy-menu-vertical li.current a,
-.wy-menu-vertical li.toctree-l2.current > a,
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a,
-.wy-menu-vertical li.toctree-l2.current li.toctree-l4 > a {
+.wy-menu-vertical li.toctree-l2.current>a,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l4>a {
     background-color: var(--navbar-current-background-color);
     color: var(--navbar-level-2-color);
     border-color: var(--navbar-current-background-color);
-    border:none;
+    border: none;
 }
 
 .wy-menu-vertical li.current a:hover,
-.wy-menu-vertical li.toctree-l2.current > a:hover,
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover,
-.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:hover {
+.wy-menu-vertical li.toctree-l2.current>a:hover,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a:hover,
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a:hover {
     background-color: var(--navbar-current-background-color-hover);
 }
 
 .wy-menu-vertical li.current a:active,
-.wy-menu-vertical li.toctree-l2.current > a:active,
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:active,
-.wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a:active {
+.wy-menu-vertical li.toctree-l2.current>a:active,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a:active,
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a:active {
     background-color: var(--navbar-current-background-color-active);
 }
 
-.wy-menu-vertical li.current a, .wy-menu-vertical li a {
-font-weight: normal;
-font-size: 95%;
-letter-spacing: initial;
-line-height: 1.255em;
+.wy-menu-vertical li.current a,
+.wy-menu-vertical li a {
+    font-weight: normal;
+    font-size: 95%;
+    letter-spacing: initial;
+    line-height: 1.255em;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
-padding: .4045em 2.65em;
+    padding: .4045em 2.65em;
 }
 
-.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a, .wy-menu-vertical li.toctree-l4.current>a {
-padding: .4045em 3.2em;
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a,
+.wy-menu-vertical li.toctree-l4.current>a {
+    padding: .4045em 3.2em;
 }
 
 /* Version selector (only visible on Read the Docs) */
@@ -959,6 +1052,7 @@ padding: .4045em 3.2em;
     background-color: transparent;
     padding: 0;
 }
+
 .toggle.container {
     border-color: var(--code-border-color) !important;
     border: 1px solid;
@@ -980,104 +1074,141 @@ padding: .4045em 3.2em;
     margin-bottom: .75em;
 }
 
-.toggle .header > p {
+.toggle .header>p {
     display: inline;
     font-size: 1.155em;
     font-weight: normal !important;
 }
-.toggle .header > p strong, .toggle .header > strong  {
+
+.toggle .header>p strong,
+.toggle .header>strong {
     font-weight: 300;
     font-size: 1rem;
-}  
+}
 
 .toggle .header:before {
-    font-family: "FontAwesome"; 
+    font-family: "FontAwesome";
     font-weight: 900;
     content: "\f138";
-    color:var(--navbar-heading-color);
+    color: var(--navbar-heading-color);
     padding: .25em .25em .0em .0em;
 }
 
 .toggle .header.open:before {
-    font-family: "FontAwesome"; 
+    font-family: "FontAwesome";
     font-weight: 900;
     content: "\f13a";
-    color:var(--navbar-heading-color);
+    color: var(--navbar-heading-color);
     padding: .25em .25em .0em .0em;
 }
 
-.bignums, .bignums-hint, .bignums-note, .bignums-caution, .bignums-warning, .bignums-attention, .bignums-important, .bignums-seealso, .bignums-tip, .bignums-danger, .bignums-error, .bignums-xxl {
-padding: 0;
-counter-reset: li-counter;
+.bignums,
+.bignums-hint,
+.bignums-note,
+.bignums-caution,
+.bignums-warning,
+.bignums-attention,
+.bignums-important,
+.bignums-seealso,
+.bignums-tip,
+.bignums-danger,
+.bignums-error,
+.bignums-xxl {
+    padding: 0;
+    counter-reset: li-counter;
 }
 
-.bignums>li, .bignums-hint>li, .bignums-note>li, .bignums-caution>li, .bignums-warning>li, .bignums-attention>li, .bignums-important>li, .bignums-seealso>li, .bignums-tip>li, .bignums-danger>li, .bignums-error>li, .bignums-xxl>li {
-position: relative;
-padding: .55rem;
-padding-left: 3.875rem;
-padding-top: .975rem;
-background-color: var(--bignums-background-color);
-min-height: 3.575rem;
-border-radius: .25rem;
-list-style: none !important;
-margin-left: 0px !important;
-margin-bottom: 1em;
+.bignums>li,
+.bignums-hint>li,
+.bignums-note>li,
+.bignums-caution>li,
+.bignums-warning>li,
+.bignums-attention>li,
+.bignums-important>li,
+.bignums-seealso>li,
+.bignums-tip>li,
+.bignums-danger>li,
+.bignums-error>li,
+.bignums-xxl>li {
+    position: relative;
+    padding: .55rem;
+    padding-left: 3.875rem;
+    padding-top: .975rem;
+    background-color: var(--bignums-background-color);
+    min-height: 3.575rem;
+    border-radius: .25rem;
+    list-style: none !important;
+    margin-left: 0px !important;
+    margin-bottom: 1em;
 }
 
 .bignums-xxl>li {
-padding: 0;
-padding-left: 3.75rem;
-padding-top: .375rem;
-background-color: transparent;
-min-height: 3rem;
+    padding: 0;
+    padding-left: 3.75rem;
+    padding-top: .375rem;
+    background-color: transparent;
+    min-height: 3rem;
 }
 
-.bignums>li:before, .bignums-hint>li:before, .bignums-note>li:before, .bignums-caution>li:before, .bignums-warning>li:before, .bignums-attention>li:before, .bignums-important>li:before, .bignums-seealso>li:before, .bignums-tip>li:before, .bignums-danger>li:before, .bignums-error>li:before, .bignums-xxl>li:before {
-font-size: 1.10rem;
-display: block;
-position: absolute;
-top: .7rem;
-left: 1rem;
-height: 2em;
-width: 2em;
-line-height: 2em;
-text-align: center;
-background-color: var(--bignums-number-background-color);
-color: #fff;
-border-radius: 50%;
-content: counter(li-counter, decimal);
-counter-increment: li-counter;
-font-weight: 600;
+.bignums>li:before,
+.bignums-hint>li:before,
+.bignums-note>li:before,
+.bignums-caution>li:before,
+.bignums-warning>li:before,
+.bignums-attention>li:before,
+.bignums-important>li:before,
+.bignums-seealso>li:before,
+.bignums-tip>li:before,
+.bignums-danger>li:before,
+.bignums-error>li:before,
+.bignums-xxl>li:before {
+    font-size: 1.10rem;
+    display: block;
+    position: absolute;
+    top: .7rem;
+    left: 1rem;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    background-color: var(--bignums-number-background-color);
+    color: #fff;
+    border-radius: 50%;
+    content: counter(li-counter, decimal);
+    counter-increment: li-counter;
+    font-weight: 600;
 }
 
 .bignums-xxl>li:before {
-font-size: 1.5rem;
-top: 0;
-left: 0;
+    font-size: 1.5rem;
+    top: 0;
+    left: 0;
 }
 
-.rst-content .section ol p, .rst-content .section ul p, .rst-content dl dd {
-margin:0;
+.rst-content .section ol p,
+.rst-content .section ul p,
+.rst-content dl dd {
+    margin: 0;
 }
 
 .rst-content dl:not(.docutils) {
-margin-bottom: .25em;
+    margin-bottom: .25em;
 }
 
 .rst-content dl dd .admonition {
-padding: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
-.rst-content dl dd .admonition > *:not(.admonition-title) {
-padding: .0em 0em .75em .75em;
+.rst-content dl dd .admonition>*:not(.admonition-title) {
+    padding: .0em 0em .75em .75em;
 }
 
 .rst-content li blockquote {
-    margin-left:0;
+    margin-left: 0;
 }
 
 #glossary dt {
     font-size: 1.1rem;
     font-weight: 500;
-    color:var(--link-color);
+    color: var(--link-color);
 }
