@@ -1211,4 +1211,7 @@ kbd, .kbd {
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--link-color);
+    border: none;
+    border-left: inherit;
+    background: inherit;
 }
