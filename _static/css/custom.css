@@ -14,7 +14,7 @@
 :root {
     --body-color: rgba(33, 39, 39, 0.8);
     --heading-color: #343131;
-    --content-wrap-background-color: #f7f7f7;
+    --content-wrap-background-color: rgba(0, 0, 0, 0.025);
     --content-background-color: #fcfcfc;
     --logo-opacity: 1.0;
     --navbar-background-color: #212727;
@@ -51,31 +51,31 @@
     --highlight-operator-color: #666666;
     --highlight-string-color: #4070a0;
     --highlight-gh-color: #787878;
-    --admonition-background-color: rgba(0, 0, 0, 0.035);
+    --admonition-background-color: rgba(0, 0, 0, 0.025);
     --admonition-color: #212727;
     --admonition-title-background-color: #4b5959;
     --admonition-title-color: #fff;
-    --admonition-note-background-color: rgba(0, 0, 0, 0.035);
+    --admonition-note-background-color: rgba(0, 0, 0, 0.025);
     --admonition-note-color: #404040;
     --admonition-note-title-background-color: #2bbb79;
     --admonition-note-title-color: #fff;
-    --admonition-hint-background-color: rgba(0, 0, 0, 0.035);
+    --admonition-hint-background-color: rgba(0, 0, 0, 0.025);
     --admonition-hint-color: #404040;
     --admonition-hint-title-background-color: #1597dd;
     --admonition-hint-title-color: #fff;
-    --admonition-attention-background-color: rgba(0, 0, 0, 0.035);
+    --admonition-attention-background-color: rgba(0, 0, 0, 0.025);
     --admonition-attention-color: #404040;
     --admonition-attention-title-background-color: #f0b37e;
     --admonition-attention-title-color: #fff;
-    --admonition-danger-background-color: rgba(0, 0, 0, 0.035);
+    --admonition-danger-background-color: rgba(0, 0, 0, 0.025);
     --admonition-danger-color: #404040;
     --admonition-danger-title-background-color: #E42841;
     --admonition-danger-title-color: #fff;
-    --admonition-tip-background-color: rgba(0, 0, 0, 0.035);
+    --admonition-tip-background-color: rgba(0, 0, 0, 0.025);
     --admonition-tip-color: #404040;
     --admonition-tip-title-background-color: #792BBB;
     --admonition-tip-title-color: #fff;
-    --admonition-seealso-background-color: rgba(0, 0, 0, 0.035);
+    --admonition-seealso-background-color: rgba(0, 0, 0, 0.025);
     --admonition-seealso-color: #212727;
     --admonition-seealso-title-background-color: #4b5959;
     --admonition-seealso-title-color: #fff;
@@ -87,9 +87,9 @@
     --btn-neutral-hover-background-color: #e5ebeb;
     --footer-color: #808080;
     --rst-guilabel-border-color: rgba(0, 0, 0, 0.065);
-    --rst-guilabel-background-color: rgba(0, 0, 0, 0.035);
+    --rst-guilabel-background-color: rgba(0, 0, 0, 0.025);
     --bignums-number-background-color: #212727;
-    --bignums-background-color: #f7f7f7;
+    --bignums-background-color: rgba(0, 0, 0, 0.025);
 }
 
 /* Dark theme colors */
@@ -180,10 +180,10 @@ legend,
 .btn,
 .rst-content .toctree-wrapper p.caption,
 .rst-versions {
-    font-family: 'Inter', system-ui, Arial, sans-serif;
+    font-family: 'Inter Var', system-ui, Arial, sans-serif;
 }
 
-@supports (font-variation-settings: normal) {
+@supports not (font-variation-settings: normal) {
 
     html,
     body,
@@ -202,7 +202,7 @@ legend,
     .btn,
     .rst-content .toctree-wrapper p.caption,
     .rst-versions {
-        font-family: 'Inter var', system-ui, Arial, sans-serif;
+        font-family: 'Inter', system-ui, Arial, sans-serif;
     }
 }
 
@@ -355,7 +355,10 @@ a {
 
 a:hover {
     color: var(--link-color-hover);
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    margin-bottom:-1px;
+    padding-bottom: .001em;
 }
 
 a:active {
@@ -368,14 +371,22 @@ a:visited {
     color: var(--link-color);
 }
 
+a:focus {
+    outline-color: var(--link-color);
+    outline-offset: 0.15em;
+    outline-style: revert;
+    outline-width: medium;
+}
+
 a.btn:hover {
     text-decoration: none;
 }
 
 a span.xref {
     color: var(--body-color);
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    padding-bottom: .001em;
 }
 
 .achievement {
@@ -407,6 +418,16 @@ html.writer-html5 .rst-content table.docutils th {
     border: 1px solid var(--code-border-color);
 }
 
+.rst-content dl dt {
+    color: var(--body-color);
+    font-weight: inherit;
+    font-size: inherit;
+    background: none;
+    border:none;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
 /* Doesn't seem to be used on Read the Docs online builds, but is present when building locally */
 .rst-content dl:not(.docutils, .simple, .glossary) dt {
     background-color: var(--admonition-note-background-color);
@@ -432,11 +453,6 @@ html.writer-html5 .rst-content table.docutils th {
     color: inherit;
 }
 
-.rst-content dl dt {
-    font-weight: normal;
-    margin-bottom: 12px;
-}
-
 .rst-content blockquote {
     margin-left: 1.5em;
     line-height: initial;
@@ -445,11 +461,12 @@ html.writer-html5 .rst-content table.docutils th {
     width: 97%;
 }
 
-.rst-content dl p,
+.rst-content dl:not(.glossary) p,
 .rst-content dl table,
 .rst-content dl ul,
 .rst-content dl ol {
     margin-bottom: .5em !important;
+    line-height: initial;
 }
 
 .fa-plus-square-o:before,
@@ -805,6 +822,7 @@ kbd, .kbd {
 .wy-side-nav-search>a:hover,
 .wy-side-nav-search .wy-dropdown>a:hover {
     background-color: var(--navbar-background-color-hover);
+    padding:4px 6px;
 }
 
 .wy-side-nav-search>a:active,
@@ -933,6 +951,14 @@ kbd, .kbd {
 .wy-menu a:hover,
 .wy-menu a {
     text-decoration: none !important;
+    font-weight: normal;
+    font-size: 95%;
+    letter-spacing: initial;
+    line-height: 1.255em;
+    border: none;
+    background: initial;
+    padding: .4045em 1.618em;
+    margin-bottom:0;
 }
 
 .wy-menu-vertical li.current a,
@@ -1057,33 +1083,43 @@ kbd, .kbd {
     border-color: var(--code-border-color) !important;
     border: 1px solid;
     margin-bottom: .75em;
-    padding: .25em .75em .15em 1.65em;
+    padding: .15em .75em .15em 1.65em;
     border-radius: .15em;
     background-color: var(--content-wrap-background-color);
+}
+
+.toggle.container > *:not(.header){
+    padding-left:.75em;
 }
 
 .toggle .header {
     display: inline-block;
     clear: both;
     padding: .25em .25em .25em .0em;
-    margin-bottom: .25em;
+    margin-bottom: 0em;
     margin-left: -1em;
+    cursor: pointer;
 }
 
 .toggle .header.open {
-    margin-bottom: .75em;
+    margin-bottom: 0em;
 }
 
 .toggle .header>p {
     display: inline;
-    font-size: 1.155em;
+    font-size: .95rem;
     font-weight: normal !important;
 }
 
 .toggle .header>p strong,
 .toggle .header>strong {
-    font-weight: 300;
-    font-size: 1rem;
+    font-size: .95rem;
+    font-weight: normal !important;
+}
+
+.toggle .header.open>p strong,
+.toggle .header.open>strong {
+    font-weight: 500 !important;
 }
 
 .toggle .header:before {
@@ -1092,6 +1128,9 @@ kbd, .kbd {
     content: "\f138";
     color: var(--navbar-heading-color);
     padding: .25em .25em .0em .0em;
+    font-size: 120%;
+    position: relative;
+    top: .08em;
 }
 
 .toggle .header.open:before {
@@ -1100,6 +1139,9 @@ kbd, .kbd {
     content: "\f13a";
     color: var(--navbar-heading-color);
     padding: .25em .25em .0em .0em;
+    font-size: 120%;
+    position: relative;
+    top: .08em;
 }
 
 .bignums,
