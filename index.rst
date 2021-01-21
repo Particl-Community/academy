@@ -6,12 +6,12 @@ Welcome to the Particl Academy
 .. meta::
    :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace. Thanks to blockchain technology.
 
-Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with |PM|. It is the reference book in straightforward language. If you are looking for the technical details, the `Particl Wiki <https://particl.wiki/>`_ is the right place to go.
+Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language. If you are looking for the technical details, the `Particl Wiki <https://particl.wiki/>`_ is the right place to go.
 
 Introduction
 ============
 
-Take your first few steps with understanding |PM|:
+Take your first few steps with understanding the :term:`Particl Marketplace`:
 
 .. toctree::
    :caption: Introduction
@@ -78,7 +78,7 @@ Step-by-step user guides about the most vital processes of :term:`Particl Market
 In-Depth Guides
 ===============
 
-Find advanced, very in-depth, and detailed articles about functions and concepts behind |PM|. They will make you a master, but you do not need them to use |PM|:
+Find advanced, very in-depth, and detailed articles about functions and concepts behind the :term:`Particl Marketplace`. They will make you a master, but you do not need them to use the :term:`Particl Marketplace`:
 
 .. toctree::
    :caption: In-Depth Guides

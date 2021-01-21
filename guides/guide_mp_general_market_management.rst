@@ -12,7 +12,7 @@ The difference between markets and a storefronts is about their publishing right
 
    To simplify the terminology, "markets" and "storefronts" are referred to as "community markets".
 
-Create and join an infinite number of community markets with |PM|. Each of these markets can host an infinite number of listings and live independently from the predefined :term:`Open Market`.
+Create and join an infinite number of community markets with the :term:`Particl Marketplace`. Each of these markets can host an infinite number of listings and live independently from the predefined :term:`Open Market`.
 
 By default, a community market isn’t publicly visible and is only known to its creator. However, a community market can be promoted within the :term:`Market Browser`, making it available to join at the click of a button. Of course, you can grant direct access as well.
 

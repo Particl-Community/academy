@@ -78,7 +78,7 @@ Marketplace
 
 :term:`Particl Marketplace` is accessible right from the :term:`Particl Desktop` application. It is deployed on a distributed network that lets you connect directly, without the help of any intermediary, with buyers and sellers from all around the world.
 
-In-depth details can be found at :term:`Particl Marketplace Explained`. The basic knowledge is compiled at :ref:`What's |PM|`.
+In-depth details can be found in the :doc:`Particl Marketplace Explained <../in-depth/indepth_mp_explained>` guide.
 
 Open Market
 ~~~~~~~~~~~

@@ -5,7 +5,7 @@ What's Particl Marketplace
 .. meta::
    :description lang=en: is a marketplace with features that customers and vendors will love. Privacy first, responsible, and sustainable e-commerce.
 
-|PM| is similar to the internet’s well-known marketplaces like Amazon, eBay, or Alibaba, but with added security and extra features that customers and vendors will love. Particl has no intention to make profits, and you can be sure that your needs will be covered from all angles.
+The :term:`Particl Marketplace` is similar to the internet’s well-known marketplaces like Amazon, eBay, or Alibaba, but with added security and extra features that customers and vendors will love. Particl has no intention to make profits, and you can be sure that your needs will be covered from all angles.
 
 
 **Finally! True free markets and the fair level playing field in e-commerce.**
@@ -14,7 +14,7 @@ What's Particl Marketplace
 * **Gain security** by not becoming the product or a “glass consumer”. No fraud, trickery, spam, restrictions, politics, malice, or invasion of your privacy possible
 * **Enjoy giving back** to society, contribute to its success, and grow your standing
 
-Equip yourself with sophisticated technology that is user friendly. Using |PM| will help stop feeding the corporate monopolies, and your world becomes a fairer place. It's not just you who benefits from it—your communities and loved ones will profit as well, leaving everyone with a good feeling because you can make them become a sustainable shopper too.
+Equip yourself with sophisticated technology that is user friendly. Using the :term:`Particl Marketplace` will help stop feeding the corporate monopolies, and your world becomes a fairer place. It's not just you who benefits from it—your communities and loved ones will profit as well, leaving everyone with a good feeling because you can make them become a sustainable shopper too.
 
 
 *-You will feel like a champion!*
@@ -28,7 +28,7 @@ You know the desire to have the best food, ideally the healthy stuff? Another on
 
 But did you know that, even if you use “free” platforms or services to buy and sell stuff, it is not really free? No, instead of paying with your money, you pay with your valuable data. 
 
-|PM|, on the other hand, does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual, but without compromising you.
+The :term:`Particl Marketplace`, on the other hand, does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual, but without compromising you.
 
 
 *You will be able to save more or make more money by cutting out the middle-man*
@@ -95,11 +95,11 @@ By installing and using :term:`Particl Marketplace`, you make a conscious decisi
 How it works
 -------------
 
-With the award-winning |PM|, you first and foremost prioritize the security of your personal information and data. It is, simply put, the most secure and private online marketplace on the web.
+With the award-winning :term:`Particl Marketplace`, you first and foremost prioritize the security of your personal information and data. It is, simply put, the most secure and private online marketplace on the web.
 
 It relies on open-source technologies that are openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
 
-However, |PM| is based on distributed ledger and :term:`peer-to-peer` technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of :term:`nodes` hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
+However, the :term:`Particl Marketplace` is based on distributed ledger and :term:`peer-to-peer` technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of :term:`nodes` hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
 
 .. raw:: html
 
