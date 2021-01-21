@@ -6,7 +6,7 @@ Here comes a comprehensive technical deepdive. Remove all deeper explations from
 
 I copy and paste things I removed from other pages into here.
 
-Particl is a decentralized marketplace, meaning that no third-party is required to facilitate transactions. There’s no marketplace company, eCommerce service provider, payment processor, or even bank involved. Transactions happen directly between you and the other person.
+Particl is a decentralized marketplace, meaning that no third-party is required to facilitate transactions. There’s no marketplace company, e-commerce service provider, payment processor, or even bank involved. Transactions happen directly between you and the other person.
 
 ## from basic mehanics & features section on the essentials page
 

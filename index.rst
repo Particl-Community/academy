@@ -19,11 +19,13 @@ Take your first few steps with understanding |PM|:
    :maxdepth: 2
    :hidden:
 
+   intro/intro_general_getstarted
    intro/intro_general_particlmarketplace
    intro/intro_general_essentials
    intro/intro_general_functions
    intro/intro_obtaining_part
 
+* :doc:`Get Started <intro/intro_general_getstarted>`
 * :doc:`What's Particl Marketplace <intro/intro_general_particlmarketplace>`
 * :doc:`Understanding Essentials <intro/intro_general_essentials>`
 * :doc:`Particl Marketplace Functions <intro/intro_general_functions>`

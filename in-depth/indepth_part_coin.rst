@@ -34,7 +34,7 @@ PART is an untraceable :term:`cryptocurrency` that can be sent to anyone, anywhe
 Blockchain Specifications
 -------------------------
 
-PART is the :term:`cryptocurrency` of the :term:`Particl Blockchain`. It is a secure and confidential currency specifically designed to power eCommerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
+PART is the :term:`cryptocurrency` of the :term:`Particl Blockchain`. It is a secure and confidential currency specifically designed to power e-commerce and marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the marketplace. 
 
 PART has been released back in 2017 and is based on the Bitcoin code. Unlike Bitcoin, many modern day improvements have been added to the code, making it faster, more private, and more flexible.
 
