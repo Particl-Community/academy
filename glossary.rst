@@ -39,6 +39,11 @@ Particl Terms
    Particl Project
 		The Particl Project refers to all combined efforts, people, and community contributing to the development, maintenance, promotion, and adoption of the Particl decentralized network. It is often simply referred to as "Particl" as well, depending on the context.
 
+   Particl Network
+		A decentralized network is a distributed network that runs autonomously. The Particl Network is Particl's own decentralized network. 
+
+		The Particl Network doesn't rely on central server or database and each participant contributes to its functioning and maintenance. Any communication, exchange of data, or trade is done directly between each Particl user and without any central authority facilitating the exchange. 
+
    Particl Blockchain
 		The Particl Blockchain is a decentralized, immutable, and censorship-proof ledger. It is based on bitcoin technology and has been carefully enhanced by the Particl team to provide a more robust level of privacy through industry-leading privacy technologies. The Particl Blockchain processes and validates payments between two users without requiring any third-party such as a bank or a payment processor.
 
