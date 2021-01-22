@@ -17,7 +17,7 @@ Setup
 		* :doc:`Particl Desktop & Marketplace Installation <../guides/guide_mp_setup_installation>`
 		* :doc:`Learn more about the Particl Marketplace <../intro/intro_general_particlmarketplace>`
 	#. Because the :term:`Particl Marketplace` is built on the :term:`Particl blockchain <Particl Blockchain>`, you will need to obtain PART coins to buy or sell things on it. 
-		* :doc:`Obtaining PART <../intro/intro_obtaining_part>`
+		* :doc:`Obtaining PART <../guides/guide_general_obtaining_part>`
 	#. To use all the features of the :term:`Particl Marketplace`, you will need to hold your PART coins in :guilabel:`Public` and :guilabel:`Anon` balances.
 		* :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_funds>` 
 	#. Start buying or selling right away!
