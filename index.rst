@@ -9,7 +9,7 @@ Particl Academy
 
 Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language.
 
-The hasty one's of you jump directly to the :doc:`Quickstart Guide <guides/guide_general_getstarted>`. 
+The time economists among you will jump right to the :doc:`Quickstart Guide <guides/guide_general_getstarted>`. 
 
 Introduction
 ============

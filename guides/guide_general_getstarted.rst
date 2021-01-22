@@ -13,7 +13,6 @@ Setup
 
 .. rst-class:: bignums
 
-
 	#. Download and install the :term:`Particl Desktop` client. This is the application you'll need to start buying and selling on the :term:`Particl Marketplace`.
 		* :doc:`Particl Desktop & Marketplace Installation <../guides/guide_mp_setup_installation>`
 		* :doc:`Learn more about the Particl Marketplace <../intro/intro_general_particlmarketplace>`
