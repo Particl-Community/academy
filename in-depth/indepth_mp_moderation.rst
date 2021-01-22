@@ -77,7 +77,7 @@ Free to use
 
 Typically, online marketplaces include the costs of moderating their platform into the sales commission paid by sellers. That's because moderating a marketplace is costly and requires quite a bit of logistics. Staff needs to be hired, policies need to be drafted along with a legal team, and etc. 
 
-Particl's moderation system doesn't need to deal with that at all. It is completely distributed and autonomous. And although it requires coins to flag listings and vote on them, it doesn't cost anything at all. Not even the usual :term:`cryptocurrency` transaction fee!
+Particl's moderation system doesn't need to deal with that at all. It is completely distributed and autonomous. And although it requires coins to flag listings and vote on them, it doesn't cost anything at all. Not even the usual :term:`cryptocurrency <Cryptocurrency>` transaction fee!
 
 Coins as voting tickets?
 ------------------------

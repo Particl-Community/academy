@@ -99,7 +99,7 @@ With the award-winning :term:`Particl Marketplace`, you first and foremost prior
 
 It relies on open-source technologies that are openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
 
-However, the :term:`Particl Marketplace` is based on distributed ledger and :term:`peer-to-peer` technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of :term:`nodes <Node>` hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
+However, the :term:`Particl Marketplace` is based on distributed ledger and :term:`peer-to-peer <Peer-to-Peer>` technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of :term:`nodes <Node>` hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
 
 .. raw:: html
 

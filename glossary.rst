@@ -61,7 +61,7 @@ Particl Terms
 		Users can easily interact with Particl Core by either using its CLI client (commands on a terminal) or its graphical counterpart Particl-Qt.
 
    Particl Marketplace
-		The Particl Marketplace is a decentralized marketplace that allows two users to buy and sell anything from each other without the assistance of any third-party (i.e. bank, payment processor, centralized marketplace, etc). It is Particl's flagship application and provides much more privacy, security, and freedom than typical marketplaces. Since it is decentralized, it charges no sales commission and other similar types of fees. 
+		The Particl Marketplace is a decentralized marketplace that allows two users to buy and sell anything from each other without the assistance of any third-party (i.e. bank, payment processor, centralized marketplace, etc). It is Particl's flagship application and provides much more privacy, security, and freedom than typical marketplaces. Since it is decentralized, it charges no sales commission and other similar types of fees. Currently it's located within the Particl Desktop application. Head over to the :ref:`installation guides <Installation Guides>` to get started.
 
    Particl's Open Market Protocol (OMP)
 		The OMP (Open Marketplace Protocol) is the back-end protocol that makes the Particl Marketplace possible. It is the framework that defines how marketplace transactions, orders, listings, and other key e-commerce functionalities are to be processed by the SMSG network and the Particl Blockchain. It is the "glue" that sticks everything together. If Particl Desktop is what people use to access the marketplace (the front end), the OMP is what makes it possible in the background (the back-end). To learn more about the OMP Library, head over to the `Open Market Protocol Wiki page <https://particl.wiki/learn/marketplace/open-market-protocol/>`_.
@@ -85,3 +85,12 @@ Particl Terms
 	 	Describes a standardized snap-in functionality within the Particl Desktop client software to enable 3rd parties to offer their services in exchange for PART and automating tasks within Particl Desktop client.
 
 	 	As these services are not decentralized, they are not activated by default and need to be manually enabled by the user. Particl Bots can have various purposes, most of the time related to a service, such as providing cryptocurrency exchange capabilities, providing data (i.e. cryptocurrency prices), payment integrations, and etc. 	
+
+Particl's GUI Related Terms
+---------------------------
+
+.. glossary:: :sorted:
+
+   Market Browser
+		It's the tool to browse and join different community markets within the Particl Marketplace application. Read :ref:`browse the markets <Browse the Markets>` to understand it's usage.
+

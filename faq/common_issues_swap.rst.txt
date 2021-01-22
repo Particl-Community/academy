@@ -12,6 +12,6 @@
 
     .. container:: header
 
-        **Certain** :term:`cryptocurrencies` **are not available to swap for PART coins**
+        **Certain** :term:`cryptocurrencies <Cryptocurrency>` **are not available to swap for PART coins**
 
     Not all cryptocurrencies are currently accepted on Particl. To request a coin to be added, fill up `this listing form <https://forms.gle/B3ikpiBWdTiF5ps57>`_.

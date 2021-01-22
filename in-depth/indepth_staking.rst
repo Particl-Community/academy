@@ -61,7 +61,7 @@ Secondly, the size of a single staking reward (the number of coins it contains) 
 
 - **Transaction fees:** When sending PART coins to someone or into a marketplace escrow contract, a small transaction fee needs to be paid to the network. This fee is usually just a few cents, or even less, but it's more than enough to fight off spam and pay stakers. All PART transaction fees are added to staking rewards and redistributed back to stakers. 
 
-While there are online calculators giving estimates on the staking revenue of many :term:`cryptocurrencies`, it's important to keep in mind that they do not take into account factors such as marketplace and transaction fees or even the percentage of coins on a network being put up for staking. This usually makes their estimates less reliable.
+While there are online calculators giving estimates on the staking revenue of many :term:`cryptocurrencies <Cryptocurrency>`, it's important to keep in mind that they do not take into account factors such as marketplace and transaction fees or even the percentage of coins on a network being put up for staking. This usually makes their estimates less reliable.
 
 * `StakingRewards.com Online Calculator <https://www.stakingrewards.com/asset/particl>`_
 
@@ -154,7 +154,7 @@ Hardware Staking
 - You need to set up a staking node and keep it online 24/7, unless you use a staking pool instead.
 - The setup process is the most complicated of all staking options on Particl.
 
-For an even more secure staking solution, you can stake PART coins stored on hardware wallets such as the Ledger Nano S or the Trezor. These hardware devices are super secure :term:`cryptocurrency` wallets that require a direct physical access to authorize any transaction. They are "hacker-proof" devices that protect you against viruses, infected computers, compromised internet connections, and etc.
+For an even more secure staking solution, you can stake PART coins stored on hardware wallets such as the Ledger Nano S or the Trezor. These hardware devices are super secure :term:`cryptocurrency <Cryptocurrency>` wallets that require a direct physical access to authorize any transaction. They are "hacker-proof" devices that protect you against viruses, infected computers, compromised internet connections, and etc.
 
 And since PPoS is a highly flexible protocol, it doesn't penalize you for going "security first". It lets you enable staking and earn staking interest on all of your coins stored in you hardware wallet.
 
@@ -175,7 +175,7 @@ As its name implies, mobile staking lets you earn a staking interest on the PART
 Multi-signature staking
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-In :term:`cryptocurrency`, multi-signature addresses are addresses collectively owned by many people. To authorize a transaction, a certain number of signatures is required by an address' owners. For example, a "2-of-3 multi-signature address" is a :term:`cryptocurrency` address collectively owned by three people. Two out of the three owners need to sign a transaction for it to be executed.
+In :term:`cryptocurrency <Cryptocurrency>`, multi-signature addresses are addresses collectively owned by many people. To authorize a transaction, a certain number of signatures is required by an address' owners. For example, a "2-of-3 multi-signature address" is a :term:`cryptocurrency <Cryptocurrency>` address collectively owned by three people. Two out of the three owners need to sign a transaction for it to be executed.
 
 Multi-signature staking does precisely what its name says. It lets you earn staking rewards on the coins held in multi-signature addresses. Just like staking pools and mobile staking, this functionality is made possible thanks to PPoS's ability to delegate staking powers to other nodes.
 

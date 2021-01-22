@@ -5,7 +5,7 @@ The :term:`Particl Marketplace` is a decentralized marketplace, meaning that no 
 
 While that unlocks many benefits not possible with traditional marketplaces, it also means that the :term:`Particl Marketplace` behaves a bit differently. Don’t worry. It is pretty easy to use, but there are a few things you need to consider before you get started. Let’s go over them!
 
-Find the deep-dive and technical explanation within :term:`Particl Marketplace explained`.
+Find the deep-dive and technical explanation within :ref:`Particl Marketplace explained`.
 
 .. contents:: Table of Contents
    :local:
@@ -15,7 +15,7 @@ Find the deep-dive and technical explanation within :term:`Particl Marketplace e
 Currency Transactions
 ---------------------
 
-Instead of relying on payment processors, bank transfers, or payment cards, :term:`Particl Marketplace` works using electronic currencies, commonly named as :term:`cryptocurrency`. This enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party. While many different digital currencies can be used on the :term:`Particl Marketplace`, all marketplace's transactions are ultimately settled in PART, Particl’s own :term:`cryptocurrency`.
+Instead of relying on payment processors, bank transfers, or payment cards, :term:`Particl Marketplace` works using electronic currencies, commonly named as :term:`cryptocurrency <Cryptocurrency>`. This enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party. While many different digital currencies can be used on the :term:`Particl Marketplace`, all marketplace's transactions are ultimately settled in PART, Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
 
 The in-depth guide :ref:`Currency (PART) Explained` will make you understand it in full.
 

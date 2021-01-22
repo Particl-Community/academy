@@ -15,8 +15,8 @@ This page is for testing purposes.
    :backlinks: none
    :depth: 4
 
-Metadata
-========
+Metadata Test
+=============
 
 Each page should have its own metadata to have a descent intro on the searchengines and if links are shared.
 
@@ -27,7 +27,7 @@ Each page should have its own metadata to have a descent intro on the searchengi
       :description lang=en: Particl Marketplace is censorship-resistant eCommerce built on blockchain technology and respects your privacy.
 
 
-Headings
+Headings Test
 =============
 
 This area shows some sample texts. Or an internal link to a certain page like the :doc:`Particl Support Page <faq/get_support>` n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_ or to reference to a heading on this page like :ref:`Video` or :ref:`Images` but you can also reference another page :doc:`like this <intro/intro_general_particlmarketplace>`
@@ -94,8 +94,8 @@ Bodytext Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonum
     7.  ##########
     8.  **********
 
-Achievements
-============
+Achievements Test
+=================
 
 An achievement can be placed below a task that has been completed.
 
@@ -110,7 +110,7 @@ An achievement can be placed below a task that has been completed.
   Congratulations! You have installed Particl Marketplace.
 
 Bigmessage
-============
+==========
 
 A bigmessage can be placed where it is really needed.
 
@@ -124,8 +124,8 @@ A bigmessage can be placed where it is really needed.
 
   bigmessage! Get it while it's hot.
 
-Glossary
-========
+Glossary Test
+=============
 
 We have now a glossary file ":doc:`glossary`" which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx` or :term:`FooBarLoo as I want<Sphinx>`.
 
@@ -283,7 +283,7 @@ See :download:`this image <_static/images/particl-logo-green.png>`.
   See :download:`this image <_static/images/particl-logo-green.png>`.
 
 Video
-=============
+=====
 
 .. raw:: html
 
@@ -301,7 +301,7 @@ Video
 
 
 Images
-=============
+======
 
 .. figure:: ./_static/media/images/canvas_w_logo.png
     :align: center
@@ -316,7 +316,7 @@ Images
           :target: ./_static/media/images/canvas_w_logo.png
 
 Boxes
-=============
+=====
 
 .. note::
 	
@@ -385,7 +385,7 @@ Boxes
         You can make up your own admonition too.
 
 Tables
-=============
+======
 
 Even csv tables can be put in.
 
@@ -463,7 +463,7 @@ CSV
 
 
 Lists
-=============
+=====
 
 Big fat looking list
 --------------------
@@ -555,7 +555,7 @@ Normal
 
 
 Codeblocks
-=============
+==========
 
 No special highlighting 
 -----------------------
@@ -605,7 +605,7 @@ HTML highlighting
        <p>Paragraph Text</p>
 
 Tabs
-=============
+====
 
 Grouped tabs
 ------------
@@ -677,7 +677,7 @@ Grouped tabs
 
 
 Normal tabs
-------------
+-----------
 
 .. tabs::
 	 .. tab:: Windows
@@ -717,7 +717,7 @@ Normal tabs
 
 
 Toggles
-=============
+=======
 
 Toggle items can be used for FAQ like content. 
 

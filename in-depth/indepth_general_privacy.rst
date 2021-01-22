@@ -1,3 +1,0 @@
-Your Privacy on Particl
-=======================
-

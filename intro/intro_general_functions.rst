@@ -29,7 +29,7 @@ Wallet Management
 Particl Cryptocurrency (PART)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The PART coin is Particl's native :term:`cryptocurrency`. It is a modern, secure, private, and flexible :term:`cryptocurrency` built on the most recent version of Bitcoin to which many improvements and extra functionalities have been added.
+The PART coin is Particl's native :term:`cryptocurrency <Cryptocurrency>`. It is a modern, secure, private, and flexible :term:`cryptocurrency <Cryptocurrency>` built on the most recent version of Bitcoin to which many improvements and extra functionalities have been added.
 
 - Send and receive funds to anyone without any middleman.
 - Buy and sell goods and services on :term:`Particl Marketplace`.
@@ -172,19 +172,19 @@ The feature is additionally integrated into any transaction allowing two users t
 Swap
 ----
 
-The in-app swap module of :term:`Particl Desktop` is where you'll find everything you need to swap other :term:`cryptocurrencies` for PART. It is also where you'll find other payment options such as credit card payments, if any is available at the time. 
+The in-app swap module of :term:`Particl Desktop` is where you'll find everything you need to swap other :term:`cryptocurrencies <Cryptocurrency>` for PART. It is also where you'll find other payment options such as credit card payments, if any is available at the time. 
 
 Swapping Assets
 ~~~~~~~~~~~~~~~
 
-- Swap any available :term:`cryptocurrency` (i.e. BTC) into PART to top up your Particl wallet.
+- Swap any available :term:`cryptocurrency <Cryptocurrency>` (i.e. BTC) into PART to top up your Particl wallet.
 - Connects to external exchanges using API.
-- "Atomic swaps" give you the option to swap available :term:`cryptocurrencies` for PART without requiring any middleman to facilitate the transaction (coming soon).
+- "Atomic swaps" give you the option to swap available :term:`cryptocurrencies <Cryptocurrency>` for PART without requiring any middleman to facilitate the transaction (coming soon).
 
 Multi-Currency Support (Marketplace)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Pay for products and services using any of the available :term:`cryptocurrencies` (i.e. BTC).
+- Pay for products and services using any of the available :term:`cryptocurrencies <Cryptocurrency>` (i.e. BTC).
 - The marketplace automatically converts non-PART payments in PART before funding any two-party escrow contract.
 
 .. attention::

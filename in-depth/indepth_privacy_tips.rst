@@ -28,7 +28,7 @@ No Central Database
 
 All issues related to online data have something in common—personal information was stored and obtained from some company's database either willingly (data sharing policies) or unwillingly (data breaches). But that is simply impossible on Particl because it isn't built like your typical online marketplace. 
 
-It is an entirely autonomous platform that runs on :term:`peer-to-peer` (P2P) and blockchain technologies. It's not a company, it's not running on servers, it doesn't have any central database, and it doesn't require any middleman such as a payment processor to function.
+It is an entirely autonomous platform that runs on :term:`peer-to-peer <Peer-to-Peer>` (P2P) and blockchain technologies. It's not a company, it's not running on servers, it doesn't have any central database, and it doesn't require any middleman such as a payment processor to function.
 
 In other words, none of your personal information is ever stored on any database. There is not a single party, other than buyers and sellers you're doing business with, that can know anything about you and use that information for any reason.
 
@@ -56,7 +56,7 @@ Particl hands you back your online privacy by making it impossible for anyone in
 Transaction Data
 ----------------
 
-Particl isn't built on typical internet and financial technologies. It's instead built on blockchain technology and requires payments to be made with :term:`cryptocurrencies`. And while they enable cheap and near instant payments on a global scale, they do poorly from an online privacy perspective. 
+Particl isn't built on typical internet and financial technologies. It's instead built on blockchain technology and requires payments to be made with :term:`cryptocurrencies <Cryptocurrency>`. And while they enable cheap and near instant payments on a global scale, they do poorly from an online privacy perspective. 
 
 In fact, public blockchains permanently store all the information of the transactions that happen on their network in a public ledger. It lets anyone in the world easily access and collect the information of any transaction ever. There's a very strong argument to be made whether they are just as bad as private databases, or even worse.
 
@@ -80,7 +80,7 @@ If you want to take your online privacy a step further, you can route your conne
 Marketplace-Related Privacy
 ---------------------------
 
-Particl's marketplace takes your security and privacy very seriously. It is built from the ground up in such a way that never creates any useful data about what you. When no data exists, it can't be collected, analyzed, and shared with anyone else. 
+|PM| takes your security and privacy very seriously. It is built from the ground up in such a way that never creates any useful data about what you. When no data exists, it can't be collected, analyzed, and shared with anyone else. 
 
 Marketplace content
 ~~~~~~~~~~~~~~~~~~~
@@ -89,8 +89,8 @@ When you upload content like images online, it often contains sensitive data abo
 
 To protect you from this, Particl encrypts and strips every image of its metadata before broadcasting it to the rest of the network. This makes it impossible for anyone to collect any useful information about user uploaded images.
 
-Two-party escrow system
-~~~~~~~~~~~~~~~~~~~~~~~
+The two-party escrow system
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Normally, when a transaction goes wrong and needs to be resolved by a third-party, marketplaces and payment processors act as the deciding factor by issuing a resolution. They have the final say in who should get the money when a conflict arise. They can also ban users, force refunds, and etc.
 
@@ -137,7 +137,7 @@ Use PART addresses only once
 	
 	Every times you receive a payment on a Particl address, your :term:`Particl Desktop` client will automatically generate a new address for you.
 
-When using any :term:`cryptocurrency`, it's widely recommended not to re-use the same address over and over. Ideally, :term:`cryptocurrency` addresses should only be used once, when possible, and a new address should be generated every time you need to receive a payment.
+When using any :term:`cryptocurrency <Cryptocurrency>`, it's widely recommended not to re-use the same address over and over. Ideally, :term:`cryptocurrency <Cryptocurrency>` addresses should only be used once, when possible, and a new address should be generated every time you need to receive a payment.
 
 The reason behind this is pretty simple, when someone gets to know an address of yours, they can look it up on a blockchain explorer and track all the transactions you've ever sent or received from that address. Nobody wants that!
 

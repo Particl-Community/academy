@@ -45,7 +45,7 @@ Choose the right version to download.
 
 		.. attention::
 
-   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets with the goal of stealing your funds! Always download from official sources only. 
 
 	 .. group-tab:: Mac
 
@@ -60,7 +60,7 @@ Choose the right version to download.
 
 		.. attention::
 
-   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets with the goal of stealing your funds! Always download from official sources only. 
 
 	 .. group-tab:: Linux
 
@@ -77,7 +77,7 @@ Choose the right version to download.
 
 		.. attention::
 
-   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency` wallets with the goal of stealing your funds! Always download from official sources only. 
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets with the goal of stealing your funds! Always download from official sources only. 
 
 Installation process
 --------------------
@@ -103,9 +103,9 @@ Installation process
 
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image by pressing :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the appearing shortcut menu. *Do not just double click the icon.*
-	 		#. Drag and drop the :term:`Particl Desktop.app` file into the :guilabel:`Applications` folder. 
-	 		#. Open the :guilabel:`Applications` folder and locate the :term:`Particl Desktop.app` file. 
-	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :term:`Particl Desktop.app` file and click :guilabel:`Open`.
+	 		#. Drag and drop the :term:`Particl Desktop.app <Particl Desktop>` file into the :guilabel:`Applications` folder. 
+	 		#. Open the :guilabel:`Applications` folder and locate the :term:`Particl Desktop.app <Particl Desktop>` file. 
+	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :term:`Particl Desktop.app <Particl Desktop>` file and click :guilabel:`Open`.
 	 		#. On the first launch the firewall of your computer must get a rule to allow :term:`Particl Desktop` to communicate with the blockchain. 
 
 	 	From now on you will be able to start :term:`Particl Desktop` from the Launchpad or Spotlight (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
@@ -544,7 +544,7 @@ Enable by default from GUI
 
 .. rst-class:: bignums
 
-	#. Open :term:`Particl Desktop` and click on :term:`Particl Desktop Settings` in the bottom left corner
+	#. Open :term:`Particl Desktop` and click on :guilabel:`Particl Desktop Settings` in the bottom left corner
 	#. Go to :guilabel:`Core network connection` and put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
 	#. Hit :guilabel:`Save changes` and restart :term:`Particl Desktop`
 

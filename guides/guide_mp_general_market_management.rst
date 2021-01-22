@@ -104,7 +104,7 @@ If you see a community market with inappropriate content, you can flag it to the
 
 .. hint::
 
-  The total number of coins you hold in your :guilabel:`Public` balance will now be used as downvotes for this community market. If the market's moderation score goes below |Threshold|, it will be taken off the :term:`Particl Network.
+  The total number of coins you hold in your :guilabel:`Public` balance will now be used as downvotes for this community market. If the market's moderation score goes below |Threshold|, it will be taken off the :term:`Particl Network`.
 
 Vote to Keep a Market
 ---------------------

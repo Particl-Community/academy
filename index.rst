@@ -1,12 +1,15 @@
+===============
+Particl Academy
+===============
 
-==============================
-Welcome to the Particl Academy
-==============================
+**An extensive documentation hub for Particl Marketplace.**
 
 .. meta::
    :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace. Thanks to blockchain technology.
 
-Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language. If you are looking for the technical details, the `Particl Wiki <https://particl.wiki/>`_ is the right place to go.
+Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language.
+
+The hasty one's of you jump directly to the :doc:`Quickstart Guide <guides/guide_general_getstarted>`. 
 
 Introduction
 ============
@@ -19,17 +22,13 @@ Take your first few steps with understanding the :term:`Particl Marketplace`:
    :maxdepth: 2
    :hidden:
 
-   intro/intro_general_getstarted
    intro/intro_general_particlmarketplace
    intro/intro_general_essentials
    intro/intro_general_functions
-   intro/intro_obtaining_part
 
-* :doc:`Get Started <intro/intro_general_getstarted>`
 * :doc:`What's Particl Marketplace <intro/intro_general_particlmarketplace>`
 * :doc:`Understanding Essentials <intro/intro_general_essentials>`
 * :doc:`Particl Marketplace Functions <intro/intro_general_functions>`
-* :doc:`Obtaining PART <intro/intro_obtaining_part>`
 
 Installation & Usage
 ====================
@@ -42,9 +41,11 @@ All begins with the installation of the :term:`Particl Desktop` software. Follow
    :maxdepth: 2
    :hidden:
 
+   guides/guide_general_getstarted
    guides/guide_mp_setup_installation
    guides/guide_mp_general_understanding_userinterface
 
+* :doc:`Quickstart Guide <guides/guide_general_getstarted>`
 * :doc:`Particl Desktop & Marketplace Installation <guides/guide_mp_setup_installation>`
 * :doc:`Understanding the User-interface <guides/guide_mp_general_understanding_userinterface>`
 
@@ -64,6 +65,8 @@ Step-by-step user guides about the most vital processes of :term:`Particl Market
    guides/guide_mp_vendor_understanding_sellflow
    guides/guide_mp_general_market_management
    guides/guide_mp_general_enable_staking
+   guides/guide_general_obtaining_part
+
 ..   guides/guide_mp_user_best_practices_overview
 ..   guides/guide_mp_vendor_best_practices_overview
 
@@ -72,6 +75,8 @@ Step-by-step user guides about the most vital processes of :term:`Particl Market
 * :doc:`Sell Process for Vendors <guides/guide_mp_vendor_understanding_sellflow>`   
 * :doc:`Markets and Storefronts <guides/guide_mp_general_market_management>`
 * :doc:`Staking Rewards <guides/guide_mp_general_enable_staking>`
+* :doc:`Obtaining PART <guides/guide_general_obtaining_part>`
+
 .. * :doc:`User's Best Practices <guides/guide_mp_user_best_practices_overview>`
 .. * :doc:`Vendor's Best Practices <guides/guide_mp_vendor_best_practices_overview>`
 
@@ -104,7 +109,7 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
 Help and Assistance
 ===================
 
-Are you having an issue not covered in this section? Your invaluable insights will make the Particl Academy more complete. Tell us how!
+Are you having an issue not covered in this section? Your invaluable insights will make the Particl Academy more complete.
 
 .. toctree::
    :caption: Help
@@ -116,6 +121,7 @@ Are you having an issue not covered in this section? Your invaluable insights wi
    faq/common_issues
    faq/get_support
    glossary
+   intro/intro_useful_links
 
 * :doc:`FAQ - Frequently Asked Questions <faq/faq_mp_general_overview>`   
 * :doc:`FAQ - Common Issues <faq/common_issues>`
@@ -134,19 +140,10 @@ More technical documentation can be found in these locations locations.
 Resources and Links
 ===================
 
-.. toctree::
-   :caption: Helpful Resources
-   :name: resourcestoc
-   :maxdepth: 2
-   :hidden:
-
-* `Get PART Coin <https://particl.io/part-exchanges/>`_
 * `Download Particl Marketplace <https://particl.io/downloads>`_
-* `Particl's Website <https://particl.io>`_
-* `Particl's News Blog <https://particl.news>`_
-* :doc:`Useful Links <intro/intro_useful_links>`
-
----
+* `Website <https://particl.io>`_
+* `News Blog <https://particl.news>`_
+*  :doc:`Extensive list of links <intro/intro_useful_links>`
 
 .. note::
 

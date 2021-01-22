@@ -82,12 +82,12 @@ Particl adopts a radically different model that fixes all of these issues. This 
 
 If any dispute or issue arises from a transaction, a resolution needs to be agreed to by both parties before they can get back their security deposit. This escrow system naturally forces both parties to remain honest with each other and reach reasonable resolutions. 
 
-Particl's two-party escrow system is a novel way to secure online transactions and has only recently been made possible thanks to the rise of blockchain technology and :term:`cryptocurrencies`. It unlocks several benefits and gives Particl's escrow system a few unique advantages over the more traditional escrow systems.
+Particl's two-party escrow system is a novel way to secure online transactions and has only recently been made possible thanks to the rise of blockchain technology and :term:`cryptocurrencies <Cryptocurrency>`. It unlocks several benefits and gives Particl's escrow system a few unique advantages over the more traditional escrow systems.
 
 No fee, 100% free to use
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Escrow transactions on Particl are completely free and do not cost any commission. The only small fee you need to pay is the typical transaction fee attached to any :term:`cryptocurrency` transaction. But don't worry, that fee is usually just a few cents or sometimes even less than that.
+Escrow transactions on Particl are completely free and do not cost any commission. The only small fee you need to pay is the typical transaction fee attached to any :term:`cryptocurrency <Cryptocurrency>` transaction. But don't worry, that fee is usually just a few cents or sometimes even less than that.
 
 You're in control
 ~~~~~~~~~~~~~~~~~
