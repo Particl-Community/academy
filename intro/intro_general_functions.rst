@@ -48,12 +48,12 @@ In-depth details can be found at :ref:`Currency (PART) Explained`.
 Particl Proof-of-Stake (Staking)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Staking is the action of keeping a :term:`node` online to support and secure Particl's distributed network. When you do so, you start receiving regular staking rewards paid by the network in exchange for your contribution.
+Staking is the action of keeping a :term:`node <Node>` online to support and secure Particl's distributed network. When you do so, you start receiving regular staking rewards paid by the network in exchange for your contribution.
 
-- Earn dividend-like staking rewards in exchange for keeping Particl :term:`nodes` online.
+- Earn dividend-like staking rewards in exchange for keeping Particl :term:`nodes <Node>` online.
 - Staking interest on Particl varies between 2% and 5% depending on the percentage of the supply being put up for staking.
 - The network gets more secure and resilient as more people stake.
-- "Cold staking" is a hyper secure staking option that lets you delegate your staking power to an online :term:`node` that contains no coin. 
+- "Cold staking" is a hyper secure staking option that lets you delegate your staking power to an online :term:`node <Node>` that contains no coin. 
 - Particl provides many different cold staking variants, each one being as secure as the other ones.
    - **Cold staking:** Stake your coins stored even when stored offline such as on cold wallets, hardware devices, or even paper wallets.
    - **Staking pool:** Combine your staking power with other stakers to earn more frequent payments.
