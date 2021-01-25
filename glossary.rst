@@ -12,6 +12,9 @@ General Terms
 
 .. glossary:: :sorted:
 
+   Distributed Ledger
+      A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is a consensus of replicated, shared, and synchronized digital data geographically spread across multiple sites, countries, or institutions. Unlike with a distributed database, there is no central administrator. `DLT on Wikipedia <https://en.wikipedia.org/wiki/Distributed_ledger>`
+
    Sphinx
 		Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. It was originally created for the Python documentation and it has excellent facilities for the documentation of software projects in a range of languages.
 
@@ -61,7 +64,7 @@ Particl Terms
 		Users can easily interact with Particl Core by either using its CLI client (commands on a terminal) or its graphical counterpart Particl-Qt.
 
    Particl Marketplace
-		The Particl Marketplace is a decentralized marketplace that allows two users to buy and sell anything from each other without the assistance of any third-party (i.e. bank, payment processor, centralized marketplace, etc). It is Particl's flagship application and provides much more privacy, security, and freedom than typical marketplaces. Since it is decentralized, it charges no sales commission and other similar types of fees. Currently it's located within the Particl Desktop application. Head over to the :ref:`installation guides <Installation Guides>` to get started.
+		The Particl Marketplace is a decentralized marketplace that allows two users to buy and sell anything from each other without the assistance of any third-party (i.e. bank, payment processor, centralized marketplace, etc). It is Particl's flagship application and provides much more privacy, security, and freedom than typical marketplaces. Since it is decentralized, it charges no sales commission and other similar types of fees. Currently it's located within the Particl Desktop application. Read the :ref:`introduction<What's Particl Marketplace>` and the :ref:`deep-dive explanation<Particl Marketplace Explained>`, or head over to the :ref:`installation guides <Installation Guides>` to get started.
 
    Particl's Open Market Protocol (OMP)
 		The OMP (Open Marketplace Protocol) is the back-end protocol that makes the Particl Marketplace possible. It is the framework that defines how marketplace transactions, orders, listings, and other key e-commerce functionalities are to be processed by the SMSG network and the Particl Blockchain. It is the "glue" that sticks everything together. If Particl Desktop is what people use to access the marketplace (the front end), the OMP is what makes it possible in the background (the back-end). To learn more about the OMP Library, head over to the `Open Market Protocol Wiki page <https://particl.wiki/learn/marketplace/open-market-protocol/>`_.
