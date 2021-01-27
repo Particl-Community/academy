@@ -8,13 +8,16 @@ Particl Marketplace Explained
       
       :description lang=en: Deep dive explanation of Particl's blockchain e-commerce solution yielding fair market conditions. Simply put, it's the most secure and private online marketplace on the web.
 
-With the award-winning :term:`Particl Marketplace`, you first and foremost prioritize the security of your personal information and data. It is, simply put, the most secure and private online marketplace on the web. With its help you transform today's e-commerce into a free, secure, and trustworthy place, yielding fair market conditions. 
+With the award-winning :term:`Particl Marketplace`, you first and foremost prioritize the security of your personal information and data. It is, simply put, the most secure and private online marketplace on the web. You transform today's e-commerce into a free, secure, and trustworthy place, yielding fair market conditions. 
 
 .. seealso::
 
  Particl Academy - :ref:`Particl Markeplace in easy words <What's Particl Marketplace>`
 
 By installing and using :term:`Particl Marketplace`, you make a valuable decision towards creating a future of independence for you and your beloved ones.
+
+Target audiences
+----------------
 
 * Audience's privacy is the highest good
 * Lower product prices for customers and higher margins for vendors
@@ -33,11 +36,6 @@ Let us dive through all the aspects making these groundbreaking changes to onlin
 
 Unique features
 ---------------
-
-Target audiences
-----------------
-
-
 
 Decentralization
 ----------------
