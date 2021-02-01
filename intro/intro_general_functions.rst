@@ -12,6 +12,8 @@ Particl is a decentralized marketplace and is in its Beta phase of development. 
    :backlinks: none
    :depth: 2
 
+----
+
 Wallet
 ------
 
@@ -72,6 +74,8 @@ Because funds need to be sent to cryptographic addresses, it can be hard to reme
 - Display a contact's address and all of its details in a block explorer.
 - Sign and verify messages using PART addresses.
 - When sending funds to one of your contact, you can quickly pick their address from the address book. 
+
+----
 
 Marketplace
 -----------
@@ -169,6 +173,8 @@ The feature is additionally integrated into any transaction allowing two users t
 - See all the messages left by other people.
 - Each new message creates a thread where the seller as well as anyone else can participate in.
 
+----
+
 Swap
 ----
 
@@ -191,6 +197,8 @@ Multi-Currency Support (Marketplace)
    
    Particl's in-app swap engine is temporarily unavaible. We are working to get it back up as soon as possible!
 
+----
+
 Messaging
 ---------
 
@@ -204,3 +212,5 @@ Messaging
 
  - Particl Website - `Particl's Roadmap <https://particl.io/roadmap/>`_
  - Particl Website - `Particl's Achievements <https://particl.io/assets/documents/Particl-Achievement_timeline-Aug_2020.pdf>`_
+
+---- 

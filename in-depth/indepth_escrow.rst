@@ -2,7 +2,7 @@
 Two-Party Escrow Explained
 ==========================
 
-To secure transactions and force you and the person you're transacting with to stay honest, Particl uses a unique two-party escrow system. It is free to use and entirely autonomous, but it's a;so probably a bit different than what you've used in the past. 
+To secure transactions and force you and the person you're transacting with to stay honest, Particl uses a unique two-party escrow system. It is free to use and entirely autonomous, but it's also probably a bit different than what you've used in the past. 
 
 This in-depth guide will explain everything you need to know about this unique escrow model so that it won't be any mystery to you anymore!
 
@@ -10,6 +10,8 @@ This in-depth guide will explain everything you need to know about this unique e
    :local:
    :backlinks: none
    :depth: 2
+
+----
 
 Let's start with a brief overview of the outcomes.
 
@@ -25,6 +27,8 @@ Let's start with a brief overview of the outcomes.
 - Security deposits are equal to the full cost of the purchased item + shipping.
 - The PART coin value changes based on supply and demand, the value of the security deposit may fluctuate while in escrow. 
 - Sellers need to make a security deposit equal to that of their buyer's, so they require a PART balance to sell on the marketplace.
+
+----
 
 Typical Resolution Centers
 --------------------------
@@ -58,7 +62,6 @@ One of the best example of an escrow scam is with the infamous but very prominen
 
 The results in you getting your item stolen and not getting any money for it. The scammer gets to get your item and keep all of his money. This happens every day, all day, to thousands of honest people around the world. 
 
-
 Intrusive data requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -74,6 +77,8 @@ When using an escrow service, you and the other party you're transacting with bo
 Not only do you need to trust that it will secure your data the right way, you also need to trust its integrity. The amount of data provided to escrow agents gives them a full oversight of all your personal, professional, and financial activities on the platform you're transacting on. Not only do they have to be impartial, they also need to respect your privacy to its fullest extent. 
 
 Ultimately, the entire concept of privacy when using an escrow service relies on trust—a fragile concept when dealing, on the internet, with people you've never met.
+
+----
 
 Particl's Escrow Solution
 -------------------------
@@ -104,6 +109,8 @@ Much better privacy
 
 Since there isn't any third-party sitting in the middle of all your transactions, every single bit of detail about their nature remain confidential between you and the parties you're transacting with. There's simply nobody in the world that can know anything about it. It's the digital equivalent of making an in-person cash purchase or sale.
 
+----
+
 Blockchain and Game Theory
 --------------------------
 
@@ -128,3 +135,5 @@ Smart-contracts are how Particl's two-party escrow system is able to run on its 
 
  - Particl Wiki - `MAD Escrow <https://particl.wiki/learn/marketplace/mad-escrow/>`_
  - Particl News Blog - `Particl Explained–Two-Party Escrow System <https://particl.news/particl-explained-double-deposit-mad-escrow-b3699dd29768/>`_ 
+
+----

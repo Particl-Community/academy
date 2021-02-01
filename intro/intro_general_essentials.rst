@@ -1,5 +1,9 @@
-Essentials
-==========
+===============
+Operation Hints
+===============
+
+.. meta::
+   :description lang=en: Particl Marketplace is a marketplace with features that customers and vendors will love. Privacy first, censorship-resistant, responsible, and sustainable e-commerce.
 
 The :term:`Particl Marketplace` is a decentralized marketplace, meaning that no third-party is required to facilitate transactions. There's no marketplace company, e-commerce service provider, internet server, payment processor, or even bank involved. Transactions happen directly between you and the other person. 
 
@@ -12,12 +16,16 @@ Find the deep-dive and technical explanation within :ref:`Particl Marketplace ex
    :backlinks: none
    :depth: 2
 
+----
+
 Currency Transactions
 ---------------------
 
 Instead of relying on payment processors, bank transfers, or payment cards, :term:`Particl Marketplace` works using electronic currencies, commonly named as :term:`cryptocurrency <Cryptocurrency>`. This enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party. While many different digital currencies can be used on the :term:`Particl Marketplace`, all marketplace's transactions are ultimately settled in PART, Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
 
 The in-depth guide :ref:`Currency (PART) Explained` will make you understand it in full.
+
+----
 
 Fraud protection
 ----------------
@@ -30,6 +38,8 @@ The :term:`Particl Marketplace` uses an entirely different approach. It secures 
 
 The in-depth guide :ref:`Two-Party Escrow Explained` will give you deep knowledge about this achievement.
 
+----
+
 Crowd Moderation
 ----------------
 
@@ -39,6 +49,7 @@ Particl's marketplace moderation works using an upvote/downvote system. When you
 
 The in-depth guide :ref:`Marketplace Moderation Explained` will give you deep knowledge about its mechanics.
 
+----
 
 Noteworthy Mentions
 -------------------
@@ -59,8 +70,12 @@ The brief introduction :ref:`Types of balances` gives you insight on that matter
 
 Because the :term:`Particl Marketplace`'s content is hosted on distributed Networks for payments and data-exchange, the marketplace may take a few minutes to sync. It may take even a few more minutes to fully load all marketplace's listings. This is to be normally expected and will get much faster as the Particl team improves the marketplace.
 
----
+----
 
-Phew! Now you have quite an understanding of the :term:`Particl Marketplace`. In the next chapter you will see all of its funtions at once. 
+**Almost there**
 
-Perhaps you want to skip that part and install it right away? If so, just head over to the :ref:`Installation Guides`.
+Phew! Now you have quite an understanding of the :term:`Particl Marketplace`. In the next chapter, you will learn about all of its funtions at once. 
+
+Perhaps you want to skip that part and install it right away? Just head over to the :ref:`Installation Guides`.
+
+---- 

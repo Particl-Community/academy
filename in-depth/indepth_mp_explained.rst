@@ -12,7 +12,7 @@ With the award-winning :term:`Particl Marketplace`, you first and foremost prior
 
 .. seealso::
 
- Particl Academy - :ref:`Particl Markeplace in easy words <What's Particl Marketplace>`
+ Particl Academy - :ref:`Particl Marketplace in easy words <Particl Marketplace on Point>`
 
 By installing and using :term:`Particl Marketplace`, you make a valuable decision towards creating a future of independence for you and your beloved ones.
 
