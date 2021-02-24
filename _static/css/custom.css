@@ -361,6 +361,13 @@ a:not(.btn):hover {
     padding-bottom: .001em;
 }
 
+.wy-breadcrumbs li a {  
+    display: inline-block;
+    padding: 0;
+    color: var(--body-color) !important;
+    border-bottom: none !important;
+}
+
 a:active {
     /* Add visual feedback when clicking on a link */
     color: var(--link-color-active);
@@ -515,6 +522,8 @@ footer,
 }
 
 @media only screen and (min-width: 769px) {}
+
+@media screen and (max-width: 1024px) {}
 
 /* Table display tweaks */
 
