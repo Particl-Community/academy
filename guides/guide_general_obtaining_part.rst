@@ -2,6 +2,9 @@
 Obtaining PART
 ==============
 
+.. title::
+   Particl Marketplace Obtain PART Coin
+
 .. meta::
    :description lang=en: Find where you can obtain PART coins.
 

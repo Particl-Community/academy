@@ -2,6 +2,9 @@
 Sell Process
 ============
 
+.. title::
+   Particl Marketplace Sell Process
+
 .. meta::
       
       :description lang=en: Understanding the sellflow on Particl Marketplace. The marketplace owned by the people. 

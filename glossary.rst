@@ -6,6 +6,9 @@
 Glossary
 =========
 
+There are terms that may need a little introduction with all this cryptocurrency, blockchain, and technology mumbo-jumboness. We try to keep it short and simple. Here they are.
+
+----
 
 General Terms
 -------------
@@ -13,7 +16,10 @@ General Terms
 .. glossary:: :sorted:
 
    Distributed Ledger
-      A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is a consensus of replicated, shared, and synchronized digital data geographically spread across multiple sites, countries, or institutions. Unlike with a distributed database, there is no central administrator. `DLT on Wikipedia <https://en.wikipedia.org/wiki/Distributed_ledger>`
+      A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is a consensus of replicated, shared, and synchronized digital data geographically spread across multiple sites, countries, or institutions. Unlike with a distributed database, there is no central administrator. `DLT on Wikipedia <https://en.wikipedia.org/wiki/Distributed_ledger>`_
+
+   Blockchain
+      Blockchain is a special design of a :term:`distributed Ledger <Distributed Ledger>`. It's essentially a growing list of records that are cryptographically linked. `Blockchain on Wikipedia <https://en.wikipedia.org/wiki/Blockchain>`_
 
    Sphinx
 		Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. It was originally created for the Python documentation and it has excellent facilities for the documentation of software projects in a range of languages.
@@ -32,6 +38,8 @@ General Terms
 
    Tor
    		The Tor network is a free and open-source network that enables anonymous online communication. It protects your digital privacy by anonymizing your IP address. It does so by routing your connection through a vast and global network of volunteers. Tor's intended use is to protect your personal privacy as well as your freedom and ability to conduct confidential communication. When enabled on Particl, it makes your node's IP address entirely anonymous.
+
+----
 
 Particl Terms
 -------------
@@ -87,7 +95,12 @@ Particl Terms
    Particl Bots
 	 	Describes a standardized snap-in functionality within the Particl Desktop client software to enable 3rd parties to offer their services in exchange for PART and automating tasks within Particl Desktop client.
 
-	 	As these services are not decentralized, they are not activated by default and need to be manually enabled by the user. Particl Bots can have various purposes, most of the time related to a service, such as providing cryptocurrency exchange capabilities, providing data (i.e. cryptocurrency prices), payment integrations, and etc. 	
+	 	As these services are not decentralized, they are not activated by default and need to be manually enabled by the user. Particl Bots can have various purposes, most of the time related to a service, such as providing cryptocurrency exchange capabilities, providing data (i.e. cryptocurrency prices), payment integrations, and etc. 
+
+   Community Market
+      Community Markets are private by default, and only those knowing about its access keys can join them. The community market creator and owner can decide if publishing items on this market is limited to a group (storefront) or granted to anybody with access rights. Additionally, a market owner has the right to promote their community markets within the :term:`Market Browser` for a limited time in exchange for a small fee.
+
+----
 
 Particl's GUI Related Terms
 ---------------------------
@@ -97,3 +110,4 @@ Particl's GUI Related Terms
    Market Browser
 		It's the tool to browse and join different community markets within the Particl Marketplace application. Read :ref:`browse the markets <Browse the Markets>` to understand it's usage.
 
+----

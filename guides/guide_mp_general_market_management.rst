@@ -2,6 +2,9 @@
 Markets & Storefronts
 =====================
 
+.. title::
+   Particl Marketplace Markets & Storefronts
+
 .. meta::
       
       :description lang=en: Own your own storefront for free. Particl's Markets & Storefronts enables you to setup an infinite number of marketplaces for goods and services. Thanks to blockchain technology.

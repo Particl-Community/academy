@@ -2,11 +2,14 @@
 Installation Guides
 ===================
 
-In this section you learn how to install :term:`Particl Marketplace`, additional software and how-to backup your data.
+.. title::
+   Particl Desktop & Marketplace Installation Guide
 
 .. meta::
-      
-      :description lang=en: Particl Desktop (Marketplace) installation guides. 
+   :description lang=en: step by step learn every aspect of the installation of Particl Destop & Marketplace.
+   :keywords lang=en: Particl, Marketplace, Installation, Blockchain, Privacy, E-Commerce
+
+In this section you learn how to install :term:`Particl Marketplace`, additional software and how-to backup your data.
 
 .. contents:: Table of Contents
    :local:

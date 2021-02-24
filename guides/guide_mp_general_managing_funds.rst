@@ -2,6 +2,9 @@
 Funds, Coins, and Balances
 ============================
 
+.. title::
+   Particl Marketplace Managing Funds
+
 In this section, you will learn how to manage your funds with :term:`Particl Desktop` in preparation for buying and selling goods and services on :term:`Particl Marketplace`.
 
 .. meta::

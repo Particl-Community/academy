@@ -2,8 +2,11 @@
 All Functions 
 =============
 
+.. title::
+   Particl Marketplace All Functions Overview
+
 .. meta::
-   :description lang=en: Find all the functions of Particl Marketplace at a glance. Privacy first, responsible, and sustainable e-commerce.
+   :description lang=en: All the functions of Particl Marketplace at a glance. 
 
 Particl is a decentralized marketplace and is in its Beta phase of development. While there are still a lot of features under development, it currently provides you with most of the basic tools  you need to buy and sell online without sacrificing your personal information and without paying fees.   
 

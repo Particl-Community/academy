@@ -2,12 +2,21 @@
 Particl Academy
 ===============
 
+.. title::
+   Particl Marketplace Documentation
+   
+.. meta::
+   :description lang=en: A guide to become an expert for responsible and sustainable e-commerce in privacy with Particl Marketplace. Thanks to decentralized blockchain technology. The reference book in straightforward language.
+   :keywords lang=en: Particl, Marketplace, Documentation, Blockchain, Privacy, E-Commerce, Decentralized
+
 **A documentation for Particl Marketplace.**
 
 .. meta::
-   :description lang=en: A guide to become an expert for responsible and sustainable e-commerce with Particl Marketplace. Thanks to blockchain technology.
+   :description lang=en: 
 
-Particl Academy guides you while you'll become an expert for responsible and sustainable e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language.
+Particl Academy guides you to become an expert for e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language. 
+
+:term:`Particl Marketplace` is, simply put, the most secure and private online marketplace on the web.
 
 The time economists among you will jump right to the :doc:`Quickstart Guide <guides/guide_general_getstarted>`. 
 
@@ -16,7 +25,7 @@ The time economists among you will jump right to the :doc:`Quickstart Guide <gui
 Introduction
 ============
 
-Take your first few steps with understanding the :term:`Particl Marketplace`. What is Particl Marketplace? What, Who, and Why? These questions get answered here:
+Take your first few steps with understanding the :term:`Particl Marketplace`. What is Particl Marketplace? What do you get, who is it for, and the answer to the why:
 
 .. toctree::
    :caption: Introduction
@@ -30,9 +39,9 @@ Take your first few steps with understanding the :term:`Particl Marketplace`. Wh
    intro/intro_general_functions
 
 
-* :doc:`Particl Marketplace on Point <intro/intro_general_particlmarketplace>`
+* :doc:`Uncompromising, What You Get <intro/intro_general_particlmarketplace>`
 * :doc:`Target Audiences <intro/intro_general_target_audiences>`
-* :doc:`Essentials <intro/intro_general_essentials>`
+* :doc:`Operation Hints <intro/intro_general_essentials>`
 * :doc:`All Functions Overview <intro/intro_general_functions>`
 
 ----

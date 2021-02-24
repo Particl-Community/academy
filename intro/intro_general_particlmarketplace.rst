@@ -1,36 +1,48 @@
 ============================
-Particl Marketplace on Point
+Uncompromising, What You Get
 ============================
 
+.. title::
+   Particl Marketplace Introduction
+
 .. meta::
-   :description lang=en: is a marketplace with features that customers and vendors will love. Privacy first, censorship-resistant, responsible, and sustainable e-commerce.
+   :description lang=en: is a marketplace with features that customers and vendors will love. It's the marketplace that has a meaning to you.
+   :keywords lang=en: Particl Marketplace, Introduction, What, Blockchain, Privacy, E-Commerce
 
-The :term:`Particl Marketplace` is similar to the internet’s well-known marketplaces like Amazon, eBay, or Alibaba, but with added security and extra features that customers and vendors will love. Particl has no intention to make profits, and you can be sure that your needs will be covered from all angles.
+The :term:`Particl Marketplace` is similar to the internet's well-known marketplaces like Amazon, eBay, or Alibaba, but with core security and privacy principles that customers and vendors will love. Particl has no intention to make profits. You can think of it as your personal bodyguard for essential digital and financial protection, sound economics, and equal chances applied to you and your businesses.
 
+.. **Things you will never get with corporatism**
+.. **You help take social and economic responsibility.**
+.. **Overcome the challenge of feeling weak.**
+.. **You are significant.** 
+.. **You decide to change your world for the better.**
+.. **Particl Marketplace is for people who care for the big picture.**
+.. **Particl Marketplace is for people who care about what's been taken away from them.**
+.. **Particl Marketplace is for people who don't accept the mentality of the few's self-service.**
 
-**True free markets and the fair level playing field in e-commerce.**
+**Don't accept the mentality of self-service by a few and vote for the fair level playing field.**
 
-* :ref:`Keep more money` in your pocket to spend or save
-* :ref:`Gain security and privacy` by not becoming the product or a “glass consumer”. No fraud, trickery, spam, restrictions, politics, malice, or invasion of your privacy possible
-* :ref:`Enjoy giving back` to society, contribute to its success, and grow your standing
+* :ref:`Save more money` for the meaninful things in life to you. 
+* :ref:`Gain Security and Privacy <Gain security and privacy>` and leave the surveillance society which made you the product (the glass consumer). No fraud, trickery, spam, restrictions, censorship, politics, malice, or invasion of your privacy possible.
+* :ref:`Enjoy giving back` to society, contribute to its success, and grow your standing.
 
-Equip yourself with sophisticated technology that is user friendly. Using the :term:`Particl Marketplace` will help stop feeding the corporate monopolies, and your world becomes a fairer place. It’s not just you who benefits from it—your communities and loved ones will profit as well, giving everyone a good feeling because you provide them with care for a sustainable future.
+Equip yourself with sophisticated but easy-to-use technology. You will be feeding your social and economic self-esteem but not corporate monopolies.
 
 
 *-You will feel like a champion!*
 
 ----
 
-Keep More Money 
+Save More Money 
 ----------------
 
-You know the desire to have the best food, ideally the healthy stuff? Another one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best possible physical and emotional shape. Additionally, to be in a good relationship with your loved ones and your communities. And finally, to be able to fulfill your dreams and give back the best you can.
+You know the desire to have the best food, ideally the healthy stuff. The next one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best possible physical and emotional shape. Additionally, to be in a good relationship with your loved ones and your communities. And finally, to be able to give back the best you can and to fulfill your dreams.
 
 **Your desire to survive and thrive in today’s economy is mainly bound to the state of your own finances.**
 
-But did you know that, even if you use “free” platforms or services to buy and sell stuff, it is not really free? No, instead of paying with your money, you pay with your valuable data. 
+But did you know that, if you use “free” internet service, it is not really free? No, instead of paying with your money, you pay with your valuable data. 
 
-The :term:`Particl Marketplace`, on the other hand, does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual without compromising you. The total cost of commerce gets lowered.
+Now, you can change that. :term:`Particl Marketplace` does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual without compromising you. The total cost of commerce gets lowered.
 
 
 *We help you to save more or make more money by cutting out the middle-man*
@@ -52,25 +64,25 @@ The ever-growing-and-already-giant e-commerce corporations always seek to expand
 
 *We help you to match full control of your data and freedom*
 
-**Get Rid of Invasion of Privacy or Backdoors** 
+**You stop Invasion of Privacy or Backdoors** 
 
 No more stolen credit card information, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be collected by anyone. It cannot be attained, shared, sold, misused, hacked, or leaked. Your data stays your data regardless of whether it relates to your products, locations, payments, or any online activity–for both customers and vendors. You can now defend the human right of privacy to create an umbrella for today's and the future's technical and political uncertainties.
 
 *We help you to become invincible to privacy issues*
 
-**Get rid of Restrictions, Politics, and Malice**
+**You stop Restrictions, Politics, and Malice**
 
-A 100% uptime that is impossible to be taken offline or manipulated. It also means none of your products or users can be banned from the :term:`Particl Marketplace` or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s content at all times. Across national borders, free trade and free markets are possible so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
+A 100% uptime that is impossible to be taken offline or manipulated. It also means none of your products, vendors, or customers can be banned from the :term:`Particl Marketplace` or be censored by any governing body or legislation. Instead, the community remains in charge of the marketplace’s content at all times. Across national borders, free trade and free markets are possible so that manufacturers, vendors, and producers can freely decide how and with whom they do business.
 
 *We help you to become bullet-proof against restrictions*
 
-**Get Rid of Fraud and Trickery**
+**You stop Fraud and Trickery**
 
 No more bricks in the package or bad quality counterfeit goods for you as a customer. No more chargebacks for vendors due to stolen identities. Fraudulent attempts get taken down with a free of charge and automated two-party escrow system.
 
 *We help you to become immune to online fraud*
 
-**Get Rid of Spam**
+**You stop Spam**
 
 Tailored ads are hammering on you even after you have made a purchase, and most of the time, even before you make it. You have seen them on websites you visit, read them within your email accounts and apps you use. It even affects how search engines deliver results to you and they track your location.
 
@@ -85,7 +97,7 @@ E-commerce and online marketplaces have made the world of shopping and selling a
 
 **To Small Merchants, Manufacturers, and Producers**
 
-Breaking the value chains gives merchants, manufacturers, and producers of goods the ability to build a livelihood that is no longer dependent on middlemen and corporate interests.
+Breaking the value chains gives merchants, manufacturers, and producers of goods the ability to build a livelihood that is no longer dependent on middlemen and large corporation's interests.
 
 **To Local Shops and Co-operatives**
 
@@ -93,7 +105,7 @@ Local shops and co-operatives in your proximity do get the ability to setup thei
 
 **To Yourself and your Communities**
 
-Sustainability and responsability are cornerstones of a healthy economy. Don't wait for somebody to make the economy better. Be your own revolution and liberation. Share and discuss it with your communities.
+Some say, sustainability and responsability are cornerstones of a healthy economy. Don't wait for somebody to make the economy better. Be your own revolution and liberation. Share and discuss it with your communities.
 
 *It’s time to give back to the small, to the oppressed, to the exploited.* 
 
@@ -112,18 +124,16 @@ By :ref:`installing <Installation Guides>` and using :term:`Particl Marketplace`
 * You will have the cure against spam
 * You will contribute against the global economic inequality
 
-*The price you currently pay for all that is a little convenience. We do believe it's worth it.*
+*Admittedly, there is a price for all this. Currently, it is just a little bit of convenience. We think it's worth it.*
 
 ----
 
 How it Works
 -------------
 
-With the award-winning :term:`Particl Marketplace`, you first and foremost prioritize the security of your personal information and data. It is, simply put, the most secure and private online marketplace on the web.
+:term:`Particl Marketplace` relies on open-source technologies that are openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
 
-It relies on open-source technologies that are openly audited, inspected, and improved by the global community. Each and every single component of the marketplace is designed to keep you, your funds, and your personal information safe.
-
-However, the :term:`Particl Marketplace` is based on distributed ledger and :term:`peer-to-peer <Peer-to-Peer>` technologies, which you may know by hearing Blockchain and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of :term:`nodes <Node>` hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
+It is based on distributed ledger and :term:`peer-to-peer <Peer-to-Peer>` technologies, which you may know by hearing :term:`Blockchain` and Bitcoin's synonyms. It runs on a distributed network (:term:`Particl Network`) of :term:`nodes <Node>` hosted by volunteers scattered across the world. It is an entirely autonomous platform that doesn’t require any central party to operate, which means no company or organization is between buyers and sellers.
 
 .. raw:: html
 
@@ -134,9 +144,9 @@ However, the :term:`Particl Marketplace` is based on distributed ledger and :ter
 
 ----
 
-**Hang on**
+**It's getting even more interesting**
 
-You have already scratched the surface, and there is much more to discover about :term:`Particl Marketplace`! In the next chapter, you will learn about its target audiences. 
+Now you have a good understanding of what you get. In the next chapter, you can learn about the target audiences and their needs. Can you find yourself there? 
 
 Perhaps you want to skip that part and install it right away? Just head over to the :ref:`Installation Guides`.
 

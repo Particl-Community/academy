@@ -2,6 +2,9 @@
 Buy Process
 ===========
 
+.. title::
+   Particl Marketplace Buy Process
+
 .. meta::
    :description lang=en: Learn how the buyflow works on :term:`Particl Marketplace` from a customer perspective.
 

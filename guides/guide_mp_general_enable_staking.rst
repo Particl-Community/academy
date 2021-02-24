@@ -2,6 +2,9 @@
 Staking Rewards
 ===============
 
+.. title::
+   Particl Marketplace Enable Staking
+
 In exchange for the work provided by your staking :term:`node <Node>`, the :term:`Particl Network` pays you an interest in dividend-like payments proportional to the number of PART coins you own on that node. This amounts to a minimum of 2% yearly interest, but in reality, it fluctuates between 2% and 5% depending on how many more people are staking on the network as well.
 
 When you're staking on Particl, it means your computer (referred to as a "staking :term:`node <Node>`") is helping the network by validating transactions. This task is fully automated and doesn't require you to do any manual work.

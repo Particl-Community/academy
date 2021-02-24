@@ -1,8 +1,11 @@
 ==============
-User Interface
+User-Interface
 ==============
 
-Get familiar with the user-interface and it's overall structure and different options.
+.. title::
+   Particl Desktop & Marketplace User-Interface
+
+Get familiar with the user-interface, it's overall structure and general flow.
 
 .. meta::
       
@@ -13,8 +16,10 @@ Get familiar with the user-interface and it's overall structure and different op
    :backlinks: none
    :depth: 2
 
-General structure and flow 
---------------------------
+
+
+General structure
+-----------------
 
 Side-navigation
 ~~~~~~~~~~~~~~~
@@ -37,8 +42,8 @@ Location header
 Status icons
 ^^^^^^^^^^^^
 
-Wallet Interface
-----------------
+Wallet Application
+------------------
 
-Marketplace Interface
----------------------
+Marketplace Application
+-----------------------
