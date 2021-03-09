@@ -124,7 +124,7 @@ By :ref:`installing <Installation Guides>` and using :term:`Particl Marketplace`
 * You will have the cure against spam
 * You will contribute against the global economic inequality
 
-*Admittedly, there is a price for all this. Currently, it is just a little bit of convenience. We think it's worth it.*
+*Admittedly, there is a price for all this. Currently, it is just a little bit of convenience. Do you think it's worth it?*
 
 ----
 
@@ -137,8 +137,8 @@ It is based on distributed ledger and :term:`peer-to-peer <Peer-to-Peer>` techno
 
 .. raw:: html
 
-	<video width="100%" controls>
-  	<source src="../_static/media/video/Particl_decentralized_censorship-resistant_e-commerce_blockchain_privacy_trailer_01_1080p_waudio_x264.mp4" type="video/mp4">
+	<video width="100%" controls poster="../_static/media/video/Particl_decentralized_censorship-resistant_e-commerce_blockchain_privacy_trailer_01_1440p_particl_academy.jpg">
+  	<source src="../_static/media/video/Particl_decentralized_censorship-resistant_e-commerce_blockchain_privacy_trailer_01_1440p_particl_academy.mp4" type="video/mp4">
 	Your browser does not support the video tag.
 	</video>
 
