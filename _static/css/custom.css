@@ -352,6 +352,59 @@ a {
     /* Original definition has `!important` */
     color: var(--link-color) !important;
 }
+/*New version*/
+.sphinx-tabs-tab {
+    position: relative;
+    font-family: inherit;
+    color: inherit;
+    line-height: inherit;
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: .15rem .15rem 0 0;
+    border: 0;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+}
+
+.sphinx-tabs {
+    margin-bottom: 2rem;
+}
+
+[role="tablist"] {
+    border-bottom: 1px solid var(--rst-guilabel-border-color);
+}
+
+.sphinx-tabs-tab[aria-selected="true"] {
+    font-weight: 700;
+    border: 1px solid var(--rst-guilabel-border-color);
+    border-bottom: 1px solid var(--content-background-color);
+    margin: -1px;
+    background-color: inherit;
+}
+
+.sphinx-tabs-panel {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid var(--rst-guilabel-border-color);
+    margin: 0px -1px -1px -1px;
+    border-radius: 0 0 .15rem .15rem;
+    border-top: 0;
+    background: inherit;
+}
+
+.sphinx-tabs-tab:focus, .sphinx-tabs-panel:focus {
+  z-index: 1;
+  outline-offset: 1px;
+  outline-color: var(--link-color);
+  outline-style: revert;
+  outline-width: 0px;
+}
+
+.sphinx-tabs-tab:focus {
+    outline-width: medium;
+}
 
 a:not(.btn):hover {
     color: var(--link-color-hover);
@@ -495,7 +548,7 @@ html.writer-html5 .rst-content table.docutils th {
     background: var(--rst-guilabel-background-color);
     font-size: 80%;
     font-weight: 500;
-    border-radius: .20rem;
+    border-radius: .15rem;
     padding: 3px 6px;
     margin: auto 2px;
     display: inline-block;
@@ -560,6 +613,7 @@ code,
 .rst-content div[class^="highlight"] {
     border-color: var(--code-border-color);
     background-color: var(--content-wrap-background-color);
+    border-radius: .15rem;
 }
 
 .rst-content .bignums div[class^="highlight"],
@@ -652,11 +706,13 @@ code,
 .rst-content .admonition {
     background-color: var(--admonition-background-color);
     color: var(--admonition-color);
+    border-radius: .15rem;
 }
 
 .rst-content .admonition .admonition-title {
     background-color: var(--admonition-title-background-color);
     color: var(--admonition-title-color);
+    border-radius: .15rem .15rem 0 0;
 }
 
 .rst-content .admonition.note {
@@ -743,7 +799,7 @@ kbd, .kbd {
 .kbdf {
     background-color: var(--kbd-background-color);
     border: 1px solid var(--kbd-outline-color);
-    border-radius: .20rem;
+    border-radius: .15rem;
     /*box-shadow: inset 0 -1px 0 var(--kbd-shadow-color);*/
     box-shadow: initial;
     color: var(--kbd-text-color);
@@ -850,10 +906,18 @@ kbd, .kbd {
     /* Make visual feedback instant */
     transition: none;
     font-size: 14px;
+    border-radius: .15rem;
 }
 
 .wy-side-nav-search input[type="text"]:focus {
-    border: 2px solid var(--input-focus-border-color);
+    border: 2px solid var(--input-focus-border-color) !important;
+}
+video, img {
+    border-radius: .15rem;
+}
+
+input:focus {
+    border: 1px solid var(--input-focus-border-color) !important;
 }
 
 .wy-side-nav-search input[type="text"]::placeholder {
@@ -1095,7 +1159,7 @@ kbd, .kbd {
     border: 1px solid;
     margin-bottom: .75em;
     padding: .15em .75em .15em 1.65em;
-    border-radius: .15em;
+    border-radius: .15rem;
     background-color: var(--content-wrap-background-color);
 }
 
@@ -1189,7 +1253,7 @@ kbd, .kbd {
     padding-top: .975rem;
     background-color: var(--bignums-background-color);
     min-height: 3.575rem;
-    border-radius: .25rem;
+    border-radius: .15rem;
     list-style: none !important;
     margin-left: 0px !important;
     margin-bottom: 1em;

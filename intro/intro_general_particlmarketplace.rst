@@ -6,27 +6,18 @@ Uncompromising, What You Get
    Particl Marketplace Introduction
 
 .. meta::
-   :description lang=en: is a marketplace with features that customers and vendors will love. It's the marketplace that has a meaning to you.
-   :keywords lang=en: Particl Marketplace, Introduction, What, Blockchain, Privacy, E-Commerce
+   :description lang=en: do e-commerce without anyone in between. The marketplace where you are the boss.
+   :keywords lang=en: Particl Marketplace, Introduction, Boss, Blockchain, Privacy, E-Commerce
 
-The :term:`Particl Marketplace` is similar to the internet's well-known marketplaces like Amazon, eBay, or Alibaba, but with core security and privacy principles that customers and vendors will love. Particl has no intention to make profits. You can think of it as your personal bodyguard for essential digital and financial protection, sound economics, and equal chances applied to you and your businesses.
+:term:`Particl Marketplace` enables you to trade goods and services online with nobody in between. Unlike Amazon, eBay, Alibaba, or any other competitor, it’s built with core security and privacy principles. Be the owner, service provider, and operator at the same time. As you might have guessed, Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
 
-.. **Things you will never get with corporatism**
-.. **You help take social and economic responsibility.**
-.. **Overcome the challenge of feeling weak.**
-.. **You are significant.** 
-.. **You decide to change your world for the better.**
-.. **Particl Marketplace is for people who care for the big picture.**
-.. **Particl Marketplace is for people who care about what's been taken away from them.**
-.. **Particl Marketplace is for people who don't accept the mentality of the few's self-service.**
+**Don’t accept self-service mentality by a few and vote for the level playing field for everybody.**
 
-**Don't accept the mentality of self-service by a few and vote for the fair level playing field.**
+* :ref:`Save more money` for the meaningful things in life to you. 
+* :ref:`Gain Security and Privacy <Gain security and privacy>` and leave the corporate surveillance society which made you the product (the glass consumer). No fraud, trickery, spam, restrictions, censorship, politics, malice, or invasion of your privacy possible.
+* :ref:`Enjoy giving back` to society, contribute to its success, and last but not least grow your own standing.
 
-* :ref:`Save more money` for the meaninful things in life to you. 
-* :ref:`Gain Security and Privacy <Gain security and privacy>` and leave the surveillance society which made you the product (the glass consumer). No fraud, trickery, spam, restrictions, censorship, politics, malice, or invasion of your privacy possible.
-* :ref:`Enjoy giving back` to society, contribute to its success, and grow your standing.
-
-Equip yourself with sophisticated but easy-to-use technology. You will be feeding your social and economic self-esteem but not corporate monopolies.
+Equip yourself with sophisticated yet easy-to-use technology and you will be feeding your self-esteem but not corporate monopolies.
 
 
 *-You will feel like a champion!*
@@ -146,7 +137,7 @@ It is based on distributed ledger and :term:`peer-to-peer <Peer-to-Peer>` techno
 
 **It's getting even more interesting**
 
-Now you have a good understanding of what you get. In the next chapter, you can learn about the target audiences and their needs. Can you find yourself there? 
+Now you have a good understanding of what you get. In the next chapter, you'll learn about the target audiences and their needs. Can you find yourself there? 
 
 Perhaps you want to skip that part and install it right away? Just head over to the :ref:`Installation Guides`.
 
