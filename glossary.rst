@@ -63,7 +63,7 @@ Particl Terms
    Particl Blockchain
 		The Particl Blockchain is a decentralized, immutable, and censorship-proof ledger. It is based on bitcoin technology and has been carefully enhanced by the Particl team to provide a more robust level of privacy through industry-leading privacy technologies. The Particl Blockchain processes and validates payments between two users without requiring any third-party such as a bank or a payment processor.
 
-   SecureMessaging (SMSG)
+   SMSG Network
 		SecureMessaging (SMSG protocol) is a decentralized storage network (DSN) to store and transfer data between nodes in a privacy-preserving manner. It enables a private and secure environment for e-commerce and communications between users. SMSG powers the Particl Marketplace without bloating the blockchain with excessive data and without leaving any permanent record.
 
    Particl Core
