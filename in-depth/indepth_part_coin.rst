@@ -24,7 +24,7 @@ PART is the native currency of the Particl Marketplace and preserves all your pe
     - Transactions are near-free; usually just a few cents or even less per transaction.
     - Transactions are near-instant; usually takes around 2 minutes for the payment to be fully settled.
     - Transactions cannot be reversed (no chargebacks).
-    - You keep full control of your financial data.
+    - You keep complete control of your financial data.
 
 .. container:: toggle
 
@@ -32,22 +32,26 @@ PART is the native currency of the Particl Marketplace and preserves all your pe
 
         **A few things to keep in mind...**
 
-    - Payments are sent to special cryptographic addresses similar to bank account numbers.
-    - Once you send a payment, you cannot modify or cancel it. Always double check the payment details before making a transaction.
+    - Payments are sent to unique cryptographic addresses similar to bank account numbers.
+    - Once you send a payment, you cannot modify or cancel it. Always double-check the payment details before making a transaction.
     - You and only you are responsible for the security of your funds. They cannot be retrieved if you lose your password(s) or control over your wallets(s).
     - The price of almost any cryptocurrency is volatile by nature and based on the concept of supply and demand.
+
+----
 
 .. contents:: Table of Contents
    :local:
    :backlinks: none
    :depth: 2
 
+----
+
 Blockchain Specifications
 -------------------------
 
-PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockchain <Particl Blockchain>`. It is a secure and confidential currency specifically designed to power e-commerce and online marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the :term:`cryptocurrency <Particl Marketplace>`. 
+PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockchain <Particl Blockchain>`. It is a secure and confidential currency designed specifically to power e-commerce and online marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the :term:`cryptocurrency <Particl Marketplace>`. 
 
-PART has been released back in 2017 and is based on the latest version of the Bitcoin code (currently |BTC Version|). The Particl codebase contains many modern day improvements and additional features not present in the Bitcoin code. This makes Particl a faster, more private, and more flexible version than Bitcoin.
+PART has been released back in 2017 and is based on the latest version of the Bitcoin code (currently |BTC Version|). The Particl codebase contains many modern-day improvements and additional features not present in the Bitcoin code. This makes Particl a faster, more private, and more flexible version than Bitcoin.
 
 +--------------------------+-----------------------------------------------------------+
 | **Native blockchain**    | Particl                                                   |
@@ -74,7 +78,7 @@ PART has been released back in 2017 and is based on the latest version of the Bi
 Staking Specifications
 ----------------------     
 
-Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism which pays back interest in dividend-like payments to stakers in exchange for securing the network. PPoS offers many secure staking options that lets you easily and quickly earn rewards without any of the security or financial risks typically associated with staking.
+Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism, which pays back interest in dividend-like payments to stakers in exchange for securing the network. PPoS offers many secure staking options that let you easily and quickly earn rewards without any of the security or financial risks typically associated with staking.
 
 PPoS is also the protocol used to vote on proposals in Particl's decentralized governance model.
 
@@ -84,9 +88,9 @@ PPoS is also the protocol used to vote on proposals in Particl's decentralized g
 
         **Cold staking**
 
-    Particl's cold staking protocol allows you to securely delegate your staking power to a staking-only node that contains no coin. This lets your earn interest payments (staking rewards) on your PART coins even if they're stored offline. 
+    Particl's cold staking protocol allows you to securely delegate your staking power to a staking-only node that contains no coin. This lets your earn interest payments (staking rewards) on your PART coins, even if they're stored offline. 
 
-    It enables true and secure staking on cold wallets, hardware devices (i.e. Ledger Nano), mobile wallets, cloud servers, or even just a piece of paper. Staking-only nodes do not have access to the coins they are staking, meaning they are hackproof.
+    It enables true and secure staking on cold wallets, hardware devices (i.e., Ledger Nano), mobile wallets, cloud servers, or even just a piece of paper. Staking-only nodes do not have access to the coins they are staking, meaning they are hackproof.
 
 .. container:: toggle
 
@@ -94,7 +98,7 @@ PPoS is also the protocol used to vote on proposals in Particl's decentralized g
 
         **Cold staking pools**
 
-    You can join a cold staking pool to team up with other stakers and combine your staking powers. This leads to more frequent rewards in exchange for a small fee paid to the pool operator. Cold staking pools are ideal if you have a smaller balance or if you don't want to manage a staking node yourself.  
+    You can join a cold staking pool to team up with other stakers and combine your staking powers. This leads to more frequent rewards in exchange for a small fee paid to the pool operator. Cold staking pools are ideal if you have a smaller balance or don't want to manage a staking node yourself.  
 
 .. container:: toggle
 
@@ -129,9 +133,9 @@ You can find more information and step-by-step tutorials on Particl Proof-of-Sta
 Privacy Specifications
 ----------------------  
 
-PART is a modern day :term:`cryptocurrency <Cryptocurrency>` and the logical evolution to Bitcoin. It doesn't just allow you to transact person-to-person with anyone else, it also does it in a way that doesn't permanently share all of your financial data with the rest of the world. 
+PART is a modern-day :term:`cryptocurrency <Cryptocurrency>` and the logical evolution to Bitcoin. It doesn't just allow you to transact person-to-person with anyone else; it also does it in a way that doesn't permanently share all of your financial data with the rest of the world. 
 
-It has an adjustable level of privacy and lets you choose between three different types of transactions (public, blind, and anon), each with their own purpose, cost, and level of anonymity.
+It has an adjustable level of privacy and lets you choose between three different types of transactions (public, blind, and anon), each with its own purpose, cost, and level of anonymity.
 
 +----------------------------------+---------------------------------------------+
 | **Adjustable Level of Privacy**  | Yes, 3 levels                               |
@@ -147,7 +151,7 @@ It has an adjustable level of privacy and lets you choose between three differen
 | **Taproot**                      | Yes (Taproot-ready as of Particl Core 0.21+)|
 +----------------------------------+---------------------------------------------+
 
-PART has three different types of transactions, each with its own purpose, cost, level of privacy, type of balance, and settings. All three types are available on :term:`Particl Desktop` where you can easily convert your coins from one type of balance to another. 
+PART has three different types of transactions, each with its own purpose, cost, level of privacy, type of balance, and settings. All three types are available on :term:`Particl Desktop`, where you can easily convert your coins from one kind of balance to another. 
 
 .. container:: toggle
 
@@ -159,7 +163,7 @@ PART has three different types of transactions, each with its own purpose, cost,
     - **Privacy:** Public; data on the transacting amounts and the identity of the participants is permanently written on the blockchain and publicly auditable. Identical to Bitcoin transactions.
     - **Type of balance:** Public
 
-    Public transactions let you make Bitcoin-like public transactions. These transactions are the most affordable ones to make, and also the most simple to integrate into other platforms. For this reason, they are the most widely supported type of transaction by exchanges and third-party services. 
+    Public transactions let you make Bitcoin-like public transactions. These transactions are the most affordable ones to make and the most simple to integrate into other platforms. For this reason, they are the most widely supported type of transaction by exchanges and third-party services.
 
     **What can you do with public transactions?**
 
@@ -196,10 +200,10 @@ PART has three different types of transactions, each with its own purpose, cost,
         **Anon transactions**
 
     - **Cost:** Moderate
-    - **Privacy:** Anonymous; data on the transacting amounts and the participants is permanently written on the blockchain, but is completely anonymous.
+    - **Privacy:** Anonymous; data on the transacting amounts and the participants is permanently written on the blockchain but is completely anonymous.
     - **Type of balance:** Anon (Private)
 
-    By adding "ring signatures" to blind transactions (RingCT), you obtain anon transactions. This is the most private type of transaction on Particl and makes them completely untreaceable. All of the transaction data (value transfered and address of the participants) is anonymously written on the blockchain, making it impossible for anyone not involved with a transaction to collect its details.
+    By adding “ring signatures” to blind transactions (RingCT), you obtain anon transactions. This is the most private type of transaction on Particl and makes them completely untraceable. All of the transaction data (value transferred and address of the participants) is anonymously written on the blockchain, making it impossible for anyone not involved with a transaction to collect its details.
 
     Anon transactions can be made more or less anonymous by manually adjusting the number of ring signatures included in transactions. The more private an anon transaction is, the more expensive it is to send. 
 
@@ -209,7 +213,7 @@ PART has three different types of transactions, each with its own purpose, cost,
     - Pay for goods and services on the :term:`Particl Marketplace`.
     - Pay for listing fees on the :term:`Particl Marketplace`.
     - Use smart-contracts anonymously (done by linking anon to blind transactions).
-    - Enter into two-party escrow agreements without sharing any information to any third-party.
+    - Enter into two-party escrow agreements without sharing any information with any third-party.
     - Anonymously earn PART coins in dividend-like payments by staking. 
 
 Read the :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_funds>` user guide for more information on how to make different types of transactions.

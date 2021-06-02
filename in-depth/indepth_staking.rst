@@ -10,10 +10,14 @@ To guarantee the integrity of the network, all staking nodes process all the tra
 
 If the data of a transaction cannot be confirmed by enough staking nodes on the network, the transaction is collectively rejected. This mechanism is what is generally referred to as a consensus mechanism.
 
+----
+
 .. contents:: Table of Contents
    :local:
    :backlinks: none
    :depth: 2
+
+----
 
 Particl Proof-of-Stake (PPoS)
 -----------------------------
