@@ -144,4 +144,6 @@ rst_epilog = """
 .. |BTC Version| replace:: Bitcoin 0.21.1.0
 .. |PART Version| replace:: Particl Core 0.19.2.10
 .. |Threshold| replace:: -9,000 PART
+.. |emission| replace:: 0.70 PART
+.. |staking rate| replace:: 4%
 """
