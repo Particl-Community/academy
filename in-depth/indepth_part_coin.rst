@@ -6,37 +6,6 @@ PART is an untraceable :term:`cryptocurrency <Cryptocurrency>` (a "**privacy coi
 
 PART is the native currency of the Particl Marketplace and preserves all your personal, financial, and business data from prying eyes. 
 
-.. container:: toggle
-
-    .. container:: header
-
-        **What are cryptocurrencies?**
-
-    :term:`Cryptocurrencies <Cryptocurrency>` are digital units of a currency that can be transferred person-to-person without requiring a third-party (payment processor) to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed (chargebacks), or delayed by any party.
-
-.. container:: toggle
-
-    .. container:: header
-
-        **What are their benefits?**
-
-    - They can be used anywhere in the world, at any time (100% uptime).
-    - Transactions are near-free; usually just a few cents or even less per transaction.
-    - Transactions are near-instant; usually takes around 2 minutes for the payment to be fully settled.
-    - Transactions cannot be reversed (no chargebacks).
-    - You keep complete control of your financial data.
-
-.. container:: toggle
-
-    .. container:: header
-
-        **A few things to keep in mind...**
-
-    - Payments are sent to unique cryptographic addresses similar to bank account numbers.
-    - Once you send a payment, you cannot modify or cancel it. Always double-check the payment details before making a transaction.
-    - You and only you are responsible for the security of your funds. They cannot be retrieved if you lose your password(s) or control over your wallets(s).
-    - The price of almost any cryptocurrency is volatile by nature and based on the concept of supply and demand.
-
 ----
 
 .. contents:: Table of Contents
@@ -45,6 +14,26 @@ PART is the native currency of the Particl Marketplace and preserves all your pe
    :depth: 2
 
 ----
+
+What are cryptocurrencies?
+--------------------------
+
+:term:`Cryptocurrencies <Cryptocurrency>` are digital units of a currency that can be transferred person-to-person without requiring a third-party (payment processor) to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed (chargebacks), or delayed by any party.
+
+**What are their benefits?**
+
+- They can be used anywhere in the world, at any time (100% uptime).
+- Transactions are near-free; usually just a few cents or even less per transaction.
+- Transactions are near-instant; usually takes around 2 minutes for the payment to be fully settled.
+- Transactions cannot be reversed (no chargebacks).
+- You keep complete control of your financial data.
+
+**A few things to keep in mind...**
+
+- Payments are sent to unique cryptographic addresses similar to bank account numbers.
+- Once you send a payment, you cannot modify or cancel it. Always double-check the payment details before making a transaction.
+- You and only you are responsible for the security of your funds. They cannot be retrieved if you lose your password(s) or control over your wallets(s).
+- The price of almost any cryptocurrency is volatile by nature and based on the concept of supply and demand.
 
 Blockchain Specifications
 -------------------------
@@ -82,31 +71,22 @@ Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism, which pays b
 
 PPoS is also the protocol used to vote on proposals in Particl's decentralized governance model.
 
-.. container:: toggle
+Cold staking
+============
 
-    .. container:: header
+Particl's cold staking protocol allows you to securely delegate your staking power to a staking-only node that contains no coin. This lets your earn interest payments (staking rewards) on your PART coins, even if they're stored offline. 
 
-        **Cold staking**
+It enables true and secure staking on cold wallets, hardware devices (i.e., Ledger Nano), mobile wallets, cloud servers, or even just a piece of paper. Staking-only nodes do not have access to the coins they are staking, meaning they are hackproof.
 
-    Particl's cold staking protocol allows you to securely delegate your staking power to a staking-only node that contains no coin. This lets your earn interest payments (staking rewards) on your PART coins, even if they're stored offline. 
+Cold staking pools
+==================
 
-    It enables true and secure staking on cold wallets, hardware devices (i.e., Ledger Nano), mobile wallets, cloud servers, or even just a piece of paper. Staking-only nodes do not have access to the coins they are staking, meaning they are hackproof.
+You can join a cold staking pool to team up with other stakers and combine your staking powers. This leads to more frequent rewards in exchange for a small fee paid to the pool operator. Cold staking pools are ideal if you have a smaller balance or don't want to manage a staking node yourself.  
 
-.. container:: toggle
+On-chain voting
+===============
 
-    .. container:: header
-
-        **Cold staking pools**
-
-    You can join a cold staking pool to team up with other stakers and combine your staking powers. This leads to more frequent rewards in exchange for a small fee paid to the pool operator. Cold staking pools are ideal if you have a smaller balance or don't want to manage a staking node yourself.  
-
-.. container:: toggle
-
-    .. container:: header
-
-        **On-chain voting**
-
-    Particl's decentralized governance is powered by PPoS. By staking, you can vote on community proposals using your staking power as voting power. When voting for a proposal, any block you stake during its voting period will cast a vote. The more blocks you find during a proposal's voting period, the more votes you cast.
+Particl's decentralized governance is powered by PPoS. By staking, you can vote on community proposals using your staking power as voting power. When voting for a proposal, any block you stake during its voting period will cast a vote. The more blocks you find during a proposal's voting period, the more votes you cast.
 
 You can find more information and step-by-step tutorials on Particl Proof-of-Stake by visiting the `Particl Wiki <https://particl.wiki/tutorial/staking/>`_.
 
@@ -153,68 +133,59 @@ It has an adjustable level of privacy and lets you choose between three differen
 
 PART has three different types of transactions, each with its own purpose, cost, level of privacy, type of balance, and settings. All three types are available on :term:`Particl Desktop`, where you can easily convert your coins from one kind of balance to another. 
 
-.. container:: toggle
+Public transactions
+===================
 
-    .. container:: header
+- **Cost:** Very low
+- **Privacy:** Public; data on the transacting amounts and the identity of the participants is permanently written on the blockchain and publicly auditable. Identical to Bitcoin transactions.
+- **Type of balance:** Public
 
-        **Public transactions**
+Public transactions let you make Bitcoin-like public transactions. These transactions are the most affordable ones to make and the most simple to integrate into other platforms. For this reason, they are the most widely supported type of transaction by exchanges and third-party services.
 
-    - **Cost:** Very low
-    - **Privacy:** Public; data on the transacting amounts and the identity of the participants is permanently written on the blockchain and publicly auditable. Identical to Bitcoin transactions.
-    - **Type of balance:** Public
+**What can you do with public transactions?**
 
-    Public transactions let you make Bitcoin-like public transactions. These transactions are the most affordable ones to make and the most simple to integrate into other platforms. For this reason, they are the most widely supported type of transaction by exchanges and third-party services.
+- Send and receive public payments.
+- Earn PART coins in dividend-like payments by staking.
+- Pay for listing fees on the marketplace.
+- Promote user markets and storefronts on the Market Browser.
+- Moderate the :term:`Particl Marketplace`.
+- Use smart-contracts. 
 
-    **What can you do with public transactions?**
+Blind transactions
+==================
 
-    - Send and receive public payments.
-    - Earn PART coins in dividend-like payments by staking.
-    - Pay for listing fees on the marketplace.
-    - Promote user markets and storefronts on the Market Browser.
-    - Moderate the :term:`Particl Marketplace`.
-    - Use smart-contracts. 
+- **Cost:** Low
+- **Privacy:** Confidential; data on the transacting amounts and the participants is permanently written on the blockchain, but the value of each transfer is anonymous. Only the identity of the participants (their addresses) is publicly displayed.
+- **Type of balance:** Blind (Private)
 
-.. container:: toggle
+Blind transactions offer a significant step-up in privacy. Based on the work of the open-source `Elements Project <https://elementsproject.org/features/confidential-transactions/investigation>`_, they let you make confidential transactions that keep the value of the payment private between only you and the other party you're transacting with. 
 
-    .. container:: header
+The identity of the participants (their PART address) is still publicly available on the blockchain, but it's impossible for anyone else to determine how many coins were transacted. 
 
-        **Blind transactions**
+**What can you do with blind balances and transactions?**
 
-    - **Cost:** Low
-    - **Privacy:** Confidential; data on the transacting amounts and the participants is permanently written on the blockchain, but the value of each transfer is anonymous. Only the identity of the participants (their addresses) is publicly displayed.
-    - **Type of balance:** Blind (Private)
+- Send and receive payments without disclosing the value transferred.
+- Use smart-contracts and enable anon transactions to use them as well.
 
-    Blind transactions offer a significant step-up in privacy. Based on the work of the open-source `Elements Project <https://elementsproject.org/features/confidential-transactions/investigation>`_, they let you make confidential transactions that keep the value of the payment private between only you and the other party you're transacting with. 
+Anon transactions
+=================
 
-    The identity of the participants (their PART address) is still publicly available on the blockchain, but it's impossible for anyone else to determine how many coins were transacted. 
+- **Cost:** Moderate
+- **Privacy:** Anonymous; data on the transacting amounts and the participants is permanently written on the blockchain but is completely anonymous.
+- **Type of balance:** Anon (Private)
 
-    **What can you do with blind balances and transactions?**
+By adding “ring signatures” to blind transactions (RingCT), you obtain anon transactions. This is the most private type of transaction on Particl and makes them completely untraceable. All of the transaction data (value transferred and address of the participants) is anonymously written on the blockchain, making it impossible for anyone not involved with a transaction to collect its details.
 
-    - Send and receive payments without disclosing the value transferred.
-    - Use smart-contracts and enable anon transactions to use them as well.
+Anon transactions can be made more or less anonymous by manually adjusting the number of ring signatures included in transactions. The more private an anon transaction is, the more expensive it is to send. 
 
-.. container:: toggle
+**What can you do with anon balances and transactions?**
 
-    .. container:: header
-
-        **Anon transactions**
-
-    - **Cost:** Moderate
-    - **Privacy:** Anonymous; data on the transacting amounts and the participants is permanently written on the blockchain but is completely anonymous.
-    - **Type of balance:** Anon (Private)
-
-    By adding “ring signatures” to blind transactions (RingCT), you obtain anon transactions. This is the most private type of transaction on Particl and makes them completely untraceable. All of the transaction data (value transferred and address of the participants) is anonymously written on the blockchain, making it impossible for anyone not involved with a transaction to collect its details.
-
-    Anon transactions can be made more or less anonymous by manually adjusting the number of ring signatures included in transactions. The more private an anon transaction is, the more expensive it is to send. 
-
-    **What can you do with anon balances and transactions?**
-
-    - Send and receive anonymous and untraceable payments.
-    - Pay for goods and services on the :term:`Particl Marketplace`.
-    - Pay for listing fees on the :term:`Particl Marketplace`.
-    - Use smart-contracts anonymously (done by linking anon to blind transactions).
-    - Enter into two-party escrow agreements without sharing any information with any third-party.
-    - Anonymously earn PART coins in dividend-like payments by staking. 
+- Send and receive anonymous and untraceable payments.
+- Pay for goods and services on the :term:`Particl Marketplace`.
+- Pay for listing fees on the :term:`Particl Marketplace`.
+- Use smart-contracts anonymously (done by linking anon to blind transactions).
+- Enter into two-party escrow agreements without sharing any information with any third-party.
+- Anonymously earn PART coins in dividend-like payments by staking. 
 
 Read the :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_funds>` user guide for more information on how to make different types of transactions.
 
