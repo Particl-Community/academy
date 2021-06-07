@@ -6,27 +6,19 @@ Staking Explained
 
 When staking, your computer (referred to as a "staking node") supports the blockchain by validating transactions. It is a crucial task to ensure the security and stability of the network. After setting up your node, the process of staking is fully automated and doesn't require you to do anything special. 
 
-.. container:: toggle
-
-    .. container:: header
-
-        **What's a consensus mechanism?** 
+**What's a consensus mechanism?** 
 
     To guarantee the integrity of the blockchain, staking nodes connected to the network process all of the transactions happening on Particl. They then compare the processed data with each other and only validate transactions when the information is identical across a majority of the other nodes. 
 
     If enough staking nodes cannot confirm the data of a transaction on the network, the transaction is collectively rejected. This mechanism is what is generally referred to as a consensus mechanism.
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Staking vs mining** 
+**Staking vs mining** 
 
     Just like Bitcoin mining (proof-of-work), staking (proof-of-stake) is a consensus mechanism. They are both protocols that ensure the integrity of blockchains by validating transactions and paying out block rewards to those doing the work.
 
     Unlike mining, staking doesn't require any special hardware (i.e., GPU) to verify transactions. Instead of providing electricity-intensive work, stakers are required to deposit a number of coins (as collateral for being good actors) on the network on which they'll earn interest in dividend-like payments.
 
-    **Advantages of staking compared to mining**
+**Advantages of staking compared to mining**
 
     - Rewards stakers with auto-compounding passive income
     - No expensive hardware required
@@ -47,11 +39,7 @@ When staking, your computer (referred to as a "staking node") supports the block
 Particl Proof-of-Stake (PPoS)
 -----------------------------
 
-.. container:: toggle
-
-    .. container:: header
-
-        **PPoS Quick Facts**
+**PPoS Quick Facts**
 
     - The current yearly staking interest rate for stakers is |staking rate|
     - The current emission rate of PART is |emission| per block.
@@ -106,39 +94,23 @@ Platform fees
 
 More people using the Particl ecosystem means more profitable staking rewards. That's because staking rewards also contain fees paid by users interacting with the Particl ecosystem. These fees come from a few different sources.
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Marketplace listing fees**
+**Marketplace listing fees**
 
     The :term:`Particl Marketplace` requires a small listing fee to be paid by vendors when they list items or services for sale. That's how the marketplace, which has no central authority, is able to deter spam.
 
     All listing fees are added to the same block as the payment of the fee by the vendor. That means the staker who finds this block will earn the entirety of the fee(s). 
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Marketplace bumping fees**
+**Marketplace bumping fees**
 
     The :term:`Particl Marketplace` has a :term:`Market Browser` that lets users browse through all the available user markets and storefronts on the network. It also enables vendors to promote their markets and storefronts by paying a "bumping fee". Doing so bumps the market or storefront at the very top of the list. This gives them greater exposure and brand recognition.
 
     Just like listing fees, all bumping fees are added to the same block as the payment of the fee by the vendor. That means the staker who finds this block will earn the entirety of the fee(s). 
 
-.. container:: toggle
-
-    .. container:: header
-
-        **PART transaction fees**
+**PART transaction fees**
 
     When sending PART coins to someone else or into a smart-contract, a small transaction fee needs to be paid to the network. This fee is usually just a few cents, or even less, but it's counter-productive enough to fight off spam on the blockchain. This is the same type of fee charged by Bitcoin or Ethereum for making any transaction. Whoever finds a block also earns the entirety of all the transaction fees it contains.
 
-.. container:: toggle
-
-    .. container:: header
-
-        **BasicSwap (Particl DEX) fees**
+**BasicSwap (Particl DEX) fees**
 
     BasicSwap is Particl's upcoming decentralized exchange (DEX) that lets you swap between different cryptocurrencies without requiring a third-party. Although it is entirely decentralized, a small transaction fee similar in size to marketplace listing fees will be required. Just like other types of fees, it is required to fight off spam. Whoever finds a block also earns the entirety of all the DEX fees it contains.
 
@@ -159,21 +131,13 @@ Not only does cold staking provide you with the most secure staking solution ava
 Regular staking
 ^^^^^^^^^^^^^^^
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Pros**
+**Pros**
 
     - Can be activated effortlessly.
     - Activated by default on clients not protected by a password.
     - Allows you to participate in Particl's decentralized governance by voting on proposals.
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Cons**
+**Cons**
 
     - Your :term:`Particl Desktop` password is stored in your computer's memory.
     - You need to keep your computer online 24/7.
@@ -187,22 +151,14 @@ This is the type of staking used by the great majority of proof-of-stake project
 Cold staking
 ^^^^^^^^^^^^
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Pros**
+**Pros**
         
     - Very secure staking option.
     - The wallet that holds your coins doesn't need to be online at any time.
     - Extremely flexible, it allows many other staking options.
     - Allows you to participate in Particl's decentralized governance by voting on proposals. Gives the same ability to any other staking option that relies on cold staking (hardware, mobile, etc.).
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Cons**
+**Cons**
 
     - You need to set up and maintain an external staking node and keep it online 24/7. This is one reason many people instead opt to use a VM hosted externally for this purpose.
     - The setup process is more technically advanced.
@@ -220,11 +176,7 @@ To learn how to setup an external cold staking node, follow the instructions in 
 Staking pools
 ^^^^^^^^^^^^^
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Pros**
+**Pros**
         
     - Very easy to join. Takes less than a minute.
     - Offers the same level of staking security as cold staking because it entirely relies on it.
@@ -232,11 +184,7 @@ Staking pools
     - Pays more frequent staking rewards, but they are smaller in size. You earn the same number of coins (minus pool fees) as you would with any other staking option, the only difference is the size of the payouts and who often you receive them.
     - Doesn't require you to deploy and maintain an external staking node.
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Cons**
+**Cons**
 
     - You need to pay a staking pool fee (a percentage of your staking revenue).
     - By delegating your staking power to a pool, you also delegate your voting power. A pool operator can vote on proposals using your coins, so make sure that you know the voting intentions of any pool you join.
@@ -257,21 +205,13 @@ For a complete list of available staking pools on the Particl network, visit Par
 Hardware Staking
 ^^^^^^^^^^^^^^^^
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Pros**
+**Pros**
 
     - Most secure staking option.
     - The wallet containing your coins doesn't need to be online at any time.
         
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Cons**
+**Cons**
 
     - You need to set up a staking node and keep it online 24/7, unless you use a staking pool instead.
     - The setup process is the most complicated of all staking options on Particl.
@@ -285,21 +225,13 @@ To learn how to set up hardware staking, jump to the :doc:`Staking Rewards <../g
 Mobile staking
 ^^^^^^^^^^^^^^
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Pros**
+**Pros**
         
     - Very secure staking option.
     - The wallet containing your coins doesn't need to be online at any time.
     - Relatively simple setup process.
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Cons**
+**Cons**
 
     - You need to set up a staking node and keep it online 24/7, unless you use a staking pool instead.
 
@@ -349,3 +281,4 @@ That's why Particl allows you to control your level of staking privacy using Par
 
 On-Chain Voting
 ---------------
+
