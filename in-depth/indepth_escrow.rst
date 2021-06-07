@@ -2,7 +2,7 @@
 Two-Party Escrow Explained
 ==========================
 
-Particl uses a unique two-party escrow system to secure transactions and ensure each of the transacting parties respects their agreement with the other party. It is free to use, anonymous, and entirely autonomous, meaning that it doesn't require any moderator or third-party to function.
+The Particl Marketplace uses a unique two-party escrow system to secure all of your transactions and ensure the party you're transacting with respects their agreements. It is free to use, anonymous, and entirely autonomous, providing you with the security, peace of mind, and confidence you need to safely do business online without involving third-parties.
 
 .. container:: toggle
 
