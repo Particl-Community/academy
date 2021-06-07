@@ -9,7 +9,7 @@ Target Audiences
    :description lang=en: Who is using Particl Marketplace? The audiences and participants are very special people. Everything but average. 
    :keywords lang=en: Particl, Marketplace, Introduction, Who, Blockchain, Privacy, E-Commerce
 
-Instead of using your usual internet shopping platforms, you almost casually defend essential core values for society with every purchase or sale on :term:`Particl Marketplace`. It’s about fairness for consumers, equal opportunity for merchants and vendors, and freedom for all people who disagree with the expansion of power and control from large corporations.
+Once, as children of a free world, we were taught what freedom, freedom of expression, and self-determination mean. Today’s world has become a place, where these fundamental values only remain valid if you equip yourself with the tools that enable you to assert them. 
 
 *It's about you–Everything but average.*
 
