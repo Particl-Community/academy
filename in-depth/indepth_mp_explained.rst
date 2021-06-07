@@ -23,10 +23,14 @@ In a nutshell
 Target audiences
 ----------------
 
+----
+
 .. contents:: Table of Contents
    :local:
    :backlinks: none
    :depth: 2
+
+----
 
 Characteristics
 ---------------

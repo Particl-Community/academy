@@ -8,11 +8,14 @@ The irresponsible handling of that data is causing constant breaches, leaks, mis
 
 Why should using the internet be so risky? Although it was never designed to end up this way, the lack of data security and online privacy has become a persistent side-effect of using the internet. Particl reverses that trend in one fell swoop and gives you back full control over your digital life.
 
+----
+
 .. contents:: Table of Contents
    :local:
    :backlinks: none
    :depth: 3
 
+----
 
 To guarantee the security of your personal information and your privacy, Particl adopts a vastly different approach than other internet service providers—it gives you full ownership over your own data.
 
