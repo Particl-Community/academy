@@ -4,7 +4,9 @@ Staking Explained
 
 "Staking" refers to the act of supporting the blockchain by validating transactions. In exchange for this work, the network pays you interest in dividend-like payments on the coins you own. On Particl, the yearly staking interest rate ranges from a minimum of 4% to approximately 8%. In other words, staking earns you passive income for providing an active connection to the Particl network. 
 
-When staking, your computer (referred to as a "staking node") supports the blockchain by validating transactions. It is a crucial task to ensure the security and stability of the network. After setting up your node, the process of staking is fully automated and doesn't require you to do anything special. 
+When staking, your computer (referred to as a "staking node") supports the blockchain by validating transactions. It is a crucial task to ensure the security and stability of the network. After setting up your node, the process of staking is fully automated and doesn't require you to do anything special.
+
+Additionally, Particl's PPoS staking protocol is used to power the project's decentralized governance model. It allows you to securely and transparently vote on various issues and proposals using the power of blockchain technology. All on-chain votes are immutable and provably verifiable.
 
 ----
 
