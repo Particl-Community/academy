@@ -83,7 +83,7 @@
         **What does each order status mean?**
 
     - :guilabel:`BIDDING`: A buyer has made a bid on an item and is now waiting for you to accept it.
-    - :guilabel:`PAYMENT`: You have accepted a bid on an item and are now waiting for the buyer to confirm payment and lock their funds (payment + security deposit) in escrow.
+    - :guilabel:`ACCEPTED`: You have accepted a bid on an item and are now waiting for the buyer to confirm payment and lock their funds (payment + security deposit) in escrow.
     - :guilabel:`ESCROW`: The buyer has locked their funds in escrow and is now waiting for you to lock your security deposit as well.
     - :guilabel:`PACKAGING`: The buyer is now waiting for you to package the order and ship it.
     - :guilabel:`SHIPPING`: You have marked the item as shipped and are now waiting for the buyer to receive and confirm the delivery.

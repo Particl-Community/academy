@@ -4,6 +4,19 @@
 
     .. container:: header
 
+        **What does each order status mean?**
+
+    - :guilabel:`BIDDING`: You have made a bid on an item and are now waiting for the vendor to accept it.
+    - :guilabel:`ACCEPTED`: The vendor has accepted your order and is now waiting for you to send the payment and your security deposit in escrow.
+    - :guilabel:`ESCROW`: You have locked your funds in escrow and are now waiting for the vendor to lock their security deposit as well.
+    - :guilabel:`PACKAGING`: The vendor is now packaging your order and and getting it ready to ship.
+    - :guilabel:`SHIPPING`: The vendor has shipped your item and is now waiting for you to receive and confirm the delivery.
+    - :guilabel:`COMPLETE`: You have received your order and have confirmed the order as "complete". There are no more required actions in this transaction, and you've received your security deposit back.
+
+.. container:: toggle
+
+    .. container:: header
+
         **Why isn't the seller updating my order after I placed a bid?**
  
     If your :term:`Particl Desktop` is protected by a password (encrypted), **you need to unlock it with your password** to receive order updates. If you keep your client locked, you won't receive the notifications and won't be able to progress to the next step.

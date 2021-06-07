@@ -211,6 +211,8 @@ Cold staking is the better, more modern way to stake proudly invented by the Par
 
 That means you can store your coins in a cold wallet, a hardware device (i.e., a Ledger Nano device), your phone, or even a just simple piece of paper with the mnemonic written on it. You'll still be able to earn staking rewards on those coins even though they are completely offline. Indeed, cold staking grants you the maximum amount of security and adds a ton of flexibility not available with most PoS solutions.
 
+To learn how to setup an external cold staking node, follow the instructions in the :doc:`Staking Rewards <../guides/guide_mp_general_enable_staking>` guide available on the Particl Academy.
+
 .. note::
 
    The purpose of an external staking node is only to stake PART coins held by other wallets. It doesn't store any coin at all. For this reason, hosting an external staking node on an untrusted environment (i.e., a server provider) or device (i.e., any computer, secure or not) is entirely safe. It will not put your PART coins at risk of being stolen.
@@ -247,7 +249,7 @@ Staking pools are safe to use as the pool operator cannot run away with any of t
 
 They are ideal if you hold a small number of PART coins or don't want to manage an external staking node yourself.
 
-For a complete list of available staking pools on the Particl network, visit Particl Academy's `staking guide <https://particl.wiki/learn/staking/pools/>`_.
+For a complete list of available staking pools on the Particl network, visit Particl Academy's :doc:`Staking Rewards <../guides/guide_mp_general_enable_staking>` guide.
 
 .. tip:: 
    Instead of an external staking node, you can also use a staking pool to enable mobile and hardware staking.
@@ -278,7 +280,7 @@ For an even more secure staking solution, you can stake PART coins stored on a h
 
 Since PPoS is a highly flexible protocol, it doesn’t penalize you for going “security first”. Through its cold staking protocol, it lets you enable staking and earn interest in dividend-like payments on all of your PART coins stored in your hardware wallet.
 
-To learn how to set up hardware staking, jump to the :doc:`staking guide <../guides/guide_mp_general_enable_staking>` right away!
+To learn how to set up hardware staking, jump to the :doc:`Staking Rewards <../guides/guide_mp_general_enable_staking>` guide right away!
 
 Mobile staking
 ^^^^^^^^^^^^^^
