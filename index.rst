@@ -117,6 +117,7 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
    in-depth/indepth_escrow
    in-depth/indepth_mp_moderation
    in-depth/indepth_privacy_tips
+   in-depth/indepth_voting
 .. in-depth/indepth_opensource
 
 * :doc:`Particl Marketplace Explained <in-depth/indepth_mp_explained>`
@@ -125,6 +126,7 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
 * :doc:`Two-Party Escrow Explained <in-depth/indepth_escrow>`
 * :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>`
 * :doc:`Security and Privacy <in-depth/indepth_privacy_tips>`
+* :doc:`On-Chain Voting Explained <in-depth/indepth_voting>`
 
 ----
 
