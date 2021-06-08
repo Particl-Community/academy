@@ -2,11 +2,9 @@
 Staking Explained
 =================
 
-"Staking" refers to the act of supporting the blockchain by validating transactions. In exchange for this work, the network pays you interest in dividend-like payments on the coins you own. On Particl, the yearly staking interest rate ranges from a minimum of 4% to approximately 8%. In other words, staking earns you passive income for providing an active connection to the Particl network. 
+“Staking” refers to the act of supporting the blockchain by validating transactions on your computer (referred to as a “staking node”). In exchange for this work, the network rewards you with its cryptocurrency coins.
 
-When staking, your computer (referred to as a "staking node") supports the blockchain by validating transactions. It is a crucial task to ensure the security and stability of the network. After setting up your node, the process of staking is fully automated and doesn't require you to do anything special.
-
-Additionally, Particl's PPoS staking protocol is used to power the project's decentralized governance model. It allows you to securely and transparently vote on various issues and proposals using the power of blockchain technology. All on-chain votes are immutable and provably verifiable.
+Additionally, Particl’s PPoS staking protocol allows you to securely and transparently vote on various issues and proposals using the power of blockchain technology. This process is called on-chain governance.
 
 ----
 
@@ -275,6 +273,19 @@ However, it also means anyone can trace staking rewards and look right into your
 
 That's why Particl allows you to control your level of staking privacy using Partyman; Particl's cold staking application. To do so, you need to indicate to the network that you'd like to receive your staking rewards in another type of balance other than your public balance. Check out the :doc:`staking guide <../guides/guide_mp_general_enable_staking>` to see how to do it.
 
+On-Chain Voting
+---------------
+
+PPoS is at the core of Particl's decentralized governance. The staking protocol is used to vote on various proposals and determine, with absolute certainty, the consensus of the community on the ideas and projects being proposed in them.
+
+Particl uses a two-tier decentralized governance model. Any community member can submit proposals to the CCS system. These proposals can suggest things like protocol changes or request funding from the Treasury Fund for projects and initiatives that benefit the Particl ecosystem. For a proposal to be approved, it requires an on-chain voting round where stakers can approve or reject the proposal using their staking power.
+
+That's where PPoS comes into play. Stakers cast their votes for the proposal being voted on by using their staking power. Every time they find a block during a voting period, they embed into it one vote (approve, reject, or abstain). The more blocks a staker finds during a voting period, the more votes that staker will cast. Every staked block equals one vote. 
+
+At the end of the voting period, the votes are tallied and the results can then be seen by anyone just by looking at the blockchain. No third-party is required for the votes to be counted and reported. 
+
+For more information on how Particl's decentralized governance model works, head over to the :doc:`Decentralized Governance <../guides/guide_mp_general_enable_staking>` in-depth guide.
+
 .. seealso::
 
  Other sources for useful or more in-depth information:
@@ -283,7 +294,3 @@ That's why Particl allows you to control your level of staking privacy using Par
  - Particl Wiki - `PART coin learn staking <https://particl.wiki/learn/staking/>`_
  - Particl Wiki - `PART coin tutorials <https://particl.wiki/tutorial/staking/>`_
  - Particl Wiki - `Staking pools <https://particl.wiki/learn/staking/pools/>`_
-
-On-Chain Voting
----------------
-
