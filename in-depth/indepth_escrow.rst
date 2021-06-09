@@ -2,31 +2,9 @@
 Two-Party Escrow Explained
 ==========================
 
-The Particl Marketplace uses a unique two-party escrow system to secure all of your transactions and ensure the party you're transacting with respects their agreements. It is free to use, anonymous, and entirely autonomous, providing you with the security, peace of mind, and confidence you need to safely do business online without involving third-parties.
+When buying from or selling to strangers online, you need to have the confidence that the other party will keep their end of the agreement and not scam you. That's why contract security and enforcement are essential when trading goods and services on any marketplace. 
 
-.. container:: toggle
-
-    .. container:: header
-
-        **Benefits**
-
-    - It costs no additional fee.
-    - Keeps all of your data secure and private.
-    - Available at any time and from anywhere.
-    - Infinitely scalable; can support as many transactions as required.
-    - No moderator, arbitror, or third-party required. 
-
-.. container:: toggle
-
-    .. container:: header
-
-        **Things to keep in mind**
-
-    - Each transaction in escrow requires an equal security deposit from both transacting parties as collateral.
-    - Security deposits are equal to the full cost of the purchased item + shipping.
-    - The PART coin's price can change based on supply and demand, meaning the fiat (i.e., USD, EUR, etc) value of security deposits may fluctuate while in escrow. 
-
-This in-depth guide will explain everything you need to know about this unique escrow model so that it won’t be any mystery to you anymore!
+To guarantee your security in any given marketplace transaction, :term:`Particl Marketplace` requires you to use its unique and no-cost two-party escrow system.
 
 ----
 
@@ -92,6 +70,28 @@ Instead of requiring a third-party to hold the payment on behalf of two transact
 
 If any dispute or issue arises, both parties need to mutually agree on a satisfying resolution for both of them to mark the transaction as complete. Because the two parties have a security deposit locked into the escrow smart-contract, they are naturally forced to collaborate and reach a reasonable resolution for both. 
 
+.. container:: toggle
+
+    .. container:: header
+
+        **Benefits**
+
+    - It costs no additional fee.
+    - Keeps all of your data secure and private.
+    - Available at any time and from anywhere.
+    - Infinitely scalable; can support as many transactions as required.
+    - No moderator, arbitror, or third-party required. 
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Things to keep in mind**
+
+    - Each transaction in escrow requires an equal security deposit from both transacting parties as collateral.
+    - Security deposits are equal to the full cost of the purchased item + shipping.
+    - The PART coin's price can change based on supply and demand, meaning the fiat (i.e., USD, EUR, etc) value of security deposits may fluctuate while in escrow. 
+
 No fee, 100% free to use
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -111,6 +111,22 @@ Total privacy
 ~~~~~~~~~~~~~
 
 Since two-party escrows don’t require the intervention of a third-party, personal information (i.e., shipping details) is only made available to the other person you’re transacting with. Nobody else in the world can know anything about any Particl escrow transaction. It’s the digital equivalent of making an in-person cash transaction.
+
+----
+
+Step-by-Step Process
+--------------------
+
+Using Particl's two-party escrow system is a step-by-step process which requires a few manual inputs from you. The complete flow of a single transaction, from the moment an order is placed to when the transaction is completed, is as follows.
+
+.. rst-class:: bignums
+
+    #. :guilabel:`BIDDING`: The buyer places an order (referred to as a "bid") and waits for the seller to accept it.
+    #. :guilabel:`ACCEPTED`: The seller accepts the bid and now waits for the buyer to send their payment and security deposit into the escrow smart-contract.
+    #. :guilabel:`ESCROW`: The buyer sends their payment and security deposit into the escrow smart-contract and now waits for the seller to send their security deposit as well.
+    #. :guilabel:`PACKAGING`: The seller has made their security deposit into the escrow smart-contract and is now packaging the order to ship it.
+    #. :guilabel:`SHIPPING`: The seller has shipped the item as shipped and is now waiting for the buyer to receive and confirm the delivery.
+    #. :guilabel:`COMPLETE`: The item has been received by the buyer. The item has been inspected, and no issue was found. Therefore, the buyer has marked the transaction as complete. There are no more required actions in this transaction. Both participants have received their security deposits back, and the seller has received the full payment for the purchased item.
 
 ----
 
