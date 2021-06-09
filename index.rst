@@ -111,13 +111,13 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
    :maxdepth: 2
    :hidden:
 
-   in-depth/indepth_mp_explained
-   in-depth/indepth_part_coin
-   in-depth/indepth_staking
-   in-depth/indepth_escrow
-   in-depth/indepth_mp_moderation
-   in-depth/indepth_privacy_tips
-   in-depth/indepth_voting
+   Particl Marketplace <in-depth/indepth_mp_explained>
+   PART Coin <in-depth/indepth_part_coin>
+   Staking <in-depth/indepth_staking>
+   Escrow <in-depth/indepth_escrow>
+   Marketplace Moderation <in-depth/indepth_mp_moderation>
+   Security and Privacy <in-depth/indepth_privacy_tips>
+   Decentralized Governance <in-depth/indepth_voting>
 .. in-depth/indepth_opensource
 
 * :doc:`Particl Marketplace Explained <in-depth/indepth_mp_explained>`
