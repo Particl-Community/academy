@@ -21,12 +21,14 @@ Just by keeping your :term:`Particl Desktop` client connected to the internet, y
 
 Enabling staking is generally straight-forward, but some of the staking solutions available on Particl may require more work to setup. This user guide will walk you through the process of enabling any of these solutions without too much hassle.
 
-**Requirements**
+.. note:: 
 
-- A :term:`Particl Desktop` wallet with any number of PART coins greater than 0.
-- PART coins in your :guilabel:`public` balance.
-- An active internet connection.
-- A separate device to convert into a staking :term:`node <Node>` (required for cold staking only).
+	**Prerequisites**
+
+	- A :term:`Particl Desktop` wallet with any number of PART coins greater than 0.
+	- PART coins in your :guilabel:`public` balance.
+	- An active internet connection.
+	- A separate device to convert into a staking :term:`node <Node>` (required for cold staking only).
 
 There are multiple ways you can stake your PART coins. Each of these solutions have pros and cons as well as their own method of activation. 
 
