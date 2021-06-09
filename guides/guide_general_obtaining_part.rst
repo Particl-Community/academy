@@ -53,6 +53,10 @@ In-App Swap Engine
 
 The PART coin can also be obtained directly from within the :term:`Particl Desktop` client. The in-app swap engine lets you get PART without having to register on any third-party exchange and without leaving the :term:`Particl Desktop` client. It is the most user-friendly method.
 
+.. attention:: 
+   
+   Particl's in-app swap engine is temporarily unavaible. We are working to get it back up as soon as possible!
+
 .. rst-class:: bignums
 
 	#. Open :term:`Particl Desktop`.
