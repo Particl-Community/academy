@@ -142,6 +142,8 @@ Public transactions
 
 Public transactions let you make Bitcoin-like public transactions. These transactions are the most affordable ones to make and the most simple to integrate into other platforms. For this reason, they are the most widely supported type of transaction by exchanges and third-party services.
 
+Additionally, public transactions can only be sent to public balances which is the only type of balance that can stake. For this reason, coins held in public balances act as "voting tickets" in Particl's decentralized governance model. Visit the :doc:`Staking <../in-depth/indepth_staking>` in-depth guide for more information on this topic.
+
 **What can you do with public transactions?**
 
 - Send and receive public payments.
@@ -193,6 +195,7 @@ Read the :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_f
 
  Other sources for useful or more in-depth information:
 
+ - Particl Academy - :doc:`Staking <../in-depth/indepth_staking>`
  - Particl Wiki - `PART coin frequently asked questions <https://particl.wiki/support/faq/part-coin/>`_
  - Particl Website - `PART coin specifications <https://particl.io/coin-specifications>`_
  - Particl Website - `PART coin exchanges <https://particl.io/part-exchanges/>`_
