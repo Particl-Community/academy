@@ -2,11 +2,11 @@
 Security and Privacy Explained
 ==============================
 
-Digital security and privacy is a fundamental human right. Over the last few years, the various internet service providers you use every day have amassed a downright scary amount of personal information about you. It is even said that tech giants know more about you than you do yourself. 
+Digital security and privacy is a fundamental human right. Over the last few years, the various internet service providers you use every day have amassed a downright scary amount of personal information about you. It is even said that tech giants know more about you than you do yourself.
 
-The irresponsible handling of that data is causing constant breaches, leaks, misuses, and abuses of your personal information. This leads to endless identity thefts, financial losses, frauds, unauthorized access to online accounts, and headaches.
+.. seealso::
 
-Why should using the internet be so risky? Although it was never designed to end up this way, the lack of data security and online privacy has become a persistent side-effect of using the internet. Particl reverses that trend in one fell swoop and gives you back full control over your digital life.
+	- Particl Academy - Intro summary and overview :ref:`Gain Security and Privacy`
 
 ----
 
