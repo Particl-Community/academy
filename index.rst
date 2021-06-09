@@ -79,21 +79,21 @@ Step-by-step user guides about the most vital processes of :term:`Particl Market
    :hidden:
 
    guides/guide_mp_general_managing_funds
+   guides/guide_general_obtaining_part
    guides/guide_mp_customer_understanding_buyflow
    guides/guide_mp_vendor_understanding_sellflow
    guides/guide_mp_general_market_management
    guides/guide_mp_general_enable_staking
-   guides/guide_general_obtaining_part
 
 ..   guides/guide_mp_user_best_practices_overview
 ..   guides/guide_mp_vendor_best_practices_overview
 
-* :doc:`Funds, Coins, and Balances <guides/guide_mp_general_managing_funds>` 
+* :doc:`Funds, Coins, and Balances <guides/guide_mp_general_managing_funds>`
+* :doc:`Obtaining PART <guides/guide_general_obtaining_part>`
 * :doc:`Buy Process for Customers <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Sell Process for Vendors <guides/guide_mp_vendor_understanding_sellflow>`   
 * :doc:`Markets and Storefronts <guides/guide_mp_general_market_management>`
 * :doc:`Staking Rewards <guides/guide_mp_general_enable_staking>`
-* :doc:`Obtaining PART <guides/guide_general_obtaining_part>`
 
 .. * :doc:`User's Best Practices <guides/guide_mp_user_best_practices_overview>`
 .. * :doc:`Vendor's Best Practices <guides/guide_mp_vendor_best_practices_overview>`
