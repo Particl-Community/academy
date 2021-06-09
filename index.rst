@@ -100,13 +100,13 @@ Step-by-step user guides about the most vital processes of :term:`Particl Market
 
 ----
 
-In-Depth Guides
-===============
+Particl Explained
+=================
 
 Find advanced, very in-depth, and detailed articles about functions and concepts behind the :term:`Particl Marketplace`. They will make you a master, but you do not need them to use the :term:`Particl Marketplace`:
 
 .. toctree::
-   :caption: In-Depth Guides
+   :caption: Particl Explained
    :name: indepth
    :maxdepth: 2
    :hidden:
