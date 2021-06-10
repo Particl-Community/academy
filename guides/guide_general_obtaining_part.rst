@@ -23,7 +23,7 @@ While cryptocurrency exchanges are mostly regulated and privately held companies
 	#. Register on the cryptocurrency exchange of choice
 	#. (Optional) If you don't already own Bitcoin, trade some using other cryptocurrencies
 	#. Trade Bitcoin (BTC) for Particl (PART)
-	#. Withdraw PART to your local wallet's :guilabel:`public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details 
+	#. Withdraw PART to your local wallet's :guilabel:`Public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details 
 
 .. seealso::
 
@@ -45,7 +45,7 @@ Non-custodial exchanges or swap exchanges are online services that let you direc
 	#. Choose PART as the target cryptocurrency 
 	#. Review the quote offered by the exchange
 	#. Send your coins to the address provided and wait for the transaction to be completed. This can take several minutes, depending on the exchange and the currency you trade for
-	#. Receive PART to your local wallet's :guilabel:`public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details
+	#. Receive PART to your local wallet's :guilabel:`Public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details
 
 
 In-App Swap Engine

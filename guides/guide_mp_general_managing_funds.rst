@@ -54,7 +54,7 @@ Receive PART coins coming from any wallet holding PART funds. This can be a pers
 .. rst-class:: bignums
 
 	#. Open :guilabel:`Wallet` -> :guilabel:`Receive`.
-	#. Receive a public transaction by choosing :guilabel:`Public` from the tabs menu at the top of the page, or choose the :guilabel:`Private` tab instead if you want to receive a private transaction (either :guilabel:`blind` or :guilabel:`anon`). 
+	#. Receive a public transaction by choosing :guilabel:`Public` from the tabs menu at the top of the page, or choose the :guilabel:`Private` tab instead if you want to receive a private transaction (either :guilabel:`Blind` or :guilabel:`Anon`). 
 	#. Share your address with the party to receive the funds.  
 	
 .. tip::

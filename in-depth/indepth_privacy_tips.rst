@@ -122,9 +122,9 @@ Make private transactions
 	
 	All payments made on the marketplace are private by default and cannot be made using public balances.
 
-When you're sending a PART transaction to someone else, it's possible for you to choose its level of privacy. By default, Particl uses :guilabel:`public` transactions which means they are fully transparent and publicly auditable.
+When you're sending a PART transaction to someone else, it's possible for you to choose its level of privacy. By default, Particl uses :guilabel:`Public` transactions which means they are fully transparent and publicly auditable.
 
-To improve your privacy, try sending :guilabel:`anon` transactions instead. Anon transactions hide the amounts being transacted as well as the identity of both participants. This keeps your personal information and the one of the person you're transacting with entirely confidential.
+To improve your privacy, try sending :guilabel:`Anon` transactions instead. Anon transactions hide the amounts being transacted as well as the identity of both participants. This keeps your personal information and the one of the person you're transacting with entirely confidential.
 
 Enable Tor
 ~~~~~~~~~~

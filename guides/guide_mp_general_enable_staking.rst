@@ -26,7 +26,7 @@ Enabling staking is generally straight-forward, but some of the staking solution
 	**Prerequisites**
 
 	- A :term:`Particl Desktop` wallet with any number of PART coins greater than 0.
-	- PART coins in your :guilabel:`public` balance.
+	- PART coins in your :guilabel:`Public` balance.
 	- An active internet connection.
 	- A separate device to convert into a staking :term:`node <Node>` (required for cold staking only).
 
@@ -41,7 +41,7 @@ Activating regular staking is the fastest method to get started. All it requires
 
 .. rst-class:: bignums
 
-	#. Launch your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`public` balance.
+	#. Launch your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`Public` balance.
 
 That's all. Staking is working as long as your :term:`node <Node>` is online.
 
@@ -49,8 +49,8 @@ That's all. Staking is working as long as your :term:`node <Node>` is online.
 
 .. rst-class:: bignums
 
-	#. Launch your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`public` balance.
-	#. Click the :guilabel:`padlock` icon at the top right corner of your client.
+	#. Launch your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`Public` balance.
+	#. Click the :guilabel:`Padlock` icon at the top right corner of your client.
 	#. Click on the downward facing arrow next to :guilabel:`Additional unlock options` in the overlay window.
 	#. Check the :guilabel:`Unlock for staking only` box.
 	#. Enter your password and click the :guilabel:`Unlock wallet` button. 
@@ -114,9 +114,9 @@ Choose what device you want to use as a staking :term:`node <Node>` (i.e. `Raspb
 
 .. rst-class:: bignums
 
-	#. Make sure you have PART coins in your :guilabel:`public` balance.
+	#. Make sure you have PART coins in your :guilabel:`Public` balance.
 	#. In the Wallet module of :term:`Particl Desktop`, navigate to the :guilabel:`Overview` page.
-	#. Click on the downward facing arrow in the :guilabel:`cold staking` widget on the right of your screen.
+	#. Click on the downward facing arrow in the :guilabel:`Cold staking` widget on the right of your screen.
 	#. Click on the blue :guilabel:`Set up cold staking` button to enter your staking public key in the designated space and confirm with a click on the :guilabel:`Enable cold staking` button.
 	
 			- Enter your password when prompted to.
@@ -160,9 +160,9 @@ Another way to stake your PART coins is to team with other stakers and combine y
 .. rst-class:: bignums
 
 	#. Choose the staking pool you want to use from the list above, open the its website, and copy the pool's staking address. (looks like ``pcs19453kf98kz47yktqv7x36j39xa07mtvqx8evse``).
-	#. Open up your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`public` balance.
+	#. Open up your :term:`Particl Desktop` client and make sure you have PART coins in your :guilabel:`Public` balance.
 	#. In the Wallet module of :term:`Particl Desktop`, navigate to the :guilabel:`Overview` page.
-	#. Click on the downward facing arrow in the :guilabel:`cold staking` widget on the right of your screen.
+	#. Click on the downward facing arrow in the :guilabel:`Cold staking` widget on the right of your screen.
 	#. Click on the blue :guilabel:`Set up cold staking` button to enter your staking public key in the designated space and confirm with a click on the :guilabel:`Enable cold staking` button.
 	
 			- Enter your password when prompted to.
@@ -211,7 +211,7 @@ It's also possible to stake PART coins stored on a mobile wallet such as `Partic
 Adjust Your Staking Privacy
 ---------------------------
 
-If you operate your own staking :term:`node <Node>`, you can adjust your level of staking privacy. By default, the network sends your staking rewards in your :guilabel:`public` balance, meaning all your staking rewards are publicly displayed publicly on the blockchain. Particl allows you to change that for better privacy.
+If you operate your own staking :term:`node <Node>`, you can adjust your level of staking privacy. By default, the network sends your staking rewards in your :guilabel:`Public` balance, meaning all your staking rewards are publicly displayed publicly on the blockchain. Particl allows you to change that for better privacy.
 
 - :guilabel:`Public` balance: Staking rewards are fully transparent and public on the blockchain.
 - :guilabel:`Blind` balance: The number of PART coins contained in each reward remains confidential.

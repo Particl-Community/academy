@@ -456,7 +456,7 @@ Using the Tor daemon
 
 	 	.. rst-class:: bignums
 
-	 		#. Open a :guilabel:`terminal`
+	 		#. Open a :guilabel:`Terminal`
 			#. Install the :term:`Tor` daemon by typing:
 
 				.. code-block:: bash 
@@ -476,7 +476,7 @@ On linux, you can also run :term:`Tor` as a hidden service and connect your :ter
 
 .. rst-class:: bignums
 
-	#. Open a :guilabel:`terminal` and install the :term:`Tor` network by typing: 
+	#. Open a :guilabel:`Terminal` and install the :term:`Tor` network by typing: 
 	
 		.. code-block:: bash
 
