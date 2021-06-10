@@ -114,7 +114,7 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
    Particl Marketplace <in-depth/indepth_mp_explained>
    PART Coin <in-depth/indepth_part_coin>
    Staking <in-depth/indepth_staking>
-   Escrow <in-depth/indepth_escrow>
+   Two-Party Escrow <in-depth/indepth_escrow>
    Marketplace Moderation <in-depth/indepth_mp_moderation>
    Security and Privacy <in-depth/indepth_privacy_tips>
    Decentralized Governance <in-depth/indepth_voting>
