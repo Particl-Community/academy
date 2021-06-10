@@ -27,6 +27,12 @@ Rest assured, it's not complicated at all. Just follow this quick user guide and
 Bidding
 =======
 
+.. hint::
+  
+    **Wallet Unlocking**
+
+    To receive orders or to complete order steps, the :term:`Particl Desktop` client needs to be unlocked. You will not receive any orders or get notifications on the progress of active orders if you keep your wallet locked. Mind the vault icon in the top-right status icons bar.
+
 To purchase an item on :term:`Particl Marketplace`, you need to first send a bid to the seller. This is the equivalent of "placing your order". Keep in mind that you will still need to do one more step before you can simply wait for your orders, so keep reading this user guide until the end!
 
 **Add an item to your cart**

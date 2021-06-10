@@ -12,9 +12,9 @@ With the award-winning :term:`Particl Marketplace`, you first and foremost prior
 
 .. seealso::
 
- Particl Academy - :ref:`Particl Marketplace in easy words <Particl Marketplace on Point>`
+ Particl Academy - :ref:`Particl Marketplace Brief Overview <../intro/intro_marketplace_brief_overview>`
 
-The :ref:`Particl Markeplace in easy words <What's Particl Marketplace>` introduction refers to the impact on the vendors and customers. This article puts the light on the technical aspects and how all the nuts and bolts are connected.
+The :ref:`Particl Marketplace Brief Overview <../intro/intro_marketplace_brief_overview>` introduction refers to the impact on the vendors and customers. This article puts the light on the technical aspects and how all the nuts and bolts are connected.
 
 In a nutshell
 -------------

@@ -154,6 +154,12 @@ Installation process
 
 	Congratulations! You have installed :term:`Particl Marketplace`.
 
+.. hint::
+
+	**Loading and Syncing Times**
+
+	Because the :term:`Particl Marketplace`'s content is hosted on distributed Networks for payments and data-exchange, the marketplace may take a few minutes to sync. It may take even a few more minutes to fully load all marketplace's listings. This is to be normally expected and will get much faster as the Particl team improves the marketplace.
+
 Checksum verification
 ---------------------
 

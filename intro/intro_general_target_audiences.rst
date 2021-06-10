@@ -128,7 +128,7 @@ Do you know other curious minds? Please invite others and discuss the status quo
 
 **Keep on truckin'**
 
-You made a big leap forward. Now you understand a lot about the target audiences and the diversity of use-cases. In the next chapter, you can learn about the general operation hints. 
+You made a big leap forward. Now you understand a lot about the target audiences and the diversity of use-cases. In the next chapter, you can have a brief overview of the nuts and bolts. 
 
 Perhaps you want to skip that part and install it right away? Just head over to the :ref:`Installation Guides`.
 

@@ -117,6 +117,11 @@ Since two-party escrows don’t require the intervention of a third-party, perso
 Step-by-Step Process
 --------------------
 
+.. figure:: ../_static/media/images/001_phases_of_a_deal.png
+    :align: center
+    :alt: Particl Marketplace's phases of a deal
+    :target: ../_static/media/images/001_phases_of_a_deal.png
+
 Using Particl's two-party escrow system is a step-by-step process which requires a few manual inputs from you. The complete flow of a single transaction, from the moment an order is placed to when the transaction is completed, is as follows.
 
 .. rst-class:: bignums

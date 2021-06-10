@@ -35,13 +35,13 @@ Take your first few steps with understanding the :term:`Particl Marketplace`. Wh
 
    intro/intro_general_particlmarketplace
    intro/intro_general_target_audiences
-   intro/intro_general_essentials
+   Brief Overview <intro/intro_marketplace_brief_overview>
    intro/intro_general_functions
 
 
 * :doc:`Uncompromising, What You Get <intro/intro_general_particlmarketplace>`
 * :doc:`Target Audiences <intro/intro_general_target_audiences>`
-* :doc:`Operation Hints <intro/intro_general_essentials>`
+* :doc:`Brief Overview <intro/intro_marketplace_brief_overview>`
 * :doc:`All Functions Overview <intro/intro_general_functions>`
 
 ----

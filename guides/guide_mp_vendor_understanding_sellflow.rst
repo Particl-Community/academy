@@ -32,6 +32,12 @@ Publish Items
 
    To put an item for sale on Particl, you need to have PART coins in your :guilabel:`Public` or :guilabel:`Anon` balance so that you can pay for the listing fees. Funds in your :guilabel:`Anon` balance are also required to make security deposits into escrow contracts (which is equal to the value of any item purchased by a buyer).
 
+.. hint::
+  
+    **Wallet Unlocking**
+
+    To receive orders or to complete order steps, the :term:`Particl Desktop` client needs to be unlocked. You will not receive any orders or get notifications on the progress of active orders if you keep your wallet locked. Mind the vault icon in the top-right status icons bar.
+
 To make a sale on Particl, you need to first put items up for sale. There are many ways to create listings on Particl. The right way for you depends on your requirements.
 
 Publish a Single Item
