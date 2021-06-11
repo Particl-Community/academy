@@ -51,7 +51,7 @@ PART has been released back in 2017 and is based on the latest version of the Bi
 +--------------------------+-----------------------------------------------------------+
 | **Block Size**           | 2 MB (2x more capacity than Bitcoin)                      |
 +--------------------------+-----------------------------------------------------------+
-| **Consensus Mechanism**  | Particl Proof-of-Stake (PPoS)                             |
+| **Consensus Mechanism**  | Particl Proof-of-Stake (:term:`PPoS`)                             |
 +--------------------------+-----------------------------------------------------------+
 | **Circulating Supply**   | |Coin supply| (100%)                                      |
 +--------------------------+-----------------------------------------------------------+
@@ -67,9 +67,9 @@ PART has been released back in 2017 and is based on the latest version of the Bi
 Staking Specifications
 ----------------------     
 
-Particl uses the Particl Proof-of-Stake (PPoS) consensus mechanism, which pays back interest in dividend-like payments to stakers in exchange for securing the network. PPoS offers many secure staking options that let you easily and quickly earn rewards without any of the security or financial risks typically associated with staking.
+Particl uses the Particl Proof-of-Stake (:term:`PPoS`) consensus mechanism, which pays back interest in dividend-like payments to stakers in exchange for securing the network. :term:`PPoS` offers many secure staking options that let you easily and quickly earn rewards without any of the security or financial risks typically associated with staking.
 
-PPoS is also the protocol used to vote on proposals in Particl's decentralized governance model.
+:term:`PPoS` is also the protocol used to vote on proposals in Particl's :ref:`community governance <Community Governance Explained>` model.
 
 Cold staking
 ============
@@ -86,7 +86,7 @@ You can join a cold staking pool to team up with other stakers and combine your 
 On-chain voting
 ===============
 
-Particl's decentralized governance is powered by PPoS. By staking, you can vote on community proposals using your staking power as voting power. When voting for a proposal, any block you stake during its voting period will cast a vote. The more blocks you find during a proposal's voting period, the more votes you cast.
+Particl's :ref:`community governance <Community Governance Explained>` is powered by :term:`PPoS`. By staking, you can vote on community proposals using your staking power as voting power. When voting for a proposal, any block you stake during its voting period will cast a vote. The more blocks you find during a proposal's voting period, the more votes you cast.
 
 You can find more information and step-by-step tutorials on Particl Proof-of-Stake by visiting the `Particl Wiki <https://particl.wiki/tutorial/staking/>`_.
 
@@ -142,7 +142,7 @@ Public transactions
 
 Public transactions let you make Bitcoin-like public transactions. These transactions are the most affordable ones to make and the most simple to integrate into other platforms. For this reason, they are the most widely supported type of transaction by exchanges and third-party services.
 
-Additionally, public transactions can only be sent to public balances which is the only type of balance that can stake. For this reason, coins held in public balances act as "voting tickets" in Particl's decentralized governance model. Visit the :doc:`Staking <../in-depth/indepth_staking>` in-depth guide for more information on this topic.
+Additionally, public transactions can only be sent to public balances which is the only type of balance that can stake. For this reason, coins held in public balances act as "voting tickets" in Particl's :ref:`community governance <Community Governance Explained>` model. Visit the :doc:`Staking <../in-depth/indepth_staking>` in-depth guide for more information on this topic.
 
 **What can you do with public transactions?**
 

@@ -4,7 +4,7 @@ Staking Explained
 
 “Staking” refers to the act of supporting the blockchain by validating transactions on your computer (referred to as a “staking node”). In exchange for this work, the network rewards you with its cryptocurrency coins.
 
-Additionally, Particl’s PPoS staking protocol allows you to securely and transparently vote on various issues and proposals using the power of blockchain technology. This process is called on-chain governance.
+Additionally, Particl’s :term:`PPoS` staking protocol allows you to securely and transparently vote on various issues and proposals using the power of blockchain technology. This process is called on-chain governance.
 
 ----
 
@@ -52,13 +52,13 @@ Particl Proof-of-Stake (PPoS)
 - Adjustable level of privacy when receiving rewards is available.
 - No minimum number of PART coins required to start receiving staking rewards.
 - Cold staking "pools" allow you to team up with other stakers to receive more frequent rewards.
-- Particl uses PPoS for its decentralized governance to let users vote on proposals.
+- Particl uses :term:`PPoS` for its :ref:`community governance <Community Governance Explained>` to let users vote on proposals.
 
-To support its network and verify transactions, Particl uses Particl Proof-of-Stake (PPoS), a unique Proof-of-Stake consensus mechanism designed by the Particl team. Unlike Bitcoin's consensus mechanism, called Proof-of-Work, PPoS makes the entire process of verifying transactions digital. It also eliminates the need to purchase and maintain expensive and energy-hungry hardware.
+To support its network and verify transactions, Particl uses Particl Proof-of-Stake (:term:`PPoS`), a unique Proof-of-Stake consensus mechanism designed by the Particl team. Unlike Bitcoin's consensus mechanism, called Proof-of-Work, :term:`PPoS` makes the entire process of verifying transactions digital. It also eliminates the need to purchase and maintain expensive and energy-hungry hardware.
 
 On the :term:`Particl Marketplace`, every user is automatically a "staker" (a user running a staking node) that verifies the integrity of the network in real-time. When a staker's node finds a block and validates the transactions it contains, it receives a staking reward. The current yearly staking interest rate on Particl ranges from a minimum of 4% to approximately 8%. This interest is calculated based on the total of coins being staked by the user.
 
-While the Proof-of-Stake consensus mechanism isn't particularly new, Particl has been pioneering the technology during the past few years by making it much more flexible, secure, and also private. Indeed, PPoS is packed with several leading-edge features that let you get all the benefits of Proof-of-Stake, but without any of its typical security and convenience concessions.
+While the Proof-of-Stake consensus mechanism isn't particularly new, Particl has been pioneering the technology during the past few years by making it much more flexible, secure, and also private. Indeed, :term:`PPoS` is packed with several leading-edge features that let you get all the benefits of Proof-of-Stake, but without any of its typical security and convenience concessions.
 
 .. note::
    Did you know that Particl invented and deployed the first-ever "cold staking" protocol in 2017? Cold staking allows you to stake your funds, even if they're online, with an extreme level of security and flexibility.
@@ -127,7 +127,7 @@ While there are online calculators that can give you estimates on how much you c
 Staking Options
 ---------------
 
-PPoS is a modern and flexible Proof-of-Stake consensus mechanism. Its most unique and groundbreaking feature is the ability to delegate your coin's staking power to a separate staking node that contains no coin. That's what's called "cold staking". 
+:term:`PPoS` is a modern and flexible Proof-of-Stake consensus mechanism. Its most unique and groundbreaking feature is the ability to delegate your coin's staking power to a separate staking node that contains no coin. That's what's called "cold staking". 
 
 Not only does cold staking provide you with the most secure staking solution available anywhere, it also unlocks a ton of ways you can stake your PART coins, each with its own benefits and considerations.
 
@@ -138,7 +138,7 @@ Regular staking
 
 - Can be activated effortlessly.
 - Activated by default on clients not protected by a password.
-- Allows you to participate in Particl's decentralized governance by voting on proposals.
+- Allows you to participate in Particl's :ref:`community governance <Community Governance Explained>` by voting on proposals.
 
 **Cons**
 
@@ -159,7 +159,7 @@ Cold staking
 - Very secure staking option.
 - The wallet that holds your coins doesn't need to be online at any time.
 - Extremely flexible, it allows many other staking options.
-- Allows you to participate in Particl's decentralized governance by voting on proposals. Gives the same ability to any other staking option that relies on cold staking (hardware, mobile, etc.).
+- Allows you to participate in Particl's :ref:`community governance <Community Governance Explained>` by voting on proposals. Gives the same ability to any other staking option that relies on cold staking (hardware, mobile, etc.).
 
 **Cons**
 
@@ -221,7 +221,7 @@ Hardware Staking
 
 For an even more secure staking solution, you can stake PART coins stored on a hardware device such as the Ledger Nano S or the Trezor. These hardware devices are secure :term:`cryptocurrency <Cryptocurrency>` wallets that require direct physical access to authorize any transaction. They protect you against viruses, infected computers, compromised internet connections, and more.
 
-Since PPoS is a highly flexible protocol, it doesn’t penalize you for going “security first”. Through its cold staking protocol, it lets you enable staking and earn interest in dividend-like payments on all of your PART coins stored in your hardware wallet.
+Since :term:`PPoS` is a highly flexible protocol, it doesn’t penalize you for going “security first”. Through its cold staking protocol, it lets you enable staking and earn interest in dividend-like payments on all of your PART coins stored in your hardware wallet.
 
 To learn how to set up hardware staking, jump to the :doc:`Staking Rewards <../guides/guide_mp_general_enable_staking>` guide right away!
 
@@ -262,7 +262,7 @@ It is a convenient and user-friendly staking solution that lets you carry your c
 
 .. In :term:`cryptocurrency <Cryptocurrency>`, multi-signature addresses are addresses collectively owned by many people. To authorize a transaction, a certain number of signatures is required by an address' owners. For example, a "2-of-3 multi-signature address" is a :term:`cryptocurrency <Cryptocurrency>` address collectively owned by three people. Two out of the three owners need to sign a transaction for it to be executed.
 
-.. Multi-signature staking does precisely what its name says. It lets you earn staking rewards on the coins held in multi-signature addresses. Just like staking pools and mobile staking, this functionality is made possible thanks to PPoS's ability to delegate staking powers to other nodes.
+.. Multi-signature staking does precisely what its name says. It lets you earn staking rewards on the coins held in multi-signature addresses. Just like staking pools and mobile staking, this functionality is made possible thanks to :term:`PPoS`'s ability to delegate staking powers to other nodes.
 
 Privacy
 -------
@@ -276,15 +276,15 @@ That's why Particl allows you to control your level of staking privacy using Par
 On-Chain Voting
 ---------------
 
-PPoS is at the core of Particl's decentralized governance. The staking protocol is used to vote on various proposals and determine, with absolute certainty, the consensus of the community on the ideas and projects being proposed in them.
+:term:`PPoS` is at the core of Particl's :ref:`community governance <Community Governance Explained>`. The staking protocol is used to vote on various proposals and determine, with absolute certainty, the consensus of the community on the ideas and projects being proposed in them.
 
 Particl uses a two-tier decentralized governance model. Any community member can submit proposals to the CCS system. These proposals can suggest things like protocol changes or request funding from the Treasury Fund for projects and initiatives that benefit the Particl ecosystem. For a proposal to be approved, it requires an on-chain voting round where stakers can approve or reject the proposal using their staking power.
 
-That's where PPoS comes into play. Stakers cast their votes for the proposal being voted on by using their staking power. Every time they find a block during a voting period, they embed into it one vote (approve, reject, or abstain). The more blocks a staker finds during a voting period, the more votes that staker will cast. Every staked block equals one vote. 
+That's where :term:`PPoS` comes into play. Stakers cast their votes for the proposal being voted on by using their staking power. Every time they find a block during a voting period, they embed into it one vote (approve, reject, or abstain). The more blocks a staker finds during a voting period, the more votes that staker will cast. Every staked block equals one vote. 
 
 At the end of the voting period, the votes are tallied and the results can then be seen by anyone just by looking at the blockchain. No third-party is required for the votes to be counted and reported. 
 
-For more information on how Particl's decentralized governance model works, head over to the :doc:`Decentralized Governance <../guides/guide_mp_general_enable_staking>` in-depth guide.
+For more information on how Particl's community governance model works, head over to the :doc:`Community Governance <../in-depth/indepth_voting>` in-depth guide.
 
 .. seealso::
 

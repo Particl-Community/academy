@@ -100,6 +100,11 @@ Particl Terms
    Community Market
       Community Markets are private by default, and only those knowing about its access keys can join them. The community market creator and owner can decide if publishing items on this market is limited to a group (storefront) or granted to anybody with access rights. Additionally, a market owner has the right to promote their community markets within the :term:`Market Browser` for a limited time in exchange for a small fee.
 
+   PPoS	
+   	Particl uses the Particl Proof-of-Stake (:term:`PPoS`) consensus mechanism, which pays back interest in dividend-like payments to stakers in exchange for securing the network. :term:`PPoS` offers many secure staking options that let you easily and quickly earn rewards without any of the security or financial risks typically associated with staking.
+
+		:term:`PPoS` is also the protocol used to vote on proposals in Particl's decentralized governance model.
+
 ----
 
 Particl's GUI Related Terms

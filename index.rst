@@ -117,16 +117,16 @@ Find advanced, very in-depth, and detailed articles about functions and concepts
    Two-Party Escrow <in-depth/indepth_escrow>
    Marketplace Moderation <in-depth/indepth_mp_moderation>
    Security and Privacy <in-depth/indepth_privacy_tips>
-   Decentralized Governance <in-depth/indepth_voting>
+   Community Governance <in-depth/indepth_voting>
 .. in-depth/indepth_opensource
 
 * :doc:`Particl Marketplace Explained <in-depth/indepth_mp_explained>`
-* :doc:`Currency (PART) Explained <in-depth/indepth_part_coin>`
+* :doc:`PART Coin Explained <in-depth/indepth_part_coin>`
 * :doc:`Staking Explained <in-depth/indepth_staking>`
 * :doc:`Two-Party Escrow Explained <in-depth/indepth_escrow>`
-* :doc:`Marketplace Moderation <in-depth/indepth_mp_moderation>`
-* :doc:`Security and Privacy <in-depth/indepth_privacy_tips>`
-* :doc:`On-Chain Voting Explained <in-depth/indepth_voting>`
+* :doc:`Marketplace Moderation Explained <in-depth/indepth_mp_moderation>`
+* :doc:`Security and Privacy Explained <in-depth/indepth_privacy_tips>`
+* :doc:`Community Governance Explained <in-depth/indepth_voting>`
 
 ----
 

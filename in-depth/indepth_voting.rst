@@ -1,12 +1,12 @@
-==================================
-Decentralized Governance Explained
-==================================
+==============================
+Community Governance Explained
+==============================
 
-Particl has a decentralized governance mechanism that gives you a voice in the most critical decisions influencing the ecosystem. The model uses the Particl Proof-of-Stake (PPos) staking protocol to let you cast votes on community proposals.
+Particl has a decentralized community governance mechanism that gives you a voice in the most critical decisions influencing the ecosystem. The model uses the Particl Proof-of-Stake (:term:`PPoS`) staking protocol to let you cast votes on community proposals.
 
 And if you need bootstrapping capital to bring to life a project of yours, there's also a decentralized treasury fund at your disposition. With the community's approval, you can claim funds from it so that you can focus entirely on your project rather than on the need to raise the startup capital it requires.
 
-Particl's decentralized governance model puts you in control and gives you the tools you need to make anything happen. This in-depth guide will explain everything you need to know to master it and start contributing to the Particl ecosystem right away!
+Particl's decentralized community governance model puts you in control and gives you the tools you need to make anything happen. This in-depth guide will explain everything you need to know to master it and start contributing to the Particl ecosystem right away!
 
 ----
 
@@ -67,7 +67,7 @@ On-Chain Voting
 
 Voting rounds on Particl are conducted in a decentralized and provably fair manner. Only active stakers, referred to as "stakeholders" in the specific context of an on-chain vote, can cast votes on proposals. This ensures only individuals with a vested interest in the project can govern its most important decisions.
 
-The process of voting and counting votes leverages the Particl Proof-of-Stake (PPoS) staking protocol, and every round's results are publicly inscribed on the blockchain permanently. This provides the maximum level of transparency and security possible, making it impossible to modify past results or misreport voting outcomes.
+The process of voting and counting votes leverages the Particl Proof-of-Stake (:term:`PPoS`) staking protocol, and every round's results are publicly inscribed on the blockchain permanently. This provides the maximum level of transparency and security possible, making it impossible to modify past results or misreport voting outcomes.
 
 To determine each individual's voting power, the voting preference of a staker is only counted when they find a block. At the end of a voting round, all the blocks contained within the timeframe of the voting round are scanned, and those that contain votes are counted towards the final tally. In other words, the more a single staker finds blocks, the more voting power they hold.
 

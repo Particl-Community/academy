@@ -34,7 +34,7 @@ Biased resolutions
 
 When an issue arises, it is usually settled following a very rigid set of policies rather than being dealt with on a case-by-case basis. This allows a greater number of issues to be resolved quickly and efficiently, but it also leads to biased resolutions.
 
-This is nothing like a conspiracy but rather a logical business strategy. Marketplaces and payment processors will typically side with buyers in the great majority of cases. That's because, for two-sided marketplaces, the sellers tend to follow where the buyers shop online rather than buyers following where vendors are selling. That's why marketplaces prioritize happy buyers as opposed to happy vendors.
+This is nothing like a conspiracy but rather a logical business strategy. Marketplaces and payment processors will typically side with buyers in the great majority of cases. That's because, for two-sided marketplaces, the sellers tend to follow where the buyers shop online rather than buyers following where vendors are selling. That's why marketplaces prioritize happy buyers as o:term:`PPoS`ed to happy vendors.
 
 Online merchants are well aware of this bias and reduce their exposure to this risk through their prices.
 
@@ -151,7 +151,7 @@ Blockchain and Game Theory
 
 Particl takes that same military doctrine and substitutes weapons of war for financial collaterals. When you buy or sell something on the Particl Marketplace, you and the other party you’re transacting with are required to lock an equal security deposit paid in PART coins in a smart-contract.
 
-Suppose one of the two parties tries to scam the other or doesn’t act in complete honesty. In that case, the “victim” can retaliate by not authorizing the bad actor’s security deposit release. This makes even just attempting to scam someone a risky business as you might lose your security deposit. In other words, a scammer cannot successfully attack another marketplace user without losing their own financial collateral.
+Su:term:`PPoS`e one of the two parties tries to scam the other or doesn’t act in complete honesty. In that case, the “victim” can retaliate by not authorizing the bad actor’s security deposit release. This makes even just attempting to scam someone a risky business as you might lose your security deposit. In other words, a scammer cannot successfully attack another marketplace user without losing their own financial collateral.
 
 And so, just like the military superpowers of this world, Particl uses the proven mathematical model behind the MAD game theory to enforce honesty and accountability among all of its participants.
 
