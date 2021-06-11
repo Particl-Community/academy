@@ -5,9 +5,9 @@ Particl Marketplace Brief Overview
 .. meta::
    :description lang=en: Find out about the package short and sweet.
 
-The :term:`Particl Marketplace` is your private and decentralized marketplace, meaning that no third-party in between is required to do commerce. There's no marketplace company, e-commerce service provider, internet server, payment processor, or even bank involved.
+The :term:`Particl Marketplace` is your private and decentralized online marketplace to buy and sell anything online. Here, there is no marketplace company, e-commerce service provider, database, server, hosting service, payment processor, bank, or any other kind of third-party involved. Just pure and confidential person-to-person transactions between you and another person.
 
-That unlocks benefits not possible with traditional marketplaces, and it also means that the :term:`Particl Marketplace` behaves a bit differently. It is pretty easy to use, but there are a few things you need to consider before you get started. Let's go over them!
+This unique and more efficient way to do e-commerce unlocks a ton of benefits not possible before with traditional online marketplaces, but it also works a bit differently than what you may be used to. Don't worry, it's very easy to use, there are just a few things you need to be aware of before you get started. Let's go over them!
 
 .. seealso::
 
@@ -20,14 +20,18 @@ That unlocks benefits not possible with traditional marketplaces, and it also me
    :backlinks: none
    :depth: 2
 
-Security of not having to trust
--------------------------------
+Don't Trust, Verify!
+--------------------
 
-Your choice to use :term:`Particl Marketplace` gives you the confidence to be ahead of the curve. You make effective use of industry-leading cryptographic software for your privacy carefully crafted by experienced and passionate developers. The code is open-source and audited, see for yourself.
+By making the choice to use :term:`Particl Marketplace`, you give yourself all the tools you need to confidently stay ahead of the technological curve and benefit from its innovations.
+
+The :term:`Particl Marketplace` is a novel and powerful e-commerce platform designed by a team of experienced developers. It's powered by many cryptographic and peer-to-peer protocols to secure your transactions and keep all of your information private. 
+
+But you don't need to trust anyone that this is true; the code is open-source, independently audited, and freely available online for everyone to inspect. See for yourself!
 
 .. seealso::
 
-	- Github - Repository `Particl Project <https://github.com/particl>`_
+	- Github - `Particl Repositories <https://github.com/particl>`_
 	- Particl Academy - Explained :ref:`Security and Privacy <Security and Privacy Explained>`
 
 
@@ -36,28 +40,33 @@ Your choice to use :term:`Particl Marketplace` gives you the confidence to be ah
 General Usage and Concept
 -------------------------
 
-Basics first and later you shall not miss anything. The aim is to bring you as much convenience as possible with this new technology, while respect the core values of decentralization and privacy at the same time. Admittingly, this is a conflict of interests with the need to be handled carefully.
+We aim at making Particl Marketplace as convenient as possible for you to use while making zero compromise on the core values of decentralization, security, privacy, and disintermediation at the same time. 
+
+By nature, this is not always easy to do, but it's getting pretty darn good and it keeps on getting better at every new release.
+
+Make sure you understand the basics and the rest will follow. In the meantime, if you spot any issue or want to give your feedback to help improve the platform, let us know!
 
 .. note::
 
-	A mobile version of :term:`Particl Marketplace` is planned and will play a key role for convenience.
+	A web and a mobile version of :term:`Particl Marketplace` are planned to be released later on and will play a key role in making the platform more accessible and convenient to use.
 
 .. seealso::
 
 	- Particl Academy - Understanding the  :ref:`User-Interface` 
-
+	- Github - `Particl Repositories <https://github.com/particl>`_
+	- Github - `Report an Issue or Leave Feedback <https://github.com/particl/particl-desktop/issues>`_
 ----
 
 Payment Processing
 ------------------
 
-Instead of relying on 3rd party payment processors, bank transfers, or payment cards, :term:`Particl Marketplace` uses electronic currencies, commonly called :term:`cryptocurrency <Cryptocurrency>`. This enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party.
+Instead of relying on third-party payment processors, bank transfers, or payment cards, :term:`Particl Marketplace` uses digital currencies, commonly called :term:`cryptocurrencies <Cryptocurrency>`. They enable near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by anyone.
 
-An ever-growing list of digital currencies can be used for payments on the :term:`Particl Marketplace`. The final settlement of payments is completed in "PART", Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
+An ever-growing list of digital currencies can be used to make payments on the :term:`Particl Marketplace`. However, to secure marketplace trades and keep their data private, the final settlement of any transaction is always made in "PART", Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
 
 .. note::
 
-	Payments with local national currencies is planned and will play a key role for convenience. 
+	Payments with local, national currencies (i.e., USD, EUR) is planned to be integrated later on and will play a key role in making the platform more accessible and convenient to use.
 
 .. seealso::
 
@@ -69,7 +78,11 @@ An ever-growing list of digital currencies can be used for payments on the :term
 Fraud Protection
 ----------------
 
-As a vendor or customer you equally hate it to fall victim of a scammer. The :term:`Particl Marketplace` uses an entirely new approach to make this impossible, which marks one of its unique selling propositions. Any purchase is secured by a two-party escrow system that doesn’t require any third-party to be involved. 
+Regardless if you're a vendor or a customer, you equally hate falling victim to a scammer. And when you don't know the other person you're transacting with, then how can you be sure that they are honest?
+
+Luckily for you, one of :term:`Particl Marketplace`'s unique selling proposition is how effectively it prevents e-commerce fraud from happening at no extra cost for you.
+
+Any purchase you make is secured by a two-party escrow system that doesn’t require any third-party to be involved. It makes scamming nearly impossible so that you can be confident transacting with anyone.
 
 .. seealso::
 
@@ -85,11 +98,13 @@ Phases of a Deal
     :alt: Particl Marketplace's phases of a deal
     :target: ../_static/media/images/001_phases_of_a_deal.png
 
-You are willing to do three additional steps to complete a deal on :term:`Particl Marketplace`, unlike other shopping experiences you will most likely know. These three additional steps are the only convenience tradeoff in comparison to what you are used to using. Now compare it to the benefits you get.
+Compared to other online shopping platforms, the process of completing a transaction in full requires three additional steps. That's because of them that you get all these security, privacy, and cost-effectiveness benefits.
+
+These three additional steps are the only convenience compromises made over traditional marketplaces. Now compare this tradeoff to the benefits they get you, that's a pretty sweet deal!
 
 .. note::
 
-	We are constantly enhancing the software and processes. Eventually, we also want to get rid of these extra steps.
+	We are constantly improving the software and its user experience. Eventually, we also want to get rid of these extra steps. Bear with us while we work on it!
 
 .. seealso::
 
@@ -101,9 +116,11 @@ You are willing to do three additional steps to complete a deal on :term:`Partic
 Community Markets
 -----------------
 
-You like to have your own and optionally private marketplace? Well, :term:`Particl Marketplace` helps you to get this achieved, but unlike other marketplaces, you know of, you are in control of everything. This functionality comes at virtually no cost and no extra fee to you as icing on the cake.
+Want to have your own shop or even launch an entire market? Do you want it to be publicly available, or kept secret between a few individuals? That's all up to you! 
 
-The use-cases for the :term:`Community Markets <Community Market>` are versatile. A brand store, categories of goods or mindsets theme them. It is an ideal tool for creating markets that serve global or local communities, neighborhood co-operatives, VIP stores, pop-up stores, and pretty much anything you can imagine.
+:term:`Particl Marketplace` lets you deploy as many shops and markets as you wish and puts you in complete control of their data, level of privacy, and accessibility. And to put icing on the cake, this comes at no extra cost for you.
+
+The use-cases for :term:`community markets <Community Market>` are versatile. They can be brand stores, markets for your online community, NFT markets, art galleries (bidding auctions), VIP or private stores, OTC desks, pop-up stores, and pretty much anything you can imagine. The possibilities are endless!
 
 .. seealso::
 
@@ -114,7 +131,13 @@ The use-cases for the :term:`Community Markets <Community Market>` are versatile
 Crowd Moderation
 ----------------
 
-Since the :term:`Particl Marketplace` relies on a distributed network that doesn't grant any special power to anyone and the software isn't owned by anyone, the moderation of its content needs to be done differently. Particl relies on the “wisdom of the crowd” theory by giving every user the equal opportunity to flag and take off undesirable content. In other words, every user is a moderator.
+Because the :term:`Particl Marketplace` relies on a distributed network that doesn't give any special power to any user, the moderation of its content needs to be done differently.
+
+Particl stays true to the value of decentralization by instead relying on the “wisdom of the crowd” theory. It gives every user the equal opportunity to flag and take off undesirable content. 
+
+See something you think shouldn't be on the marketplace? Flag it! When enough people do the same, it will be taken off the marketplace. 
+
+In other words, every user is a moderator!
 
 .. seealso::
 
@@ -126,19 +149,19 @@ Since the :term:`Particl Marketplace` relies on a distributed network that doesn
 Work in Progress
 ----------------
 
-Consider :term:`Particl Marketplace` as an ever-ongoing development to become even better, more convenient, and bigger. New functionalities will find its way into the product by people's demand to make sure the marketplace serves the people best.
+:term:`Particl Marketplace` is an ever-ongoing work in progress. Every day, we put our hearts into making it better, easier to use, and more accessible. We are working on exciting projects and features to help the Particl ecosystem thrive, and new features constantly make their ways on the platform.
 
 .. note::
 
-	Follow us on Twitter, Reddit, or register for our newsletter to stay in the loop about what's coming next.
+	Visit our blog `Particl News <https//particl.news/>`_, follow us on `Twitter <https://twitter.com/particlproject>`_, `Reddit <https://reddit.com/r/particl>`_, or register to our newsletter to stay in the loop about what's coming next.
 
 ----
 
 **Almost there**
 
-Phew! Now you have quite an understanding of the :term:`Particl Marketplace`. In the next chapter, you can have a look at all of its funtions at once. 
+Phew! You've made it this far! By now, you have quite a good understanding of the :term:`Particl Marketplace`. In the next section, you'll have a deeper look into all of its components. 
 
-Perhaps you want to skip that part and install it right away? Just head over to the :ref:`Installation Guides`.
+But perhaps you want to skip that part and install it right away? Then just head over to the :ref:`Installation Guides`.
 
 ----
 
