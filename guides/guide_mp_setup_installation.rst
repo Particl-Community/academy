@@ -478,7 +478,7 @@ Using the Tor daemon
 Using Tor as a Hidden Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On linux, you can also run :term:`Tor` as a hidden service and connect your :term:`Particl Desktop` to it. This allows other people to use your :term:`node <Node>` as an entry or exit point, making the :term:`Tor` network more decentralized and private.
+On linux, you can also run :term:`Tor` as a hidden service and connect your :term:`Particl Desktop` to it. This allows other people to use your :term:`node <Node>` as an entry or exit point, making the :term:`Tor` network more :term:`decentralized <Decentralization>` and private.
 
 .. rst-class:: bignums
 

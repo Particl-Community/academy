@@ -108,7 +108,7 @@ Secure messaging
 
 On traditional marketplaces, all your communications with buyers and sellers are stored, monitored, and analyzed by the marketplace itself. This, of course, exposes a great deal of information about you and your business. It opens the door wide open for anyone, authorized or not, to collect or steal a lot of information about you and use it for their own benefit. 
 
-Particl makes sure to put that issue to rest by relying on a completely decentralized messaging network named :term:`SecureMessaging (SMSG)`. It encrypts, end-to-end, all the messages you send to other users and automatically delivers them to the intended recipient. Only the people you're sending a message to can open and read it. It cannot be intercepted and decrypted by anyone else.
+Particl makes sure to put that issue to rest by relying on a completely :term:`decentralized <Decentralization>` messaging network named :term:`SecureMessaging (SMSG)`. It encrypts, end-to-end, all the messages you send to other users and automatically delivers them to the intended recipient. Only the people you're sending a message to can open and read it. It cannot be intercepted and decrypted by anyone else.
 
 Achieve Maximum Privacy
 -----------------------

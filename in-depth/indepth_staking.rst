@@ -115,7 +115,7 @@ When sending PART coins to someone else or into a smart-contract, a small transa
 
 **BasicSwap (Particl DEX) fees**
 
-BasicSwap is Particl's upcoming decentralized exchange (DEX) that lets you swap between different cryptocurrencies without requiring a third-party. Although it is entirely decentralized, a small transaction fee similar in size to marketplace listing fees will be required. Just like other types of fees, it is required to fight off spam. Whoever finds a block also earns the entirety of all the DEX fees it contains.
+BasicSwap is Particl's upcoming :term:`decentralized <Decentralization>` exchange (DEX) that lets you swap between different cryptocurrencies without requiring a third-party. Although it is entirely decentralized, a small transaction fee similar in size to marketplace listing fees will be required. Just like other types of fees, it is required to fight off spam. Whoever finds a block also earns the entirety of all the DEX fees it contains.
 
 Online staking calculator
 =========================
@@ -278,7 +278,7 @@ On-Chain Voting
 
 :term:`PPoS` is at the core of Particl's :ref:`community governance <Community Governance Explained>`. The staking protocol is used to vote on various proposals and determine, with absolute certainty, the consensus of the community on the ideas and projects being proposed in them.
 
-Particl uses a two-tier decentralized governance model. Any community member can submit proposals to the CCS system. These proposals can suggest things like protocol changes or request funding from the Treasury Fund for projects and initiatives that benefit the Particl ecosystem. For a proposal to be approved, it requires an on-chain voting round where stakers can approve or reject the proposal using their staking power.
+Particl uses a two-tier :term:`decentralized <Decentralization>` governance model. Any community member can submit proposals to the CCS system. These proposals can suggest things like protocol changes or request funding from the Treasury Fund for projects and initiatives that benefit the Particl ecosystem. For a proposal to be approved, it requires an on-chain voting round where stakers can approve or reject the proposal using their staking power.
 
 That's where :term:`PPoS` comes into play. Stakers cast their votes for the proposal being voted on by using their staking power. Every time they find a block during a voting period, they embed into it one vote (approve, reject, or abstain). The more blocks a staker finds during a voting period, the more votes that staker will cast. Every staked block equals one vote. 
 

@@ -47,7 +47,7 @@ While the :term:`Particl Marketplace` is an easy-to-use e-commerce platform, wha
 * **Censorship-proof**—no predefined rules or policies, and no ban on items
 * **Near-zero fee**—only pay the bare minimum for the network to run by itself
 
-These advantages are only possible thanks to the particularly decentralized nature of the :term:`Particl Marketplace`. 
+These advantages are only possible thanks to the particularly :term:`decentralized <Decentralization>` nature of the :term:`Particl Marketplace`. 
 
 Trustless setup
 ~~~~~~~~~~~~~~~

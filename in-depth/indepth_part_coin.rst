@@ -51,7 +51,7 @@ PART has been released back in 2017 and is based on the latest version of the Bi
 +--------------------------+-----------------------------------------------------------+
 | **Block Size**           | 2 MB (2x more capacity than Bitcoin)                      |
 +--------------------------+-----------------------------------------------------------+
-| **Consensus Mechanism**  | Particl Proof-of-Stake (:term:`PPoS`)                             |
+| **Consensus Mechanism**  | Particl Proof-of-Stake (:term:`PPoS`)                     |
 +--------------------------+-----------------------------------------------------------+
 | **Circulating Supply**   | |Coin supply| (100%)                                      |
 +--------------------------+-----------------------------------------------------------+
