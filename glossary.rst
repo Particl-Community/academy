@@ -37,7 +37,16 @@ General Terms
 		Cryptocurrencies are digital units of a currency that can be transferred person-to-person without requiring a third-party (payment processor) to facilitate transactions. It enables near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by any party.
 
    Tor
-   		The Tor network is a free and open-source network that enables anonymous online communication. It protects your digital privacy by anonymizing your IP address. It does so by routing your connection through a vast and global network of volunteers. Tor's intended use is to protect your personal privacy as well as your freedom and ability to conduct confidential communication. When enabled on Particl, it makes your node's IP address entirely anonymous.
+   	The Tor network is a free and open-source network that enables anonymous online communication. It protects your digital privacy by anonymizing your IP address. It does so by routing your connection through a vast and global network of volunteers. Tor's intended use is to protect your personal privacy as well as your freedom and ability to conduct confidential communication. When enabled on Particl, it makes your node's IP address entirely anonymous.
+
+   Disintermediation
+   	Disintermediation is the removal of intermediaries in economics from a supply chain, or "cutting out the middlemen" in connection with a transaction or a series of transactions. Instead of going through traditional distribution channels, which had some type of intermediary (such as a distributor, wholesaler, broker, or agent), companies may now deal with customers directly, for example via the Internet.
+   	`Disintermediation on Wikipedia <https://en.wikipedia.org/wiki/Disintermediation>`_
+
+   Decentralization
+   	Decentralization or decentralisation is the process by which the activities of an organization, particularly those regarding planning and decision making, are distributed or delegated away from a central, authoritative location or group.
+   	`Decentralization on Wikipedia <https://en.wikipedia.org/wiki/Decentralization>`_
+
 
 ----
 
