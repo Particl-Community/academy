@@ -11,9 +11,9 @@ To unlock these benefits to you not possible before with traditional online mark
 
 .. seealso::
 
-	- Particl Academy - Explained :ref:`Particl Marketplace <Particl Marketplace Explained>`
 	- Particl Academy - Introduction :ref:`Uncompromising, What You Get`
 	- Particl Academy - Introduction :ref:`Target Audiences`
+	- Particl Academy - Explained :ref:`Particl Marketplace <Particl Marketplace Explained>`
 
 Don't Trust, Verify!
 --------------------
