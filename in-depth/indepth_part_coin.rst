@@ -2,9 +2,9 @@
 Currency (PART) Explained
 =========================
 
-PART is an untraceable :term:`cryptocurrency <Cryptocurrency>` (a "**privacy coin**") that can be sent to anyone, anywhere in the world, without the need for any third-party to facilitate transactions. It is a secure :term:`cryptocurrency <Cryptocurrency>` based on the Bitcoin code, but with more features and a much greater level of privacy. 
+PART is an untraceable :term:`cryptocurrency <Cryptocurrency>`, served to you on its very own :term:`blockchain <Blockchain>` with industry-leading privacy technology.  It enables you to do independent, secure and private payments, without the need of any bank or other payment-processor in between. 
 
-PART is the native currency of the Particl Marketplace and preserves all your personal, financial, and business data from prying eyes. 
+Additionally, PART is the :ref:`settlement currency <Payments and settlement-layer>` of the :term:`Particl Marketplace`. Payments on :term:`Particl Marketplace` with other currencies than PART get converted to PART. 
 
 ----
 

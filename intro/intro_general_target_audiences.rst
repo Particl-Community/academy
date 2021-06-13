@@ -99,6 +99,7 @@ Industries and Use-cases
 * The classic goods exchange in return for payments.
 	* If an instant settlement of payments is needed.
 	* When counterparty risks need to get mitigated.
+	* Avoid the risk of receiving counterfeit goods.
 	* If there is an increased risk of non-payment (payment default).
 	* If there is an increased risk of delay in payment.
 	* If middlemen take too much off the deal.
@@ -122,7 +123,9 @@ Industries and Use-cases
 
 A lot to grasp, isn’t it? Consider Particl is as diverse as humankind and is open to everybody. Focus on selected portions that serve your needs and help you to overcome your challenges. You will get rewarded and feel empowered like never before. Particl can be your mantra and mindset.
 
-Do you know other curious minds? Please invite others and discuss the status quo of commerce, monopolies, equal chances, and eventually freedom towards a worth living future for our children and us.
+.. admonition:: Action
+
+	Do you know other curious minds? Please invite others and discuss the status quo of commerce, monopolies, equal chances, and eventually freedom towards a worth living future for our children and us.
 
 ----
 
