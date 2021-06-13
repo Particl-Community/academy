@@ -34,7 +34,7 @@ General Usage and Concept
 
 While using :term:`Particl Marketplace` you expect easy usability while making zero compromise on the core values of :term:`decentralization <Decentralization>`, security, privacy, and :term:`disintermediation <Disintermediation>` at the same time.
 
-This the essence that makes you stand out.
+This is the essence that makes you stand out.
 
 .. note::
 
