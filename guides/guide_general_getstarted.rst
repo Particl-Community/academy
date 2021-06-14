@@ -9,7 +9,13 @@ Quickstart
    :description lang=en: How to install Particl Desktop in order to use Particl Marketplace. 
    :keywords lang=en: Particl, Marketplace, Installation, Quickstart, Blockchain, Privacy, E-Commerce, multi-vendor marketpalce
 
-:term:`Particl Marketplace` provides you with the most secure, private, and censorship-resistant e-commerce experience on the web. Get a little inspiration by reading :doc:`Uncompromising, what you get <../intro/intro_general_particlmarketplace>`. 
+:term:`Particl Marketplace` provides you with the most secure, private, and censorship-resistant e-commerce experience on the web.
+
+.. admonition:: Understanding the basics of Particl Maketplace
+
+   - Particl Academy - Intro :doc:`Uncompromising, What You Get <../intro/intro_general_particlmarketplace>`
+   - Particl Academy - Intro :doc:`Target Audiences <../intro/intro_general_target_audiences>`
+   - Particl Academy - Intro :doc:`Particl Marketplace Brief Overview <../intro/intro_marketplace_brief_overview>` 
 
 The following guides will take you through each step, from A to Z, so that you can begin to buy or sell anything online without restriction.
 
@@ -30,12 +36,13 @@ The following guides will take you through each step, from A to Z, so that you c
 
 ----
 
-.. hint::
+.. admonition:: Get help
 
-	Particl cares about you. In these locations you find answers and support.
+	The Particl community takes care of you. In these locations you find answers and support.
 
-	* :doc:`FAQ <../faq/faq_mp_general_overview>`   
+	* :doc:`Frequently asked Questions (FAQ) <../faq/faq_mp_general_overview>`   
 	* :doc:`Common Issues <../faq/common_issues>`
 	* :doc:`Get Support <../faq/get_support>`
+	* :doc:`Glossary <../glossary>`
 
 ----
