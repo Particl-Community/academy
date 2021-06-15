@@ -7,7 +7,7 @@ Particl Marketplace Brief Overview
 
 The :term:`Particl Marketplace` is your private and :term:`decentralized <Decentralization>` online marketplace to buy and sell anything online. Here, there is no marketplace company, e-commerce service provider, database, server, hosting service, payment processor, bank, and no other kind of third-party involved. Just pure and confidential person-to-person transactions between you and another person.
 
-To unlock these benefits to you not possible before with traditional online marketplaces, there are just a few things you need to be aware of before you get started. It's very easy to use,  Let's go over them!
+This gives you many new benefits not possible before with traditional e-commerce, but there are just a few things you need to be aware of before you get started. It's very easy to use,  Let's go over them!
 
 .. seealso::
 
@@ -32,9 +32,9 @@ You don't need to trust anyone; the code is open-source, independently audited, 
 General Usage and Concept
 -------------------------
 
-While using :term:`Particl Marketplace` you expect easy usability while making zero compromise on the core values of :term:`decentralization <Decentralization>`, security, privacy, and :term:`disintermediation <Disintermediation>` at the same time.
+Using :term:`Particl Marketplace` means that you can enjoy an easy and cost-effective shopping experience that makes zero compromise on the core values of :term:`decentralization <Decentralization>`, security, privacy, and :term:`disintermediation <Disintermediation>`.
 
-This is the essence that makes you stand out.
+That will make you stand out and stay on top!
 
 .. note::
 
@@ -50,9 +50,9 @@ This is the essence that makes you stand out.
 Payment Processing
 ------------------
 
-To enable you with near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by anyone, you are relying with :term:`Particl Marketplace` on digital currencies, commonly called :term:`cryptocurrencies <Cryptocurrency>`.
+To benefit from near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by anyone, you transact on :term:`Particl Marketplace` using digital currencies. They are commonly called :term:`cryptocurrencies <Cryptocurrency>`.
 
-You can use an ever-growing list of digital currencies to make payments on the :term:`Particl Marketplace`. However, the final settlement of any payment is always made in “PART”, Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
+You can use an ever-growing list of digital currencies to make payments on :term:`Particl Marketplace`. However, the final settlement of any payment is always made in “PART”, Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
 
 .. note::
 
@@ -68,11 +68,11 @@ You can use an ever-growing list of digital currencies to make payments on the :
 Fraud Protection
 ----------------
 
-Regardless if you're a vendor or a customer, you equally hate falling victim to a scammer.
+Regardless if you're a vendor or a customer, you equally hate falling victim to a scammer. You want to protect yourself against fraud at all times, at no extra cost, and without any hassle. 
 
-You want to prevent e-commerce fraud from happening at no extra cost and easy to setup for you. One of :term:`Particl Marketplace`'s unique selling propositions makes it a breeze for you to achieve that.
+One of :term:`Particl Marketplace`'s unique selling propositions makes it a breeze for you to achieve that.
 
-Any purchase you make is secured by a two-party escrow system that doesn’t require any third-party to be involved. 
+Any purchase you make on the marketplace is secured by a two-party escrow system that keeps you and your money safe without requiring any third-party.
 
 .. seealso::
 
@@ -88,9 +88,9 @@ Phases of a Deal
     :alt: Particl Marketplace's phases of a deal
     :target: ../_static/media/images/001_phases_of_a_deal.png
 
-Because you value security, privacy, and cost-effectiveness benefits, you are willing to do three additional steps to complete a purchase in full.
+:term:`Particl Marketplace` not only saves you a lot of money, it also gives you a ton of security and privacy benefits. That's why you're willing to do three more steps to complete a purchase in full!
 
-These three additional steps are the only compromises made over traditional marketplaces. Compare this tradeoff to your benefits. That’s a pretty sweet deal!
+These three additional steps are the only compromises made over traditional marketplaces. Now compare this tradeoff to all the benefits they get you. That’s a pretty sweet deal!
 
 .. note::
 
@@ -108,9 +108,9 @@ Community Markets
 
 Want to have your own shop or even launch an entire market? Do you want it to be publicly available or kept secret between a few individuals?
 
-You deploy as many shops and markets as you wish, and you are in complete control of their data, level of privacy, and accessibility. And to put the icing on the cake, this comes at no extra cost for you.
+On :term:`Particl Marketplace`, you can deploy as many shops and markets as you wish. At all times, you stay in complete control of their associated data, their level of privacy, and accessibility. And to put icing on the cake, this all comes at no extra cost for you.
 
-Your use-cases for :term:`community markets <Community Market>` are versatile. They can be brand stores, markets for your online community, NFT markets, art galleries (bidding auctions), VIP or private stores, OTC desks, pop-up stores, and pretty much anything you can imagine. The possibilities are endless!
+You can use :term:`community markets <Community Market>` for almost anything. You can launch your own brand stores, markets for your online community, NFT markets, art galleries (bidding auctions), VIP or private stores, OTC desks, pop-up stores, and pretty much anything you can imagine. The possibilities are endless!
 
 .. seealso::
 
@@ -118,12 +118,14 @@ Your use-cases for :term:`community markets <Community Market>` are versatile. T
 
 ----
 
-Crowd Moderation
-----------------
+Content Moderation
+------------------
 
-The “wisdom of the crowd” theory is your secret power when it comes to moderation of the :term:`Particl Marketplace`. Since you, everybody, and nobody owns the :term:`Particl Marketplace` every participant on the marketplace has the equal opportunity to flag and take off undesirable content. 
+The “wisdom of the crowd” is your secret power when it comes to moderating :term:`Particl Marketplace`. 
 
-See something you think shouldn't be on the marketplace? Flag it! When enough people do the same, it will be taken off the marketplace.
+Since you, everybody, and nobody owns the :term:`Particl Marketplace`, every participant has the equal ability to flag and take off undesirable content. 
+
+See something you think shouldn't be on the marketplace? Flag it! When enough people do the same, it will be taken off the marketplace. Flagging a listing will also take it off your local version of the marketplace so that you don't see it again.
 
 .. seealso::
 
@@ -135,7 +137,9 @@ See something you think shouldn't be on the marketplace? Flag it! When enough pe
 Work in Progress
 ----------------
 
-:term:`Particl Project` is an ever-ongoing work in progress. Every day, it’s getting better, easier to use, and more accessible. Exciting new projects and features emerge to help the :term:`Particl ecosystem <Particl Ecosystem>` thrive constantly. So be a part of it–as a customer, vendor, promoter, developer, manager, or any other void you can fill with passion.
+:term:`Particl Project` is an ever-ongoing work in progress. Every day, it’s getting better, easier to use, and more accessible. Exciting new projects and features constantly emerge to help the :term:`Particl ecosystem <Particl Ecosystem>` thrive. 
+
+Come be a part of it – as a customer, vendor, promoter, developer, manager, or any other void you can fill with your passion.
 
 .. admonition:: Action
 

@@ -1,6 +1,6 @@
-===============
-Staking Rewards
-===============
+==================
+Staking and Voting
+==================
 
 .. title::
    Particl Marketplace Enable Staking
@@ -8,7 +8,9 @@ Staking Rewards
 .. meta::
    :description lang=en: Learn how to enable staking for Particl Coin on Particl Desktop.
 
-Just by keeping your :term:`Particl Desktop` client connected to the internet, you automatically earn a yearly interest rate of 4% to 8% on the total number of PART coins you hold in your public balance.
+Just by keeping an open connection to the :term:`Particl blockchain`, you automatically earn a yearly interest rate of 4% to 8% on the total number of PART coins you hold in your public balance.
+
+It also grant you the ability to vote on various community proposals using your staking power as voting power.
 
 .. seealso::
 
@@ -19,20 +21,23 @@ Just by keeping your :term:`Particl Desktop` client connected to the internet, y
    :backlinks: none
    :depth: 2
 
+Staking
+^^^^^^^
+
 Enabling staking is generally straight-forward, but some of the staking solutions available on Particl may require more work to setup. This user guide will walk you through the process of enabling any of these solutions without too much hassle.
 
 .. note:: 
 
 	**Prerequisites**
 
-	- A :term:`Particl Desktop` wallet with any number of PART coins greater than 0.
+	- A :term:`Particl Desktop` wallet containing more than 0 PART coin.
 	- PART coins in your :guilabel:`Public` balance.
 	- An active internet connection.
 	- A separate device to convert into a staking :term:`node <Node>` (required for cold staking only).
 
 There are multiple ways you can stake your PART coins. Each of these solutions have pros and cons as well as their own method of activation. 
 
-Enable Regular Staking
+Enable regular staking
 ----------------------
 
 Activating regular staking is the fastest method to get started. All it requires you to do is to open up the :term:`Particl Desktop` client and "unlock your wallet for staking only". Regular staking, however, requires your computer to be open and connected to the internet 24/7. 
@@ -208,7 +213,7 @@ It's also possible to stake PART coins stored on a mobile wallet such as `Partic
 	#. Enter the staking public key in the designated space and give it a label.
 	#. Tap on the :guilabel:`Enable Cold Staking` green button, then tap on the :guilabel:`Zap` button to finalize the staking setup process.
 
-Adjust Your Staking Privacy
+Adjust your staking privacy
 ---------------------------
 
 If you operate your own staking :term:`node <Node>`, you can adjust your level of staking privacy. By default, the network sends your staking rewards in your :guilabel:`Public` balance, meaning all your staking rewards are publicly displayed publicly on the blockchain. Particl allows you to change that for better privacy.
@@ -246,6 +251,110 @@ If you want to uninstall the script, enter this command.
 		.. code-block:: bash
 
 			cd ~/Private-Colstaking && ./uninstall.sh
+
+Voting on Proposals
+^^^^^^^^^^^^^^^^^^^
+
+You can vote on various community proposals using your staking power as voting power. Cast your vote during a proposal's voting period to signal to the network your voting preference. Every time you'll stake a block during that period, you'll register one vote. 
+
+The more blocks you stake within a proposal's voting period, the more voting power you have.
+
+.. note:: 
+
+	**Prerequisites**
+
+	- A Particl node actively staking.
+	- An active internet connection.
+
+.. tabs::
+
+	 .. group-tab:: Partyman
+
+ 		**Partyman Staking App**
+
+ 		.. rst-class:: bignums
+
+	 		#. Access your Partyman staking node and enter Partyman’s folder.
+
+	 			.. code-block:: bash
+
+	 				cd ~/partyman
+
+	 		#. Make sure Partyman is on the latest version.
+
+	 			.. code-block:: bash
+
+	 				git pull
+
+	 		#. Still in Partyman’s folder, find what proposal you want to vote for.
+
+	 			.. code-block:: bash
+	 				
+	 				./partyman proposal list
+
+	 		#. Vote on the proposal by typing the following command.
+
+	 			.. code-block:: bash
+	 				
+	 				./partyman proposal vote
+
+	 		#. Confirm that you want to vote for a proposal. This will clear all previous voting preferences if you’re already voting on a proposal.
+
+	 		#. Enter the ID of the proposal you want to vote for and press :guilabel:`Enter`.
+
+	 		#. Enter the voting option you want to cast your vote for and press :guilabel:`Enter`.
+
+	 .. group-tab:: Particl Desktop
+
+	 	**Particl Desktop**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open your :term:`Particl Desktop` client.
+
+	 		#. Find what proposal you want to vote for by visiting the `CCS platform <https://ccs.particl.io/>`_. Note the ID of the proposal and the block numbers.
+
+	 		#. Click on the debug console icon at the top right corner of the screen.
+
+	 		#. In the console window, type the following command.
+
+	 			.. code-block:: bash
+
+	 				setvote proposal option height_start height_end
+
+	 		:guilabel:`proposal` should be the ID of the proposal you want to vote for
+    		 	
+    		:guilabel:`option` should be the value of your voting option (i.e. 1 = “Voting for the proposal”)
+    		 
+    		:guilabel:`height_start` is the block number when the voting period starts
+   		 
+   		:guilabel:`height_end` is when it ends
+
+    .. group-tab:: Particl Qt
+
+	 	**Particl Qt**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open your Particl Qt client.
+
+	 		#. Find what proposal you want to vote for by visiting the `CCS platform <https://ccs.particl.io/>`_. Note the ID of the proposal and the block numbers.
+
+	 		#. Click on the Window tab at the top of the client and then go to :guilabel:`Console`.
+
+	 		#. In the console window, make sure that the wallet with your coins staking is selected in the dropdown menu. If you don’t select the wallet that is staking your coins, your vote will not register. Enter the following command to register your vote.
+
+	 			.. code-block:: bash
+
+	 				setvote proposal option height_start height_end
+
+	 		:guilabel:`proposal` should be the ID of the proposal you want to vote for
+    		 	
+    		:guilabel:`option` should be the value of your voting option (i.e. 1 = “Voting for the proposal”)
+    		 
+    		:guilabel:`height_start` is the block number when the voting period starts
+   		 
+   		:guilabel:`height_end` is when it ends
 
 .. seealso::
 

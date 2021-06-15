@@ -273,18 +273,12 @@ However, it also means anyone can trace staking rewards and look right into your
 
 That's why Particl allows you to control your level of staking privacy using Partyman; Particl's cold staking application. To do so, you need to indicate to the network that you'd like to receive your staking rewards in another type of balance other than your public balance. Check out the :doc:`staking guide <../guides/guide_mp_general_enable_staking>` to see how to do it.
 
-On-Chain Voting
----------------
+Voting
+------
 
-:term:`PPoS` is at the core of Particl's :ref:`community governance <Community Governance Explained>`. The staking protocol is used to vote on various proposals and determine, with absolute certainty, the consensus of the community on the ideas and projects being proposed in them.
+:term:`PPoS` is at the core of Particl's decentralized governance. You can vote on various community proposals using your staking power as voting power. Register your voting preferences during a proposal's voting period; every time you'll stake a block during that period, you'll cast one vote.
 
-Particl uses a two-tier :term:`decentralized <Decentralization>` governance model. Any community member can submit proposals to the CCS system. These proposals can suggest things like protocol changes or request funding from the Treasury Fund for projects and initiatives that benefit the Particl ecosystem. For a proposal to be approved, it requires an on-chain voting round where stakers can approve or reject the proposal using their staking power.
-
-That's where :term:`PPoS` comes into play. Stakers cast their votes for the proposal being voted on by using their staking power. Every time they find a block during a voting period, they embed into it one vote (approve, reject, or abstain). The more blocks a staker finds during a voting period, the more votes that staker will cast. Every staked block equals one vote. 
-
-At the end of the voting period, the votes are tallied and the results can then be seen by anyone just by looking at the blockchain. No third-party is required for the votes to be counted and reported. 
-
-For more information on how Particl's community governance model works, head over to the :doc:`Community Governance <../in-depth/indepth_voting>` in-depth guide.
+To learn more about Particl's community governance model, head over to the :doc:`Community Governance <../in-depth/indepth_voting>` in-depth guide.
 
 .. seealso::
 
