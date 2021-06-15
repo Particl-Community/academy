@@ -2,15 +2,15 @@
 Particl Marketplace Explained
 =============================
 
-**This article is a technical explanation for the curious audiences.**
+**This article is a technical explanation for the more curious minds.**
 
 .. meta::
       
       :description lang=en: Deep dive explanation of Particl's blockchain e-commerce solution yielding fair market conditions. Simply put, it's the most secure and private online marketplace on the web.
 
-With the award-winning :term:`Particl Marketplace`, you transform today’s e-commerce into the freest, most secure, and trustworthy place, yielding fair market conditions for its participants. How this all comes together is explained in the basics section. 
+With the award-winning :term:`Particl Marketplace`, you transform today’s e-commerce into a free, secure, cost-efficient, and trustworthy environment where you can enjoy true free market conditions. How this all comes together is explained in this section. 
 
-.. admonition:: Understanding the basics of Particl Maketplace
+.. admonition:: Understanding the Basics of Particl Maketplace
 
    - Particl Academy - Intro :doc:`Uncompromising, What You Get <../intro/intro_general_particlmarketplace>`
    - Particl Academy - Intro :doc:`Target Audiences <../intro/intro_general_target_audiences>`
@@ -30,12 +30,12 @@ Characteristics
 
 While the :term:`Particl Marketplace` is an easy-to-use e-commerce platform, what happens in the background is relatively complex and employs several brand new technologies. There's no server, central database, or employees working at keeping the marketplace up and running. Instead, it relies on an intricate combination of distributed technologies developed, maintained, and run by a vast and global network of participants.
 
-* **Autonomous**—runs by itself and requires no human intervention
-* **Secure**—the highest level of digital security provided by trustless encryption
-* **Private**—no data or personal information collected about you
-* **Resilient**—can’t be censored, hacked, or shut down by anyone
-* **Censorship-proof**—no predefined rules or policies, and no ban on items
-* **Near-zero fee**—only pay the bare minimum for the network to run by itself
+* **Autonomous** — runs by itself and requires no human intervention
+* **Secure** — has the highest level of digital security provided by trustless encryption
+* **Private** — no data or personal information is ever collected about you
+* **Resilient** — can’t be censored or shut down by anyone
+* **Censorship-proof** — no predefined rules or policies, and no ban on items
+* **Near-zero fee** — only pay the bare minimum for the network to run by itself
 
 These advantages are only possible thanks to the particularly :term:`decentralized <Decentralization>` nature of the :term:`Particl Marketplace`.
 
@@ -44,11 +44,15 @@ These advantages are only possible thanks to the particularly :term:`decentraliz
 Technicals in a Nutshell
 ------------------------
 
-:term:`Particl Marketplace` is an add-on application of the :term:`Particl Desktop` client software. The marketplace uses Particl's :ref:`Open Market Protocol (OMP)` for communications with the :term:`Particl Network`, which is the :term:`decentralized <Decentralization>` backbone for payments, messaging, and signaling. 
+:term:`Particl Marketplace` is an application on the :term:`Particl Desktop` client. It uses Particl's :ref:`Open Market Protocol (OMP)` to connect and interact with the :term:`Particl Network`. That's the backbone for the :term:`decentralized <Decentralization>` payments, communications, security, and privacy capabilities of the marketplace. 
 
-The :term:`Particl Network` consists of the :term:`Particl Blockchain` to execute and verify financial transactions with its independent :ref:`PART Coin <Currency (PART) Explained>`. At the same time, the :term:`SecureMessaging (SMSG)` protocol processes all the non-financial data that come along with running a :term:`decentralized <Decentralization>` marketplace.
+The :term:`Particl Network` is a combination of the :term:`Particl Blockchain` and the :term:`SecureMessaging (SMSG)`. 
 
-Every transaction on the :term:`Particl Marketplace` is private and confidential by default.
+The blockchain executes and verifies all financial transactions using its native and untraceable currency; :ref:`PART <Currency (PART) Explained>`. All transactions on the :term:`Particl Marketplace` are private and confidential by default.
+
+On the other end, the :term:`SecureMessaging (SMSG)` protocol processes all the non-financial data related to the :term:`decentralized <Decentralization>` marketplace and securely broadcasts it to the rest of the network using military-grade encryption. 
+
+The :term:`Particl Network` is entirely trustless and requires no third-party to function.
 
 ----
 
@@ -133,3 +137,9 @@ Payments and Settlement-layer
 * Link to the "obtain part" with the "see also" box
 * Link to the "CMC Page" with the "see also" box
 * note about its developent future (ideal situation where a user can pay in any currency and the conversion happens on the fly in the background) with the "note" box
+
+.. seealso::
+
+ Other sources for useful or more in-depth information:
+
+ - Gitbook - `Open Market Protocol <https://kewde.gitbooks.io/protocol/content/>`_
