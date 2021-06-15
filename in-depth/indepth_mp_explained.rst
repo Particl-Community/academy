@@ -63,10 +63,14 @@ Particl Desktop & Marketplace
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Short explanation what it does
-* Link to the "All functions" with the "see also" box
 * note about its developent future with the "note" box
 * note about mobile future with the "note" box
-* Link to the "github" with the "see also" box
+
+.. seealso::
+
+ - Particl Academy - :doc:`All Functions <../intro/intro_general_functions>`
+ - Github - `Particl Desktop <https://github.com/particl/particl-desktop>`_
+
 
 The Backend 
 -----------
@@ -80,21 +84,32 @@ The Open Market Protocol (OMP)
 * What it does
 * Why is it there
 * Inspiration from glossary
-* Link to the "OMP Documentation" with the "see also" box
 * Link to the "RPC Api" with the "see also" box
-* Link to the "Wiki" with the "see also" box
-* Link to the "github" with the "see also" box
 * Backlink from glossary
+
+.. seealso::
+
+ - Particl Wiki - `Open Market Protocol <https://particl.wiki/learn/marketplace/open-market-protocol/>`_
+ - Particl Wiki - `SecureMessaging <https://particl.wiki/learn/marketplace/smsg/>`_
+ - Github - `Particl Market <https://github.com/particl/particl-market>`_
+ - Github - `OMP Lib <https://github.com/particl/omp-lib>`_
 
 The Particl Blockchain
 ~~~~~~~~~~~~~~~~~~~~~~
 
+The PART Coin
+^^^^^^^^^^^^^
+
 * Short explanation what it does
-* Link to the "Blockchain Specifications of PART Coin explained" with the "see also" box
-* Link to the "Block Explorer" with the "see also" box
 * Inspiration from glossary
-* Link to the "github" with the "see also" box
 * Backlink from glossary
+
+.. seealso::
+
+ - Github - `Particl Core <https://github.com/particl/particl-core>`_
+ - Block Explorer - `Insight <https://explorer.particl.io>`_
+ - Particl Academy - :doc:`Blockchain Specifications <../in-depth/indepth_part_coin>`
+ - Particl Academy - :doc:`PART Coin <../in-depth/indepth_part_coin>`
 
 The SecureMessaging (SMSG protocol)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -105,6 +120,11 @@ The SecureMessaging (SMSG protocol)
 * note about its developent future with the "note" box
 * Backlink from glossary
 
+.. seealso::
+
+ - Github - `Particl Core <https://github.com/particl/particl-core>`_
+ - Particl Wiki - `SecureMessaging <https://particl.wiki/learn/marketplace/smsg/>`_
+
 The Data Storage Network (DSN)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -113,10 +133,15 @@ The Data Storage Network (DSN)
 * Inspiration from glossary and wiki
 * Backlink from glossary
 
+.. seealso::
+
+ - Github - `Particl Core <https://github.com/particl/particl-core>`_
+ - Particl Wiki - `Data Storage Network <https://particl.wiki/learn/marketplace/data-storage-network/>`_
+
 Trustless Setup
 ---------------
 
-* What makes it a trustlestt setup
+* What makes it a trustless setup
 * Why is it important
 
 Technicals of a Buy-Flow
@@ -137,9 +162,3 @@ Payments and Settlement-layer
 * Link to the "obtain part" with the "see also" box
 * Link to the "CMC Page" with the "see also" box
 * note about its developent future (ideal situation where a user can pay in any currency and the conversion happens on the fly in the background) with the "note" box
-
-.. seealso::
-
- Other sources for useful or more in-depth information:
-
- - Gitbook - `Open Market Protocol <https://kewde.gitbooks.io/protocol/content/>`_
