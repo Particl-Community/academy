@@ -56,15 +56,25 @@ The :term:`Particl Network` is entirely trustless and requires no third-party to
 
 ----
 
-The Frontend 
-------------
+The Front-End 
+-------------
+
+The front-end part of any application or platform refers to what a user directly interacts with. It is, more directly, the graphical inteface. 
 
 Particl Desktop & Marketplace
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Short explanation what it does
-* note about its developent future with the "note" box
-* note about mobile future with the "note" box
+:term:`Particl Desktop` is the front-end application of the :term:`Particl Network`; it allows you to connect directly with the underlying platform code in a graphical, user-friendly, and easy to use fashion.
+
+If you want to sell or purchase an item on :term:`Particl Marketplace`, browse listings and markets, leave a comment, or any other similar action, you inevitably need to use :term:`Particl Marketplace`; the front-end application of Particl to do so. It is what what makes all the code appear in a visual manner.
+
+.. note::
+
+   A web and a mobile version of :term:`Particl Marketplace` are planned to be released later on and will play a key role in making the platform more accessible and convenient to use.
+
+.. note:: 
+   
+   :term:`Particl Desktop` and :term:`Particl Marketplace` are ever-ongoing works in progress. Every day, they get better, easier to use, and more accessible for all. Exciting new projects and features constantly emerge to help the :term:`Particl ecosystem <Particl Ecosystem>` thrive. 
 
 .. seealso::
 
@@ -75,17 +85,15 @@ Particl Desktop & Marketplace
 The Backend 
 -----------
 
-Particl Network Technologies
+The back-end of any application or platform refers to the part that is not directly accessed by the user, typically responsible for storing and manipulating data. These are the various protocols, including the :term:`Particl Blockchain`, that are used to bring the :term:`Particl ecosystem` to life. 
 
 
 The Open Market Protocol (OMP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* What it does
-* Why is it there
-* Inspiration from glossary
-* Link to the "RPC Api" with the "see also" box
-* Backlink from glossary
+The :term:`Open Market Protocol (OMP)` is the back-end protocol that makes :term:`Particl Marketplace` possible. It is the framework that defines how marketplace transactions, orders, listings, and other key e-commerce functionalities are to be processed by the :term:`SecureMessaging (SMSG)` network and the :term:`Particl Blockchain`. It is the “glue” that sticks everything together. 
+
+If :term:`Particl Desktop` is what people use to access :term:`Particl Marketplace` (the front-end), the OMP is what makes it possible in the background (the back-end).
 
 .. seealso::
 
@@ -93,16 +101,19 @@ The Open Market Protocol (OMP)
  - Particl Wiki - `SecureMessaging <https://particl.wiki/learn/marketplace/smsg/>`_
  - Github - `Particl Market <https://github.com/particl/particl-market>`_
  - Github - `OMP Lib <https://github.com/particl/omp-lib>`_
+ - Github - `Particl RPC Documentation <https://particl.github.io/rpc-docs/>`_
 
 The Particl Blockchain
 ~~~~~~~~~~~~~~~~~~~~~~
 
+The :term:`Particl Blockchain` is a decentralized, immutable, and censorship-proof ledger. It is based on the Bitcoin technology and has been carefully enhanced by the Particl team to provide a more robust level of privacy by using a combination of industry-leading privacy technologies. 
+
+The :term:`Particl Blockchain` processes and validates payments between two users without requiring any third-party such as a bank or a payment processor.
+
 The PART Coin
 ^^^^^^^^^^^^^
 
-* Short explanation what it does
-* Inspiration from glossary
-* Backlink from glossary
+PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockchain <Particl Blockchain>`. It is a secure and confidential currency designed specifically to power e-commerce and online marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the :term:`cryptocurrency <Particl Marketplace>`. 
 
 .. seealso::
 
@@ -114,11 +125,11 @@ The PART Coin
 The SecureMessaging (SMSG protocol)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* What it does
-* Why is it there
-* Inspiration from glossary
+SecureMessaging (SMSG protocol) is a :term:`decentralized <Decentralization>` storage network (DSN) to store and transfer data between nodes in a privacy-preserving manner. It enables a private and secure environment for e-commerce and communications between users. 
+
+SMSG powers the Particl Marketplace without bloating the blockchain with excessive data and without leaving any permanent record.
+
 * note about its developent future with the "note" box
-* Backlink from glossary
 
 .. seealso::
 
