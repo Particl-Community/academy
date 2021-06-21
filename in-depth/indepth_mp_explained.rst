@@ -125,11 +125,13 @@ PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockc
 The SecureMessaging (SMSG protocol)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SecureMessaging (SMSG protocol) is a :term:`decentralized <Decentralization>` storage network (DSN) to store and transfer data between nodes in a privacy-preserving manner. It enables a private and secure environment for e-commerce and communications between users. 
+:term:`SecureMessaging (SMSG protocol) <SecureMessaging (SMSG)>` is a :term:`decentralized <Decentralization>` storage network (DSN) to store and transfer data between nodes in a privacy-preserving manner. It enables a private and secure environment for e-commerce and communications between users. 
 
 SMSG powers the Particl Marketplace without bloating the blockchain with excessive data and without leaving any permanent record.
 
-* note about its developent future with the "note" box
+.. note::
+
+ A new version of :term:`SMSG <SecureMessaging (SMSG)>` is scheduled to be released later on. This massive update will significantly improve the network's scalability, performance, and reliability. This will consumer-level adoption of Particl products possible.
 
 .. seealso::
 
@@ -139,10 +141,11 @@ SMSG powers the Particl Marketplace without bloating the blockchain with excessi
 The Data Storage Network (DSN)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* What it does
-* Why is it there
-* Inspiration from glossary and wiki
-* Backlink from glossary
+Data Storage Network (DSN) is a generic term that describes a specific set of software with the purpose of storing and retrieving data on the internet. 
+
+The default (and for the moment, the only) DSN used on Particl is the :term:`SMSG network <SecureMessaging (SMSG)>`. It is a P2P BitMessage-like message mixnet that runs parallel to Particl’s blockchain. It is hosted on the same nodes that run the Particl blockchain.
+
+Contrary to on-chain storage, storing data on DSN allows the platform to scale well regardless of the amount of data it uses. This form of storage works without relying on servers and without centralizing powers into masternodes.
 
 .. seealso::
 
@@ -152,13 +155,31 @@ The Data Storage Network (DSN)
 Trustless Setup
 ---------------
 
-* What makes it a trustless setup
-* Why is it important
+:term:`Particl Marketplace` is a based on a completely trustless setup. That means that it doesn't require participants to know or trust each other, or a third-party, for the platform to function.
 
-Technicals of a Buy-Flow
+Additionally, a trustless setup implies that no single entity has any authority or special power over the platform. Actions executed by the platforms follow a rigid set of rules that are open for all to see.
+
+In general, trustless setups, such as :term:`Particl Marketplace`, require a learning curve because they operate differently from traditional, trust-based setups (i.e., eBay).
+
+However, the benefits are many. These setups tend to be faster, more efficient, cheaper, and typically offer more privacy and security to participants and their data.
+
+Technicals of a Buy Flow
 ------------------------
 
-* What's happening (signaling,smart-contracts,communications of/between protocols) in the background at each stage. 1.,2.,3.
+When making a purchase or a sale on :term:`Particl Marketplace`, the process may look simple from the outside looking in. That's due to the platform's user-friendly user interface (the front-end).
+
+In reality, there's a lot happening behind the scene (the back-end). When making a transaction on :term:`Particl Marketplace`, you have to go through a few steps, each one leading to back-end actions. 
+
+Communication between the two participants, exchange of data, and the progress through transaction steps are done securely using the trustless :term:`SMSG network <SecureMessaging (SMSG)>`. The funds (payment and security deposits), on the other end, are held in an :doc:`escrow smart-contract <../in-depth/indepth_escrow>` on the :term:`Particl Blockchain`.
+
+Here is an explanation of what happens, in the back-end, for each step of a marketplace transaction.
+
+- :guilabel:`BIDDING`: A buyer has made a bid on an item and is now waiting for the seller to accept it. At this point, the blockchain reserves the buyer's funds (payment + security deposit) for escrow, but they not entirely locked yet. This is referred to as "soft-locking".
+- :guilabel:`ACCEPTED`: The seller has accepted the bid. The seller's funds (security deposit) are also now soft-locked for the escrow deposit.
+- :guilabel:`ESCROW`: The buyer has completed the escrow deposit, meaning the funds are now fully locked. They will only be released when both participants agree to release the escrow. This step also automatically locks the seller's funds in escrow.
+- :guilabel:`PACKAGING`: The seller is packaging the order and getting it ready to ship. Nothing happens on the blockchain at this point.
+- :guilabel:`SHIPPING`: The seller has confirmed the order as shipped. Nothing happens on the blockchain at this point.
+- :guilabel:`COMPLETE`: The item has been delivered. No problem was identified by the buyer, which has finalized the order. This causes funds locked in escrow to be released to each participant. The seller gets the payment for the item and his security deposit back while the buyer only gets his security deposit back.
 
 Payments and Settlement-layer
 -----------------------------
