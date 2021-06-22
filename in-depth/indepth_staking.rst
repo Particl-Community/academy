@@ -286,7 +286,7 @@ To learn more about Particl's community governance model, head over to the :doc:
 
  Other sources for useful or more in-depth information:
 
- - Particl Academy - :doc:`Enable Staking <../guides/guide_mp_general_enable_staking>`.
+ - Particl Academy - Guide :doc:`Enable Staking <../guides/guide_mp_general_enable_staking>`.
  - Particl Wiki - `PART coin learn staking <https://particl.wiki/learn/staking/>`_
  - Particl Wiki - `PART coin tutorials <https://particl.wiki/tutorial/staking/>`_
  - Particl Wiki - `Staking pools <https://particl.wiki/learn/staking/pools/>`_

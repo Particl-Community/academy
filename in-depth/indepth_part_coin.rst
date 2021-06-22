@@ -2,9 +2,13 @@
 Currency (PART) Explained
 =========================
 
-PART is the untraceable :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl Blockchain` ; a :term:`blockchain <Blockchain>` based on the Bitcoin code on which several privacy and utility technologies have been added. It enables you to do independent, secure, borderless, and private payments without requiring any third-party like a bank or a payment processor.
+.. meta::
+      
+      :description lang=en: Deep dive explanation of Particl's privacy coin PART.
 
-PART is also the :ref:`settlement currency <Payments and settlement-layer>` of the :term:`Particl Marketplace`. Regardless of the currency used by the buyer to initiate a transaction, all payments on the marketplace are ultimately converted into PART before the :doc:`escrow stage <../in-depth/indepth_escrow>`.
+PART is the untraceable :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl Blockchain`; a :term:`blockchain <Blockchain>` based on the Bitcoin code on which several privacy and utility technologies have been added. It enables you to do independent, secure, borderless, and private payments without requiring any third-party like a bank or a payment processor.
+
+PART is also the settlement currency of the :term:`Particl Marketplace`. Regardless of the currency used by the buyer to initiate a transaction, all payments on the marketplace are ultimately converted into PART before the :doc:`escrow stage <../in-depth/indepth_escrow>`.
 
 ----
 
@@ -38,7 +42,7 @@ What are cryptocurrencies?
 Blockchain Specifications
 -------------------------
 
-PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockchain <Particl Blockchain>`. It is a secure and confidential currency specifically designed to power e-commerce and financial platforms. It uses several security, cryptographic, and privacy-preserving protocols to make sure none of your personal information and data can be collected when transacting on the :term:`cryptocurrency <Particl Marketplace>`. 
+PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockchain <Particl Blockchain>`. It is a secure and confidential currency specifically designed to power e-commerce and financial platforms. It uses several security, cryptographic, and privacy-preserving protocols to make sure none of your personal information and data can be collected when transacting on the :term:`Particl Marketplace <Particl Marketplace>`. 
 
 PART has been released back in 2017 and is based on the latest version of the Bitcoin code (currently |BTC Version|). The Particl codebase contains many modern-day improvements and additional features not present in the Bitcoin code. This makes it a faster, more private, and more flexible version of Bitcoin.
 
@@ -69,12 +73,12 @@ PART has been released back in 2017 and is based on the latest version of the Bi
 Staking Specifications
 ----------------------     
 
-Particl uses the :doc:`Particl Proof-of-Stake<../in-depth/indepth_staking>` (:term:`PPoS`) consensus mechanism. It pays back interest in dividend-like payments to stakers in exchange for securing the network. :term:`PPoS` offers many secure staking options that let you easily and quickly earn rewards without any of the security or financial risks typically associated with staking.
+Particl uses the :doc:`Particl Proof-of-Stake <../in-depth/indepth_staking>` (:term:`PPoS`) consensus mechanism. It pays back interest in dividend-like payments to stakers in exchange for securing the network. :term:`PPoS` offers many secure staking options that let you easily and quickly earn rewards without any of the security or financial risks typically associated with staking.
 
 :term:`PPoS` is also what Particl's :ref:`community governance system <Community Governance Explained>` uses to let you cast votes on proposals.
 
-Cold staking
-============
+Cold staking protocol
+=====================
 
 Particl's cold staking protocol allows you to securely delegate your staking power to a staking-only node that contains no coin. This lets your earn interest payments (:ref:`staking rewards <What's a staking reward?>`) on your PART coins, even if they're stored offline. 
 
@@ -85,8 +89,8 @@ Cold staking pools
 
 You can join a cold staking pool to team up with other stakers and combine your staking powers. This leads to more frequent rewards in exchange for a small fee paid to the pool operator. Cold staking pools are ideal if you have a smaller balance or don't want to manage a staking node yourself.  
 
-On-chain voting
-===============
+On-chain voting right
+=====================
 
 Particl's :ref:`community governance <Community Governance Explained>` is powered by :term:`PPoS`. By staking, you can :ref:`vote on community proposals <Voting on Proposals>` using your staking power as voting power. When voting on a proposal, any block you stake during the voting period will cast a vote. The more blocks you stake during a proposal's voting period, the more votes you cast.
 
@@ -209,13 +213,13 @@ One of the results of settling all marketplace transactions in PART is that a fa
 
  Other sources for useful or more in-depth information:
 
- - Particl Academy - :doc:`Staking <../in-depth/indepth_staking>`
- - Particl Academy - :doc:`Staking and Voting <../guides/guide_mp_general_enable_staking>`
- - Particl Academy - :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_funds>`
- - Particl Academy - :doc:`Obtaining PART <../guides/guide_general_obtaining_part>`
+ - Particl Academy - Explained :doc:`Staking <../in-depth/indepth_staking>`
+ - Particl Academy - Guide :doc:`Staking and Voting <../guides/guide_mp_general_enable_staking>`
+ - Particl Academy - Guide :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_funds>`
+ - Particl Academy - Guide :doc:`Obtaining PART <../guides/guide_general_obtaining_part>`
  - Particl Wiki - `PART coin frequently asked questions <https://particl.wiki/support/faq/part-coin/>`_
  - Particl Website - `PART coin specifications <https://particl.io/coin-specifications>`_
  - Particl Website - `PART coin exchanges <https://particl.io/part-exchanges/>`_
  - Particl Website - `Particl user guides <https://particl.io/user-guides/>`_
- - CoinGecko - `Particl <https://www.coingecko.com/en/coins/particl>`_
- - CoinMarketCap - `Particl <https://coinmarketcap.com/currencies/particl>`_
+ - CoinGecko - `Particl on CoinGecko <https://www.coingecko.com/en/coins/particl>`_
+ - CoinMarketCap - `Particl on CoinMarketCap <https://coinmarketcap.com/currencies/particl>`_

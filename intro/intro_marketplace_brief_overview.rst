@@ -61,7 +61,6 @@ You can use an ever-growing list of digital currencies to make payments on :term
 .. seealso::
 
 	- Particl Academy - Explained :ref:`PART Coin <Currency (PART) Explained>`
-	- Particl Academy - Explained :ref:`Settlement of Payments <Payments and settlement-layer>`
 
 ----
 

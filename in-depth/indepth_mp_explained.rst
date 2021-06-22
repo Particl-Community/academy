@@ -44,7 +44,7 @@ These advantages are only possible thanks to the particularly :term:`decentraliz
 Technicals in a Nutshell
 ------------------------
 
-:term:`Particl Marketplace` is an application on the :term:`Particl Desktop` client. It uses Particl's :ref:`Open Market Protocol (OMP)` to connect and interact with the :term:`Particl Network`. That's the backbone for the :term:`decentralized <Decentralization>` payments, communications, security, and privacy capabilities of the marketplace. 
+:term:`Particl Marketplace` is an application on the :term:`Particl Desktop` client. It uses Particl's :term:`Open Market Protocol (OMP)` to connect and interact with the :term:`Particl Network`. That's the backbone for the :term:`decentralized <Decentralization>` payments, communications, security, and privacy capabilities of the marketplace. 
 
 The :term:`Particl Network` is a combination of the :term:`Particl Blockchain` and the :term:`SecureMessaging (SMSG)`. 
 

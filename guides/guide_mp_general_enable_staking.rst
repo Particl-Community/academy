@@ -252,6 +252,12 @@ If you want to uninstall the script, enter this command.
 
 			cd ~/Private-Colstaking && ./uninstall.sh
 
+----
+
+.. include:: ../faq/faq_coin_staking.rst.txt
+
+----
+
 Voting on Proposals
 ^^^^^^^^^^^^^^^^^^^
 
