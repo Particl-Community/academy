@@ -81,12 +81,10 @@ If you want to sell or purchase an item on :term:`Particl Marketplace`, browse l
  - Particl Academy - :doc:`All Functions <../intro/intro_general_functions>`
  - Github - `Particl Desktop <https://github.com/particl/particl-desktop>`_
 
-
 The Backend 
 -----------
 
-The back-end of any application or platform refers to the part that is not directly accessed by the user, typically responsible for storing and manipulating data. These are the various protocols, including the :term:`Particl Blockchain`, that are used to bring the :term:`Particl ecosystem` to life. 
-
+The back-end of any application or platform refers to the part that is not directly accessed by the user, typically responsible for storing and manipulating data. These are the various protocols, including the :term:`Particl Blockchain`, that are used to bring the :term:`Particl Ecosystem` to life. 
 
 The Open Market Protocol (OMP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

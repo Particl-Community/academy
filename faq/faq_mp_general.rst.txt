@@ -26,7 +26,7 @@
 
         **Why can't I see any listing on the marketplace?**
  
-    To see listings on the marketplace, your :term:`Particl Desktop` client needs to be fully synced with the :term:`Particl blockchain` AND the :term:`SMSG network <SecureMessaging (SMSG)>`. This process can take several minutes, especially if you have a slow internet connection, so don't worry if you're still not seeing anything after a while. Just leave your :term:`Particl Desktop` client open, and it will eventually catch up. Note that the :term:`SMSG network <SecureMessaging (SMSG)>` can take several more minutes to sync than the blockchain.
+    To see listings on the marketplace, your :term:`Particl Desktop` client needs to be fully synced with the :term:`Particl Blockchain` AND the :term:`SMSG network <SecureMessaging (SMSG)>`. This process can take several minutes, especially if you have a slow internet connection, so don't worry if you're still not seeing anything after a while. Just leave your :term:`Particl Desktop` client open, and it will eventually catch up. Note that the :term:`SMSG network <SecureMessaging (SMSG)>` can take several more minutes to sync than the blockchain.
 
     Once your client is fully synced, it will be much faster to sync whenever you open it again. The initial syncing is the longest process and doesn't need to be repeated every time. 
 

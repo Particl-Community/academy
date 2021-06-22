@@ -8,7 +8,7 @@ Staking and Voting
 .. meta::
    :description lang=en: Learn how to enable staking for Particl Coin on Particl Desktop.
 
-Just by keeping an open connection to the :term:`Particl blockchain`, you automatically earn a yearly interest rate of 4% to 8% on the total number of PART coins you hold in your public balance.
+Just by keeping an open connection to the :term:`Particl Blockchain`, you automatically earn a yearly interest rate of 4% to 8% on the total number of PART coins you hold in your public balance.
 
 It also grant you the ability to vote on various community proposals using your staking power as voting power.
 
