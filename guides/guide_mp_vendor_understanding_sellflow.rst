@@ -217,6 +217,8 @@ Once your package is shipped, keep an eye out for your payment. Once your buyer 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
   #. Check :guilabel:`Complete` to only see orders that have been completed, click on the order's tile to expand its details and see the date and time it was completed.
 
+----
+
 .. seealso::
 
  Other sources for useful or more in-depth information:

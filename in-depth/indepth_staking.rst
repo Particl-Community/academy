@@ -280,6 +280,8 @@ Voting
 
 To learn more about Particl's community governance model, head over to the :doc:`Community Governance <../in-depth/indepth_voting>` in-depth guide.
 
+----
+
 .. seealso::
 
  Other sources for useful or more in-depth information:

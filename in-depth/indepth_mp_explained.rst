@@ -181,16 +181,5 @@ Here is an explanation of what happens, in the back-end, for each step of a mark
 - :guilabel:`SHIPPING`: The seller has confirmed the order as shipped. Nothing happens on the blockchain at this point.
 - :guilabel:`COMPLETE`: The item has been delivered. No problem was identified by the buyer, which has finalized the order. This causes funds locked in escrow to be released to each participant. The seller gets the payment for the item and his security deposit back while the buyer only gets his security deposit back.
 
-Payments and Settlement-layer
------------------------------
+----
 
-* unsure if this should be placed here, since this shall be true to any dapp on Particl. Could have a better fit on the "PART Explained" page.
-* Why is it the settlement-layer
-* What is it used for
-* What does it mean economically (supply reduction, etc.)
-* Inspiration from glossary
-* Link to the "PART Coin explained" with the "see also" box
-* Link to the "fund,coins,balances" with the "see also" box
-* Link to the "obtain part" with the "see also" box
-* Link to the "CMC Page" with the "see also" box
-* note about its developent future (ideal situation where a user can pay in any currency and the conversion happens on the fly in the background) with the "note" box

@@ -105,6 +105,8 @@ The other type of proposals, protocol consensus changing proposals, are a bit mo
 
 Just like non protocol consensus changing proposals, their quorum requirement stands at 20%. But because of their increased level of importance and ramifications, they require a higher level of approval from the community. In fact, the required approval rate has to be at least 75%. Finally, the duration of any protocol consensus vote has to be a minimum of 10,080 blocks (roughly two weeks) to give ample time to anyone to be able to cast their vote.
 
+----
+
 .. seealso::
 
  Other sources for useful or more in-depth information:

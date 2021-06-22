@@ -170,6 +170,7 @@ While this is good for brand recognition and building yourself a reputation, thi
 
 To do so, simply create a new market or storefront, pick what seller profile you want to use to "generate" the market, and start listing products.
 
+----
 
 .. seealso::
 

@@ -255,7 +255,7 @@ If you want to uninstall the script, enter this command.
 Voting on Proposals
 ^^^^^^^^^^^^^^^^^^^
 
-You can vote on various community proposals using your staking power as voting power. Cast your vote during a proposal's voting period to signal to the network your voting preference. Every time you'll stake a block during that period, you'll register one vote. 
+You can vote on various community proposals using your staking power as voting power. Register your voting preferences during a proposal's voting period; every time you'll stake a block during that period, you'll cast one vote.
 
 The more blocks you stake within a proposal's voting period, the more voting power you have.
 
@@ -355,6 +355,8 @@ The more blocks you stake within a proposal's voting period, the more voting pow
     		:guilabel:`height_start` is the block number when the voting period starts
    		 
    		:guilabel:`height_end` is when it ends
+
+----
 
 .. seealso::
 

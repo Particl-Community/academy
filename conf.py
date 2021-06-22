@@ -144,7 +144,7 @@ rst_epilog = """
 .. |PM| replace:: Particl Marketplace
 .. |Courage Cat| replace:: https://www.youtube.com/watch?v=OV-vcXL25pc
 .. |PD version| replace:: **Particl Desktop 3.0**
-.. |Coin supply| replace:: ~9,7M
+.. |Coin supply| replace:: ~11.5M
 .. |BTC Version| replace:: Bitcoin 0.21.1.0
 .. |PART Version| replace:: Particl Core 0.19.2.10
 .. |Threshold| replace:: -9,000 PART

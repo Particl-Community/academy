@@ -154,4 +154,3 @@ Phew! You've made it this far! By now, you have quite a good understanding of th
 But perhaps you want to skip that part and install it right away? Then just head over to the :ref:`Installation Guides`.
 
 ----
-
