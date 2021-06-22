@@ -18,7 +18,7 @@ This gives you many new benefits not possible before with traditional e-commerce
 Don't Trust, Verify!
 --------------------
 
-By making the choice to use :term:`Particl Marketplace`, you give yourself all the tools you need to confidently stay ahead of the technological curve with industry-leading privacy technology.
+By making the choice to use :term:`Particl Marketplace`, you give yourself all the tools you need to confidently stay ahead of the technological curve with industry-leading :doc:`privacy technologies <../in-depth/indepth_privacy_tips>`.
 
 You don't need to trust anyone; the code is open-source, independently audited, and freely available online for everyone to inspect. See for yourself!
 
@@ -32,7 +32,7 @@ You don't need to trust anyone; the code is open-source, independently audited, 
 General Usage and Concept
 -------------------------
 
-Using :term:`Particl Marketplace` means that you can enjoy an easy and cost-effective shopping experience that makes zero compromise on the core values of :term:`decentralization <Decentralization>`, security, privacy, and :term:`disintermediation <Disintermediation>`.
+Using :term:`Particl Marketplace` means that you can enjoy an easy and cost-effective shopping experience that makes zero compromise on the core values of :term:`decentralization <Decentralization>`, :doc:`security, privacy <../in-depth/indepth_privacy_tips>`, and :term:`disintermediation <Disintermediation>`.
 
 That will make you stand out and stay on top!
 
@@ -50,9 +50,9 @@ That will make you stand out and stay on top!
 Payment Processing
 ------------------
 
-To benefit from near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by anyone, you transact on :term:`Particl Marketplace` using digital currencies. They are commonly called :term:`cryptocurrencies <Cryptocurrency>`.
+To benefit from near-free, near-instant currency transactions that cannot be held up, blocked, reversed, or delayed by anyone, you transact on :term:`Particl Marketplace` using digital currencies commonly called :term:`cryptocurrencies <Cryptocurrency>`.
 
-You can use an ever-growing list of digital currencies to make payments on :term:`Particl Marketplace`. However, the final settlement of any payment is always made in “PART”, Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
+You can use an ever-growing list of digital currencies to make payments on :term:`Particl Marketplace`. However, the :ref:`final settlement <Marketplace Payments and Settlements>` of any payment is always made in :doc:`PART <../in-depth/indepth_part_coin>`, Particl’s own :term:`cryptocurrency <Cryptocurrency>`.
 
 .. note::
 
@@ -72,7 +72,7 @@ Regardless if you're a vendor or a customer, you equally hate falling victim to 
 
 One of :term:`Particl Marketplace`'s unique selling propositions makes it a breeze for you to achieve that.
 
-Any purchase you make on the marketplace is secured by a two-party escrow system that keeps you and your money safe without requiring any third-party.
+Any purchase you make on the marketplace is secured by a :doc:`two-party escrow system <../in-depth/indepth_escrow>` that keeps you and your money safe without requiring any third-party.
 
 .. seealso::
 
@@ -88,7 +88,7 @@ Phases of a Deal
     :alt: Particl Marketplace's phases of a deal
     :target: ../_static/media/images/001_phases_of_a_deal.png
 
-:term:`Particl Marketplace` not only saves you a lot of money, it also gives you a ton of security and privacy benefits. That's why you're willing to do three more steps to complete a purchase in full!
+:term:`Particl Marketplace` not only saves you a lot of money, it also gives you a ton of security and privacy benefits. That's why you're willing to do :ref:`three more steps <Step-by-Step Process>` to complete a purchase in full!
 
 These three additional steps are the only compromises made over traditional marketplaces. Now compare this tradeoff to all the benefits they get you. That’s a pretty sweet deal!
 
@@ -108,7 +108,7 @@ Community Markets
 
 Want to have your own shop or even launch an entire market? Do you want it to be publicly available or kept secret between a few individuals?
 
-On :term:`Particl Marketplace`, you can deploy as many shops and markets as you wish. At all times, you stay in complete control of their associated data, their level of privacy, and accessibility. And to put icing on the cake, this all comes at no extra cost for you.
+On :term:`Particl Marketplace`, you can deploy as many :doc:`shops and markets <../guides/guide_mp_general_market_management>` as you wish. At all times, you stay in complete control of their associated data, their level of privacy, and accessibility. And to put icing on the cake, this all comes at no extra cost for you.
 
 You can use :term:`community markets <Community Market>` for almost anything. You can launch your own brand stores, markets for your online community, NFT markets, art galleries (bidding auctions), VIP or private stores, OTC desks, pop-up stores, and pretty much anything you can imagine. The possibilities are endless!
 
