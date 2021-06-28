@@ -13,7 +13,7 @@ Uncompromising, What You Get
 
 As you might have guessed, Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
 
-**Don’t accept the self-service mentality and vote for a fair and level playing field of e-commerce.**
+**Don’t accept any more and go beyond the boundaries that limit you.**
 
 * :ref:`Save more money <Save More Money>` for the meaningful things in life to you. 
 * :ref:`Gain security and privacy <Gain security and privacy>` and end the corporate surveillance which made you the product.
