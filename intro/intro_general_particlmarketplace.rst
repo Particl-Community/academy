@@ -9,15 +9,17 @@ Uncompromising, What You Get
    :description lang=en: do e-commerce without anyone in between. The marketplace where you are the boss.
    :keywords lang=en: Particl Marketplace, Introduction, Boss, Blockchain, Privacy, E-Commerce
 
-:term:`Particl Marketplace` enables you to trade goods and services online with nobody in between. Unlike Amazon, eBay, Alibaba, or any other competitor, it’s built with core security and privacy principles. Be the owner, service provider, and operator at the same time. As you might have guessed, Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
+:term:`Particl Marketplace` enables you to buy and sell goods and services online with no one in between. Unlike Amazon or eBay, its core security and privacy principles keep you safe from prying eyes. While using :term:`Particl Marketplace`, you do good for yourself, and you hit greedy corporations where it hurts. It’s so unique like yourself and helps you spread fairness to society, your communities, and your future.
 
-**Don’t accept self-service mentality by a few and vote for the level playing field for everybody.**
+As you might have guessed, Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
 
-* :ref:`Save more money` for the meaningful things in life to you. 
-* :ref:`Gain Security and Privacy <Gain security and privacy>` and leave the corporate surveillance society which made you the product (the glass consumer). No fraud, trickery, spam, restrictions, censorship, politics, malice, or invasion of your privacy possible.
-* :ref:`Enjoy giving back` to society, contribute to its success, and last but not least grow your own standing.
+**Don’t accept the self-service mentality and vote for a fair and level playing field of e-commerce.**
 
-Equip yourself with sophisticated yet easy-to-use technology and you will be feeding your self-esteem but not corporate monopolies.
+* :ref:`Save more money <Save More Money>` for the meaningful things in life to you. 
+* :ref:`Gain security and privacy <Gain security and privacy>` and end the corporate surveillance which made you the product.
+* :ref:`Fight global inequality <Fight Global Inequality>`, contribute to society, and last but not least, grow your standing.
+
+Advanced, easy-to-use technology helps you nurture society but not corporate monopolies.
 
 
 *-You will feel like a champion!*
@@ -43,7 +45,7 @@ Now, you can change that. :term:`Particl Marketplace` does not seek revenues fro
 Gain Security and Privacy
 -------------------------
 
-Big corporations collect data with your purchases and sales. The data is then utilized to evaluate you as a business owner or as a consumer. They sell your data or use it against you in a way they can benefit without your knowledge or consent. A lot of times, this is done at your own detriment.
+Big corporations collect data from you with every purchase and sale. The data is then utilized to evaluate you as a business owner or as a consumer. The corporations sell your data or use it against you in a way they can benefit without your knowledge or consent. Mostly, this is done at your detriment.
  
 **Corporations like e-commerce giants have become your credit score broker!**
 
@@ -81,8 +83,8 @@ Tailored ads are hammering on you even after you have made a purchase, and most 
 
 ----
 
-Enjoy Giving Back
------------------
+Fight Global Inequality
+-----------------------
 
 E-commerce and online marketplaces have made the world of shopping and selling a very different place. Small businesses have had to give up, while only a handful of large corporations continue to dominate the market. The price war destroyed small merchants, only to benefit Internet platforms and financial transaction providers. This also applies to all employees in the retail industry.   
 
