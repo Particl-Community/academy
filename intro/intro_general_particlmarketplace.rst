@@ -17,6 +17,7 @@ As you might have guessed, Particl is not a company, does not seek profit, and t
 
 * :ref:`Save more money <Save More Money>` for the meaningful things in life to you. 
 * :ref:`End the surveillance <End The Surveillance>` by corporations that made you the product.
+* :ref:`End the cheating <End The Cheating>` by con artists and bad intentions.
 * :ref:`Fight global inequality <Fight Global Inequality>`, contribute to society, and last but not least, grow your standing.
 
 Advanced, easy-to-use technology helps you nurture society but not corporate monopolies.
@@ -57,9 +58,14 @@ The ever-growing-and-already-giant e-commerce corporations always seek to expand
 
 *We help you to match full control of your data and freedom*
 
+----
+
+End The Cheating
+----------------
+
 **You stop Invasion of Privacy or Backdoors** 
 
-No more stolen credit card information, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be collected by anyone. It cannot be attained, shared, sold, misused, hacked, or leaked. Your data stays your data regardless of whether it relates to your products, locations, payments, or any online activity–for both customers and vendors. You can now defend the human right of privacy to create an umbrella for today's and the future's technical and political uncertainties.
+No more stolen credit card information, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be collected by anyone. Data cannot be attained, shared, sold, misused, hacked, or leaked anmore. Your data stays your data regardless of whether it relates to your products, locations, payments, or any online activity–for both customers and vendors. You can now defend the human right of privacy to create an umbrella for today's and the future's technical and political uncertainties.
 
 *We help you to become invincible to privacy issues*
 
