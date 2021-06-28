@@ -13,10 +13,10 @@ Uncompromising, What You Get
 
 As you might have guessed, Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
 
-**Don’t accept any more and go beyond the boundaries that limit you.**
+**Don’t accept any less and go beyond the boundaries that limit you.**
 
 * :ref:`Save more money <Save More Money>` for the meaningful things in life to you. 
-* :ref:`Gain security and privacy <Gain security and privacy>` and end the corporate surveillance which made you the product.
+* :ref:`End the surveillance <End The Surveillance>` by corporations that made you the product.
 * :ref:`Fight global inequality <Fight Global Inequality>`, contribute to society, and last but not least, grow your standing.
 
 Advanced, easy-to-use technology helps you nurture society but not corporate monopolies.
@@ -42,8 +42,8 @@ Now, you can change that. :term:`Particl Marketplace` does not seek revenues fro
 
 ----
 
-Gain Security and Privacy
--------------------------
+End The Surveillance
+--------------------
 
 Big corporations collect data from you with every purchase and sale. The data is then utilized to evaluate you as a business owner or as a consumer. The corporations sell your data or use it against you in a way they can benefit without your knowledge or consent. Mostly, this is done at your detriment.
  

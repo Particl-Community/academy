@@ -6,7 +6,7 @@ Digital security and privacy is a fundamental human right. Over the last few yea
 
 .. seealso::
 
-	- Particl Academy - Intro summary and overview :ref:`Gain Security and Privacy`
+	- Particl Academy - Intro summary and overview :ref:`End The Surveillance <End The Surveillance>`
 
 ----
 
