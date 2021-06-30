@@ -23,20 +23,17 @@ As you might have guessed, Particl is not a company, does not seek profit, and t
 Advanced, easy-to-use technology helps you nurture society but not corporate monopolies.
 
 
-*-You will feel like a champion!*
+*-You will feel like having superpowers!*
 
 ----
 
 Save More Money 
 ----------------
 
-You know the desire to have the best food, ideally the healthy stuff. The next one is to have a decent home, ideally, one you are proud of. Not to forget, to have your body in the best possible physical and emotional shape. Additionally, to be in a good relationship with your loved ones and your communities. And finally, to be able to give back the best you can and to fulfill your dreams.
+Your survival in today’s economy is mainly bound to the state of your finances. So protecting your finances is a natural desire. If you use “free” internet services, they are not really free!
+No, instead of paying with your money, you pay with your invaluable data. 
 
-**Your desire to survive and thrive in today’s economy is mainly bound to the state of your own finances.**
-
-But did you know that, if you use “free” internet service, it is not really free? No, instead of paying with your money, you pay with your valuable data. 
-
-Now, you can change that. :term:`Particl Marketplace` does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual without compromising you. The total cost of commerce gets lowered.
+:term:`Particl Marketplace` does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual without compromising you. The total cost of commerce gets lowered.
 
 
 *We help you to save more or make more money by cutting out the middle-man*
@@ -46,15 +43,15 @@ Now, you can change that. :term:`Particl Marketplace` does not seek revenues fro
 End The Surveillance
 --------------------
 
-Big corporations collect data from you with every purchase and sale. The data is then utilized to evaluate you as a business owner or as a consumer. The corporations sell your data or use it against you in a way they can benefit without your knowledge or consent. Mostly, this is done at your detriment.
+Big corporations collect data from you with every purchase and sale. The data gets utilized to evaluate you as a business owner or as a consumer. So they sell your information or use it against you in a way they can benefit without your knowledge or consent. You have become the product and the corporations are your insidious thief.
  
 **Corporations like e-commerce giants have become your credit score broker!**
 
 * Based on their risk assessment they rate your insurance policies 
 * Your personal preferences will be the reason why you may not get a particular job 
-* Or even worse, a rating algorithm could block your accounts! 
+* Or even worse, a rating algorithm could block your bank accounts in the future! 
 
-The ever-growing-and-already-giant e-commerce corporations always seek to expand their profits, market power, and control. They have created today's very disturbing digital security and privacy crisis under the guise of usability and convenience.
+The ever sprawling giant e-commerce corporations always seek to expand their profits, market power, and control. They have created today's very disturbing digital security and privacy crisis under the guise of usability and convenience. Believe it, or not, protecting your data is protecting your finances, and perhaps protecting your life.
 
 *We help you to match full control of your data and freedom*
 
@@ -92,7 +89,7 @@ Tailored ads are hammering on you even after you have made a purchase, and most 
 Fight Global Inequality
 -----------------------
 
-E-commerce and online marketplaces have made the world of shopping and selling a very different place. Small businesses have had to give up, while only a handful of large corporations continue to dominate the market. The price war destroyed small merchants, only to benefit Internet platforms and financial transaction providers. This also applies to all employees in the retail industry.   
+E-commerce and online marketplaces have made the world of shopping and selling a very different place. The price war destroyed small merchants, only to benefit Internet platforms and financial transaction providers. As a result, small businesses have had to give up, while only a handful of large corporations continue to dominate the market. The ones who suffer are the middle-class people that were employed by millions of retailers.
 
 **To Small Merchants, Manufacturers, and Producers**
 
