@@ -82,9 +82,10 @@ Step-by-step user guides about the most vital processes of :term:`Particl Market
    guides/guide_general_obtaining_part
    guides/guide_mp_customer_understanding_buyflow
    guides/guide_mp_vendor_understanding_sellflow
-   guides/guide_mp_vendor_best_practices_overview
    guides/guide_mp_general_market_management
    guides/guide_mp_general_enable_staking
+   guides/guide_mp_user_best_practices_overview
+   guides/guide_mp_vendor_best_practices_overview
 
 ..   guides/guide_mp_user_best_practices_overview
 ..   guides/guide_mp_vendor_best_practices_overview
@@ -93,9 +94,10 @@ Step-by-step user guides about the most vital processes of :term:`Particl Market
 * :doc:`Obtaining PART <guides/guide_general_obtaining_part>`
 * :doc:`Buy Process for Customers <guides/guide_mp_customer_understanding_buyflow>`    
 * :doc:`Sell Process for Vendors <guides/guide_mp_vendor_understanding_sellflow>` 
-* :doc:`Best Practices for Vendors <guides/guide_mp_vendor_best_practices_overview>`  
 * :doc:`Markets and Storefronts <guides/guide_mp_general_market_management>`
 * :doc:`Staking Rewards <guides/guide_mp_general_enable_staking>`
+* :doc:`Best Practices for Buyers <guides/guide_mp_user_best_practices_overview>`
+* :doc:`Best Practices for Vendors <guides/guide_mp_vendor_best_practices_overview>`
 
 .. * :doc:`User's Best Practices <guides/guide_mp_user_best_practices_overview>`
 .. * :doc:`Vendor's Best Practices <guides/guide_mp_vendor_best_practices_overview>`
