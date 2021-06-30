@@ -9,7 +9,7 @@ Uncompromising, What You Get
    :description lang=en: do e-commerce without anyone in between. The marketplace where you are the boss.
    :keywords lang=en: Particl Marketplace, Introduction, Boss, Blockchain, Privacy, E-Commerce
 
-:term:`Particl Marketplace` enables you to buy and sell goods and services online with no one in between. Unlike Amazon or eBay, its core security and privacy principles keep you safe from prying eyes. While using :term:`Particl Marketplace`, you do good for yourself, and you hit greedy corporations where it hurts. It’s so unique like yourself and helps you spread fairness to society, your communities, and your future.
+:term:`Particl Marketplace` enables you to buy and sell goods and services online with no one in between. Unlike Amazon or eBay, core security and privacy principles keep you safe from prying eyes. So you hit greedy corporations and rouge people where it hurts. But, effortless, you spread fairness and equal chances to society, your communities, and your future.
 
 As you might have guessed, Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
 
@@ -17,7 +17,7 @@ As you might have guessed, Particl is not a company, does not seek profit, and t
 
 * :ref:`Save more money <Save More Money>` for the meaningful things in life to you. 
 * :ref:`End the surveillance <End The Surveillance>` by corporations that made you the product.
-* :ref:`End the cheating <End The Cheating>` by con artists and bad intentions.
+* :ref:`End the cheating <End The Cheating>` by crooks and bad intentions.
 * :ref:`Fight global inequality <Fight Global Inequality>`, contribute to society, and last but not least, grow your standing.
 
 Advanced, easy-to-use technology helps you nurture society but not corporate monopolies.
@@ -65,7 +65,7 @@ End The Cheating
 
 **You stop Invasion of Privacy or Backdoors** 
 
-No more stolen credit card information, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be collected by anyone. Data cannot be attained, shared, sold, misused, hacked, or leaked anmore. Your data stays your data regardless of whether it relates to your products, locations, payments, or any online activity–for both customers and vendors. You can now defend the human right of privacy to create an umbrella for today's and the future's technical and political uncertainties.
+No more stolen credit card information, compromised email accounts, or any possibility of surveillance. When data is not created, it cannot be collected by anyone. Data cannot be attained, shared, sold, misused, hacked, or leaked anymore. Your data stays your data regardless of whether it relates to your products, locations, payments, or any online activity –for both customers and vendors. You can now defend the human right of privacy to create an umbrella for today's and the future's technical and political uncertainties.
 
 *We help you to become invincible to privacy issues*
 

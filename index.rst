@@ -14,11 +14,11 @@ Particl Academy
 .. meta::
    :description lang=en: 
 
-Particl Academy guides you to become an expert for e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language. 
+Particl Academy guides you to become an expert for e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language.   
 
-:term:`Particl Marketplace` is, simply put, the most secure and private online marketplace on the web.
+:term:`Particl Marketplace` is the most secure and private online marketplace on the web, putting you at the center. You become the Robin Hood of retail, the Avenger against the forces of oppression, and the Punisher for rogues at the same time. Democracy is the force, and :term:`Particl Marketplace` your lightsaber.
 
-The time economists among you will jump right to the :doc:`Quickstart Guide <guides/guide_general_getstarted>`. 
+The time-economists among you will jump right to the :doc:`Quickstart Guide <guides/guide_general_getstarted>`. 
 
 ----
 
