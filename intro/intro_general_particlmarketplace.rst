@@ -6,32 +6,32 @@ Uncompromising, What You Get
    Particl Marketplace Introduction
 
 .. meta::
-   :description lang=en: do e-commerce without anyone in between. The marketplace where you are the boss.
-   :keywords lang=en: Particl Marketplace, Introduction, Boss, Blockchain, Privacy, E-Commerce
+   :description lang=en: Do e-commerce, in privacy, without anyone in between —a fair and level playing field for everyone.
+   :keywords lang=en: Boss, Blockchain, Privacy, E-Commerce, liberty, freedom
 
-:term:`Particl Marketplace` enables you to buy and sell goods and services online with no one in between. Unlike Amazon or eBay, core security and privacy principles keep you safe from prying eyes. So you hit greedy corporations and rouge people where it hurts. But, effortless, you spread fairness and equal chances to society, your communities, and your future.
+:term:`Particl Marketplace` enables you to buy and sell goods and services online with no one in between. But, unlike Amazon or eBay, core security and privacy principles keep you safe from prying eyes. So now you hit big corporations where it hurts the most.
 
-As you might have guessed, Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
+Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
 
-**Don’t accept any less and go beyond the boundaries that limit you.**
+**The world has changed, so you change as well to brace up your liberty and future.**
 
-* :ref:`Save more money <Save More Money>` for the meaningful things in life to you. 
-* :ref:`End the surveillance <End The Surveillance>` by corporations that made you the product.
-* :ref:`End the cheating <End The Cheating>` by crooks and bad intentions.
-* :ref:`Fight global inequality <Fight Global Inequality>`, contribute to society, and last but not least, grow your standing.
+* :ref:`Protect your finances <Protect Your Finances>` and keep extra money for your growth. 
+* :ref:`Stand for liberty <Stand For Liberty>` and stop being the exploited product.
+* :ref:`Squash the rogues <Squash The Rogues>` and stop the scammers.
+* :ref:`Contribute to society <Contribute To Society>` while buying and selling.
 
-Advanced, easy-to-use technology helps you nurture society but not corporate monopolies.
+Advanced, easy-to-use technology helps you nurture the local economy but not corporate monopolies.
 
 
 *-You will feel like having superpowers!*
 
 ----
 
-Save More Money 
-----------------
+Protect Your Finances
+---------------------
 
 Your survival in today’s economy is mainly bound to the state of your finances. So protecting your finances is a natural desire. If you use “free” internet services, they are not really free!
-No, instead of paying with your money, you pay with your invaluable data. 
+No, instead of paying with your money, you pay with your invaluable data, on top of commissions and fees. 
 
 :term:`Particl Marketplace` does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there are no corporate interests behind it. Instead, the Particl team is sponsored entirely by community donations and aims to become self-perpetual without compromising you. The total cost of commerce gets lowered.
 
@@ -40,8 +40,8 @@ No, instead of paying with your money, you pay with your invaluable data.
 
 ----
 
-End The Surveillance
---------------------
+Stand For Liberty
+-----------------
 
 Big corporations collect data from you with every purchase and sale. The data gets utilized to evaluate you as a business owner or as a consumer. So they sell your information or use it against you in a way they can benefit without your knowledge or consent. You have become the product and the corporations are your insidious thief.
  
@@ -53,12 +53,12 @@ Big corporations collect data from you with every purchase and sale. The data ge
 
 The ever sprawling giant e-commerce corporations always seek to expand their profits, market power, and control. They have created today's very disturbing digital security and privacy crisis under the guise of usability and convenience. Believe it, or not, protecting your data is protecting your finances, and perhaps protecting your life.
 
-*We help you to match full control of your data and freedom*
+*We help you to match full control of your data and liberty*
 
 ----
 
-End The Cheating
-----------------
+Squash The Rogues
+-----------------
 
 **You stop Invasion of Privacy or Backdoors** 
 
@@ -86,10 +86,10 @@ Tailored ads are hammering on you even after you have made a purchase, and most 
 
 ----
 
-Fight Global Inequality
------------------------
+Contribute To Society
+---------------------
 
-E-commerce and online marketplaces have made the world of shopping and selling a very different place. The price war destroyed small merchants, only to benefit Internet platforms and financial transaction providers. As a result, small businesses have had to give up, while only a handful of large corporations continue to dominate the market. The ones who suffer are the middle-class people that were employed by millions of retailers.
+E-commerce and online marketplaces have made the world of shopping and selling a very different place. The price war destroyed small merchants, only to benefit Internet platforms and financial transaction providers. As a result, small businesses have had to give up, while only a handful of large corporations continue to dominate the market. The ones who suffer are the middle-class people, the heart of every nation worldwide.
 
 **To Small Merchants, Manufacturers, and Producers**
 
@@ -103,7 +103,7 @@ Local shops and co-operatives in your proximity do get the ability to setup thei
 
 Some say, sustainability and responsability are cornerstones of a healthy economy. Don't wait for somebody to make the economy better. Be your own revolution and liberation. Share and discuss it with your communities.
 
-*It’s time to give back to the small, to the oppressed, to the exploited.* 
+*It’s time to give back to the small, to the oppressed, to the exploited. You can now reduce global inequality and competitive disadvantages.* 
 
 ----
 
