@@ -96,28 +96,27 @@ It's a good idea to do the things you do carefully and purposefully, perhaps you
 Industries and Use-cases
 ------------------------
 
-* The classic goods exchange in return for payments.
-	* If an instant settlement of payments is needed.
-	* When counterparty risks need to get mitigated.
-	* Avoid the risk of receiving counterfeit goods.
-	* If there is an increased risk of non-payment (payment default).
-	* If there is an increased risk of delay in payment.
-	* If middlemen take too much off the deal.
-	* If the total costs of commerce are too hight.
+* Trading goods or services in return for payments:
+	* If instant settlement of payment is needed.
+	* If counterparty performance risks shall get mitigated.
+	* If the risk of receiving counterfeit goods is in play.
+	* If increased risk of non-payment (payment default) applies.
+	* If the risk of delay in payment is apparent.
+	* If intermediaries take too much off the deal.
 	* If intellectual property is at stake.
 	* If security or privacy is at stake.
-	* If the maintenance of the operation is not guaranteed.
-* When goods suppliers have no cost-effective, protected, and fair access to international markets without intermediaries aid.
-* Exchange of industrial goods across national borders where there is no or only a limited trust relationship.
-* Creation of a distribution environment for small local stores and cooperatives and their local clientele.
-* Creation of an alternative economy dedicated to a specific focus, where value creation remains exclusively within that community.
-* Consumer markets for the new crypto-economy. It's no longer needed to leave this ecosystem to purchase goods and services.
-* International markets where artificial price protection on goods are in play, creating business opportunities to benefit from these price differences.
+	* If the total cost of commerce is too high.
+* When suppliers of goods have no cost-effective, protected, and fair access to international markets without intermediaries.
+* Exchange of industrial goods across national borders where no or only a limited trust relationship exists.
+* Where a distribution environment for small local stores or cooperatives and their local clientele is needed.
+* Support of economic groups for a specific scope, where value creation remains exclusively within that community.
+* Development of consumer and community markets for the new crypto-economy, and reduce friction in payments.
+* Creation of new business opportunities in international markets where local and artificial price protection on goods is in play.
 * A corporate in-house tool for displaying and retrieving any type of resources and, optionally, their billing. Mini-ERP.
 
 **These are a few examples to give you an impression of the Particl Marketplace's market participants and possibilities.**
 
-*Most of all, Particl would like to hear your success stories and ideas. Reach out! We can share it with the world you if you want us to.*
+*Most of all, Particl would like to hear your success stories and ideas. Reach out to us! We can share it with the world you if you want us to.*
 
 ----
 

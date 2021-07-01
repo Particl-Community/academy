@@ -91,15 +91,15 @@ Contribute To Society
 
 E-commerce and online marketplaces have made the world of shopping and selling a very different place. The price war destroyed small merchants, only to benefit Internet platforms and financial transaction providers. As a result, small businesses have had to give up, while only a handful of large corporations continue to dominate the market. The ones who suffer are the middle-class people, the heart of every nation worldwide.
 
-**To Small Merchants, Manufacturers, and Producers**
+**Pledge to Small Merchants, Manufacturers, and Producers**
 
 Breaking the value chains gives merchants, manufacturers, and producers of goods the ability to build a livelihood that is no longer dependent on middlemen and large corporation's interests.
 
-**To Local Shops and Co-operatives**
+**Pledge to Local Shops and Co-operatives**
 
 Local shops and co-operatives in your proximity do get the ability to setup their own internet shops at virtually no costs of commerce or maintenance, and without external interference.
 
-**To Yourself and your Communities**
+**Pledge to Yourself and your Communities**
 
 Some say, sustainability and responsability are cornerstones of a healthy economy. Don't wait for somebody to make the economy better. Be your own revolution and liberation. Share and discuss it with your communities.
 
