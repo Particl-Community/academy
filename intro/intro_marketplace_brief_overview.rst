@@ -11,7 +11,7 @@ This gives you many new benefits not possible before with traditional e-commerce
 
 .. seealso::
 
-	- Particl Academy - Introduction :ref:`Uncompromising, What You Get`
+	- Particl Academy - Introduction :ref:`What You Gain`
 	- Particl Academy - Introduction :ref:`Target Audiences`
 	- Particl Academy - Explained :ref:`Particl Marketplace <Particl Marketplace Explained>`
 
