@@ -12,7 +12,7 @@ With the award-winning :term:`Particl Marketplace`, you transform today’s e-co
 
 .. admonition:: Understanding the Basics of Particl Maketplace
 
-   - Particl Academy - Intro :doc:`Uncompromising, What You Get <../intro/intro_general_particlmarketplace>`
+   - Particl Academy - Intro :doc:`What You Gain <../intro/intro_general_particlmarketplace>`
    - Particl Academy - Intro :doc:`Target Audiences <../intro/intro_general_target_audiences>`
    - Particl Academy - Intro :doc:`Particl Marketplace Brief Overview <../intro/intro_marketplace_brief_overview>`
 

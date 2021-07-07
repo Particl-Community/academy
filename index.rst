@@ -39,7 +39,7 @@ Take your first few steps with understanding the :term:`Particl Marketplace`. Wh
    intro/intro_general_functions
 
 
-* :doc:`Uncompromising, What You Get <intro/intro_general_particlmarketplace>`
+* :doc:`What You Gain <intro/intro_general_particlmarketplace>`
 * :doc:`Target Audiences <intro/intro_general_target_audiences>`
 * :doc:`Brief Overview <intro/intro_marketplace_brief_overview>`
 * :doc:`All Functions Overview <intro/intro_general_functions>`
