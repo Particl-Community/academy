@@ -12,7 +12,9 @@ Understanding Particl Marketplace as a buyer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Make sure you know how :term:`Particl Marketplace` and its various features work. The best way to do just that is to read the documentation contained here on the Particl Academy.
+- When first launching :term:`Particl Marketplace`, it can take several minutes for it to sync with the :term:`Particl Blockchain` and :term:`SMSG Network <SecureMessaging (SMSG)>`. If you don't see any listing, it's most likely because your client is still syncing. Just give it some more minutes to complete the process.
 - Because you can't receive any order update when your :term:`Particl Desktop` client is locked, make sure to unlock it before you start processing and working on orders.
+- When placing an order with a seller, keep in mind that you still have :doc:`two additional steps <../guides/guide_mp_customer_understanding_buyflow>` that you need to take. These extra steps are there to protect you from fraud.
 
 Buyer's Transaction Process
 ---------------------------
@@ -35,7 +37,7 @@ Placing an order as a buyer
 Completing an order as a buyer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- After you receive your order, don't forget to complete the order on :term:`Particl Desktop`. That's the last step required to close the deal. Failure to manually complete the order will prevent you and the seller from receiving your respective security deposits.
+- After you receive your ordered item, don't forget to complete the order on :term:`Particl Desktop`. That's the last step required to close the deal. Failure to manually complete the order will prevent you and the seller from receiving your respective security deposits.
 - After you complete an order, don't hesitate to leave a review, comment, or feedback on the item's listing. That'll let other potential buyers get helpful information for their own due diligence.
 - If there's an issue with an item you've bought, but you have already completed the order, you can always leave a comment on the item's listing page and try to reach a mutual agreement with the seller. Alternatively, if the seller has provided an external means of communication (i.e., their email address), you can reach out to them directly this way.
 
