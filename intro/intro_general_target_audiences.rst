@@ -3,7 +3,7 @@ Target Audiences
 ================
 
 .. title::
-   :term:`Particl Marketplace` Target Audiences
+   Particl Marketplace Target Audiences
    
 .. meta::
    :description lang=en: Who is using Particl Marketplace? The audiences and participants are very special people. Everything but average. 
