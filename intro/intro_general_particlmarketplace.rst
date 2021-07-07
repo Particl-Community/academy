@@ -75,7 +75,7 @@ No more bricks in the package or bad quality counterfeit goods for you as a cust
 
 *“We help you to become immune to online fraud and scammers.”*
 
-*“You Stop Spam and Unwanted Solicitations“*
+**You Stop Spam and Unwanted Solicitations**
 
 Tailored ads are hammering on you even after you have made a purchase, and most of the time, even before you make it. You see them on the websites you visit, you encounter them throughout your emails, and directly on the apps that you use. It even affects how search engines deliver results to you. Invasive ads follow you wherever you go, and, every day, they crawl deeper into your life.
 
