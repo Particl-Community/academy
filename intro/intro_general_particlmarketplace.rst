@@ -40,15 +40,15 @@ In today's economy, your survival is mainly bound to the state of your finances.
 Stand For Liberty
 -----------------
 
-Big corporations collect data from you with every purchase and sale you make. They even do it the second you land on their website and start browsing. They use your data to analyze your behaviors as an online merchant or a consumer and increase their bottom line. Then, they sell your personal information or use it against you, without your knowledge or consent. You’ve guessed it. You have become the product, and these corporations are your insidious thiefs.
+Big corporations collect data from you with every purchase and sale you make. They even do it the second you land on their website and start browsing. They use your data to analyze your behaviors as an online merchant or a consumer and increase their bottom line. Then, they sell your personal information or use it against you without your knowledge or consent. You’ve guessed it. You have become the product, and these corporations are your insidious thieves.
  
 **Corporations like e-commerce giants have become your credit score broker.**
 
-* Based on their risk assessment they rate your insurance policies. 
+* Based on their risk assessment, they rate your insurance policies. 
 * Your personal preferences will be the reason why you may not get a particular job.
 * Or even worse, rating algorithms could block your bank accounts in the future!
 
-The ever-sprawling giant e-commerce corporations always seek to expand their profits, market power, and control. They have created today’s alarming digital security and privacy crisis under the guise of usability and convenience. And with all the information they possess, they've become more powerful than national governments! Believe it, or not, protecting your data is protecting your finances, and your quality of life.
+The ever-sprawling giant e-commerce corporations always seek to expand their profits, market power, and control. They have created today’s alarming digital security and privacy crisis under the guise of usability and convenience. And with all the information they possess, they've become more powerful than national governments! Believe it or not, protecting your data is protecting your finances and your quality of life.
 
 *“We help you to become the captain of your data and liberties.“*
 
@@ -59,7 +59,7 @@ Squash The Rogues
 
 **You Stop Privacy Invasions and Backdoors** 
 
-No more stolen credit card information or passwords, compromised online accounts, or any online surveillance. When no data about you is created, it cannot be collected by anyone. And when it’s not collected by anyone, it cannot be shared, sold, misused, hacked, or leaked anymore. That’s true for sellers and buyers regardless of whether it relates to your products, locations, payments, shipping information, preferences, or any online activity. You can now defend your human right to privacy and shield yourself from the many technical and political uncertainties of today’s world.
+No more stolen credit card information or passwords, compromised online accounts, or any online surveillance. When no data about you is created, it cannot be collected by anyone. And when no one collects it, it cannot be shared, sold, misused, hacked, or leaked anymore. That’s true for sellers and buyers regardless of whether it relates to your products, locations, payments, shipping information, preferences, or any online activity. You can now defend your human right to privacy and shield yourself from the many technical and political uncertainties of today’s world.
 
 *“We help you become invincible to privacy issues.”*
 
@@ -77,7 +77,7 @@ No more bricks in the package or bad quality counterfeit goods for you as a cust
 
 **You Stop Spam and Unwanted Solicitations**
 
-Tailored ads are hammering on you even after you have made a purchase, and most of the time, even before you make it. You see them on the websites you visit, you encounter them throughout your emails, and directly on the apps that you use. It even affects how search engines deliver results to you. Invasive ads follow you wherever you go, and, every day, they crawl deeper into your life.
+Tailored ads are hammering on you even after making a purchase, and most of the time, even before you make it. You see them on the websites you visit, you encounter them throughout your emails, and directly on the apps that you use. It even affects how search engines deliver results to you. Invasive ads follow you wherever you go, and, every day, they crawl deeper into your life.
 
 *“We help you to put an end to spam.”*
 
@@ -117,7 +117,7 @@ By :ref:`installing <Installation Guides>` and using :term:`Particl Marketplace`
 * You say goodbye to spam.
 * You fight against global economic and social inequalities.
 
-*Admittedly, there is a price for all this. Currently, it is just a little bit of convenience. So, do you think it’s worth it?*
+*Admittedly, there is a price for all this. Currently, it is just a little bit of inconvenience. So, do you think it’s worth it?*
 
 ----
 
@@ -137,7 +137,7 @@ It is based on :term:`distributed ledger <Distributed Ledger>` and :term:`peer-t
 
 ----
 
-**It's getting even more interesting**
+**It gets even more interesting**
 
 Now you have a good understanding of what you get. In the next chapter, you'll learn about the target audiences and their needs. Can you find yourself there? 
 
