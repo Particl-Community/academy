@@ -36,7 +36,7 @@ Publish Items
   
     **Wallet Unlocking**
 
-    To receive orders or to complete order steps, the :term:`Particl Desktop` client needs to be unlocked. You will not receive any orders or get notifications on the progress of active orders if you keep your wallet locked. Mind the vault icon in the top-right status icons bar.
+    To receive orders or to complete order steps, your :term:`Particl Desktop` client needs to be unlocked. You will not receive any order or get notifications on the progress of active orders if you keep your wallet locked. Make sure the padlock icon at the top-right corner of the status bar is unlocked.
 
 To make a sale on Particl, you need to first put items up for sale. There are many ways to create listings on Particl. The right way for you depends on your requirements.
 
@@ -52,13 +52,13 @@ Create a listing template
 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products` followed by the :guilabel:`New` button.
   #. Fill up all the text boxes with the information on your listing and upload a (or multiple) pictures of your product or service.
-  #. Click on :guilabel:`Publish right away` tile to select on which market you want to publish your listing an set the right category for your item accordingly.
 
 If you want to publish now
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. rst-class:: bignums
 
+  #. Click on :guilabel:`Publish right away` tile to select on which market you want to publish your listing an set the right category for your item accordingly.
   #. Click on the :guilabel:`Save and Publish` button and choose the duration time for the item's listing.
   #. Click on :guilabel:`Publish Listing`.
 
@@ -170,42 +170,43 @@ The second step of the process is to publish the listing templates you've just c
   #. Unlock your wallet when prompted to.
   #. Wait until the network goes through one (1) blockchain confirmation (approximately 2 minutes), and then your listings will be live on the :term:`Particl Marketplace'.
 
-Accept a Bid
-------------
+Accept an Order
+---------------
 
 .. attention::
 
-	For your :term:`Particl Desktop` client to receive any bid from buyers, it needs to be online and unlocked. New orders won't show up in your :guilabel:`Orders` or :guilabel:`Overview` until you unlock your wallet. To do so, click on the padlock icon within the status icons bar at the top right corner.
+	For your :term:`Particl Desktop` client to receive any bid from buyers, it needs to be online and unlocked. New orders won't show up in your :guilabel:`Orders` or :guilabel:`Overview` until you unlock your wallet. To do so, click on the padlock icon in the status icons bar at the top right corner.
 
-When a buyer wants to buy something you're selling, they'll place a bid. To initiate a marketplace transaction with them, you must first accept the bid. Accepting a bid indicates to your buyer that you are accepting his order.
+When a buyer wants to buy something you're selling, they'll first make an order request that you need to accept. Accepting an order indicates to your buyer that you are willing to process his order.
 
 .. rst-class:: bignums
 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check the :guilabel:`Orders requiring attention` checkbox to only see orders that require your attention or filter them by status.
-  #. Look for any new order marked as :guilabel:`BIDDING`.
-  #. Click on the order's tile to expand its details and accept it by clicking on the :guilabel:`Accept bid` button.
+  #. Look for any new order marked as :guilabel:`REQUESTING`.
+  #. Click on the order's tile to expand its details and accept it by clicking on the :guilabel:`Accept order request` button.
 
 Make the Security Deposit
 -------------------------
 
-Once you accept your buyer's order, they will be required to send their payment as well as a security deposit (equal to the cost of the item + shipping) into an escrow smart-contract. Once that happens, you will be prompted to also lock a security deposit equal to the value of your buyer's order.
+Once you accept your buyer's order, they will be required to send their payment as well as a security deposit (equal to the cost of the item + shipping) into a :doc:`two-party escrow smart-contract <../in-depth/indepth_escrow>`. Once that happens, you will be required to also send a security deposit that matches the one of your buyer.
 
 .. rst-class:: bignums
 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
-  #. Look for any order marked as :guilabel:`ESCROW PENDING`, click on the order's tile to expand its details and make your security deposit by clicking on the :guilabel:`Complete escrow` button.
+  #. Look for any order marked as :guilabel:`ESCROW`, click on the order's tile to expand its details and make your security deposit by clicking on the :guilabel:`Complete escrow` button.
+  #. In the window that appears, you have the ability to leave your buyer a note. This is optional. Confirm your security deposit by clicking on the :guilabel:`Confirm & Fund`.
 
 Package and Shipping an Order
 -----------------------------
 
-After making your security deposit into the two-party escrow contract, you will need to process and ship the order to your buyer.
+After making your security deposit into the two-party escrow contract, you will need to process and ship your buyer's order.
 
 .. rst-class:: bignums
 
   #. Package and ship out your item. 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
   #. Look for any order marked as :guilabel:`PACKAGING`, click on the tile to expand its details, add a package tracking number if needed, and click on the :guilabel:`Mark as shipped` button.
-  #. Click on the :guilabel:`Order shipped` button to confirm that you have shipped the item. 
+  #. In the window that appears, you have the ability to send your buyer a tracking number. This is optional, and can be used to send over other types of data as well (i.e, download link). Confirm the order as shipped by clicking on :guilabel:`Yes, Order is shipped`.
 
 Receive and Verifying Payment
 -----------------------------
@@ -215,7 +216,7 @@ Once your package is shipped, keep an eye out for your payment. Once your buyer 
 .. rst-class:: bignums
 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
-  #. Check :guilabel:`Complete` to only see orders that have been completed, click on the order's tile to expand its details and see the date and time it was completed.
+  #. Check :guilabel:`COMPLETED` to only see orders that have been completed, click on the order's tile to expand its details and see the date and time it was completed.
 
 ----
 

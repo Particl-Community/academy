@@ -24,16 +24,16 @@ Rest assured, it's not complicated at all. Just follow this quick user guide and
    :depth: 2
    
 
-Bidding
-=======
+Request Order
+=============
 
 .. hint::
   
     **Wallet Unlocking**
 
-    To receive orders or to complete order steps, the :term:`Particl Desktop` client needs to be unlocked. You will not receive any orders or get notifications on the progress of active orders if you keep your wallet locked. Mind the vault icon in the top-right status icons bar.
+    To be able to progress through the purchasing process, your :term:`Particl Desktop` client needs to be unlocked. Failure to do so means that you won't be able to complete the required steps to submit and complete your order. Make sure the padlock icon at the top-right corner of the status bar is unlocked.
 
-To purchase an item on :term:`Particl Marketplace`, you need to first send a bid to the seller. This is the equivalent of "placing your order". Keep in mind that you will still need to do one more step before you can simply wait for your orders, so keep reading this user guide until the end!
+To purchase an item on :term:`Particl Marketplace`, you need to first submit an order request to the seller. Keep in mind that, after you do this, you still need to complete one additional step before your order is properly confirmed, so keep reading this user guide until the end!
 
 **Add an item to your cart**
 
@@ -44,33 +44,33 @@ To purchase an item on :term:`Particl Marketplace`, you need to first send a bid
 	#. Click on the :guilabel:`Shipping & Escrow` tab within the listing's details to make sure the item is shipping in your country and you have enough PART :guilabel:`Anon` balance funds. You will find the number of PART required for the order within the :guilabel:`Total needed for order` column.
 	#. Click on :guilabel:`Add to cart`. 
 
-**Send the bid to the seller**
+**Submit order request to the seller**
 
 
 .. rst-class:: bignums
 
 	#. Open :guilabel:`Market` -> :guilabel:`CART` to review the content of your cart and enter your shipping information. 
 	#. Click the :guilabel:`Review & Submit this Order` button to review your order's details and click the :guilabel:`Confirm Order & Submit` to send the bid to the seller.
-	#. Your bid is now placed and the seller will receive it within minutes. The seller has to confirm your bid and by doing so it becomes an order.
+	#. Your order request has been submited to the seller, who still has to confirm your order.
 
 .. hint::
-  1. Save your shipping information into a user profile. That way you do not need to rewrite it with every order. To do so, check the :guilabel:`Save shipping profile` box before moving to the next step and give the profile a name.
-
-  3. Since a security deposit is demanded from both parties this step is necessary at the moment.
+	Save your shipping information into a user profile. That way you do not need to rewrite it with every order. To do so, check the :guilabel:`Save shipping profile` box before moving to the next step and give the profile a name.
 
 Make Security Deposit
 ======================
 
-Once the seller has confirmed your bid it converts into an order when the seller puts his security deposit as well. Your order status will change from :guilabel:`Bidding` to :guilabel:`Escrow`. The security deposit of any order is always equal to the full value of the order (cost of the item + shipping) for both parties.
+Once the seller has confirmed your order, its status will change from :guilabel:`REQUESTING` to :guilabel:`ACCEPTED`; it's time to make your security deposit into the :doc:`two-party escrow smart-contract <../in-depth/indepth_escrow>`. The security deposit of any order is always equal to the value of what's being purchased, including shipping costs.
 
 .. rst-class:: bignums
 
 	#. Await the notification that the seller has accepted your order. 
-	#. Open :guilabel:`Market` -> :guilabel:`PURCHASES` -> :guilabel:`Orders` and look for any order marked as :guilabel:`Awaiting Payment`.
-	#. Click on the order's tile to expand its details and click on the :guilabel:`Mark as payment` button to lock your funds into the two-party escrow contract.
+	#. Open :guilabel:`Market` -> :guilabel:`PURCHASES` -> :guilabel:`Orders` and look for any order marked as :guilabel:`ACCEPTED`.
+	#. Click on the order's tile to expand its details and click on the :guilabel:`Request Escrow`.
+	#. You can provide and email address or a phone number to help the seller. This step is optional. 
+	#. Confirm your security deposit by clicking on the :guilabel:`Confirm & Fund`.
 
 .. hint::
-	2. In the :guilabel:`Filter` section, you can check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
+	In the :guilabel:`Filter` section, you can check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
 
 .. seealso::
   Have a look at :doc:`Two-party Escrow Explained <../in-depth/indepth_escrow>` to know all about it!
@@ -78,28 +78,30 @@ Once the seller has confirmed your bid it converts into an order when the seller
 Order Status Verification
 =========================
 
-At any point in time, you can verify the status of your order. Additionally, once the seller marks your item as shipped, he will have the option to send you a package tracking number.
+After locking your security deposit into the two-party escrow contract, all you need to do is wait to receive your item. 
+
+At any point in time, you can verify the status of your order. Once the seller marks your order as shipped, he may send you a tracking number.
 
 .. rst-class:: bignums
 
-	#. Open :guilabel:`Market` -> :guilabel:`PURCHASES` -> :guilabel:`Orders` and find the order you want to monitor and check its status directly on its tile. Additional information like a tracking number can be obtained by clicking on the oder's tile which gives you access to other details as well.
+	#. Open :guilabel:`Market` -> :guilabel:`PURCHASES` -> :guilabel:`Orders` and find the order you want to monitor. Additional information, like a tracking number or notes, can be seen by clicking on the order's tile which gives you access to more details.
 
 Receive Security Deposit Back
 =============================
 
-Wait for your package to arrive and mark the transaction as complete. Only once you mark the transaction as complete will you receive your security deposit back. Of course, at no fee.
+After receiving your order, it's very important to finalize the transaction on Particl Marketplace. That's how you get back your security deposit, without any fee, and release the payment to the seller.
 
 .. rst-class:: bignums
 
 	#. Wait for your package to arrive.
 	#. Open :guilabel:`Market` -> :guilabel:`PURCHASES` -> :guilabel:`Orders`.
-	#. Click on the order's tile to expand its details and click on the :guilabel:`Mark as received` button to complete the transaction and receive your security deposit back instantly.
+	#. Click on the order's tile to expand its details and click on the :guilabel:`Mark as delivered` button to complete the transaction and receive your security deposit back instantly.
 
 .. attention::
 	
 	It is very important to come back to :term:`Particl Desktop` once you receive your order and mark it as complete. Without it, you won't recover your security deposit.
 
 .. hint::
-	2. In the :guilabel:`Filter by status` section, you can check :guilabel:`Shipping` to only see orders that have been shipped by sellers but haven't arrived your way yet.
+	In the :guilabel:`Filter by status` section, you can check :guilabel:`SHIPPING` to only see orders that have been shipped by sellers but haven't arrived your way yet.
 
 .. include:: ../faq/faq_mp_customers_overview.rst.txt
