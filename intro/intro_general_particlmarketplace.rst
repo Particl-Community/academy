@@ -9,9 +9,9 @@ What You Gain
    :description lang=en: Do e-commerce, in privacy, without anyone in between —a fair and level playing field for everyone.
    :keywords lang=en: Boss, Blockchain, Privacy, E-Commerce, liberty, freedom
 
-:term:`Particl Marketplace` enables you to buy and sell goods and services online with no one in between. But, unlike Amazon or eBay, core security and privacy principles keep you safe from prying eyes. So now you hit big corporations where it hurts the most.
+:term:`Particl Marketplace` is a one-of-a-kind e-commerce platform that lets you buy and sell goods and services online with nobody in between. It’s just you and the other person you’re dealing with. There’s no company operating, controlling, or benefiting from the marketplace.
 
-Particl is not a company, does not seek profit, and that’s only one of the key benefits to you. You will love it.
+Unlike Amazon, eBay, or any other in-betweens, it is built with core security and privacy principles that keep you and your data safe at all times.
 
 **The world has changed, so you change as well to brace up your liberty and future.**
 
@@ -20,9 +20,10 @@ Particl is not a company, does not seek profit, and that’s only one of the key
 * :ref:`Squash the rogues <Squash The Rogues>` and stop the scammers.
 * :ref:`Contribute to society <Contribute To Society>` when you buy and sell online.
 
-Advanced, easy-to-use technology helps you nurture the local economy but not corporate monopolies.
+Advanced and easy-to-use technology empowers you, your local economy, but not the corporate monopolies that prey on it. Feel like a hero fighting our generation’s most powerful villains!
 
-*-You will feel like you have superpowers!*
+.. note:: 
+	 Particl Marketplace relies on open-source technologies that are openly audited, inspected, and improved by a global community. It is based on distributed ledger and peer-to-peer technologies. It runs on a network of independent nodes hosted by volunteers scattered across the world. The entirely autonomous platform doesn’t require any central party to operate or maintain, which means no company or organization is between buyers and sellers.
 
 ----
 
