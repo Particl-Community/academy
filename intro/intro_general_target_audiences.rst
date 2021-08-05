@@ -9,9 +9,9 @@ Target Audiences
    :description lang=en: Who is using Particl Marketplace? The audiences and participants are very special people. Everything but average. 
    :keywords lang=en: Particl, Marketplace, Introduction, Who, Blockchain, Privacy, E-Commerce
 
-Casually, you defend society’s core values by buying or selling stuff on :term:`Particl Marketplace` instead of your typical online shopping platform. Particl is all about fairness for consumers, equal opportunity for merchants and vendors, and freedom for all people who disagree with the centralization of powers by large corporations and the expansion of their control.
+Just using :term:`Particl Marketplace` helps you prevent yourself from being treated as an exploited product. Without additional efforts, like casually, you contribute to the well-being of our society by directly supporting individuals and small businesses all across the world, not corporations.
 
-*It's about you; anything but average.*
+Stand for fairness for consumers, equal opportunity for merchants and vendors, and freedom for all people. Let others not take control of you. Give it a try; you’ll fall in love with it!
 
 ----
 

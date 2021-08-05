@@ -20,7 +20,7 @@ Don't Trust, Verify!
 
 By making the choice to use :term:`Particl Marketplace`, you give yourself all the tools you need to confidently stay ahead of the technological curve with industry-leading :doc:`privacy technologies <../in-depth/indepth_privacy_tips>`.
 
-You don't need to trust anyone; the code is open-source, independently audited, and freely available online for everyone to inspect. See for yourself!
+And you don't need to trust anyone; the code is open-source, independently audited, and freely available online for everyone to inspect. See for yourself!
 
 .. seealso::
 
@@ -32,7 +32,7 @@ You don't need to trust anyone; the code is open-source, independently audited, 
 General Usage and Concept
 -------------------------
 
-Using :term:`Particl Marketplace` means that you can enjoy an easy and cost-effective shopping experience that makes zero compromise on the core values of :term:`decentralization <Decentralization>`, :doc:`security, privacy <../in-depth/indepth_privacy_tips>`, and :term:`disintermediation <Disintermediation>`.
+:term:`Particl Marketplace` is a new type of online marketplace. It lets you enjoy an easy and cost-effective shopping experience that makes zero compromise on the core values of :term:`decentralization <Decentralization>`, :doc:`security, privacy <../in-depth/indepth_privacy_tips>`, and :term:`disintermediation <Disintermediation>`.
 
 That will make you stand out and stay on top!
 
