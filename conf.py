@@ -39,10 +39,10 @@ extensions = [
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
     'sphinx.ext.autosectionlabel',
-    'rst2pdf.pdfbuilder',
+#     'rst2pdf.pdfbuilder',
 ]
 
-pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'),]
+# pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'),]
 
 sphinx_tabs_valid_builders = ['linkcheck']
 sphinx_tabs_nowarn = True
