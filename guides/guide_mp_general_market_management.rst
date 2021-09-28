@@ -7,15 +7,15 @@ Markets & Storefronts
 
 .. meta::
       
-      :description lang=en: Own your own storefront for free. Particl's Markets & Storefronts enables you to setup an infinite number of marketplaces for goods and services. Thanks to blockchain technology.
+      :description lang=en: Own your own storefront for free. Particl's Markets & Storefronts enables you to setup an unlimited number of marketplaces for goods and services. Thanks to blockchain technology.
 
-The difference between markets and a storefronts is about their publishing rights. A market is open to list items for everyone, in a storefront only to those who do have the publishing key. 
+The main difference between markets and storefronts is who has the right to post listings in them. A market allows anyone to post listings, whereas a storefront only allows those with a specific publishing key. 
 
 .. note::
 
    To simplify the terminology, "markets" and "storefronts" are referred to as "community markets".
 
-Create and join an infinite number of community markets with the :term:`Particl Marketplace`. Each of these markets can host an infinite number of listings and live independently from the predefined :term:`Open Market`.
+Create and join an unlimited number of community markets with the :term:`Particl Marketplace`. Each of these markets can host an equally-unlimited number of listings and live independently from the predefined :term:`Open Market`.
 
 By default, a community market isn’t publicly visible and is only known to its creator. However, a community market can be promoted within the :term:`Market Browser`, making it available to join at the click of a button. Of course, you can grant direct access as well.
 
@@ -27,7 +27,7 @@ By default, a community market isn’t publicly visible and is only known to its
 Create a Community Market
 -------------------------
 
-These four steps ain't hard and can make you start a new business.
+These four steps aren't hard to follow, and they can help you start a brand new journey for you or your business.
 
 .. rst-class:: bignums
 
@@ -40,7 +40,7 @@ Your community market is now created. You can promote it to the Market Browser s
 
 .. attention::
 
-   Anyone with access to the Publish Key (Storefont) can share it with anyone else. Only share the Publish Key to people you trust and know won't leak it out.
+   Anyone with access to the Publish Key (storefont) can share it with anyone else. Only share the Publish Key with people you trust and know won't leak it out.
 
 **Publish Listings**
 
@@ -54,17 +54,17 @@ Make your community market publicly visible in the :term:`Market Browser` and le
 .. rst-class:: bignums
 
   #. Open :guilabel:`Market` -> :guilabel:`MANAGE MARKETS` -> :guilabel:`Your Markets`.
-  #. Click on the tile of the market you want to promote and click on the :guilabel:`Promote in Market Browser` icon at the bottom of the expanded tile to open the market promotion window.
-  #. Select the number of days you want to promote your market for and confirm with a click on :guilabel:`Promote Market` to promote it.
+  #. Click on the market tile you want to promote and click on the :guilabel:`Promote in Market Browser` icon at the bottom of the expanded tile to open the market promotion window.
+  #. Select the number of days you want to promote your market and confirm with a click on :guilabel:`Promote Market` to promote it.
 
 .. hint::
 
- Anyone is able and free to promote a market on their own behalf.
+ Anyone is able and free to promote any market they wish.
 
 Browse the Markets
 ------------------
 
-Explore and join all the community markets that have been promoted by their creators or other community members. 
+Explore and join all the community markets that their creators or other community members have promoted.
 
 .. rst-class:: bignums
 
@@ -80,13 +80,13 @@ Explore and join all the community markets that have been promoted by their crea
 Join a Market
 -------------
 
-If you have in your possession the Market ID and Access/Publish Key of a certain community market, you can directly join it even if it's not promoted on the Market Browser. If you only have the Access Key of a storefront, you will only be able to buy items. If you instead possess its Publish Key, then you'll be able to join as a full vendor and also publish and sell items. 
+If you have in your possession the Market ID and Access/Publish Key of a particular community market, you can directly join it even if it's not promoted on the Market Browser. If you only have the Access Key of a storefront, you will only be able to buy items. If you instead possess its Publish Key, then you'll be able to join as a full vendor and also sell items. 
 
 .. rst-class:: bignums
 
-  #. First, make sure that you possess the Market ID and Market Access Key of the market/storefront you want to join. You may need to collect this information from private sources if they are not publicly broadcast by its creator or users.
+  #. First, make sure you possess the Market ID and Market Access Key of the market/storefront you want to join. You may need to collect this information from private sources if its creator or users do not publicly broadcast them.
   #. Open :guilabel:`Market` -> :guilabel:`MANAGE MARKETS` -> :guilabel:`Browser` and click on the :guilabel:`Join via Market ID` button to expand the window to join a new market.
-  #. Fill the community market's information. This information can be entirely decided by you to help you better organize your markets and know what they're about.
+  #. Fill in the community market's information. You can entirely decide this information to help you better organize your markets and know what they’re about.
   #. Enter the community market's Market ID and Access/Publish Key, and then click on the :guilabel:`Join this Market` button to join the community market.
 
 .. hint::
@@ -122,4 +122,4 @@ Sometimes, other users may flag community markets that you believe should remain
 
 .. hint::
 
-  The number of coins you hold in your :guilabel:`Public` balance will now be used as upvotes for this community market. As long as the markets overall moderation score doesn't go below |Threshold|, the market will remain on the :term:`Particl Network`.
+  The number of coins you hold in your :guilabel:`Public` balance will now be used as upvotes for this community market. As long as the market's overall moderation score doesn't go below |Threshold|, the market will remain on the :term:`Particl Network`.

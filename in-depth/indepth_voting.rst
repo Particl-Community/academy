@@ -2,7 +2,7 @@
 Community Governance Explained
 ==============================
 
-Particl has a :term:`decentralized <Decentralization>` community governance mechanism that gives you a voice in the most critical decisions influencing the ecosystem. The model uses the Particl Proof-of-Stake (:term:`PPoS`) staking protocol to let you cast votes on community proposals.
+Particl has a :term:`decentralized <Decentralization>` community governance mechanism that gives you a voice in the ecosystem's most critical decisions. The model uses the Particl Proof-of-Stake (:term:`PPoS`) staking protocol to let you cast votes on community proposals.
 
 And if you need bootstrapping capital to bring to life a project of yours, there's also a :term:`decentralized <Decentralization>` treasury fund at your disposition. With the community's approval, you can claim funds from it so that you can focus entirely on your project rather than on the need to raise the startup capital it requires.
 
@@ -27,7 +27,7 @@ Ideally, :term:`decentralized <Decentralization>` governance mechanisms strive t
 Particl's model in a nutshell
 =============================
 
-The Particl project is all about decentralization, security, privacy, and personal freedom. That's why its governance follows a term:`decentralized <Decentralized>`, fair, and genuinely democratic model.
+The Particl project is all about decentralization, security, privacy, and personal freedom. That's why its governance follows a :term:`decentralized <Decentralized>`, fair, and genuinely democratic model.
 
 Indeed, anyone from the Particl community can publish proposals on the CCS platform. Each proposal has to first go through a discussion phase, after which it gets moved to a voting phase. That's when the rest of the community can vote to either approve or reject the proposal using their staking power.
 
@@ -69,11 +69,11 @@ Voting rounds on Particl are conducted in a :term:`decentralized <Decentralizati
 
 The process of voting and counting votes leverages the Particl Proof-of-Stake (:term:`PPoS`) staking protocol, and every round's results are publicly inscribed on the blockchain permanently. This provides the maximum level of transparency and security possible, making it impossible to modify past results or misreport voting outcomes.
 
-To determine each individual's voting power, the voting preference of a staker is only counted when they find a block. At the end of a voting round, all the blocks contained within the timeframe of the voting round are scanned, and those that contain votes are counted towards the final tally. In other words, the more a single staker finds blocks, the more voting power they hold.
+To determine each individual’s voting power, the voting preference of a staker is only counted when they find a block. Then, at the end of a voting round, all the blocks within the voting round’s timeframe are scanned, and those that have votes are counted towards the final tally. In other words, the more a single staker finds blocks, the more voting power they hold.
 
 Voting rules and parameters depend on the type of proposals being voted on.
 
-Non Protocol Consensus Changing Proposals
+Non-Protocol Consensus-Changing Proposals
 =========================================
 
 +---------------+----------------------------------------------+
@@ -84,9 +84,9 @@ Non Protocol Consensus Changing Proposals
 |    Duration   |             5,040 blocks minimum             |
 +---------------+----------------------------------------------+
 
-The first type of proposal, non protocol consensus changing proposals, does not require significant changes to the protocol. Typically, they would be proposals requesting funds from the treasury fund to kickstart a specific project, for example.
+The first type of proposal, non-protocol consensus-changing proposals, does not require significant changes to the protocol. Typically, they would be proposals requesting funds from the treasury fund to kickstart a specific project, for example.
 
-For a non protocol consensus vote to be considered "valid", its voting period must be a minimum of 5,040 blocks (roughly one week). Within that period, 20% of the blocks staked need to contain a vote for one of the available voting options. That means the quorum has to be at least 20%. 
+For a non-protocol consensus vote to be considered "valid", its voting period must be a minimum of 5,040 blocks (roughly one week). Within that period, 20% of the blocks staked need to vote for one of the available voting options. That means the quorum has to be at least 20%. 
 
 Finally, to be considered as "approved" by the community, it needs to reach an approval rate of at least 60%, meaning at least 60% of all the votes cast for the proposal approve of the proposed idea.
 
@@ -101,9 +101,9 @@ Protocol Consensus Changing Proposals
 |    Duration   |             10,080 blocks minimum            |
 +---------------+----------------------------------------------+
 
-The other type of proposals, protocol consensus changing proposals, are a bit more important in scope and can significantly impact the ecosystem. They are any proposal that requires a specific change in the protocol, such as, for example, modifying the inflation rate of the blockchain, introducing a new privacy technology, etc.
+The other type of proposals, protocol consensus changing proposals, are typically more critical in scope and can significantly impact the ecosystem. They are any proposal that requires a specific change in the protocol, such as, for example, modifying the inflation rate of the blockchain, introducing a new privacy technology, etc.
 
-Just like non protocol consensus changing proposals, their quorum requirement stands at 20%. But because of their increased level of importance and ramifications, they require a higher level of approval from the community. In fact, the required approval rate has to be at least 75%. Finally, the duration of any protocol consensus vote has to be a minimum of 10,080 blocks (roughly two weeks) to give ample time to anyone to be able to cast their vote.
+Just like non-protocol consensus-changing proposals, their quorum requirement stands at 20%. But because of their increased level of importance and ramifications, they require a higher level of approval from the community. In fact, the required approval rate has to be at least 75%. Finally, the duration of any protocol consensus vote has to be a minimum of 10,080 blocks (roughly two weeks) to give ample time to anyone to be able to cast their vote.
 
 ----
 

@@ -34,11 +34,11 @@ To sell products and services on :term:`Particl Marketplace`, you typically need
 
 **PART funds needed for buying**
 
-To buy products and services on :term:`Particl Marketplace`, you only need to have coins in your :guilabel:`Anon` balance. 
+To buy products and services on :term:`Particl Marketplace`, you only need coins in your :guilabel:`Anon` balance. 
 
 .. seealso::
 
-  - Particl Academy - :doc:`Obtaining PART coin <../guides/guide_general_obtaining_part>`
+  - Particl Academy - :doc:`Obtaining PART coins <../guides/guide_general_obtaining_part>`
   - Particl Academy - :doc:`PART Cryptocurrency Explained <../in-depth/indepth_part_coin>`
   - Particl Academy - :doc:`Staking Explained <../in-depth/indepth_staking>`
 
@@ -54,14 +54,14 @@ Receive PART coins coming from any wallet holding PART funds. This can be a pers
 .. rst-class:: bignums
 
 	#. Open :guilabel:`Wallet` -> :guilabel:`Receive`.
-	#. Receive a public transaction by choosing :guilabel:`Public` from the tabs menu at the top of the page, or choose the :guilabel:`Private` tab instead if you want to receive a private transaction (either :guilabel:`Blind` or :guilabel:`Anon`). 
+	#. Receive a public transaction by choosing :guilabel:`Public` from the tabs menu at the top of the page, or select the :guilabel:`Private` tab instead if you want to receive a private transaction (either :guilabel:`Blind` or :guilabel:`Anon`). 
 	#. Share your address with the party to receive the funds.  
 	
 .. tip::
 
 	#. Both the sender and receiver must agree on the transaction type (exchanges, for example, only support :guilabel:`Public` transactions).
 	#. Create a new :guilabel:`Receive` address for every transaction. (Optional, but recommended for better privacy).
-	#. Adding a label to an address is really helpful to better keep track of your transactions. 
+	#. Adding a label to an address is helpful to keep track of your transactions better.
 	#. When posting the address from the clipboard to another party, always verify and double-check the pasted address with the original. Make sure they are identical. Remember: **You are your own bank**.
 
 **From the in-app swap-exchange module**

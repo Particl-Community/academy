@@ -1,9 +1,9 @@
 Buyer Best Practices
 ====================
 
-:term:`Particl Marketplace` is a :ref:`trustless marketplace <trustless setup>`, meaning that no single party controls it. Instead, the marketplace runs autonomously on a decentralized network which shifts the balance of responsibilities on the users rather than on the company operating the platform. That means you'll be interacting, directly and with no other party in between, with your customers.
+:term:`Particl Marketplace` is a :ref:`trustless marketplace <trustless setup>`, meaning that no single party controls it. Instead, the marketplace runs autonomously on a decentralized network that shifts the balance of responsibilities on the users rather than on the platform's company. That means you'll be interacting, directly and with no other party in between, with your customers.
 
-For this reason, it is well advised for you to follow a range of best practices so that you can fully enjoy all the benefits that :term:`Particl Marketplace` and the free market has to offer while avoiding any bump.
+For this reason, it is well-advised for you to follow a range of best practices to fully enjoy all the benefits that :term:`Particl Marketplace` and the global free market have to offer while avoiding any bump.
 
 Buyer's General
 ---------------
@@ -30,8 +30,8 @@ Placing an order as a buyer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Ensure you have at least twice the number of PART required to pay for the item and its shipping. That's because you need to make a security deposit of 100% of the order to participate in the :doc:`two-party escrow contract <../in-depth/indepth_escrow>`. The security deposit is refunded to you, without any fee, once the transaction is fully completed.
-- Regularly check your :term:`Particl Desktop` client after placing a bid. You have one extra step (send funds to the escrow contract) to do before the seller can ship your item.
-- To receive updates on your active orders, your :term:`Particl Desktop` client needs to be unlocked. If you keep it unlocked, you won't receive any update on your orders which will prevent the seller from shipping your item(s).
+- Regularly check your :term:`Particl Desktop` client after placing a bid. You have one extra step (send funds to the escrow contract) to complete before the seller can ship your item.
+- To receive updates on your active orders, your :term:`Particl Desktop` client needs to be unlocked. If you keep it unlocked, you won’t receive any update on your orders, preventing the seller from shipping your item(s).
 - When sending a bid on an item (placing an order), you can optionally provide a phone number and/or email address. While this is entirely optional, it can help if any issue arises throughout the transaction process.
 
 Completing an order as a buyer

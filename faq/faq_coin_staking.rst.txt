@@ -6,8 +6,8 @@
 
         **Why are some of my coins aren't staking after receiving my last staking reward?**
 
-    When staking, your coins are separated in outputs. Each output stakes separately with the hopes of finding and verifying a block.
+    When staking, your coins are separated into multiple outputs. Each output stakes separately with the hopes of finding and verifying a block.
 
-    When one of your output stakes a block, or when you receive a transaction, the output is temporarily made unavailable until it can be moved or stake blocks again. This process is referred to as "maturing" and lasts for a period of 225 blocks (~8 hours).
+    When one of your outputs stakes a block, or when you receive a transaction, the output is temporarily unavailable until it can be moved or stake blocks again. This process is referred to as "maturing" and lasts for 225 blocks (~8 hours).
 
-    Once your output is mature once again, you'll be able to transact the coins it contains and it'll be able to stake blocks once gain.
+    Once your output is mature once again, you'll be able to transact the coins it contains, and it'll be able to stake blocks once again.

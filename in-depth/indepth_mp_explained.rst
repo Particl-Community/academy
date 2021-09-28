@@ -10,7 +10,7 @@ Particl Marketplace Explained
 
 With the award-winning :term:`Particl Marketplace`, you transform today’s e-commerce into a free, secure, cost-efficient, and trustworthy environment where you can enjoy true free market conditions. How this all comes together is explained in this section. 
 
-.. admonition:: Understanding the Basics of Particl Maketplace
+.. admonition:: Understanding the Basics of Particl Marketplace
 
    - Particl Academy - Intro :doc:`What You Gain <../intro/intro_general_particlmarketplace>`
    - Particl Academy - Intro :doc:`Target Audiences <../intro/intro_general_target_audiences>`
@@ -28,7 +28,7 @@ With the award-winning :term:`Particl Marketplace`, you transform today’s e-co
 Characteristics
 ---------------
 
-While the :term:`Particl Marketplace` is an easy-to-use e-commerce platform, what happens in the background is relatively complex and employs several brand new technologies. There's no server, central database, or employees working at keeping the marketplace up and running. Instead, it relies on an intricate combination of distributed technologies developed, maintained, and run by a vast and global network of participants.
+While the :term:`Particl Marketplace` is an easy-to-use e-commerce platform, what happens in the background is relatively complex and employs several brand-new technologies. There's no server, central database, or employees working at keeping the marketplace up and running. Instead, it relies on an intricate combination of distributed technologies developed, maintained, and run by a vast and global network of participants.
 
 * **Autonomous** — runs by itself and requires no human intervention
 * **Secure** — has the highest level of digital security provided by trustless encryption
@@ -37,7 +37,7 @@ While the :term:`Particl Marketplace` is an easy-to-use e-commerce platform, wha
 * **Censorship-proof** — no predefined rules or policies, and no ban on items
 * **Near-zero fee** — only pay the bare minimum for the network to run by itself
 
-These advantages are only possible thanks to the particularly :term:`decentralized <Decentralization>` nature of the :term:`Particl Marketplace`.
+These advantages are only possible thanks to the uniquely :term:`decentralized <Decentralization>` nature of the :term:`Particl Marketplace`.
 
 ----
 
@@ -48,7 +48,7 @@ Technicals in a Nutshell
 
 The :term:`Particl Network` is a combination of the :term:`Particl Blockchain` and the :term:`SecureMessaging (SMSG)`. 
 
-The blockchain executes and verifies all financial transactions using its native and untraceable currency; :ref:`PART <Currency (PART) Explained>`. All transactions on the :term:`Particl Marketplace` are private and confidential by default.
+The blockchain executes and verifies all financial transactions using its native and untraceable currency, :ref:`PART <Currency (PART) Explained>`. Therefore, all transactions on the :term:`Particl Marketplace` are private and confidential by default.
 
 On the other end, the :term:`SecureMessaging (SMSG)` protocol processes all the non-financial data related to the :term:`decentralized <Decentralization>` marketplace and securely broadcasts it to the rest of the network using military-grade encryption. 
 
@@ -59,14 +59,14 @@ The :term:`Particl Network` is entirely trustless and requires no third-party to
 The Front-End 
 -------------
 
-The front-end part of any application or platform refers to what a user directly interacts with. It is, more directly, the graphical inteface. 
+The front-end part of any application or platform refers to what a user directly interacts with. It is, more directly, the graphical interface. 
 
 Particl Desktop & Marketplace
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:term:`Particl Desktop` is the front-end application of the :term:`Particl Network`; it allows you to connect directly with the underlying platform code in a graphical, user-friendly, and easy to use fashion.
+:term:`Particl Desktop` is the front-end application of the :term:`Particl Network`; it allows you to connect directly with the underlying platform code in a graphical, user-friendly, and easy-to-use fashion.
 
-If you want to sell or purchase an item on :term:`Particl Marketplace`, browse listings and markets, leave a comment, or any other similar action, you inevitably need to use :term:`Particl Marketplace`; the front-end application of Particl to do so. It is what what makes all the code appear in a visual manner.
+If you want to sell or purchase an item on :term:`Particl Marketplace`, browse listings and markets, leave a comment, or any other similar action, you inevitably need to use :term:`Particl Marketplace`, the front-end application of Particl to do so. It is what makes all the code appear visually.
 
 .. note::
 
@@ -81,10 +81,10 @@ If you want to sell or purchase an item on :term:`Particl Marketplace`, browse l
  - Particl Academy - :doc:`All Functions <../intro/intro_general_functions>`
  - Github - `Particl Desktop <https://github.com/particl/particl-desktop>`_
 
-The Backend 
+The Back-end 
 -----------
 
-The back-end of any application or platform refers to the part that is not directly accessed by the user, typically responsible for storing and manipulating data. These are the various protocols, including the :term:`Particl Blockchain`, that are used to bring the :term:`Particl Ecosystem` to life. 
+The back-end of any application or platform refers to the part that is not directly accessed by the user, typically responsible for storing and manipulating data. These are the various protocols, including the :term:`Particl Blockchain`, that bring the :term:`Particl Ecosystem` to life. 
 
 The Open Market Protocol (OMP)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,7 +111,7 @@ The :term:`Particl Blockchain` processes and validates payments between two user
 The PART Coin
 ^^^^^^^^^^^^^
 
-PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockchain <Particl Blockchain>`. It is a secure and confidential currency designed specifically to power e-commerce and online marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the :term:`cryptocurrency <Particl Marketplace>`. 
+PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl blockchain <Particl Blockchain>`. It is a secure and confidential currency explicitly designed to power e-commerce and online marketplaces. It uses several security, encryption, and privacy protocols to make sure none of your personal information and data can be collected when transacting on the :term:`cryptocurrency <Particl Marketplace>`. 
 
 .. seealso::
 
@@ -139,7 +139,7 @@ SMSG powers the Particl Marketplace without bloating the blockchain with excessi
 The Data Storage Network (DSN)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Data Storage Network (DSN) is a generic term that describes a specific set of software with the purpose of storing and retrieving data on the internet. 
+Data Storage Network (DSN) is a generic term that describes a specific set of software that store and retrieve data on the internet. 
 
 The default (and for the moment, the only) DSN used on Particl is the :term:`SMSG network <SecureMessaging (SMSG)>`. It is a P2P BitMessage-like message mixnet that runs parallel to Particl’s blockchain. It is hosted on the same nodes that run the Particl blockchain.
 
@@ -153,9 +153,9 @@ Contrary to on-chain storage, storing data on DSN allows the platform to scale w
 Trustless Setup
 ---------------
 
-:term:`Particl Marketplace` is a based on a completely trustless setup. That means that it doesn't require participants to know or trust each other, or a third-party, for the platform to function.
+:term:`Particl Marketplace` is based on a completely trustless setup. That means that it doesn't require participants to know or trust each other or a third-party for the platform to function.
 
-Additionally, a trustless setup implies that no single entity has any authority or special power over the platform. Actions executed by the platforms follow a rigid set of rules that are open for all to see.
+Additionally, a trustless setup implies that no single entity has any authority or special power over the platform. Instead, actions executed by the platforms follow a rigid set of rules that are open for all to see.
 
 In general, trustless setups, such as :term:`Particl Marketplace`, require a learning curve because they operate differently from traditional, trust-based setups (i.e., eBay).
 
@@ -168,16 +168,16 @@ When making a purchase or a sale on :term:`Particl Marketplace`, the process may
 
 In reality, there's a lot happening behind the scene (the back-end). When making a transaction on :term:`Particl Marketplace`, you have to go through a few steps, each one leading to back-end actions. 
 
-Communication between the two participants, exchange of data, and the progress through transaction steps are done securely using the trustless :term:`SMSG network <SecureMessaging (SMSG)>`. The funds (payment and security deposits), on the other end, are held in an :doc:`escrow smart-contract <../in-depth/indepth_escrow>` on the :term:`Particl Blockchain`.
+Communication between the two participants, exchange of data, and the progress through transaction steps are made securely using the trustless :term:`SMSG network <SecureMessaging (SMSG)>`. The funds (payment and security deposits), on the other end, are held in an :doc:`escrow smart-contract <../in-depth/indepth_escrow>` on the :term:`Particl Blockchain`.
 
 Here is an explanation of what happens, in the back-end, for each step of a marketplace transaction.
 
-- :guilabel:`BIDDING`: A buyer has made a bid on an item and is now waiting for the seller to accept it. At this point, the blockchain reserves the buyer's funds (payment + security deposit) for escrow, but they not entirely locked yet. This is referred to as "soft-locking".
+- :guilabel:`BIDDING`: A buyer has an order on an item and is now waiting for the seller to accept it. At this point, the blockchain reserves the buyer's funds (payment + security deposit) for escrow, but they are not entirely locked yet. This is referred to as "soft-locking".
 - :guilabel:`ACCEPTED`: The seller has accepted the bid. The seller's funds (security deposit) are also now soft-locked for the escrow deposit.
 - :guilabel:`ESCROW`: The buyer has completed the escrow deposit, meaning the funds are now fully locked. They will only be released when both participants agree to release the escrow. This step also automatically locks the seller's funds in escrow.
 - :guilabel:`PACKAGING`: The seller is packaging the order and getting it ready to ship. Nothing happens on the blockchain at this point.
 - :guilabel:`SHIPPING`: The seller has confirmed the order as shipped. Nothing happens on the blockchain at this point.
-- :guilabel:`COMPLETE`: The item has been delivered. No problem was identified by the buyer, which has finalized the order. This causes funds locked in escrow to be released to each participant. The seller gets the payment for the item and his security deposit back while the buyer only gets his security deposit back.
+- :guilabel:`COMPLETE`: The item has been delivered. No problem was identified by the buyer, which has finalized the order. This causes funds locked in escrow to be released to each participant. The seller gets the payment for the item and his security deposit back, while the buyer only gets his security deposit back.
 
 ----
 

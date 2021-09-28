@@ -23,18 +23,18 @@ Unlike Amazon, eBay, or any other in-betweens, it is built with core security an
 Advanced and easy-to-use technology empowers you, your local economy, but not the corporate monopolies that prey on it. Feel like a hero fighting our generation’s most powerful villains!
 
 .. note:: 
-	 Particl Marketplace relies on open-source technologies that are openly audited, inspected, and improved by a global community. It is based on distributed ledger and peer-to-peer technologies. It runs on a network of independent nodes hosted by volunteers scattered across the world. The entirely autonomous platform doesn’t require any central party to operate or maintain, which means no company or organization is between buyers and sellers.
+	 Particl Marketplace relies on open-source technologies openly audited, inspected, and improved by a global community. It is based on distributed ledger and peer-to-peer technologies. It runs on a network of independent nodes hosted by volunteers scattered across the world. The entirely autonomous platform doesn’t require any central party to operate or maintain, which means no company or organization is between buyers and sellers.
 
 ----
 
 Protect Your Finances
 ---------------------
 
-In today's economy, your survival is mainly bound to the state of your finances. So protecting your finances is a natural desire. If you use “free” internet services, they are not really free! No, you pay indeed with your invaluable personal information and data, on top of commissions and fees.
+In today's economy, your survival is mainly bound to the state of your finances. So protecting your finances is a natural desire. Unfortunately, if you use “free” internet services, they are not really free! No, instead, you pay with your invaluable personal information and data, on top of commissions and fees.
 
 :term:`Particl Marketplace` does not seek revenues from selling off your data or through fees. It doesn’t need that data and income because there is no corporate interest behind it. Instead, the people working on Particl are supported entirely by community donations, without any strings attached or compromise for you. This brings down the total cost of doing online commerce.
 
-*“We help you to save more or make more money by cutting out the middle-man.“*
+*“We help you to save more or make more money by cutting out the middleman.“*
 
 ----
 
@@ -60,13 +60,13 @@ Squash The Rogues
 
 **You Stop Privacy Invasions and Backdoors** 
 
-No more stolen credit card information or passwords, compromised online accounts, or any online surveillance. When no data about you is created, it cannot be collected by anyone. And when no one collects it, it cannot be shared, sold, misused, hacked, or leaked anymore. That’s true for sellers and buyers regardless of whether it relates to your products, locations, payments, shipping information, preferences, or any online activity. You can now defend your human right to privacy and shield yourself from the many technical and political uncertainties of today’s world.
+No more stolen credit card information or passwords, compromised online accounts, or any online surveillance. When no data about you is created, it cannot be collected by anyone. And when no one collects it, it cannot be shared, sold, misused, hacked, or leaked anymore. That’s true for sellers and buyers regardless of whether it relates to your products, locations, payments, shipping information, preferences, or any online activity. As a result, you can now defend your human right to privacy and shield yourself from the many technical and political uncertainties of today’s world.
 
 *“We help you become invincible to privacy issues.”*
 
 **You Stop Restrictions, Politics, and Malice**
 
-:term:`Particl Marketplace` has a 100% uptime that is impossible to be taken offline or manipulated. No merchant, buyer, or product can be banned, censored, or canceled by all-powerful tech overlords. Instead, it's Particl's community that is in charge of what content is allowed or not on the marketplace. Across national borders, you can now enjoy free trade and free-market conditions without the interference of governing bodies or unfair legislation. Manufacturers, vendors, and producers can freely decide how and with whom they do business.
+:term:`Particl Marketplace` has a 100% uptime that is impossible to be taken offline or manipulated. No merchant, buyer, or product can be banned, censored, or canceled by all-powerful tech overlords. Instead, it's the Particl community that is in charge of what content is allowed or not on the marketplace. Across national borders, you can now enjoy free trade and free-market conditions without the interference of governing bodies or unfair legislation. Manufacturers, vendors, and producers can freely decide how and with whom they do business.
 
 *“We help you become bullet-proof against unfair restrictions.”*
 
@@ -78,7 +78,7 @@ No more bricks in the package or bad quality counterfeit goods for you as a cust
 
 **You Stop Spam and Unwanted Solicitations**
 
-Tailored ads are hammering on you even after making a purchase, and most of the time, even before you make it. You see them on the websites you visit, you encounter them throughout your emails, and directly on the apps that you use. It even affects how search engines deliver results to you. Invasive ads follow you wherever you go, and, every day, they crawl deeper into your life.
+Tailored ads are hammering on you even after making a purchase, and most of the time, even before you make it. You see them on the websites you visit, you encounter them throughout your emails, and directly on the apps you use. It even affects how search engines deliver results to you. Invasive ads follow you wherever you go, and, every day, they crawl deeper into your life.
 
 *“We help you to put an end to spam.”*
 
@@ -87,11 +87,11 @@ Tailored ads are hammering on you even after making a purchase, and most of the 
 Contribute To Society
 ---------------------
 
-E-commerce and online marketplaces have made the world of shopping and selling a very different place. The price wars destroyed small merchants, only to benefit online platform operators and financial services providers. As a result, small businesses have had to give up, while only a handful of large corporations continuing to dominate the market. The ones who suffer the most are the low-to-middle-class people, who are the heart of every nation throughout the world.
+E-commerce and online marketplaces have made the world of shopping and selling a very different place. The price wars destroyed small merchants, only to benefit online platform operators and financial services providers. As a result, small businesses have had to give up, while only a handful of large corporations continuing to dominate the market. The ones who suffer the most are the low-to-middle-class people, the heart of every nation throughout the world.
 
 **Pledge to Small Merchants, Manufacturers, and Producers**
 
-Breaking the online monopolies gives merchants, manufacturers, and producers of goods and services the ability to build a livelihood that is no longer dependent on middlemen and large corporation’s interests.
+Breaking the online monopolies gives merchants, manufacturers, and producers of goods and services the ability to build a livelihood that no longer depends on middlemen and large corporations' interests.
 
 **Pledge to Local Shops and Co-operatives**
 

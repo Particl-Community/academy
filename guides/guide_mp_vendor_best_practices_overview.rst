@@ -1,9 +1,9 @@
 Seller Best Practices
 =====================
 
-:term:`Particl Marketplace` is a :ref:`trustless marketplace <trustless setup>`, meaning that no single party controls it. Instead, the marketplace runs autonomously on a decentralized network that shifts the balance of responsibilities on the users rather than on the company operating the platform. That means you'll be interacting, directly and with no other party in between, with the seller of a product.
+:term:`Particl Marketplace` is a :ref:`trustless marketplace <trustless setup>`, meaning that no single party controls it. Instead, the marketplace runs autonomously on a decentralized network that shifts the balance of responsibilities on the users rather than on a platform's company. That means you'll be interacting, directly and with no other party in between, with the seller of a product.
 
-For this reason, it is well-advised for you to follow a range of best practices so that you can fully enjoy all the benefits that :term:`Particl Marketplace` and the free market have to offer while avoiding any bump.
+For this reason, it is well-advised for you to follow a range of best practices to fully enjoy all the benefits that :term:`Particl Marketplace` and the free market have to offer while avoiding any bump.
 
 Seller's General
 ----------------

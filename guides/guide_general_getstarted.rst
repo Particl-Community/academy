@@ -11,7 +11,7 @@ Quickstart
 
 :term:`Particl Marketplace` provides you with the most secure, private, and censorship-resistant e-commerce experience on the web.
 
-.. admonition:: Understanding the basics of Particl Maketplace
+.. admonition:: Understanding the basics of Particl Marketplace
 
    - Particl Academy - Intro :doc:`What You Gain <../intro/intro_general_particlmarketplace>`
    - Particl Academy - Intro :doc:`Target Audiences <../intro/intro_general_target_audiences>`
@@ -38,7 +38,7 @@ The following guides will take you through each step, from A to Z, so that you c
 
 .. admonition:: Get help
 
-	The Particl community takes care of you. In these locations you find answers and support.
+	Need help? The Particl community will take great care of you. At these locations, you'll find answers and support.
 
 	* :doc:`Frequently asked Questions (FAQ) <../faq/faq_mp_general_overview>`   
 	* :doc:`Common Issues <../faq/common_issues>`

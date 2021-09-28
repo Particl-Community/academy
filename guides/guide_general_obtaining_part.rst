@@ -8,12 +8,12 @@ Obtaining PART
 .. meta::
    :description lang=en: Where can I buy $PART coin?
 
-To use :term:`Particl Marketplace` and unfold its privacy features, the PART coin is the secret sauce. It can be purchased or exchanged using cryptocurrency exchanges and various online services.
+To use :term:`Particl Marketplace` and enjoy its privacy features, you need the PART coin. It can be purchased or exchanged using cryptocurrency exchanges and various online services.
 
 Cryptocurrency Exchanges
 ------------------------
 
-While cryptocurrency exchanges are mostly regulated and privately held companies with an intent on making a profit, they are the most common way to obtain coins. In some cases, owning Bitcoin is a prerequisite to purchasing PART.
+While cryptocurrency exchanges are mostly regulated and privately held companies intent on making a profit, they are the most common way to obtain coins. In some cases, owning Bitcoin is a prerequisite to purchasing PART.
 
 * `Bittrex (recommended) <https://bittrex.com/Market/Index?MarketName=BTC-PART>`_
 * `Probit (recommended) <https://www.probit.com/app/exchange/PART-BTC>`_
@@ -41,11 +41,11 @@ Non-custodial exchanges or swap exchanges are online services that let you direc
 .. rst-class:: bignums
 
 	#. Open the swap exchange website.
-	#. Choose the source cryptocurrency to swap from 
-	#. Choose PART as the target cryptocurrency 
-	#. Review the quote offered by the exchange
-	#. Send your coins to the address provided and wait for the transaction to be completed. This can take several minutes, depending on the exchange and the currency you trade for
-	#. Receive PART to your local wallet's :guilabel:`Public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details
+	#. Choose the source cryptocurrency to swap from.
+	#. Choose PART as the target cryptocurrency. 
+	#. Review the quote offered by the exchange.
+	#. Send your coins to the address provided and wait for the transaction to be completed. This can take several minutes, depending on the exchange and the currency you trade for.
+	#. Receive PART to your local wallet's :guilabel:`Public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details.
 
 
 In-App Swap Engine
@@ -60,7 +60,7 @@ The PART coin can also be obtained directly from within the :term:`Particl Deskt
 .. rst-class:: bignums
 
 	#. Open :term:`Particl Desktop`.
-	#. Open the :guilabel:`Swap` module in the dapps menu at the very left and then click on :guilabel:`Start New Exchange`. 
+	#. Open the :guilabel:`Swap` module from within the apps menu at the very left and then click on :guilabel:`Start New Exchange`. 
 	#. Set the number of PART coins you want to obtain and the currency you want to swap for it. Then click on the :guilabel:`Next` button.
 	#. Review the quote offered by the exchange. Click on the :guilabel:`Next` button to confirm.
 	#. Send your coins to the address provided and wait for the transaction to be completed. This can take several minutes, depending on the exchange and the currency you trade for.

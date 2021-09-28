@@ -9,9 +9,9 @@ Sell Process
       
       :description lang=en: Understanding the sellflow on Particl Marketplace. The marketplace owned by the people. 
 
-The selling process of :term:`Particl Marketplace` gives you more privacy, security, and censorship resistance than any other online marketplace and is entirely free to use except for the tiny sub-cent transaction fees usually associated with :term:`cryptocurrency <Cryptocurrency>` transactions. The price to pay for these previously impossible benefits is that you are required to do things a bit differently than what you are used to.
+The selling process of :term:`Particl Marketplace` gives you more privacy, security, and censorship resistance than any other online marketplace. It is entirely free to use except for the tiny sub-cent transaction fees usually associated with :term:`cryptocurrency <Cryptocurrency>` transactions. The price to pay for these previously impossible benefits is that you are required to do things a bit differently than what you are used to.
 
-Rest assured, it's not complicated at all. Just follow this quick user guide and you'll be up to speed in no time!
+Rest assured, it's not complicated at all. Just follow this quick user guide, and you'll be up to speed in no time!
 
 .. contents:: Table of Contents
    :local:
@@ -24,13 +24,13 @@ Publish Items
 
 .. attention::
 
-   To put an item for sale on Particl, you need to have PART coins in your :guilabel:`Public` or :guilabel:`Anon` balance so that you can pay for the listing fees. Funds in your :guilabel:`Anon` balance are also required to make security deposits into escrow contracts (which is equal to the value of any item purchased by a buyer).
+   To put an item for sale on Particl, you need to have PART coins in your :guilabel:`Public` or :guilabel:`Anon` balance so that you can pay for the listing fees. Funds in your :guilabel:`Anon` balance are also required to make security deposits into escrow contracts (which are equal to the value of any item purchased by a buyer).
 
 .. hint::
   
     **Wallet Unlocking**
 
-    To receive orders or to complete order steps, your :term:`Particl Desktop` client needs to be unlocked. You will not receive any order or get notifications on the progress of active orders if you keep your wallet locked. Make sure the padlock icon at the top-right corner of the status bar is unlocked.
+    To receive orders or to complete order steps, your :term:`Particl Desktop` client needs to be unlocked. You will not receive any order or get notifications on the progress of active orders if you keep your wallet locked. For this reason, make sure the padlock icon at the top-right corner of the status bar is unlocked.
 
 To make a sale on Particl, you need to first put items up for sale. There are many ways to create listings on Particl. The right way for you depends on your requirements.
 
@@ -45,29 +45,29 @@ Create a listing template
 .. rst-class:: bignums
 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products` followed by the :guilabel:`New` button.
-  #. Fill up all the text boxes with the information on your listing and upload a (or multiple) pictures of your product or service.
+  #. Fill up all the text boxes with the information on your listing and upload an (or multiple) image of your product or service.
 
 If you want to publish now
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. rst-class:: bignums
 
-  #. Click on :guilabel:`Publish right away` tile to select on which market you want to publish your listing an set the right category for your item accordingly.
+  #. Click on :guilabel:`Publish right away` tile to select which market you want to publish your listing and set the correct category for your item accordingly.
   #. Click on the :guilabel:`Save and Publish` button and choose the duration time for the item's listing.
   #. Click on :guilabel:`Publish Listing`.
 
 .. hint::
-  After one (1) blockchain confirmation (approximately 2 minutes) your listing will be live on the previously selected market(s).
+  After one (1) blockchain confirmation (approximately 2 minutes), your listing will be live on the previously selected market(s).
 
-If you want to publish later
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you want to publish it later
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Instead of publishing your listing immediately, you can save its template for later. When creating your listing template, instead of clicking on :guilabel:`Save and Publish`, you can click on the :guilabel:`Save` button to save your listing template and publish it later instead of right now.
 
 .. rst-class:: bignums
 
-  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate your saved listing and click on its tile to expand the details. Its status will show as :guilabel:`Listing unpublished`.
-  #. You can still edit the listing by clicking on the  :guilabel:`Edit` button, or publish it by clicking the :guilabel:`Publish` icon (rocket).
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate your saved listing, and click on its tile to expand the details. Its status will show as :guilabel:`Listing unpublished`.
+  #. You can still edit the listing by clicking on the  :guilabel:`Edit` button or publish it by clicking the :guilabel:`Publish` icon (rocket).
   #. You can also publish your listing in other community markets or storefronts by clicking on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
   #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
 
@@ -81,12 +81,12 @@ You can also publish your listing on multiple community markets and storefronts.
 
 .. rst-class:: bignums
 
-  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate the listing you want to publish on other community markets and click on its tile to expand the details.
-  #. Click on the green :guilabel:`Clone Product to Market` button and selecting which market (and category) you want to add your listing template to. 
+  #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Inventory & Products`, locate the listing you want to publish on other community markets, and click on its tile to expand the details.
+  #. Click on the green :guilabel:`Clone Product to Market` button and select which market (and category) you want to add your listing template to. 
   #. Choose the amount of time you want your listing to show up on the new market and click on :guilabel:`Publish Listing`.
 
 .. hint::
-  After one (1) blockchain confirmation (approximately 2 minutes) your listing will be live on the previously selected market(s). From this moment, a new market will be connected to your listing template. Repeat these steps for all community markets you want to publish your listing on.
+  After one (1) blockchain confirmation (approximately 2 minutes), your listing will be live on the previously selected market(s). From this moment, a new market will be connected to your listing template. Repeat these steps for all community markets you want to publish your listing on.
 
 Publish Multiple Items at Once
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -169,7 +169,7 @@ Accept an Order
 
 .. attention::
 
-	For your :term:`Particl Desktop` client to receive any bid from buyers, it needs to be online and unlocked. New orders won't show up in your :guilabel:`Orders` or :guilabel:`Overview` until you unlock your wallet. To do so, click on the padlock icon in the status icons bar at the top right corner.
+	For your :term:`Particl Desktop` client to receive any bid from buyers, it must be online and unlocked. New orders won't show up in your :guilabel:`Orders` or :guilabel:`Overview` until you unlock your wallet. To do so, click on the padlock icon in the status icons bar at the top right corner.
 
 When a buyer wants to buy something you're selling, they'll first make an order request that you need to accept. Accepting an order indicates to your buyer that you are willing to process his order.
 
@@ -187,8 +187,8 @@ Once you accept your buyer's order, they will be required to send their payment 
 .. rst-class:: bignums
 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
-  #. Look for any order marked as :guilabel:`ESCROW`, click on the order's tile to expand its details and make your security deposit by clicking on the :guilabel:`Complete escrow` button.
-  #. In the window that appears, you have the ability to leave your buyer a note. This is optional. Confirm your security deposit by clicking on the :guilabel:`Confirm & Fund`.
+  #. Look for any order marked as :guilabel:`ESCROW`, click on the order's tile to expand its details, and make your security deposit by clicking on the :guilabel:`Complete escrow` button.
+  #. In the window that appears, you can leave your buyer a note. This is optional. Confirm your security deposit by clicking on the :guilabel:`Confirm & Fund`.
 
 Package and Shipping an Order
 -----------------------------
@@ -200,7 +200,7 @@ After making your security deposit into the two-party escrow contract, you will 
   #. Package and ship out your item. 
   #. Open :guilabel:`Market` -> :guilabel:`SELL` -> :guilabel:`Orders` and check :guilabel:`Orders requiring attention` to only see orders that require your attention or filter them by status.
   #. Look for any order marked as :guilabel:`PACKAGING`, click on the tile to expand its details, add a package tracking number if needed, and click on the :guilabel:`Mark as shipped` button.
-  #. In the window that appears, you have the ability to send your buyer a tracking number. This is optional, and can be used to send over other types of data as well (i.e, download link). Confirm the order as shipped by clicking on :guilabel:`Yes, Order is shipped`.
+  #. In the window that appears, you can send your buyer a tracking number. This is optional and can be used to send over other types of data as well (i.e., download link). Confirm the order as shipped by clicking on :guilabel:`Yes, Order is shipped`.
 
 Receive and Verifying Payment
 -----------------------------

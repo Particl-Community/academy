@@ -5,7 +5,7 @@ Frequently Asked Questions
 
    The Particl Academy is up-to-date with Particl's latest version, |PD version|. 
 
-   Got any question not answered here? Then **let us know** about it so that we can help you out and update the Particl Academy!
+   Got any questions not answered here? Then **let us know** about it so that we can help you out and update the Particl Academy!
 
 Particl Coin Questions
 ----------------------

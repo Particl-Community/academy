@@ -2,7 +2,7 @@
 Two-Party Escrow Explained
 ==========================
 
-When buying from or selling to strangers online, you need to have the confidence that the other party will keep their end of the agreement and not scam you. That's why contract security and enforcement are essential when trading goods and services on any marketplace. 
+When buying from or selling to strangers online, you need to be confident that the other party will keep their end of the agreement and not scam you. That's why contract security and enforcement are essential when trading goods and services on any marketplace. 
 
 To guarantee your security in any given marketplace transaction, :term:`Particl Marketplace` requires you to use its unique and no-cost two-party escrow system.
 
@@ -27,7 +27,7 @@ High escrow fee
 
 No service is ever provided for free. Because there are massive underlying costs to running escrow services, they are provided at a sizeable cost. That's because escrow service providers need to hire staff, deploy secure systems, define and enforce policies, pay for never-ending legal fees, assume fraud risk, etc. 
 
-In some cases, marketplaces will clearly indicate the cost of securing a transaction with escrow or resolution services. In other cases, this cost is not indicated but instead included in the total transaction fee. 
+In some cases, marketplaces will clearly indicate the cost of securing a transaction with escrow or resolution services. In other cases, this cost is not independently displayed but instead included in the total transaction fee. 
 
 Biased resolutions
 ~~~~~~~~~~~~~~~~~~
@@ -43,12 +43,12 @@ Fraud and abuse
 
 Knowing that issue resolutions can be biased, online scammers have perfected the art of abusing escrow policies and tricking escrow agents. Even on very popular platforms like eBay or Paypal, “escrow scams” are rampant, leading to thousands of dollars being stolen every day around the world.
 
-One of the best examples of an escrow scam is the infamous but prominent “return scam” on eBay. Let’s say you put up an item worth $1,000 for sale online. The scammer will buy it from you, pay for the item, and wait to receive it. Once received, he will claim it isn’t working and request a refund. A refund requires them to ship back the item in the same package, which is what they do. But instead of putting your item back into the box, they’ll put scraps worth nothing but weighting the same as the initial item. This is often enough to trick the automated process used by eBay, and through this process, they can get refunded their payment and keep the item. 
+One of the best examples of an escrow scam is the infamous but prominent “return scam” on eBay. Let’s say you put up an item worth $1,000 for sale online. The scammer will buy it from you, pay for the item, and wait to receive it. Once received, he will claim it isn’t working and request a refund. A refund requires them to ship back the item in the same package, which is what they do. But instead of putting your item back into the box, they’ll put scraps worth nothing but weighing the same as the initial item. This is often enough to trick the automated process used by eBay, and through this process, they can get refunded their payment and keep the item. 
 
 Intrusive data requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To resolve a dispute, escrow services need to know as much as they can about you and the party you’re transacting with. All of this information is, of course, stored on one or more central databases for further reference and monetization.
+To resolve a dispute, escrow services need to know as much as they can about you and the party you’re transacting with. Of course, all of this information is stored on one or more central databases for further reference and monetization.
 
 This is an obvious case of storing too much data, leading to countless data breaches and leaks every year. The more data a company collects about its users, the bigger the target it becomes for hackers and abusers.
 
@@ -110,7 +110,7 @@ Particl’s two-party escrow system doesn’t generate any extra data. If no dat
 Total privacy
 ~~~~~~~~~~~~~
 
-Since two-party escrows don’t require the intervention of a third-party, personal information (i.e., shipping details) is only made available to the other person you’re transacting with. Nobody else in the world can know anything about any Particl escrow transaction. It’s the digital equivalent of making an in-person cash transaction.
+Since two-party escrows don’t require the intervention of a third-party, personal information (i.e., shipping details) is only made available to the other person you’re transacting with. Thus, nobody else in the world can know anything about any Particl escrow transaction. It’s the digital equivalent of making an in-person cash transaction.
 
 ----
 
@@ -122,11 +122,11 @@ Step-by-Step Process
     :alt: Particl Marketplace's phases of a deal
     :target: ../_static/media/images/001_phases_of_a_deal.png
 
-Using Particl's two-party escrow system is a step-by-step process which requires a few manual inputs from you. The complete flow of a single transaction, from the moment an order is placed to when the transaction is completed, is as follows.
+Using Particl's two-party escrow system is a step-by-step process that requires a few manual inputs from you. The complete flow of a single transaction, from the moment an order is placed to when the transaction is completed, is as follows.
 
 .. rst-class:: bignums
 
-    #. :guilabel:`BIDDING`: The buyer places an order (referred to as a "bid") and waits for the seller to accept it.
+    #. :guilabel:`ORDER REQUEST`: The buyer places an order request and waits for the seller to accept it.
     #. :guilabel:`ACCEPTED`: The seller accepts the bid and now waits for the buyer to send their payment and security deposit into the escrow smart-contract.
     #. :guilabel:`ESCROW`: The buyer sends their payment and security deposit into the escrow smart-contract and now waits for the seller to send their security deposit as well.
     #. :guilabel:`PACKAGING`: The seller has made their security deposit into the escrow smart-contract and is now packaging the order to ship it.
@@ -140,7 +140,7 @@ Understanding Game Theory
 
 To understand why Particl’s two-party escrow system is effective, it’s essential to understand the mathematical principles on which it relies.  Indeed, Particl’s escrow is based on “game theory”.
 
-By definition, game theory simply refers to the `study of mathematical models of strategic interaction among rational decision-makers <https://en.wikipedia.org/wiki/Game_theory>`_. In other words, how can rational decision-making be rewarded and irrational/dishonest behavior be punished at the same time?
+By definition, game theory simply refers to the `study of mathematical models of strategic interaction among rational decision-makers <https://en.wikipedia.org/wiki/Game_theory>`_. In other words, how can rational decision-making be rewarded and irrational/dishonest behavior be punished simultaneously?
 
 To accomplish that, Particl leverages the Mutually Assured Destruction (MAD) game theory and gives it a financial twist. "MAD" is a military doctrine *"based on the theory of deterrence, which stipulates that the threat of using strong weapons against the enemy prevents the enemy's use of those same weapons. The strategy is a form of Nash equilibrium in which, once armed, neither side has any incentive to initiate a conflict or to disarm"* (`Wikipedia <https://en.wikipedia.org/wiki/Mutual_assured_destruction>`_). 
 

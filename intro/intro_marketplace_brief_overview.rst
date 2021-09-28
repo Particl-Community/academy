@@ -5,9 +5,9 @@ Particl Marketplace Brief Overview
 .. meta::
    :description lang=en: Find out about key factors when using Particl Marketplace in a brief overview.
 
-The :term:`Particl Marketplace` is your private and :term:`decentralized <Decentralization>` online marketplace to buy and sell anything online. Here, there is no marketplace company, e-commerce service provider, database, server, hosting service, payment processor, bank, and no other kind of third-party involved. Just pure and confidential person-to-person transactions between you and another person.
+The :term:`Particl Marketplace` is your private and :term:`decentralized <Decentralization>` online marketplace to buy and sell anything online. Here, there is no marketplace company, e-commerce service provider, database, server, hosting service, payment processor, bank, and no other kind of third-party involved—just pure and confidential person-to-person transactions between you and another person.
 
-This gives you many new benefits not possible before with traditional e-commerce, but there are just a few things you need to be aware of before you get started. It's very easy to use,  Let's go over them!
+This gives you many new benefits not possible before with traditional e-commerce, but there are just a few things you need to be aware of before you get started. It's very easy to use; let's go over them!
 
 .. seealso::
 
@@ -18,7 +18,7 @@ This gives you many new benefits not possible before with traditional e-commerce
 Don't Trust, Verify!
 --------------------
 
-By making the choice to use :term:`Particl Marketplace`, you give yourself all the tools you need to confidently stay ahead of the technological curve with industry-leading :doc:`privacy technologies <../in-depth/indepth_privacy_tips>`.
+By choosing to use :term:`Particl Marketplace`, you give yourself all the tools you need to confidently stay ahead of the technological curve with industry-leading :doc:`privacy technologies <../in-depth/indepth_privacy_tips>`.
 
 And you don't need to trust anyone; the code is open-source, independently audited, and freely available online for everyone to inspect. See for yourself!
 
@@ -56,7 +56,7 @@ You can use an ever-growing list of digital currencies to make payments on :term
 
 .. note::
 
-	Payments with local, national currencies (i.e., USD, EUR) is planned to be integrated later on and will play a key role in making the platform even more accessible and convenient to use.
+	Payments with local, national currencies (i.e., USD, EUR) will be integrated later on. They will play a key role in making the platform even more accessible and convenient to use.
 
 .. seealso::
 
@@ -87,7 +87,7 @@ Phases of a Deal
     :alt: Particl Marketplace's phases of a deal
     :target: ../_static/media/images/001_phases_of_a_deal.png
 
-:term:`Particl Marketplace` not only saves you a lot of money, it also gives you a ton of security and privacy benefits. That's why you're willing to do :ref:`three more steps <Step-by-Step Process>` to complete a purchase in full!
+:term:`Particl Marketplace` not only saves you a lot of money, but it also gives you a ton of security and privacy benefits. That's why you're willing to do :ref:`three more steps <Step-by-Step Process>` to complete a purchase in full!
 
 These three additional steps are the only compromises made over traditional marketplaces. Now compare this tradeoff to all the benefits they get you. That’s a pretty sweet deal!
 
@@ -107,7 +107,7 @@ Community Markets
 
 Want to have your own shop or even launch an entire market? Do you want it to be publicly available or kept secret between a few individuals?
 
-On :term:`Particl Marketplace`, you can deploy as many :doc:`shops and markets <../guides/guide_mp_general_market_management>` as you wish. At all times, you stay in complete control of their associated data, their level of privacy, and accessibility. And to put icing on the cake, this all comes at no extra cost for you.
+On :term:`Particl Marketplace`, you can deploy as many :doc:`shops and markets <../guides/guide_mp_general_market_management>` as you wish. At all times, you stay in complete control of their associated data, their level of privacy, and accessibility. And to put the icing on the cake, this all comes at no extra cost for you.
 
 You can use :term:`community markets <Community Market>` for almost anything. You can launch your own brand stores, markets for your online community, NFT markets, art galleries (bidding auctions), VIP or private stores, OTC desks, pop-up stores, and pretty much anything you can imagine. The possibilities are endless!
 
@@ -124,7 +124,7 @@ The “wisdom of the crowd” is your secret power when it comes to moderating :
 
 Since you, everybody, and nobody owns the :term:`Particl Marketplace`, every participant has the equal ability to flag and take off undesirable content. 
 
-See something you think shouldn't be on the marketplace? Flag it! When enough people do the same, it will be taken off the marketplace. Flagging a listing will also take it off your local version of the marketplace so that you don't see it again.
+See something you think shouldn't be on the marketplace? Flag it! When enough people do the same, it will be taken off the market. Flagging a listing will also take it off your local version of the marketplace to prevent you from seeing it again.
 
 .. seealso::
 
@@ -136,9 +136,9 @@ See something you think shouldn't be on the marketplace? Flag it! When enough pe
 Work in Progress
 ----------------
 
-:term:`Particl Project` is an ever-ongoing work in progress. Every day, it’s getting better, easier to use, and more accessible. Exciting new projects and features constantly emerge to help the :term:`Particl ecosystem <Particl Ecosystem>` thrive. 
+:term:`Particl Project` is an ever-ongoing work in progress. Every day, it gets better, easier to use, and more accessible. Exciting new projects and features constantly emerge to help the :term:`Particl ecosystem <Particl Ecosystem>` thrive. 
 
-Come be a part of it – as a customer, vendor, promoter, developer, manager, or any other void you can fill with your passion.
+Be a part of it – as a customer, vendor, promoter, developer, manager, or any other void you can fill with your passion.
 
 .. admonition:: Action
 
@@ -148,8 +148,8 @@ Come be a part of it – as a customer, vendor, promoter, developer, manager, or
 
 **Almost there**
 
-Phew! You've made it this far! By now, you have quite a good understanding of the :term:`Particl Marketplace`. In the next section, you'll have a deeper look into all of its components. 
+Phew! You've made it this far! By now, you have a pretty good understanding of the :term:`Particl Marketplace`. In the next section, you'll have a deeper look into all of its components. 
 
-But perhaps you want to skip that part and install it right away? Then just head over to the :ref:`Installation Guides`.
+But perhaps you want to skip that part and install it right away? Then head over to the :ref:`Installation Guides`.
 
 ----

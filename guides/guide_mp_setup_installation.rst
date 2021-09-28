@@ -9,7 +9,7 @@ Installation Guides
    :description lang=en: step by step learn every aspect of the installation of Particl Destop & Marketplace.
    :keywords lang=en: Particl, Marketplace, Installation, Blockchain, Privacy, E-Commerce
 
-In this section you learn how to install :term:`Particl Marketplace`, additional software and how-to backup your data.
+In this section, you will learn how to install :term:`Particl Marketplace`, additional software, and how to backup your data.
 
 .. contents:: Table of Contents
    :local:
@@ -24,14 +24,14 @@ To get started with :term:`Particl Marketplace`, you need to download and instal
 Download 
 --------
 
-Choose the right version to download.
+Choose the correct version to download.
 
 .. tabs::
 	 .. group-tab:: Windows
 
 	 	**Windows file version**
 
-	 	Mostly you will be fine by downloading the :file:`particl-desktop-X.X.X-win.exe` installer file. It supports any version of Windows. Currently, 32-bit environments are an exception but this will change.
+	 	Mostly you will be fine by downloading the :file:`particl-desktop-X.X.X-win.exe` installer file. It supports any version of Windows.
 
 	 	**Download sources**
 
@@ -40,13 +40,13 @@ Choose the right version to download.
 
 		.. attention::
 
-   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets with the goal of stealing your funds! Always download from official sources only. 
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets to steal your funds! So always download from official sources only. 
 
 	 .. group-tab:: Mac
 
 	 	**MacOS file version**
 
-	 	Mostly you will be fine by downloading the :file:`particl-desktop-X.X.X-mac.dmg` installer image. It supports any version of MacOS including 10.15 (Catalina) or greater.
+	 	Mostly you will be fine by downloading the :file:`particl-desktop-X.X.X-mac.dmg` installer image. It supports any version of MacOS, including 10.15 (Catalina) or greater.
 
 	 	**Download sources**
 
@@ -55,15 +55,15 @@ Choose the right version to download.
 
 		.. attention::
 
-   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets with the goal of stealing your funds! Always download from official sources only. 
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets to steal your funds! So always download from official sources only. 
 
 	 .. group-tab:: Linux
 
 	 	**Linux file version**
 
-	 	Depending on your Linux distribution you have the choice between different packages including Debian based :file:`.deb`, :file:`.rpm` packages as well as a distribution independent :file:`.zip` version. 
+	 	Depending on your Linux distribution, you can choose between different packages, including Debian-based :file:`.deb`, :file:`.rpm` packages, a distribution independent :file:`.zip` version. 
 
-	 	Once you know which Linux distribution you are running, it's straight forward to find out which package manager you have and which package will suit you.
+	 	Once you know which Linux distribution you are running, it's straightforward to find out which package manager you have and which package will suit you.
 
 	 	**Download sources**
 
@@ -72,7 +72,7 @@ Choose the right version to download.
 
 		.. attention::
 
-   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets with the goal of stealing your funds! Always download from official sources only. 
+   		 NEVER download Particl clients from 3rd party websites! Bad actors are constantly trying to distribute malware-infected versions of popular :term:`cryptocurrency <Cryptocurrency>` wallets to steal your funds! So always download from official sources only. 
 
 Installation process
 --------------------
@@ -87,8 +87,8 @@ Installation process
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-win.exe` installer file.
 	 		#. Follow the installation instructions
-	 		#. A launcher is put on to your desktop and into the application launcher menu. Use this to start :term:`Particl Desktop`.
-	 		#. Assign rules to your computer`s firewall to allow communications. On a standard Windows installation :guilabel:`Microsoft Defender` pops up. You must grant access.
+	 		#. An executable file will be added to your desktop and into the application launcher menu. Use this to start :term:`Particl Desktop`.
+	 		#. Assign rules to your computer`s firewall to allow communications. On a standard Windows installation, :guilabel:`Microsoft Defender` pops up. You must grant access.
 
 	 .. group-tab:: Mac
 
@@ -97,13 +97,13 @@ Installation process
 	 	.. rst-class:: bignums
 
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
-	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image by pressing :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the appearing shortcut menu. *Do not just double click the icon.*
+	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-mac.dmg` installer image by pressing :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` and click :guilabel:`Open` from the appearing shortcut menu. *Do not just double-click the icon.*
 	 		#. Drag and drop the :term:`Particl Desktop.app <Particl Desktop>` file into the :guilabel:`Applications` folder. 
 	 		#. Open the :guilabel:`Applications` folder and locate the :term:`Particl Desktop.app <Particl Desktop>` file. 
 	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :term:`Particl Desktop.app <Particl Desktop>` file and click :guilabel:`Open`.
-	 		#. On the first launch the firewall of your computer must get a rule to allow :term:`Particl Desktop` to communicate with the blockchain. 
+	 		#. On the first launch, your computer's firewall must get a rule to allow Particl Desktop to communicate with the blockchain. 
 
-	 	From now on you will be able to start :term:`Particl Desktop` from the Launchpad or Spotlight (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
+	 	From now on you will be able to start :term:`Particl Desktop` from the Launchpad or Spotlight (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
 
 	 .. group-tab:: Linux
 
@@ -114,25 +114,25 @@ Installation process
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 		#. Navigate to where you've downloaded your installer file in the terminal.
 
-	 		#. *Depending on your package manager this command will vary. Using your standard package manager is recommended.*
+	 		#. *Depending on your package manager, this command will vary. Using your standard package manager is recommended.*
 
-	 			**Debian based installation**
+	 			**Debian-based installation**
 
 	 			.. code-block:: bash
 
 	 				sudo apt install particl-desktop-x.x.x-linux.deb
 
-				**RPM based installation** 
+				**RPM-based installation** 
 
 	 			.. code-block:: bash
 
 	 				sudo dnf -i particl-desktop-x.x.x-linux.rpm
 
-	 		#. An application launcher is put to your applications menu. Click this to start :term:`Particl Desktop` client.
+	 		#. An application launcher will be added your applications menu. Click it to start the :term:`Particl Desktop` client.
 
 	 	.. tip::
 
-	 		If you want to launch it from the terminal: At the time of writing the executable is named :code:`Particl Desktop` which makes it neccessary to open the file with quotation marks or escaping the string.
+	 		If you want to launch it from the terminal, quotation marks may be required because there is a space in the name (Particl Desktop).
 
 			.. code-block:: bash
 	
@@ -150,14 +150,14 @@ Installation process
 
 	**Loading and Syncing Times**
 
-	Because the :term:`Particl Marketplace`'s content is hosted on distributed Networks for payments and data-exchange, the marketplace may take a few minutes to sync. It may take even a few more minutes to fully load all marketplace's listings. This is to be normally expected and will get much faster as the Particl team improves the marketplace.
+	Because the :term:`Particl Marketplace`'s content is hosted on distributed Networks for payments and  exchange, the marketplace may take a few minutes to sync. It may take even a few more minutes to load all marketplace listings fully. This is to be normally expected and will get much faster as the Particl team improves the marketplace.
 
 Checksum verification
 ---------------------
 
 Obtain the checksum code from the official download sources for the downloaded file. Each file has its own checksum. 
 
-Being your own bank with blockchain related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by verifying its checksum.
+Being your own bank with blockchain-related products shifts some responsibilities to you. One of them is to take security seriously. Please make sure that the file you've downloaded isn't compromised in any way by verifying its checksum.
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -203,7 +203,7 @@ Being your own bank with blockchain related products shifts some responsibilitie
 
 	 				sha256sum filename
 
-Once that is done, compare the checksum output you've received in the step above with the checksum stated in the official download sources. The screenshot below shows you an example of this checksum highlighted from the GitHub releasenotes :guilabel:`Verification` section.
+Once that is done, compare the checksum output you've received in the step above with the checksum stated in the official download sources. The screenshot below shows you an example of this checksum highlighted from the GitHub release notes :guilabel:`Verification` section.
 
 .. figure:: ../_static/media/images/mp_installation_github_checksum_verification.png
     :align: center
@@ -214,16 +214,16 @@ Once that is done, compare the checksum output you've received in the step above
 
 **Troubleshooting checksum mismatch**
 
-If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases it might be possible that antivirus software may alter files, be sure to have a solution on your own in that case.
+If the output does not match, try to download the file again. Verify that you did not unzip or rename the file. In some cases, it might be possible that antivirus software may alter files, be sure to have a solution on your own in that case.
 
 .. attention::
 	
-	If all attempts fail to have a matching number do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out for :doc:`Particl Support <../faq/get_support>` for assistance. 
+	If all attempts fail to have a matching number, do not install :term:`Particl Desktop` unless you know what you are doing and try to reach out to :doc:`Particl Support <../faq/get_support>` for assistance. 
 
 Starting Particl Desktop
 ------------------------
 
-You have two options. Either startup with the launcher icon (recommended) or with a terminal command.
+You have two options: startup with the launcher icon (recommended) or a terminal command.
 
 Startup with Launcher
 ~~~~~~~~~~~~~~~~~~~~~
@@ -246,7 +246,7 @@ Startup with Launcher
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Spotlight` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE`) 
+	 		#. Open :guilabel:`Spotlight` (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE`) 
 	 		#. Type :code:`Particl`
 	 		#. Click on the :term:`Particl Desktop` launcher icon.
 
@@ -262,7 +262,7 @@ Startup with Launcher
 Startup from Terminal
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka commandline. It gives you plenty of output and information what is happening in the background.
+Sometimes it is handy to start :term:`Particl Marketplace` from the terminal, aka command line. It gives you plenty of output and information about what is happening in the background.
 
 .. tabs::
 
@@ -273,7 +273,7 @@ Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka
 	 	.. rst-class:: bignums
 
 	 		#. Open :guilabel:`Windows Explorer`
-	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g., :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
 	 			.. code-block:: bash
@@ -286,7 +286,7 @@ Sometimes it is handy to start :term:`Particl Marketplace` from the terminal aka
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Open :guilabel:`Terminal` (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
 	 		#. Type in this command:
 
 				.. code-block:: bash
@@ -311,7 +311,7 @@ Backup Account and Data
 File locations
 --------------
 
-After a successful installation of :term:`Particl Desktop` the main application has been installed into the standard location of your operating system. Once the :term:`Particl Desktop` is run the first time it will create user specific data within your user account. These include settings, logfiles, wallets and the blockchain-data itself. From time to time it is a reasonable measure to backup these data to an encrypted external resource.
+After a successful installation of :term:`Particl Desktop`, the main application has been installed into the standard location of your operating system. Once the :term:`Particl Desktop` is run the first time, it will create user-specific data within your user account. These include settings, log files, wallets, and the blockchain data itself. From time to time, it is a reasonable measure to backup these data to an encrypted external resource.
 
 .. tabs::
 	 .. group-tab:: Windows
@@ -369,7 +369,7 @@ The *only* privacy setting not turned on by default is the ability to keep your 
 
 .. attention::
 	
-	:term:`Tor` isn't enabled by default on Particl because it requires extra care from you to be truly safe. It's a network that runs independently from Particl on your computer and needs you to keep important security considerations in mind. 
+	:term:`Tor` isn't enabled by default on Particl because it requires extra care from you to be truly safe. It's a network that runs independently from Particl on your computer and needs you to keep critical security considerations in mind. 
 
 Install and Run Tor
 -------------------
@@ -405,7 +405,7 @@ Using the Tor daemon
 		.. rst-class:: bignums
 
 	 		#. Download the `Tor Browser <https://www.torproject.org/download/>`_ and install it on your computer.
-	 		#. Open :guilabel:`Windows Explorer` and navigate to the :term:`Tor` installation directory (e.g. :file:`C:\/Program Files\/Tor Browser`).
+	 		#. Open :guilabel:`Windows Explorer` and navigate to the :term:`Tor` installation directory (e.g., :file:`C:\/Program Files\/Tor Browser`).
 			#. Go into the :file:`Tor` directory, hold down :kbd:`SHIFT ⇧` and click with :kbd:`MOUSE-RIGHT ◳`.
 			#. Open :guilabel:`Open command window here` from the menu.
 			#. In the terminal that pops up, type:
@@ -470,7 +470,7 @@ Using the Tor daemon
 Using Tor as a Hidden Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On linux, you can also run :term:`Tor` as a hidden service and connect your :term:`Particl Desktop` to it. This allows other people to use your :term:`node <Node>` as an entry or exit point, making the :term:`Tor` network more :term:`decentralized <Decentralization>` and private.
+On Linux, you can also run :term:`Tor` as a hidden service and connect your :term:`Particl Desktop` to it. This allows other people to use your :term:`node <Node>` as an entry or exit point, making the :term:`Tor` network more :term:`decentralized <Decentralization>` and private.
 
 .. rst-class:: bignums
 
@@ -538,7 +538,7 @@ On linux, you can also run :term:`Tor` as a hidden service and connect your :ter
 Enable Tor on Particl
 ---------------------
 
-All you need to do to enable :term:`Tor` on Particl is to launch :term:`Particl Desktop` with the proper instructions. Either you to add a special argument to the command you use to launch Particl or you make it a permanent setting.
+All you need to do to enable :term:`Tor` on Particl is to launch :term:`Particl Desktop` with the proper instructions. Either you add a special argument to the command you use to launch Particl, or you make it a permanent setting.
 
 Enable by default from GUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -568,7 +568,7 @@ Enable by default from commandline
 
 .. note::
 
-	From now on :term:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :term:`Particl Desktop` has no access to the internet.
+	From now on, :term:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :term:`Particl Desktop` has no access to the internet.
 
 Enable with terminal startup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -581,7 +581,7 @@ Enable with terminal startup
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Windows Explorer` and press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g. :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. Open :guilabel:`Windows Explorer` and press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g., :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
 	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
 
 	 			.. code-block:: bash
@@ -594,7 +594,7 @@ Enable with terminal startup
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Open :guilabel:`Terminal` (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
 	 		#. Type in this command:
 
 				.. code-block:: bash
@@ -640,7 +640,7 @@ As the network itself is widely targeted by hackers due to the privacy it provid
 
 	 	.. rst-class:: bignums
 
-	 		#. Open :guilabel:`Terminal` (e.g. :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Open :guilabel:`Terminal` (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
 	 		#. Type this line of code and  hit :kbd:`ENTER ↵`
 
 	 			.. code-block:: bash

@@ -4,34 +4,12 @@
 
     .. container:: header
 
-        **Time offset warning icon (top right corner of Particl Desktop)**
-
-    This warning simply means your computer is synced to a different time than the Particl network. Usually, this doesn't cause any noticeable issue, but when the offset gets too big, it can cause errors in the propagation of :term:`SecureMessaging (SMSG)` messages (listings, escrow, etc).
-
-    .. tabs::
-	 .. group-tab:: Windows
-
-	 	#. Download timesync tool
-	 	#. etc
-
-	 .. group-tab:: Mac  
-
-	 	#. ? 
-
-	 .. group-tab:: Linux  
-
-	 	#. ? 
-
-.. container:: toggle
-
-    .. container:: header
-
         **Coins not showing up when importing 24-word passphrase**
 
     - Make sure you are using |PD version|. 
     - Make sure you haven't made any **typo** in any of the 24 words.
     - Enter your seed's password, if you have any.
-    - Try only entering your 24-word passphrase, **without** any password.
+    - Try only entering your 24-word passphrase **without** any password.
     - If all else fails, do a hard reset of Particl.
 
 .. container:: toggle

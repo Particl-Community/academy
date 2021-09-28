@@ -104,7 +104,7 @@ To Take a Stand
 
 As you may have noticed, the world is changing. More and more people are actively starting to take a stand in various facets of society. Using :term:`Particl Marketplace` is a very efficient but effortless way to do just that.
 
-For example, the sustainability movement pays special attention to not wasting resources and protecting them. This ranges from agricultural products and their production, to adequately treated and remunerated workforces.
+For example, the sustainability movement pays special attention to not wasting resources and protecting them. This ranges from agricultural products and their production to adequately treated and remunerated workforces.
 
 There are also groups like the libertarians, a reasonably sized community, having their very own interests. They seek autonomy, political freedom, self-determination and  constantly question the current economic and political systems. They care about our society, like most groups, but they have their own vision of it.
 

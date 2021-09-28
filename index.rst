@@ -9,12 +9,12 @@ Particl Academy
    :description lang=en: A guide to become an expert for responsible and sustainable e-commerce in privacy with Particl Marketplace. Thanks to decentralized blockchain technology. The reference book in straightforward language.
    :keywords lang=en: Particl, Marketplace, Documentation, Blockchain, Privacy, E-Commerce, Decentralized
 
-**A documentation for Particl Marketplace.**
+**Documentation for Particl Marketplace.**
 
 .. meta::
    :description lang=en: 
 
-Particl Academy guides you to become an expert for e-commerce with the :term:`Particl Marketplace`. It is the reference book in straightforward language.   
+Particl Academy guides you to become an expert for e-commerce with the :term:`Particl Marketplace`. It is a reference book in straightforward language.   
 
 :term:`Particl Marketplace` is the most secure and private online marketplace on the web, putting you at the center. You become the Robin Hood of retail, the Avenger against the forces of oppression, and the Punisher for rogues at the same time. Democracy is the force, and :term:`Particl Marketplace` your lightsaber.
 
@@ -49,7 +49,7 @@ Take your first few steps with understanding the :term:`Particl Marketplace`. Wh
 Installation & Usage
 ====================
 
-All begins with the installation of the :term:`Particl Desktop` software. Follow these best practices for the installation, set up your first wallet, and understand the user-interface:
+All begins with the installation of the :term:`Particl Desktop` software. Follow these best practices for the installation, set up your first wallet, and understand the user interface:
 
 .. toctree::
    :caption: Installation & Usage
@@ -162,7 +162,7 @@ Are you having an issue not covered in this section? Your invaluable insights wi
 Technical Documentation
 =======================
 
-More technical documentation can be found in these locations locations.
+More technical documentation can be found in these locations.
 
 * `Particl's Wiki <https://particl.wiki/>`_
 * `Particl's GitHub <https://github.com/particl>`_

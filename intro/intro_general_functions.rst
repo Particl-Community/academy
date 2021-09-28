@@ -34,7 +34,7 @@ Wallet Management
 Particl Cryptocurrency (PART)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The PART coin is Particl's native :term:`cryptocurrency <Cryptocurrency>`. It is a modern, secure, private, and flexible :term:`cryptocurrency <Cryptocurrency>` built on the most recent version of Bitcoin to which many improvements and extra functionalities have been added.
+The PART coin is Particl's native :term:`cryptocurrency <Cryptocurrency>`. It is a modern, secure, private, and flexible :term:`cryptocurrency <Cryptocurrency>` built on the most recent version of Bitcoin, to which many improvements and extra functionalities have been added.
 
 - Send and receive funds to anyone without any middleman.
 - Buy and sell goods and services on :term:`Particl Marketplace`.
@@ -53,14 +53,14 @@ In-depth details can be found at :ref:`Currency (PART) Explained`.
 Particl Proof-of-Stake (Staking)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Staking is the action of keeping a :term:`node <Node>` online to support and secure Particl's distributed network. When you do so, you start receiving regular staking rewards paid by the network in exchange for your contribution.
+Staking is the act of keeping a :term:`node <Node>` online to support and secure Particl's distributed network. When you do so, you start receiving regular staking rewards paid by the network in exchange for your contribution.
 
 - Earn dividend-like staking rewards in exchange for keeping Particl :term:`nodes <Node>` online.
 - Staking interest on Particl varies between 2% and 5% depending on the percentage of the supply being put up for staking.
 - The network gets more secure and resilient as more people stake.
-- "Cold staking" is a hyper secure staking option that lets you delegate your staking power to an online :term:`node <Node>` that contains no coin. 
+- "Cold staking" is a hyper-secure staking option that lets you delegate your staking power to an online :term:`node <Node>` that contains no coin. 
 - Particl provides many different cold staking variants, each one being as secure as the other ones.
-   - **Cold staking:** Stake your coins stored even when stored offline such as on cold wallets, hardware devices, or even paper wallets.
+   - **Cold staking:** Stake your coins stored even when stored offline, such as on cold wallets, hardware devices, or even paper wallets.
    - **Staking pool:** Combine your staking power with other stakers to earn more frequent payments.
    - **Hardware staking:** Stake your coins stored on hardware devices such as the Ledger Nano and the Trezor.
    - **Mobile staking:** Stake your coins stored on your phone without draining your battery.
@@ -73,10 +73,10 @@ Address Book (Contacts)
 
 Because funds need to be sent to cryptographic addresses, it can be hard to remember who owns which address. :term:`Particl Desktop`'s address book page is there specifically to help you make sense of these addresses by saving them to contacts.
 
-- Save both public and private PART addresses and enter their contact information
+- Save both public and private PART addresses and enter their contact information.
 - Display a contact's address and all of its details in a block explorer.
 - Sign and verify messages using PART addresses.
-- When sending funds to one of your contact, you can quickly pick their address from the address book. 
+- When sending funds to one of your contacts, you can quickly pick their address from the address book. 
 
 ----
 
@@ -94,7 +94,7 @@ Particl's :term:`Open Market` allows you to buy and sell products and services o
 
 - Buy and sell anything at no cost.
 - No commission, sales, withdrawal, or subscription fee.
-- Sell products on as many Particl market as desired.
+- Sell products on as many Particl markets as desired.
 - No pre-defined bans on products and services.
 - Every seller has equal exposure, no pay-to-win schemes.
 - Accessible from anywhere in the world.
@@ -108,14 +108,14 @@ Markets and Storefronts
 Additionally to the :term:`Open Market`, you can also create an infinite number of markets and storefronts. Each community market is hosted on the Particl network, along with the :term:`Open Market`, and can easily be connected to using :term:`Particl Desktop`.
 
 - Markets and storefronts offer the same functionalities as the :term:`Open Market`, but with a few extras.
-- Markets and storefronts are two different types of market, but are both usually referred to as "community markets".
+- Markets and storefronts are two different types of markets but are both usually referred to as "community markets".
 
    - **Markets:** A market type where anyone with access to it can buy and sell on. 
    - **Storefronts:** A market type where anyone can buy stuff, but only its creator and the people he delegates can sell on.
 - Community markets can be joined by anyone that knows their Market ID or by browsing the Market Browser.
 - Markets do not automatically show up in the Market Browser right after being created. They have to be manually promoted to it by its creator if they wish to gain additional exposure.
 
-The userguide can be found at :ref:`Markets & Storefronts`. 
+The user guide can be found at :ref:`Markets & Storefronts`. 
 
 Market Browser
 ~~~~~~~~~~~~~~
@@ -128,12 +128,12 @@ The Market Browser is where you can explore various different community markets 
 Inventory Management
 ~~~~~~~~~~~~~~~~~~~~
 
-:term:`Particl Marketplace` lets you manage your inventory by creating a listing template for each item you want to sell. Additionally, you can manage your inventory's quantity and variants (i.e. colors, sizes, etc). Quantity and variant management is currently under development and will be added at a later update.
+:term:`Particl Marketplace` lets you manage your inventory by creating a listing template for each item you want to sell. Additionally, you can manage your inventory's quantity and variants (i.e., colors, sizes, etc.). Quantity and variant management is currently under development and will be added at a later update.
 
-- Listing templates are reused everytime you want to republish an item on the marketplace.
+- Listing templates are reused every time you want to republish an item on the marketplace.
 - When a listing expires, the listing template saves its comments, feedback, and Q&A.
 - When a listing expires, it keeps its moderation score.
-- Listing templates can push listings on multiple community markets and storefronts
+- Listing templates can push listings on multiple community markets and storefronts.
 
 Two-Party Escrow System
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,10 +141,10 @@ Two-Party Escrow System
 Particl's two-party escrow system protects users against scammers and ensures that marketplace transactions can be completed in a safe way. It requires both parties to temporarily lock a security deposit that can only be refunded, at no fee, once both parties agree that a transaction was completed satisfactorily. This forces transacting parties to remain honest with each other and collaborate in case an issue arises.
 
 - Doesn't involve any middleman such as a third-party temporarily holding funds on behalf of transacting parties.
-- Free to use, no fee is charged for the service.
+- Free to use; no fee is charged for the service.
 - The escrow system is entirely autonomous and uses smart-contracts.
-- All transactions made with the escrow system are untraceable by default and no personal information can leak out.
-- Escrow transactions are secured by blockchain technology and cannot be interfered and tampered with.
+- All transactions made with the escrow system are untraceable by default, and no personal information can leak out.
+- Escrow transactions are secured by blockchain technology and cannot be interfered or tampered with.
 - Two-party escrow contracts are mandatory for all marketplace transactions.
 - You can check the status and progress of any escrow transaction at any time on :term:`Particl Desktop`.
 
@@ -157,7 +157,7 @@ To moderate the content of the marketplace, Particl relies on a distributed mode
 
 - No central authority or group of users with special permissions involved.
 - Your voting power is determined by the number of coins you own in your :guilabel:`Public` balance.
-- One coins equals one vote.
+- One coin equals one vote.
 - Both listings and community markets can be flagged and taken off Particl if deemed undesirable.
 - Moderation model based on the concept of direct democracy.
 - The system is based on blockchain technology and cannot be cheated.
@@ -167,38 +167,38 @@ In-depth details can be found at :ref:`Marketplace Moderation`.
 Questions and Answers
 ~~~~~~~~~~~~~~~~~~~~~
 
-Particl's Q&A feature allows buyers and sellers to publicly interact with each others directly from a listing's page. Buyers can ask questions, leave feedback, and make comments on listings while the seller can directly and publicly respond to each message.
+Particl’s "Comments and Reviews" feature allows buyers and sellers to interact with each other directly and publicly from a listing’s page. Buyers can ask questions, leave feedback, and make comments on listings, while the seller can directly and publicly respond to each message.
 
 The feature is additionally integrated into any transaction allowing two users to publicly communicate in case there's an issue with an order.
 
-- Ask a question, leave feedback, make comments, or ask for additional details on any listing's page.
+- Ask a question, leave feedback, make comments, or ask for additional details on any listing page.
 - Answer questions from shoppers directly inside a listing's page.
 - See all the messages left by other people.
-- Each new message creates a thread where the seller as well as anyone else can participate in.
+- Each new message creates a thread where the seller, as well as anyone else, can participate in.
 
 ----
 
 Swap
 ----
 
-The in-app swap module of :term:`Particl Desktop` is where you'll find everything you need to swap other :term:`cryptocurrencies <Cryptocurrency>` for PART. It is also where you'll find other payment options such as credit card payments, if any is available at the time. 
+The in-app swap module of :term:`Particl Desktop` is where you'll find everything you need to swap other :term:`cryptocurrencies <Cryptocurrency>` for PART. It is also where you'll find other payment options such as credit card payments if any is available at the time. 
 
 Swapping Assets
 ~~~~~~~~~~~~~~~
 
-- Swap any available :term:`cryptocurrency <Cryptocurrency>` (i.e. BTC) into PART to top up your Particl wallet.
+- Swap any available :term:`cryptocurrency <Cryptocurrency>` (i.e., BTC) into PART to top up your Particl wallet.
 - Connects to external exchanges using API.
 - "Atomic swaps" give you the option to swap available :term:`cryptocurrencies <Cryptocurrency>` for PART without requiring any middleman to facilitate the transaction (coming soon).
 
 Multi-Currency Support (Marketplace)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Pay for products and services using any of the available :term:`cryptocurrencies <Cryptocurrency>` (i.e. BTC).
+- Pay for products and services using any of the available :term:`cryptocurrencies <Cryptocurrency>` (i.e., BTC).
 - The marketplace automatically converts non-PART payments in PART before funding any two-party escrow contract.
 
 .. attention::
    
-   Particl's in-app swap engine is temporarily unavaible. We are working to get it back up as soon as possible!
+   Particl's in-app swap engine is temporarily unavailable. We are working on getting it back up as soon as possible!
 
 ----
 
