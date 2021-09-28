@@ -19,15 +19,7 @@ In this section you learn how to install :term:`Particl Marketplace`, additional
 Particl Marketplace
 ===================
 
-To get started with :term:`Particl Marketplace`, you need to download and install the :guilabel:`Particl Desktop` client software. Its installation is very easy and won't take you more than a few minutes! 
-
-The entire process of setting up :term:`Particl Marketplace`, from A to Z, can be seen in this walkthrough tutorial video.
-
-.. raw:: html
-
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://www.youtube.com/embed/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
+To get started with :term:`Particl Marketplace`, you need to download and install the :guilabel:`Particl Desktop` client software. Its installation is very easy and won't take you more than a few minutes!
 
 Download 
 --------

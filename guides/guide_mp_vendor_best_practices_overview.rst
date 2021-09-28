@@ -14,7 +14,7 @@ Understanding Particl Marketplace as a seller
 - Make sure you know how :term:`Particl Marketplace` and its various features work. The best way to do just that is to read the documentation contained here on the Particl Academy.
 - When first launching :term:`Particl Marketplace`, it can take several minutes for it to sync with the :term:`Particl Blockchain` and :term:`SMSG Network <SecureMessaging (SMSG)>`. If you don't see any listing, it's most likely because your client is still syncing. Just give it some more minutes to complete the process.
 - Because you can't decipher new orders or updates on active orders when your :term:`Particl Desktop` client is locked, make sure to unlock it before you start processing and working on orders. If you don't unlock your client, you won't see new orders or updates until you do.
-- After accepting an order from a buyer, keep in mind that you still have :doc:`two additional steps <../guides/guide_mp_customer_understanding_sellflow>` that you need to take. These extra steps are there to protect you from fraud.
+- After accepting an order from a buyer, keep in mind that you still have :doc:`two additional steps <../guides/guide_mp_vendor_understanding_sellflow>` that you need to take. These extra steps are there to protect you from fraud.
 
 Seller's Customer Care
 ----------------------

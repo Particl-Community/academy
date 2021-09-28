@@ -13,12 +13,6 @@ The selling process of :term:`Particl Marketplace` gives you more privacy, secur
 
 Rest assured, it's not complicated at all. Just follow this quick user guide and you'll be up to speed in no time!
 
-.. raw:: html
-
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="390" src="https://www.youtube.com/embed/IC9yY3MThoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-
 .. contents:: Table of Contents
    :local:
    :backlinks: none

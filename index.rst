@@ -59,11 +59,12 @@ All begins with the installation of the :term:`Particl Desktop` software. Follow
 
    guides/guide_general_getstarted
    guides/guide_mp_setup_installation
-   guides/guide_mp_general_understanding_userinterface
+..   guides/guide_mp_general_understanding_userinterface
 
 * :doc:`Quickstart Guide <guides/guide_general_getstarted>`
 * :doc:`Particl Desktop & Marketplace Installation <guides/guide_mp_setup_installation>`
-* :doc:`Understanding the User-interface <guides/guide_mp_general_understanding_userinterface>`
+
+.. * :doc:`Understanding the User-interface <guides/guide_mp_general_understanding_userinterface>`
 
 ----
 
