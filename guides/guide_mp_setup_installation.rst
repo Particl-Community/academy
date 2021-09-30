@@ -61,9 +61,9 @@ Choose the correct version to download.
 
 	 	**Linux file version**
 
-	 	Depending on your Linux distribution, you can choose between different packages, including Debian-based :file:`.deb`, :file:`.rpm` packages, a distribution independent :file:`.zip` version. 
+	 	Depending on your Linux distribution, you can choose between different packages, including Debian-based :file:`.deb`, :file:`.rpm` packages, a distribution independent :file:`.AppImage` version. 
 
-	 	Once you know which Linux distribution you are running, it's straightforward to find out which package manager you have and which package will suit you.
+	 	Once you know which Linux distribution you are running, it's straightforward to find out which package manager you have and which package will suit you. The distribution independent :file:`.AppImage` file will make your installation experience a blast.
 
 	 	**Download sources**
 
@@ -88,7 +88,9 @@ Installation process
 	 		#. Open the downloaded :guilabel:`particl-desktop-X.X.X-win.exe` installer file.
 	 		#. Follow the installation instructions
 	 		#. An executable file will be added to your desktop and into the application launcher menu. Use this to start :term:`Particl Desktop`.
-	 		#. Assign rules to your computer`s firewall to allow communications. On a standard Windows installation, :guilabel:`Microsoft Defender` pops up. You must grant access.
+	 		#. Assign allow-rules to your computer`s firewall and antivirus software. On a standard Windows installation, :guilabel:`Microsoft Defender` pops up.
+
+	 		Ignoring step 5 might cause a degraded blockchain sync experience and everything takes longer than expected or might cause communications problems. If you are unsure how to apply rules to your firewall and anti-virus software, please review the vendor's documentation of your installed programs.
 
 	 .. group-tab:: Mac
 
@@ -114,7 +116,7 @@ Installation process
 	 		#. :ref:`Verify the checksum <Checksum verification>` of the file.
 	 		#. Navigate to where you've downloaded your installer file in the terminal.
 
-	 		#. *Depending on your package manager, this command will vary. Using your standard package manager is recommended.*
+	 		#. *Depending on your package manager, this command will vary.*
 
 	 			**Debian-based installation**
 
@@ -128,7 +130,16 @@ Installation process
 
 	 				sudo dnf -i particl-desktop-x.x.x-linux.rpm
 
-	 		#. An application launcher will be added your applications menu. Click it to start the :term:`Particl Desktop` client.
+	 			**AppImage**
+
+	 			.. code-block:: bash
+
+	 				chmod a+x particl-desktop-x.x.x-linux.AppImage
+	 				./particl-desktop-x.x.x-linux.AppImage
+
+	 		#. On the first launch, your computer’s firewall must get a rule to allow Particl Desktop to communicate with the blockchain.
+
+	 		An application launcher will be added your applications menu when using :file:`.deb` or :file:`.rpm` installations. Click it to start the :term:`Particl Desktop` client.
 
 	 	.. tip::
 
