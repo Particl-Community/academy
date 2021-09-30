@@ -129,7 +129,7 @@ SMSG powers the Particl Marketplace without bloating the blockchain with excessi
 
 .. note::
 
- A new version of :term:`SMSG <SecureMessaging (SMSG)>` is scheduled to be released later on. This massive update will significantly improve the network's scalability, performance, and reliability. This will consumer-level adoption of Particl products possible.
+ A new version of :term:`SMSG <SecureMessaging (SMSG)>` is scheduled to be released later on. This massive update will significantly improve the network's scalability, performance, and reliability. This will make consumer-level adoption of Particl products possible.
 
 .. seealso::
 
