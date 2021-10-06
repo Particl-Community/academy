@@ -478,6 +478,110 @@ Using the Tor daemon
 
 					sudo systemctl enable tor
 
+
+Enable Tor on Particl
+---------------------
+
+All you need to do to enable :term:`Tor` on Particl is to launch :term:`Particl Desktop` with the proper instructions. Either you add a special argument to the command you use to launch Particl, or you make it a permanent setting.
+
+Enable by default from GUI
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. rst-class:: bignums
+
+	#. Open :term:`Particl Desktop` and click on :guilabel:`Particl Desktop Settings` in the bottom left corner
+	#. Go to :guilabel:`Core network connection` and put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150` if you are using the Tor Browser OR :code:`127.0.0.1:9050 if you are using the Tor daemon
+	#. Hit :guilabel:`Save changes` and restart :term:`Particl Desktop`
+
+Enable by default from commandline
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. rst-class:: bignums
+
+	#. Open the configuration file: 
+
+		.. code-block:: bash
+
+			nano ~/.particl/particl.conf
+
+	#. If you are using Tor Browser add this line to the configuration file:
+
+		.. code-block:: bash
+
+			proxy=127.0.0.1:9150
+		
+		If you are using Tor daemon add this line to the configuration file:
+
+		.. code-block:: bash
+
+			proxy=127.0.0.1:9050	
+
+.. note::
+
+	From now on, :term:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :term:`Particl Desktop` has no access to the internet.
+
+Enable with terminal startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. tabs::
+
+	.. group-tab:: Windows
+
+	 	**Launching Particl With Tor**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Windows Explorer` and press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g., :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
+	 		#. If you are using Tor Browser, type following commands into the terminal and hit :kbd:`ENTER ↵`.
+	 			
+	 			.. code-block:: bash
+
+	 				“Particl Desktop.exe” -proxy=127.0.0.1:9150
+	 			
+	 			If you are using Tor daemon, type following commands into the terminal and hit :kbd:`ENTER ↵`.
+
+	 			.. code-block:: bash
+
+	 				“Particl Desktop.exe” -proxy=127.0.0.1:9050		
+
+	.. group-tab:: Mac
+
+	 	**Launching Particl With Tor**
+
+	 	.. rst-class:: bignums
+
+	 		#. Open :guilabel:`Terminal` (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
+	 		#. Type in this command if you are using Tor Browser:
+
+				.. code-block:: bash
+
+					/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
+
+				Type in this command if you are using Tor daemon:
+
+				.. code-block:: bash
+
+					/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9050	
+
+	.. group-tab:: Linux
+
+	 	**Launching Particl With Tor**
+
+	 	.. rst-class:: bignums
+	 	
+	 		#. Open a terminal in the folder where you've installed :term:`Particl Desktop` and type the following command if you are using Tor Browser.
+		
+				.. code-block:: bash
+
+					./Particl\ Desktop -proxy=127.0.0.1:9150
+
+			type the following command if you are using Tor daemon.
+		
+				.. code-block:: bash
+
+					./Particl\ Desktop -proxy=127.0.0.1:9050		
+
+
 Using Tor as a Hidden Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -545,85 +649,6 @@ On Linux, you can also run :term:`Tor` as a hidden service and connect your :ter
 			maxconnections=30
 
 		Save and exit the nano file editor by pressing :kbd:`CTRL` + :kbd:`c`, then type :kbd:`y` followed by :kbd:`ENTER ↵` to save the changes.
-
-Enable Tor on Particl
----------------------
-
-All you need to do to enable :term:`Tor` on Particl is to launch :term:`Particl Desktop` with the proper instructions. Either you add a special argument to the command you use to launch Particl, or you make it a permanent setting.
-
-Enable by default from GUI
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. rst-class:: bignums
-
-	#. Open :term:`Particl Desktop` and click on :guilabel:`Particl Desktop Settings` in the bottom left corner
-	#. Go to :guilabel:`Core network connection` and put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150`
-	#. Hit :guilabel:`Save changes` and restart :term:`Particl Desktop`
-
-Enable by default from commandline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. rst-class:: bignums
-
-	#. Open the configuration file: 
-
-		.. code-block:: bash
-
-			nano ~/.particl/particl.conf
-
-	#. Add this line to the configuration file:
-
-		.. code-block:: bash
-
-			proxy=127.0.0.1:9150
-
-.. note::
-
-	From now on, :term:`Particl Desktop` will try to connect with the settings you made. That means if :guilabel:`Tor` is not running on your machine, then :term:`Particl Desktop` has no access to the internet.
-
-Enable with terminal startup
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. tabs::
-
-	.. group-tab:: Windows
-
-	 	**Launching Particl With Tor**
-
-	 	.. rst-class:: bignums
-
-	 		#. Open :guilabel:`Windows Explorer` and press :kbd:`SHIFT ⇧` + :kbd:`MOUSE-RIGHT ◳` on the Installation folder (e.g., :file:`C:\/Program Files\/Particl`) and choose :guilabel:`Open command window here` or :guilabel:`Open power shell here`.
-	 		#. Type the following command into the terminal and hit :kbd:`ENTER ↵`.
-
-	 			.. code-block:: bash
-
-	 				“Particl Desktop.exe” -proxy=127.0.0.1:9150
-
-	.. group-tab:: Mac
-
-	 	**Launching Particl With Tor**
-
-	 	.. rst-class:: bignums
-
-	 		#. Open :guilabel:`Terminal` (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`)
-	 		#. Type in this command:
-
-				.. code-block:: bash
-
-					/Applications/Particl\ Desktop.app/Contents/MacOS/Particl\ Desktop -proxy=127.0.0.1:9150
-
-	.. group-tab:: Linux
-
-	 	**Launching Particl With Tor**
-
-	 	.. rst-class:: bignums
-	 	
-	 		#. Open a terminal in the folder where you've installed :term:`Particl Desktop` and type the following command.
-		
-				.. code-block:: bash
-
-					./Particl\ Desktop -proxy=127.0.0.1:9150
-
 
 Important Considerations
 ------------------------
