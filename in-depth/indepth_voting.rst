@@ -79,7 +79,7 @@ Non-Protocol Consensus-Changing Proposals
 +---------------+----------------------------------------------+
 |     Quorum    | 20% of all the blocks during a voting period |
 +---------------+----------------------------------------------+
-| Approval Rate |                >= 75% in favor               |
+| Approval Rate |                >= 60% in favor               |
 +---------------+----------------------------------------------+
 |    Duration   |             5,040 blocks minimum             |
 +---------------+----------------------------------------------+
@@ -96,7 +96,7 @@ Protocol Consensus Changing Proposals
 +---------------+----------------------------------------------+
 |     Quorum    | 20% of all the blocks during a voting period |
 +---------------+----------------------------------------------+
-| Approval Rate |                >= 60% in favor               |
+| Approval Rate |                >= 75% in favor               |
 +---------------+----------------------------------------------+
 |    Duration   |             10,080 blocks minimum            |
 +---------------+----------------------------------------------+
