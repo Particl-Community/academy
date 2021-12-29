@@ -372,46 +372,37 @@ After a successful installation of :term:`Particl Desktop`, the main application
 Install Tor (Network Privacy)
 =============================
 
+.. attention::
+
+	The *only* privacy setting not turned on by default is the ability to keep your IP address anonymous when using Particl. This is done by routing your client's connection through Tor, a networking protocol designed to anonymize your IP address.
+
 .. danger::
 	
 	Always make sure your :term:`Tor` is up-to-date with the latest version. This is a critical requirement that, if not followed, can heavily compromise your online privacy and potentially let other people spy on your online activity.
 
-The *only* privacy setting not turned on by default is the ability to keep your IP address anonymous when using Particl. This is done by routing your client's connection through Tor, a networking protocol designed to anonymize your IP address.
-
-.. attention::
-	
 	:term:`Tor` isn't enabled by default on Particl because it requires extra care from you to be truly safe. It's a network that runs independently from Particl on your computer and needs you to keep critical security considerations in mind. 
 
-Install and Run Tor
--------------------
-
-To make sure you don't download a compromised version of Tor, always make sure to download it from their official website. What good would updating :term:`Tor` do to you if it lets the door wide open to hackers? 
-
-To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the :term:`Tor` files you download, even if it's from Tor's official website.
-
-To do so, follow this tutorial on `how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the :term:`Tor` team itself.	
+To make sure you don't download a compromised version of Tor, always download it from their official website. What good would updating :term:`Tor` do to you if it lets the door wide open to hackers? To avoid any `man-in-the-middle-attack <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`_, always verify the cryptographic signature of the :term:`Tor` files you download, even if it's from Tor's official website. To do so, follow this tutorial on `how to verify Tor signatures <https://support.torproject.org/tbb/how-to-verify-signature/>`_ written by the :term:`Tor` team itself.	
 
 The :term:`Tor` network can be installed using three different methods. Always make sure that, regardless of the installation method you choose, :term:`Tor` is running the latest version before using it.
 
-Using the Tor Browser
-~~~~~~~~~~~~~~~~~~~~~
+Using the Tor browser
+---------------------
 
 .. rst-class:: bignums
 
 	#. Download the `Tor Browser <https://www.torproject.org/download/>`_ and install it on your computer.
-	#. Launch the :term:`Tor` Browser.
+	#. Launch the :term:`Tor` browser.
 	#. Connect to the :term:`Tor` network by clicking on :guilabel:`Connect` or configure your connection parameters by clicking on :guilabel:`Configure`.
 	#. Once connected, leave the :term:`Tor` Browser running in the background of your computer.
 
 
 Using the Tor daemon
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. tabs::
 
 	.. group-tab:: Windows
-
-		**Run Tor daemon**
 
 		.. rst-class:: bignums
 
@@ -432,8 +423,6 @@ Using the Tor daemon
 					sc query "Tor" | find "RUNNING"
 
 	.. group-tab:: Mac
-
-	 	**Using the Tor daemon**
 
 	 	.. tip:: 
 
@@ -461,8 +450,6 @@ Using the Tor daemon
 
 	.. group-tab:: Linux
 
-	 	**Using the Tor daemon**
-
 	 	.. rst-class:: bignums
 
 	 		#. Open a :guilabel:`Terminal`
@@ -479,10 +466,10 @@ Using the Tor daemon
 					sudo systemctl enable tor
 
 
-Enable Tor on Particl
----------------------
+Enable Tor on Particl Desktop
+-----------------------------
 
-All you need to do to enable :term:`Tor` on Particl is to launch :term:`Particl Desktop` with the proper instructions. Either you add a special argument to the command you use to launch Particl, or you make it a permanent setting.
+Enable :term:`Tor` support for :term:`Particl Desktop` with the proper proxy instructions. Either you add a special argument to the command you use to launch :term:`Particl Desktop`, or you make it a permanent setting.
 
 Enable by default from GUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -490,7 +477,7 @@ Enable by default from GUI
 .. rst-class:: bignums
 
 	#. Open :term:`Particl Desktop` and click on :guilabel:`Particl Desktop Settings` in the bottom left corner
-	#. Go to :guilabel:`Core network connection` and put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150` if you are using the Tor Browser OR :code:`127.0.0.1:9050 if you are using the Tor daemon
+	#. Go to :guilabel:`Core network connection` and put into the :guilabel:`Connect via Proxy` field :code:`127.0.0.1:9150` if you are using the Tor Browser OR :code:`127.0.0.1:9050` if you are using the Tor daemon
 	#. Hit :guilabel:`Save changes` and restart :term:`Particl Desktop`
 
 Enable by default from commandline
@@ -575,7 +562,7 @@ Enable with terminal startup
 
 					./Particl\ Desktop -proxy=127.0.0.1:9150
 
-			type the following command if you are using Tor daemon.
+				type the following command if you are using Tor daemon.
 		
 				.. code-block:: bash
 
