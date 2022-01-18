@@ -4,6 +4,19 @@
 
     .. container:: header
 
+        **How do I open the marketplace in order to see listings?**
+
+    1. Be sure to have the latest version of :term:`Particl Desktop` installed. The :ref:`Quickstart` guide may help you greatly.
+    2. After the initial startup, have some patience to let the :term:`blockchain` sync in the background. On a fibre connection this takes up to 15 minutes. The following startups will sync-up way faster.
+    3. Click on :guilabel:`MARKET` -> :guilabel:`BROWSE` and wait until numbers start to count up beside the :guilabel:`REFRESH` button. As soon as the first numbers appear click on :guilabel:`REFRESH`. Listings appear.
+    
+    Be sure you don’t see any warnings in the top right „status“ bar. If you still don’t see any listings feel free to reach out on the community support channels. :ref:`Get support`
+    
+
+.. container:: toggle
+
+    .. container:: header
+
         **What does each order status mean?**
 
     - :guilabel:`ORDER REQUEST`: You have requested an order on an item and are now waiting for the vendor to accept it.
