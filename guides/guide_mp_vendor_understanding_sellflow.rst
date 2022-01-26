@@ -24,7 +24,7 @@ Publish Items
 
 .. attention::
 
-   To put an item for sale on Particl, you need to have PART coins in your :guilabel:`Public` or :guilabel:`Anon` balance so that you can pay for the listing fees. Funds in your :guilabel:`Anon` balance are also required to make security deposits into escrow contracts (which are equal to the value of any item purchased by a buyer).
+   To put an item for sale on Particl Marketplace, you need to have PART coins in your :guilabel:`Public` (default) or :guilabel:`Anon` balance so that you can pay for the listing fees (data consumption on the network). Funds in your :guilabel:`Anon` balance are also required to make security deposits into the escrow contracts. Those security deposits are equal to the item's value purchased by a buyer and become due when you accept a buyer's bid. 
 
 .. hint::
   
