@@ -90,7 +90,7 @@ Installation process
 	 		#. An executable file will be added to your desktop and into the application launcher menu. Use this to start :term:`Particl Desktop`.
 	 		#. Assign allow-rules to your computer`s firewall and antivirus software. On a standard Windows installation, :guilabel:`Microsoft Defender` pops up.
 
-	 		Ignoring step 5 might cause a degraded blockchain sync experience and everything takes longer than expected or might cause communications problems. If you are unsure how to apply rules to your firewall and anti-virus software, please review the vendor's documentation of your installed programs.
+	 		.. note:: Ignoring step 5 might cause a degraded blockchain sync experience and everything takes longer than expected or might cause communications problems. If you are unsure how to apply rules to your firewall and anti-virus software, please review the vendor's documentation of your installed programs.
 
 	 .. group-tab:: Mac
 
@@ -103,9 +103,11 @@ Installation process
 	 		#. Drag and drop the :term:`Particl Desktop.app <Particl Desktop>` file into the :guilabel:`Applications` folder. 
 	 		#. Open the :guilabel:`Applications` folder and locate the :term:`Particl Desktop.app <Particl Desktop>` file. 
 	 		#. Press :kbd:`CONTROL` + :kbd:`MOUSE-RIGHT ◳` on the :term:`Particl Desktop.app <Particl Desktop>` file and click :guilabel:`Open`.
-	 		#. On the first launch, your computer's firewall must get a rule to allow Particl Desktop to communicate with the blockchain. 
+	 		#. On the first launch, your computer's firewall must get a rule to allow Particl Desktop to communicate with the blockchain.
 
 	 	From now on you will be able to start :term:`Particl Desktop` from the Launchpad or Spotlight (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "Particl" > hit :kbd:`ENTER ↵`) search.
+
+	 	.. note:: Ignoring step 6 might cause a degraded blockchain sync experience and everything takes longer than expected or might cause communications problems. If you are unsure how to apply rules to your firewall and anti-virus software, please review the vendor's documentation of your installed programs.
 
 	 .. group-tab:: Linux
 
@@ -141,6 +143,8 @@ Installation process
 
 	 		An application launcher will be added your applications menu when using :file:`.deb` or :file:`.rpm` installations. Click it to start the :term:`Particl Desktop` client.
 
+	 		.. note:: Ignoring step 4 might cause a degraded blockchain sync experience and everything takes longer than expected or might cause communications problems. If you are unsure how to apply rules to your firewall and anti-virus software, please review the vendor's documentation of your installed programs.
+
 	 	.. tip::
 
 	 		If you want to launch it from the terminal, quotation marks may be required because there is a space in the name (Particl Desktop).
@@ -161,7 +165,7 @@ Installation process
 
 	**Loading and Syncing Times**
 
-	Because the :term:`Particl Marketplace`'s content is hosted on distributed Networks for payments and  exchange, the marketplace may take a few minutes to sync. It may take even a few more minutes to load all marketplace listings fully. This is to be normally expected and will get much faster as the Particl team improves the marketplace.
+	Because the :term:`Particl Marketplace`'s content is hosted on distributed Networks for payments and exchange of data, the marketplace may take a few minutes to sync. It may take even a few more minutes to load all marketplace listings fully. This is to be normally expected and will get much faster as the Particl team improves the marketplace. If you open the :guilabel:`Market` > :guilabel:`Browse` module, keep an eye on the :guilabel:`Refresh` button. As soon as a counter appears new listings have arrived. Click on it to refresh the listings display.
 
 Checksum verification
 ---------------------
@@ -315,6 +319,10 @@ Sometimes it is handy to start :term:`Particl Marketplace` from the terminal, ak
 				.. code-block:: bash
 
 					./Particl\ Desktop
+
+
+.. include:: /faq/common_issues_desktop_installation.rst.txt
+
 
 Backup Account and Data
 =======================
