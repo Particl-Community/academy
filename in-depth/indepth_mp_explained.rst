@@ -82,7 +82,7 @@ If you want to sell or purchase an item on :term:`Particl Marketplace`, browse l
  - Github - `Particl Desktop <https://github.com/particl/particl-desktop>`_
 
 The Back-end 
------------
+------------
 
 The back-end of any application or platform refers to the part that is not directly accessed by the user, typically responsible for storing and manipulating data. These are the various protocols, including the :term:`Particl Blockchain`, that bring the :term:`Particl Ecosystem` to life. 
 

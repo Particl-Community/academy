@@ -126,7 +126,7 @@ The second step of the process is to publish the listing templates you've just c
   #. Click on :guilabel:`Publish selected products` and wait for :term:`Particl Desktop` to publish your listings. A progress bar at the bottom of the screen indicates the progress.
 
 .. Import WooCommerce Inventory
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   If you are already selling online, more specifically on WooCommerce, then you can simply export your products into a Particl compatible CSV inventory file by following `this WooCommerce tutorial <https://docs.woocommerce.com/document/product-csv-importer-exporter/>`_. Once that is done, you can then easily import the CSV inventory file on Particl by following the simple steps that follow.
 

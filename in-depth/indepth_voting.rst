@@ -27,7 +27,7 @@ Ideally, :term:`decentralized <Decentralization>` governance mechanisms strive t
 Particl's model in a nutshell
 =============================
 
-The Particl project is all about decentralization, security, privacy, and personal freedom. That's why its governance follows a :term:`decentralized <Decentralized>`, fair, and genuinely democratic model.
+The Particl project is all about decentralization, security, privacy, and personal freedom. That's why its governance follows a :term:`decentralized <Decentralization>`, fair, and genuinely democratic model.
 
 Indeed, anyone from the Particl community can publish proposals on the CCS platform. Each proposal has to first go through a discussion phase, after which it gets moved to a voting phase. That's when the rest of the community can vote to either approve or reject the proposal using their staking power.
 

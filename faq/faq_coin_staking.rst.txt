@@ -4,7 +4,7 @@
 
     .. container:: header
 
-        **Why are some of my coins aren't staking after receiving my last staking reward?**
+        **Why are some of my coins not staking after receiving my last staking reward?**
 
     When staking, your coins are separated into multiple outputs. Each output stakes separately with the hopes of finding and verifying a block.
 
