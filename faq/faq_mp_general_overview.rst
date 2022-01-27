@@ -10,6 +10,7 @@ Frequently Asked Questions
 Particl Coin Questions
 ----------------------
 
+.. include:: faq_coin_general.rst.txt
 .. include:: faq_coin_staking.rst.txt
 
 ----
