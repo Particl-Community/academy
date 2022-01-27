@@ -1,0 +1,9 @@
+.. **Coin General FAQ**
+
+.. .. container:: toggle
+
+    .. container:: header
+
+        **Question**
+
+    Answer
