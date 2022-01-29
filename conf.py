@@ -126,7 +126,10 @@ html_theme_options = {
     "sticky_navigation": True,
     "navigation_depth": '3',
     "titles_only": False,
-    "theme_vcs_pageview_mode": 'edit',
+}
+
+html_context = {
+    'theme_vcs_pageview_mode': 'edit'
 }
 
 # -- Options for linkcheck --

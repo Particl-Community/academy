@@ -1,14 +1,13 @@
 ========
-testpage
+Testpage
 ========
 
-This page is for testing purposes.
+This page is for testing purposes. It showcases the reStructuredText markup with its rendered and raw versions for different formats and usecases. 
 
-.. note::
-	
-	#. Best practice is to `open Getting Started <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>`_ to see how things shall look like in the end. 
-	#. If you found your example click on :guilabel:`Edit on Gitub` in the top right corner. 
-	#. Finally click the :guilabel:`raw` version with github to see how the markup was realized.
+.. admonition:: See also
+
+   * Sphinx Docs `Sphinx Primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
+   * Sphinx Docs `TOC <https://www.sphinx-doc.org/en/master/usage/index.html>`_
 
 .. contents:: Table of Contents
    :local:
@@ -30,7 +29,7 @@ Each page should have its own metadata to have a descent intro on the searchengi
 Headings Test
 =============
 
-This area shows some sample texts. Or an internal link to a certain page like the :doc:`Particl Support Page <faq/get_support>` n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_ or to reference to a heading on this page like :ref:`Video` or :ref:`Images` but you can also reference another page :doc:`like this <intro/intro_general_particlmarketplace>`
+This area shows some sample texts. Or an internal link to a certain page like the :doc:`Particl Support Page <../faq/get_support>` n other than that we have some roles like *emphasis* **strong** ``literal`` and so on. It is even possible to reference a link: `Make me laugh`_ or to reference to a heading on this page like :ref:`Video` or :ref:`Images` but you can also reference another page :doc:`like this <../intro/intro_general_particlmarketplace>`
 
 First heading
 =============
@@ -127,7 +126,7 @@ A bigmessage can be placed where it is really needed.
 Glossary Test
 =============
 
-We have now a glossary file ":doc:`glossary`" which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx` or :term:`FooBarLoo as I want<Sphinx>`.
+We have now a glossary file ":doc:`../glossary`" which should be populated with definitions. Then we can reference these definitions like this -> :term:`Sphinx` or :term:`FooBarLoo as I want<Sphinx>`.
 
 .. code-block:: rst
 
@@ -264,7 +263,7 @@ To support cross-referencing to arbitrary locations in **any** document, the sta
 
 **Cross-referencing documents** There is also a way to directly link to documents. Link to the specified document; the document name can be specified in absolute or relative fashion:
 
-* :menuselection:`faq --> common_issues.rst` as relative path :doc:`link text <_templates/../faq/common_issues>`.
+* :menuselection:`faq --> common_issues.rst` as relative path :doc:`link text <../faq/common_issues>`.
 * :menuselection:`faq --> common_issues.rst` as absolute path :doc:`link text </faq/common_issues>`.
 
 .. code-block:: rst
@@ -276,11 +275,11 @@ To support cross-referencing to arbitrary locations in **any** document, the sta
 Download Links
 ==============
 
-See :download:`this image <_static/images/particl-logo-green.png>`.
+See :download:`this image </_static/images/particl-logo-green.png>`.
 
 .. code-block:: rst
 
-  See :download:`this image <_static/images/particl-logo-green.png>`.
+  See :download:`this image </_static/images/particl-logo-green.png>`.
 
 Video
 =====
@@ -303,17 +302,17 @@ Video
 Images
 ======
 
-.. figure:: ./_static/media/images/canvas_w_logo.png
+.. figure:: /_static/media/images/canvas_w_logo.png
     :align: center
     :alt: Particl Logo on a dark canvas
-    :target: ./_static/media/images/canvas_w_logo.png
+    :target: /_static/media/images/canvas_w_logo.png
 
 .. code-block:: rst
 
-      .. figure:: ./_static/media/images/canvas_w_logo.png
+      .. figure:: /_static/media/images/canvas_w_logo.png
           :align: center
           :alt: Particl Logo on a dark canvas
-          :target: ./_static/media/images/canvas_w_logo.png
+          :target: /_static/media/images/canvas_w_logo.png
 
 Boxes
 =====
@@ -818,11 +817,11 @@ Including files
 
 We are able to include files and render them locally. This is very helpful for the FAQ sections as we are able to deliver the FAQ additionally at the place where it might be needed. For the nature that faq do have a repetitve character in certain sections we do not need to write them again and they are always up to date. The naming is important to prevent double rendering.
 
-.. include:: faq/faq_testpage.rst.txt
+.. include:: /faq/faq_testpage.rst.txt
 
 .. code-block:: rst
 
-    .. include:: faq/faq_testpage.rst.txt
+    .. include:: /faq/faq_testpage.rst.txt
 
 Epilogs
 =======
