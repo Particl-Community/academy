@@ -383,7 +383,7 @@ Configure Sublime Merge
 Merging, Branching, and Commits
 -------------------------------
 
-Branches in Git are snapshots of your code repository at a given state. You can switch between them and/more merge code back and forth.
+Branches in Git are snapshots of your code repository at a given state. You can switch between them and/or merge code back and forth.
 
 With your initial cloning of your Academy as origin repository you're by default on the master branch. As soon as you checkout (switch) into a different branch all your files get modified according to its branch status. If you switch back, you're back on the initial code base.
 
