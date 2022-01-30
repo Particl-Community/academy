@@ -515,7 +515,7 @@ FAQ
 
     Try to find out if there’s already a language branch. You can find the branches on the upstream repository. The person who created it has a fork himself and is then a maintainer if no other person may have been denominated. Try to contact them to tackle your tasks as a team.
 
-    It’s of utmost importance you have people at hand able to proofread your writings in any case. Ideally, a non-literal person can understand what you have written.
+    It’s of utmost importance you have people at hand able to proofread your writings in any case. Ideally, a Particl unaware person can understand what you have written.
 
 .. container:: toggle
 
