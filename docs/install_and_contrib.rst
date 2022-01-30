@@ -12,8 +12,8 @@ If you are an occasional contributor and you only want to add one or two lines, 
 
    **General Contribution Flow**
 
-   1. Fork the :code:`particl-community/academy` repository into your forked repository and clone the forked repository into your local repository.
-   2. Do your changes, commit them, and push from your local to your forked repository on Github.
+   1. Fork the :code:`particl-community/academy` repository as your forked repository and clone the forked repository into your local repository.
+   2. Do your changes, review them in a local live version of the Academy, commit them, and push from your local to your forked repository on Github.
    3. Create a pull request as your contribution's integration request on the upstream :code:`particl-community/academy` repository.
    4. After a manual review by the maintainers, your code gets merged.
    5. A new Academy version gets rendered and is instantly available.
@@ -297,7 +297,7 @@ Configure Sublime Text
 .. rst-class:: bignums
 
    #. Open :guilabel:`Sublime-Text`
-   #. Click on :guilabel:`File` > :guilabel:`Open Folder` > Navigate to and select the previously cloned _:code:`academy` folder.
+   #. Click on :guilabel:`File` > :guilabel:`Open Folder` > Navigate to and select the previously cloned :code:`academy` folder.
    #. Create a new build shortcut
 
       #. Click on :guilabel:`Tools` > :guilabel:`Build System` > :guilabel:`New Build System`
@@ -531,7 +531,7 @@ FAQ
 
         **How can I discuss a certain topic regarding the Academy?**
 
-    Open an :guilabel:`issue` on the `Origin Academy Repository <https://github.com/particl-community/academy/issues>`_.
+    Open an :guilabel:`issue` on the `Upstream Academy Repository <https://github.com/particl-community/academy/issues>`_.
 
 .. container:: toggle
 
@@ -540,3 +540,11 @@ FAQ
         **Can I create some PR's for testing purposes?**
 
     You can create them, but they won't get merged. So, behave.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Can I use a different software for editing?**
+
+    Yes you can. Examples are `Atom <https://atom.io>`_ or `Visual Code <https://code.visualstudio.com>`_ or really any other text editor. But you'll need to adapt the processes yourself. So, everything in this tutorial is done the way to take you up to light-speed.
