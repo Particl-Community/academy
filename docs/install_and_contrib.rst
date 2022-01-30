@@ -138,6 +138,7 @@ Download & Install Additional Packages
 
             choco install git git-lfx gh sublimetext4 sublimemerge -y
             choco install python -y
+            # close the powershell and open a new one; then proceed
             pip install sphinx sphinx-rtd-theme sphinx-copybutton sphinx-tabs rst2pdf
 
 
@@ -310,7 +311,7 @@ Configure Sublime Text
             .. code-block:: bash
 
                {
-               "shell_cmd": "cd %USERPROFILE%/academy && rmdir /s /q _build && make html"
+               "shell_cmd": "cd %USERPROFILE%\\academy & rmdir /s /q _build & make html"
                }
 
          .. group-tab:: MacOS
@@ -399,7 +400,7 @@ The master branch is the one where the live version of the Academy gets rendered
 
 *What you can do here*
 
-You can fix typos, add content, and create pull requests to the origin repository. 
+You can fix typos, add content, and create pull requests to the upstream repository. 
 
 
 **Branch: Temp**
