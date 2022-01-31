@@ -138,7 +138,7 @@ Download & Install Additional Packages
 
             choco install git git-lfx gh sublimetext4 sublimemerge -y
             choco install python -y
-            # close the powershell and open a new one; then proceed
+            # close the powershell and open a new one; then proceed;
             pip install sphinx sphinx-rtd-theme sphinx-copybutton sphinx-tabs rst2pdf
 
 
@@ -154,6 +154,7 @@ Download & Install Additional Packages
             brew install git git-lfs gh sublime-text sublime-merge
             brew install python
             brew link python
+            # close the terminal and open a new one; then proceed;
             pip install sphinx sphinx-rtd-theme sphinx-copybutton sphinx-tabs rst2pdf
 
          **Check Python Versions**
@@ -319,7 +320,7 @@ Configure Sublime Text
             .. code-block:: bash
 
                {
-               "shell_cmd": "cd ~/academy && rm -Rf _build && make html"
+               "shell_cmd": "cd ~/academy ; [ -d \"_build\" ] && rm -Rf _build ; make html"
                }
 
          .. group-tab:: Linux
@@ -327,7 +328,7 @@ Configure Sublime Text
             .. code-block:: bash
 
                {
-               "shell_cmd": "cd ~/academy && rm -Rf _build && make html"
+               "shell_cmd": "cd ~/academy ; [ -d \"_build\" ] && rm -Rf _build ; make html"
                }
 
       #. Save as :code:`buildAcademy.sublime-build`
