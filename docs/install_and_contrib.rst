@@ -515,9 +515,16 @@ FAQ
 
         **What do I need to consider when translating content?**
 
-    Try to find out if there’s already a language branch. You can find the branches on the upstream repository. The person who created it has a fork himself and is then a maintainer if no other person may have been denominated. Try to contact them to tackle your tasks as a team.
+    1. Try to find out if there’s already a language branch.
+      You can find the `available branches on the upstream repository <https://github.com/Particl-Community/academy/branches/all>`_. The person who created it has a fork himself and is then a maintainer if no other person may have been denominated. Try to contact them to tackle your tasks as a team. Here you can `find all the forks <https://github.com/Particl-Community/academy/network/members>`_. If none is there, claim it.
 
-    It’s of utmost importance you have people at hand able to proofread your writings in any case. Ideally, a Particl unaware person can understand what you have written.
+    2. Claim langID branches like described in the previous answer.
+
+    3. Publish your progress frequently to your fork repository.
+      Otherwise people willing to contribute to your language will have a hard time what to do and may face work done twice.
+
+    4. Ensure proofreading.
+      In any case, it’s of utmost importance you have people at hand able to proofread your writings. Ideally, a Particl unaware person understands what you have written.
 
 .. container:: toggle
 
