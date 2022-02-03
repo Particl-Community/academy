@@ -17,4 +17,4 @@ information.
 
 ### Note
 
-The Particl Academy documentation is based on Read the Docs. Content is written in RestfulText.
+The Particl Academy documentation is based on Read the Docs. Content is written in reStructuredText.
