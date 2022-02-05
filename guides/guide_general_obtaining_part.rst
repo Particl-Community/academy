@@ -6,14 +6,14 @@ Obtaining PART
    Particl Marketplace Obtain $PART Coin
 
 .. meta::
-   :description lang=en: Where can I buy $PART coin?
+   :description lang=en: Where can I buy Particl Coin ($PART) coin?
 
 To use :term:`Particl Marketplace` and enjoy its privacy features, you need the PART coin. It can be purchased or exchanged using cryptocurrency exchanges and various online services.
 
 Cryptocurrency Exchanges
 ------------------------
 
-While cryptocurrency exchanges are mostly regulated and privately held companies intent on making a profit, they are the most common way to obtain coins. In some cases, owning Bitcoin is a prerequisite to purchasing PART.
+While cryptocurrency exchanges are mostly regulated and privately held companies out for a profit, they are the most common way to obtain coins. In some cases, owning Bitcoin is a prerequisite to purchasing PART.
 
 * `Bittrex (recommended) <https://bittrex.com/Market/Index?MarketName=BTC-PART>`_
 * `Probit (recommended) <https://www.probit.com/app/exchange/PART-BTC>`_
@@ -21,13 +21,16 @@ While cryptocurrency exchanges are mostly regulated and privately held companies
 .. rst-class:: bignums
 
 	#. Register on the cryptocurrency exchange of choice
-	#. (Optional) If you don't already own Bitcoin, trade some using other cryptocurrencies
+		 
+		 As a rule of thumb it's a good measure to read their terms of service always in advance.
+
+	#. (Optional) If you don't already own Bitcoin, trade some for other currencies
 	#. Trade Bitcoin (BTC) for Particl (PART)
 	#. Withdraw PART to your local wallet's :guilabel:`Public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details 
 
 .. seealso::
 
- - Particl Website - `Full list of PART exchanges <https://particl.io/part-exchanges/>`_
+ - Particl Website - `Full list of PART exchanges <https://particl.io/coin#exchanges>`_
  - Particl Academy - :ref:`Managing Funds - Receive Coins <Receive Coins>`
 
 
@@ -36,7 +39,7 @@ Non-Custodial Exchanges
 
 Non-custodial exchanges or swap exchanges are online services that let you directly exchange one cryptocurrency for another without intermediary steps and double fees.
 
-* `WizardSwap (recommended) <https://wizardswap.io>`_
+* `WizardSwap (recommended) <https://www.wizardswap.io/?crypto_a=BTC&crypto_b=PART&amount=0.0025>`_
 
 .. rst-class:: bignums
 
@@ -44,8 +47,13 @@ Non-custodial exchanges or swap exchanges are online services that let you direc
 	#. Choose the source cryptocurrency to swap from.
 	#. Choose PART as the target cryptocurrency. 
 	#. Review the quote offered by the exchange.
-	#. Send your coins to the address provided and wait for the transaction to be completed. This can take several minutes, depending on the exchange and the currency you trade for.
-	#. Receive PART to your local wallet's :guilabel:`Public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details.
+	#. Send your coins to the address provided 
+
+		 and wait for the transaction to be completed. This can take several minutes, depending on the exchange and the currency you trade for.
+
+	#. Receive PART to your local wallet's :guilabel:`Public` address 
+
+		 within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details.
 
 
 In-App Swap Engine
