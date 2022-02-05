@@ -4,6 +4,26 @@
 
     .. container:: header
 
+        **Coins not showing up when receiving an anon payment**
+
+    When you hold or receive coins in either blind or anon balances, the balances aren't displayed on your :term:`Particl Desktop` until you unlock it. This is a security measure.
+
+    #. Make sure the payment was sent to the blockchain. 
+
+        Check the transaction on the `Particl blockchain explorer <https://explorer.particl.io>`_ . 
+
+    #. Make sure the receiving wallet is unlocked.
+
+        Click on the :guilabel:`Vault Icon` in the top right corner.
+
+    #. Make sure the receiving wallet's blockchain is in sync.
+
+        Open the :guilabel:`Debug Console` in the bottom left corner and enter the command :code:`getblockchaininfo` then compare the chain height output to the `Particl blockchain explorer status <https://explorer.particl.io/status>`_ 
+
+.. container:: toggle
+
+    .. container:: header
+
         **Coins not showing up when importing 24-word passphrase**
 
     - Make sure you are using |PD version|. 
@@ -16,15 +36,45 @@
 
     .. container:: header
 
-        **Particl is indefinitely loading a wallet and not starting up**
+        **Number of coins not showing up in private balances and transaction history**
 
-    - Make sure you are using |PD version|. 
-    - Close :term:`Particl Desktop` and reopen it.
+    When you hold or receive coins in either blind or anon balances, the balances aren't displayed on your :term:`Particl Desktop` until you unlock it. This is a security measure.
 
 .. container:: toggle
 
     .. container:: header
 
-        **Number of coins not showing up in private balances and transaction history**
+        **Where can I find logfiles in order to determine a problem?**
 
-    When you hold coins in either blind or anon balances, the balances aren't displayed on your :term:`Particl Desktop` until you unlock it with your password. This is a security measure designed to keep your private balances private from prying eyes.
+    .. tabs::
+
+        .. group-tab:: Windows
+
+            .. code-block:: none
+
+             ## Blockchain debug.log
+             %UserProfile%\AppData\Roaming\Particl\debug.log
+
+             ## Marketplace market.log
+             %UserProfile%\AppData\Roaming\particl-market\03\market.log
+
+        .. group-tab:: MacOS
+
+            .. code-block:: bash
+
+             ## Blockchain debug.log
+             ~/Library/Application\ Support/Particl/debug.log
+
+             ## Marketplace market.log
+             ~/Library/Application\ Support/particl-market/03/market.log
+
+        .. group-tab:: Linux
+
+            .. code-block:: bash
+
+             ## Blockchain debug.log
+             ~/.particl/debug.log
+
+             ## Marketplace market.log
+             ~/.particl-market/03/market.log
+
