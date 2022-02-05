@@ -6,9 +6,9 @@ Currency (PART) Explained
       
       :description lang=en: Deep dive explanation of Particl's privacy coin PART.
 
-PART is the untraceable :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl Blockchain`; a :term:`blockchain <Blockchain>` based on the Bitcoin code on which several privacy and utility technologies have been added. It enables you to make independent, secure, borderless, and private payments without requiring any third-party like a bank or a payment processor.
+PART is the :term:`cryptocurrency <Cryptocurrency>` of the :term:`Particl Blockchain`; a :term:`blockchain <Blockchain>` based on and always kept up-to-date Bitcoin's code but with several privacy and utility technologies added.
 
-PART is also the settlement currency of the :term:`Particl Marketplace`. Regardless of the currency used by the buyer to initiate a transaction, all payments on the marketplace are ultimately converted into PART before the :doc:`escrow stage <../in-depth/indepth_escrow>`.
+The list of its utility is growing and demand is derived from the :term:`Particl Ecosystem's <Particl Ecosystem>` applications.
 
 ----
 
@@ -19,25 +19,55 @@ PART is also the settlement currency of the :term:`Particl Marketplace`. Regardl
 
 ----
 
-What are cryptocurrencies?
---------------------------
+.. container:: toggle
 
-:term:`Cryptocurrencies <Cryptocurrency>` are digital units of currency. They can be transferred person-to-person without requiring any third-party (like a bank or a payment processor) to facilitate transactions. They enable near-free, near-instant, and borderless currency transactions that cannot be held up, blocked, reversed (chargebacks), or delayed by any party.
+    .. container:: header
 
-**What are their benefits?**
+         What are cryptocurrencies?
 
-- They can be used anywhere in the world, at any time (100% uptime).
-- Transactions are near-free; usually just a few cents or even less per transaction.
-- Transactions are near-instant; they usually take a few seconds or minutes for they're fully settled.
-- Transactions cannot be reversed (no chargebacks).
-- You keep complete control of your financial data.
+    :term:`Cryptocurrencies <Cryptocurrency>` are digital units of currency. They can be transferred person-to-person without requiring any third-party (like a bank or a payment processor) to facilitate transactions. They enable near-free, near-instant, and borderless currency transactions that cannot be held up, blocked, reversed (chargebacks), or delayed by any party.
 
-**A few things to keep in mind...**
+    **What are their benefits?**
 
-- Payments are sent to unique cryptographic addresses similar to bank account numbers.
-- Once you send a payment, you cannot modify or cancel it. Always double-check the payment details before making a transaction.
-- You and only you are responsible for the security of your funds. They cannot be retrieved if you lose your password(s) or control over your wallets(s).
-- The price of almost any cryptocurrency is volatile by nature and based on the concept of supply and demand.
+    - They can be used anywhere in the world, at any time (100% uptime).
+    - Transactions are near-free; usually just a few cents or even less per transaction.
+    - Transactions are near-instant; they usually take a few seconds or minutes for they're fully settled.
+    - Transactions cannot be reversed (no chargebacks).
+    - You keep complete control of your financial data.
+
+    **A few things to keep in mind...**
+
+    - Payments are sent to unique cryptographic addresses similar to bank account numbers.
+    - Once you send a payment, you cannot modify or cancel it. Always double-check the payment details before making a transaction.
+    - You and only you are responsible for the security of your funds. They cannot be retrieved if you lose your password(s) or control over your wallets(s).
+    - The price of almost any cryptocurrency is volatile by nature and based on the concept of supply and demand.
+
+----
+
+Part Coin's Utility
+-------------------
+
+Medium of Exchange
+==================
+
+Like most other cryptocurrencies out there PART can be used for payments without intermediaries. You can make independent, secure, borderless, and private payments without requiring any third party like a bank or a payment processor and you decide about the height of your transaction’s data privacy at any time prior to a payment.
+
+Marketplace Payments and Settlements
+====================================
+
+The PART coin is the settlement layer of :term:`Particl Marketplace`. All marketplace payments are converted into PART :ref:`before the seller receives a bid from a buyer <Technicals of a Buy Flow>`. PART is needed  as settlement of payments because of the :doc:`two-party escrow system <../in-depth/indepth_escrow>`. It works using an anonymous escrow smart-contract on the :term:`Particl Blockchain`, and for this reason, it needs to use the blockchain's native coin.
+
+One of the results of settling all marketplace transactions in PART is that a fair number of coins are constantly locked in escrow, away from circulation. This directly reduces the circulating PART supply on trading markets while naturally stimulating its demand. This dynamic gets stronger the more items get sold on :term:`Particl Marketplace`.
+
+@todo: add calculation of supply lock;
+
+BasicSwap trading fees
+======================
+
+@todo: add short intro; add calculation of fees;
+
+.. note::
+ Although paying for an order on :term:`Particl Marketplace` is done manually using an in-app swap module, a more automatic mechanism is planned for later during the Beta phase of development.
 
 Blockchain Specifications
 -------------------------
@@ -135,7 +165,7 @@ PART has an adjustable level of privacy and lets you choose between three differ
 | **Taproot**                      | Yes (Taproot-ready as of Particl Core 0.21+)|
 +----------------------------------+---------------------------------------------+
 
-PART has three different types of transactions, each with its own purpose, cost, level of privacy, type of balance, and settings. All three types are available on :term:`Particl Desktop`, where you can easily convert your coins from one kind of balance to another. 
+All three types are available on :term:`Particl Desktop`, where you can easily convert your coins from one kind of balance to another. 
 
 Public transactions
 ===================
@@ -195,18 +225,6 @@ Anon transactions can be made more or less anonymous by manually adjusting the n
 
 Read the :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_funds>` user guide for more information on making different types of transactions.
 
-Marketplace Payments and Settlements
-------------------------------------
-
-The PART coin is the settlement layer of :term:`Particl Marketplace`. Although you can initiate transactions using other cryptocurrencies (i.e., Bitcoin), all marketplace payments are converted into PART :ref:`before the seller receives a bid from a buyer <Technicals of a Buy Flow>`.
-
-All :term:`Particl Marketplace` transactions are settled in PART because of the :doc:`two-party escrow system <../in-depth/indepth_escrow>`. It works using an anonymous escrow smart-contract on the :term:`Particl Blockchain`, and for this reason, it needs to use the blockchain's native coin. 
-
-One of the results of settling all marketplace transactions in PART is that a fair number of coins are constantly locked in escrow, away from circulation. This directly reduces the circulating PART supply on trading markets while naturally stimulating its demand. This dynamic gets stronger as more people use :term:`Particl Marketplace`.
-
-.. note::
- Although paying for an order on :term:`Particl Marketplace` is done manually using an in-app swap module, a more automatic mechanism is planned for later during the Beta phase of development.
-
 ----
 
 .. seealso::
@@ -218,8 +236,8 @@ One of the results of settling all marketplace transactions in PART is that a fa
  - Particl Academy - Guide :doc:`Funds, Coins, and Balances <../guides/guide_mp_general_managing_funds>`
  - Particl Academy - Guide :doc:`Obtaining PART <../guides/guide_general_obtaining_part>`
  - Particl Wiki - `PART coin frequently asked questions <https://particl.wiki/support/faq/part-coin/>`_
- - Particl Website - `PART coin specifications <https://particl.io/coin-specifications>`_
- - Particl Website - `PART coin exchanges <https://particl.io/part-exchanges/>`_
+ - Particl Website - `PART coin specifications <https://particl.io/coin>`_
+ - Particl Website - `PART coin exchanges <https://particl.io/coin/#exchanges>`_
  - Particl Website - `Particl user guides <https://particl.io/user-guides/>`_
  - CoinGecko - `Particl on CoinGecko <https://www.coingecko.com/en/coins/particl>`_
  - CoinMarketCap - `Particl on CoinMarketCap <https://coinmarketcap.com/currencies/particl>`_
