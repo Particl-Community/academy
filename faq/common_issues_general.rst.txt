@@ -4,6 +4,22 @@
 
     .. container:: header
 
+        **A payment is stuck. Can I abandon the transaction?**
+
+    If for any reason you'd like to abandon a payment transaction follow these steps.
+
+    #. Copy the transaction ID (txid) to your clipboard. 
+
+        Open :guilabel:`Wallet` -> choose the corresponding wallet from the :guilabel:`Wallet Chooser` -> :guilabel:`History` -> find and unfold the TX from the :guilabel:`Transaction Browser` -> Click :guilabel:`Copy TX ID`
+
+    #. Open the :guilabel:`Console` in the bottom left corner.
+
+        Enter :code:`abandontransaction TXID` where TXID stands for your transaction id in your clipboard which you can paste by pressing :kbd:`CTRL` + :kbd:`V` or :kbd:`COMMAND ⌘` + :kbd:`V` on a Mac.
+
+.. container:: toggle
+
+    .. container:: header
+
         **Coins not showing up when receiving an anon payment**
 
     When you hold or receive coins in either blind or anon balances, the balances aren't displayed on your :term:`Particl Desktop` until you unlock it. This is a security measure.
