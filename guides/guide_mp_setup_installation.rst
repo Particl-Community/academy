@@ -35,7 +35,7 @@ Choose the correct version to download.
 
 	 	**Download sources**
 
-		- Particl Homepage: https://particl.io/downloads/
+		- Particl Homepage: https://particl.io/downloads
 		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
 		.. attention::
@@ -50,7 +50,7 @@ Choose the correct version to download.
 
 	 	**Download sources**
 
-		- Particl Homepage: https://particl.io/downloads/
+		- Particl Homepage: https://particl.io/downloads
 		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
 		.. attention::
@@ -67,7 +67,7 @@ Choose the correct version to download.
 
 	 	**Download sources**
 
-		- Particl Homepage: https://particl.io/downloads/
+		- Particl Homepage: https://particl.io/downloads
 		- Particl Github: https://github.com/particl/particl-desktop/releases/latest
 
 		.. attention::
