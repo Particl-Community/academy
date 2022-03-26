@@ -178,7 +178,7 @@ input[type="submit"],
 textarea,
 legend,
 .btn,
-.rst-content .toctree-wrapper p.caption,
+.rst-content .toctree-wrapper p.caption, #table-of-contents p.caption,
 .rst-versions {
     font-family: 'Inter Var', system-ui, Arial, sans-serif;
 }
@@ -200,7 +200,7 @@ legend,
     textarea,
     legend,
     .btn,
-    .rst-content .toctree-wrapper p.caption,
+    .rst-content .toctree-wrapper p.caption, #table-of-contents p.caption,
     .rst-versions {
         font-family: 'Inter', system-ui, Arial, sans-serif;
     }
@@ -290,7 +290,7 @@ h4,
 h5,
 h6,
 legend,
-.rst-content .toctree-wrapper p.caption {
+.rst-content .toctree-wrapper p.caption, #table-of-contents p {
     letter-spacing: -0.005em;
 }
 
@@ -332,7 +332,7 @@ article ol,
 .wy-plain-list-decimal,
 .rst-content ol.arabic,
 .rst-content .section ul,
-.rst-content .toctree-wrapper ul,
+.rst-content .toctree-wrapper ul, #table-of-contents ul, 
 .rst-content .section ol {
     line-height: 1.77rem;
     font-size: .95rem;
@@ -995,11 +995,14 @@ input:focus {
 .wy-side-nav-search,
 .wy-menu-vertical a,
 .wy-menu-vertical a span.toctree-expand,
-.wy-menu-vertical li.toctree-l2 a span.toctree-expand {
+.wy-menu-vertical li.toctree-l2 a span.toctree-expand,
+.wy-menu-vertical li.toctree-l2 button.toctree-expand {
     /*color: var(--navbar-level-3-color);*/
     color: var(--link-color);
 }
-
+.wy-menu-vertical li.toctree-l2 button.toctree-expand {
+    font-size: .8em;
+}
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current>a {}
 
@@ -1046,7 +1049,7 @@ input:focus {
     letter-spacing: -.01em;
 }
 
-.wy-menu-vertical li span.toctree-expand {
+.wy-menu-vertical li span.toctree-expand, .wy-menu-vertical li button.toctree-expand {
     margin-left: -1.16em;
     padding-right: .55em;
 }
@@ -1059,8 +1062,11 @@ input:focus {
 .wy-menu-vertical li.on a:hover span.toctree-expand,
 .wy-menu-vertical li.current>a:hover span.toctree-expand,
 .wy-menu-vertical li.on a span.toctree-expand,
-.wy-menu-vertical li.current>a span.toctree-expand {
+.wy-menu-vertical li.current>a span.toctree-expand, 
+.wy-menu-vertical li.current>a button.toctree-expand, 
+.wy-menu-vertical li.on a button.toctree-expand {
     color: var(--link-color);
+    font-size: .8em;
 }
 
 .wy-menu-vertical li.current a,
