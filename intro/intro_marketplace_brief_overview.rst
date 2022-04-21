@@ -16,7 +16,7 @@ The :term:`Particl Marketplace` is a fully private and :term:`decentralized <Dec
 Under The Hood
 --------------
 
- :term:`Particl Marketplace` is powered by industry-leading :doc:`privacy technologies <../in-depth/indepth_privacy_tips>`, which enable its function as a decentralized privacy-centric marketplace.
+:term:`Particl Marketplace` is powered by industry-leading :doc:`privacy technologies <../in-depth/indepth_privacy_tips>`, which enable its function as a decentralized privacy-centric marketplace.
 
 And you don't need to trust anyone; the code is entirely open-source, independently audited, and freely available online for everyone to inspect or contribute.
 
