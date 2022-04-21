@@ -145,7 +145,7 @@ Industries and Use-cases
 **These are just a few examples of who can instantly benefit from Particl Marketplace’s decentralized e-commerce model.**
 
 
-*The people working on Particl would like to hear your success stories and ideas. `Reach out to us <https://twitter.com/particlproject>`_! We would love to share them with the world and help you get more out of Particl Marketplace by finding more people to do business with.*
+*The people working on Particl would like to hear your success stories and ideas. `Reach out to us <https://twitter.com/particlproject/>`_! We would love to share them with the world and help you get more out of Particl Marketplace by finding more people to do business with.*
 
 ----
 
@@ -153,7 +153,7 @@ That’s a lot to grasp, isn’t it? Keep in mind that :term:`Particl Marketplac
 
 .. admonition:: Action
 
-	Do you know other curious minds? Invite them to `participate in the discussion on the status quo of commerce, monopolies, equal opportunities <https://https://www.reddit.com/r/Particl/comments/pxu0py/getting_started/>`_ - and eventually, freedom to live a life worth living for us all and our children!
+	Do you know other curious minds? Invite them to `participate in the discussion on the status quo of commerce, monopolies, equal opportunities <https://www.reddit.com/r/Particl/comments/pxu0py/getting_started/>`_ - and eventually, freedom to live a life worth living for us all and our children!
 
 ----
 
