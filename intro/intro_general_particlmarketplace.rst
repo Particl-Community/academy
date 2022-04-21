@@ -63,13 +63,13 @@ That’s true for sellers and buyers regardless of whether it relates to your pr
 
 **You Stop Restrictions, Politics, and Malice**
 
-:term:`Particl Marketplace` has a 100% uptime, and cannot be taken offline or manipulated. No merchant, buyer, or product can be banned, censored, or canceled by centralized authorities or corporations. In its stead, :doc:`the Particl community is in charge <in-depth/indepth_mp_moderation>` of what content is allowed to be publicly displayed on the marketplace. Across national borders, you can now enjoy free trade and free-market conditions without the interference of governing bodies. We empower manufacturers, vendors, and producers to freely decide how and with whom they do business.
+:term:`Particl Marketplace` has a 100% uptime, and cannot be taken offline or manipulated. No merchant, buyer, or product can be banned, censored, or canceled by centralized authorities or corporations. In its stead, :doc:`the Particl community is in charge <../in-depth/indepth_mp_moderation>` of what content is allowed to be publicly displayed on the marketplace. Across national borders, you can now enjoy free trade and free-market conditions without the interference of governing bodies. We empower manufacturers, vendors, and producers to freely decide how and with whom they do business.
 
 *“We help you become bullet-proof against unfair restrictions.”*
 
 **Stop and Prevent Fraud by Cutting Off the Middleman**
 
-Fraudulent actions get taken down with a free of charge and automated two-party escrow system. Situations like chargebacks for vendors due to stolen identities, or counterfeit/missing goods for you as a customer are prevented and stopped, with no centralized authority to make it happen. Learn more about our two-party escrow system :doc:`here <in-depth/indepth_escrow>`. 
+Fraudulent actions get taken down with a free of charge and automated two-party escrow system. Situations like chargebacks for vendors due to stolen identities, or counterfeit/missing goods for you as a customer are prevented and stopped, with no centralized authority to make it happen. Learn more about our two-party escrow system :doc:`here <../in-depth/indepth_escrow>`. 
 
 *“We help you to become immune to online fraud and scammers.”*
 
