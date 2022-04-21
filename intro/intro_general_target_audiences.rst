@@ -145,7 +145,7 @@ Industries and Use-cases
 **These are just a few examples of who can instantly benefit from Particl Marketplace’s decentralized e-commerce model.**
 
 
-*The people working on Particl would like to hear your success stories and ideas. `Reach out to us <https://www.twitter.com/particlproject/>`_! We would love to share them with the world and help you get more out of Particl Marketplace by finding more people to do business with.*
+*The people working on Particl would like to hear your success stories and ideas. Reach out to us! We would love to share them with the world and help you get more out of Particl Marketplace by finding more people to do business with.*
 
 ----
 
