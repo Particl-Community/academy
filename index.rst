@@ -33,9 +33,9 @@ Take your first few steps with understanding the :term:`Particl Marketplace`. Wh
    :maxdepth: 2
    :hidden:
 
+   Brief Overview <intro/intro_marketplace_brief_overview>
    intro/intro_general_particlmarketplace
    intro/intro_general_target_audiences
-   Brief Overview <intro/intro_marketplace_brief_overview>
    intro/intro_general_functions
 
 
