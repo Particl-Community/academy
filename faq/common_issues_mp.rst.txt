@@ -47,6 +47,19 @@
     - Make sure you are using |PD version|. 
     - Make sure you have enough PART in your public or private balance to cover the listing fees.
 
+.. container:: toggle
+
+    .. container:: header
+
+        **I can't publish a listing** - Notice: "Error fetching the fee estimate during publishing"
+
+    Make sure your PART balance in “Public” or "Anon" state has enough UXTO splits. (mind the privacy state; In a default setup you go with "Public")
+
+    #. Navigate to the :guilabel:`Wallet` app via the left handed side-navigation menu -> Select the marketplace's wallet
+    #. Open the :guilabel:`SEND / CONVERT` module
+    #. Use the UXTO splitter slider to set a mid range amount and send some coins to yourself.
+
+    You should now be able to publish your listing.
 
 .. container:: toggle
 
