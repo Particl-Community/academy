@@ -146,11 +146,11 @@ linkcheck_ignore = [
 rst_epilog = """
 .. |PM| replace:: Particl Marketplace
 .. |Courage Cat| replace:: https://www.youtube.com/watch?v=OV-vcXL25pc
-.. |PD version| replace:: **Particl Desktop 3.0**
-.. |Coin supply| replace:: ~11.5M
-.. |BTC Version| replace:: Bitcoin 0.21.1.0
-.. |PART Version| replace:: Particl Core 0.19.2.15
+.. |PD version| replace:: **Particl Desktop 3.2.2**
+.. |Coin supply| replace:: ~12.5M
+.. |BTC Version| replace:: Bitcoin 24.0
+.. |PART Version| replace:: Particl Core 24.0
 .. |Threshold| replace:: -9,000 PART
-.. |emission| replace:: 1.70 PART
+.. |emission| replace:: 1.90 PART
 .. |staking rate| replace:: 8%
 """

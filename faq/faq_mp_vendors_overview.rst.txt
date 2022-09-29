@@ -8,7 +8,7 @@
 
     Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it is currently not possible. If you want to change the description or image of an item, please publish a new listing. 
 
-    This functionality will be added at a later stage during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+    This functionality is plan to be added at a later stage.
 
 .. container:: toggle
 
@@ -18,8 +18,6 @@
 
     Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. It will allow you to manage quantities for your products and various other variants such as sizes, colors, fabrics, etc.
 
-    To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
-
 .. container:: toggle
 
     .. container:: header
@@ -27,8 +25,6 @@
         **How can I offer item options such as size, color, and other variants?**
 
     Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it is currently not possible. This is, however, one of the next functionality that is going to be added to the marketplace. It will allow you to manage quantities for your products and various other attributes such as sizes, colors, fabrics, etc.
-
-    To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
 
 .. container:: toggle
 
@@ -46,7 +42,7 @@
 
     Go to the :guilabel:`Inventory & Products` tab of the :guilabel:`SELL` page and find the template of the listing you want to republish. Click on it to display more options and click on the publishing icon (rocket) next to the market(s) or storefront(s) you want to publish your listing in. You can publish the same listing in many different markets.
 
-    Alternatively, you can instead click on the :guilabel:`Batch (Re)publish...` button on the same page to open up the publishing tool. On there, you can publish multiple listings at once on any market or storefront you have publishing rights.
+    Alternatively, you can instead click on the :guilabel:`Batch (Re)publish...` button on the same page to open up the publishing tool. On there, you can publish multiple listings at once on any :term:`market or storefront <Market>` in which you have publishing rights.
 
 .. container:: toggle
 
@@ -60,17 +56,17 @@
 
     .. container:: header
 
-        **Why does my product show up in "Reported listings", and what does this mean?**
+        **Why does my product show up in "Reported listings", and what does it mean?**
 
     If one of your listings shows up in the *Reported listings* section, it means at least one person has flagged it as inappropriate. If enough people do the same, it will be taken off the marketplace entirely. If your listing shows up in the reported listings section but still shows up on the marketplace, it means that not enough people have voted to delete it.
 
-    Want to know more about Particl's marketplace moderation system? Head over to the :doc:`Marketplace Moderation Explained <../in-depth/indepth_mp_moderation>` in-depth guide!
+    Want to know more about Particl's marketplace moderation system? Head over to the :doc:`Marketplace Content Moderation <../particl-marketplace/marketplace_moderation>` guide!
 
 .. container:: toggle
 
     .. container:: header
 
-        **Why are listing fees different between different items?**
+        **Why do listing fees vary between items?**
 
     Listing fees are determined by two dynamic factors — the expiry time of the listing and its size (measured in kb). If you publish your listing for a long time, or if it contains many pictures and a large description, it will be more expensive to list than a smaller listing in comparison.
 
@@ -95,7 +91,7 @@
 
         **Why am I not receiving any new buy orders?**
  
-    If your :term:`Particl Desktop` client is protected by a password (encrypted), **you need to unlock it with your password** so that it can pick up new orders from the Particl network. If you keep your client locked, you won't receive any new orders, and you will not get any update on other ongoing orders.
+    If your :term:`Particl Desktop` client is protected by a password (encrypted), **you need to unlock it** so that it can pick up new orders from the :term:`Particl network <Particl network>`. If you keep your client locked, you won't receive any new orders now will you get updates from your currently active ones.
 
 .. container:: toggle
 
@@ -105,7 +101,7 @@
 
     Once you mark an order as :guilabel:`SHIPPED` (:ref:`Package and Shipping an Order`), your :term:`Particl Desktop` client will prompt you to enter a tracking number or note to your customer. It's an entirely optional step, but it helps your customers keep track of their order(s).
 
-    A complete messaging system will be added during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+    You can also securely leave that information to the customer in the :guilabel:`Chat` section of each individual order located in the :guilabel:`SELL` page.
 
 .. container:: toggle
 
@@ -113,7 +109,9 @@
 
         **How can I manage refunds and returns through the marketplace?**
 
-    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), this feature is currently not supported. Direct messaging and a resolution center will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), this feature is currently not supported on the marketplace itself. 
+
+    Of course, nothing stops you from reaching mutually beneficial resolutions with your customers. You can discuss any matter from the :guilabel:`Chat` section of each order.
 
 .. container:: toggle
 
@@ -121,9 +119,7 @@
 
         **How can I directly contact a customer?**
 
-    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), directly messaging a customer is not yet supported. You can, however, send a tracking number or note to your customer as part of the marketplace's transaction flow.
-
-    A complete messaging system will be added at a later time during the Beta phase of development. To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+    You can also securely chat with customers from the :guilabel:`Chat` section of each individual order located in the :guilabel:`SELL` page. Conversations here and end-to-end encrypted and cannot be intercepted.
 
 .. container:: toggle
 
@@ -131,8 +127,6 @@
 
         **How can I cancel an order?**
 
+    You can only cancel an order you haven't yet accepted. To do so, head over to the :guilabel:`SELL` page and click on the tile of the order you want to cancel. On there, you will find a :guilabel:`Cancel` button.
+
     Due to the current stage of development of the :term:`Particl Marketplace` (Beta), it's currently not possible to cancel an order once you have fully locked your security deposit in escrow. 
-
-    Direct messaging and escrow management/negotiations will be added later during the Beta phase of development. This will let you communicate with your buyer and cancel, update, or resolve orders. 
-
-    To know what next features are planned for the marketplace, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.

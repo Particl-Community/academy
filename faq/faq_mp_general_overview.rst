@@ -7,16 +7,16 @@ Frequently Asked Questions
 
    Got any questions not answered here? Then **let us know** about it so that we can help you out and update the Particl Academy!
 
-Particl Coin Questions
-----------------------
+PART and Blockchain FAQ
+-----------------------
 
 .. include:: faq_coin_general.rst.txt
 .. include:: faq_coin_staking.rst.txt
 
 ----
 
-Particl Marketplace Questions
------------------------------
+Particl Marketplace FAQ
+-----------------------
 
 .. include:: faq_mp_general.rst.txt
 .. include:: faq_mp_customers_overview.rst.txt

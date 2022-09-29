@@ -6,11 +6,10 @@
 
         **How do I open the marketplace in order to see listings?**
 
-    1. Be sure to have the latest version of :term:`Particl Desktop` installed. The :ref:`Quickstart` guide may help you greatly.
-    2. After the initial startup, have some patience to let the :term:`blockchain` sync in the background. On a fibre connection this takes up to 15 minutes. The following startups will sync-up way faster.
-    3. Click on :guilabel:`MARKET` -> :guilabel:`BROWSE` and wait until numbers start to count up beside the :guilabel:`REFRESH` button. As soon as the first numbers appear click on :guilabel:`REFRESH`. Listings appear.
+    1. Be sure to be on the latest version (|PD version|). The :doc:`installation guide <../marketplace-guides/marketguides_installation>` guide may help you greatly.
+    2. After the initial startup, let the network sync. On slow connections, it may take a while, but you can monitor incoming listings if you head over to the :guilabel:`Browse` page.
     
-    Be sure you don’t see any warnings in the top right „status“ bar. If you still don’t see any listings feel free to reach out on the community support channels. :ref:`Get support`
+    Be sure that you don’t see any warnings in the top right status bar. If you still don’t see any listings, feel free to :ref:`Get support`.
     
 
 .. container:: toggle
@@ -30,31 +29,31 @@
 
     .. container:: header
 
-        **Why isn't the seller updating my order after I placed a bid?**
+        **Why am I not getting updates on my orders?**
  
     If your :term:`Particl Desktop` is protected by a password (encrypted), **you need to unlock it with your password** to receive order updates. If you keep your client locked, you won't receive the notifications and won't be able to progress to the next step.
 
-    If your order is still not updated after unlocking your client, that's because the seller hasn't done it yet. Wait for the vendor to update the order, or try leaving them a message in the :guilabel:`Comments and Reviews` section of the listing page!
+    If your order is still not updated after unlocking your client, that's because the seller hasn't done it yet. Wait for the vendor to update the order, or try leaving them a message in the :guilabel:`Chat` section of your order!
 
 .. container:: toggle
 
     .. container:: header
 
-        **Why does the marketplace require me to pay twice the value of the item I want to buy?**
+        **Why do I need to pay twice the value of the order I'm purchasing?**
  
-    That's because you need to fund the escrow contract with a security deposit equal to the total value of your order. This deposit will be refunded to you at no fee at all once the transaction is fully completed. 
+    That's because you need to fund the escrow contract with a security deposit equal to the total value of your order. This deposit will be refunded to you at no fee once the transaction is fully completed. 
 
-    For example, if you're buying an item worth $100 (including shipping), then you'll be required to deposit a total of $200 into the escrow smart-contract. Half of this deposit is for the payment of the item to the seller ($100), and the other half is your security deposit ($100) which you'll get back, with no fee, after the transaction is completed.
-
-    To learn more about Particl's Two-Party Escrow system, head over to the :doc:`Two-Party Escrow System Explained <../in-depth/indepth_staking>` in-depth guide.
+    To learn more about Particl's two-party escrow system, head over to the :doc:`Two-Party Escrow System guide<../particl-marketplace/marketplace_escrow>`.
 
 .. container:: toggle
 
     .. container:: header
 
-        **Can anyone else other than the seller see my shipping address?**
+        **Can anyone else other than the seller see my shipping address and communications?**
  
-    No. Only the seller can access your shipping details. Neither Particl nor anyone else can collect your personal information. Particl is entirely decentralized, secure, and private by design.
+    No. Only the seller can access your shipping details and private chat conversations because they are end-to-end encrypted before they are broadcast to the network. Check out our :doc:`marketplace privacy guide <../particl-marketplace/marketplace_privacy>` to learn more about data security. 
+
+    Note that, contrary to private in-order discussions, public questions and answers posted in a listing's :guilabel:`Chat` section are publicly displayed.
 
 .. container:: toggle
 
@@ -62,21 +61,9 @@
 
         **How can I directly contact a seller?**
 
-    You can leave a comment in a listing's :guilabel:`Comments and Reviews` section. This will notify the seller that they've received a message, and they'll be able to answer you. Keep in mind that the :guilabel:`Comments and Reviews` section is public, meaning all messages you and the seller leaves there are publicly visible.
+    You can leave a comment in a listing's :guilabel:`Chat` section. This will notify the seller that they've received a message and they'll be able to answer you. Keep in mind that a listing's :guilabel:`Chat` section is public, meaning all messages you and the seller leaves in there are publicly visible.
 
-    Alternatively, sellers may sometimes leave their contact information such as an email address or instant messaging application username in their listing descriptions. Look in there and see if you can find something.
-
-    A more complete and private messaging/inbox system is being developed and will be added later during the Beta phase of development. To know what next features are planned for the :term:`Particl Marketplace`, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
-
-.. container:: toggle
-
-    .. container:: header
-
-        **How can I ask for a refund or return through the marketplace?**
-
-    Due to the current stage of development of the :term:`Particl Marketplace` (Beta), this feature is currently not supported. If you want to ask a seller for a refund or return, please try to reach out to them by their provided contact information or through the :guilabel:`Comments and Reviews` section of the listing you have an issue with. 
-
-    Direct messaging and a resolution center are planned features for later on during Beta. To know what next features are planned for the :term:`Particl Marketplace`, refer to `Particl's development roadmap <https://particl.io/roadmap>`_.
+    Alternatively, you may contact a seller in private once you open an order with them. A private chat window is accessible in :guilabel:`Purchases` as well as in the :guilabel:`Chat Messages` section. 
 
 .. container:: toggle
 
@@ -84,7 +71,7 @@
 
         **Where can I find the tracking number of one of my orders?**
 
-    When a seller leaves you a tracking number, you can check it out right from your Particl Desktop client. To do so, head over to the :guilabel:`Orders` page of the :guilabel:`SELL` section, find the order that you want to find the tracking number of, and click on it to expand its details.
+    When a seller leaves you a tracking number, you can check it out right from your Particl Desktop client. To do so, head over to the :guilabel:`Orders` page of the :guilabel:`SELL` section. Find the order that you want to find the tracking number of and click on its tile to expand its details.
 
     A seller may not always leave a tracking number, but when they do, that's where you'll find it!
 
@@ -94,4 +81,4 @@
 
         **How can I cancel an order?**
 
-    It's only possible to cancel an order if the seller hasn't yet accepted it. Otherwise, you can try reaching out to the seller by their provided contact information or through the :guilabel:`Comments and Reviews` section of the listing.
+    It's only possible to cancel an order if the seller hasn't accepted it yet. Otherwise, you can try reaching out to the seller by their provided contact information or through the order's :guilabel:`Chat` section to reach an agreement.

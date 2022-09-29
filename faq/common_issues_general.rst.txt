@@ -6,7 +6,7 @@
 
         **A payment is stuck. Can I abandon the transaction?**
 
-    If for any reason you'd like to abandon a payment transaction follow these steps.
+    If, for any reason, you'd like to abandon a payment transaction before it's included in a block, follow these steps.
 
     #. Copy the transaction ID (txid) to your clipboard. 
 
@@ -20,11 +20,11 @@
 
     .. container:: header
 
-        **Coins not showing up when receiving an anon payment**
+        **My coins are not showing up when receiving an anon payment**
 
     When you hold or receive coins in either blind or anon balances, the balances aren't displayed on your :term:`Particl Desktop` until you unlock it. This is a security measure.
 
-    #. Make sure the payment was sent to the blockchain. 
+    #. Make sure the payment was sent to the :term:`blockchain <blockchain>`. 
 
         Check the transaction on the `Particl blockchain explorer <https://explorer.particl.io>`_ . 
 
@@ -40,11 +40,11 @@
 
     .. container:: header
 
-        **Coins not showing up when importing 24-word passphrase**
+        **My coins are not showing up when importing 24-word passphrase**
 
     - Make sure you are using |PD version|. 
     - Make sure you haven't made any **typo** in any of the 24 words.
-    - Enter your seed's password, if you have any.
+    - Enter your seed's password as a 25th word, if you have any.
     - Try only entering your 24-word passphrase **without** any password.
     - If all else fails, do a hard reset of Particl.
 
@@ -60,7 +60,7 @@
 
     .. container:: header
 
-        **Where can I find logfiles in order to determine a problem?**
+        **Where can I find the logfiles of my wallet to resolve an issue?**
 
     .. tabs::
 
@@ -93,4 +93,3 @@
 
              ## Marketplace market.log
              ~/.particl-market/03/market.log
-
