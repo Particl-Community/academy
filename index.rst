@@ -3,10 +3,10 @@ Particl Academy
 ===============
 
 .. title::
-   Particl Marketplace Documentation
+   Particl Academy — Everything Particl
    
 .. meta::
-   :description lang=en: Learn how to use Particl and claim full digital sovereignty with privacy-first applications that respect your rights.
+   :description lang=en: Claim full digital sovereignty with privacy-first applications that respect your rights.
 
    :keywords lang=en: Particl, Marketplace,DEX, Documentation, Blockchain, Privacy, E-Commerce, Decentralized
 
