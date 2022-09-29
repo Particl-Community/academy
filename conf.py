@@ -108,7 +108,7 @@ else:
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/images/particl-logo-purple.png'
+html_logo = 'images/particl-academy-thumbnail.jpg'
 
 # These folders are copied to the documentation's HTML output
 html_static_path = ['_static']
