@@ -6,7 +6,7 @@ Get Started
    Particl Marketplace Installation Guide
    
 .. meta::
-   :description lang=en: Learn how to install Particl Marketplace on your desktop conputer 
+   :description lang=en: Learn how to install Particl Marketplace on your desktop computer 
    :keywords lang=en: Particl, Marketplace, Installation, Quickstart, Blockchain, Privacy, E-Commerce, multi-vendor marketplace, online marketplace
 
 :term:`Particl Marketplace` provides you with the most secure, private, and unrestricted e-commerce experience on the web. This section will teach you how to install and configure it to your liking, as well as how to back up your Marketplace data.
@@ -310,7 +310,7 @@ Sometimes it is handy to start :term:`Particl Marketplace` from the terminal, ak
 
          .. rst-class:: bignums
 
-             #. Open :guilabel:`Terminal` (e.g., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`).
+             #. Open :guilabel:`Terminal` (i.e., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`).
              #. Type in this command:
 
                 .. code-block:: bash
