@@ -76,12 +76,23 @@ Compatible Coins
 
 BasicSwap already offers decentralized trading services for the following cryptocurrencies.
 
-* **Bitcoin** 
-* **Monero**
-* **Particl** 
-* **PIVX**
-* **Litecoin**
-* **Namecoin** 
++----------------------------------+---------------------------------------------+
+| **Coin Name**                    | **Ticker**                                  |
++----------------------------------+---------------------------------------------+
+| Bitcoin                          | BTC                                         |
++----------------------------------+---------------------------------------------+
+| Monero                           | XMR                                         |
++----------------------------------+---------------------------------------------+
+| Litecoin                         | LTC                                         |
++----------------------------------+---------------------------------------------+
+| Firo                             | FIRO                                        |
++----------------------------------+---------------------------------------------+
+| PIVX                             | PIVX                                        |
++----------------------------------+---------------------------------------------+
+| Particl                          | PART                                        |
++----------------------------------+---------------------------------------------+
+| Namecoin                         | NMC                                         |
++----------------------------------+---------------------------------------------+
 
 We are looking at adding many other coins, including ETH and its ERC-20 tokens, following the release of the open beta. Any Bitcoin-based and Segwit-enabled :term:`cryptocurrency` can get integrated with minimal effort. Other token-issuing blockchains like Fantom, Solana, Avalanche, Polygon, or BSC may become available on BasicSwap at a later stage of the integration roadmap.
 
