@@ -84,7 +84,7 @@ Particl Terms
    SecureMessaging (SMSG)
         SecureMessaging (SMSG) is Particl’s own custom-built and unique P2P messaging network that stands at the very core of its ecosystem. Inspired by the BitMessage protocol, it is a mixnet that acts as a decentralized storage network (DSN). It stores and transfers data across nodes in a privacy-preserving manner, encrypted from end to end (E2EE), and without requiring the use of any central server. It provides Particl’s privacy-first dApps like Particl Marketplace and BasicSwap DEX with advanced capabilities.
 
-    Particl Stakeholders
+   Particl Stakeholders
        Particl Stakeholders participate in the maintenance and functionality of the Particl Blockchain. Particl Stakeholders collect small PART rewards for staking on the network, and may participate in governance proposal votes and Particl Marketplace’s community-based moderation. The rewards and voting strength that a stakeholder enjoys are generally correlated with the amount of PART tokens being staked by that individual.
 
    Particl Core
