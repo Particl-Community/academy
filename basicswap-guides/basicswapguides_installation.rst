@@ -46,7 +46,7 @@ The easiest way to set up :term:`BasicSwap` is through Docker. Note that this se
 
          .. rst-class:: bignums
 
-             #. Complete the prerequisites on the `Docker Desktop WSL 2 backend page <https://docs.docker.com/desktop/windows/wsl//>`_. This includes enabling the WSL2 feature on Windows.
+             #. Complete the prerequisites on the `Docker Desktop WSL 2 backend page <https://docs.docker.com/desktop/windows/wsl/>`_. This includes enabling the WSL2 feature on Windows.
 
              #. Download `Docker Desktop for Windows <https://docs.docker.com/desktop/windows/wsl//>`_.
 
