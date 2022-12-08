@@ -25,10 +25,10 @@ BasicSwap was built in direct response to the increasingly invasive demands and 
 What is it?
 ^^^^^^^^^^^
 
-.. figure:: ../_static/media/images/basicswap_orders.jpg
+.. figure:: ../_static/media/images/basicswap_orders.png
     :align: center
     :alt: BasicSwap's order book — WIP, design subject to change
-    :target: ../_static/media/images/basicswap_orders.jpg
+    :target: ../_static/media/images/basicswap_orders.png
 
     BasicSwap's order book — WIP/Beta, UI/UX subject to change
 
@@ -67,21 +67,32 @@ BasicSwap is still in beta. That means that, while it offers most of the basic t
 Compatible Coins
 ^^^^^^^^^^^^^^^^
 
-.. figure:: ../_static/media/images/basicswap_wallets.jpg
+.. figure:: ../_static/media/images/basicswap_wallets.png
     :align: center
     :alt: BasicSwap's wallets page — WIP, design subject to change
-    :target: ../_static/media/images/basicswap_wallets.jpg
+    :target: ../_static/media/images/basicswap_wallets.png
 
     BasicSwap's wallets page — WIP/Beta, UI/UX subject to change
 
-BasicSwap already offers decentralized trading services for the following cryptocurrencies.
+BasicSwap already offers decentralized trading services for the following cryptocurrencies (`check it out on BasicSwap website <https://basicswapdex.com/markets>`_).
 
-* **Bitcoin** 
-* **Monero**
-* **Particl** 
-* **PIVX**
-* **Litecoin**
-* **Namecoin** 
++----------------------------------+---------------------------------------------+
+| **Coin Name**                    | **Ticker**                                  |
++----------------------------------+---------------------------------------------+
+| Bitcoin                          | BTC                                         |
++----------------------------------+---------------------------------------------+
+| Monero                           | XMR                                         |
++----------------------------------+---------------------------------------------+
+| Dash                             | DASH                                        |
++----------------------------------+---------------------------------------------+
+| Litecoin                         | LTC                                         |
++----------------------------------+---------------------------------------------+
+| Firo                             | FIRO                                        |
++----------------------------------+---------------------------------------------+
+| PIVX                             | PIVX                                        |
++----------------------------------+---------------------------------------------+
+| Particl                          | PART                                        |
++----------------------------------+---------------------------------------------+
 
 We are looking at adding many other coins, including ETH and its ERC-20 tokens, following the release of the open beta. Any Bitcoin-based and Segwit-enabled :term:`cryptocurrency` can get integrated with minimal effort. Other token-issuing blockchains like Fantom, Solana, Avalanche, Polygon, or BSC may become available on BasicSwap at a later stage of the integration roadmap.
 
@@ -112,7 +123,7 @@ Gateways, each with pros and cons, may display things differently or provide a d
 
     * **Slower setup** — The local client needs to be manually compiled and the initial setup process can take some time and tinkering.
     * **No web access** — The DEX has to be accessed from a local client and cannot be used from the convenience of a web browser.    
-    * **Must stay online** — Your BasicSwap :term:`node <node>` needs to remain online to broadcast your orders in the order book and execute trades.
+    * **Must stay online** — Your BasicSwap :term:`node <node>` needs to remain online to keep your offer(s) listed on the order book and execute trades.
     * **Heavy** — You need to download and store the full blockchain nodes of the coins you’ve enabled, which can take a considerable amount of space.
 
 .. container:: toggle

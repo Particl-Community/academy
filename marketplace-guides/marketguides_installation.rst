@@ -1,6 +1,6 @@
-===========
-Get Started 
-===========
+=====================
+Get Started (Install)
+=====================
 
 .. title::
    Particl Marketplace Installation Guide

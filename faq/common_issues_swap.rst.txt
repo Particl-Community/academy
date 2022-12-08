@@ -1,0 +1,31 @@
+**BasicSwap Support Questions**
+
+.. container:: toggle
+
+     .. container:: header
+
+        **A swap is stuck. Can I abandon it?**
+
+     If a swap seems "stuck", simply wait until the atomic swap contract expires. Once it does, you'll be refunded your coins. It is not possible for a swap to remain stuck indefinitely.
+
+.. container:: toggle
+
+     .. container:: header
+
+        **I do not see a deposit address nor a withdraw option in my PIVX wallet.**
+
+     .. rst-class:: bignums
+
+         #. Make sure that your PIVX wallet is synced at 100%.
+
+         #. Go to :guilabel:`Wallets` > :guilabel:`PIVX Manage`, and click on the :guilabel:`Reseed wallet` button.
+
+.. container:: toggle
+
+     .. container:: header
+
+        **I am not able to build BasicSwap.**
+
+     The instructions work for a wide variety of operating system. Make sure that you follow each step carefully and watch out for any error that the terminal returns. 
+
+     **Do not progress move on to the next step if the terminal gives you an error after typing a command**. You need to resolve errors when/if they appear before you can continue, else the installation will not work. The terminal generally does a good job at telling you what went wrong and how to fix it.

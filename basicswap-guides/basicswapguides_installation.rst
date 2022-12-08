@@ -1,15 +1,15 @@
-===========
-Get Started
-===========
+=====================
+Get Started (Install)
+=====================
 
 .. title::
    BasicSwap DEX Installation Guide
    
 .. meta::
-   :description lang=en: Learn how to install BasicSwap DEX on your desktop computer 
+   :description lang=en: Learn how to install BasicSwap DEX on your desktop computer.
    :keywords lang=en: Particl, DEX, Trading, Exchange, Buy Crypto, Sell Crypto, Installation, Quickstart, Blockchain, Privacy, E-Commerce, multi-vendor marketplace, online marketplace
 
-:term:`BasicSwap DEX <BasicSwap>` is a cross-chain and privacy-centric DEX (decentralized exchange) that lets you trade cryptocurrencies without middleman interference. This section walk you through all the steps required to install it and set it up to your liking.
+:term:`BasicSwap DEX <BasicSwap>` is a cross-chain and privacy-centric DEX (decentralized exchange) that lets you trade cryptocurrencies without middleman interference. This guide walks you through all the steps required to install it and set it up to your liking.
 
 ----
 
@@ -20,23 +20,43 @@ Get Started
 
 ----
 
+.. tip::
+
+	 If you want to further protect your network information (i.e., IP address, location), you can run BasicSwap through the Tor network. Jump to the :doc:`BasicSwap Tor Guide <../basicswap-guides/basicswapguides_tor>` for detailed instructions on how to do so.
+
 .. attention::
 
-	 If you want to install BasicSwap using Tor, then jump to the installation section of the BasicSwap Tor Guide.
+     When compiling a full BasicSwap node, it is very important to monitor the outputs given by the commands you enter. Ensure that, for every step of the process, the terminal doesn't mention anything about errors. If errors occur, it is important to fix them. DO NOT blindly enter commands without making sure that no errors occur; BasicSwap will not launch successfully if the steps are not properly completed.
 
 Install Using Docker
 ====================
 
-Because :term:`BasicSwap` is still in early beta, there is no ready-made executable or convenient integrations (i.e., Particl Desktop, web gateway, third-party platforms, etc) yet. For this reason, the first step to get started is to compile the application locally on your computer.
+Because :term:`BasicSwap` is still in early beta, there is no ready-made executable or convenient integrations (i.e., Particl Desktop, web gateway, third-party platforms, etc.) yet; you must compile and run a full BasicSwap node. For this reason, the first step to get started is to compile the application locally on your computer.
 
 Install Docker
 --------------
 
-The easiest way to setup :term:`BasicSwap` is through Docker. Note that this setup method is not available for OSX, so if you've got a Mac device, please refer to the next section.
+The easiest way to set up :term:`BasicSwap` is through Docker. Note that this setup method is not available for OSX, so if you've got a Mac device, please refer to the next section.
 
 .. tabs::
 
      .. group-tab:: Windows
+     
+        **Install the Docker engine on your device**
+
+         .. rst-class:: bignums
+
+             #. Complete the prerequisites on the `Docker Desktop WSL 2 backend page <https://docs.docker.com/desktop/windows/wsl//>`_. This includes enabling the WSL2 feature on Windows.
+
+             #. Download `Docker Desktop for Windows <https://docs.docker.com/desktop/windows/wsl//>`_.
+
+             #. Install Docker with WSL 2 by following the instructions on the Docker Desktop WSL 2 backend page.
+
+         .. note:: 
+             Some versions of Docker may have incompatibility issues with Windows 11. If the problem persists, consider using an older version of Docker. 
+
+         .. note::
+             Changing certain BIOS settings, such as enabling hardware-assisted virtualization, may be required to run Docker successfully — follow the prompts’ instructions if that is the case.
 
      .. group-tab:: Linux
 
@@ -65,7 +85,7 @@ The easiest way to setup :term:`BasicSwap` is through Docker. Note that this set
 Create the Docker Image
 -----------------------
 
-Create BasicSwap's docker image. You will need to run this image whenever you want to run the DEX.
+Create BasicSwap's docker image. You need to run this image whenever you want to run the DEX.
 
 .. tabs::
 
@@ -101,6 +121,12 @@ Create BasicSwap's docker image. You will need to run this image whenever you wa
                  .. code-block:: bash
 
              	 	 export COINDATA_PATH=/var/data/coinswaps 
+
+             #. (Optional) You can alternatively set the COINDATA_PATH value by default. To do so, delete the :guilabel:`#` at the beginning of the related line in the .env file, located in :guilabel:`basicswap/docker`.
+
+                 .. code-block:: bash
+
+                     nano .env 
 
              #. Create the BasicSwap Docker image (make sure you are in :guilabel:`basicswap/docker`.
 
@@ -169,7 +195,7 @@ Now that BasicSwap's image has been created, you need to configure it to your li
 
              #. Choose what coins you want to enable (Particl will be enabled by default). You will need to write them in the configuration command. :ref:`Click here <compatible coins>` for a full list of available coins on BasicSwap.
 
-             #. Decide whether you want to fast sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
+             #. Decide whether you want to fast sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the next step's configuration command.
 
              #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences as mentioned in the previous two steps.
 
@@ -298,6 +324,11 @@ Now that you've configured your docker image, it's time to run it. This will sta
 Install Without Docker
 ======================
 
+Build BasicSwap
+---------------
+
+The first step to running BasicSwap without docker is to build it locally on your device.
+
 .. tabs::
 
      .. group-tab:: Mac OS
@@ -320,7 +351,7 @@ Install Without Docker
 
                  #. Close the terminal and open a new one. This will update the python symlinks and allow you to progress through the next steps.
 
-                 #. Execute the following commands **one by one** (do NOT copy-paste the entire block at once). For each command entered, ensure that the terminal doesn't return any error. If it does, carefully look at what the error is and fix it before moving to the next step; entering the next command without fixing a previous issue will break the installation process.
+                 #. Execute the following commands **one by one** (do NOT copy-paste the entire block at once, each line is an independent command). Ensure that the terminal doesn’t return any error for each command entered. If it does, carefully look at what the error is and fix it before moving to the next step; entering the following command without fixing a previous issue will break the installation process.
 
                      .. code-block::
 
@@ -338,7 +369,7 @@ Install Without Docker
                          git clone https://github.com/tecnovert/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
 
-                 #. Install root SSL certificates for the SSL module (more information `here <https://pypi.org/project/certifi/>`_.
+                 #. Install root SSL certificates for the SSL module (more information `here <https://pypi.org/project/certifi/>`_).
 
                          .. code-block::
 
@@ -361,7 +392,7 @@ Install Without Docker
 
                          apt-get install -y wget python3-pip gnupg unzip protobuf-compiler automake libtool pkg-config curl jq
 
-                 #. Execute the following commands **one by one** (do NOT copy-paste the entire block at once). For each command entered, ensure that the terminal doesn't return any error. If it does, carefully look at what the error is and fix it before moving to the next step; entering the next command without fixing a previous issue will break the installation process.
+                 #. Execute the following commands **one by one** (do NOT copy-paste the entire block at once). Ensure that the terminal doesn’t return any error for each command entered. If it does, carefully look at what the error is and fix it before moving to the next step; entering the following command without fixing a previous issue will break the installation process.
 
                      .. code-block::
 
@@ -381,8 +412,10 @@ Install Without Docker
                          protoc -I=basicswap --python_out=basicswap basicswap/messages.proto
                          pip3 install .
 
-Configure the Docker Image
---------------------------
+Configure BasicSwap
+-------------------
+
+Now that your BasicSwap instance has been created, you need to configure it to your liking. 
 
 .. tabs::
 
@@ -406,9 +439,9 @@ Configure the Docker Image
 
                  #. Choose what coins you want to enable (Particl will be enabled by default). You will need to write them in the configuration command. :ref:`Click here <compatible coins>` for a full list of available coins on BasicSwap.
 
-                 #. Decide whether you want to fast sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
+                 #. Decide whether you want to fast-sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
 
-                 #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences as mentioned in the previous two steps.
+                 #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences, as determined in the previous two steps.
 
                      .. code-block:: bash
 
@@ -434,9 +467,9 @@ Configure the Docker Image
 
                  #. Choose what coins you want to enable (Particl will be enabled by default). You will need to write them in the configuration command. :ref:`Click here <compatible coins>` for a full list of available coins on BasicSwap.
 
-                 #. Decide whether you want to fast sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
+                 #. Decide whether you want to fast-sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
 
-                 #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences as mentioned in the previous two steps.
+                 #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences, as determined in the previous two steps.
 
                      .. code-block:: bash
 
@@ -445,6 +478,8 @@ Configure the Docker Image
 Start BasicSwap
 ---------------
 
+Now that you've configured your BasicSwap instance, it's time to run it. This will start BasicSwap and make it accessible from web browsers.
+
 .. tabs::
 
      .. group-tab:: Mac OS
@@ -494,3 +529,13 @@ Start BasicSwap
                      .. code-block:: bash
 
                          http://localhost:12700
+
+----
+
+.. seealso::
+
+ - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
+ - BasicSwap Guides - :doc:`Update BasicSwap <../basicswap-guides/basicswapguides_update>`
+ - BasicSwap Guides - :doc:`Route BasicSwap Through Tor <../basicswap-guides/basicswapguides_update>`
+ - BasicSwap Guides - :doc:`Make an Offer <../basicswap-guides/basicswapguides_make>`
+ - BasicSwap Guides - :doc:`Take an Offer <../basicswap-guides/basicswapguides_take>`

@@ -21,3 +21,8 @@ Particl Marketplace FAQ
 .. include:: faq_mp_general.rst.txt
 .. include:: faq_mp_customers_overview.rst.txt
 .. include:: faq_mp_vendors_overview.rst.txt
+
+BasicSwap DEX FAQ
+-----------------
+
+.. include:: faq_basicswap.rst.txt

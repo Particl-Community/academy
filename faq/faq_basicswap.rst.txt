@@ -1,0 +1,241 @@
+**User Experience**
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Does BasicSwap require a native coin or token to use?**
+
+    No. BasicSwap is an open and unrestricted DEX protocol. It isn't tied to a native coin or token and doesn't contain any monetization layer. This approach makes it an ideal base layer for other DEXs to be built on top of.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **What coins are available to trade?**
+
+    We are always working on adding more assets to BasicSwap. You can see the list of currently available coins :ref:`here <Compatible Coins>`. 
+
+    If you’d like to see the addition of a specific coin or token to the DEX, please take a look at :doc:`this page <../basicswap-guides/basicswapguides_apply>` to learn how you can apply for a listing. Alternatively, you can integrate compatible coins yourself by following this integration example `here <https://github.com/tecnovert/basicswap>`_.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **What are the fees?**
+
+    **0%**. BasicSwap does not charge trading or service fees. However, please note that, because it uses atomic swap technology, all swaps are settled on-chain, meaning that you’ll need to pay the typical blockchain transaction fee for the coins that you are swapping. In most cases, this is only a few cents, sometimes less.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How long does it take to set up BasicSwap?**
+
+    At this current stage of the beta, only full BasicSwap nodes are available. There are two main steps in setting them up: “building” the application and syncing the blockchains of the coins you’ve decided to enable.
+
+    Building the application should take between 10 to 30 minutes, depending on whether or not your system is already set up to build applications and if you follow the instructions carefully.
+
+    The process of syncing the blockchains on your computer is difficult to estimate because it is entirely dependent on your internet connection speed and which coins you have chosen to enable. 
+
+    As a general rule of thumb, we recommend activating Bitcoin’s “fast sync” option, which will speed up Bitcoin’s syncing time by ~94%. For Monero, you don’t need to wait for the blockchain to be fully synced up to start swapping. That’s because we use its bootstrapping functionality, which temporarily connects you to a public node while it syncs.
+
+    We are working on more convenient solutions such as light services and alternative gateway frameworks (i.e., web availability). These are expected to come at a later stage of the beta.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How long does it take to complete a swap?**
+
+    The time it takes to complete a swap is entirely dependent on what coins are being swapped. Because BasicSwap uses the atomic swap protocol, swap settlements happen on-chain. That means you have to wait for a few blocks for swaps to confirm on both chains, thus making swap times dependent on the blockchains' own block time. 
+
+    You can estimate the time of a swap by multiplying a coin’s block time by 6 (10 for Monero), which is the average number of confirmations it takes to complete, in full, a swap.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **What order types are available?**
+
+    BasicSwap currently only works with limit orders, but we’ll soon add market orders at a later point in the beta.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **What happens if the other participant or a swap fails?**
+
+    If any problem occurs during a swap, like a bug happening or the other swapper failing a specific step for any reason, the coins of both participants will be refunded automatically at no additional charge. That’s due to the “atomic” nature of atomic swaps. 
+
+    The protocol is built in such a way to only progress through the next step when very specific conditions are met. In any other cases, the swap times out and the coins, temporarily locked in atomic swap smart-contracts, are refunded back to their original owner.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Is there any way for a swap to get “stuck”?**
+
+    No. That is not possible due to the “atomic” nature of atomic swaps. If a condition fails to be met, or if one of the two parties stops progressing through the steps, the coins are released back to their original owners after a certain period of time. It is not possible for coins to get “stuck” in atomic swap smart contracts.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Do you need to run a local node to perform a swap?**
+
+    At this stage of the beta, yes. Your BasicSwap node needs to remain online for the duration of a swap. 
+
+    BasicSwap uses the P2P :term:`SecureMessaging network (SMSG)` to communicate between the two participating chains and send the required swap data to the atomic swap smart-contracts. Because the entire process is step-based and atomic in nature, an SMSG node cannot currently transmit the required data if it is offline in the first place.
+
+    We are working on resolving this requirement and enabling offline swaps, but that will come at a later time during the beta.
+
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Can I run my node on a cloud server or VPS?**
+
+    Although that is possible, we highly recommend against it. That’s because each BasicSwap instance contains the private keys of its associated wallet. 
+
+    Remember, BasicSwap is entirely non-custodial, meaning that you are the one responsible for the security of your own funds. Just like you wouldn’t host a Bitcoin wallet on a cloud server, we suggest not hosting a BasicSwap node where others may have unauthorized access to your device.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Does BasicSwap collect data about me?**
+
+    No. BasicSwap is entirely peer-to-peer and open-source. It does not collect nor share any data.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How can I remain anonymous when using BasicSwap?**
+
+    .. rst-class:: bignums
+
+         #. 1- :doc:`Use Tor <../basicswap-guides/basicswapguides_tor>`.
+
+         #. Prioritize trading in privacy coins such as Monero or Particl.
+
+         #. Everything else is being taken care of by BasicSwap! 🙂
+
+    .. note::
+         We are working on ways to make tracing more difficult on non-privacy coins such as Bitcoin with the future  integration of Taproot and tapscripts to BasicSwap.
+
+**Technology**
+
+.. container:: toggle
+
+    .. container:: header
+
+        **What does BasicSwap being in the beta stage mean?**
+
+    While BasicSwap is available on mainnet and generally works well, it is still considered a beta product for a few reasons.
+
+    For one, certain features and functionalities may feel less polished, in need of improvement, or simply missing. This is normal and part of the lifecycle of this beta phase. Please bear with us as we incrementally improve the protocol. 
+
+    Additionally, we have much more than what you currently see planned for it, but we've now reached a stage where we also want to start gathering feedback and stress-testing the application more aggressively. 
+
+    To build a strong product, you need to ensure its foundations are resilient, efficient, and built with longevity in mind. Opening up this beta phase to the public at this stage is a sure way to reach that goal more quickly.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **What are the core components of the BasicSwap DEX?**
+
+    BasicSwap is made up of three core components: the atomic swap protocol, the SecureMessaging network (SMSG), and scriptless scripts. Each of these fills a critical role and, when combined, form the BasicSwap DEX.
+
+    **Atomic swaps:** They are what make swapping possible without third-parties. Atomic swaps follow an “atomic” and condition-based approach in which coins get temporarily locked in smart contracts until specific conditions are met. Should any step fail during the process, the swap expires and coins are refunded to their original holder after some time. Read more about atomic swaps `here <https://github.com/decred/atomicswap>`_ and more specifically about Monero atomic swaps `here <https://github.com/h4sh3d/xmr-btc-atomic-swap>`_.
+
+    **SecureMessaging:** The SMSG network is a peer-to-peer network that communicates between the two participating blockchains of a swap and feeds the swap data into the atomic swap smart-contracts. It is how two blockchains can communicate with each other without a central party. Additionally, the SMSG network provides other DEX-related services, such as BasicSwap’s distributed order book. Read more about the SMSG network `here <https://particl.news/the-smsg-network-enabling-dapps-with-true-privacy/>`_.
+
+    **Scriptless scripts:** Scriptless scripts are a typically overlooked feature of Bitcoin and blockchains in general. Originating from MimbleWimble, they are, in their basic sense, a way to execute secure, scalable, and, most importantly, private smart-contracts off-chain using `Schnorr Signatures <https://en.wikipedia.org/wiki/Schnorr_signature>`_ or `ECDSA <https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm>`_. On BasicSwap, they are used to exchange the private key ownership of successful atomic swaps without leaving any trace on either side of a trade. Read more about scriptless scripts and their benefits `here <https://tlu.tarilabs.com/cryptography/introduction-to-scriptless-scripts>`_.
+
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Is the order book entirely decentralized?**
+
+    Yes, there is no central point of failure or centralized aspect with BasicSwap’s order book. It is powered by the :term:`SecureMessaging (SMSG)` network and is entirely decentralized. Read more about the SMSG network `here <https://particl.news/the-smsg-network-enabling-dapps-with-true-privacy/>`_.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Who runs the SMSG network that powers the DEX?**
+
+    The SMSG network is a peer-to-peer network of nodes scattered across the world. Whenever you run BasicSwap, you also become an SMSG node. That means that, as long as there are BasicSwap users, the SMSG network will have enough nodes to keep the DEX online.
+
+    But there’s more! SMSG is a powerful mixnet and, for this reason, powers other applications within the :term:`Particl ecosystem`. Notably, it powers several functions of the :doc:`Particl Marketplace dApp <../particl-marketplace/marketplace_explained>` and is also directly integrated into Particl Core nodes. 
+
+    As the Particl project fully intends on powering more and more of its privacy-first dApps with the SMSG network as time goes by, the level of decentralization of the SMSG network and its node count is expected to keep on growing. In other words, as the number of BasicSwap AND Particl users grows, so does the degree of decentralization of its dApp (i.e., BasicSwap).
+
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Does BasicSwap connect to third-party services?**
+
+    None of the core or functional aspects of BasicSwap ever connect to third-party services; the DEX is entirely decentralized and devoid of central points of failure. 
+
+    However, some convenience features within the user interface, such as the display of historical price graphs for coins, may rely on data fed from external APIs. None of this data is used in any functional part of BasicSwap (such as the order book or for determining prices).
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Are there pre-made builds of BasicSwap?**
+
+    Not at this time. BasicSwap requires to be manually compiled, which can be done by following the easy-to-follow instructions available :doc:`here <../basicswap-guides/basicswapguides_installation>`.
+
+    Of course, we fully intend on providing pre-made builds moving forward, but that’s planned for later during the beta.
+
+
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Is BasicSwap dependent on its team to operate?**
+
+    No. The Particl team's involvement is not required at all for BasicSwap to function. The DEX is completely open-source and peer-to-peer. The team may deliver updates and improve it but is not required for its functioning. 
+
+.. container:: toggle
+
+    .. container:: header
+
+        **What makes the BasicSwap network stable?**
+
+    A critical aspect of BasicSwap that makes it stable is that every trader becomes a P2P node that helps keep the DEX online. As long as there are BasicSwap users, it will remain online.
+
+    Additionally, the SMSG network — the P2P network that powers BasicSwap — also powers other applications within the :term:`Particl ecosystem`. Notably, it powers several functions of the :doc:`Particl Marketplace dApp <../particl-marketplace/marketplace_explained>` and is also directly integrated into Particl Core nodes. 
+
+    As the Particl project fully intends on powering more and more of its privacy-first dApps with the SMSG network as time goes by, the level of decentralization of the SMSG network and its node count is expected to keep on growing. In other words, as the number of BasicSwap AND Particl users grows, so does the degree of decentralization of its dApp (i.e., BasicSwap).
+
+.. container:: toggle
+
+    .. container:: header
+
+        **Are Monero swaps truly decentralized? What’s the catch?**
+
+    We get asked this a lot, but fortunately, there is no catch. BasicSwap uses `h4sh3d’s Monero atomic swap protocol <https://github.com/h4sh3d/xmr-btc-atomic-swap>`_. All other functions of the DEX are provided by the SMSG network and scriptless scripts. BasicSwap does not use wrapped Monero tokens, intermediate chains, or any other trickery.
+
+    And while there is no catch, there is one caveat: at this point in time, **it is only possible to execute XMR swaps one way**. Indeed, it is not possible to place XMR sell offers on the order book, only buy orders (in exchange for another coin). 
+
+    That’s due to the current nature of the XMR atomic swap protocol. We're happy to announce that we're working on a solution to allow bi-directional XMR swaps. This is one of the next items in line during this beta.
+
+.. container:: toggle
+
+    .. container:: header
+
+        **How can I verify and audit BasicSwap’s code?**
+
+    The entirety of the code is open-source. Simply visit our Github `here <https://github.com/tecnovert/basicswap>`_; every line of code can be thoroughly audited to ensure that BasicSwap does what we say it does.

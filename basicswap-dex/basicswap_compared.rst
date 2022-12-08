@@ -27,10 +27,11 @@ To get a better idea of how BasicSwap :term:`DEX <DEX>` compares to other crypto
 
         **Order Books**
 
-     An order book is an aggregated and public list of orders put by other traders. It is possible to either make an order at the desired price (meaning adding a new order to the public list of orders) or take one already listed by another trader.
+     An order book is an aggregated and public list of offers put by other traders. It is possible to either place an offer on the books, at the desired price, or take one already listed by another trader.
 
-     Typically, order books require a central database to host the order data. It is also often used to determine trading fees, with a different fee model being proposed for makers and takers.
-     Because BasicSwap is entirely decentralized, it uses SMSG to host order data and display it to other peers. It also charges no fee at all.
+     Typically, order books require a central database to host the data. It is also often used to determine trading fees, with a different fee model being proposed for "makers" and "takers".
+
+     Because BasicSwap is entirely decentralized, its order book is powered by the open-source SMSG network, as opposed to databases, and charges no fee at all.
 
 .. container:: toggle
 
