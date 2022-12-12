@@ -12,9 +12,6 @@ Simply by keeping an open connection to the :term:`Particl Blockchain`, you auto
 
 Staking also grants you the ability to vote on various community proposals, using your staking power as voting power.
 
-.. seealso::
-
-    - Particl Academy - In-Depth :doc:`Staking Explained <../in-depth/indepth_staking>`
 
 ----
 
