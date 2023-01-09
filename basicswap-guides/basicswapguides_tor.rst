@@ -87,7 +87,7 @@ If you have been using BasicSwap previously and want to enable Tor now, you can 
 
        .. code-block:: bash
 
-          export COINDATA_PATH=/var/data/coinswaps && docker-compose up
+          export COINDATA_PATH=/var/data/coinswaps && docker compose -f docker-compose_with_tor.yml up
 
 Update Coins Through Tor
 ========================
