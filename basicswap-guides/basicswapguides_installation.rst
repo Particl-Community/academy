@@ -48,7 +48,7 @@ The easiest way to set up :term:`BasicSwap` is through Docker. Note that this se
 
              #. Complete the prerequisites on the `Docker Desktop WSL 2 backend page <https://docs.docker.com/desktop/windows/wsl/>`_. This includes enabling the WSL2 feature on Windows.
 
-             #. Download `Docker Desktop for Windows <https://docs.docker.com/desktop/windows/wsl//>`_.
+             #. Download `Docker Desktop for Windows <https://docs.docker.com/desktop/windows/wsl/>`_.
 
              #. Install Docker with WSL 2 by following the instructions on the Docker Desktop WSL 2 backend page.
 
