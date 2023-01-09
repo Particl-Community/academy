@@ -83,7 +83,7 @@ If you have been using BasicSwap previously and want to enable Tor now, you can 
           docker compose -f docker-compose_with_tor.yml run -e TOR_PROXY_HOST=172.16.238.200 --rm swapclient \
                 basicswap-prepare --datadir=/coindata --enabletor
 
-    #. Start Tor normally.
+    #. Start BasicSwap along with Tor.
 
        .. code-block:: bash
 
