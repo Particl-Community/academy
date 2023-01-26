@@ -208,7 +208,8 @@ Now that BasicSwap's image has been created, you need to configure it to your li
 
              	 .. code-block:: bash
 
-             	 	 export COINDATA_PATH=/var/data/coinswaps && docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
+             	 	 export COINDATA_PATH=/var/data/coinswaps
+			 docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
 
              #. Note the mnemonic that the previous command will give you somewhere safe. This is your wallet backup key.
 
@@ -253,7 +254,8 @@ Now that BasicSwap's image has been created, you need to configure it to your li
 
              	 .. code-block:: bash
 
-             	 	 export COINDATA_PATH=/var/data/coinswaps && docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
+             	 	 export COINDATA_PATH=/var/data/coinswaps
+			 docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
 
              #. Note the mnemonic that the previous command will give you somewhere safe. This is your wallet backup key.
 
@@ -296,7 +298,8 @@ Now that you've configured your docker image, it's time to run it. This will sta
 
              	 .. code-block:: bash
 
-             	 	 export COINDATA_PATH=/var/data/coinswaps && docker-compose up
+             	 	 export COINDATA_PATH=/var/data/coinswaps
+			 docker-compose up
 
              #. Wait for BasicSwap to start fully, then open it up in your favorite web browser by navigating to the following address.
 
@@ -320,7 +323,8 @@ Now that you've configured your docker image, it's time to run it. This will sta
 
                      .. code-block:: bash
 
-                         export COINDATA_PATH=/var/data/coinswaps && docker-compose up
+                         export COINDATA_PATH=/var/data/coinswaps
+			 docker-compose up
 
                  #. Wait for BasicSwap to start fully, then open it up in your favorite web browser by navigating to the following address.
 
