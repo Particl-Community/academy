@@ -102,7 +102,7 @@ Create BasicSwap's docker image. You need to run this image whenever you want to
              	 .. code-block:: bash
              	 	 
              	 	 sudo apt update
-             	 	 sudo apt install git
+             	 	 sudo apt install git jq curl
 
              #. Download the BasicSwap code.
 
@@ -140,6 +140,13 @@ Create BasicSwap's docker image. You need to run this image whenever you want to
          .. rst-class:: bignums
 
                  #. Open a terminal.
+		
+		 #. Install Git.
+
+             	    .. code-block:: bash
+             	 	 
+             	 	 sudo apt update
+             	 	 sudo apt install git jq curl
 
                  #. Download the BasicSwap code.
 
