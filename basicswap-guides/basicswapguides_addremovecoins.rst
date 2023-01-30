@@ -46,12 +46,18 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
                  .. code-block:: bash
 
                      docker-compose stop
+                     
+             #. If you haven’t set your COINDATA_PATH variable permanently in your :guilabel:`.env` file, you’ll need to export the variable first. 
+             
+                .. code-block:: bash
+
+                   export COINDATA_PATH=/var/data/coinswaps        
 
              #. Enable coins by typing the following commands accompanied by the coin you want to enable after the :guilabel:`--addcoin`.
 
                  .. code-block:: bash
 
-                     export COINDATA_PATH=/var/data/coinswaps && docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --addcoin=bitcoin
+                     docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --addcoin=bitcoin
 
          .. note::
 
@@ -125,13 +131,15 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
 
                  .. code-block:: bash
 
-                     export SWAP_DATADIR=/Users/$USER/coinswaps && basicswap-prepare --usebtcfastsync --datadir=/$SWAP_DATADIR --addcoin=bitcoin
+                     export SWAP_DATADIR=/Users/$USER/coinswaps
+                     basicswap-prepare --usebtcfastsync --datadir=/$SWAP_DATADIR --addcoin=bitcoin
 
              #. Activate the change to your BasicSwap instance.
 
                  .. code-block::
 
-                     export SWAP_DATADIR=/Users/$USER/coinswaps && . $SWAP_DATADIR/venv/bin/activate && python -V
+                     export SWAP_DATADIR=/Users/$USER/coinswaps
+                     . $SWAP_DATADIR/venv/bin/activate && python -V
 
          .. note::
 
