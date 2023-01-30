@@ -54,18 +54,24 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
                 .. code-block:: bash
 
                    git pull
+                   
+             #. If you haven’t set your COINDATA_PATH variable permanently in your :guilabel:`.env` file, you’ll need to export the variable first. 
+             
+                .. code-block:: bash
+
+                   export COINDATA_PATH=/var/data/coinswaps
 
              #. Apply the updates you've pulled from Github to your docker image.
 
                 .. code-block:: bash
 
-                   export COINDATA_PATH=/var/data/coinswaps && docker-compose build
+                   docker-compose build
 
                 If BasicSwap's dependencies have changed, the update must be applied with the :guilabel:`--no-cache` argument.
 
                    .. code-block:: bash
 
-                      COINDATA_PATH=/var/data/coinswaps && docker-compose build --no-cache
+                      docker-compose build --no-cache
 
              #. Launch BasicSwap
 
@@ -97,6 +103,12 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
                 .. code-block:: bash
 
                    docker-compose stop
+              
+             #. If you haven’t set your COINDATA_PATH variable permanently in your :guilabel:`.env` file, you’ll need to export the variable first. 
+             
+                .. code-block:: bash
+
+                   export COINDATA_PATH=/var/data/coinswaps
 
              #. Apply coin core updates to your docker image. Make sure to write what coin core(s) you want to update using the :guilabel:`--withcoins` argument.
 
