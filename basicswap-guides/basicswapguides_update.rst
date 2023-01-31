@@ -115,7 +115,6 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
                 .. code-block:: bash
 
                    docker-compose run --rm swapclient \ 
-
                       basicswap-prepare --datadir=/coindata --preparebinonly --withcoins=monero,bitcoin
 
        .. attention::
