@@ -104,11 +104,17 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
                                  "walletsdir": "/coindata/monero"
                          },
 
+             #. If you haven’t set your COINDATA_PATH variable permanently in your :guilabel:`.env` file, you’ll need to export the variable first. 
+             
+                .. code-block:: bash
+
+                   export COINDATA_PATH=/var/data/coinswaps 
+             
              #. Launch BasicSwap normally.
 
                  .. code-block:: bash
 
-                     COINDATA_PATH=/var/data/coinswaps && docker-compose up 
+                     docker-compose up 
 
 BasicSwap Without Docker
 ========================
