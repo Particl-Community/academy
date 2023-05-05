@@ -40,6 +40,7 @@ If you're about to connect BasicSwap to Tor for the first time, you first need t
 
     .. code-block:: bash
     
+       mkdir $COINDATA_PATH/tor
        touch $COINDATA_PATH/tor/torrc
 
 Enable Tor on First Startup
