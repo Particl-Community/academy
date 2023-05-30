@@ -31,7 +31,7 @@ Offer Management
 
 By default, :term:`BasicSwap` allows offers to be published on the order book for a maximum of 48 hours. This is due to the nature of the :term:`SecureMessaging` (SMSG) networking protocol used to propagate offers on the network.
 
-The :guilabel:`createoffers.py` script lets you maintain your offer persistently up on the order book and dynamically manage its parameters.
+The :guilabel:`createoffers.py` script enables you to keep your offers consistently on the order book, while also dynamically managing their parameters.
 
 Automatically Republish Offer and Adjust Prices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -40,7 +40,7 @@ Using :guilabel:`createoffers.py`, you can ensure that your offers stay persiste
 
 .. rst-class:: bignums
 
-     #. Make sure your BasicSwap instance is up-to-date by closing it completely, running the following commands inside your :guilabel:`/docker` folder, and launching it back again.
+     #. Navigate to your /docker folder and make sure that your BasicSwap instance is :doc:`up-to-date <../basicswap-guides/basicswapguides_installation>`.
 
      	.. code-block:: bash
 
@@ -69,19 +69,19 @@ Using :guilabel:`createoffers.py`, you can ensure that your offers stay persiste
 		
 		* :guilabel:`amount`: The number of :guilabel:`coin_from` coins you want to offer on the books.
 		
-		* :guilabel:`minrate`: The minimum rate under which the script should not accept an offer. This isn't the effective exchange rate, but rather the bare minimum you find tolerable. The script will not publish offers on the books below that value, effectively protecting you from unexpected and sudden liquidity spikes).
+		* :guilabel:`minrate`: This refers to the lowest acceptable rate under which the script should not consider an offer. Note that this isn't the effective exchange rate, but merely the absolute minimum rate you deem acceptable. The script will refrain from publishing offers on the books that fall below this value, thereby offering protection against sudden and unexpected liquidity spikes.
 		
-		* :guilabel:`ratetweakpercent`: How much percentage, below or above current market price (CoinGecko's API) you want to publish your orders on the book. By setting this as, for example, a value of guilabel:`5`, you're essentially listing offers at 5% above CoinGecko's stated market price. This lets you automate the publishing of profitable offers on the order book.
+		* :guilabel:`ratetweakpercent`: This parameter specifies the percentage above or below the current market price (as reported by CoinGecko's API) at which you want to list your orders. For instance, if you set this to a value of 5, your offers will be listed at 5% above the market reported price. This feature automates the process of listing profitable offers on the order book.
 		
-		* :guilabel:`amount_variable`: Either :guilabel:`True` or :guilabel:`False`, determines whether you want to allow people to take fractions of your offer (i.e., allow someone to swap 25 PART on your 100 PART offer, not just the full amount, by setting this to :guilabel:`True`).
+		* :guilabel:`amount_variable`: Either :guilabel:`True` or :guilabel:`False`, determines whether you permit your offer to be partially fulfilled. For example, if you enable this option (set it to :guilabel:`True`), someone could fulfill just 25 PART of your 100 PART offer instead of the entire amount.
 		
-		* :guilabel:`address`: Your swapping idendity/swap address. You can specify one, or leave as `-1` to generate a new random address everytime.
+		* :guilabel:`address`: This refers to your swap identity or swap address. You have the option to specify one (this would be a Particl address from your BasicSwap Particl wallet), or if you prefer, you can set this to -1, which will prompt the system to generate a new random address each time your offer is updated.
 		
 		* :guilabel:`name`: The name of your offer. Keep it as `offer 0`, `offer 1`, and so on.
 		
-		* :guilabel:`min_coin_from_amt`: The minimum number of coins a bid has to request for the script to automatically accept the offer. Keep in mind that each transaction costs on-chain transaction fees, so you may want to set that to a minimum that is at least higher than current on-chain fees.
+		* :guilabel:`min_coin_from_amt`: This refers to the smallest amount of coins a bid must request for the script to automatically accept the offer. Remember that each transaction incurs on-chain transaction fees. Thus, it may be beneficial to set this value higher than the current on-chain fees.
 		
-		* :guilabel:`offer_valid_seconds`: The number of seconds your offer should stay up on the books, after which it will be republished, with a price update (if the script is still running by that time.) This can also be set globally rather than per order. For example, setting this as :guilabel:`3600` will make the script republish your offer every hour with a price update (current market price + :guilabel:`ratetweakpercent`).
+		* :guilabel:`offer_valid_seconds`: This parameter determines the duration (in seconds) for which your offer will remain on the books. After this time has elapsed, your offer will be re-published with a price adjustment, provided the script is still in operation. For instance, setting it to :guilabel:3600 will prompt the script to re-publish your offer every hour with a revised price (current market price + :guilabel:ratetweakpercent). This parameter can be set universally instead of on a per-order basis.
 
 		* :guilabel:`swap_type`: The script defaults to publishing offers using the more private :guilabel:`adaptor_sig` swap type, which requires the offering blockchain to contain a transaction malleability fix (i.e., Segwit). If that's not the case for your offer, you'll need to change this to * :guilabel:`secret_hash`. 
 
@@ -95,4 +95,4 @@ Using :guilabel:`createoffers.py`, you can ensure that your offers stay persiste
 
         .. note::
 
-		     The script needs to run continuously to be effective. Closing the terminal tab that runs it will shut it down. For this reason, we recommend executing the script using a background service system like `Byobu <https://www.digitalocean.com/community/tutorials/how-to-install-and-use-byobu-for-terminal-management-on-ubuntu-16-04?>`_ or `screen <https://linuxize.com/post/how-to-use-linux-screen/>`_.
+		     The script needs to run continuously to be effective. Closing the terminal tab that runs it will terminate it. For this reason, we recommend executing the script using `Byobu <https://www.digitalocean.com/community/tutorials/how-to-install-and-use-byobu-for-terminal-management-on-ubuntu-16-04?>`_ or `screen <https://linuxize.com/post/how-to-use-linux-screen/>`_.
