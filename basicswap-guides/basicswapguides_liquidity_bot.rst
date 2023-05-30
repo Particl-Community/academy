@@ -95,4 +95,4 @@ Using :guilabel:`createoffers.py`, you can ensure that your offers stay persiste
 
         .. note::
 
-		     The script needs to run continuously to be effective. Closing the terminal tab that runs it will terminate it. For this reason, we recommend executing the script using `Byobu <https://www.digitalocean.com/community/tutorials/how-to-install-and-use-byobu-for-terminal-management-on-ubuntu-16-04?>`_ or `screen <https://linuxize.com/post/how-to-use-linux-screen/>`_.
+		     The script needs to run continuously to take effect. Closing the terminal tab that runs it will terminate it. For this reason, we recommend executing the script using `Byobu <https://www.digitalocean.com/community/tutorials/how-to-install-and-use-byobu-for-terminal-management-on-ubuntu-16-04?>`_ or `screen <https://linuxize.com/post/how-to-use-linux-screen/>`_.
