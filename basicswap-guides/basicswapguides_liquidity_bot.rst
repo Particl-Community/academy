@@ -81,7 +81,7 @@ Using :guilabel:`createoffers.py`, you can ensure that your offers stay persiste
 		
 		* :guilabel:`min_coin_from_amt`: This refers to the smallest amount of coins a bid must request for the script to automatically accept the offer. Remember that each transaction incurs on-chain transaction fees. Thus, it may be beneficial to set this value higher than the current on-chain fees.
 		
-		* :guilabel:`offer_valid_seconds`: This parameter determines the duration (in seconds) for which your offer will remain on the books. After this time has elapsed, your offer will be re-published with a price adjustment, provided the script is still in operation. For instance, setting it to :guilabel:`3600` will prompt the script to re-publish your offer every hour with a revised price (current market price + :guilabel:ratetweakpercent). This parameter can be set universally instead of on a per-order basis.
+		* :guilabel:`offer_valid_seconds`: This parameter determines the duration (in seconds) for which your offer will remain on the books. After this time has elapsed, your offer will be re-published with a price adjustment, provided the script is still in operation. For instance, setting it to :guilabel:`3600` will prompt the script to re-publish your offer every hour with a revised price (current market price + :guilabel:`ratetweakpercent`). This parameter can be set universally instead of on a per-order basis.
 
 		* :guilabel:`swap_type`: The script defaults to publishing offers using the more private :guilabel:`adaptor_sig` swap type, which requires the offering blockchain to contain a transaction malleability fix (i.e., Segwit). If that's not the case for your offer, you'll need to change this to :guilabel:`secret_hash`. 
 
