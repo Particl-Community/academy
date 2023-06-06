@@ -170,6 +170,11 @@ Accept an Order
 .. attention::
 
 	For your :term:`Particl Desktop` client to receive any bid from buyers, it must be online and unlocked. New orders won't show up in your :guilabel:`Orders` or :guilabel:`Overview` until you unlock your wallet. To do so, click on the padlock icon in the status icons bar at the top right corner.
+	
+	
+.. attention::
+
+	To actually accept an order you ought to have escrow amount plus amount to pay small fee for acceptin, both of them in your Anon balance.
 
 When a buyer wants to buy something you're selling, they'll first make an order request that you need to accept. Accepting an order indicates to your buyer that you are willing to process his order.
 
