@@ -174,7 +174,7 @@ Accept an Order
 	
 .. attention::
 
-	To actually accept an order you ought to have escrow amount plus amount to pay small fee for acceptin, both of them in your Anon balance.
+	To actually accept an order you ought to have escrow amount plus amount to pay small fee for blinding escrow, both of them in your Anon balance.
 
 When a buyer wants to buy something you're selling, they'll first make an order request that you need to accept. Accepting an order indicates to your buyer that you are willing to process his order.
 
