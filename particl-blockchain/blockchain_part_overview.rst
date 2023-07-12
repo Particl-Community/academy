@@ -47,7 +47,7 @@ Launched in 2017, PART is a modern-day privacy coin that provides a high level o
 +--------------------------+-----------------------------------------------------------+
 | **Circulating Supply**   | |Coin supply| (100%)                                      |
 +--------------------------+-----------------------------------------------------------+
-| **Inflation Rate**       | 8% per year (4% to stakers, 4% to decentralized treasury) |
+| **Inflation Rate**       | 7% per year (3.5% to stakers, 3.5% to treasury)           |
 +--------------------------+-----------------------------------------------------------+
 | **Segwit**               | Enabled                                                   |
 +--------------------------+-----------------------------------------------------------+
