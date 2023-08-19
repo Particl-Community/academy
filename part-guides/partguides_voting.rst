@@ -48,6 +48,12 @@ The more blocks you stake within a proposal's voting period, the more voting pow
 
                      git pull
 
+             #. Make sure your Particl Core version is on latest version.
+
+                 .. code-block:: bash
+
+                     ./partyman update
+
              #. Still in Partyman’s folder, find what proposal you want to vote for.
 
                  .. code-block:: bash
