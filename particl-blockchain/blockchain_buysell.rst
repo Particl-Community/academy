@@ -13,17 +13,17 @@ PART  can be bought or sold on a variety of :term:`cryptocurrency` exchanges and
 Cryptocurrency Exchanges
 ------------------------
 
-While :term:`cryptocurrency` exchanges are highly regulated and privately held companies out for a profit, they are the most common way to obtain coins. In some cases, owning Bitcoin is a prerequisite to purchasing PART.
+While :term:`cryptocurrency` exchanges are highly regulated and privately held companies out for a profit, they are the most common way to obtain coins. In some cases, owning Bitcoin or USDT is a prerequisite to purchasing PART.
 
-* `Bittrex <https://bittrex.com/Market/Index?MarketName=BTC-PART>`_
+* `MEXC <https://www.mexc.com/exchange/PART_USDT>`_
 * `Probit <https://www.probit.com/app/exchange/PART-BTC>`_
 * `More... <https://coinmarketcap.com/currencies/particl/markets/>`_
 
 .. rst-class:: bignums
 
     #. Register on the :term:`cryptocurrency` exchange of choice. As a rule of thumb, always read the terms of service before using an exchange.
-    #. (Optional) If you don't already own Bitcoin, trade some for other currencies.
-    #. Trade Bitcoin (BTC) for Particl (PART).
+    #. (Optional) If you don't already own Bitcoin or USDT, trade some for other currencies.
+    #. Trade Bitcoin (BTC) or Tether (USDT) for Particl (PART).
     #. Withdraw PART to your local wallet's :guilabel:`Public` address within the :term:`Particl Desktop` client. Refer to the :ref:`Receive Coins <Receive Coins>` user guide for more details.
 
 
