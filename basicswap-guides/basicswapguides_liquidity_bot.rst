@@ -6,7 +6,7 @@ Automated Market Making Script
    BasicSwap DEX Liquidity Tools Guide
    
 .. meta::
-   :description lang=en: Learn how to use the liquidity tools available for the BasicSwap DEX
+   :description lang=en: Learn how to use the automated market making tool available for the BasicSwap DEX
    :keywords lang=en: Particl, DEX, Trading, Exchange, Buy Crypto, Sell Crypto, Installation, Quickstart, Blockchain, liquidity, Privacy, E-Commerce, multi-vendor marketplace, online marketplace
 
 You can use a variety of tools to help you provide liquidity and manage positions more easily on :term:`BasicSwap DEX <BasicSwap>`. This guide walks you through all the instructions to make full use of them.
