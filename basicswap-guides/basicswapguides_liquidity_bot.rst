@@ -1,6 +1,6 @@
-===================
-Using Trading Tools
-===================
+==============================
+Automated Market Making Script
+==============================
 
 .. title::
    BasicSwap DEX Liquidity Tools Guide
