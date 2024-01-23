@@ -189,7 +189,7 @@ Follow step-by-step user guides on how to use BasicSwap DEX and become an expert
 * :doc:`Connect to Tor <basicswap-guides/basicswapguides_tor>`
 * :doc:`How to Trade <basicswap-guides/basicswapguides_make>`
 * :doc:`How to Trade <basicswap-guides/basicswapguides_take>`
-* :doc:`Using Trading Tools <basicswap-guides/basicswapguides_liquidity_bot>`
+* :doc:`Automated Market Making Script <basicswap-guides/basicswapguides_liquidity_bot>`
 * :doc:`Apply for Listing <basicswap-guides/basicswapguides_apply>`
 
 ----
