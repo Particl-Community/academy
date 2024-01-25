@@ -19,8 +19,7 @@ python:
   install:
     - requirements: requirements.txt
 sphinx:
-  configuration: conf.py
-  theme: default
+  configuration: null
   # You can configure Sphinx to use a different builder, for instance use the dirhtml builder for simpler URLs
   # builder: "dirhtml"
   # Fail on all warnings to avoid broken references
