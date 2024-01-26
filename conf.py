@@ -99,7 +99,7 @@ else:
         # on the Pocoo themes), but since we're using the RTD theme
         # for the production docs, it's best to use that to avoid
         # issues due to discrepancies between the themes.
-        # html_theme = 'sphinx_rtd_theme'
+        html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
