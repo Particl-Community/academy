@@ -10,6 +10,11 @@ build:
     # nodejs: "20"
     # rust: "1.70"
     # golang: "1.20"
+  apt-packages:
+    - make
+  commands:
+    - make clean
+    - make html
 
 # Build documentation in the "docs/" directory with Sphinx
 python:
@@ -18,7 +23,7 @@ python:
 sphinx:
   configuration: conf.py
   # You can configure Sphinx to use a different builder, for instance use the dirhtml builder for simpler URLs
-  builder: "dirhtml"
+  builder: "html"
   # Fail on all warnings to avoid broken references
   # fail_on_warning: true
 
