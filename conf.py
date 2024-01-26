@@ -85,8 +85,21 @@ copyright = (
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 if on_rtd:
-    html_theme = 'default'
-
+    html_theme = 'sphinx_rtd_theme'
+else:
+    try:
+        # If you want to build the docs locally using the RTD theme,
+        # you may need to install it: ``pip install sphinx_rtd_theme``.
+        # https://github.com/snide/sphinx_rtd_theme#via-package
+        import sphinx_rtd_theme
+        html_theme = "sphinx_rtd_theme"
+        html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    except ImportError:
+        # This theme is included with Sphinx and is quite nice (based
+        # on the Pocoo themes), but since we're using the RTD theme
+        # for the production docs, it's best to use that to avoid
+        # issues due to discrepancies between the themes.
+        html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
