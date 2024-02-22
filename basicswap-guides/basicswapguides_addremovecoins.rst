@@ -121,6 +121,10 @@ BasicSwap Without Docker
 
 If you've built :term:`BasicSwap` without using the Docker method, follow these steps to add or remove coins to your BasicSwap instance.
 
+.. tip::
+
+	 For Linux users, adding or removing coins is simplified through community-developed scripts available `here on Github <https://github.com/nahuhh/basicswap-bash/releases>`_.
+
 .. tabs::
 
      .. group-tab:: Enable Coins
