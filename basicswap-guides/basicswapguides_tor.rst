@@ -23,11 +23,8 @@ This guide will show you how to protect your network information by routing Basi
 
 ----
 
-.. attention::
-
-    Tor integration into BasicSwap is experimental and only officially supported for Docker installations. 
-
-    **Always keep Tor up-to-date with the latest version.** Failure to do so may incur more risks than benefits.
+BasicSwap on Docker
+-------------------
 
 Create Initial Files
 ====================
@@ -135,6 +132,11 @@ Disable Tor
        .. code-block:: bash
 
           export COINDATA_PATH=/var/data/coinswaps && docker-compose up
+
+BasicSwap Without Docker
+------------------------
+
+For Linux users that have installed :term:`BasicSwap` without Docker, enabling :term:`Tor` is simplified through community-developed scripts available `here on Github <https://github.com/nahuhh/basicswap-bash/releases>`_.
 
 ----
 
