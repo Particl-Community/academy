@@ -9,7 +9,7 @@ Get Started (Install)
    :description lang=en: Learn how to install BasicSwap DEX on your desktop computer.
    :keywords lang=en: Particl, DEX, Trading, Exchange, Buy Crypto, Sell Crypto, Installation, Quickstart, Blockchain, Privacy, E-Commerce, multi-vendor marketplace, online marketplace
 
-:term:`BasicSwap DEX <BasicSwap>` is a cross-chain and privacy-centric DEX (decentralized exchange) that lets you trade cryptocurrencies without middleman interference. This guide walks you through all the steps required to install it and set it up to your liking.
+:term:`BasicSwap DEX <BasicSwap>` is a cross-chain and privacy-first decentralized exchange (DEX) enabling direct cryptocurrency trades without intermediaries, restrictions, or fees. This guide provides comprehensive instructions for installing and configuring it according to your needs.
 
 ----
 
@@ -22,21 +22,35 @@ Get Started (Install)
 
 .. tip::
 
-	 If you want to further protect your network information (i.e., IP address, location), you can run BasicSwap through the Tor network. Jump to the :doc:`BasicSwap Tor Guide <../basicswap-guides/basicswapguides_tor>` for detailed instructions on how to do so.
+	 To significantly improve your network privacy (e.g., masking your IP address and location), consider running :term:`BasicSwap` via the :term:`Tor` network. For step-by-step guidance, refer to the :doc:`BasicSwap Tor Guide <../basicswap-guides/basicswapguides_tor>`.
 
 .. attention::
 
-     When compiling a full BasicSwap node, it is very important to monitor the outputs given by the commands you enter. Ensure that, for every step of the process, the terminal doesn't mention anything about errors. If errors occur, it is important to fix them. DO NOT blindly enter commands without making sure that no errors occur; BasicSwap will not launch successfully if the steps are not properly completed.
+     During the installation of a full BasicSwap node, closely monitor the terminal's output. It's crucial to ensure there are no error messages at any step. Errors must be addressed immediately; failure to do so may prevent BasicSwap from launching successfully.
+
+Automated Installation Methods
+==============================
+
+Windows Installation Wizard (.exe)
+----------------------------------
+
+Install :term:`BasicSwap` on Windows effortlessly with a graphical installation wizard by downloading the .exe installer from `this Github link <https://github.com/gerlofvanek/basicswap-installation-GUI/releases>`_. This intuitive installer streamlines the setup process via an easy-to-navigate menu. Note that **you must run it as an administrator** for it to work properly.
+
+Linux Installation Scripts Suite
+-------------------------------
+
+For Linux users, the simplest installation method is through the use of community-developed scripts, available `here on Github <https://github.com/nahuhh/basicswap-bash/releases>`_. This collection of scripts automates common setup tasks, including installing, adding/removing/updating coin cores, updating :term:`BasicSwap`, and enabling :term:`Tor`.
+
 
 Install Using Docker
 ====================
 
-Because :term:`BasicSwap` is still in early beta, there is no ready-made executable or convenient integrations (i.e., Particl Desktop, web gateway, third-party platforms, etc.) yet; you must compile and run a full BasicSwap node. For this reason, the first step to get started is to compile the application locally on your computer.
+As :term:`BasicSwap` is currently in early beta, it lacks ready-made executables or in-app integrations (such as Particl Desktop, web gateways, or third-party services). Thus, the initial step involves compiling and running a full BasicSwap node on your device.
 
 Install Docker
 --------------
 
-The easiest way to set up :term:`BasicSwap` is through Docker. Note that this setup method is not available for OSX, so if you've got a Mac device, please refer to the next section.
+Docker offers a straightforward method for setting up :term:`BasicSwap` without one of the automated solutions. Please note, this installation method does not support OSX. If you are using a Mac, refer to the subsequent section for alternative setup instructions.
 
 .. tabs::
 
@@ -46,17 +60,17 @@ The easiest way to set up :term:`BasicSwap` is through Docker. Note that this se
 
          .. rst-class:: bignums
 
-             #. Complete the prerequisites on the `Docker Desktop WSL 2 backend page <https://docs.docker.com/desktop/windows/wsl/>`_. This includes enabling the WSL2 feature on Windows.
+             #. Begin by completing the prerequisites listed on the `Docker Desktop WSL 2 backend page <https://docs.docker.com/desktop/windows/wsl/>`_. This involves activating the WSL2 feature on Windows.
 
-             #. Download `Docker Desktop for Windows <https://docs.docker.com/desktop/windows/wsl/>`_.
+             #. Proceed to download `Docker Desktop for Windows <https://docs.docker.com/desktop/windows/wsl/>`_.
 
-             #. Install Docker with WSL 2 by following the instructions on the Docker Desktop WSL 2 backend page.
+             #. Follow the detailed installation guide for Docker with WSL 2 on the Docker Desktop WSL 2 backend page.
 
          .. note:: 
-             Some versions of Docker may have incompatibility issues with Windows 11. If the problem persists, consider using an older version of Docker. 
+             Be aware that certain versions of Docker might not be fully compatible with Windows 11. Should issues arise, trying an earlier version of Docker could be beneficial.  
 
          .. note::
-             Changing certain BIOS settings, such as enabling hardware-assisted virtualization, may be required to run Docker successfully — follow the prompts’ instructions if that is the case.
+             You may need to adjust BIOS settings, such as enabling hardware-assisted virtualization, to ensure Docker runs smoothly. Please adhere to any guidance provided during the setup process if that's the case.
 
      .. group-tab:: Linux
 
@@ -70,22 +84,22 @@ The easiest way to set up :term:`BasicSwap` is through Docker. Note that this se
 
                      apt-get install curl jq git
 
-             #. Verify if you've already got Docker installed.
+             #. Check if Docker is already installed on your system.
 
              	 .. code-block:: bash
              	 	 
              	 	 docker -v
 
-             	 If already installed, you should see a line containing :guilabel:`Docker version (...)`. If that's the case, you don't need to re-install it and you can safely skip to the next section.
+             	 If you see a message indicating :guilabel:`Docker version (...)`, Docker is already installed and you can move on to the next steps without reinstalling it.
 
              #. Install Docker by following `the instructions on their website <https://docs.docker.com/engine/install/#server>`_.
 
-             #. It is recommended to `setup Docker without sudo <https://docs.docker.com/engine/install/linux-postinstall/>`_. Otherwise, you'll be required to preface each :guilabel:`docker-compose` command with :guilabel:`sudo` every time.
+             #. Configuring Docker to run without sudo is recommended, as outlined in `this guide <https://docs.docker.com/engine/install/linux-postinstall/>`_. Without this setup, you'll need to include :guilabel:`sudo` before every :guilabel:`docker-compose` command.
 
 Create the Docker Image
 -----------------------
 
-Create BasicSwap's docker image. You need to run this image whenever you want to run the DEX.
+Create BasicSwap's docker image, which you'll need to run whenever you want to launch the DEX.
 
 .. tabs::
 
@@ -116,17 +130,17 @@ Create BasicSwap's docker image. You need to run this image whenever you want to
 
              	 	 cd basicswap/docker/
 
-             #. Set your :guilabel:`COINDATA_PATH`.
+             #. Copy the default environment file.
 
                  .. code-block:: bash
 
-             	 	 export COINDATA_PATH=/var/data/coinswaps 
+             	 	 cp example.env .env
 
-             #. (Optional) You can alternatively set the COINDATA_PATH value by default. To do so, delete the :guilabel:`#` at the beginning of the related line in the .env file, located in :guilabel:`basicswap/docker`.
+             #. **(Optional)** Set a custom coin data path by modifying the target path in your :guilabel:`.env` file.
 
                  .. code-block:: bash
 
-                     nano .env 
+                     nano .env
 
              #. Create the BasicSwap Docker image (make sure you are in :guilabel:`basicswap/docker`.
 
@@ -160,11 +174,17 @@ Create BasicSwap's docker image. You need to run this image whenever you want to
 
 	             	 	 cd basicswap/docker/
 
-                 #. Set your :guilabel:`COINDATA_PATH`.
+            	 #. Copy the default environment file.
 
                      .. code-block:: bash
 
-	             	 	 export COINDATA_PATH=/var/data/coinswaps 
+             	 	 	cp example.env .env
+
+             	#. **(Optional)** Set a custom coin data path by modifying the target path in your :guilabel:`.env` file.
+
+                     .. code-block:: bash
+
+    	                 	nano .env
 
                  #. Create the BasicSwap Docker image (make sure you are in :guilabel:`basicswap/docker`.
 
@@ -176,7 +196,7 @@ Create BasicSwap's docker image. You need to run this image whenever you want to
 Configure the Docker Image
 --------------------------
 
-Now that BasicSwap's image has been created, you need to configure it to your liking. 
+After creating BasicSwap's Docker image, it's time to configure it to your preferences.
 
 .. tabs::
 
@@ -200,26 +220,26 @@ Now that BasicSwap's image has been created, you need to configure it to your li
 
              	 	 CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
 
-             #. Choose what coins you want to enable (Particl will be enabled by default). You will need to write them in the configuration command. :ref:`Click here <compatible coins>` for a full list of available coins on BasicSwap.
+             #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
-             #. Decide whether you want to fast sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the next step's configuration command.
+             #. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
 
-             #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences as mentioned in the previous two steps.
+             #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
              	 .. code-block:: bash
 
              	 	 export COINDATA_PATH=/var/data/coinswaps
 			 docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
 
-             #. Note the mnemonic that the previous command will give you somewhere safe. This is your wallet backup key.
+             #. Securely record and store the mnemonic provided by the above command. It serves as your wallet's backup key.
 
-             #. Note the output of the following command somewhere safe. It is useful if you need to restore your Monero wallet later on.
+             #. Safely note the result of the following command, it is useful if you need to recover your Monero wallet.
 
                  .. code-block:: bash
 
              	 	 echo $CURRENT_XMR_HEIGHT
 
-             #. **(Optional)** Set your timezone by setting the correct :guilabel:`TZ` value in your :guilabel:`.env` file (located in BasicSwap's docker folder). List valid timezone options by typing the :guilabel:`timedatectl list-timezones` command.
+             #. **(Optional)** Adjust your timezone by specifying the appropriate :guilabel:`TZ` value in your :guilabel:`.env` file, located within the BasicSwap Docker directory. Use the :guilabel:`timedatectl list-timezones` command to view valid timezone options.
 
              	 .. code-block:: bash
              	 
@@ -246,26 +266,26 @@ Now that BasicSwap's image has been created, you need to configure it to your li
 
              	 	 CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
 
-             #. Choose what coins you want to enable (Particl will be enabled by default). You will need to write them in the configuration command. :ref:`Click here <compatible coins>` for a full list of available coins on BasicSwap.
+             #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
-             #. Decide whether you want to fast sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
+             #. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
 
-             #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences as mentioned in the previous two steps.
+             #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
              	 .. code-block:: bash
 
              	 	 export COINDATA_PATH=/var/data/coinswaps
 			 docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
 
-             #. Note the mnemonic that the previous command will give you somewhere safe. This is your wallet backup key.
+             #. Securely record and store the mnemonic provided by the above command. It serves as your wallet's backup key.
 
-             #. Note the output of the following command somewhere safe. It is useful if you need to restore your Monero wallet later on.
+             #. Safely note the result of the following command, it is useful if you need to recover your Monero wallet.
 
                  .. code-block:: bash
 
              	 	 echo $CURRENT_XMR_HEIGHT
 
-             #. **(Optional)** Set your timezone by setting the correct :guilabel:`TZ` value in your :guilabel:`.env` file (located in BasicSwap's docker folder). List valid timezone options by typing the :guilabel:`timedatectl list-timezones` command.
+             #. **(Optional)** Adjust your timezone by specifying the appropriate :guilabel:`TZ` value in your :guilabel:`.env` file, located within the BasicSwap Docker directory. Use the :guilabel:`timedatectl list-timezones` command to view valid timezone options.
 
              	 .. code-block:: bash
 
@@ -276,7 +296,7 @@ Now that BasicSwap's image has been created, you need to configure it to your li
 Start BasicSwap
 ---------------
 
-Now that you've configured your docker image, it's time to run it. This will start BasicSwap and make it accessible from web browsers.
+After configuring your Docker image, the next step is to run it. Doing so will launch BasicSwap, making it accessible through web browsers.
 
 .. tabs::
 
@@ -348,7 +368,7 @@ The first step to running BasicSwap without docker is to build it locally on you
  
                  #. Open :guilabel:`Terminal` (i.e., :kbd:`COMMAND ⌘` + :kbd:`SPACE` and type "terminal" > hit :kbd:`ENTER ↵`).
 
-                 #. Install Homebrew, which will let you execute Linux-like commands right from your Mac OS terminal.
+                 #. Install Homebrew by executing the following command in the Terminal. Homebrew extends MacOS with a wealth of Linux-style package management capabilities.
 
                      .. code-block::
 
@@ -362,7 +382,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                  #. Close the terminal and open a new one. This will update the python symlinks and allow you to progress through the next steps.
 
-                 #. Execute the following commands **one by one** (do NOT copy-paste the entire block at once, each line is an independent command). Ensure that the terminal doesn’t return any error for each command entered. If it does, carefully look at what the error is and fix it before moving to the next step; entering the following command without fixing a previous issue will break the installation process.
+                 #. Execute the commands below sequentially to setup the environment. **Each line must be run one-by-one** to prevent errors and ensure successful execution.
 
                      .. code-block::
 
@@ -403,7 +423,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                          apt-get install -y wget python3-pip gnupg unzip protobuf-compiler automake libtool pkg-config curl jq
 
-                 #. Execute the following commands **one by one** (do NOT copy-paste the entire block at once). Ensure that the terminal doesn’t return any error for each command entered. If it does, carefully look at what the error is and fix it before moving to the next step; entering the following command without fixing a previous issue will break the installation process.
+                 #. Execute the commands below sequentially to setup the environment. **Each line must be run one-by-one** to prevent errors and ensure successful execution.
 
                      .. code-block::
 
@@ -426,7 +446,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 Configure BasicSwap
 -------------------
 
-Now that your BasicSwap instance has been created, you need to configure it to your liking. 
+After the installation, configure BasicSwap according to your requirements.
 
 .. tabs::
 
@@ -448,11 +468,11 @@ Now that your BasicSwap instance has been created, you need to configure it to y
 
                          CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
 
-                 #. Choose what coins you want to enable (Particl will be enabled by default). You will need to write them in the configuration command. :ref:`Click here <compatible coins>` for a full list of available coins on BasicSwap.
+             	#. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
-                 #. Decide whether you want to fast-sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
+             	#. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
 
-                 #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences, as determined in the previous two steps.
+             	#. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
                      .. code-block:: bash
 
@@ -476,11 +496,11 @@ Now that your BasicSwap instance has been created, you need to configure it to y
 
                          CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
 
-                 #. Choose what coins you want to enable (Particl will be enabled by default). You will need to write them in the configuration command. :ref:`Click here <compatible coins>` for a full list of available coins on BasicSwap.
+            	 #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
-                 #. Decide whether you want to fast-sync the Bitcoin blockchain by downloading a checkpoint or sync from scratch. This will be determined by whether or not you add the :guilabel:`--usebtcfastsync` argument to the configuration command.
+             	 #. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
 
-                 #. Configure your BasicSwap Docker image by typing the following configuration command. Make sure to change it according to your preferences, as determined in the previous two steps.
+             	 #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
                      .. code-block:: bash
 
@@ -489,7 +509,7 @@ Now that your BasicSwap instance has been created, you need to configure it to y
 Start BasicSwap
 ---------------
 
-Now that you've configured your BasicSwap instance, it's time to run it. This will start BasicSwap and make it accessible from web browsers.
+After configuring your Docker image, the next step is to run it. Doing so will launch BasicSwap, making it accessible through web browsers.
 
 .. tabs::
 
