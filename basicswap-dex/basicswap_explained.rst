@@ -9,9 +9,9 @@ BasicSwap Explained
       
       :description lang=en: Overview of the BasicSwap DEX protocol and its local desktop client.
  
-:term:`BasicSwap <BasicSwap>` is a cross-chain and privacy-centric :term:`DEX <DEX>` (decentralized exchange) that lets you trade cryptocurrencies without middleman interference. Its distributed order book lets you make or take orders at no cost and trade within a free and open environment without central points of failure.
+:term:`BasicSwap <BasicSwap>` is a cross-chain and privacy-centric :term:`DEX <DEX>` (decentralized exchange) that lets you trade cryptocurrencies without middleman interference. Its distributed ledger technology enables users to place or accept orders without fees, promoting a free and open trading environment devoid of central points of failure.
 
-BasicSwap was built in direct response to the increasingly invasive demands and data mining practices of today’s :term:`cryptocurrency` exchanges. It strives to bring more sane cryptocurrency trading conditions for all.
+Developed as a countermeasure to the intrusive data collection and demands prevalent in modern :term:`cryptocurrency` exchanges and third-party services, BasicSwap aims to restore sovereignty and privacy to cryptocurrency trading for users worldwide.
 
 ----
  
@@ -32,37 +32,37 @@ What is it?
 
     BasicSwap's order book — WIP/Beta, UI/UX subject to change
 
-While the :term:`BasicSwap` DEX is easy-to-use and relatively straightforward, what happens in the background is complex and intricate. 
+The :term:`BasicSwap` decentralized exchange (DEX) is designed for ease of use and clarity in operation, but its underlying protocol is rather intricate and sophisticated.
 
-The protocol leverages a variety of distributed and open-source technologies such as atomic swaps, scriptless scripts, and the SMSG network. This enables it to run autonomously without central servers, databases, or even employees maintaining it. Rather, the protocol is developed, maintained, and run by a vast decentralized network of contributors and participants from all around the world.
+It incorporates several distributed and open-source technologies, including atomic swaps, scriptless scripts, adaptor signatures, and the SMSG network to function independently without the need for centralized servers, databases, or administrative staff. Instead, it is developed, upheld, and operated by an extensive, decentralized community of open-source contributors and participants.
 
 Benefits
 ---------
 
-This decentralized architecture gives :term:`BasicSwap` major advantages when compared to traditional exchanges (sometimes referred to as “centralized exchanges” or “CEX”).
+:term:`BasicSwap` distinguishes itself from conventional exchanges, often known as “centralized exchanges” or “CEX,” through its decentralized framework which offers several key advantages:
 
-* **No trading fees** — you never have to pay trading fees ever again.
-* **Total privacy** — no data or personal information is ever collected about you.
-* **Secure** — its non-custodial approach offers the highest level of security for your funds.
-* **No KYC or account** — you don’t have to create an account or provide any document or KYC information.
-* **Complete freedom** — no user ban, geo-fencing, or asset seizures.
-* **Unstoppable** — can’t be censored or shut down by anyone.
-* **Autonomous** — runs by itself and requires no human intervention.
+* **No trading fees** — Trading fees are a thing of the past.
+* **Total privacy** — Your data and personal information remain confidential.
+* **Secure** — A non-custodial model ensures unparalleled security for your assets.
+* **No KYC or account** — Account creation or KYC documentation is not required.
+* **Complete freedom** — No bans, geographical restrictions, or asset confiscations.
+* **Unstoppable** — It is immune to censorship or shutdown.
+* **Autonomous** — Operates independently without human intervention.
 
-These advantages are only possible thanks to the uniquely :term:`decentralized <Decentralization>` nature of the BasicSwap protocol.
+These benefits stem directly from the inherently :term:`decentralized <Decentralization>` nature of the BasicSwap protocol and aren't possible on centralized infrastructure.
 
 Features
 --------
 
-BasicSwap is still in beta. That means that, while it offers most of the basic trading features you’d expect to see on centralized exchanges, it is still in heavy development, and many more features will come about in the near future.
+Currently in beta, BasicSwap already supports essential trading functionalities typical of centralized exchanges, with ongoing developments to introduce additional features.
 
-* **True cross-chain support** — Swap cryptocurrencies that live on different blockchains like Bitcoin and Monero.
-* **Distributed order book** — Make or take limit orders on a completely distributed order book system.
-* **No third-party or middleman** — Trade crypto with no intermediaries whatsoever.
-* **No trading fees** — Only pay the typical :term:`cryptocurrency` network fee. No more trading fees!
-* **Privacy from the ground up** — Every component of BasicSwap is built with a privacy-first commitment.
-* **Full Monero support** — Swap Monero with a variety of other cryptocurrencies like Bitcoin or Particl. No wrapped assets or trickery involved.
-* **User-friendly interface** — Enjoy all these features with a user-friendly and intuitive interface that does all the complicated parts for you.
+* **True cross-chain support** — Swap cryptocurrencies across different blockchains, like Bitcoin and Monero.
+* **Distributed order book** — Place or accept limit orders through a fully distributed order book.
+* **No third-party or middleman** — Offers direct crypto trades without intermediaries.
+* **No trading fees** — You are only subject to standard :term:`cryptocurrency` network fees, eliminating any other additional trading costs.
+* **Privacy from the ground up** — Designed with a privacy-first approach in all components.
+* **Full Monero support** — Provides direct swaps between Monero and other cryptocurrencies, such as Bitcoin, Litecoin, or Particl, without relying on wrapped assets or convoluted L2 layers.
+* **User-friendly interface** — Features a straightforward and intuitive interface, simplifying complex processes for the user.
 
 Compatible Coins
 ^^^^^^^^^^^^^^^^
@@ -74,7 +74,7 @@ Compatible Coins
 
     BasicSwap's wallets page — WIP/Beta, UI/UX subject to change
 
-BasicSwap already offers decentralized trading services for the following cryptocurrencies (`check it out on BasicSwap website <https://basicswapdex.com/markets>`_).
+:term:`BasicSwap` provides decentralized trading services for a selection of cryptocurrencies. (`check out the full list on BasicSwap website <https://basicswapdex.com/markets>`_).
 
 +----------------------------------+---------------------------------------------+
 | **Coin Name**                    | **Ticker**                                  |
@@ -94,16 +94,16 @@ BasicSwap already offers decentralized trading services for the following crypto
 | Particl                          | PART                                        |
 +----------------------------------+---------------------------------------------+
 
-We are looking at adding many other coins, including ETH and its ERC-20 tokens, following the release of the open beta. Any Bitcoin-based and Segwit-enabled :term:`cryptocurrency` can get integrated with minimal effort. Other token-issuing blockchains like Fantom, Solana, Avalanche, Polygon, or BSC may become available on BasicSwap at a later stage of the integration roadmap.
+Plans are underway to expand the list of available assets such as ETH and its ERC-20 tokens. Cryptocurrencies based on Bitcoin and enabled for Segwit can be seamlessly integrated with minimal effort, and token-issuing blockchains like Fantom, Solana, Avalanche, Polygon, or BSC might be incorporated into BasicSwap during later phases of our integration roadmap.
 
 Access Gateways
 ^^^^^^^^^^^^^^^
 
-Access gateways refer to any platform used by the end-user to access and use BasicSwap. It is, in other words, the graphical interface of the application.
+Access gateways are the platforms through which end-users access and interact with BasicSwap, essentially serving as the application's graphical interface.
 
-Because BasicSwap is, at its core, an open DEX protocol, it is possible to access and use it with a variety of access gateways. 
+Given that BasicSwap is fundamentally an open DEX protocol, it can support access and usability across a diverse array of gateways.
 
-Gateways, each with pros and cons, may display things differently or provide a different set of features. But because they each connect to the same protocol, all gateways are cross-compatible with each other and share the same order books and liquidity, meaning two swappers do not need to be using the same gateway to trade together.
+These gateways, each with its unique advantages and limitations, may vary in presentation or feature set. However, since all gateways connect to the same underlying protocol, they are interoperable, sharing identical order books and liquidity pools. This ensures that traders can transact with each other regardless of the specific gateway they choose to use.
 
 .. container:: toggle
 
@@ -111,20 +111,20 @@ Gateways, each with pros and cons, may display things differently or provide a d
 
         **BasicSwap Desktop**
 
-    BasicSwap Desktop is currently the only way to access and use the BasicSwap open beta, with other access gateways in the works. It not only lets you manage your various non-custodial :term:`cryptocurrency` wallets but also trade with other people without third-party interference. 
+    BasicSwap Desktop is the primary access point for the BasicSwap open beta, with plans to introduce additional gateways. It facilitates management of multiple non-custodial :term:`cryptocurrency` wallets and enables direct trading without third-party involvement. 
 
     **Pros:**
 
-    * **No compromise** — Use BasicSwap without any central service involved.
-    * **Desktop access** — Access the DEX locally from your computer.
-    * **Maximum privacy** — Trade in complete and total privacy.
+    * **No compromise** — Operate on BasicSwap devoid of any centralized service.
+    * **Desktop access** — Directly engage with the DEX from your personal computer.
+    * **Maximum privacy** — Easily achieve complete privacy during trades.
 
     **Cons:**
 
-    * **Slower setup** — The local client needs to be manually compiled and the initial setup process can take some time and tinkering.
-    * **No web access** — The DEX has to be accessed from a local client and cannot be used from the convenience of a web browser.    
-    * **Must stay online** — Your BasicSwap :term:`node <node>` needs to remain online to keep your offer(s) listed on the order book and execute trades.
-    * **Heavy** — You need to download and store the full blockchain nodes of the coins you’ve enabled, which can take a considerable amount of space.
+    * **Slower setup** — Manual compilation is required for the local client, making the initial setup potentially complex.
+    * **No web access** — Trades must be conducted via a local client, lacking the convenience of web browser access.    
+    * **Continuous online presence** — To maintain your offers on the order book and fulfill trades, your BasicSwap :term:`node <node>` must stay connected.
+    * **Storage demands** — Enabling certain coins requires downloading and storing their full blockchain nodes, which can consume significant disk space.
 
 .. container:: toggle
 
@@ -132,21 +132,18 @@ Gateways, each with pros and cons, may display things differently or provide a d
 
         **Web Gateway**
 
-    Although not available presently, a web gateway that lets you access and use the marketplace from your favorite browser is in the works.
-
-    With web applications taking an ever-increasing part of our digital lives and with the vast majority of exchanges being primarily available from the web, BasicSwap’s web gateways are poised to become one of the most appealing ways to trade on it.
-
+    A web gateway, which is not yet available, is planned to be released to allow DEX access via web browsers. This initiative aims to leverage the ubiquity of web applications in our digital routines and the commonality of web-based exchange platforms, positioning BasicSwap’s web gateway as a highly convenient but still secure option for trading.
 
     **Pros:**
 
-    * **Universal access** — Use BasicSwap anywhere using your computer or mobile device.
-    * **Faster to set up** — Get started in just a few seconds thanks to a much quicker setup process and no requirement to host full blockchain :term:`nodes <node>` locally.
-    * **Easy to use** — Using the marketplace from the web is the easiest and most user-friendly way to go about it.
+    * **Universal access** — Engage with BasicSwap on any device with internet access.
+    * **Quick setup** — Begin trading in moments, thanks to a streamlined setup process that eliminates the need to maintain full blockchain :term:`nodes <node>` on your device.
+    * **User-friendly** — The web offers the most straightforward trading experience.
 
     **Cons:**
 
-    * **Third-party nodes** — Third-party nodes slightly reduce the level of decentralization but still preserve your privacy and the security of your funds using end-to-end encryption and a non-custodial approach.
-    * **Phishing** — By nature, web applications tend to be more prone to successful phishing, clones, and social engineering attacks.
+    * **Dependence on third-party nodes** — Utilizing third-party nodes slightly diminishes decentralization but maintains privacy and security through end-to-end encryption and non-custodial practices.
+    * **Increased phishing risk** — Web platforms are inherently more susceptible to phishing, cloning, and social engineering schemes.
 
 .. container:: toggle
 
@@ -154,21 +151,20 @@ Gateways, each with pros and cons, may display things differently or provide a d
 
         **Third-Party Integrations**
 
-    BasicSwap can communicate with outside applications, enabling integrations in third-party products and services like :term:`cryptocurrency` wallets, payment applications, web plugins, etc.
-
-    But although this functionality is already available, a comprehensive developer SDK toolkit along with developer-friendly modules are in the works to make the process of integrating the marketplace into third-party applications easier and more straightforward. 
+    BasicSwap is planned to support integrations with external applications, such as :term:`cryptocurrency` wallets, payment services, and web plugins, in a bid to broaden the ecosystem and bring its benefits to as many people as possible. Further development of a comprehensive SDK and user-friendly modules is still required to allow for this.
 
     **Pros:**
 
-    * **Use-case improvement** — Add functionality and use-cases to your product by integrating the ready-made BasicSwap DEX.
-    * **Varied access** — Access and use BasicSwap from other non-Particl applications that you may already use.
-    * **All the benefits of web access** — Integrating the DEX into a third-party application can enable all the benefits of web gateways.
+    * **Enhanced functionality** — Add coin swapping functionality to your products by incorporating BasicSwap DEX capabilities.
+    * **Diverse access points** — Utilize BasicSwap through familiar third-party applications, like a cryptocurrency wallet for example.
+    * **Web and mobile gateways** — Third-party app integration can offer the conveniences of web or mobile gateways.
 
     **Cons:**
 
-    * **Third-party nodes** — Third-party nodes slightly reduce the level of decentralization.
-    * **Privacy risks** — A third-party may not hold the same privacy ethos as the Particl project and work on collecting data or tracking its users.
-    * **Implementation risks** — Requires that you trust the third-party and its implementation of the Particl Marketplace.
+    * **Reduced decentralization** — Reliance on third-party nodes can slightly impact the network's decentralized nature.
+    * **Potential privacy concerns** — Third-party applications may not adhere strictly to Particl's privacy principles, posing risks of data collection or user tracking.
+    * **Dependence on third-party integrity** — Trust in the third-party's implementation is essential, introducing potential risks.
+    * **Introduction of custodianship** — Some third-parties may offer a custodial solution, meaning that you may not fully own your privacy keys.
 
 ----
 
