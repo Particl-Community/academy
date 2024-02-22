@@ -126,6 +126,10 @@ Update Without Docker
 
 If you've built :term:`BasicSwap` without using the Docker method, follow these steps to update your instance to the most up-to-date version.
 
+.. tip::
+
+	 For Linux users, updating BasicSwap and the coin cores you've enabled is simplified through community-developed scripts available `here on Github <https://github.com/nahuhh/basicswap-bash/releases>`_.
+
 .. tabs::
 
      .. group-tab:: Update BasicSwap
