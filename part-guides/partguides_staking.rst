@@ -78,7 +78,7 @@ Choose what device you want to use as a staking :term:`node <Node>` (i.e., `Rasp
 
         .. code-block:: bash
 
-            sudo apt-get install python git unzip pv jq dnsutilscd 
+            sudo apt-get install python git unzip pv jq dnsutils netcat-openbsd curl
 
         .. code-block:: bash
 
@@ -100,7 +100,7 @@ Choose what device you want to use as a staking :term:`node <Node>` (i.e., `Rasp
 
         .. code-block:: bash
 
-            partyman/partyman restart
+            partyman/partyman restart now
 
     #. Create a new Particl wallet on your staking :term:`node <Node>`.
 
