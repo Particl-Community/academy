@@ -78,7 +78,7 @@ Choose what device you want to use as a staking :term:`node <Node>` (i.e., `Rasp
 
         .. code-block:: bash
 
-            sudo apt-get install python git unzip pv jq dnsutils netcat-openbsd curl
+            sudo apt-get install python git unzip pv jq dnsutils netcat-openbsd curl net-tools
 
         .. code-block:: bash
 
