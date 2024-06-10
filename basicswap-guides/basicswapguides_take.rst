@@ -76,5 +76,4 @@ If it has instead been set to accept bids manually, you need to wait for your bi
  - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
  - BasicSwap Guides - :doc:`Install BasicSwap <../basicswap-guides/basicswapguides_installation>`
  - BasicSwap Guides - :doc:`Update BasicSwap <../basicswap-guides/basicswapguides_update>`
- - BasicSwap Guides - :doc:`Route BasicSwap Through Tor <../basicswap-guides/basicswapguides_update>`
  - BasicSwap Guides - :doc:`Make an Offer <../basicswap-guides/basicswapguides_make>`
