@@ -9,11 +9,11 @@ Under the Hood
       
       :description lang=en: Discover the technology that powers the BasicSwap decentralized DEX. Unrestricted crypto trading in complete privacy. 
  
-:term:`BasicSwap <BasicSwap>` is a cross-chain and privacy-centric :term:`DEX <DEX>` (decentralized exchange) that lets you trade cryptocurrencies without middleman interference. 
+:term:`BasicSwap <BasicSwap>` is a cross-chain and highly secure :term:`DEX <DEX>` (decentralized exchange) that lets you trade cryptocurrencies without middleman interference using atomic swaps. Its distributed ledger technology enables users to place or accept swap offers without fees, promoting a free and open trading environment devoid of central points of failure.
 
-Its user-friendly interface allows users to easily benefit from its groundbreaking benefits, but what makes them possible in the first place is rather complex and intricate. 
+:term:`BasicSwap <BasicSwap>` is crafted to uphold the highest standards of freedom in direct opposition to the growing threats to our sovereignty in the digital age. 
 
-This page will break down, in detail, the key technical components that live under the hood and make BasicSwap the unique DEX that it is.
+This page will break down, in detail, the key technical components that make BasicSwap the unique DEX that it is. Alternatively, you can familiarize yourself with BasicSwap's underlying technology and its considerations by consulting `this important definition page <https://basicswapdex.com/terms>`_.
 
 ----
  
@@ -24,19 +24,19 @@ This page will break down, in detail, the key technical components that live und
  
 ----
 
-Similarly to the Particl Marketplace, :term:`BasicSwap <BasicSwap>` relies on an intricate combination of distributed technologies developed, maintained, and run by a vast and global network of participants.
-
 Key Components
 ^^^^^^^^^^^^^^
 
-Three key technologies make BasicSwap the powerhouse that it is: the SecureMessaging (SMSG) protocol, scriptless scripts technology, and the more widely-known ‘atomic swaps’ protocol.
- 
+:term:`BasicSwap <BasicSwap>` can be best understood as the decentralized version of the SWIFT messaging network; it sends and receives messages between two peers via the decentralized SMSG network for them to execute coin swaps together without any central party involvement. 
+
+The coin swapping process itself is not conducted by :term:`BasicSwap <BasicSwap>`. Instead, it is handled by on-chain atomic swaps on the respective blockchains of the cryptocurrencies being exchanged. :term:`BasicSwap <BasicSwap>`'s role is to enable communication between swappers, allowing them to exchange the necessary information for atomic swaps and to publicly broadcast their offers without intermediaries.
+
 Atomic Swaps
 ------------
 
-Atomic swaps have been around for quite some time and are an important part of many DEX platforms currently available. They allow for swapping digital assets between two users in a peer-to-peer fashion, assuming that the logistical requirements behind executing such a swap exist.
+:term:`BasicSwap <BasicSwap>` employs two distinct types of atomic swap protocols: HTLC ('Secret Hash') and PTLC ('Adaptor Signature'). These on-chain protocols facilitate the exchange of cryptocurrencies without the need for a trusted third party. HTLC uses hashed time-locked addresses, while PTLC utilizes adaptor signatures to execute swaps. 
 
-The atomic swap technology is, in and of itself, a relatively narrow-scoped protocol; it does not match orders between two users or provide any DEX framework. Instead, it just safely swaps assets and does so very securely.
+Both protocols are open-source and have been developed by the broader cryptocurrency community, and are relatively narrow-scoped; they do not match orders between two users or provide any DEX framework. Instead, they just safely execute on-chain on the respective blockchains of the coins being exchanged, without third-party involvement.
 
 .. seealso::
 
@@ -44,64 +44,38 @@ The atomic swap technology is, in and of itself, a relatively narrow-scoped prot
  - Atomic Swap Protocol - `Decred-style <https://github.com/decred/atomicswap>`_
  - Atomic Swap Protocol - `Monero-style <https://eprint.iacr.org/2020/1126.pdf>`_     
 
-That’s why it needs to be complemented by a common and decentralized channel in which the information related to a swap is transferred between two parties — often across two entirely different chains. Without this added layer, it is impossible for a chain to know when to release the swap in question because it isn’t directly connected to the other blockchain.
+Because of their narrow scope, atomic swap protocols need to be complemented by a decentralized messaging layer that relays imporant information and data between swappers to satisfy the conditions that enable swaps to securely take place. Without this messaging layer, it is impossible for a chain to move to the next steps of the process and know when to release swap transactions because it isn’t directly connected to the other blockchain it is interacting with.
 
-In the case of BasicSwap and the wider Particl ecosystem, that is where the distributed :term:`SecureMessaging (SMSG)` network comes into play.
+In the case of :term:`BasicSwap <BasicSwap>`, that is where the decentralized :term:`SecureMessaging (SMSG)` network comes into play.
 
 SecureMessaging (SMSG)
 ----------------------
 
-SecureMessaging (SMSG) is Particl’s own custom-built and unique P2P messaging network that stands at the very core of its ecosystem. Inspired by the BitMessage protocol, the SMSG network is a mixnet that acts as a decentralized storage network (DSN). It stores and transfers data across :term:`nodes <node>` in a privacy-preserving manner, encrypted from end to end (E2EE), and without requiring the use of any central server.
+:term:`BasicSwap <BasicSwap>` uses the open-source :term:`SecureMessaging (SMSG)` network, a decentralized and open-source data and messaging network (‘mixnet’) similar to BitMessage, to automate and simplify the process of exchanging swap data required for atomic swaps to take place between two peers. This network allows users to connect directly and share the necessary information securely, efficiently, and without intermediaries.
 
-This decentralized technology is essential in providing the BasicSwap DEX with functionality that atomic swaps alone cannot, such as an order book and order matching system, transferring swap data between two different blockchains, etc.
+As such, all :term:`BasicSwap <BasicSwap>` users automatically operate as nodes within the :term:`SecureMessaging (SMSG)` network, making it entirely decentralized and autonomous. Messages, including swap data and network offers, are first end-to-end encrypted on the user’s local device, then broadcast through the network, and finally relayed and validated by all nodes to verify their authenticity against the network consensus and protect users' financial information against unauthorized access. 
 
-When running a BasicSwap client, you are also automatically running an SMSG node along with it. 
-DEX and swap-related data are transferred between users through the SMSG network. BasicSwap nodes then receive this data and let other users interact with it using scriptless scripts. This creates an all-in-one DEX that works entirely without third-parties and in total privacy. 
+This decentralized messaging network is essential in providing :term:`BasicSwap <BasicSwap>` with functionalities that atomic swaps alone cannot, such as its decentralized order book and the automation (from an end-user's perspective) of the intricate steps involved in executing a successful on-chain atomic swap.
+
+As such, :term:`BasicSwap <BasicSwap>` functions similarly to a decentralized version of SWIFT, providing a messaging protocol that allows for peers to connect directly with each other with the purpose of executing atomic swaps without central points of failure using official coin cores (Bitcoin Core, Litecoin Core). 
+
+:term:`BasicSwap <BasicSwap>` does not process, initiate, or execute swaps; it merely enables peers to communicate with each other and exchange the required information to simplify the process of using atomic swaps on the respective blockchains of the coins being swapped. In essence, :term:`BasicSwap <BasicSwap>` operates merely as a decentralized messaging protocol.
 
 .. seealso::
  
  - Particl Wiki - `SecureMessaging P2P Network <https://particl.wiki/learn/marketplace/smsg/>`_
 
 
-Scriptless Scripts
+Adaptor Signatures
 ------------------
 
-Whereas typical DEX platforms use traditional :term:`smart contracts <smart contract>`, some cryptocurrencies like Monero are not compatible with them. BasicSwap uses scriptless scripts in these scenarios. 
-Scriptless scripts are an off-chain form of smart contract that provides more privacy and scalability than their on-chain counterparts. On BasicSwap, they are used to safely spend Monero coin outputs collaboratively and without third-party involvement.
+Whereas typical DEX platforms use either regular :term:`smart contracts <smart contract>` or HTLC atomic swaps, some cryptocurrencies like Bitcoin or Monero are not compatible with them. :term:`BasicSwap <BasicSwap>` uses adaptor signatures in these scenarios. 
 
-Indeed, when swapping assets on BasicSwap, the participants' coins are sent to a scriptless chain and into an address created from the sum of their private keys. 
-
-The only way to spend that output requires participants to cooperate through One-Time Verifiably Encrypted Signatures (OtVES). OtVES allows for the safe and trustless exchange of digital signatures without requiring a trusted party to serve as an adjucator. The one-time property of OTVES ensures both participants can get the decryption key they need to process through the process of swapping their coins.
+Adaptor signatures are an off-chain form of smart contract that provide the flexibility needed to execute atomic swaps with non-programmable cryptocurrencies like Monero. They also provide more privacy than traditional HTLC atomic swaps by not inscribing an identical hash at a similar time on both participating blockchains of a swap.
 
 .. seealso::
  
  - Whitepaper - `OtVES Signatures <https://raw.githubusercontent.com/LLFourn/one-time-VES/master/main.pdf>`_
-
- 
-Other Notable Protocols
-^^^^^^^^^^^^^^^^^^^^^^^
-
-Tor Network
------------
-
-The Tor network is a free and open-source network that enables anonymous online communication. It protects your digital privacy by anonymizing your IP address. It does so by routing your connection through a vast and global network of volunteers. Tor’s intended use is to protect your personal privacy as well as your freedom and ability to conduct confidential communication. 
-
-When enabled on BasicSwap, it makes your node’s IP address entirely anonymous and makes it impossible for an outside party to determine that you’re even using the DEX.
-
-.. note::
-
- - BasicSwap Guides - :doc:`Enable Tor <../basicswap-guides/basicswapguides_installation>`
-
-Taproot Forward Compatibility
------------------------------
-
-Taproot is a new protocol improvement enabled on Particl that adds the ability to script more advanced logic and condition-based requirements into Bitcoin-style scripts, allowing for more advanced smart contracts to happen on the Particl Blockchain.
-
-When combined with scriptless scripts and the SMSG network, it makes possible complex privacy-first dApps (i.e., BasicSwap) that carry a much lesser degree of risk compared to complex turing-complete smart contracts.
-
-Additionally, Taproot’s off-chain nature, as well as its ability to aggregate multiple signatures, keys, and scripts significantly improves the level of privacy of the blockchain’s smart contracts and dApps by transforming complex condition-based transactions into standard-looking transactions. This preserves the fungibility and financial information of coins transferred through Particl smart contracts and dApps.
-
-At the time of this writing, Taproot isn’t yet added to BasicSwap but is expected to make its way onto it at some point during the open beta as the DEX is forward-compatible with it. This will make swaps on BasicSwap indistinguishable from standard blockchain transactions, significantly improving the privacy of its users.
 
 ----
 
