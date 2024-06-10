@@ -57,7 +57,7 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
 
                  .. code-block:: bash
 
-                     docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --addcoin=bitcoin
+                     docker-compose run --rm swapclient basicswap-prepare --datadir=/coindata --addcoin=bitcoin
 
          .. note::
 
