@@ -85,4 +85,3 @@ Adaptor signatures are an off-chain form of smart contract that provide the flex
  - Github - `BasicSwap <https://github.com/tecnovert/basicswap>`_
  - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
  - BasicSwap Explained - :doc:`DEX Comparison <../basicswap-dex/basicswap_compared>`
- - BasicSwap Guides - :doc:`How to Use <../basicswap-guides/basicswapguides_usage>` 
