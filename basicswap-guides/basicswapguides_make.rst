@@ -106,5 +106,4 @@ If you've set your offer to only accept bids from known peers or not automatical
  - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
  - BasicSwap Guides - :doc:`Install BasicSwap <../basicswap-guides/basicswapguides_installation>`
  - BasicSwap Guides - :doc:`Update BasicSwap <../basicswap-guides/basicswapguides_update>`
- - BasicSwap Guides - :doc:`Route BasicSwap Through Tor <../basicswap-guides/basicswapguides_update>`
  - BasicSwap Guides - :doc:`Take an Offer <../basicswap-guides/basicswapguides_take>`
