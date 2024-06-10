@@ -565,6 +565,5 @@ After configuring your Docker image, the next step is to run it. Doing so will l
 
  - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
  - BasicSwap Guides - :doc:`Update BasicSwap <../basicswap-guides/basicswapguides_update>`
- - BasicSwap Guides - :doc:`Route BasicSwap Through Tor <../basicswap-guides/basicswapguides_update>`
  - BasicSwap Guides - :doc:`Make an Offer <../basicswap-guides/basicswapguides_make>`
  - BasicSwap Guides - :doc:`Take an Offer <../basicswap-guides/basicswapguides_take>`
