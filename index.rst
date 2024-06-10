@@ -176,7 +176,6 @@ Follow step-by-step user guides on how to use BasicSwap DEX and become an expert
    basicswap-guides/basicswapguides_update
    basicswap-guides/basicswapguides_addremovecoins
    basicswap-guides/basicswapguides_managecoins
-   basicswap-guides/basicswapguides_tor
    basicswap-guides/basicswapguides_make
    basicswap-guides/basicswapguides_take
    basicswap-guides/basicswapguides_liquidity_bot
@@ -186,7 +185,6 @@ Follow step-by-step user guides on how to use BasicSwap DEX and become an expert
 * :doc:`Get Started <basicswap-guides/basicswapguides_update>`
 * :doc:`Add or Remove Coins <basicswap-guides/basicswapguides_addremovecoins>`
 * :doc:`Add or Remove Coins <basicswap-guides/basicswapguides_managecoins>`
-* :doc:`Connect to Tor <basicswap-guides/basicswapguides_tor>`
 * :doc:`How to Trade <basicswap-guides/basicswapguides_make>`
 * :doc:`How to Trade <basicswap-guides/basicswapguides_take>`
 * :doc:`Automated Market Making Script <basicswap-guides/basicswapguides_liquidity_bot>`
