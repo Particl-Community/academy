@@ -7,7 +7,7 @@ Under the Hood
 
 .. meta::
       
-      :description lang=en: Discover the technology that powers the BasicSwap decentralized DEX. Unrestricted crypto trading in complete privacy. 
+      :description lang=en: Dive deep into the underlying technology that enables BasicSwap DEX, the world's most secure and decentralized DEX. 
  
 :term:`BasicSwap <BasicSwap>` is a cross-chain and highly secure :term:`DEX <DEX>` (decentralized exchange) that lets you trade cryptocurrencies without middleman interference using atomic swaps. Its distributed ledger technology enables users to place or accept swap offers without fees, promoting a free and open trading environment devoid of central points of failure.
 
