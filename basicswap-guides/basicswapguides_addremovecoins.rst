@@ -201,6 +201,5 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
  - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
  - BasicSwap Guides - :doc:`Install BasicSwap <../basicswap-guides/basicswapguides_installation>`
  - BasicSwap Guides - :doc:`Update BasicSwap <../basicswap-guides/basicswapguides_update>`
- - BasicSwap Guides - :doc:`Route BasicSwap Through Tor <../basicswap-guides/basicswapguides_update>`
  - BasicSwap Guides - :doc:`Make an Offer <../basicswap-guides/basicswapguides_make>`
  - BasicSwap Guides - :doc:`Take an Offer <../basicswap-guides/basicswapguides_take>`
