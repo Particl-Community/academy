@@ -1,17 +1,17 @@
-=================
-Apply for Listing
-=================
+=============================
+Integrate a Coin to BasicSwap
+=============================
 
 .. title::
    BasicSwap DEX Coin Usage Guide
    
 .. meta::
-   :description lang=en: Add your coin to the BasicSwap DEX or apply for listing.
+   :description lang=en: Add your coin to the BasicSwap DEX.
    :keywords lang=en: Particl, DEX, Trading, Exchange, Buy Crypto, Sell Crypto, Installation, Quickstart, Blockchain, Privacy, E-Commerce, multi-vendor marketplace, online marketplace
 
-The :term:`BasicSwap DEX <BasicSwap>` lets you trade a range of cryptocurrencies in total privacy and without third-party assistance. And thanks to its open-source framework, anyone can add new coins to the DEX. 
+The :term:`BasicSwap DEX <BasicSwap>` lets you trade a range of cryptocurrencies without third-party assistance. And thanks to its open-source framework, anyone can add new coins to the DEX. 
 
-This guide will show you how to add new coins to the BasicSwap DEX; either by manually integrating them or by submitting a coin listing application to the BasicSwap team.
+This guide will show you how to add new coins to the BasicSwap DEX.
 
 ----
 
@@ -24,7 +24,7 @@ This guide will show you how to add new coins to the BasicSwap DEX; either by ma
 
 .. attention::
 
-        BasicSwap is a cross-chain DEX that makes on-chain swaps. For this reason, each coin integration has to be worked out on a case-by-case basis. If you struggle to integrate a coin manually, consider submitting a listing application request. 
+        BasicSwap is a cross-chain DEX that makes on-chain swaps. For this reason, each coin integration has to be worked out on a case-by-case basis. 
 
 Manual Integration
 ==================
@@ -90,19 +90,6 @@ With this in mind, you can check how other coins that may be similar to yours ha
   Particl                                                                                                                                                                                                                                                                                               Yes             24.0               Yes     Yes    Yes       Yes                    
  ===================================================================================================================================================================================================================================================================================================== =============== ================== ======= ====== ========= ======================= 
 
-Apply for a Listing
-===================
-
-Alternatively, you can send us a `listing application <https://basicswapdex.com/apply>`_. This is a great option if your coin does not meet most of the requirements or if you would rather focus your development resources elsewhere.
-
-Please note, however, that on top of adding new coins, we are also constantly working on tackling our roadmap; improving and growing BasicSwap in the process. For this reason, we cannot guarantee a swift integration for all applicants. 
-
-To submit a listing application for your coin, follow this link: https://BasicSwapDEX.com/apply
-
-.. tip::
-
-        To bump the priority of your application, consider pledging a donation to our open-source developers as part of your application.
-
 ----
 
 .. seealso::
@@ -110,6 +97,5 @@ To submit a listing application for your coin, follow this link: https://BasicSw
  - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
  - BasicSwap Guides - :doc:`Install BasicSwap <../basicswap-guides/basicswapguides_installation>`
  - BasicSwap Guides - :doc:`Update BasicSwap <../basicswap-guides/basicswapguides_update>`
- - BasicSwap Guides - :doc:`Route BasicSwap Through Tor <../basicswap-guides/basicswapguides_update>`
  - BasicSwap Guides - :doc:`Make an Offer <../basicswap-guides/basicswapguides_make>`
  - BasicSwap Guides - :doc:`Take an Offer <../basicswap-guides/basicswapguides_take>`
