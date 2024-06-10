@@ -85,10 +85,14 @@ With this in mind, you can check how other coins that may be similar to yours ha
   Monero                                                                                                                                                                                                                                                                                                No              —                  —       —      —         —                      
   Litecoin                                                                                                                                                                                                                                                                                              Yes             0.21               Yes     Yes    Yes       Yes                    
   Dash (`1 <https://github.com/tecnovert/basicswap/commit/7298867e18efbaf1a6630769da651084ea8e954c>`_, `2 <https://github.com/tecnovert/basicswap/commit/4866ff4db89593472d21261ebbbb6a87e3f1f922>`_, `3 <https://github.com/tecnovert/basicswap/commit/aa14da27af33b5b02845d6c87e32b46e57d741a4>`_)    Yes             —                  Yes     Yes    No        Yes
-  Decred (`1 <https://github.com/tecnovert/basicswap/commits/decred>`_)               Yes             —                  Yes     Yes    Yes       Yes
-  Wownero (`1 <https://github.com/tecnovert/basicswap/commits/wow>`_)                 Yes             —                  Yes     Yes    Yes       Yes                    
+  
+  Decred (`1 <https://github.com/tecnovert/basicswap/commits/decred>`_)    Yes             —                  Yes     Yes    Yes       Yes
+  
+  Wownero (`1 <https://github.com/tecnovert/basicswap/commits/wow>`_)    Yes             —                  Yes     Yes    Yes       Yes                    
+  
   Firo (`1 <https://github.com>`_)                                                                                                                                                                                                                                                                      Yes             —                  Yes     Yes    No        Yes                    
   PIVX (`1 <https://github.com/tecnovert/basicswap/commit/d74699992be727ea4bb6df0871da5983ef775566>`_)                                                                                                                                                                                                  Yes             —                  Yes     No     No        Yes                    
+  
   Particl                                                                                                                                                                                                                                                                                               Yes             24.0               Yes     Yes    Yes       Yes                    
  ===================================================================================================================================================================================================================================================================================================== =============== ================== ======= ====== ========= ======================= 
 
