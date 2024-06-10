@@ -9,7 +9,9 @@ Get Started (Install)
    :description lang=en: Learn how to install BasicSwap DEX on your desktop computer.
    :keywords lang=en: Particl, DEX, Trading, Exchange, Buy Crypto, Sell Crypto, Installation, Quickstart, Blockchain, Privacy, E-Commerce, multi-vendor marketplace, online marketplace
 
-:term:`BasicSwap DEX <BasicSwap>` is a cross-chain and privacy-first decentralized exchange (DEX) enabling direct cryptocurrency trades without intermediaries, restrictions, or fees. This guide provides comprehensive instructions for installing and configuring it according to your needs.
+:term:`BasicSwap <BasicSwap>` is a cross-chain and highly secure :term:`DEX <DEX>` (decentralized exchange) that lets you trade cryptocurrencies without middleman interference using atomic swaps. Its distributed ledger technology enables users to place or accept swap offers without fees, promoting a free and open trading environment devoid of central points of failure.
+
+:term:`BasicSwap <BasicSwap>` is crafted to uphold the highest standards of freedom in direct opposition to the growing threats to our sovereignty in the digital age. 
 
 ----
 
@@ -19,10 +21,6 @@ Get Started (Install)
    :depth: 2
 
 ----
-
-.. tip::
-
-	 To significantly improve your network privacy (e.g., masking your IP address and location), consider running :term:`BasicSwap` via the :term:`Tor` network. For step-by-step guidance, refer to the :doc:`BasicSwap Tor Guide <../basicswap-guides/basicswapguides_tor>`.
 
 .. attention::
 
@@ -45,7 +43,7 @@ For Linux users, the simplest installation method is through the use of communit
 Install Using Docker
 ====================
 
-As :term:`BasicSwap` is currently in early beta, it lacks ready-made executables or in-app integrations (such as Particl Desktop, web gateways, or third-party services). Thus, the initial step involves compiling and running a full BasicSwap node on your device.
+As :term:`BasicSwap` is currently in early beta, it lacks ready-made executables or in-app integrations (such as Particl Desktop, web gateways, or third-party services). Thus, the initial step involves compiling the code from source and running a full BasicSwap node on your device.
 
 Install Docker
 --------------
