@@ -127,6 +127,5 @@ To get a better idea of how BasicSwap :term:`DEX <DEX>` compares to other crypto
  - BasicSwap Explained - :doc:`DEX Comparison <../basicswap-dex/basicswap_compared>`
  - BasicSwap Explained - :doc:`Under the Hood <../basicswap-dex/basicswap_technicals>`
  - BasicSwap Guides - :doc:`Install and Get Started <../basicswap-guides/basicswapguides_installation>`
- - BasicSwap Guides - :doc:`How to Use <../basicswap-guides/basicswapguides_usage>` 
  - BasicSwap Guides - :doc:`Add or Remove a Coin <../basicswap-guides/basicswapguides_installation>`
- - BasicSwap Guides - :doc:`Apply for Coin Listing <../basicswap-guides/basicswapguides_apply>` 
+ - BasicSwap Guides - :doc:`Integrate a Coin <../basicswap-guides/basicswapguides_apply>` 
