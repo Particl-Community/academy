@@ -188,7 +188,7 @@ Follow step-by-step user guides on how to use BasicSwap DEX and become an expert
 * :doc:`How to Trade <basicswap-guides/basicswapguides_make>`
 * :doc:`How to Trade <basicswap-guides/basicswapguides_take>`
 * :doc:`Automated Market Making Script <basicswap-guides/basicswapguides_liquidity_bot>`
-* :doc:`Apply for Listing <basicswap-guides/basicswapguides_apply>`
+* :doc:`Integrate a Coin <basicswap-guides/basicswapguides_apply>`
 
 ----
 
