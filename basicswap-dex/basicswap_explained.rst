@@ -73,8 +73,6 @@ Compatible Coins
 
     BasicSwap's wallets page — WIP/Beta, UI/UX subject to change
 
-:term:`BasicSwap` provides decentralized trading services for a selection of cryptocurrencies. (`check out the full list on BasicSwap website <https://basicswapdex.com/markets>`_).
-
 +----------------------------------+---------------------------------------------+
 | **Coin Name**                    | **Ticker**                                  |
 +----------------------------------+---------------------------------------------+
@@ -104,7 +102,7 @@ BasicSwap is completely open-source and community-powered, meaning that anyone c
 .. seealso::
  
  - Blog Post - `BasicSwap The Fully Private Cross Chain DEX <https://particl.news/basicswap-the-fully-private-cross-chain-dex/>`_  
- - Github - `BasicSwap <https://github.com/tecnovert/basicswap>`_
+ - Github - `BasicSwap <https://github.com/basicswap/basicswap>`_
  - BasicSwap Explained - :doc:`DEX Comparison <../basicswap-dex/basicswap_compared>`
  - BasicSwap Explained - :doc:`Under the Hood <../basicswap-dex/basicswap_technicals>`
  - BasicSwap Guides - :doc:`Install and Get Started <../basicswap-guides/basicswapguides_installation>`
