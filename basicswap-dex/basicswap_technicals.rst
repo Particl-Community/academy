@@ -82,6 +82,6 @@ Adaptor signatures are an off-chain form of smart contract that provide the flex
 .. seealso::
 
  - Blog Post - `BasicSwap The Fully Private Cross Chain DEX <https://particl.news/basicswap-the-fully-private-cross-chain-dex/>`_ 
- - Github - `BasicSwap <https://github.com/tecnovert/basicswap>`_
+ - Github - `BasicSwap <https://github.com/basicswap/basicswap>`_
  - BasicSwap Explained - :doc:`BasicSwap Explained <../basicswap-dex/basicswap_explained>`
  - BasicSwap Explained - :doc:`DEX Comparison <../basicswap-dex/basicswap_compared>`
