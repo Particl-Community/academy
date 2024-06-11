@@ -123,7 +123,7 @@ To get a better idea of how BasicSwap :term:`DEX <DEX>` compares to other crypto
 .. seealso::
  
  - Blog Post - `BasicSwap The Fully Private Cross Chain DEX <https://particl.news/basicswap-the-fully-private-cross-chain-dex/>`_ 
- - Github - `BasicSwap <https://github.com/tecnovert/basicswap>`_
+ - Github - `BasicSwap <https://github.com/basicswap/basicswap>`_
  - BasicSwap Explained - :doc:`DEX Comparison <../basicswap-dex/basicswap_compared>`
  - BasicSwap Explained - :doc:`Under the Hood <../basicswap-dex/basicswap_technicals>`
  - BasicSwap Guides - :doc:`Install and Get Started <../basicswap-guides/basicswapguides_installation>`
