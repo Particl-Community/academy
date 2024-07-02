@@ -49,6 +49,12 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
 
                    docker-compose stop
 
+	     #. Make sure you're on the correct repository (has recently been changed).
+
+                .. code-block:: bash
+
+                   git remote set-url origin https://github.com/basicswap/basicswap
+
              #. Pull the latest BasicSwap updates from Github.
 
                 .. code-block:: bash
@@ -152,6 +158,12 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
                 .. code-block:: bash
 
                    cd $SWAP_DATADIR/basicswap
+
+	     #. Make sure you're on the correct repository (has recently been changed).
+
+                .. code-block:: bash
+
+                   git remote set-url origin https://github.com/basicswap/basicswap
 
              #. Pull the latest BasicSwap updates from Github.
 
