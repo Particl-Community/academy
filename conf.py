@@ -153,5 +153,5 @@ rst_epilog = """
 .. |Threshold| replace:: -9,000 PART
 .. |emission| replace:: 1.87 PART
 .. |staking rate| replace:: 7%
-.. |BS_version| replace:: **v0.0.13.0**
+.. |BS_version| replace:: **v0.13.4**
 """
