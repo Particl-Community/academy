@@ -120,7 +120,7 @@ Create BasicSwap's docker image, which you'll need to run whenever you want to l
 
              	 .. code-block:: bash
 
-             	 	 git clone https://github.com/tecnovert/basicswap.git
+             	 	 git clone https://github.com/basicswap/basicswap.git
 
              #. Navigate to BasicSwap's Docker folder.
 
@@ -164,7 +164,7 @@ Create BasicSwap's docker image, which you'll need to run whenever you want to l
 
                      .. code-block:: bash
 
-	             	 	 git clone https://github.com/tecnovert/basicswap.git
+	             	 	 git clone https://github.com/basicswap/basicswap.git
 
                  #. Navigate to BasicSwap's Docker folder.
 
@@ -216,7 +216,7 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
              	 .. code-block:: bash
 
-             	 	 CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
+             	 	 CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
              #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
@@ -262,7 +262,7 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
              	 .. code-block:: bash
 
-             	 	 CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
+             	 	 CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
              #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
@@ -376,7 +376,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                      .. code-block::
 
-                         brew install wget unzip python git protobuf gnupg automake libtool pkg-config curl jq
+                         brew install wget unzip python git gnupg automake libtool pkg-config curl jq
 
                  #. Close the terminal and open a new one. This will update the python symlinks and allow you to progress through the next steps.
 
@@ -389,13 +389,13 @@ The first step to running BasicSwap without docker is to build it locally on you
                          python3 -m venv "$SWAP_DATADIR/venv"
                          . $SWAP_DATADIR/venv/bin/activate && python -V
                          cd $SWAP_DATADIR
-                         wget -O coincurve-anonswap.zip https://github.com/tecnovert/coincurve/archive/refs/tags/anonswap_v0.1.zip
+                         wget -O coincurve-anonswap.zip https://github.com/tecnovert/coincurve/archive/refs/tags/anonswap_v0.2.zip
                          unzip -d coincurve-anonswap coincurve-anonswap.zip
                          mv ./coincurve-anonswap/*/{.,}* ./coincurve-anonswap || true
                          cd $SWAP_DATADIR/coincurve-anonswap
                          pip3 install .
                          cd $SWAP_DATADIR
-                         git clone https://github.com/tecnovert/basicswap.git 
+                         git clone https://github.com/basicswap/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
 
                  #. Install root SSL certificates for the SSL module (more information `here <https://pypi.org/project/certifi/>`_).
@@ -408,7 +408,6 @@ The first step to running BasicSwap without docker is to build it locally on you
                          
                          .. code-block::
 
-                             protoc -I=basicswap --python_out=basicswap basicswap/messages.proto
                              pip3 install .
 
      .. group-tab:: Linux
@@ -419,26 +418,28 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                      .. code-block::
 
-                         apt-get install -y wget python3-pip gnupg unzip protobuf-compiler automake libtool pkg-config curl jq
+                         apt-get install -y wget python3-pip gnupg unzip automake libtool pkg-config curl jq
 
-                 #. Execute the commands below sequentially to setup the environment. **Each line must be run one-by-one** to prevent errors and ensure successful execution.
+                 #. Execute the commands below sequentially to setup the environment
 
                      .. code-block::
 
-                         export SWAP_DATADIR=/Users/$USER/coinswaps
+                         export SWAP_DATADIR=$HOME/coinswaps
                          mkdir -p "$SWAP_DATADIR/venv"
                          python3 -m venv "$SWAP_DATADIR/venv"
                          . $SWAP_DATADIR/venv/bin/activate && python -V
+
+                     .. code-block::
+
                          cd $SWAP_DATADIR
-                         wget -O coincurve-anonswap.zip https://github.com/tecnovert/coincurve/archive/refs/tags/anonswap_v0.1.zip
+                         wget -O coincurve-anonswap.zip https://github.com/tecnovert/coincurve/archive/refs/tags/anonswap_v0.2.zip
                          unzip -d coincurve-anonswap coincurve-anonswap.zip
                          mv ./coincurve-anonswap/*/{.,}* ./coincurve-anonswap || true
                          cd $SWAP_DATADIR/coincurve-anonswap
                          pip3 install .
                          cd $SWAP_DATADIR
-                         git clone https://github.com/tecnovert/basicswap.git 
+                         git clone https://github.com/basicswap/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
-                         protoc -I=basicswap --python_out=basicswap basicswap/messages.proto
                          pip3 install .
 
 Configure BasicSwap
@@ -464,7 +465,7 @@ After the installation, configure BasicSwap according to your requirements.
 
                      .. code-block:: bash
 
-                         CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
+                         CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
              	#. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
@@ -486,13 +487,13 @@ After the installation, configure BasicSwap according to your requirements.
 
                      .. code-block:: bash
 
-                         cd /Users/$USER/coinswaps
+                         cd $HOME/coinswaps
 
                  #. Set :guilabel:`xmrrestoreheight` to Monero's current chain height.
 
                      .. code-block:: bash
 
-                         CURRENT_XMR_HEIGHT=$(curl https://localmonero.co/blocks/api/get_stats | jq .height)
+                         CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
             	 #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
@@ -545,7 +546,7 @@ After configuring your Docker image, the next step is to run it. Doing so will l
 
                      .. code-block:: bash
 
-                         cd /Users/$USER/coinswaps
+                         cd $HOME/coinswaps
 
                  #. Launch BasicSwap.
 
