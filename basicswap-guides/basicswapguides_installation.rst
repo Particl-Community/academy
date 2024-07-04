@@ -120,7 +120,7 @@ Create BasicSwap's docker image, which you'll need to run whenever you want to l
 
              	 .. code-block:: bash
 
-             	 	 git clone https://github.com/tecnovert/basicswap.git
+             	 	 git clone https://github.com/basicswap/basicswap.git
 
              #. Navigate to BasicSwap's Docker folder.
 
@@ -164,7 +164,7 @@ Create BasicSwap's docker image, which you'll need to run whenever you want to l
 
                      .. code-block:: bash
 
-	             	 	 git clone https://github.com/tecnovert/basicswap.git
+	             	 	 git clone https://github.com/basicswap/basicswap.git
 
                  #. Navigate to BasicSwap's Docker folder.
 
@@ -395,7 +395,7 @@ The first step to running BasicSwap without docker is to build it locally on you
                          cd $SWAP_DATADIR/coincurve-anonswap
                          pip3 install .
                          cd $SWAP_DATADIR
-                         git clone https://github.com/tecnovert/basicswap.git 
+                         git clone https://github.com/basicswap/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
 
                  #. Install root SSL certificates for the SSL module (more information `here <https://pypi.org/project/certifi/>`_).
@@ -436,7 +436,7 @@ The first step to running BasicSwap without docker is to build it locally on you
                          cd $SWAP_DATADIR/coincurve-anonswap
                          pip3 install .
                          cd $SWAP_DATADIR
-                         git clone https://github.com/tecnovert/basicswap.git 
+                         git clone https://github.com/basicswap/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
                          protoc -I=basicswap --python_out=basicswap basicswap/messages.proto
                          pip3 install .
