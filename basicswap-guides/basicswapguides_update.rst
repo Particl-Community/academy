@@ -71,13 +71,7 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
 
                 .. code-block:: bash
 
-                   docker-compose build
-
-                If BasicSwap's dependencies have changed, the update must be applied with the :guilabel:`--no-cache` argument.
-
-                   .. code-block:: bash
-
-                      docker-compose build --no-cache
+                   docker-compose build --no-cache
 
              #. Launch BasicSwap
 
@@ -150,14 +144,15 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
 
                 .. code-block:: bash
 
-                   export SWAP_DATADIR=/Users/$USER/coinswaps
+                   export SWAP_DATADIR=$HOME/coinswaps
                    . $SWAP_DATADIR/venv/bin/activate && python -V
 
-             #. Navigate to your BasicSwap folder.
+             #. Navigate to your BasicSwap folder and clear build cache.
 
                 .. code-block:: bash
 
                    cd $SWAP_DATADIR/basicswap
+                   rm -rf $SWAP_DATADIR/basicswap/build
 
 	     #. Make sure you're on the correct repository (has recently been changed).
 
