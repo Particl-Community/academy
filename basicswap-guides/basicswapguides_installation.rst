@@ -376,7 +376,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                      .. code-block::
 
-                         brew install wget unzip python git gnupg automake libtool pkg-config curl jq
+                         brew install python git gnupg automake libtool pkg-config curl jq
 
                  #. Close the terminal and open a new one. This will update the python symlinks and allow you to progress through the next steps.
 
@@ -385,14 +385,11 @@ The first step to running BasicSwap without docker is to build it locally on you
                      .. code-block::
 
                          export SWAP_DATADIR=/Users/$USER/coinswaps
-                         mkdir -p "$SWAP_DATADIR/venv"
                          python3 -m venv "$SWAP_DATADIR/venv"
                          . $SWAP_DATADIR/venv/bin/activate && python -V
                          cd $SWAP_DATADIR
-                         wget -O coincurve-anonswap.zip https://github.com/tecnovert/coincurve/archive/refs/tags/anonswap_v0.2.zip
-                         unzip -d coincurve-anonswap coincurve-anonswap.zip
-                         mv ./coincurve-anonswap/*/{.,}* ./coincurve-anonswap || true
-                         cd $SWAP_DATADIR/coincurve-anonswap
+                         git clone https://github.com/basicswap/coincurve.git -b basicswap_v0.2 coincurve-basicswap
+                         cd coincurve-basicswap
                          pip3 install .
                          cd $SWAP_DATADIR
                          git clone https://github.com/basicswap/basicswap.git 
@@ -408,6 +405,7 @@ The first step to running BasicSwap without docker is to build it locally on you
                          
                          .. code-block::
 
+                             pip3 install wheel
                              pip3 install .
 
      .. group-tab:: Linux
@@ -418,28 +416,26 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                      .. code-block::
 
-                         apt-get install -y wget python3-pip gnupg unzip automake libtool pkg-config curl jq
+                         apt-get install -y python3-pip gnupg automake libtool pkg-config curl jq
 
                  #. Execute the commands below sequentially to setup the environment
 
                      .. code-block::
 
                          export SWAP_DATADIR=$HOME/coinswaps
-                         mkdir -p "$SWAP_DATADIR/venv"
                          python3 -m venv "$SWAP_DATADIR/venv"
                          . $SWAP_DATADIR/venv/bin/activate && python -V
 
                      .. code-block::
 
                          cd $SWAP_DATADIR
-                         wget -O coincurve-anonswap.zip https://github.com/tecnovert/coincurve/archive/refs/tags/anonswap_v0.2.zip
-                         unzip -d coincurve-anonswap coincurve-anonswap.zip
-                         mv ./coincurve-anonswap/*/{.,}* ./coincurve-anonswap || true
-                         cd $SWAP_DATADIR/coincurve-anonswap
+                         git clone https://github.com/basicswap/coincurve.git -b basicswap_v0.2 coincurve-basicswap
+                         cd coincurve-basicswap
                          pip3 install .
                          cd $SWAP_DATADIR
                          git clone https://github.com/basicswap/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
+                         pip3 install wheel
                          pip3 install .
 
 Configure BasicSwap
