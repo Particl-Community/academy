@@ -84,11 +84,11 @@ Docker offers a straightforward method for setting up :term:`BasicSwap` without 
 
              #. Check if Docker is already installed on your system.
 
-             	 .. code-block:: bash
-             	 	 
-             	 	 docker -v
+                 .. code-block:: bash
 
-             	 If you see a message indicating :guilabel:`Docker version (...)`, Docker is already installed and you can move on to the next steps without reinstalling it.
+                     docker -v
+
+                 If you see a message indicating :guilabel:`Docker version (...)`, Docker is already installed and you can move on to the next steps without reinstalling it.
 
              #. Install Docker by following `the instructions on their website <https://docs.docker.com/engine/install/#server>`_.
 
@@ -103,7 +103,7 @@ Create BasicSwap's docker image, which you'll need to run whenever you want to l
 
      .. group-tab:: Windows
 
-     	 .. rst-class:: bignums
+         .. rst-class:: bignums
 
              #. Open a WSL (Linux) terminal.
 
@@ -111,28 +111,28 @@ Create BasicSwap's docker image, which you'll need to run whenever you want to l
 
              #. Install Git.
 
-             	 .. code-block:: bash
-             	 	 
-             	 	 sudo apt update
-             	 	 sudo apt install git jq curl
+                 .. code-block:: bash
+
+                     sudo apt update
+                     sudo apt install git jq curl
 
              #. Download the BasicSwap code.
 
-             	 .. code-block:: bash
+                 .. code-block:: bash
 
-             	 	 git clone https://github.com/basicswap/basicswap.git
+                     git clone https://github.com/basicswap/basicswap.git
 
              #. Navigate to BasicSwap's Docker folder.
 
                  .. code-block:: bash
 
-             	 	 cd basicswap/docker/
+                     cd basicswap/docker/
 
              #. Copy the default environment file.
 
                  .. code-block:: bash
 
-             	 	 cp example.env .env
+                     cp example.env .env
 
              #. **(Optional)** Set a custom coin data path by modifying the target path in your :guilabel:`.env` file.
 
@@ -142,53 +142,53 @@ Create BasicSwap's docker image, which you'll need to run whenever you want to l
 
              #. Create the BasicSwap Docker image (make sure you are in :guilabel:`basicswap/docker`.
 
-                     .. code-block:: bash
-				 
-             	 	 docker-compose build
+                 .. code-block:: bash
+
+                     docker-compose build
 
 
      .. group-tab:: Linux
 
          .. rst-class:: bignums
 
-                 #. Open a terminal.
-		
-		 #. Install Git.
+             #. Open a terminal.
 
-             	    .. code-block:: bash
-             	 	 
-             	 	 sudo apt update
-             	 	 sudo apt install git jq curl
+             #. Install Git.
 
-                 #. Download the BasicSwap code.
+                 .. code-block:: bash
 
-                     .. code-block:: bash
+                     sudo apt update
+                     sudo apt install git jq curl
 
-	             	 	 git clone https://github.com/basicswap/basicswap.git
+             #. Download the BasicSwap code.
 
-                 #. Navigate to BasicSwap's Docker folder.
+                 .. code-block:: bash
 
-                     .. code-block:: bash
+                     git clone https://github.com/basicswap/basicswap.git
 
-	             	 	 cd basicswap/docker/
+             #. Navigate to BasicSwap's Docker folder.
 
-            	 #. Copy the default environment file.
+                 .. code-block:: bash
 
-                     .. code-block:: bash
+                     cd basicswap/docker/
 
-             	 	 	cp example.env .env
+             #. Copy the default environment file.
 
-             	#. **(Optional)** Set a custom coin data path by modifying the target path in your :guilabel:`.env` file.
+                 .. code-block:: bash
 
-                     .. code-block:: bash
+                     cp example.env .env
 
-    	                 	nano .env
+             #. **(Optional)** Set a custom coin data path by modifying the target path in your :guilabel:`.env` file.
 
-                 #. Create the BasicSwap Docker image (make sure you are in :guilabel:`basicswap/docker`.
+                 .. code-block:: bash
 
-                     .. code-block:: bash
-					 
-	             	 	 docker-compose build        	 	 
+                     nano .env
+
+             #. Create the BasicSwap Docker image (make sure you are in :guilabel:`basicswap/docker`.
+
+                 .. code-block:: bash
+
+                     docker-compose build
 
 
 Configure the Docker Image
@@ -200,7 +200,7 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
      .. group-tab:: Windows
 
-     	 .. rst-class:: bignums
+         .. rst-class:: bignums
 
              #. Open a WSL (Linux) terminal.
 
@@ -210,13 +210,13 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
                  .. code-block:: bash
 
-             	 	 cd basicswap/docker/
+                     cd basicswap/docker/
 
              #. Set :guilabel:`xmrrestoreheight` to Monero's current chain height.
 
-             	 .. code-block:: bash
+                 .. code-block:: bash
 
-             	 	 CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
+                     CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
              #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
@@ -224,10 +224,10 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
              #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
-             	 .. code-block:: bash
+                 .. code-block:: bash
 
-             	 	 export COINDATA_PATH=/var/data/coinswaps
-			 docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
+                     export COINDATA_PATH=/var/data/coinswaps
+                     docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
 
              #. Securely record and store the mnemonic provided by the above command. It serves as your wallet's backup key.
 
@@ -235,20 +235,20 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
                  .. code-block:: bash
 
-             	 	 echo $CURRENT_XMR_HEIGHT
+                     echo $CURRENT_XMR_HEIGHT
 
              #. **(Optional)** Adjust your timezone by specifying the appropriate :guilabel:`TZ` value in your :guilabel:`.env` file, located within the BasicSwap Docker directory. Use the :guilabel:`timedatectl list-timezones` command to view valid timezone options.
 
-             	 .. code-block:: bash
-             	 
-             	 	 nano .env
+                 .. code-block:: bash
 
-             	 To save changes, press :kbd:`CTRL` + :kbd:`X`, then :kbd:`Y` + :kbd:`ENTER`.
+                     nano .env
+
+                 To save changes, press :kbd:`CTRL` + :kbd:`X`, then :kbd:`Y` + :kbd:`ENTER`.
 
 
      .. group-tab:: Linux
 
-     	 .. rst-class:: bignums
+         .. rst-class:: bignums
 
              #. Open a terminal.
 
@@ -256,13 +256,13 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
                  .. code-block:: bash
 
-             	 	 cd basicswap/docker/
+                     cd basicswap/docker/
 
              #. Set :guilabel:`xmrrestoreheight` to Monero's current chain height.
 
-             	 .. code-block:: bash
+                 .. code-block:: bash
 
-             	 	 CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
+                     CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
              #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
@@ -270,10 +270,10 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
              #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
-             	 .. code-block:: bash
+                 .. code-block:: bash
 
-             	 	 export COINDATA_PATH=/var/data/coinswaps
-			 docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
+                     export COINDATA_PATH=/var/data/coinswaps
+                     docker run --rm -t --name swap_prepare -v $COINDATA_PATH:/coindata i_swapclient basicswap-prepare --datadir=/coindata --withcoins=monero,bitcoin --htmlhost="0.0.0.0" --wshost="0.0.0.0" --xmrrestoreheight=$CURRENT_XMR_HEIGHT --usebtcfastsync
 
              #. Securely record and store the mnemonic provided by the above command. It serves as your wallet's backup key.
 
@@ -281,15 +281,15 @@ After creating BasicSwap's Docker image, it's time to configure it to your prefe
 
                  .. code-block:: bash
 
-             	 	 echo $CURRENT_XMR_HEIGHT
+                     echo $CURRENT_XMR_HEIGHT
 
              #. **(Optional)** Adjust your timezone by specifying the appropriate :guilabel:`TZ` value in your :guilabel:`.env` file, located within the BasicSwap Docker directory. Use the :guilabel:`timedatectl list-timezones` command to view valid timezone options.
 
-             	 .. code-block:: bash
+                 .. code-block:: bash
 
-             	 	 nano .env
+                     nano .env
 
-             	 To save changes, press :kbd:`CTRL` + :kbd:`X`, then :kbd:`Y` + :kbd:`ENTER`.
+                 To save changes, press :kbd:`CTRL` + :kbd:`X`, then :kbd:`Y` + :kbd:`ENTER`.
 
 Start BasicSwap
 ---------------
@@ -300,7 +300,7 @@ After configuring your Docker image, the next step is to run it. Doing so will l
 
      .. group-tab:: Windows
 
-     	 .. rst-class:: bignums
+         .. rst-class:: bignums
 
              #. Open a WSL (Linux) terminal.
 
@@ -310,20 +310,20 @@ After configuring your Docker image, the next step is to run it. Doing so will l
 
                  .. code-block:: bash
 
-             	 	 cd basicswap/docker/
+                     cd basicswap/docker/
 
              #. Start the Docker image. This will launch BasicSwap's startup process.
 
-             	 .. code-block:: bash
+                 .. code-block:: bash
 
-             	 	 export COINDATA_PATH=/var/data/coinswaps
-			 docker-compose up
+                     export COINDATA_PATH=/var/data/coinswaps
+                     docker-compose up
 
              #. Wait for BasicSwap to start fully, then open it up in your favorite web browser by navigating to the following address.
 
                  .. code-block:: bash
 
-             	 	 http://localhost:12700
+                     http://localhost:12700
 
      .. group-tab:: Linux
  
@@ -342,7 +342,7 @@ After configuring your Docker image, the next step is to run it. Doing so will l
                      .. code-block:: bash
 
                          export COINDATA_PATH=/var/data/coinswaps
-			 docker-compose up
+                         docker-compose up
 
                  #. Wait for BasicSwap to start fully, then open it up in your favorite web browser by navigating to the following address.
 
@@ -397,16 +397,16 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                  #. Install root SSL certificates for the SSL module (more information `here <https://pypi.org/project/certifi/>`_).
 
-                         .. code-block::
+                     .. code-block::
 
-                             sudo python3 bin/install_certifi.py
+                         sudo python3 bin/install_certifi.py
 
                  #. Continue with the BasicSwap installation, executing the following two commands **one by one**.
                          
-                         .. code-block::
+                     .. code-block::
 
-                             pip3 install wheel
-                             pip3 install .
+                         pip3 install wheel
+                         pip3 install .
 
      .. group-tab:: Linux
  
@@ -463,11 +463,11 @@ After the installation, configure BasicSwap according to your requirements.
 
                          CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
-             	#. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
+                 #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
-             	#. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
+                 #. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
 
-             	#. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
+                 #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
                      .. code-block:: bash
 
@@ -491,11 +491,11 @@ After the installation, configure BasicSwap according to your requirements.
 
                          CURRENT_XMR_HEIGHT=$(curl -s http://node2.monerodevs.org:18089/get_info | jq .height)
 
-            	 #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
+                 #. Select the cryptocurrencies you want to activate (Particl is activated by default). You must specify your choices in the configuration command. :ref:`See here <compatible coins>` for a complete list of compatible currencies on BasicSwap.
 
-             	 #. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
+                 #. Decide on whether to perform a fast sync of the Bitcoin blockchain using a checkpoint or to synchronize from the beginning. This choice affects whether you include the :guilabel:`--usebtcfastsync` parameter in your configuration command.
 
-             	 #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
+                 #. Execute the following command to configure your BasicSwap Docker image, adjusting it according to your preferences as described above.
 
                      .. code-block:: bash
 
