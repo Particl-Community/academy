@@ -376,7 +376,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                      .. code-block::
 
-                         brew install python git gnupg automake libtool pkg-config curl jq
+                         brew install python git gnupg pkg-config jq
 
                  #. Close the terminal and open a new one. This will update the python symlinks and allow you to progress through the next steps.
 
@@ -386,11 +386,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                          export SWAP_DATADIR=/Users/$USER/coinswaps
                          python3 -m venv "$SWAP_DATADIR/venv"
-                         . $SWAP_DATADIR/venv/bin/activate && python -V
-                         cd $SWAP_DATADIR
-                         git clone https://github.com/basicswap/coincurve.git -b basicswap_v0.2 coincurve-basicswap
-                         cd coincurve-basicswap
-                         pip3 install .
+                         . $SWAP_DATADIR/venv/bin/activate && python3 -V
                          cd $SWAP_DATADIR
                          git clone https://github.com/basicswap/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
@@ -401,11 +397,11 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                          sudo python3 bin/install_certifi.py
 
-                 #. Continue with the BasicSwap installation, executing the following two commands **one by one**.
+                 #. Continue with the BasicSwap installation, executing the following two commands.
                          
                      .. code-block::
 
-                         pip3 install wheel
+                         pip3 install --require-hashes -r requirements.txt
                          pip3 install .
 
      .. group-tab:: Linux
@@ -416,7 +412,7 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                      .. code-block::
 
-                         apt-get install -y python3-pip gnupg automake libtool pkg-config curl jq
+                         apt-get install --no-install-recommends git python3-venv libpython3-dev gnupg pkg-config gcc libc-dev curl jq
 
                  #. Execute the commands below sequentially to setup the environment
 
@@ -424,18 +420,14 @@ The first step to running BasicSwap without docker is to build it locally on you
 
                          export SWAP_DATADIR=$HOME/coinswaps
                          python3 -m venv "$SWAP_DATADIR/venv"
-                         . $SWAP_DATADIR/venv/bin/activate && python -V
+                         . $SWAP_DATADIR/venv/bin/activate && python3 -V
 
                      .. code-block::
 
                          cd $SWAP_DATADIR
-                         git clone https://github.com/basicswap/coincurve.git -b basicswap_v0.2 coincurve-basicswap
-                         cd coincurve-basicswap
-                         pip3 install .
-                         cd $SWAP_DATADIR
                          git clone https://github.com/basicswap/basicswap.git 
                          cd $SWAP_DATADIR/basicswap
-                         pip3 install wheel
+                         pip3 install --require-hashes -r requirements.txt
                          pip3 install .
 
 Configure BasicSwap

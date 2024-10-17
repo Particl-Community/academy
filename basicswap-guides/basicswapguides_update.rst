@@ -128,7 +128,7 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
 
 .. tip::
 
-	 For Linux users, updating BasicSwap and the coin cores you've enabled is simplified through community-developed scripts available `here on Github <https://github.com/nahuhh/basicswap-bash/releases>`_.
+	 For Linux users, updating BasicSwap and the coin cores you've enabled is simplified through community-developed scripts available `here on Github <https://github.com/nahuhh/basicswap-bash>`_.
 
 .. tabs::
 
@@ -145,7 +145,7 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
                 .. code-block:: bash
 
                    export SWAP_DATADIR=$HOME/coinswaps
-                   . $SWAP_DATADIR/venv/bin/activate && python -V
+                   . $SWAP_DATADIR/venv/bin/activate && python3 -V
 
              #. Navigate to your BasicSwap folder and clear build cache.
 
@@ -170,6 +170,7 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
 
                 .. code-block:: bash
 
+                   pip3 install --require-hashes -r requirements.txt
                    pip3 install .
 
        .. attention::
