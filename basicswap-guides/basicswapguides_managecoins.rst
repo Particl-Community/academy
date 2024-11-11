@@ -65,7 +65,7 @@ You can manage various coin-related options directly from BasicSwap. Typically, 
 
 .. note::
 
-    Specifically for PIVX, Dash, and Firo, you may need to click on the :guilabel:`Reseed wallet` button **after the blockchain is fully synced** to enable deposits and withdrawals.
+    Specifically for Bitcoin Cash, PIVX, and Firo, you may need to click on the :guilabel:`Reseed wallet` button **after the blockchain is fully synced** to enable deposits and withdrawals.
 
 ----
 
