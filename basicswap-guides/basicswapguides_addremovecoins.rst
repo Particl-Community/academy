@@ -47,12 +47,6 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
 
                      docker-compose stop
                      
-             #. If you haven’t set your COINDATA_PATH variable permanently in your :guilabel:`.env` file, you’ll need to export the variable first. 
-             
-                .. code-block:: bash
-
-                   export COINDATA_PATH=/var/data/coinswaps        
-
              #. Enable coins by typing the following commands accompanied by the coin you want to enable after the :guilabel:`--addcoin`.
 
                  .. code-block:: bash
@@ -75,40 +69,11 @@ If you've built :term:`BasicSwap` using the Docker method, follow these steps to
 
                      docker-compose stop
 
-             #. Remove the coin's record in the :guilabel:`basicswap.json` config file.
+             #. Enable coins by typing the following commands accompanied by the coin you want to enable after the :guilabel:`--addcoin`.
 
                  .. code-block:: bash
 
-                     sudo nano /var/data/coinswaps/basicswap.json
-
-                 In this example, here is the excerpt you would remove from :guilabel:`basicswap.json` if you wanted to remove Monero.
-
-                 .. code-block:: bash
-
-                         "monero": {
-                                 "connection_type": "rpc",
-                                 "manage_daemon": true,
-                                 "manage_wallet_daemon": true,
-                                 "rpcport": 29798,
-                                 "zmqport": 30898,
-                                 "walletrpcport": 29998,
-                                 "rpchost": "127.0.0.1",
-                                 "walletrpchost": "127.0.0.1",
-                                 "walletrpcuser": "xmr_wallet_user",
-                                 "walletrpcpassword": "xmr_wallet_pwd",
-                                 "walletfile": "swap_wallet",
-                                 "datadir": "/coindata/monero",
-                                 "bindir": "/coindata/bin/monero",
-                                 "restore_height": 2731435,
-                                 "blocks_confirmed": 7,
-                                 "walletsdir": "/coindata/monero"
-                         },
-
-             #. If you haven’t set your COINDATA_PATH variable permanently in your :guilabel:`.env` file, you’ll need to export the variable first. 
-             
-                .. code-block:: bash
-
-                   export COINDATA_PATH=/var/data/coinswaps 
+                     docker-compose run --rm swapclient basicswap-prepare --datadir=/coindata --disablecoin=bitcoin
              
              #. Launch BasicSwap normally.
 
