@@ -39,6 +39,7 @@ extensions = [
     'sphinx_tabs.tabs',
     'sphinx_copybutton',
     'sphinx.ext.autosectionlabel',
+    'sphinx_build_compatibility',
 #     'rst2pdf.pdfbuilder',
 ]
 
