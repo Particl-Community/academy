@@ -128,7 +128,7 @@ If you've built :term:`BasicSwap` without using the Docker method, follow these 
 
 .. tip::
 
-	 For Linux users, updating BasicSwap and the coin cores you've enabled is simplified through community-developed scripts available `here on Github <https://github.com/nahuhh/basicswap-bash>`_.
+	 For Linux users w/o docker, updating BasicSwap and the coin cores you've enabled is simplified through community-developed scripts available `here on Github <https://github.com/nahuhh/basicswap-bash>`_.
 
 .. tabs::
 
