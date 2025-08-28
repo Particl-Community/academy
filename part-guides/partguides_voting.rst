@@ -36,6 +36,12 @@ The more blocks you stake within a proposal's voting period, the more voting pow
 
          .. rst-class:: bignums
 
+             #. Ensure your Partyman node is using the correct repository (mandatory)
+
+                 .. code-block:: bash
+
+                     git remote set-url origin https://github.com/cryptoguard/partyman
+
              #. Access your Partyman staking node and enter Partyman’s folder.
 
                  .. code-block:: bash
