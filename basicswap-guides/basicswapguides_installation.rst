@@ -32,12 +32,17 @@ Automated Installation Methods
 Windows Installation Wizard (.exe)
 ----------------------------------
 
+.. note::
+
+    Development of the Windows Installation Wizard is on temporary hold pending improvements to the post-install experience.
+    If you must run on Windows, we recommend using the `Docker (advanced) <./basicswapguides_installation#install-using-docker>`_ or the `Linux Scripts Suite (novice) <https://github.com/nahuhh/basicswap-bash>`_ to install inside of `WSL <https://learn.microsoft.com/en-us/windows/wsl/install>`_ or a Linux Virtual Machine.
+
 Install :term:`BasicSwap` on Windows effortlessly with a graphical installation wizard by downloading the .exe installer from `this Github link <https://github.com/gerlofvanek/basicswap-installation-GUI/releases>`_. This intuitive installer streamlines the setup process via an easy-to-navigate menu. Note that **you must run it as an administrator** for it to work properly.
 
 Linux Installation Scripts Suite
 -------------------------------
 
-For Linux users, the simplest installation method is through the use of community-developed scripts, available `here on Github <https://github.com/nahuhh/basicswap-bash/releases>`_. This collection of scripts automates common setup tasks, including installing, adding/removing/updating coin cores, updating :term:`BasicSwap`, and enabling :term:`Tor`.
+For Linux users, the simplest installation method is through the use of community-developed scripts, available `here on Github <https://github.com/nahuhh/basicswap-bash>`_. This collection of scripts automates common setup tasks, including installing, adding/removing/updating coin cores, updating :term:`BasicSwap`, and enabling :term:`Tor`.
 
 
 Install Using Docker
